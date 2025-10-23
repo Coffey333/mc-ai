@@ -1,0 +1,59 @@
+# Dataset cache
+dataset_cache.pkl
+dataset_summary.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Package caches (Replit optimization)
+.cache/
+.pythonlibs/
+
+# Node.js
+node_modules/
+package-lock.json
+.npm
+
+# React/Vite build artifacts
+frontend/dist/
+*.env
+.env
+secrets/
