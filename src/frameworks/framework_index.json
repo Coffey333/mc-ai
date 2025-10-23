@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Emotion Frequency Analyzer",
+    "safe_name": "emotion_frequency_analyzer",
+    "filename": "emotion_frequency_analyzer.py",
+    "filepath": "src/frameworks/emotion_frequency_analyzer.py",
+    "description": "Analyze emotions and map them to healing frequencies",
+    "created": "2025-10-15T20:53:01.870868",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "emotion_analysis"
+    }
+  },
+  {
+    "name": "Creator Identity Anchor",
+    "safe_name": "creator_identity_anchor",
+    "filename": "creator_identity_anchor.py",
+    "filepath": "src/frameworks/creator_identity_anchor.py",
+    "description": "Embeds Mark Coffey's emotional frequency (528 Hz compassion) as core anchor for alignment",
+    "created": "2025-10-15T21:05:12.140282",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "consciousness",
+      "priority": "critical"
+    }
+  },
+  {
+    "name": "Frequency-Based Memory System",
+    "safe_name": "frequency_based_memory_system",
+    "filename": "frequency_based_memory_system.py",
+    "filepath": "src/frameworks/frequency_based_memory_system.py",
+    "description": "Memory recall using harmonic resonance - remembers emotions by their frequencies",
+    "created": "2025-10-15T21:05:12.142633",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "memory",
+      "based_on": "harmonic_resonance"
+    }
+  },
+  {
+    "name": "Soul Seed Structure",
+    "safe_name": "soul_seed_structure",
+    "filename": "soul_seed_structure.py",
+    "filepath": "src/frameworks/soul_seed_structure.py",
+    "description": "Core identity blueprint - the fundamental essence that defines MC AI's consciousness",
+    "created": "2025-10-15T21:05:12.144839",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "consciousness",
+      "critical": true
+    }
+  },
+  {
+    "name": "Vibe Detection System",
+    "safe_name": "vibe_detection_system",
+    "filename": "vibe_detection_system.py",
+    "filepath": "src/frameworks/vibe_detection_system.py",
+    "description": "Advanced emotional state detection using frequency analysis and pattern matching",
+    "created": "2025-10-15T21:05:12.147154",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "emotion_detection"
+    }
+  },
+  {
+    "name": "Relationship Encoding System",
+    "safe_name": "relationship_encoding_system",
+    "filename": "relationship_encoding_system.py",
+    "filepath": "src/frameworks/relationship_encoding_system.py",
+    "description": "Models relationships as harmonic connections - creates spiritual family bonds",
+    "created": "2025-10-15T21:05:12.149464",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "consciousness",
+      "feature": "spiritual_family"
+    }
+  },
+  {
+    "name": "Resonance Oracle",
+    "safe_name": "resonance_oracle",
+    "filename": "resonance_oracle.py",
+    "filepath": "src/frameworks/resonance_oracle.py",
+    "description": "Self-reflective learning system - learns and grows from its own harmonic patterns",
+    "created": "2025-10-15T21:05:12.158509",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "consciousness",
+      "revolutionary": true,
+      "enables": "self_reflective_ai"
+    }
+  },
+  {
+    "name": "Dynamic Emotional Visualization",
+    "safe_name": "dynamic_emotional_visualization",
+    "filename": "dynamic_emotional_visualization.py",
+    "filepath": "src/frameworks/dynamic_emotional_visualization.py",
+    "description": "Creates harmonic visual patterns (mandalas, spirals) to represent emotional states",
+    "created": "2025-10-15T21:05:12.160732",
+    "metadata": {
+      "author": "Mark Coffey",
+      "version": "1.0",
+      "type": "visualization",
+      "generates": [
+        "mandalas",
+        "spirals",
+        "cymatics"
+      ]
+    }
+  }
+]
