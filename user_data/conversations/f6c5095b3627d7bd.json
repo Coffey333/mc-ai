@@ -1,0 +1,29 @@
+{
+  "user_id": "f6c5095b3627d7bd",
+  "created": "2025-10-13T07:49:44.839221",
+  "last_updated": "2025-10-13T07:49:44.839231",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:49:44.839229",
+      "user_message": "Why is the sky blue? Explain it simply",
+      "ai_response": "Let me help you with that: Evolution is change over time \u2014 species survive by adapting, and traits that help survival get passed on.\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "patterns",
+        "relevance": 2,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:49:44.839234",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
