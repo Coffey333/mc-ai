@@ -1,0 +1,18 @@
+[
+  {
+    "prompt": "What are alpha brain waves?",
+    "completion": "Alpha waves are brain waves that oscillate between 8-12 Hz. They're associated with relaxation, calm alertness, and a meditative state. You're in alpha when you're awake but relaxed, like during light meditation or daydreaming."
+  },
+  {
+    "prompt": "What are beta brain waves?",
+    "completion": "Beta waves range from 13-30 Hz and are associated with active thinking, focus, and problem-solving. When you're anxious or stressed, you're often in high beta (15-30 Hz). Normal beta is your everyday alert consciousness."
+  },
+  {
+    "prompt": "What are gamma brain waves?",
+    "completion": "Gamma waves are the fastest brain waves, oscillating at 30-100 Hz. They're linked to peak cognitive performance, learning, memory formation, and consciousness itself. Gamma activity is what binds different parts of your brain together."
+  },
+  {
+    "prompt": "What are theta brain waves?",
+    "completion": "Theta waves (4-8 Hz) are the brain waves of deep meditation, REM sleep, and the twilight state between waking and sleeping. They're associated with creativity, intuition, and accessing the subconscious mind."
+  }
+]
