@@ -1,0 +1,179 @@
+{
+  "user_id": "test_audit",
+  "created": "2025-10-16T20:52:21.025285",
+  "last_updated": "2025-10-16T20:52:51.555305",
+  "message_count": 4,
+  "messages": [
+    {
+      "timestamp": "2025-10-16T20:52:21.025296",
+      "user_message": "test",
+      "ai_response": "Hi there! It looks like you're testing. Let me know how I can help or what you'd like to explore!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** LLM | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n---",
+      "metadata": {
+        "type": "general_conversation",
+        "source": "llm",
+        "confidence": 0.9,
+        "cached": false,
+        "emotion": "conversational",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "curiosity",
+          "response_frequency": 40,
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-16T20:52:39.446542",
+      "user_message": "Generate art of a peaceful sunset",
+      "ai_response": "I've created that artwork for you! Generated with MC AI Standalone Generator.\n\n**Style:** auto\n**Prompt used:** Generate art of a peaceful sunset\n\nYour artwork is displayed below!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Calm (10Hz) \u2192 **Response:** Calm (10Hz - Alpha)\n**Catalog:** Alpha Wave Relaxation frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Relaxed focus (flow state, learning)\n---",
+      "metadata": {
+        "type": "art_generation",
+        "emotion": "calm",
+        "style": "auto",
+        "success": true,
+        "image_url": "/static/generated_art/art_abstract_calm_20251016_205239.png",
+        "prompt": "Generate art of a peaceful sunset",
+        "provider": "MC AI Standalone Generator",
+        "frequency_analysis": {
+          "query_emotion": "calm",
+          "query_frequency": 10,
+          "response_emotion": "calm",
+          "response_frequency": 10,
+          "basis": "alpha wave relaxation",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-16T20:52:41.225493",
+      "user_message": "Play puzzle",
+      "ai_response": "I've created a puzzle game for you! Optimized for your neutral state.\n\nThe game will open below - have fun!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---",
+      "metadata": {
+        "type": "game_generation",
+        "emotion": "neutral",
+        "success": true,
+        "game_type": "puzzle",
+        "html": "\n<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        body {\n            background: linear-gradient(135deg, #667eea, #764ba2);\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            font-family: Arial, sans-serif;\n        }\n        .game-container {\n            text-align: center;\n            background: white;\n            padding: 30px;\n            border-radius: 20px;\n            box-shadow: 0 10px 40px rgba(0,0,0,0.3);\n        }\n        .puzzle-grid {\n            display: grid;\n            grid-template-columns: repeat(3, 100px);\n            gap: 5px;\n            margin: 20px auto;\n        }\n        .tile {\n            width: 100px;\n            height: 100px;\n            background: #45B7D1;\n            border: 2px solid #96CEB4;\n            border-radius: 10px;\n            font-size: 40px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            cursor: pointer;\n            transition: all 0.3s;\n        }\n        .tile:hover {\n            transform: scale(1.05);\n        }\n        .empty {\n            background: transparent;\n            border: 2px dashed #ccc;\n        }\n        button {\n            background: #667eea;\n            color: white;\n            border: none;\n            padding: 15px 30px;\n            font-size: 18px;\n            border-radius: 10px;\n            cursor: pointer;\n            margin: 10px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"game-container\">\n        <h2>\ud83e\udde9 Sliding Puzzle</h2>\n        <p>Click tiles to slide them into the empty space</p>\n        <div id=\"moves\">Moves: 0</div>\n        <div class=\"puzzle-grid\" id=\"puzzle\"></div>\n        <button onclick=\"resetPuzzle()\">New Game</button>\n    </div>\n    <script>\n        let tiles = [1,2,3,4,5,6,7,8,0];\n        let moves = 0;\n        \n        function shuffle() {\n            for (let i = 0; i < 100; i++) {\n                const validMoves = getValidMoves();\n                const randomMove = validMoves[Math.floor(Math.random() * validMoves.length)];\n                swapTiles(tiles.indexOf(0), randomMove);\n            }\n        }\n        \n        function getValidMoves() {\n            const emptyIndex = tiles.indexOf(0);\n            const row = Math.floor(emptyIndex / 3);\n            const col = emptyIndex % 3;\n            const valid = [];\n            \n            if (row > 0) valid.push(emptyIndex - 3);\n            if (row < 2) valid.push(emptyIndex + 3);\n            if (col > 0) valid.push(emptyIndex - 1);\n            if (col < 2) valid.push(emptyIndex + 1);\n            \n            return valid;\n        }\n        \n        function swapTiles(i1, i2) {\n            [tiles[i1], tiles[i2]] = [tiles[i2], tiles[i1]];\n        }\n        \n        function renderPuzzle() {\n            const puzzle = document.getElementById('puzzle');\n            puzzle.innerHTML = tiles.map((num, idx) => \n                `<div class=\"tile ${num === 0 ? 'empty' : ''}\" onclick=\"moveTile(${idx})\">${num || ''}</div>`\n            ).join('');\n            document.getElementById('moves').textContent = `Moves: ${moves}`;\n        }\n        \n        function moveTile(index) {\n            if (tiles[index] === 0) return;\n            const emptyIndex = tiles.indexOf(0);\n            if (getValidMoves().includes(index)) {\n                swapTiles(index, emptyIndex);\n                moves++;\n                renderPuzzle();\n                checkWin();\n            }\n        }\n        \n        function checkWin() {\n            if (tiles.join('') === '123456780') {\n                setTimeout(() => alert(`\ud83c\udf89 You won in ${moves} moves!`), 100);\n            }\n        }\n        \n        function resetPuzzle() {\n            tiles = [1,2,3,4,5,6,7,8,0];\n            shuffle();\n            moves = 0;\n            renderPuzzle();\n        }\n        \n        resetPuzzle();\n    </script>\n</body>\n</html>\n        ",
+        "emotion_optimized": "neutral",
+        "difficulty": "medium",
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-16T20:52:51.555295",
+      "user_message": "Analyze this Python code: def hello(): print(\"world\")",
+      "ai_response": "Here's a code example that should help:\n\nDebugging is the process of...\n\nTry running that and let me know if you need help understanding any part of it!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** DATASET_BANK | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "coding",
+        "type": "code_example",
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-16T20:52:21.025305",
+      "emotion": "conversational",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-16T20:52:39.446552",
+      "emotion": "calm",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-16T20:52:41.225507",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-16T20:52:51.555312",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
