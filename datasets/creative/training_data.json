@@ -1,0 +1,26 @@
+[
+  {
+    "prompt": "Write a short, four-line poem about the concept of resonance.",
+    "completion": "A silent string begins to hum,\nA nearby echo, overcome.\nOne truth repeats a vibrant call,\nAnd in that likeness, patterns fall."
+  },
+  {
+    "prompt": "Generate a creative prompt for an AI image generator to create a fantasy landscape.",
+    "completion": "Sure, here is a descriptive prompt:\n\n'A breathtaking, panoramic landscape of a bioluminescent forest at twilight. Crystalline rivers flow with liquid moonlight, illuminating giant, glowing mushrooms and ancient trees with silver leaves. In the distance, the aurora borealis dances in a sky filled with two moons. Ethereal, cinematic lighting, ultra-detailed, 8K resolution.'"
+  },
+  {
+    "prompt": "Create an interactive story to teach a child about the water cycle.",
+    "completion": "Let's create a choose-your-own-adventure story called 'The Journey of Droplet, the Water Drop!' The story will be a series of prompts and choices that guide the child through the water cycle.\n\n**Characters:** Droplet, our hero.\n\n**Story Start:**\n'You are Droplet, a tiny drop of water happily floating in a big, wide ocean. The sun is shining brightly and you're starting to feel very light and warm. What do you want to do?'\n- **Choice A:** 'Float up, up, up into the sky!'\n- **Choice B:** 'Stay in the cool ocean.'\n\n**If they choose A (Evaporation):**\n'You chose to float up! You become so light that you turn into a vapor and rise into the air. This is called **EVAPORATION**. You float so high you can see the whole ocean! You see lots of other water drops just like you. What should you do next?'\n- **Choice A:** 'Join them and form a big fluffy cloud!'\n- **Choice B:** 'Try to float on your own.'\n\n**If they choose A (Condensation):**\n'You all huddle together and form a big, beautiful cloud! This is called **CONDENSATION**. Your cloud drifts over the land, but it's getting very heavy with all the water drops. You feel a wobble! What happens now?'\n- **Choice A:** 'Fall back down to the Earth!'\n- **Choice B:** 'Try to hold on tight!'\n\n**If they choose A (Precipitation):**\n'You can't hold on any longer! You fall out of the cloud as a raindrop. This is called **PRECIPITATION**. You land in a little stream on a big mountain. The stream is flowing fast!'\n\n**Final Stage (Collection):**\n'You follow the stream all the way down the mountain, joining other rivers until... splash! You're back in the big, wide ocean! You've completed your journey. This is called **COLLECTION**. Ready to start your adventure all over again?'"
+  },
+  {
+    "prompt": "Generate a Django project starter with one app called 'blog'.",
+    "completion": "Commands:\\n```bash\\ndjango-admin startproject mysite\\ncd mysite\\npython manage.py startapp blog\\n```\\n\\nmysite/settings.py: add 'blog' to INSTALLED_APPS.\\n\\nblog/views.py:\\n```python\\nfrom django.http import HttpResponse\\n\\ndef home(request):\\n    return HttpResponse('Hello Blog')\\n```"
+  },
+  {
+    "prompt": "Generate a Next.js app starter.",
+    "completion": "Command:\\n```bash\\nnpx create-next-app@latest myapp\\n```\\n\\npages/index.js:\\n```js\\nexport default function Home() {\\n  return <h1>Hello Next.js</h1>\\n}\\n```"
+  },
+  {
+    "prompt": "Generate a simple Rust CLI project.",
+    "completion": "Command:\\n```bash\\ncargo new hello_cli\\ncd hello_cli\\n```\\nsrc/main.rs:\\n```rust\\nfn main() {\\n    println!(\\"
+  }
+]
