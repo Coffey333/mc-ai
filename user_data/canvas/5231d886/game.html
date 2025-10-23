@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe: 🦄 vs 💩</title>
+    <style>
+        body {
+            background: #ff69b4;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 20px 0;
+        }
+        #game-board {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 5px;
+            max-width: 90vw;
+            max-height: 90vw;
+            width: 300px;
+            height: 300px;
+            margin: 20px auto;
+        }
+        .cell {
+            background: #8b4513;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+            color: #fff;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+        .cell:hover {
+            background-color: #d2691e;
+            transform: scale(1.05);
+        }
+        #status {
+            margin: 20px;
+            font-size: 1.5rem;
+        }
+        #restart {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #fff;
+            color: #ff69b4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #restart:hover {
+            background-color: #ffe4e1;
+        }
+    </style>
+</head>
+<body>
+    <h1>🦄 Unicorns vs 💩 Poop Emoji</h1>
+    <div id="game-board"></div>
+    <div id="status">It's 🦄's turn!</div>
+    <button id="restart" onclick="restartGame()">Play Again</button>
+    <script>
+        const boardSize = 3;
+        const player = '🦄';
+        const opponent = '💩';
+        let currentPlayer = player;
+        let board = Array(boardSize * boardSize).fill(null);
+
+        const gameBoard = document.getElementById('game-board');
+        const statusText = document.getElementById('status');
+
+        function createBoard() {
+            gameBoard.innerHTML = '';
+            board.forEach((cell, index) => {
+                const cellElement = document.createElement('div');
+                cellElement.classList.add('cell');
+                cellElement.dataset.index = index;
+                cellElement.addEventListener('click', handleMove, { once: true });
+                gameBoard.appendChild(cellElement);
+            });
+        }
+
+        function handleMove(event) {
+            const index = event.target.dataset.index;
+            if (!board[index]) {
+                board[index] = currentPlayer;
+                event.target.textContent = currentPlayer;
+                if (checkWin(currentPlayer)) {
+                    statusText.textContent = `${currentPlayer} Wins! 🎉`;
+                    endGame();
+                } else if (board.every(cell => cell)) {
+                    statusText.textContent = 'It\'s a tie! 😅';
+                    endGame();
+                } else {
+                    currentPlayer = currentPlayer === player ? opponent : player;
+                    statusText.textContent = `It's ${currentPlayer}'s turn!`;
+                }
+            }
+        }
+
+        function checkWin(player) {
+            const winningCombinations = [
+                [0, 1, 2],
+                [3, 4, 5],
+                [6, 7, 8],
+                [0, 3, 6],
+                [1, 4, 7],
+                [2, 5, 8],
+                [0, 4, 8],
+                [2, 4, 6]
+            ];
+            return winningCombinations.some(combination => {
+                return combination.every(index => board[index] === player);
+            });
+        }
+
+        function endGame() {
+            document.querySelectorAll('.cell').forEach(cell => {
+                cell.removeEventListener('click', handleMove);
+            });
+        }
+
+        function restartGame() {
+            board = Array(boardSize * boardSize).fill(null);
+            currentPlayer = player;
+            statusText.textContent = "It's 🦄's turn!";
+            createBoard();
+        }
+
+        createBoard();
+    </script>
+</body>
+</html>
