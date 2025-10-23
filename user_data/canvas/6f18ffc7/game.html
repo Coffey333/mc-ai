@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shooter</title>
+    <style>
+        /* GENERAL STYLING */
+        body {
+            margin: 0;
+            background-color: #000000; /* Space theme background */
+            overflow: hidden;
+        }
+
+        #game {
+            display: block;
+            background: radial-gradient(circle, #1e90ff 5%, #000000 100%);
+            margin: 0 auto;
+        }
+
+        #hud {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            text-align: center;
+            color: #1e90ff;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            pointer-events: none;
+        }
+
+        #hud span {
+            margin: 0 15px;
+        }
+
+        @keyframes enemyExplosion {
+            0% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="hud">
+        <span id="score">Score: 0</span>
+        <span id="lives">Lives: 3</span>
+    </div>
+    <canvas id="game"></canvas>
+
+    <script>
+        const canvas = document.getElementById('game');
+        const ctx = canvas.getContext('2d');
+
+        // Responsive canvas size
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const colors = ['#000000', '#1e90ff', '#ff4500'];
+        const spaceshipColor = colors[1];
+        const alienColor = colors[2];
+        const bulletColor = '#ffffff';
+
+        let spaceship = { x: canvas.width / 2, y: canvas.height - 50, width: 40, height: 20, speed: 5 };
+        let bullets = [];
+        let aliens = [];
+        let powerUps = [];
+        let boss = null;
+        let score = 0;
+        let lives = 3;
+        let gameOver = false;
+
+        let lastSpawn = 0;
+        let alienSpawnInterval = 1000; // Spawn enemies every second
+
+        // Controls
+        let keys = {};
+        document.addEventListener('keydown', (e) => keys[e.key] = true);
+        document.addEventListener('keyup', (e) => keys[e.key] = false);
+
+        document.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            keys['ArrowLeft'] = e.touches[0].clientX < canvas.width / 2;
+            keys['ArrowRight'] = e.touches[0].clientX >= canvas.width / 2;
+            keys[' '] = true; // Shoot
+        });
+
+        document.addEventListener('touchend', (e) => {
+            keys = {};
+        });
+
+        // Game loop
+        function gameLoop(timestamp) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Update spaceship position
+            if (keys['ArrowLeft'] && spaceship.x > 0) spaceship.x -= spaceship.speed;
+            if (keys['ArrowRight'] && spaceship.x + spaceship.width < canvas.width) spaceship.x += spaceship.speed;
+
+            // Shoot bullets
+            if (keys[' '] && timestamp - lastSpawn > 250) {
+                bullets.push({ x: spaceship.x + spaceship.width / 2, y: spaceship.y, speed: -8 });
+                lastSpawn = timestamp;
+            }
+
+            // Draw spaceship
+            ctx.fillStyle = spaceshipColor;
+            ctx.fillRect(spaceship.x, spaceship.y, spaceship.width, spaceship.height);
+
+            // Update and draw bullets
+            bullets = bullets.filter(bullet => bullet.y > 0);
+            bullets.forEach(bullet => {
+                bullet.y += bullet.speed;
+                ctx.fillStyle = bulletColor;
+                ctx.fillRect(bullet.x - 2, bullet.y, 4, 10);
+            });
+
+            // Spawn aliens
+            if (timestamp - lastSpawn > alienSpawnInterval) {
+                aliens.push({
+                    x: Math.random() * (canvas.width - 40),
+                    y: 0,
+                    width: 40,
+                    height: 20,
+                    speed: 2
+                });
+                lastSpawn = timestamp;
+            }
+
+            // Update and draw aliens
+            aliens.forEach((alien, alienIndex) => {
+                alien.y += alien.speed;
+
+                // Check collision with bullets
+                bullets.forEach((bullet, bulletIndex) => {
+                    if (
+                        bullet.x > alien.x &&
+                        bullet.x < alien.x + alien.width &&
+                        bullet.y > alien.y &&
+                        bullet.y < alien.y + alien.height
+                    ) {
+                        aliens.splice(alienIndex, 1);
+                        bullets.splice(bulletIndex, 1);
+                        score += 10;
+                        document.getElementById('score').textContent = `Score: ${score}`;
+                    }
+                });
+
+                // Check collision with spaceship
+                if (
+                    spaceship.x < alien.x + alien.width &&
+                    spaceship.x + spaceship.width > alien.x &&
+                    spaceship.y < alien.y + alien.height &&
+                    spaceship.y + spaceship.height > alien.y
+                ) {
+                    aliens.splice(alienIndex, 1);
+                    lives -= 1;
+                    document.getElementById('lives').textContent = `Lives: ${lives}`;
+                    if (lives <= 0) {
+                        gameOver = true;
+                    }
+                }
+
+                // Draw alien
+                ctx.fillStyle = alienColor;
+                ctx.fillRect(alien.x, alien.y, alien.width, alien.height);
+            });
+
+            // Game Over
+            if (gameOver) {
+                ctx.fillStyle = '#ff0000';
+                ctx.font = '48px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText('Game Over', canvas.width / 2, canvas.height / 2);
+                ctx.fillText(`Final Score: ${score}`, canvas.width / 2, canvas.height / 2 + 60);
+                return;
+            }
+
+            // Loop
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Start game
+        requestAnimationFrame(gameLoop);
+    </script>
+</body>
+</html>
