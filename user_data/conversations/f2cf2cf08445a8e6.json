@@ -1,0 +1,64 @@
+{
+  "user_id": "f2cf2cf08445a8e6",
+  "created": "2025-10-13T07:47:53.868508",
+  "last_updated": "2025-10-13T07:47:58.127930",
+  "message_count": 3,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:47:53.868522",
+      "user_message": "Why is the sky blue?",
+      "ai_response": "I found this information online:\n\nSky blue refers to a collection of shades comparable to that of a clear daytime sky. Typically it is a shade of cyan or light teal, though some iterations are closer to light azure or light blue. The term (as \"sky blew\") is attested from 1681. A 1585 translation of Nicolas de Nicolay's 1576 Les navigations, peregrinations et voyages faicts en la Turquie includes \"the tulbant [turban] of the merchant must be skie coloured\".\n\nDisplayed at right is the web colour sky blue.\n\n\ud83d\udcda Source: Wikipedia - Sky blue",
+      "metadata": {
+        "type": "web_search",
+        "source": "internet",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:47:56.001915",
+      "user_message": "What are clouds made of?",
+      "ai_response": "Alright, so: Debugging is the process of...\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "neuroscience",
+        "relevance": 6,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:47:58.127921",
+      "user_message": "Do you remember what I asked you first?",
+      "ai_response": "You've been telling me: What are clouds made of?, Why is the sky blue?",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:47:53.868531",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:47:56.001935",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:47:58.127934",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
