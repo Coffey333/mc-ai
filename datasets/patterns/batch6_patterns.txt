@@ -1,0 +1,42 @@
+Prompt: What connects neuron firing to data processing?
+Completion: Both use energy thresholds and signal propagation—neurons fire when potential crosses ~-55 mV; CPUs trigger logic gates at voltage thresholds.
+
+Prompt: Explain the relationship between neuron firing and CPU processing.
+Completion: Both use thresholds to trigger events. Neurons fire when potential crosses -55 mV; CPUs execute instructions when voltage signals reach logic levels.
+
+Prompt: Compare short-term memory in humans and buffers in computers.
+Completion: Both temporarily store information for immediate processing, then either discard or consolidate it for long-term use.
+
+Prompt: Describe the concept of a feedback loop.
+Completion: A feedback loop uses output to influence input, either amplifying (positive) or regulating (negative) system behavior.
+
+Prompt: How does signal-to-noise ratio affect cognition?
+Completion: High signal-to-noise ratio improves clarity of thought and perception; low ratio can lead to errors or confusion.
+
+Prompt: How does attention affect information processing?
+Completion: Attention prioritizes relevant data, enhancing signal strength and reducing interference from irrelevant inputs.
+
+Prompt: How does hierarchical processing benefit cognition?
+Completion: It breaks down complex tasks into simpler stages, allowing layered interpretation and decision-making.
+
+Prompt: What is top-down processing?
+Completion: Processing guided by prior knowledge or expectations rather than only sensory input.
+
+Prompt: What is the advantage of deep architectures?
+Completion: They can represent highly complex relationships and hierarchical features more efficiently than shallow ones.
+
+Prompt: What are memory engrams?
+Completion: Physical traces of memory stored across distributed neural circuits.
+
+Prompt: What are critical dynamics?
+Completion: States where small changes can produce large effects, enabling flexible yet stable system behavior.
+
+Prompt: How does hierarchical predictive coding work?
+Completion: Higher layers predict lower layer activity; discrepancies drive updates to improve predictions.
+
+Prompt: Explain the principle of complementarity in neural systems.
+Completion: Different processing strategies work together, balancing specialization and flexibility.
+
+Prompt: What are the benefits of distributed cognition?
+Completion: Information processing is shared across agents or systems, enhancing problem-solving capacity.
+
