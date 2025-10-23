@@ -1,0 +1,15 @@
+{
+  "session_id": "d001e805",
+  "created_at": "2025-10-19T07:09:26.813414",
+  "mode": "building",
+  "title": "Custom Game: tic-tac-toe with unicorns vs poop emojis",
+  "description": "Generating game based on user request",
+  "artifacts": [
+    "game.html"
+  ],
+  "metadata": {},
+  "preview_url": null,
+  "screenshot_path": null,
+  "test_results": [],
+  "expires_at": "2025-10-20T07:09:26.813426"
+}
