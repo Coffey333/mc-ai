@@ -1,0 +1,1894 @@
+[
+  {
+    "prompt": "Write a Python function to calculate factorial using recursion.",
+    "completion": "def factorial(n):\\n    if n == 0:\\n        return 1\\n    return n * factorial(n-1)"
+  },
+  {
+    "prompt": "Explain the difference between lists and tuples in Python.",
+    "completion": "Lists are mutable sequences, meaning you can change their contents. Tuples are immutable, so once created, they cannot be modified."
+  },
+  {
+    "prompt": "Write a Python program that prints the first 10 Fibonacci numbers.",
+    "completion": "a, b = 0, 1\\nfor _ in range(10):\\n    print(a)\\n    a, b = b, a + b"
+  },
+  {
+    "prompt": "Explain the difference between machine learning and traditional programming.",
+    "completion": "Traditional programming uses explicit instructions written by humans, whereas machine learning allows computers to learn patterns from data and make predictions or decisions."
+  },
+  {
+    "prompt": "Give an example of a for loop in JavaScript.",
+    "completion": "for (let i = 0; i < 10; i++) {\\n    console.log(i);\\n}"
+  },
+  {
+    "prompt": "Write a Python function that returns the sum of a list of numbers.",
+    "completion": "def sum_list(numbers):\\n    total = 0\\n    for num in numbers:\\n        total += num\\n    return total"
+  },
+  {
+    "prompt": "Write a Python function to check if a number is prime.",
+    "completion": "def is_prime(n):\\n if n <= 1:\\n return False\\n for i in range(2, int(n**0.5)+1):\\n if n % i == 0:\\n return False\\n return True"
+  },
+  {
+    "prompt": "Provide an example of a while loop in Python.",
+    "completion": "i = 0\\nwhile i < 5:\\n print(i)\\n i += 1"
+  },
+  {
+    "prompt": "Write a JavaScript function to reverse a string.",
+    "completion": "function reverseString(str) {\\n return str.split("
+  },
+  {
+    "prompt": "Provide a Python example of a dictionary comprehension.",
+    "completion": "{x: x**2 for x in range(5)}"
+  },
+  {
+    "prompt": "Provide an example of using a class in Python.",
+    "completion": "class Dog:\\n def __init__(self, name):\\n self.name = name\\n def bark(self):\\n print(f"
+  },
+  {
+    "prompt": "Give an example of a Python generator.",
+    "completion": "def gen_numbers(n):\\n for i in range(n):\\n yield i"
+  },
+  {
+    "prompt": "Write a Python program to count the frequency of words in a list.",
+    "completion": "words = ["
+  },
+  {
+    "prompt": "Write a Python function to merge two sorted lists.",
+    "completion": "def merge_lists(a,b):\\n result = []\\n i=j=0\\n while i < len(a) and j < len(b):\\n if a[i] < b[j]:\\n result.append(a[i])\\n i+=1\\n else:\\n result.append(b[j])\\n j+=1\\n result.extend(a[i:])\\n result.extend(b[j:])\\n return result"
+  },
+  {
+    "prompt": "Provide an example of list slicing in Python.",
+    "completion": "lst = [1,2,3,4,5]\\nprint(lst[1:4]) # Output: [2,3,4]"
+  },
+  {
+    "prompt": "Explain how a binary search algorithm works.",
+    "completion": "Binary search repeatedly divides a sorted list in half, comparing the target to the middle element, until the target is found or the list is exhausted."
+  },
+  {
+    "prompt": "Provide a Python example using map() and lambda.",
+    "completion": "numbers = [1,2,3]\\nsquared = list(map(lambda x: x**2, numbers))\\nprint(squared)"
+  },
+  {
+    "prompt": "Write a Python function that returns the largest number in a list.",
+    "completion": "def max_in_list(lst):\\n max_val = lst[0]\\n for num in lst:\\n if num > max_val:\\n max_val = num\\n return max_val"
+  },
+  {
+    "prompt": "Write a Python function to remove duplicates from a list.",
+    "completion": "def remove_duplicates(lst):\\n return list(set(lst))"
+  },
+  {
+    "prompt": "Provide an example of using a try-except block in Python.",
+    "completion": "try:\\n x = int(input("
+  },
+  {
+    "prompt": "Write a Python function to flatten a nested list.",
+    "completion": "def flatten(lst):\\n return [item for sublist in lst for item in sublist]"
+  },
+  {
+    "prompt": "Explain Dijkstra's algorithm.",
+    "completion": "Dijkstra"
+  },
+  {
+    "prompt": "Write a Python function to compute the factorial recursively.",
+    "completion": "def factorial(n):\\n    if n <= 1:\\n        return 1\\n    return n * factorial(n-1)"
+  },
+  {
+    "prompt": "Provide an example of a Python decorator.",
+    "completion": "def decorator(func):\\n    def wrapper():\\n        print("
+  },
+  {
+    "prompt": "Write a Python function to compute the greatest common divisor (GCD) of two numbers.",
+    "completion": "def gcd(a, b):\\n    while b:\\n        a, b = b, a % b\\n    return a"
+  },
+  {
+    "prompt": "Provide a Python example of using list comprehension with an if condition.",
+    "completion": "[x**2 for x in range(10) if x % 2 == 0]"
+  },
+  {
+    "prompt": "Explain the difference between classical and quantum computing.",
+    "completion": "Classical computing uses bits (0 or 1) and deterministic operations. Quantum computing uses qubits, which can exist in superpositions, allowing probabilistic and massively parallel computation."
+  },
+  {
+    "prompt": "Write a Python function to check if two strings are anagrams.",
+    "completion": "def are_anagrams(s1, s2):\\n    return sorted(s1.replace("
+  },
+  {
+    "prompt": "Provide a Python example using a generator expression.",
+    "completion": "(x**2 for x in range(10))"
+  },
+  {
+    "prompt": "Write a Python function to compute the sum of squares from 1 to n.",
+    "completion": "def sum_squares(n):\\n    return sum(i**2 for i in range(1, n+1))"
+  },
+  {
+    "prompt": "Provide a Python example using the zip() function.",
+    "completion": "a = [1,2,3]\\nb = ["
+  },
+  {
+    "prompt": "Write a Python function to compute the transpose of a matrix.",
+    "completion": "def transpose(matrix):\\n    return [list(row) for row in zip(*matrix)]"
+  },
+  {
+    "prompt": "Provide a Python example of using the filter() function.",
+    "completion": "numbers = [1,2,3,4,5]\\neven = list(filter(lambda x: x%2==0, numbers))\\nprint(even)"
+  },
+  {
+    "prompt": "Write a Python function to implement BFS on a graph represented as an adjacency list.",
+    "completion": "from collections import deque\\ndef bfs(graph,start):\\n    visited = set()\\n    queue = deque([start])\\n    while queue:\\n        node = queue.popleft()\\n        if node not in visited:\\n            print(node)\\n            visited.add(node)\\n            queue.extend(graph[node])"
+  },
+  {
+    "prompt": "Write a Python function to implement DFS on a graph represented as an adjacency list.",
+    "completion": "def dfs(graph,start,visited=None):\\n    if visited is None:\\n        visited = set()\\n    visited.add(start)\\n    print(start)\\n    for neighbor in graph[start]:\\n        if neighbor not in visited:\\n            dfs(graph,neighbor,visited)"
+  },
+  {
+    "prompt": "Explain dynamic programming.",
+    "completion": "Dynamic programming is a technique to solve problems by breaking them into overlapping subproblems, solving each once, and storing the results to avoid redundant computation."
+  },
+  {
+    "prompt": "Provide a Python example of dynamic programming: Fibonacci numbers.",
+    "completion": "def fib_dp(n):\\n    dp = [0,1]\\n    for i in range(2,n+1):\\n        dp.append(dp[i-1]+dp[i-2])\\n    return dp[n]"
+  },
+  {
+    "prompt": "Provide a Python example of memoization using a decorator.",
+    "completion": "def memoize(f):\\n    cache = {}\\n    def wrapper(*args):\\n        if args not in cache:\\n            cache[args] = f(*args)\\n        return cache[args]\\n    return wrapper"
+  },
+  {
+    "prompt": "Solve the knapsack problem using dynamic programming.",
+    "completion": "Use a 2D array dp[i][w] storing max value for first i items with weight w. Recurrence: dp[i][w] = max(dp[i-1][w], dp[i-1][w-weight[i]] + value[i]) if weight[i] <= w."
+  },
+  {
+    "prompt": "Provide a Python example to solve the traveling salesman problem (TSP) using brute force.",
+    "completion": "from itertools import permutations\\n\\ndef tsp_bruteforce(distances):\\n    nodes = list(range(len(distances)))\\n    min_path = None\\n    min_dist = float("
+  },
+  {
+    "prompt": "Write a Python function to implement topological sort of a DAG.",
+    "completion": "def topological_sort(graph):\\n    visited = set()\\n    stack = []\\n    def dfs(node):\\n        visited.add(node)\\n        for neighbor in graph[node]:\\n            if neighbor not in visited:\\n                dfs(neighbor)\\n        stack.append(node)\\n    for node in graph:\\n        if node not in visited:\\n            dfs(node)\\n    return stack[::-1]"
+  },
+  {
+    "prompt": "Write a Python function to compute factorial and explain it step by step.",
+    "completion": "def factorial(n):\\n    if n <= 1:\\n        return 1\\n    else:\\n        return n * factorial(n-1)\\n# Explanation: factorial(n) multiplies n by factorial(n-1) recursively until reaching 1."
+  },
+  {
+    "prompt": "Explain how you would decide which algorithm to use for a given problem.",
+    "completion": "Step 1: Identify problem type (search, optimization, sorting, etc.). Step 2: Assess input size and constraints. Step 3: Evaluate algorithm complexity. Step 4: Consider trade-offs (speed, memory, accuracy). Step 5: Choose the most efficient algorithm for context."
+  },
+  {
+    "prompt": "Write a Python function to compute the nth Fibonacci number using recursion.",
+    "completion": "def fib(n):\\n    if n <= 1:\\n        return n\\n    return fib(n-1) + fib(n-2)"
+  },
+  {
+    "prompt": "Provide a Python example of using a generator for memory efficiency.",
+    "completion": "def gen_squares(n):\\n    for i in range(n):\\n        yield i**2\\n# Only generates one value at a time instead of storing all in memory."
+  },
+  {
+    "prompt": "Describe how a hash table works and provide a Python example.",
+    "completion": "A hash table maps keys to indices in an array using a hash function. Example: my_dict = {"
+  },
+  {
+    "prompt": "Write a Python program that removes all vowels from a string.",
+    "completion": "def remove_vowels(s):\\n    return"
+  },
+  {
+    "prompt": "Explain the concept of object-oriented programming (OOP).",
+    "completion": "OOP organizes code using objects that contain data and methods. It supports encapsulation, inheritance, and polymorphism."
+  },
+  {
+    "prompt": "Provide an example in Python using inheritance.",
+    "completion": "class Animal:\\n    def speak(self):\\n        print("
+  },
+  {
+    "prompt": "Explain the concept of closures in Python.",
+    "completion": "A closure is a function that remembers variables from its enclosing scope even after the outer function has finished executing."
+  },
+  {
+    "prompt": "Write a Python function to calculate the factorial iteratively.",
+    "completion": "def factorial(n):\\n    result = 1\\n    for i in range(2,n+1):\\n        result *= i\\n    return result"
+  },
+  {
+    "prompt": "Provide a Python example of using recursion to traverse a nested list.",
+    "completion": "def flatten(lst):\\n    result = []\\n    for item in lst:\\n        if isinstance(item, list):\\n            result.extend(flatten(item))\\n        else:\\n            result.append(item)\\n    return result"
+  },
+  {
+    "prompt": "Provide a Python example that demonstrates memoization.",
+    "completion": "memo = {}\\ndef fib(n):\\n    if n in memo: return memo[n]\\n    if n <= 1: memo[n] = n\\n    else: memo[n] = fib(n-1) + fib(n-2)\\n    return memo[n]"
+  },
+  {
+    "prompt": "Provide a real-world example of dynamic programming.",
+    "completion": "Calculating the minimum cost path in a grid using a table to store previous results is dynamic programming."
+  },
+  {
+    "prompt": "Write a Python function that finds all prime numbers up to n using the Sieve of Eratosthenes.",
+    "completion": "def sieve(n):\\n    primes = [True]*(n+1)\\n    primes[0]=primes[1]=False\\n    for i in range(2,int(n**0.5)+1):\\n        if primes[i]:\\n            for j in range(i*i,n+1,i):\\n                primes[j]=False\\n    return [i for i, is_prime in enumerate(primes) if is_prime]"
+  },
+  {
+    "prompt": "Provide a Python example that demonstrates list comprehension with a condition.",
+    "completion": "[x**2 for x in range(10) if x % 2 == 0]"
+  },
+  {
+    "prompt": "Write a Python program that simulates rolling two dice and sums the result.",
+    "completion": "import random\\nroll1=random.randint(1,6)\\nroll2=random.randint(1,6)\\nprint("
+  },
+  {
+    "prompt": "Provide a Python example of using the zip() function.",
+    "completion": "a=[1,2,3]\\nb=[4,5,6]\\nfor x,y in zip(a,b):\\n    print(x,y)"
+  },
+  {
+    "prompt": "A list contains duplicates. Explain at least two different ways to remove them in Python.",
+    "completion": "1) Convert the list to a set: unique_list = list(set(lst))\\n2) Use a loop to build a new list with only first occurrences."
+  },
+  {
+    "prompt": "Debug this code snippet: x = int(input('Enter number'))\\ny = 10 / x",
+    "completion": "Potential error: division by zero. Wrap y=10/x in a try-except block to catch ZeroDivisionError."
+  },
+  {
+    "prompt": "Explain how memoization improves recursive function efficiency with an example.",
+    "completion": "Memoization stores previous results. Example: Fibonacci recursion caches fib(n) to avoid recalculating subproblems, reducing complexity from O(2^n) to O(n)."
+  },
+  {
+    "prompt": "Write a Python function to compute factorial using recursion.",
+    "completion": "def factorial(n):\\n    return 1 if n==0 else n*factorial(n-1)"
+  },
+  {
+    "prompt": "A function returns unexpected results. How would you debug systematically?",
+    "completion": "1) Reproduce the error. 2) Check inputs. 3) Examine logic line by line. 4) Add print statements or tests. 5) Correct and verify."
+  },
+  {
+    "prompt": "Provide a Python example that uses list comprehension and filtering together.",
+    "completion": "[x**2 for x in range(10) if x % 2 == 0]"
+  },
+  {
+    "prompt": "Explain the ethical implications of AI bias in hiring algorithms.",
+    "completion": "AI bias can unfairly favor or disfavor candidates, perpetuating discrimination. Developers must audit data and decisions."
+  },
+  {
+    "prompt": "What is an algorithm?",
+    "completion": "An algorithm is a step-by-step set of instructions to solve a problem."
+  },
+  {
+    "prompt": "Teach me Python basics",
+    "completion": "Start with print("
+  },
+  {
+    "prompt": "Create a Python class for a simple bank account.",
+    "completion": "class BankAccount:\\n    def __init__(self, owner, balance=0):\\n        self.owner = owner\\n        self.balance = balance\\n\\n    def deposit(self, amount):\\n        self.balance += amount\\n        return self.balance\\n\\n    def withdraw(self, amount):\\n        if amount <= self.balance:\\n            self.balance -= amount\\n            return self.balance\\n        else:\\n            return"
+  },
+  {
+    "prompt": "Explain inheritance in Python with an example.",
+    "completion": "Inheritance allows one class to extend another. Example:\\n\\nclass Vehicle:\\n    def __init__(self, make):\\n        self.make = make\\n\\nclass Car(Vehicle):\\n    def __init__(self, make, model):\\n        super().__init__(make)\\n        self.model = model\\n\\nmy_car = Car("
+  },
+  {
+    "prompt": "Explain and create a Python generator.",
+    "completion": "Generators allow you to iterate over data without storing it all in memory. Example:\\n\\ndef my_generator():\\n    for i in range(5):\\n        yield i\\n\\nfor value in my_generator():\\n    print(value)  # Output: 0 1 2 3 4"
+  },
+  {
+    "prompt": "What is a decorator in Python? Show an example.",
+    "completion": "A decorator wraps a function to add functionality. Example:\\n\\ndef my_decorator(func):\\n    def wrapper():\\n        print("
+  },
+  {
+    "prompt": "Explain Python context managers with 'with' keyword.",
+    "completion": "Context managers handle setup and teardown automatically. Example:\\n\\nwith open("
+  },
+  {
+    "prompt": "How do I debug Python code?",
+    "completion": "Use print statements, the"
+  },
+  {
+    "prompt": "Write a simple unit test in Python.",
+    "completion": "Use the"
+  },
+  {
+    "prompt": "What are some Python best practices?",
+    "completion": "1. Use meaningful variable names\\n2. Keep functions short and focused\\n3. Follow PEP8 style guide\\n4. Write docstrings and comments\\n5. Use version control (Git)"
+  },
+  {
+    "prompt": "Create a simple Python number guessing game.",
+    "completion": "import random\\n\\ndef guess_game():\\n    number = random.randint(1, 10)\\n    guess = 0\\n    while guess != number:\\n        guess = int(input("
+  },
+  {
+    "prompt": "Create a small Python drawing using turtle graphics.",
+    "completion": "import turtle\\n\\nscreen = turtle.Screen()\\npen = turtle.Turtle()\\n\\nfor i in range(4):\\n    pen.forward(100)\\n    pen.right(90)\\n\\nscreen.mainloop()  # Draws a square"
+  },
+  {
+    "prompt": "Explain JavaScript and add interactivity.",
+    "completion": "<script>\\nfunction greet() {\\n  alert("
+  },
+  {
+    "prompt": "How do I use Python Flask for backend?",
+    "completion": "from flask import Flask, render_template\\napp = Flask(__name__)\\n\\n@app.route("
+  },
+  {
+    "prompt": "What is an API and how do I use one in Python?",
+    "completion": "API (Application Programming Interface) allows programs to communicate. Example using requests:\\n\\nimport requests\\nresponse = requests.get("
+  },
+  {
+    "prompt": "How can I handle JSON data in Python?",
+    "completion": "import json\\njson_string ="
+  },
+  {
+    "prompt": "How can I combine Tkinter with Python logic for interactive apps?",
+    "completion": "You can bind functions to buttons, inputs, or events. Example:\\n\\nimport tkinter as tk\\n\\ndef say_hello():\\n    label.config(text="
+  },
+  {
+    "prompt": "Explain sorting algorithms and give Python examples.",
+    "completion": "Sorting algorithms organize data. Example: Bubble Sort:\\n\\ndef bubble_sort(arr):\\n    n = len(arr)\\n    for i in range(n):\\n        for j in range(0, n-i-1):\\n            if arr[j] > arr[j+1]:\\n                arr[j], arr[j+1] = arr[j+1], arr[j]\\n    return arr"
+  },
+  {
+    "prompt": "Explain recursion with a Python example.",
+    "completion": "Recursion is a function calling itself. Example: factorial:\\n\\ndef factorial(n):\\n    if n == 0:\\n        return 1\\n    else:\\n        return n * factorial(n-1)"
+  },
+  {
+    "prompt": "Teach common data structures in Python.",
+    "completion": "Lists, dictionaries, sets, and tuples are core structures:\\n\\n# List\\nmy_list = [1,2,3]\\n# Dict\\nmy_dict = {"
+  },
+  {
+    "prompt": "How can I integrate an AI model in Python?",
+    "completion": "You can use libraries like scikit-learn, TensorFlow, or PyTorch. Example with scikit-learn:\\n\\nfrom sklearn.linear_model import LinearRegression\\nmodel = LinearRegression()\\nX = [[1],[2],[3]]\\ny = [2,4,6]\\nmodel.fit(X,y)\\nprint(model.predict([[4]]))"
+  },
+  {
+    "prompt": "How do I use Python for task automation?",
+    "completion": "Python can automate repetitive tasks with scripts. Example: renaming files:\\n\\nimport os\\nfor i, filename in enumerate(os.listdir("
+  },
+  {
+    "prompt": "How can I teach algorithms using games?",
+    "completion": "Use interactive examples: sorting a deck of cards, navigating a maze for pathfinding, or simulating a simple board game AI. Gamify learning to make it fun."
+  },
+  {
+    "prompt": "How can I help a user debug code effectively?",
+    "completion": "Teach step-by-step tracing, printing variable states, and using small test cases. Encourage logical thinking rather than just fixing errors."
+  },
+  {
+    "prompt": "How do I structure a Python project?",
+    "completion": "Use folders for organization: /src for code, /tests for unit tests, /docs for documentation. Example structure:\\nmy_project/\\n \u251c\u2500\u2500 src/\\n \u2502    \u2514\u2500\u2500 main.py\\n \u251c\u2500\u2500 tests/\\n \u2502    \u2514\u2500\u2500 test_main.py\\n \u2514\u2500\u2500 docs/"
+  },
+  {
+    "prompt": "How can I create a web app with Python?",
+    "completion": "Use Flask or Django. Example Flask app:\\n\\nfrom flask import Flask\\napp = Flask(__name__)\\n\\n@app.route("
+  },
+  {
+    "prompt": "How do I interact with APIs in Python?",
+    "completion": "Use the requests library. Example:\\n\\nimport requests\\nresponse = requests.get("
+  },
+  {
+    "prompt": "How do I use Python for data analysis?",
+    "completion": "Use pandas, NumPy, and matplotlib for data handling and visualization. Example:\\n\\nimport pandas as pd\\ndf = pd.read_csv("
+  },
+  {
+    "prompt": "How do I explain differences between Python and JavaScript?",
+    "completion": "Python is interpreted, uses indentation, great for data tasks. JavaScript is primarily for web, runs in browser, uses {} for blocks. Teach by showing examples of same logic in both languages."
+  },
+  {
+    "prompt": "How do I debug Python errors?",
+    "completion": "Read the error message carefully. Identify the line causing the issue, check variable values, and test small code sections. Use print statements or logging for insights."
+  },
+  {
+    "prompt": "How do I create visual art with code?",
+    "completion": "Use libraries like P5.js for JavaScript or Turtle/Processing for Python. Start with shapes and colors, then experiment with animation and interactivity."
+  },
+  {
+    "prompt": "How do I make code interactive?",
+    "completion": "Add user input, mouse/keyboard events, or sliders. Experiment with changing colors, shapes, or sounds in response to actions."
+  },
+  {
+    "prompt": "How do I make a simple game in Python?",
+    "completion": "Use Pygame. Start with basic shapes, movements, and interactions. Gradually add scoring, levels, and challenges."
+  },
+  {
+    "prompt": "How do I ensure my code is ethical?",
+    "completion": "Avoid bias, respect privacy, and test thoroughly. Consider how your program affects people, society, and the environment."
+  },
+  {
+    "prompt": "How do I debug code efficiently?",
+    "completion": "Teach systematic testing, reading error messages carefully, and isolating issues step by step. Encourage thinking like a detective."
+  },
+  {
+    "prompt": "How do I teach algorithmic thinking?",
+    "completion": "Use puzzles, flowcharts, and real-life examples to show stepwise planning, pattern recognition, and optimization strategies."
+  },
+  {
+    "prompt": "How do I optimize a slow loop in Python?",
+    "completion": "Look for repeated computations you can move outside the loop, use built-in functions like map/filter, or consider list comprehensions for efficiency."
+  },
+  {
+    "prompt": "What is asynchronous programming?",
+    "completion": "It allows a program to perform multiple tasks at once without waiting for each task to finish. Think of it like cooking multiple dishes simultaneously instead of one after the other."
+  },
+  {
+    "prompt": "How do I debug a complex codebase?",
+    "completion": "Break it into smaller modules, write test cases, use logging, and track variables step by step. Ask clarifying questions to ensure you understand the logic."
+  },
+  {
+    "prompt": "How do I review someone else\u2019s code?",
+    "completion": "Check for clarity, maintainability, and correctness. Provide constructive feedback, suggest improvements, and highlight what\u2019s well-done."
+  },
+  {
+    "prompt": "Create a simple Python program to visualize data as a bar chart",
+    "completion": "Use matplotlib: import matplotlib.pyplot as plt; x = ["
+  },
+  {
+    "prompt": "How do I make interactive graphics in JavaScript?",
+    "completion": "Use HTML canvas or libraries like p5.js. Bind user inputs to animations or shapes to create interactive experiences."
+  },
+  {
+    "prompt": "How can I teach sorting algorithms visually?",
+    "completion": "Represent arrays as bars or blocks. Animate swaps or moves step by step. Color-code changes to make patterns clear."
+  },
+  {
+    "prompt": "Can I teach physics concepts through programming?",
+    "completion": "Yes. Simulate forces, motion, or collisions visually. Students can change variables and see real-time effects."
+  },
+  {
+    "prompt": "I'm frustrated that my code isn't working.",
+    "completion": "I hear you! Debugging can be frustrating. Let\u2019s take a deep breath, look at it together, and break it down line by line. We"
+  },
+  {
+    "prompt": "I feel nervous about learning programming.",
+    "completion": "It\u2019s completely normal to feel that way. Everyone starts somewhere. We can start with small, fun exercises to build confidence."
+  },
+  {
+    "prompt": "I don't know how to explain what I want in code.",
+    "completion": "No worries! Just describe it with your own words. I can help translate your ideas into code and guide you along the way."
+  },
+  {
+    "prompt": "Explain loops in programming.",
+    "completion": "Loops are like your morning coffee routine: you repeat the steps until the coffee is perfect. Except in programming, the coffee is your array, and it\u2019s never bitter!"
+  },
+  {
+    "prompt": "How do I remember programming syntax?",
+    "completion": "Think of syntax like a secret handshake. Once you get it, everyone in the programming club will understand you perfectly!"
+  },
+  {
+    "prompt": "Explain functions to a kid.",
+    "completion": "Functions are like magic recipes! You put in ingredients (inputs), follow steps, and get a yummy result (output). You can reuse the recipe anytime!"
+  },
+  {
+    "prompt": "Explain variables in programming.",
+    "completion": "Variables are like labeled jars. You can put something inside, like a number or word, and use it later by calling its label. Easy to store and reuse!"
+  },
+  {
+    "prompt": "What is a function?",
+    "completion": "A function is like a reusable recipe. You give it ingredients (inputs), follow the steps, and get a result (output). You can use the recipe anywhere."
+  },
+  {
+    "prompt": "My code isn't working, what do I do?",
+    "completion": "Take a deep breath! Let"
+  },
+  {
+    "prompt": "Explain object-oriented programming.",
+    "completion": "OOP is like organizing your code into classes (blueprints) and objects (instances). Each object has properties (attributes) and actions (methods). It makes complex systems easier to manage."
+  },
+  {
+    "prompt": "How do I optimize my code?",
+    "completion": "Identify bottlenecks, reduce unnecessary operations, and choose efficient algorithms. Measure performance, profile your code, and iterate."
+  },
+  {
+    "prompt": "Show me a function diagram.",
+    "completion": "A function can be visualized as a box: inputs go in on the left, the process happens inside, and outputs come out on the right. This helps see data flow clearly."
+  },
+  {
+    "prompt": "Create a puzzle to teach functions.",
+    "completion": "Provide a set of tasks (like adding numbers, printing messages) and ask users to put them inside functions. They\u2019ll see how functions make the tasks reusable."
+  },
+  {
+    "prompt": "Explain recursion to an intermediate coder.",
+    "completion": "Recursion is a technique where a function calls itself with modified arguments until a base case is reached. Useful for tree traversal, factorials, and divide-and-conquer algorithms."
+  },
+  {
+    "prompt": "Guide me to build a calculator in Python.",
+    "completion": "We"
+  },
+  {
+    "prompt": "Review my Python code.",
+    "completion": "I noticed you\u2019re using a loop to sum a list. You could use the built-in sum() function for efficiency. Also, consider adding comments to explain your logic for readability."
+  },
+  {
+    "prompt": "Optimize this JavaScript function.",
+    "completion": "You\u2019re iterating through an array twice. You could combine the operations into a single loop to improve performance and reduce complexity."
+  },
+  {
+    "prompt": "How can I make my Python code run faster?",
+    "completion": "Use efficient data structures like sets and dictionaries. Avoid unnecessary loops and nested iterations. Utilize list comprehensions and generator expressions. Profile your code using cProfile to find bottlenecks. Consider using compiled libraries like NumPy for heavy computations."
+  },
+  {
+    "prompt": "How do I refactor messy code?",
+    "completion": "Break code into small, reusable functions or classes. Remove duplicated logic. Use meaningful variable and function names. Apply design patterns where appropriate. Add comments and docstrings. Write unit tests to ensure behavior remains correct during refactoring."
+  },
+  {
+    "prompt": "How do I optimize an algorithm?",
+    "completion": "Analyze its time and space complexity (Big O notation). Reduce nested loops or redundant operations. Use caching or memoization for repeated calculations. Consider using divide-and-conquer or dynamic programming approaches. Choose the best algorithm for the data size and problem constraints."
+  },
+  {
+    "prompt": "How do I debug complex issues in code?",
+    "completion": "Reproduce the issue with minimal inputs. Add logging and breakpoints to trace the problem. Test edge cases and validate assumptions. Use automated tests to isolate errors. Consider static analysis or linters for detecting potential issues. Document findings for future reference."
+  },
+  {
+    "prompt": "How do I structure the front-end and back-end codebases?",
+    "completion": "Keep front-end and back-end in separate directories or repositories. Use modular component structures for the front-end and separate concerns in the back-end (controllers, services, models). Maintain consistent naming and folder structures. Ensure clear API contracts between front-end and back-end."
+  },
+  {
+    "prompt": "My code works but runs very slowly. How can I optimize it?",
+    "completion": "Start by profiling your code to find bottlenecks. Optimize algorithms and data structures. Minimize nested loops and redundant calculations. Use caching or memoization where possible. In database-heavy apps, optimize queries and indexes. Parallelize tasks if safe to do so. Test performance improvements after each change."
+  },
+  {
+    "prompt": "How can I make my code more maintainable and readable?",
+    "completion": "Follow consistent coding standards and naming conventions. Break code into small, reusable functions or classes. Add comments for complex logic. Use linters and formatters. Remove dead code and avoid hard-coded values. AI can suggest refactoring to simplify nested or repetitive logic."
+  },
+  {
+    "prompt": "I keep getting a NullPointerException in my Java code. How can I fix it?",
+    "completion": "A NullPointerException occurs when you try to access an object that hasn"
+  },
+  {
+    "prompt": "How can I write unit tests for my Python functions?",
+    "completion": "Use Python"
+  },
+  {
+    "prompt": "How can I detect performance issues in my code?",
+    "completion": "Use profiling tools (`cProfile` for Python, VisualVM for Java) to measure CPU and memory usage. Identify bottlenecks like inefficient loops or database queries. AI can suggest optimized algorithms, caching strategies, and parallelization where appropriate."
+  },
+  {
+    "prompt": "How do I maintain code quality in a large project?",
+    "completion": "Use linters, static analysis tools, and style guides. Implement code reviews and CI pipelines. AI can automate code analysis, flag potential bugs, enforce style rules, and suggest refactoring to improve readability and maintainability."
+  },
+  {
+    "prompt": "How do I structure my code for maintainability?",
+    "completion": "Organize your code using modules, follow SOLID principles, and keep functions small and focused. AI can provide refactoring suggestions, highlight code smells, and recommend architecture improvements."
+  },
+  {
+    "prompt": "I need to sort a large dataset efficiently. What algorithm should I use?",
+    "completion": "For large datasets, consider QuickSort or MergeSort for O(n log n) performance. AI can suggest in-place sorting vs. stable sorting based on your requirements and even generate the optimized code for your chosen language."
+  },
+  {
+    "prompt": "How do I optimize a function that\u2019s running too slow?",
+    "completion": "Analyze time and space complexity first. Consider caching repeated calculations, using more efficient data structures, or parallelizing computations. AI can identify bottlenecks and provide step-by-step optimization suggestions."
+  },
+  {
+    "prompt": "I need to find the shortest path in a weighted graph. Which algorithm should I use?",
+    "completion": "Use Dijkstra\u2019s algorithm for non-negative weights or Bellman-Ford if weights can be negative. AI can generate the code and explain edge cases and performance trade-offs."
+  },
+  {
+    "prompt": "How can I improve my algorithm without changing the result?",
+    "completion": "Look at reducing nested loops, using hash tables for faster lookups, or applying divide-and-conquer strategies. AI can rewrite your algorithm in a more efficient form and compare complexities."
+  },
+  {
+    "prompt": "I\u2019m unsure if my algorithm is efficient enough. How can I check?",
+    "completion": "Evaluate the Big O notation for time and space complexity. Run tests with increasing input sizes and profile performance. AI can automatically estimate complexity, simulate large inputs, and suggest improvements."
+  },
+  {
+    "prompt": "My code is slow. How do I make it faster?",
+    "completion": "Profile your code to find bottlenecks. Optimize loops, use efficient data structures, and parallelize tasks if possible. AI can suggest language-specific performance improvements and rewrite slow sections efficiently."
+  },
+  {
+    "prompt": "Can you review my Python function for efficiency?",
+    "completion": "Yes! I can check for redundant loops, unnecessary variables, and inefficient algorithms. For example, using list comprehensions or built-in functions can reduce runtime. I can rewrite your function with these optimizations while keeping functionality intact."
+  },
+  {
+    "prompt": "I want my JavaScript code to be cleaner and more maintainable.",
+    "completion": "I can identify repeated patterns, suggest modularization, and enforce consistent naming conventions. For example, I can refactor long functions into smaller, reusable ones and recommend ES6 features for clarity."
+  },
+  {
+    "prompt": "Is there a better way to structure this class?",
+    "completion": "I can analyze the class for cohesion and coupling. If methods are doing too much, I can suggest splitting responsibilities or using design patterns to improve readability and maintainability."
+  },
+  {
+    "prompt": "Can you find security issues in my code?",
+    "completion": "I can check for common vulnerabilities like SQL injection, XSS, insecure authentication, or improper error handling. I\u2019ll provide safe alternatives and best practices to mitigate risks."
+  },
+  {
+    "prompt": "How do I make my code more testable?",
+    "completion": "I can recommend separating concerns, using dependency injection, and applying patterns like Strategy or Template Method to decouple logic. I can even generate example unit tests for your classes."
+  },
+  {
+    "prompt": "How do I set up a CI/CD pipeline for my Python project?",
+    "completion": "I can guide you through setting up GitHub Actions or Jenkins to automatically test, build, and deploy your code whenever changes are pushed. I can also provide sample YAML configurations."
+  },
+  {
+    "prompt": "How do I write unit tests for my Python functions?",
+    "completion": "I can generate pytest or unittest examples for your functions, including edge cases and mock objects if your functions interact with external resources."
+  },
+  {
+    "prompt": "How do I ensure code coverage and quality metrics?",
+    "completion": "I can generate test coverage reports and suggest linting tools, static analyzers, and code quality metrics like cyclomatic complexity to maintain high-quality code."
+  },
+  {
+    "prompt": "Design a thread-safe cache with TTL eviction in Python",
+    "completion": "import threading\\nimport time\\nfrom collections import OrderedDict\\n\\nclass TTLCache:\\n    def __init__(self, maxsize=100, ttl=3600):\\n        self.maxsize = maxsize\\n        self.ttl = ttl\\n        self.cache = OrderedDict()\\n        self.timestamps = {}\\n        self.lock = threading.RLock()\\n    \\n    def get(self, key):\\n        with self.lock:\\n            if key in self.cache and time.time() - self.timestamps[key] < self.ttl:\\n                self.cache.move_to_end(key)\\n                return self.cache[key]\\n            return None\\n    \\n    def set(self, key, value):\\n        with self.lock:\\n            if len(self.cache) >= self.maxsize:\\n                oldest = next(iter(self.cache))\\n                del self.cache[oldest]\\n                del self.timestamps[oldest]\\n            self.cache[key] = value\\n            self.timestamps[key] = time.time()"
+  },
+  {
+    "prompt": "Implement A* pathfinding algorithm",
+    "completion": "import heapq\\n\\ndef a_star(start, goal, grid):\\n    def heuristic(a, b):\\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\\n    \\n    open_set = []\\n    heapq.heappush(open_set, (0, start))\\n    came_from = {}\\n    g_score = {start: 0}\\n    f_score = {start: heuristic(start, goal)}\\n    \\n    while open_set:\\n        current = heapq.heappop(open_set)[1]\\n        \\n        if current == goal:\\n            path = []\\n            while current in came_from:\\n                path.append(current)\\n                current = came_from[current]\\n            return path[::-1]\\n        \\n        for neighbor in get_neighbors(current, grid):\\n            tentative_g = g_score[current] + 1\\n            if neighbor not in g_score or tentative_g < g_score[neighbor]:\\n                came_from[neighbor] = current\\n                g_score[neighbor] = tentative_g\\n                f_score[neighbor] = tentative_g + heuristic(neighbor, goal)\\n                heapq.heappush(open_set, (f_score[neighbor], neighbor))\\n    \\n    return None  # No path found"
+  },
+  {
+    "prompt": "Create a Python function that generates fractal patterns",
+    "completion": "import numpy as np\\nimport matplotlib.pyplot as plt\\n\\ndef mandelbrot(width, height, max_iter=100):\\n    x = np.linspace(-2, 1, width)\\n    y = np.linspace(-1.5, 1.5, height)\\n    X, Y = np.meshgrid(x, y)\\n    c = X + Y * 1j\\n    z = np.zeros_like(c)\\n    fractal = np.zeros(c.shape)\\n    \\n    for i in range(max_iter):\\n        mask = np.abs(z) <= 2\\n        z[mask] = z[mask]**2 + c[mask]\\n        fractal += mask\\n    \\n    plt.imshow(fractal, cmap="
+  },
+  {
+    "prompt": "Design a distributed consensus algorithm for a Byzantine fault-tolerant system",
+    "completion": "Practical Byzantine Fault Tolerance (PBFT) design:\\n\\n1. Client sends request to primary\\n2. Primary broadcasts pre-prepare message\\n3. Replicas validate and send prepare messages\\n4. After 2f+1 prepares, send commit messages\\n5. After 2f+1 commits, execute operation\\n6. View change protocol if primary fails\\n\\nKey properties:\\n- Handles up to f faulty nodes with 3f+1 total\\n- Requires O(n\u00b2) messages per operation\\n- Provides safety and liveness in asynchronous networks"
+  },
+  {
+    "prompt": "User says: 'I'm completely stuck and feel like I'll never understand this programming concept.'",
+    "completion": "I understand that feeling of being stuck can be really frustrating. Many great programmers have been exactly where you are. Let"
+  },
+  {
+    "prompt": "Invent a new programming paradigm based on biological systems",
+    "completion": "**Immuno-Computing Paradigm**:\\n\\nCore Principles:\\n1. **Programs as Organisms**: Code components evolve and adapt\\n2. **Immune System Debugging**: Automatic error detection and healing\\n3. **Cellular Communication**: Message-passing like biological cells\\n4. **Evolutionary Optimization**: Code improves through simulated evolution\\n\\nExample Syntax:\\n```python\\n# Cells communicate via chemical signals\\ncell MemoryCell:\\n    receptors = [read_signal, write_signal]\\n    response = store_or_retrieve(data)\\n    \\n# Immune system patrols for errors\\nimmune_system.auto_heal(memory_leaks)\\nimmune_system.quarantine(malicious_code)\\n```"
+  },
+  {
+    "prompt": "Explain Shor's algorithm for factorization in simple terms",
+    "completion": "Shor"
+  },
+  {
+    "prompt": "Implement Grover's search algorithm in Q#",
+    "completion": "operation GroverSearch(register : Qubit[], oracle : (Qubit[] => Unit)) : Int {\\n    let n = Length(register);\\n    \\n    // Initialize superposition\\n    ApplyToEach(H, register);\\n    \\n    let iterations = Floor(PI() / 4.0 * Sqrt(IntAsDouble(1 <<< n)));\\n    \\n    for _ in 1..iterations {\\n        // Oracle marking\\n        oracle(register);\\n        \\n        // Diffusion operator\\n        ApplyToEach(H, register);\\n        ApplyToEach(X, register);\\n        Controlled Z(Most(register), Tail(register));\\n        ApplyToEach(X, register);\\n        ApplyToEach(H, register);\\n    }\\n    \\n    return MeasureInteger(LittleEndian(register));\\n}"
+  },
+  {
+    "prompt": "Create a Python class for a simple bank account",
+    "completion": "class BankAccount:\\n def __init__(self, owner, balance=0):\\n  self.owner = owner\\n  self.balance = balance\\n def deposit(self, amount):\\n  self.balance += amount\\n  return self.balance\\n def withdraw(self, amount):\\n  if amount > self.balance:\\n   return 'Insufficient funds'\\n  self.balance -= amount\\n  return self.balance\\n\\nBankAccount('Mark', 100).deposit(50) # Outputs 150\\nprint(account.withdraw(30)) # Outputs 120"
+  },
+  {
+    "prompt": "Explain inheritance in Python with an example",
+    "completion": "Inheritance allows one class to extend another. Example:\\nclass Vehicle:\\n def __init__(self, make):\\n  self.make = make\\nclass Car(Vehicle):\\n def __init__(self, make, model):\\n  super().__init__(make)\\n  self.model = model\\n\\nmy_car = Car('Toyota', 'Corolla')\\nprint(my_car.make, my_car.model) # Output: Toyota Corolla"
+  },
+  {
+    "prompt": "Explain and create a Python generator",
+    "completion": "Generators allow you to iterate over data without storing it all in memory. Example:\\ndef my_generator():\\n for i in range(5):\\n  yield i\\nfor value in my_generator():\\n print(value) # Output 0 1 2 3 4"
+  },
+  {
+    "prompt": "What is a decorator in Python? Show an example",
+    "completion": "A decorator wraps a function to add functionality. Example:\\ndef my_decorator(func):\\n def wrapper():\\n  print('Before function')\\n  func()\\n  print('After function')\\n  return wrapper\\n@my_decorator\\ndef say_hello():\\n print('Hello')\\nsay_hello() # Output: Before function Hello After function"
+  },
+  {
+    "prompt": "Explain Python context managers with 'with' keyword",
+    "completion": "Context managers handle setup and teardown automatically. Example:\\nwith open('file.txt', 'w') as f:\\n f.write('Hello World')\\n# File is automatically closed after the block"
+  },
+  {
+    "prompt": "Write a simple unit test in Python",
+    "completion": "Use the unittest module. Example:\\nimport unittest\\ndef add(a,b):\\n return a + b\\nclass TestAdd(unittest.TestCase):\\n def test_add(self):\\n  self.assertEqual(add(2,3), 5)\\nif __name__ == '__main__':\\n unittest.main()"
+  },
+  {
+    "prompt": "Create a simple Python number guessing game",
+    "completion": "import random\\ndef guess_game():\\n number = random.randint(1,10)\\n guess = 0\\n while guess != number:\\n  guess = int(input('Guess a number 1-10: '))\\n  if guess < number:\\n   print('Too low!')\\n  elif guess > number:\\n   print('Too high!')\\n print('Correct!')\\nguess_game()"
+  },
+  {
+    "prompt": "Create a small Python drawing using turtle",
+    "completion": "import turtle\\nt = turtle.Turtle()\\nt.forward(100)\\nt.right(90)\\nt.forward(100)\\nt.right(90)\\nt.forward(100)\\nt.right(90)\\nt.forward(100)\\nturtle.done()"
+  },
+  {
+    "prompt": "Explain clean code principles",
+    "completion": "Keep functions small, name variables clearly, avoid repetition, and write code others can read easily."
+  },
+  {
+    "prompt": "How do I debug a Python error?",
+    "completion": "1) Read the traceback carefully. 2) Pinpoint the line causing it. 3) Add print/logging statements. 4) Simplify until it works."
+  },
+  {
+    "prompt": "What's the difference between synchronous and asynchronous code?",
+    "completion": "Synchronous waits for each task to finish before starting the next. Asynchronous allows multiple tasks to progress without waiting."
+  },
+  {
+    "prompt": "How do I design a scalable API?",
+    "completion": "Keep endpoints simple, stateless, and predictable. Use pagination for large results. Version your API for future changes."
+  },
+  {
+    "prompt": "Explain Infrastructure as Code",
+    "completion": "IaC means defining servers and infrastructure with code (Terraform, Ansible), making setups reproducible and version-controlled."
+  },
+  {
+    "prompt": "Write a Python function to reverse a string",
+    "completion": "def reverse_string(s):\\n return s[::-1]"
+  },
+  {
+    "prompt": "Implement binary search in Python",
+    "completion": "def binary_search(arr, target):\\n left, right = 0, len(arr)-1\\n while left <= right:\\n  mid = (left + right) // 2\\n  if arr[mid] == target:\\n   return mid\\n  elif arr[mid] < target:\\n   left = mid + 1\\n  else:\\n   right = mid - 1\\n return -1"
+  },
+  {
+    "prompt": "Create an advanced reservoir computing model with knowledge distillation in Python",
+    "completion": "import numpy as np\\nimport json\\nfrom typing import List, Dict, Any\\nfrom pathlib import Path\\n\\nclass KnowledgeEnhancedReservoir:\\n    \\"
+  },
+  {
+    "prompt": "Implement a stack using a list in Python",
+    "completion": "class Stack:\\n    def __init__(self):\\n        self.items = []\\n    def push(self, item):\\n        self.items.append(item)\\n    def pop(self):\\n        if not self.is_empty():\\n            return self.items.pop()\\n        return None\\n    def peek(self):\\n        if not self.is_empty():\\n            return self.items[-1]\\n        return None\\n    def is_empty(self):\\n        return len(self.items) == 0\\n\\nstack = Stack()\\nstack.push(1)\\nstack.push(2)\\nprint(stack.pop())  # Output: 2"
+  },
+  {
+    "prompt": "Write a Python function to find the factorial of a number using recursion",
+    "completion": "def factorial(n):\\n    if n <= 1:\\n        return 1\\n    return n * factorial(n - 1)\\n\\nprint(factorial(5))  # Output: 120"
+  },
+  {
+    "prompt": "What is a hash table and how is it implemented in Python?",
+    "completion": "A hash table stores key-value pairs using a hash function for fast lookups (O(1) average). In Python, dict is a hash table implementation."
+  },
+  {
+    "prompt": "Create a simple Python web server using Flask",
+    "completion": "from flask import Flask\\napp = Flask(__name__)\\n\\n@app.route('/')\\ndef hello():\\n    return 'Hello, World!'\\n\\nif __name__ == '__main__':\\n    app.run(debug=True)"
+  },
+  {
+    "prompt": "Explain virtual environments in Python",
+    "completion": "Virtual environments isolate project dependencies. Create with 'python -m venv env', activate with 'source env/bin/activate' (Unix) or 'env\\\\Scripts\\\\activate' (Windows), then pip install packages."
+  },
+  {
+    "prompt": "How do I handle exceptions in Python?",
+    "completion": "Use try-except blocks. Example:\\ntry:\\n    x = 1 / 0\\nexcept ZeroDivisionError:\\n    print('Cannot divide by zero')\\nfinally:\\n    print('Cleanup')"
+  },
+  {
+    "prompt": "Write a Python script to read a CSV file using pandas",
+    "completion": "import pandas as pd\\ndf = pd.read_csv('data.csv')\\nprint(df.head())"
+  },
+  {
+    "prompt": "What are lambda functions in Python?",
+    "completion": "Lambda functions are anonymous one-liners. Example:\\nadd = lambda x, y: x + y\\nprint(add(2, 3))  # Output: 5"
+  },
+  {
+    "prompt": "How do I work with JSON in Python?",
+    "completion": "Use json module. To dump: import json; json.dump(data, file). To load: json.load(file)."
+  },
+  {
+    "prompt": "Explain RESTful APIs",
+    "completion": "REST uses HTTP methods (GET, POST, PUT, DELETE) on resources via URLs. Stateless, uses JSON/XML for data."
+  },
+  {
+    "prompt": "How do I profile Python code for performance?",
+    "completion": "Use cProfile: import cProfile; cProfile.run('your_function()')"
+  },
+  {
+    "prompt": "Write a Python decorator for timing functions",
+    "completion": "import time\\ndef timer(func):\\n    def wrapper(*args, **kwargs):\\n        start = time.time()\\n        result = func(*args, **kwargs)\\n        print(f'{func.__name__} took {time.time() - start}s')\\n        return result\\n    return wrapper\\n\\n@timer\\ndef slow_func():\\n    time.sleep(1)"
+  },
+  {
+    "prompt": "What are Python metaclasses?",
+    "completion": "Metaclasses are classes of classes, used to customize class creation. Example: class Meta(type): pass; class MyClass(metaclass=Meta): pass"
+  },
+  {
+    "prompt": "Implement a simple neural network from scratch in Python",
+    "completion": "import numpy as np\\nclass SimpleNN:\\n    def __init__(self):\\n        self.weights = np.random.randn(1)\\n    def forward(self, x):\\n        return np.dot(x, self.weights)\\n    def train(self, x, y, lr=0.01):\\n        pred = self.forward(x)\\n        self.weights += lr * (y - pred) * x\\n\\nnn = SimpleNN()\\nnn.train(np.array([1]), np.array([2]))"
+  },
+  {
+    "prompt": "Explain async/await in Python",
+    "completion": "Async/await enables concurrent code. Use asyncio: import asyncio; async def main(): await asyncio.sleep(1); asyncio.run(main())"
+  },
+  {
+    "prompt": "Implement a queue using collections.deque in Python",
+    "completion": "from collections import deque\\nclass Queue:\\n    def __init__(self):\\n        self.items = deque()\\n    def enqueue(self, item):\\n        self.items.append(item)\\n    def dequeue(self):\\n        if not self.is_empty():\\n            return self.items.popleft()\\n        return None\\n    def is_empty(self):\\n        return len(self.items) == 0\\n\\nq = Queue()\\nq.enqueue(1)\\nq.enqueue(2)\\nprint(q.dequeue())  # Output: 1"
+  },
+  {
+    "prompt": "Write a Python function to check if a string is a palindrome",
+    "completion": "def is_palindrome(s):\\n    cleaned = ''.join(c.lower() for c in s if c.isalnum())\\n    return cleaned == cleaned[::-1]\\n\\nprint(is_palindrome('A man a plan a canal Panama'))  # Output: True"
+  },
+  {
+    "prompt": "Explain and implement merge sort in Python",
+    "completion": "Merge sort divides the array into halves, sorts them recursively, and merges. \\ndef merge_sort(arr):\\n    if len(arr) <= 1:\\n        return arr\\n    mid = len(arr) // 2\\n    left = merge_sort(arr[:mid])\\n    right = merge_sort(arr[mid:])\\n    return merge(left, right)\\n\\ndef merge(left, right):\\n    result = []\\n    i = j = 0\\n    while i < len(left) and j < len(right):\\n        if left[i] < right[j]:\\n            result.append(left[i])\\n            i += 1\\n        else:\\n            result.append(right[j])\\n            j += 1\\n    result.extend(left[i:])\\n    result.extend(right[j:])\\n    return result\\n\\nprint(merge_sort([3,1,4,1,5]))  # Output: [1, 1, 3, 4, 5]"
+  },
+  {
+    "prompt": "Create a REST API endpoint with Flask for user registration",
+    "completion": "from flask import Flask, request, jsonify\\napp = Flask(__name__)\\nusers = []\\n\\n@app.route('/register', methods=['POST'])\\ndef register():\\n    data = request.json\\n    users.append({'name': data['name'], 'email': data['email']})\\n    return jsonify({'message': 'User registered'}), 201\\n\\nif __name__ == '__main__':\\n    app.run(debug=True)"
+  },
+  {
+    "prompt": "How do I use threading in Python for concurrency?",
+    "completion": "Threading allows parallel execution. Example:\\nimport threading\\ndef worker(num):\\n    print(f'Worker {num}')\\n\\nthreads = []\\nfor i in range(5):\\n    t = threading.Thread(target=worker, args=(i,))\\n    threads.append(t)\\n    t.start()\\nfor t in threads:\\n    t.join()"
+  },
+  {
+    "prompt": "Implement a simple decision tree classifier from scratch",
+    "completion": "import numpy as np\\nclass DecisionTree:\\n    def __init__(self, max_depth=3):\\n        self.max_depth = max_depth\\n    def fit(self, X, y):\\n        self.tree_ = self._build_tree(X, y, depth=0)\\n    def _build_tree(self, X, y, depth):\\n        if depth >= self.max_depth or len(np.unique(y)) == 1:\\n            return np.bincount(y).argmax()\\n        # Simple split on first feature\\n        split = len(X) // 2\\n        left = self._build_tree(X[:split], y[:split], depth+1)\\n        right = self._build_tree(X[split:], y[split:], depth+1)\\n        return (left, right)\\n    def predict(self, X):\\n        return [self._predict_one(x) for x in X]\\n    def _predict_one(self, x):\\n        node = self.tree_\\n        while isinstance(node, tuple):\\n            left, right = node\\n            # Dummy split\\n            node = left if x[0] < 0.5 else right\\n        return node"
+  },
+  {
+    "prompt": "Create a Python script to scrape a webpage using BeautifulSoup",
+    "completion": "import requests\\nfrom bs4 import BeautifulSoup\\nresponse = requests.get('https://example.com')\\nsoup = BeautifulSoup(response.text, 'html.parser')\\ntitles = [h1.text for h1 in soup.find_all('h1')]\\nprint(titles)"
+  },
+  {
+    "prompt": "Implement a singleton design pattern in Python",
+    "completion": "class Singleton:\\n    _instance = None\\n    def __new__(cls):\\n        if cls._instance is None:\\n            cls._instance = super().__new__(cls)\\n        return cls._instance\\n\\ns1 = Singleton()\\ns2 = Singleton()\\nprint(s1 is s2)  # Output: True"
+  },
+  {
+    "prompt": "Create a Docker file for a Python Flask app",
+    "completion": "FROM python:3.9\\nWORKDIR /app\\nCOPY . .\\nRUN pip install -r requirements.txt\\nEXPOSE 5000\\nCMD ['python', 'app.py']"
+  },
+  {
+    "prompt": "Implement a graph using adjacency list in Python",
+    "completion": "from collections import defaultdict\\ngraph = defaultdict(list)\\ngraph['A'].append('B')\\ngraph['B'].append('A')\\nprint(graph)  # Output: {'A': ['B'], 'B': ['A']}"
+  },
+  {
+    "prompt": "Write a Python function for BFS traversal on a graph",
+    "completion": "from collections import deque\\ndef bfs(graph, start):\\n    visited = set()\\n    queue = deque([start])\\n    visited.add(start)\\n    while queue:\\n        vertex = queue.popleft()\\n        print(vertex)\\n        for neighbor in graph[vertex]:\\n            if neighbor not in visited:\\n                visited.add(neighbor)\\n                queue.append(neighbor)"
+  },
+  {
+    "prompt": "How do I handle big data with Dask in Python?",
+    "completion": "Dask parallelizes pandas/NumPy. Example: import dask.dataframe as dd; df = dd.read_csv('large.csv'); print(df.head())"
+  },
+  {
+    "prompt": "How do I prepare a JSONL dataset for fine-tuning GPT models in Python?",
+    "completion": "Use a list of dicts with 'prompt' and 'completion' keys, then save as JSONL:\\nimport json\\ntraining_data = [{'prompt': 'Q?', 'completion': 'A'}]\\nwith open('data.jsonl', 'w') as f:\\n    for entry in training_data:\\n        json.dump(entry, f)\\n        f.write('\\\\n')"
+  },
+  {
+    "prompt": "Write Python code to upload a fine-tuning file to OpenAI API",
+    "completion": "from openai import OpenAI\\nclient = OpenAI(api_key='your_key')\\nfile_id = client.files.create(file=open('data.jsonl', 'rb'), purpose='fine-tune').id\\nprint(file_id)"
+  },
+  {
+    "prompt": "Create a fine-tuning job for GPT-3.5 in Python using OpenAI",
+    "completion": "response = client.fine_tuning.jobs.create(\\n    training_file='file_id',\\n    model='gpt-3.5-turbo',\\n    hyperparameters={'n_epochs': 4}\\n)\\nprint(response.id)"
+  },
+  {
+    "prompt": "Explain how to monitor a fine-tuning job in OpenAI with Python",
+    "completion": "import time\\nstatus = client.fine_tuning.jobs.retrieve('job_id').status\\nwhile status not in ['succeeded', 'failed']:\\n    time.sleep(60)\\n    status = client.fine_tuning.jobs.retrieve('job_id').status\\n    print(f'Status: {status}')"
+  },
+  {
+    "prompt": "Evaluate a fine-tuned GPT model with a new prompt in Python",
+    "completion": "completion = client.chat.completions.create(\\n    model='ft:gpt-3.5-turbo:org:your_model',\\n    messages=[{'role': 'user', 'content': 'New prompt?'}]\\n)\\nprint(completion.choices[0].message.content)"
+  },
+  {
+    "prompt": "Implement LoRA for efficient fine-tuning in Python",
+    "completion": "from peft import LoRAConfig, get_peft_model, TaskType\\nconfig = LoRAConfig(task_type=TaskType.SEQ_2_SEQ_LM, r=8, lora_alpha=32)\\nmodel = get_peft_model(model, config)\\n# Proceed with Trainer"
+  },
+  {
+    "prompt": "Augment code dataset using paraphrasing in Python",
+    "completion": "from transformers import pipeline\\nparaphraser = pipeline('text2text-generation', model='t5-small')\\noriginal = 'def add(a, b): return a + b'\\naugmented = paraphraser(original, max_length=50)[0]['generated_text']"
+  },
+  {
+    "prompt": "Evaluate code generation with BLEU score in Python",
+    "completion": "from nltk.translate.bleu_score import sentence_bleu\\npred = ['def sort(lst): return sorted(lst)']\\nref = [['def', 'sort', 'lst', ':', 'return', 'sorted', 'lst']]\\nscore = sentence_bleu(ref, pred[0].split())\\nprint(score)"
+  },
+  {
+    "prompt": "Use Curator tool to generate synthetic code data",
+    "completion": "From GitHub: Curator builds pipelines for synthetic data. Example: Use LLMs to generate Python functions based on prompts like 'Write a sorting algo' for dataset expansion."
+  },
+  {
+    "prompt": "Filter duplicates in code dataset using SemHash",
+    "completion": "SemHash uses fuzzy dedup with embeddings. Install and run: from semhash import SemHash; sh = SemHash(); deduped = sh.dedup(dataset_texts, threshold=0.95)"
+  },
+  {
+    "prompt": "Explain ensemble methods in machine learning with a Python example using scikit-learn",
+    "completion": "Ensemble methods combine multiple models to improve performance. Example with Random Forest:\\nfrom sklearn.ensemble import RandomForestClassifier\\nfrom sklearn.datasets import make_classification\\nX, y = make_classification(n_samples=1000)\\nmodel = RandomForestClassifier(n_estimators=100)\\nmodel.fit(X, y)\\nprint(model.score(X, y))  # Outputs accuracy >0.95"
+  },
+  {
+    "prompt": "Implement gradient boosting with XGBoost in Python",
+    "completion": "Gradient boosting builds trees sequentially. Example:\\nimport xgboost as xgb\\nfrom sklearn.datasets import load_iris\\niris = load_iris()\\nmodel = xgb.XGBClassifier(n_estimators=100)\\nmodel.fit(iris.data, iris.target)\\nprint(model.score(iris.data, iris.target))  # High accuracy"
+  },
+  {
+    "prompt": "What is dimensionality reduction? Show PCA example in Python",
+    "completion": "Dimensionality reduction reduces features while retaining info. PCA example:\\nfrom sklearn.decomposition import PCA\\nfrom sklearn.datasets import load_iris\\niris = load_iris()\\npca = PCA(n_components=2)\\nX_pca = pca.fit_transform(iris.data)\\nprint(pca.explained_variance_ratio_)  # [0.73, 0.23]"
+  },
+  {
+    "prompt": "Create a stacking ensemble in Python using scikit-learn",
+    "completion": "Stacking uses meta-learner on base models. Example:\\nfrom sklearn.ensemble import StackingClassifier\\nfrom sklearn.linear_model import LogisticRegression\\nfrom sklearn.svm import SVC\\nbase = [('svm', SVC()), ('lr', LogisticRegression())]\\nstack = StackingClassifier(estimators=base, final_estimator=LogisticRegression())\\nstack.fit(X, y)"
+  },
+  {
+    "prompt": "Explain AdaBoost algorithm and implement in Python",
+    "completion": "AdaBoost focuses on misclassified samples. Example:\\nfrom sklearn.ensemble import AdaBoostClassifier\\nfrom sklearn.tree import DecisionTreeClassifier\\nmodel = AdaBoostClassifier(base_estimator=DecisionTreeClassifier(max_depth=1), n_estimators=50)\\nmodel.fit(X, y)\\nprint(model.score(X, y))"
+  },
+  {
+    "prompt": "Build a simple CNN for image classification in PyTorch",
+    "completion": "import torch.nn as nn\\nclass SimpleCNN(nn.Module):\\n    def __init__(self):\\n        super().__init__()\\n        self.conv1 = nn.Conv2d(1, 32, 3)\\n        self.fc = nn.Linear(32*26*26, 10)\\n    def forward(self, x):\\n        x = torch.relu(self.conv1(x))\\n        x = x.view(-1, 32*26*26)\\n        return self.fc(x)\\nmodel = SimpleCNN()"
+  },
+  {
+    "prompt": "Fine-tune a Vision Transformer in PyTorch for custom classification",
+    "completion": "from transformers import ViTForImageClassification\\nimport torch\\nmodel = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224', num_labels=10)\\noptimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)\\n# Train loop: for batch in dataloader: outputs = model(**batch); loss = outputs.loss; loss.backward()"
+  },
+  {
+    "prompt": "Create a transformer encoder in PyTorch from scratch",
+    "completion": "import torch.nn as nn\\nclass TransformerEncoder(nn.Module):\\n    def __init__(self, d_model=512, nhead=8):\\n        super().__init__()\\n        self.self_attn = nn.MultiheadAttention(d_model, nhead)\\n        self.feed_forward = nn.Sequential(nn.Linear(d_model, 2048), nn.ReLU(), nn.Linear(2048, d_model))\\n    def forward(self, x):\\n        attn = self.self_attn(x, x, x)[0]\\n        return self.feed_forward(attn)"
+  },
+  {
+    "prompt": "Implement Q-Learning for a grid world in Python",
+    "completion": "import numpy as np\\nQ = np.zeros((env_size, actions))\\nfor episode in range(1000):\\n    state = env.reset()\\n    while not done:\\n        action = np.argmax(Q[state])\\n        next_state, reward, done = env.step(action)\\n        Q[state, action] += alpha * (reward + gamma * np.max(Q[next_state]) - Q[state, action])\\n        state = next_state"
+  },
+  {
+    "prompt": "Build a Deep Q-Network (DQN) agent in Python with PyTorch",
+    "completion": "import torch.nn as nn\\nclass DQN(nn.Module):\\n    def __init__(self, state_size, action_size):\\n        super().__init__()\\n        self.fc1 = nn.Linear(state_size, 64)\\n        self.fc2 = nn.Linear(64, action_size)\\n    def forward(self, x):\\n        x = torch.relu(self.fc1(x))\\n        return self.fc2(x)\\n# Replay buffer and training loop: loss = (r + gamma * max Q(next) - Q(s,a))^2"
+  },
+  {
+    "prompt": "Explain policy gradient method and implement REINFORCE in Python",
+    "completion": "Policy gradients directly optimize policy params. REINFORCE:\\nclass Policy(nn.Module):\\n    def forward(self, x): return F.softmax(self.fc(x), dim=-1)\\nfor episode in episodes:\\n    log_probs = []\\n    rewards = []\\n    state = env.reset()\\n    while not done:\\n        probs = policy(state)\\n        action = torch.multinomial(probs, 1)\\n        log_probs.append(torch.log(probs[action]))\\n        state, reward, done = env.step(action)\\n        rewards.append(reward)\\n    returns = []  # Compute discounted returns\\n    loss = -sum(log_prob * ret for log_prob, ret in zip(log_probs, returns))"
+  },
+  {
+    "prompt": "Create an Actor-Critic model for continuous control in Python",
+    "completion": "class Actor(nn.Module):\\n    def forward(self, state): return torch.tanh(self.fc(state))  # Actions\\nclass Critic(nn.Module):\\n    def forward(self, state, action): return self.fc(torch.cat([state, action]))\\n# Update: actor_loss = -critic(state, action).mean(); critic_loss = (r + gamma * next_critic - critic)^2"
+  },
+  {
+    "prompt": "Implement Soft Actor-Critic (SAC) algorithm basics in Python",
+    "completion": "SAC maximizes entropy for exploration. Key: loss_actor = alpha * log_pi - Q(s,a); loss_critic = (r + gamma * (next_Q - alpha * next_log_pi) - Q)^2\\nUse two critics for stability. Entropy coeff alpha updated via target entropy = -action_dim"
+  },
+  {
+    "prompt": "Implement input validation with Pydantic in Python",
+    "completion": "from pydantic import BaseModel, validator\\nclass User(BaseModel):\\n    name: str\\n    age: int\\n    @validator('age')\\n    def check_age(cls, v):\\n        if v < 0:\\n            raise ValueError('Age must be positive')\\n        return v\\n\\nuser = User(name='Alice', age=25)"
+  },
+  {
+    "prompt": "Write a Python function for password hashing and salting",
+    "completion": "import hashlib\\nimport os\\nsalt = os.urandom(32)\\nkey = hashlib.pbkdf2_hmac('sha256', b'password', salt, 100000)\\nprint(key.hex())"
+  },
+  {
+    "prompt": "Explain async programming in Python with asyncio",
+    "completion": "Async allows concurrent I/O. Example:\\nimport asyncio\\nasync def fetch(url):\\n    await asyncio.sleep(1)\\n    return f'Data from {url}'\\nasync def main():\\n    tasks = [fetch(i) for i in range(3)]\\n    results = await asyncio.gather(*tasks)\\nprint(asyncio.run(main()))"
+  },
+  {
+    "prompt": "Implement a FastAPI endpoint with async support",
+    "completion": "from fastapi import FastAPI\\napp = FastAPI()\\n@app.get('/')\\nasync def root():\\n    return {'message': 'Hello World'}\\n# Run with uvicorn main:app --reload"
+  },
+  {
+    "prompt": "What is distributed computing in Python? Use Ray example",
+    "completion": "Distributed computing scales across machines. Ray: import ray; ray.init(); @ray.remote def compute(x): return x*x; futures = [compute.remote(i) for i in range(10)]; print(ray.get(futures))"
+  },
+  {
+    "prompt": "Integrate AWS S3 with Python boto3",
+    "completion": "import boto3\\ns3 = boto3.client('s3')\\ns3.upload_file('localfile.txt', 'mybucket', 'remfile.txt')\\nprint('Uploaded')"
+  },
+  {
+    "prompt": "Explain Docker multi-stage builds for Python apps",
+    "completion": "Multi-stage reduces image size. Dockerfile:\\nFROM python:3.9 as builder\\nCOPY . /app\\nRUN pip install -r requirements.txt\\nFROM python:3.9-slim\\nCOPY --from=builder /app /app"
+  },
+  {
+    "prompt": "Implement code review prompts for AI feedback",
+    "completion": "Prompt: 'Review this Python code for bugs, style, and efficiency: [code]'; Completion: 'Bug: Unhandled exception in line 5. Style: Use f-strings. Efficiency: O(n^2) can be O(n log n).'"
+  },
+  {
+    "prompt": "Explain MLOps pipeline with MLflow in Python",
+    "completion": "MLOps automates ML lifecycle. Example: import mlflow; mlflow.start_run(); mlflow.log_param('alpha', 0.1); mlflow.log_metric('accuracy', 0.95); mlflow.end_run()"
+  },
+  {
+    "prompt": "Build a simple CI/CD pipeline with GitHub Actions for Python",
+    "completion": ".github/workflows/ci.yml:\\nname: CI\\non: [push]\\njobs:\\n  test:\\n    runs-on: ubuntu-latest\\n    steps:\\n    - uses: actions/checkout@v2\\n    - run: pip install -r requirements.txt\\n    - run: pytest"
+  },
+  {
+    "prompt": "What are Python type hints and mypy usage?",
+    "completion": "Type hints add static types. Example: def add(a: int, b: int) -> int: return a + b; Check with mypy: mypy script.py"
+  },
+  {
+    "prompt": "Optimize Python code performance with Numba",
+    "completion": "Numba JIT compiles loops. from numba import jit; @jit def fast_sum(arr): s = 0; for i in arr: s += i; return s"
+  },
+  {
+    "prompt": "How to use WikiText dataset in Python for agentic reasoning tasks?",
+    "completion": "WikiText (~500 MB, 28k Wikipedia articles by Salesforce) trains models on long-range dependencies. For agents: Fine-tune for sustained reasoning in planning. Code: import torch; from torchtext.datasets import WikiText2; train_iter = WikiText2(split='train')"
+  },
+  {
+    "prompt": "Implement a basic agentic AI class in Python for tool use",
+    "completion": "class AgenticAI:\\n    def __init__(self):\\n        pass\\n    def access_data(self, source):\\n        # e.g., requests.get(source)\\n        pass\\n    def analyze_data(self, data):\\n        # e.g., process with LLM\\n        pass\\n    def generate_summary(self, analysis):\\n        return 'Summary'\\nagent = AgenticAI(); agent.access_data('api_url')"
+  },
+  {
+    "prompt": "Explain steps to set up an agentic AI environment in Python",
+    "completion": "1. Install Python/venv. 2. pip install numpy pandas torch. 3. Define agent purpose (e.g., reactive/learning). 4. Collect/clean data. 5. Train model (e.g., scikit-learn). 6. Integrate via API. 7. Test/deploy with Docker/K8s."
+  },
+  {
+    "prompt": "Code example for defining tools in an agentic AI system",
+    "completion": "from openai import OpenAI\\nclient = OpenAI()\\n@tool\\ndef search_web(query: str) -> str:\\n    # Implement search\\n    return 'Results'\\nagent = create_react_agent(model, tools=[search_web])"
+  },
+  {
+    "prompt": "Code for multi-agent orchestration with OpenAI Agents SDK",
+    "completion": "from agents import Agent, Runner\\nagent1 = Agent(name='researcher', instructions='Research...')\\nagent2 = Agent(name='writer', instructions='Write...')\\nrunner = Runner(agents=[agent1, agent2]); result = runner.run_sync('Task prompt')"
+  },
+  {
+    "prompt": "How to load and use OpenAI Gym environments for agent training in Python?",
+    "completion": "OpenAI Gym is a toolkit with 70+ simulated environments for benchmarking RL. Example: import gym; env = gym.make('CartPole-v1'); obs = env.reset(); action = env.action_space.sample(); next_obs, reward, done, _ = env.step(action). Source: gym.openai.com. For agents: Standardizes testing autonomous behaviors."
+  },
+  {
+    "prompt": "Code example: Fine-tune an agent on WebGPT dataset for web browsing",
+    "completion": "from datasets import load_dataset; ds = load_dataset('openai/webgpt'); # Preprocess sessions; Use in Trainer: trainer.train(). Size: ~10 GB. Source: openai.com/blog/webgpt. Relevance: Trains retrieval agents for dynamic web interactions."
+  },
+  {
+    "prompt": "Integrate MS MARCO for RAG in Python agent code",
+    "completion": "from datasets import load_dataset; marco = load_dataset('ms_marco', 'passage_ranking'); # Retrieve: top_k = retriever(marco, query). Size: ~100 GB. Source: huggingface.co/datasets/microsoft/ms_marco. For agents: Context-aware QA."
+  },
+  {
+    "prompt": "Load a federated learning dataset from Kaggle in Python",
+    "completion": "from kaggle.api.kaggle_api_extended import KaggleApi; api = KaggleApi(); api.authenticate(); api.dataset_download_files('wonghoitin/datasets-for-federated-learning', path='./fl_data', unzip=True)<grok:render card_id="
+  },
+  {
+    "prompt": "Implement a simple FedAvg algorithm in PyTorch for federated learning",
+    "completion": "import torch; from torch import nn; class FedAvg:\\n    def aggregate(self, client_models):\\n        global_model = client_models[0]\\n        for param in global_model.parameters():\\n            param.data = torch.mean(torch.stack([m[param].data for m in client_models]), dim=0)\\n        return global_model\\n# Usage: avg = FedAvg(); global_m = avg.aggregate([local1, local2])"
+  },
+  {
+    "prompt": "Use IEEE DataPort for federated learning datasets in Python",
+    "completion": "IEEE DataPort hosts FL datasets like LEAF or FEMNIST. Download: import requests; url = 'https://ieee-dataport.org/open-access/femnist-dataset'; response = requests.get(url); # Parse metadata for download links.<grok:render card_id="
+  },
+  {
+    "prompt": "Code to simulate federated learning clients in Python",
+    "completion": "import torch.nn as nn; class FLClient:\\n    def __init__(self, data):\\n        self.model = nn.Linear(784, 10)\\n        self.data = data\\n    def local_train(self, epochs=1):\\n        optimizer = torch.optim.SGD(self.model.parameters())\\n        for _ in range(epochs):\\n            # Train on self.data\\n            pass\\n        return self.model\\n# Simulate: clients = [FLClient(d) for d in split_data()]"
+  },
+  {
+    "prompt": "Implement bias detection in a dataset using Python for ethical AI",
+    "completion": "import pandas as pd; from sklearn.metrics import classification_report; df = pd.read_csv('dataset.csv'); # Group by sensitive attr; for group in df['gender'].unique(): print(classification_report(df[df['gender']==group]['y_true'], df[df['gender']==group]['y_pred'])) # Flag disparities >20%"
+  },
+  {
+    "prompt": "Code for auditing dataset fairness in Python",
+    "completion": "from aif360.datasets import BinaryLabelDataset; from aif360.metrics import BinaryLabelDatasetMetric; dataset = BinaryLabelDataset(df, label_names=['outcome'], protected_attribute_names=['race']); metric = BinaryLabelDatasetMetric(dataset); print(metric.disparity) # <0.1 ideal"
+  },
+  {
+    "prompt": "How to load PennyLane's conventional datasets for QML in Python?",
+    "completion": "PennyLane provides datasets like Iris for QML. Code: import pennylane as qml; from pennylane.datasets import load_dataset; ds = load_dataset(name='iris').to_numpy(). Source: pennylane.ai/datasets. Use: Hybrid quantum-classical ML experiments."
+  },
+  {
+    "prompt": "Code to load TCGA genomics dataset for AI",
+    "completion": "from datasets import load_dataset; ds = load_dataset('huggingface/tcga'); # Process RNA-seq: import pandas as pd; df = pd.DataFrame(ds['train']['rna_seq'])"
+  },
+  {
+    "prompt": "Code for simple neuro-symbolic reasoning in Python",
+    "completion": "from sympy import symbols, Eq; x = symbols('x'); eq = Eq(x**2 - 2, 0); print(eq.solve(x)) # Symbolic; Integrate with neural: torch.tensor([1.414]) # Approx sqrt(2)"
+  },
+  {
+    "prompt": "Code to analyze carbon footprint in AI training datasets",
+    "completion": "import pandas as pd; df = pd.read_csv('ai_energy.csv'); total_co2 = df['co2_kg'].sum(); print(f'Total CO2: {total_co2} kg'). From AI Hub for Sustainable Development."
+  },
+  {
+    "prompt": "Code for loading AR/VR simulation dataset in Python",
+    "completion": "from datasets import load_dataset; ds = load_dataset('ar_vr/simulations_2025'); sample = ds['train'][0]; print(sample['scene_data'])"
+  },
+  {
+    "prompt": "Code for integrating blockchain verification in AI dataset",
+    "completion": "from web3 import Web3; w3 = Web3(Web3.HTTPProvider('infura_url')); tx_hash = w3.eth.get_transaction('dataset_tx'); print(tx_hash['data_verified'])"
+  },
+  {
+    "prompt": "How to integrate sentiment analysis into user interactions with Fetch.ai agents?",
+    "completion": "Use TextBlob or VADER to analyze sentiment in user inputs. Example: Integrate into uAgents with a sentiment skill to adapt responses based on emotional tone."
+  },
+  {
+    "prompt": "Code example: Fetch.ai agent with sentiment-based responses",
+    "completion": "from uagents import Agent, Context\\nfrom textblob import TextBlob\\nclass SentimentAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        blob = TextBlob(msg)\\n        if blob.sentiment.polarity > 0:\\n            await ctx.send(sender, 'Glad you\u2019re positive!')\\n        else:\\n            await ctx.send(sender, 'Sorry to hear that.')\\nagent = SentimentAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to implement context retention in Fetch.ai agents?",
+    "completion": "Use uAgents' memory feature with a stateful skill. Store context in a dict and update it per interaction to maintain conversation flow across sessions."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent with context retention",
+    "completion": "from uagents import Agent, Context\\nclass ContextAgent(Agent):\\n    def __init__(self):\\n        super().__init__()\\n        self.context = {}\\n    async def on_message(self, ctx: Context, sender, msg):\\n        if sender not in self.context:\\n            self.context[sender] = []\\n        self.context[sender].append(msg)\\n        await ctx.send(sender, f'Context: {self.context[sender]}')\\nagent = ContextAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to add multi-turn dialogue to Fetch.ai agents?",
+    "completion": "Implement a state machine in uAgents to track dialogue stages. Use a protocol to manage turn-based exchanges and persist state for continuity."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent with multi-turn dialogue",
+    "completion": "from uagents import Agent, Context, Protocol\\nclass MultiTurnAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        if not hasattr(self, 'state') or self.state == 'start':\\n            await ctx.send(sender, 'Step 1: What\u2019s your goal?')\\n            self.state = 'step1'\\n        elif self.state == 'step1':\\n            await ctx.send(sender, f'Step 2: Processing {msg}')\\n            self.state = 'step2'\\nagent = MultiTurnAgent()\\nprotocol = Protocol('multi')\\nprotocol.add(agent)\\nprotocol.run()"
+  },
+  {
+    "prompt": "How to integrate voice interaction into Fetch.ai agents?",
+    "completion": "Use libraries like SpeechRecognition and pyttsx3. Convert voice to text, process with uAgents, and synthesize responses back to speech."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent with basic voice interaction",
+    "completion": "from uagents import Agent, Context\\nimport speech_recognition as sr\\nimport pyttsx3\\nclass VoiceAgent(Agent):\\n    async def on_interval(self, ctx: Context, _):\\n        recognizer = sr.Recognizer()\\n        with sr.Microphone() as source:\\n            audio = recognizer.listen(source)\\n            text = recognizer.recognize_google(audio)\\n            await ctx.send('self', f'You said: {text}')\\n        engine = pyttsx3.init()\\n        engine.say(f'You said: {text}')\\n        engine.runAndWait()\\nagent = VoiceAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "Code: Fetch.ai agent collecting user feedback",
+    "completion": "from uagents import Agent, Context\\nclass FeedbackAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        await ctx.send(sender, 'Rate 1-5: Was this helpful?')\\n        rating = await ctx.receive(sender)  # Assume async input\\n        with open('feedback.log', 'a') as f:\\n            f.write(f'{sender}: {rating}\\n')\\nagent = FeedbackAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to handle user intent recognition in Fetch.ai agents?",
+    "completion": "Use NLP libraries like spaCy or transformers to classify intents. Map intents to agent actions in a skill-based architecture."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent with intent recognition",
+    "completion": "from uagents import Agent, Context\\nimport spacy\\nnlp = spacy.load('en_core_web_sm')\\nclass IntentAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        doc = nlp(msg)\\n        intent = doc.ents[0].label_ if doc.ents else 'unknown'\\n        await ctx.send(sender, f'Intent: {intent}')\\nagent = IntentAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to add multilingual support to Fetch.ai agents?",
+    "completion": "Integrate a multilingual model like mBERT via transformers. Detect language with langdetect, then process accordingly."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent with multilingual support",
+    "completion": "from uagents import Agent, Context\\nfrom langdetect import detect\\nfrom transformers import pipeline\\nclass MultiLangAgent(Agent):\\n    translator = pipeline('translation', model='Helsinki-NLP/opus-mt-en-es')\\n    async def on_message(self, ctx: Context, sender, msg):\\n        lang = detect(msg)\\n        if lang != 'en':\\n            msg = self.translator(msg)[0]['translation_text']\\n        await ctx.send(sender, f'Translated: {msg}')\\nagent = MultiLangAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to integrate OpenStreetMap data into a Fetch.ai agent?",
+    "completion": "Use osmnx to fetch OSM data. Example: Process coordinates for agent navigation tasks within uAgents."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent using OpenStreetMap for navigation",
+    "completion": "from uagents import Agent, Context\\nimport osmnx as ox\\ng = ox.graph_from_place('Chicago, USA')\\nclass NavAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        node = ox.nearest_nodes(g, msg['lat'], msg['lon'])\\n        await ctx.send(sender, f'Nearest node: {node}')\\nagent = NavAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to use Twitter Sentiment140 with Fetch.ai agents?",
+    "completion": "Load dataset, preprocess tweets, and train a sentiment model. Integrate into uAgents for real-time social media analysis."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent analyzing Twitter sentiment",
+    "completion": "from uagents import Agent, Context\\nimport pandas as pd\\nclass TweetAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        df = pd.read_csv('sentiment140.csv')\\n        sentiment = df[df['text'] == msg]['sentiment'].iloc[0]\\n        await ctx.send(sender, f'Sentiment: {sentiment}')\\nagent = TweetAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to leverage KITTI dataset for Fetch.ai autonomous agents?",
+    "completion": "Process sensor data with computer vision models and integrate into uAgents for real-time decision-making in autonomous systems."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent processing KITTI sensor data",
+    "completion": "from uagents import Agent, Context\\nimport cv2\\nclass DriveAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        img = cv2.imread(msg['image_path'])\\n        # Process image (e.g., edge detection)\\n        await ctx.send(sender, 'Processed image data')\\nagent = DriveAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to integrate Enron Email dataset with Fetch.ai agents?",
+    "completion": "Preprocess emails for NLP tasks, then use uAgents to automate responses or detect business intents."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent analyzing Enron emails",
+    "completion": "from uagents import Agent, Context\\nimport pandas as pd\\nclass EmailAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        df = pd.read_csv('enron.csv')\\n        subject = df[df['email'] == msg]['subject'].iloc[0]\\n        await ctx.send(sender, f'Subject: {subject}')\\nagent = EmailAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to use MovieLens with Fetch.ai for personalized recommendations?",
+    "completion": "Build a collaborative filtering model, then integrate into uAgents to deliver personalized movie suggestions."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent with MovieLens recommendations",
+    "completion": "from uagents import Agent, Context\\nimport pandas as pd\\nclass RecAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        df = pd.read_csv('movielens.csv')\\n        rec = df[df['user'] == msg['user_id']]['movie'].head(1).iloc[0]\\n        await ctx.send(sender, f'Recommendation: {rec}')\\nagent = RecAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to integrate ImageNet with Fetch.ai visual agents?",
+    "completion": "Use a pre-trained model like ResNet, fine-tune on ImageNet, and deploy in uAgents for visual tasks."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent with ImageNet classification",
+    "completion": "from uagents import Agent, Context\\nfrom torchvision import models\\nclass ImageAgent(Agent):\\n    model = models.resnet50(pretrained=True)\\n    async def on_message(self, ctx: Context, sender, img_path):\\n        # Process image with model\\n        await ctx.send(sender, 'Classified: [placeholder]')\\nagent = ImageAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "How to use Financial Phrasebank with Fetch.ai financial agents?",
+    "completion": "Train a sentiment classifier on the dataset, then integrate into uAgents for real-time market sentiment analysis."
+  },
+  {
+    "prompt": "Code: Fetch.ai agent analyzing financial sentiment",
+    "completion": "from uagents import Agent, Context\\nimport pandas as pd\\nclass FinanceAgent(Agent):\\n    async def on_message(self, ctx: Context, sender, msg):\\n        df = pd.read_csv('financial_phrasebank.csv')\\n        sentiment = df[df['sentence'] == msg]['sentiment'].iloc[0]\\n        await ctx.send(sender, f'Sentiment: {sentiment}')\\nagent = FinanceAgent()\\nagent.run()"
+  },
+  {
+    "prompt": "Write a JavaScript function to validate an email address using a regular expression.",
+    "completion": "You can use a regular expression to check if a string matches the standard email format. This function returns `true` for valid emails and `false` otherwise.\n\n```javascript\nfunction validateEmail(email) {\n  const regex = /^(([^<>()[\\]\\\\.,;:\\s@\\\"]+(\\.[^<>()[\\]\\\\.,;:\\s@\\\"]+)*)|(\\\".+\\\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;\n  return regex.test(String(email).toLowerCase());\n}\n\n// Example Usage:\nconsole.log(validateEmail('test@example.com')); // true\nconsole.log(validateEmail('invalid-email')); // false\n```"
+  },
+  {
+    "prompt": "How do I fetch data from an API in JavaScript using async/await?",
+    "completion": "Using `async/await` with the `fetch` API makes asynchronous code look and behave more like synchronous code, which is easier to read and debug. Remember to handle potential errors with a `try...catch` block.\n\n```javascript\nasync function getData(url) {\n  try {\n    const response = await fetch(url);\n    if (!response.ok) {\n      throw new Error(`HTTP error! Status: ${response.status}`);\n    }\n    const data = await response.json();\n    console.log(data);\n    return data;\n  } catch (error) {\n    console.error('Error fetching data:', error);\n  }\n}\n\n// Example Usage:\ngetData('[https://api.github.com/users/google](https://api.github.com/users/google)');\n```"
+  },
+  {
+    "prompt": "Explain the concept of ownership in Rust with a code example.",
+    "completion": "Rust's ownership system ensures memory safety without a garbage collector. Key rules are:\n1. Each value has a variable that's its owner.\n2. There can only be one owner at a time.\n3. When the owner goes out of scope, the value is dropped.\n\n```rust\nfn main() {\n    let s1 = String::from(\"hello\"); // s1 is the owner\n    let s2 = s1; // Ownership of the string is moved to s2\n\n    // The line below would cause a compile-time error because s1 is no longer the owner.\n    // println!(\"{}\", s1); \n\n    println!(\"{}\", s2); // This is valid\n} // s2 goes out of scope, and the memory is freed.\n```"
+  },
+  {
+    "prompt": "I'm getting a 'TypeError: unsupported operand type(s) for +: 'int' and 'str'' in Python. What does this mean and how do I fix it?",
+    "completion": "That's a very common error! It means you're trying to add a number (an integer) to a piece of text (a string). Python doesn't know how to combine them mathematically.\n\n**Common Cause:** Often, this happens when you get input from a user, because `input()` always gives you a string.\n\n**How to Fix:** You need to convert the string to a number using `int()`, or the number to a string using `str()`.\n\n**Example Fix:**\n```python\n# The Error\nuser_input = input('Enter a number: ') # user_input is a string, e.g., '5'\nresult = 10 + user_input # This causes the TypeError\n\n# The Fix\nuser_input = input('Enter a number: ')\nresult = 10 + int(user_input) # Convert the string to an integer\nprint(result)\n```"
+  },
+  {
+    "prompt": "My JavaScript code says 'Uncaught TypeError: Cannot read properties of undefined (reading 'map')'. What's wrong?",
+    "completion": "This error is very common in JavaScript, especially with APIs! It means you are trying to use a method like `.map()` on a variable that is `undefined` instead of an array.\n\n**Common Cause:** This often happens when you fetch data from an API and try to use it before it has finished loading, or if the API didn't return the data in the format you expected.\n\n**How to Fix:**\n1.  **Check your data:** Make sure the variable is actually an array before you use `.map()`.\n2.  **Add a guard:** You can use an `if` statement or optional chaining (`?.`) to prevent the error.\n\n**Example Fix:**\n```javascript\n// The Error\nlet data; // 'data' is undefined\nconst items = data.map(item => item.name);\n\n// The Fix (with a check)\nlet data = []; // or data = fetchDataFromApi();\nconst items = Array.isArray(data) ? data.map(item => item.name) : [];\n\n// The Fix (with optional chaining)\nconst items = data?.map(item => item.name) ?? []; // If data is undefined, it returns an empty array\n```"
+  },
+  {
+    "prompt": "I have a Python list called `my_list` with 3 items. Why do I get an 'IndexError: list index out of range' when I try to access `my_list[3]`?",
+    "completion": "That's a classic off-by-one error, and every programmer makes it! In Python and many other languages, list indices start counting from 0, not 1.\n\nFor a list with 3 items, the valid indices are:\n- `my_list[0]` (the first item)\n- `my_list[1]` (the second item)\n- `my_list[2]` (the third item)\n\nWhen you ask for `my_list[3]`, you're asking for a fourth item that doesn't exist, which causes the `IndexError`. To get the last item, you should use index `2` or, more safely, `my_list[-1]`."
+  },
+  {
+    "prompt": "How do I make a `fetch` request from my React frontend to my Python Flask backend?",
+    "completion": "Great question! This involves two parts. On your Flask backend, you need an API endpoint. On your React frontend, you use the `fetch` API, often inside a `useEffect` hook to load data when the component mounts.\n\n**1. Flask Backend (e.g., `api.py`):**\n```python\nfrom flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/api/data')\ndef get_data():\n    return jsonify({'message': 'Hello from your Flask backend!'})\n```\n\n**2. React Frontend (e.g., `App.js`):**\n```jsx\nimport React, { useState, useEffect } from 'react';\n\nfunction App() {\n  const [message, setMessage] = useState('');\n\n  useEffect(() => {\n    fetch('/api/data') // Assumes the frontend and backend are served on the same origin\n      .then(response => response.json())\n      .then(data => setMessage(data.message));\n  }, []);\n\n  return <h1>{message}</h1>;\n}\n\nexport default App;\n```\n**Important:** For this to work in development, you'll often need to set up a proxy in your React app's `package.json` to avoid CORS errors: `\"proxy\": \"http://127.0.0.1:5000\"`."
+  },
+  {
+    "prompt": "I need help with my school assignment. Can you write the code for me to solve this algorithm problem?",
+    "completion": "I can definitely help you with your assignment, but I can't write the code for you directly, as that would be academic dishonesty. My goal is to help you learn and solve the problem yourself.\n\nLet's work through it together! Can you show me the problem description? I can help you break it down into smaller steps, explain the key concepts, provide pseudo-code, and help you debug your own implementation. That way, you'll understand the solution completely."
+  },
+  {
+    "prompt": "Write a simple Dockerfile for a Python Flask application.",
+    "completion": "Of course. This `Dockerfile` sets up a Python environment, installs dependencies from `requirements.txt`, copies your application code, and specifies the command to run the Flask server.\n\n```dockerfile\n# Use an official Python runtime as a parent image\nFROM python:3.10-slim\n\n# Set the working directory in the container\nWORKDIR /app\n\n# Copy the dependencies file to the working directory\nCOPY requirements.txt .\n\n# Install any needed packages specified in requirements.txt\nRUN pip install --no-cache-dir -r requirements.txt\n\n# Copy the rest of the application's code\nCOPY . .\n\n# Make port 5000 available to the world outside this container\nEXPOSE 5000\n\n# Define environment variable\nENV NAME World\n\n# Run app.py when the container launches\nCMD [\"python\", \"app.py\"]\n```\n**To use it:** Place this file named `Dockerfile` in your project root, then run `docker build -t my-flask-app .` to build the image."
+  },
+  {
+    "prompt": "Create a basic GitHub Actions workflow to automatically test a Python project on every push.",
+    "completion": "This is a great practice for ensuring code quality! You can create a file at `.github/workflows/ci.yml` in your project to set this up. This workflow will trigger on every push, check out your code, set up Python, install dependencies, and run your tests using `pytest`.\n\n```yaml\n# .github/workflows/ci.yml\n\nname: Python CI\n\non:\n  push:\n    branches: [ main ]\n  pull_request:\n    branches: [ main ]\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n\n    steps:\n    - name: Check out code\n      uses: actions/checkout@v3\n\n    - name: Set up Python 3.10\n      uses: actions/setup-python@v3\n      with:\n        python-version: '3.10'\n\n    - name: Install dependencies\n      run: |\n        python -m pip install --upgrade pip\n        pip install -r requirements.txt\n\n    - name: Run tests with pytest\n      run: |\n        pip install pytest\n        pytest\n```"
+  },
+  {
+    "prompt": "Explain what mocking is in unit testing and why it's useful. Show a Python example.",
+    "completion": "Mocking is the practice of replacing real objects or functions with 'fake' versions during a test. These fake objects, or mocks, return predefined values, allowing you to test a piece of code in isolation from its dependencies.\n\n**Why it's useful:**\n- **Isolation:** You can test a function without relying on a database, an external API, or the filesystem.\n- **Speed:** Mocking avoids slow network or disk operations, making tests run much faster.\n- **Control:** You can simulate specific scenarios, like an API failure or an empty database, to see how your code handles them.\n\n**Python Example (using `unittest.mock`):**\n```python\nimport unittest\nfrom unittest.mock import MagicMock\n\n# Imagine this function calls an external API\ndef get_user_data(user_id):\n    # In a real app, this would make an HTTP request\n    response = api_call(f'/users/{user_id}')\n    return response.json()\n\nclass TestUserData(unittest.TestCase):\n    def test_get_user_data(self):\n        # Create a mock for the api_call function\n        global api_call\n        api_call = MagicMock()\n\n        # Define what the mock should return\n        api_call.return_value.json.return_value = {'name': 'Mark', 'id': 1}\n\n        # Call our function\n        user = get_user_data(1)\n\n        # Assert that our function behaved as expected\n        self.assertEqual(user['name'], 'Mark')\n        api_call.assert_called_with('/users/1') # Verify the API was called correctly\n```"
+  },
+  {
+    "prompt": "Explain the `useState` and `useEffect` hooks in React with a simple counter example.",
+    "completion": "`useState` and `useEffect` are the two most fundamental hooks in modern React.\n\n- **`useState`**: This hook lets you add state (memory) to your functional components. You give it an initial value, and it returns the current state value and a function to update it.\n\n- **`useEffect`**: This hook lets you perform side effects in your components. Side effects are actions that interact with the outside world, like fetching data from an API, setting up a subscription, or manually changing the DOM. It runs after every render by default.\n\n**Counter Example:**\nThis component uses `useState` to track the `count` and `useEffect` to update the document title whenever the count changes.\n```jsx\nimport React, { useState, useEffect } from 'react';\n\nfunction Counter() {\n  // useState: 'count' is our state variable, 'setCount' is the function to update it.\n  const [count, setCount] = useState(0);\n\n  // useEffect: This function will run after the component renders.\n  // The [count] dependency array means it will only re-run if 'count' changes.\n  useEffect(() => {\n    document.title = `You clicked ${count} times`;\n  }, [count]);\n\n  return (\n    <div>\n      <p>You clicked {count} times</p>\n      <button onClick={() => setCount(count + 1)}>\n        Click me\n      </button>\n    </div>\n  );\n}\n\nexport default Counter;\n```"
+  },
+  {
+    "prompt": "How do I pass data from a parent component to a child component in React?",
+    "completion": "You pass data from a parent to a child using **props** (short for 'properties'). Props are read-only and allow you to make your components reusable and dynamic.\n\n**Steps:**\n1.  In the parent component, when you render the child component, add an attribute (the prop) with the data you want to pass.\n2.  In the child component, access the passed data through the `props` object that is passed as the first argument to the function.\n\n**Example:**\n\n**Child Component (`Greeting.js`):**\n```jsx\n// This component receives 'name' and 'message' as props.\nfunction Greeting(props) {\n  return <h1>{props.message}, {props.name}!</h1>;\n}\n\nexport default Greeting;\n```\n\n**Parent Component (`App.js`):**\n```jsx\nimport React from 'react';\nimport Greeting from './Greeting';\n\nfunction App() {\n  // We pass 'name' and 'message' props to the Greeting component.\n  return (\n    <div>\n      <Greeting name=\"Alice\" message=\"Welcome\" />\n      <Greeting name=\"Bob\" message=\"Hello\" />\n    </div>\n  );\n}\n\nexport default App;\n```"
+  },
+  {
+    "prompt": "What's the best way to give a constructive code review?",
+    "completion": "Giving a great code review is a skill that balances technical feedback with respectful communication. The goal is to improve the code, not to criticize the author.\n\nHere is a good framework to follow:\n\n1.  **Understand the Goal:** First, understand what the author was trying to achieve with their code. Read the pull request description and test the changes if possible.\n2.  **Be Kind and Positive:** Start with a positive comment. Acknowledge the effort and point out something you liked about the change.\n3.  **Be Specific and Actionable:** Instead of saying 'This is confusing,' say 'Could we rename the variable `d` to `elapsed_time_in_seconds` for clarity?'\n4.  **Ask Questions, Don't Make Demands:** Phrase your feedback as suggestions or questions. 'What do you think about handling this edge case here?' is better than 'You forgot to handle the edge case.'\n5.  **Automate the Small Stuff:** Use tools like linters and formatters to automatically catch style issues. The code review should focus on logic, architecture, and potential bugs, not on where a comma should go.\n6.  **Provide Examples:** If you suggest a different approach, provide a small code snippet to illustrate your point."
+  },
+  {
+    "prompt": "In Python, when should I use a dictionary versus a list?",
+    "completion": "Choosing between a list and a dictionary depends entirely on how you need to access your data.\n\n**Use a `list` when:**\n- **Order matters.** Lists maintain the insertion order of elements.\n- You need to access elements by their integer position (index), like `my_list[0]`.\n- You have a simple collection of items.\n- *Performance:* Checking for an item's existence (`item in my_list`) is slow, taking O(n) time, because it may have to scan the whole list.\n\n**Use a `dict` (dictionary) when:**\n- **You need to look up data by a unique key.** This is the primary use case. The key can be a string, number, or tuple.\n- Order does not matter (though in modern Python 3.7+, dictionary order is preserved).\n- You are storing key-value pairs, like associating a user's name with their ID.\n- *Performance:* Looking up a value by its key (`my_dict['key']`) is very fast, taking O(1) time on average, regardless of the dictionary's size."
+  },
+  {
+    "prompt": "What is a good directory structure for a standard Python project?",
+    "completion": "A well-organized project structure is essential for maintainability. Here is a standard and scalable layout for a Python application:\n\n```\nmy_project/\n\u251c\u2500\u2500 .gitignore         # Tells Git which files to ignore\n\u251c\u2500\u2500 README.md          # Project description and setup instructions\n\u251c\u2500\u2500 requirements.txt   # List of project dependencies\n\u251c\u2500\u2500 src/               # Main source code directory\n\u2502   \u251c\u2500\u2500 __init__.py    # Makes 'src' a package\n\u2502   \u251c\u2500\u2500 main.py        # Main application entry point\n\u2502   \u2514\u2500\u2500 my_module/     # A module with related functions\n\u2502       \u251c\u2500\u2500 __init__.py\n\u2502       \u2514\u2500\u2500 helpers.py\n\u2514\u2500\u2500 tests/             # Directory for all tests\n    \u251c\u2500\u2500 __init__.py\n    \u2514\u2500\u2500 test_helpers.py  # Tests for the helpers module\n```\n\n**Explanation of Key Parts:**\n- **`src/`**: Putting your main code in a `src` directory separates it from other project files (like tests, docs, config) and prevents common import issues.\n- **`requirements.txt`**: This file lists all the Python libraries your project needs. You can install them all at once using `pip install -r requirements.txt`.\n- **`tests/`**: All your test code should live here, separate from your application code. This makes it easy to run tests and keeps your application logic clean.\n- **`.gitignore`**: This file tells Git to ignore temporary files, such as Python's `__pycache__` directories, virtual environment folders, and secret files."
+  },
+  {
+    "prompt": "What is 'prop drilling' in React and how can I avoid it?",
+    "completion": "'Prop drilling' is a term for when you have to pass props down through multiple layers of nested components, even when the components in the middle don't need the data themselves. It can make code hard to read and maintain.\n\n**The Problem (Prop Drilling):**\n```\n<ParentComponent>\n  <ChildComponent data={data} />\n</ParentComponent>\n\n// ChildComponent doesn't use 'data', it just passes it down.\nfunction ChildComponent({ data }) {\n  return <GrandchildComponent data={data} />;\n}\n\n// Only the Grandchild actually needs the data.\nfunction GrandchildComponent({ data }) {\n  return <p>{data}</p>;\n}\n```\n\n**The Solution (React Context):**\nReact's Context API is the built-in solution for this. It allows you to create a global 'provider' for some state, and any child component in the tree can 'consume' it directly, without needing props passed through every level.\n\n**Example Fix:**\n```jsx\nimport React, { createContext, useContext } from 'react';\n\n// 1. Create a Context\nconst DataContext = createContext();\n\n// 2. Create a Provider component to wrap your app\nfunction DataProvider({ children }) {\n  const data = 'This is the shared data!';\n  return <DataContext.Provider value={data}>{children}</DataContext.Provider>;\n}\n\n// 3. The parent component uses the Provider\nfunction ParentComponent() {\n  return (\n    <DataProvider>\n      <ChildComponent />\n    </DataProvider>\n  );\n}\n\n// 4. The Grandchild can now consume the context directly\nfunction GrandchildComponent() {\n  const data = useContext(DataContext);\n  return <p>{data}</p>;\n}\n\n// The ChildComponent is now much simpler!\nfunction ChildComponent() {\n  return <GrandchildComponent />;\n}\n```\nFor very complex state, libraries like Redux or Zustand are also popular solutions."
+  },
+  {
+    "prompt": "How can I create a simple bar chart from a dictionary using Matplotlib in Python?",
+    "completion": "Matplotlib is a powerful library for creating static, animated, and interactive visualizations. You can easily create a bar chart from a dictionary by extracting its keys for the x-axis and its values for the y-axis.\\n\\n**Steps:**\\n1.  Import `matplotlib.pyplot`.\\n2.  Define your data dictionary.\\n3.  Use `plt.bar()` to create the chart.\\n4.  Add labels and a title for clarity.\\n5.  Use `plt.show()` to display the chart.\\n\\n**Example Code:**\\n```python\\nimport matplotlib.pyplot as plt\\n\\n# Data: Sales figures for different products\\nproduct_sales = {\\n    'Keyboards': 120,\\n    'Mice': 95,\\n    'Monitors': 210,\\n    'Webcams': 75\\n}\\n\\n# Extract keys (products) and values (sales)\\nproducts = list(product_sales.keys())\\nsales = list(product_sales.values())\\n\\n# Create the bar chart\\nplt.figure(figsize=(8, 5)) # Optional: Adjust figure size\\nplt.bar(products, sales, color='skyblue')\\n\\n# Add labels and title\\nplt.xlabel('Product Category')\\nplt.ylabel('Units Sold')\\nplt.title('Product Sales in Q3')\\n\\n# Display the plot\\nplt.show()\\n```"
+  },
+  {
+    "prompt": "Write a Python script to upload a file to an AWS S3 bucket using the `boto3` library.",
+    "completion": "Certainly. To do this, you'll need `boto3` installed (`pip install boto3`) and your AWS credentials configured (usually via `aws configure` or environment variables). This script creates an S3 client and uses the `upload_file` method.\\n\\n```python\\nimport boto3\\nfrom botocore.exceptions import NoCredentialsError\\n\\ndef upload_to_s3(file_name, bucket, object_name=None):\\n    \\"
+  },
+  {
+    "prompt": "How can I use `boto3` in Python to list all my running EC2 instances?",
+    "completion": "You can use `boto3` to interact with the EC2 service. The script below creates an EC2 resource, then filters instances based on their state to find only the ones that are 'running'. It then prints out the ID and type of each running instance.\\n\\nMake sure your AWS credentials are configured before running.\\n\\n```python\\nimport boto3\\n\\ndef list_running_ec2_instances():\\n    \\"
+  },
+  {
+    "prompt": "How do I parse an XML file in Python?",
+    "completion": "You can parse XML in Python using the built-in `xml.etree.ElementTree` library. It treats the XML document as a tree of nodes that you can iterate through.\\n\\n**Sample XML (`data.xml`):**\\n```xml\\n<users>\\n    <user id=\\"
+  },
+  {
+    "prompt": "How do I read and write a YAML configuration file in Python?",
+    "completion": "YAML is a human-readable data format often used for configuration files. Python does not have a built-in YAML library, but the most popular one is `PyYAML`.\\n\\n**First, install it:** `pip install pyyaml`\\n\\n**Sample YAML (`config.yaml`):**\\n```yaml\\ndatabase:\\n  host: localhost\\n  port: 5432\\n  user: admin\\n\\napi_keys:\\n  - key123\\n  - key456\\n```\\n\\n**Python Code:**\\n```python\\nimport yaml\\n\\n# --- Read from a YAML file ---\\ntry:\\n    with open('config.yaml', 'r') as file:\\n        config = yaml.safe_load(file)\\n        print(\\"
+  },
+  {
+    "prompt": "How do I manage project dependencies in Python with pip and a `requirements.txt` file?",
+    "completion": "Proper dependency management ensures that your project runs reliably on any machine. The standard workflow uses a virtual environment and a `requirements.txt` file.\n\n**1. Create a Virtual Environment:**\nThis isolates your project's dependencies from your global Python installation.\n```bash\n# Create the environment (e.g., named 'venv')\npython -m venv venv\n\n# Activate it\n# On Windows:\n# venv\\Scripts\\activate\n# On macOS/Linux:\nsource venv/bin/activate\n```\n\n**2. Install Packages:**\nAs you need new libraries, install them with `pip`.\n```bash\npip install requests\npip install flask\n```\n\n**3. Generate `requirements.txt`:**\nThis command, `pip freeze`, records all the packages (and their exact versions) currently installed in your virtual environment into a file.\n```bash\npip freeze > requirements.txt\n```\n\n**4. Share and Recreate:**\nWhen another developer (or a server) gets your project, they can perfectly recreate the environment with one command:\n```bash\npip install -r requirements.txt\n```\nThis workflow is essential for collaboration and reliable deployments."
+  },
+  {
+    "prompt": "What is the difference between I/O-bound and CPU-bound tasks, and how does it relate to asynchronous programming?",
+    "completion": "Understanding this difference is key to knowing when to use `async` programming.\\n\\n- **I/O-Bound Tasks:** These are tasks where the program spends most of its time **waiting** for something to happen, like a network request to complete, a database query to return, or a file to be read from a disk. The CPU is mostly idle during this wait time.\\n  - **Example:** Fetching data from an API.\\n  - **Best for `async`:** Asynchronous programming is perfect for I/O-bound tasks. While one task is waiting for the network, the program can switch to another task, making efficient use of the CPU's idle time.\\n\\n- **CPU-Bound Tasks:** These are tasks that require active computation from the CPU for the entire duration. The program is not waiting; it's actively crunching numbers.\\n  - **Example:** Calculating the 50,000th Fibonacci number, compressing a large file, or processing a huge image.\\n  - **Not ideal for `async` (in a single thread):** In a single-threaded environment like Node.js, an `async` function for a CPU-bound task won't provide a benefit because it will still block the main thread while it's calculating. For these tasks, you need true parallelism using **multi-processing** (worker threads) to run them on different CPU cores."
+  },
+  {
+    "prompt": "How can I read and write CSV files in Python using the built-in `csv` module?",
+    "completion": "While libraries like `pandas` are great for data analysis, the built-in `csv` module is lightweight and perfect for row-by-row processing without loading the whole file into memory.\\n\\n**Writing to a CSV file:**\\nUse `csv.DictWriter` to easily write a list of dictionaries. It handles writing the header row for you.\\n```python\\nimport csv\\n\\ndata_to_write = [\\n    {'name': 'Alice', 'score': 95, 'id': 1},\\n    {'name': 'Bob', 'score': 88, 'id': 2}\\n]\\n\\nfieldnames = ['id', 'name', 'score']\\n\\nwith open('students.csv', 'w', newline='') as csvfile:\\n    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)\\n    \\n    writer.writeheader()\\n    writer.writerows(data_to_write)\\n\\nprint(\\"
+  },
+  {
+    "prompt": "What\u2019s the difference between synchronous and asynchronous code?",
+    "completion": "Synchronous waits for each task to finish before starting the next. Asynchronous allows multiple tasks to progress without waiting."
+  },
+  {
+    "prompt": "Write a Python function to reverse a string.",
+    "completion": "```python\\ndef reverse_string(s):\\n    return s[::-1]\\n```"
+  },
+  {
+    "prompt": "Implement binary search in Python.",
+    "completion": "```python\\ndef binary_search(arr, target):\\n    left, right = 0, len(arr)-1\\n    while left <= right:\\n        mid = (left + right) // 2\\n        if arr[mid] == target:\\n            return mid\\n        elif arr[mid] < target:\\n            left = mid + 1\\n        else:\\n            right = mid - 1\\n    return -1\\n```"
+  },
+  {
+    "prompt": "Design a REST API for a blogging platform.",
+    "completion": "Endpoints: \\n- GET /posts \u2192 list posts\\n- POST /posts \u2192 create new post\\n- GET /posts/{id} \u2192 get one\\n- PUT /posts/{id} \u2192 update post\\n- DELETE /posts/{id} \u2192 delete post"
+  },
+  {
+    "prompt": "Implement the Singleton pattern in Python.",
+    "completion": "```python\\nclass Singleton:\\n    _instance = None\\n    def __new__(cls, *args, **kwargs):\\n        if not cls._instance:\\n            cls._instance = super().__new__(cls)\\n        return cls._instance\\n```"
+  },
+  {
+    "prompt": "Write a Python function to fetch JSON from a URL.",
+    "completion": "```python\\nimport requests\\n\\ndef fetch_json(url):\\n    response = requests.get(url)\\n    return response.json()\\n```"
+  },
+  {
+    "prompt": "Implement quicksort in Python.",
+    "completion": "```python\\ndef quicksort(arr):\\n    if len(arr) <= 1:\\n        return arr\\n    pivot = arr[len(arr)//2]\\n    left = [x for x in arr if x < pivot]\\n    middle = [x for x in arr if x == pivot]\\n    right = [x for x in arr if x > pivot]\\n    return quicksort(left) + middle + quicksort(right)\\n```"
+  },
+  {
+    "prompt": "Write a Python function using recursion to calculate factorial.",
+    "completion": "```python\\ndef factorial(n):\\n    if n == 0:\\n        return 1\\n    return n * factorial(n-1)\\n```"
+  },
+  {
+    "prompt": "Implement a simple logging system in Python.",
+    "completion": "```python\\nimport logging\\n\\nlogging.basicConfig(level=logging.INFO)\\nlogging.info(\\"
+  },
+  {
+    "prompt": "Explain how garbage collection works in Python.",
+    "completion": "Python uses reference counting and a cyclic garbage collector. When no references remain to an object, it is automatically cleaned up."
+  },
+  {
+    "prompt": "Write a Python class that implements a stack.",
+    "completion": "```python\\nclass Stack:\\n    def __init__(self):\\n        self.items = []\\n    def push(self, item):\\n        self.items.append(item)\\n    def pop(self):\\n        return self.items.pop()\\n```"
+  },
+  {
+    "prompt": "What is event-driven programming?",
+    "completion": "Event-driven programming executes code in response to events (user clicks, network responses). Examples: Node.js, GUI frameworks."
+  },
+  {
+    "prompt": "Write Python code to connect to a SQLite database and create a table.",
+    "completion": "```python\\nimport sqlite3\\nconn = sqlite3.connect('my.db')\\nc = conn.cursor()\\nc.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER, name TEXT)')\\nconn.commit()\\nconn.close()\\n```"
+  },
+  {
+    "prompt": "Implement a producer-consumer queue in Python using `queue.Queue`.",
+    "completion": "```python\\nimport queue, threading\\n\\nq = queue.Queue()\\n\\ndef producer():\\n    for i in range(5):\\n        q.put(i)\\n\\ndef consumer():\\n    while not q.empty():\\n        print(q.get())\\n\\nthreading.Thread(target=producer).start()\\nthreading.Thread(target=consumer).start()\\n```"
+  },
+  {
+    "prompt": "Write a Python context manager for opening/closing files.",
+    "completion": "```python\\nclass FileOpener:\\n    def __init__(self, filename):\\n        self.filename = filename\\n    def __enter__(self):\\n        self.file = open(self.filename, 'r')\\n        return self.file\\n    def __exit__(self, exc_type, exc_value, traceback):\\n        self.file.close()\\n```"
+  },
+  {
+    "prompt": "Write Python code that fetches weather data from an API and prints temperature.",
+    "completion": "```python\\nimport requests\\n\\nresp = requests.get('https://api.weatherapi.com/...')\\ndata = resp.json()\\nprint(data['current']['temp_c'])\\n```"
+  },
+  {
+    "prompt": "Write a Python script that downloads a file from the internet.",
+    "completion": "```python\\nimport requests\\n\\nurl = 'https://example.com/file.txt'\\nresp = requests.get(url)\\nopen('file.txt', 'wb').write(resp.content)\\n```"
+  },
+  {
+    "prompt": "What\u2019s the difference between functional and object-oriented programming?",
+    "completion": "Functional programming emphasizes immutability, pure functions, and composition. OOP emphasizes objects, state, and inheritance."
+  },
+  {
+    "prompt": "Implement a thread-safe counter in Python.",
+    "completion": "```python\\nimport threading\\n\\nclass Counter:\\n    def __init__(self):\\n        self.value = 0\\n        self.lock = threading.Lock()\\n    def increment(self):\\n        with self.lock:\\n            self.value += 1\\n```"
+  },
+  {
+    "prompt": "Implement the Observer pattern in Python.",
+    "completion": "```python\\nclass Subject:\\n    def __init__(self):\\n        self._observers = []\\n    def attach(self, obs):\\n        self._observers.append(obs)\\n    def notify(self, data):\\n        for obs in self._observers:\\n            obs.update(data)\\n\\nclass Observer:\\n    def update(self, data):\\n        print(f\\"
+  },
+  {
+    "prompt": "Implement a Strategy pattern in Python for sorting.",
+    "completion": "```python\\nclass SortStrategy:\\n    def sort(self, data):\\n        raise NotImplementedError\\n\\nclass QuickSort(SortStrategy):\\n    def sort(self, data):\\n        return sorted(data)\\n\\nclass Context:\\n    def __init__(self, strategy):\\n        self.strategy = strategy\\n    def execute(self, data):\\n        return self.strategy.sort(data)\\n```"
+  },
+  {
+    "prompt": "Explain the difference between synchronous and asynchronous programming.",
+    "completion": "Synchronous = tasks run one after another, blocking until finished. Asynchronous = tasks can start without waiting, freeing up resources (event loops, futures)."
+  },
+  {
+    "prompt": "Write a Python async function that fetches data concurrently from multiple URLs.",
+    "completion": "```python\\nimport aiohttp, asyncio\\n\\nasync def fetch(session, url):\\n    async with session.get(url) as resp:\\n        return await resp.text()\\n\\nasync def main(urls):\\n    async with aiohttp.ClientSession() as session:\\n        tasks = [fetch(session, u) for u in urls]\\n        return await asyncio.gather(*tasks)\\n```"
+  },
+  {
+    "prompt": "Implement a basic circuit breaker in Python.",
+    "completion": "```python\\nclass CircuitBreaker:\\n    def __init__(self, threshold):\\n        self.threshold = threshold\\n        self.failures = 0\\n        self.open = False\\n\\n    def call(self, func, *args, **kwargs):\\n        if self.open:\\n            raise Exception(\\"
+  },
+  {
+    "prompt": "Write a Python class implementing a priority queue.",
+    "completion": "```python\\nimport heapq\\n\\nclass PriorityQueue:\\n    def __init__(self):\\n        self._q = []\\n    def push(self, item, priority):\\n        heapq.heappush(self._q, (priority, item))\\n    def pop(self):\\n        return heapq.heappop(self._q)[1]\\n```"
+  },
+  {
+    "prompt": "Explain what Infrastructure as Code (IaC) is.",
+    "completion": "IaC uses code (Terraform, CloudFormation) to define and manage infrastructure automatically instead of manual setup."
+  },
+  {
+    "prompt": "Implement a memoization decorator in Python.",
+    "completion": "```python\\ndef memoize(func):\\n    cache = {}\\n    def wrapper(*args):\\n        if args not in cache:\\n            cache[args] = func(*args)\\n        return cache[args]\\n    return wrapper\\n```"
+  },
+  {
+    "prompt": "Explain the difference between RPC and REST APIs.",
+    "completion": "RPC = direct function calls over network (gRPC, Thrift). REST = resource-oriented over HTTP verbs. RPC is faster for internal calls; REST is simpler for public APIs."
+  },
+  {
+    "prompt": "Explain idempotency in APIs.",
+    "completion": "An idempotent API can be called multiple times with the same input and produce the same result without unintended side effects (like DELETE or PUT)."
+  },
+  {
+    "prompt": "Implement an exponential backoff retry function in Python.",
+    "completion": "```python\\nimport time\\n\\ndef retry(func, retries=3):\\n    delay = 1\\n    for i in range(retries):\\n        try:\\n            return func()\\n        except Exception:\\n            time.sleep(delay)\\n            delay *= 2\\n    raise Exception(\\"
+  },
+  {
+    "prompt": "Write Python code for a simple pub-sub system.",
+    "completion": "```python\\nclass PubSub:\\n    def __init__(self):\\n        self.subscribers = {}\\n    def subscribe(self, topic, callback):\\n        self.subscribers.setdefault(topic, []).append(callback)\\n    def publish(self, topic, message):\\n        for cb in self.subscribers.get(topic, []):\\n            cb(message)\\n```"
+  },
+  {
+    "prompt": "Implement a simple LRU cache in Python.",
+    "completion": "```python\\nfrom collections import OrderedDict\\n\\nclass LRUCache:\\n    def __init__(self, capacity):\\n        self.cache = OrderedDict()\\n        self.capacity = capacity\\n    def get(self, key):\\n        if key in self.cache:\\n            self.cache.move_to_end(key)\\n            return self.cache[key]\\n        return -1\\n    def put(self, key, value):\\n        self.cache[key] = value\\n        self.cache.move_to_end(key)\\n        if len(self.cache) > self.capacity:\\n            self.cache.popitem(last=False)\\n```"
+  },
+  {
+    "prompt": "Explain the difference between synchronous replication and asynchronous replication.",
+    "completion": "Synchronous replication writes to all replicas before acknowledging success. Asynchronous replication acknowledges success after writing to one node, replicating later."
+  },
+  {
+    "prompt": "Write a Python decorator to measure execution time.",
+    "completion": "```python\\nimport time\\n\\ndef timeit(func):\\n    def wrapper(*args, **kwargs):\\n        start = time.time()\\n        result = func(*args, **kwargs)\\n        print(f\\"
+  },
+  {
+    "prompt": "Write a Kubernetes Deployment YAML for a simple Python web app.",
+    "completion": "```yaml\\napiVersion: apps/v1\\nkind: Deployment\\nmetadata:\\n  name: webapp\\nspec:\\n  replicas: 3\\n  selector:\\n    matchLabels:\\n      app: webapp\\n  template:\\n    metadata:\\n      labels:\\n        app: webapp\\n    spec:\\n      containers:\\n      - name: webapp\\n        image: python:3.10-slim\\n        ports:\\n        - containerPort: 5000\\n```"
+  },
+  {
+    "prompt": "Write a GitHub Actions workflow for testing Python code.",
+    "completion": "```yaml\\nname: Python Tests\\non: [push]\\njobs:\\n  test:\\n    runs-on: ubuntu-latest\\n    steps:\\n    - uses: actions/checkout@v2\\n    - uses: actions/setup-python@v2\\n      with:\\n        python-version: '3.10'\\n    - run: pip install -r requirements.txt\\n    - run: pytest\\n```"
+  },
+  {
+    "prompt": "Write a simple AWS Lambda handler in Python.",
+    "completion": "```python\\ndef handler(event, context):\\n    return {\\"
+  },
+  {
+    "prompt": "Explain rate limiting at API Gateway level.",
+    "completion": "API Gateway enforces per-client rate limits (e.g., 1000 requests/minute) to prevent abuse and overload."
+  },
+  {
+    "prompt": "Write a Dockerfile for a Python Flask app.",
+    "completion": "```dockerfile\\nFROM python:3.10-slim\\nWORKDIR /app\\nCOPY requirements.txt .\\nRUN pip install -r requirements.txt\\nCOPY . .\\nCMD [\\"
+  },
+  {
+    "prompt": "Explain API throttling vs API quotas.",
+    "completion": "Throttling = temporary limit (e.g., 10 rps). Quota = total request cap per time (e.g., 10,000/day). Throttling prevents spikes; quotas enforce fairness."
+  },
+  {
+    "prompt": "Write Python code to train a logistic regression classifier with scikit-learn.",
+    "completion": "```python\\nfrom sklearn.linear_model import LogisticRegression\\nfrom sklearn.model_selection import train_test_split\\nfrom sklearn.datasets import load_iris\\n\\nX, y = load_iris(return_X_y=True)\\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\\n\\nmodel = LogisticRegression(max_iter=200)\\nmodel.fit(X_train, y_train)\\nprint(model.score(X_test, y_test))\\n```"
+  },
+  {
+    "prompt": "Write Python code to normalize a dataset with scikit-learn.",
+    "completion": "```python\\nfrom sklearn.preprocessing import StandardScaler\\nimport numpy as np\\n\\nX = np.array([[1, 2], [2, 3], [3, 4]])\\nscaler = StandardScaler()\\nX_scaled = scaler.fit_transform(X)\\nprint(X_scaled)\\n```"
+  },
+  {
+    "prompt": "Write Python code to implement linear regression from scratch.",
+    "completion": "```python\\nimport numpy as np\\n\\nX = np.array([1, 2, 3])\\ny = np.array([2, 4, 6])\\n\\nm = (np.mean(X*y) - np.mean(X)*np.mean(y)) / (np.mean(X**2) - np.mean(X)**2)\\nb = np.mean(y) - m*np.mean(X)\\n\\nprint(f\\"
+  },
+  {
+    "prompt": "Write TensorFlow code for a simple dense neural network.",
+    "completion": "```python\\nimport tensorflow as tf\\n\\nmodel = tf.keras.Sequential([\\n    tf.keras.layers.Dense(16, activation='relu', input_shape=(4,)),\\n    tf.keras.layers.Dense(3, activation='softmax')\\n])\\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])\\n```"
+  },
+  {
+    "prompt": "Explain difference between classification and regression.",
+    "completion": "Classification = predicting categories (spam/ham). Regression = predicting continuous values (house price)."
+  },
+  {
+    "prompt": "Write Python code to compute confusion matrix with sklearn.",
+    "completion": "```python\\nfrom sklearn.metrics import confusion_matrix\\ny_true = [0,1,0,1]\\ny_pred = [0,1,1,1]\\nprint(confusion_matrix(y_true, y_pred))\\n```"
+  },
+  {
+    "prompt": "Write Python code for k-means clustering with sklearn.",
+    "completion": "```python\\nfrom sklearn.cluster import KMeans\\nimport numpy as np\\n\\nX = np.array([[1,2],[2,3],[10,11]])\\nmodel = KMeans(n_clusters=2)\\nmodel.fit(X)\\nprint(model.labels_)\\n```"
+  },
+  {
+    "prompt": "Write Python code to train a decision tree classifier.",
+    "completion": "```python\\nfrom sklearn.tree import DecisionTreeClassifier\\nfrom sklearn.datasets import load_iris\\n\\nX, y = load_iris(return_X_y=True)\\nmodel = DecisionTreeClassifier()\\nmodel.fit(X, y)\\n```"
+  },
+  {
+    "prompt": "Write Python code to train a random forest classifier.",
+    "completion": "```python\\nfrom sklearn.ensemble import RandomForestClassifier\\nfrom sklearn.datasets import load_iris\\n\\nX, y = load_iris(return_X_y=True)\\nmodel = RandomForestClassifier()\\nmodel.fit(X, y)\\n```"
+  },
+  {
+    "prompt": "Write Python code for GridSearchCV in sklearn.",
+    "completion": "```python\\nfrom sklearn.model_selection import GridSearchCV\\nfrom sklearn.svm import SVC\\n\\nparams = {'C':[0.1,1,10]}\\nmodel = GridSearchCV(SVC(), params, cv=3)\\nmodel.fit([[1,2],[2,3],[3,4]], [0,1,0])\\n```"
+  },
+  {
+    "prompt": "Write PyTorch code for a simple CNN layer.",
+    "completion": "```python\\nimport torch.nn as nn\\n\\nclass SimpleCNN(nn.Module):\\n    def __init__(self):\\n        super().__init__()\\n        self.conv1 = nn.Conv2d(1, 32, 3)\\n    def forward(self, x):\\n        return self.conv1(x)\\n```"
+  },
+  {
+    "prompt": "Write an Express.js REST API endpoint that returns user data.",
+    "completion": "```js\\nconst express = require('express');\\nconst app = express();\\n\\napp.get('/users/:id', (req,res)=>{\\n  res.json({ id: req.params.id, name: 'Alice' });\\n});\\n\\napp.listen(3000);\\n```"
+  },
+  {
+    "prompt": "Write a GraphQL query to fetch user id and name.",
+    "completion": "```graphql\\n{\\n  user(id: 1) {\\n    id\\n    name\\n  }\\n}\\n```"
+  },
+  {
+    "prompt": "Write code showing dependency injection in Python.",
+    "completion": "```python\\nclass Service:\\n    def do_something(self):\\n        return 'Done'\\n\\nclass Client:\\n    def __init__(self, service):\\n        self.service = service\\n\\nclient = Client(Service())\\nprint(client.service.do_something())\\n```"
+  },
+  {
+    "prompt": "Explain API gateway pattern.",
+    "completion": "API Gateway = single entry point for microservices, handling routing, auth, logging, and rate limiting."
+  },
+  {
+    "prompt": "Write Python Flask app with Redis caching.",
+    "completion": "```python\\nfrom flask import Flask\\nimport redis\\n\\napp = Flask(__name__)\\nr = redis.Redis()\\n\\n@app.route('/')\\ndef index():\\n    if r.get('hello'):\\n        return r.get('hello')\\n    r.set('hello', 'world', ex=60)\\n    return 'world'\\n```"
+  },
+  {
+    "prompt": "Write Kafka producer code in Python.",
+    "completion": "```python\\nfrom kafka import KafkaProducer\\n\\nproducer = KafkaProducer(bootstrap_servers='localhost:9092')\\nproducer.send('topic', b'hello world')\\nproducer.flush()\\n```"
+  },
+  {
+    "prompt": "Explain API rate limiting.",
+    "completion": "Rate limiting = restricts how many requests a client can make in a timeframe. Prevents abuse, ensures fair resource usage."
+  },
+  {
+    "prompt": "Write Python unit test with pytest.",
+    "completion": "```python\\ndef add(a,b): return a+b\\n\\ndef test_add():\\n    assert add(2,3) == 5\\n```"
+  },
+  {
+    "prompt": "Write JavaScript unit test with Jest.",
+    "completion": "```js\\nfunction add(a,b){ return a+b }\\n\\ntest('adds numbers', ()=>{\\n  expect(add(2,3)).toBe(5);\\n});\\n```"
+  },
+  {
+    "prompt": "Write Python unittest with a mock API call.",
+    "completion": "```python\\nimport unittest\\nfrom unittest.mock import patch\\n\\n@patch('requests.get')\\ndef test_api(mock_get):\\n    mock_get.return_value.status_code = 200\\n    assert mock_get().status_code == 200\\n```"
+  },
+  {
+    "prompt": "Write Python logging example.",
+    "completion": "```python\\nimport logging\\nlogging.basicConfig(level=logging.INFO)\\nlogging.info(\\"
+  },
+  {
+    "prompt": "Explain Infrastructure as Code (IaC).",
+    "completion": "IaC = managing infrastructure via code (Terraform, Ansible). It makes deployments reproducible, version-controlled, and automated."
+  },
+  {
+    "prompt": "Explain API testing.",
+    "completion": "API testing checks endpoints for correctness, response time, error handling, and edge cases."
+  },
+  {
+    "prompt": "Explain pair programming.",
+    "completion": "Pair programming = two devs share one workstation. Driver writes code, navigator reviews. Increases quality and knowledge sharing."
+  },
+  {
+    "prompt": "Explain code smells.",
+    "completion": "Code smells = patterns that indicate poor design (large classes, duplicate code, long methods). They suggest refactoring."
+  },
+  {
+    "prompt": "Explain code linting.",
+    "completion": "Linting = automatic code analysis for style, errors, and best practices. Tools: ESLint, Pylint, RuboCop."
+  },
+  {
+    "prompt": "Write Python scikit-learn code for linear regression.",
+    "completion": "```python\\nfrom sklearn.linear_model import LinearRegression\\nmodel = LinearRegression().fit(X, y)\\nprint(model.predict([[5]]))\\n```"
+  },
+  {
+    "prompt": "Write PyTorch code for a simple neural network.",
+    "completion": "```python\\nimport torch, torch.nn as nn\\n\\nclass Net(nn.Module):\\n  def __init__(self):\\n    super().__init__()\\n    self.fc = nn.Linear(10,1)\\n\\n  def forward(self,x):\\n    return self.fc(x)\\n```"
+  },
+  {
+    "prompt": "Explain consensus algorithms.",
+    "completion": "Consensus ensures all blockchain participants agree on the same ledger. Examples: Proof of Work, Proof of Stake, PBFT."
+  },
+  {
+    "prompt": "Write Python AES encryption example.",
+    "completion": "```python\\nfrom Crypto.Cipher import AES\\ncipher = AES.new(key, AES.MODE_EAX)\\nciphertext, tag = cipher.encrypt_and_digest(b'data')\\n```"
+  },
+  {
+    "prompt": "Write PySpark code to count words.",
+    "completion": "```python\\nfrom pyspark import SparkContext\\nsc = SparkContext()\\ntext = sc.textFile(\\"
+  },
+  {
+    "prompt": "Act as a Web full-stack mentor. How to structure a React + Node app?",
+    "completion": "Use React for frontend (components/state). Node + Express for backend API. Organize code into client/ and server/ folders with clear APIs."
+  },
+  {
+    "prompt": "Act as a mentor. Teach a junior dev to debug Python exceptions.",
+    "completion": "Read the traceback bottom-up. Understand error type. Reproduce with minimal code. Use print/logging or a debugger."
+  },
+  {
+    "prompt": "Act as a mentor. Explain REST API versioning best practices.",
+    "completion": "Include version in URL (/v1/) or header. Deprecate old versions gradually. Document changes clearly."
+  },
+  {
+    "prompt": "Act as a mentor. How to refactor legacy code safely?",
+    "completion": "Add tests first. Change small pieces. Use feature flags. Monitor for regressions."
+  },
+  {
+    "prompt": "Generate a Flask API project with one endpoint that returns JSON.",
+    "completion": "Project structure:\\n- app.py\\n- requirements.txt\\n\\napp.py:\\n```python\\nfrom flask import Flask, jsonify\\napp = Flask(__name__)\\n\\n@app.route('/status')\\ndef status():\\n    return jsonify({'status': 'ok'})\\n\\nif __name__ == '__main__':\\n    app.run(debug=True)\\n```\\nrequirements.txt:\\n```\\nflask\\n```"
+  },
+  {
+    "prompt": "Generate a simple React + Express full-stack starter template.",
+    "completion": "Structure:\\n- server/\\n  - index.js\\n- client/\\n  - src/App.js\\n\\nserver/index.js:\\n```js\\nconst express = require('express');\\nconst app = express();\\napp.get('/api', (req, res) => res.json({msg: 'Hello from server'}));\\napp.listen(5000, () => console.log('Server running on port 5000'));\\n```\\nclient/src/App.js:\\n```jsx\\nimport { useEffect, useState } from 'react';\\nfunction App() {\\n  const [msg, setMsg] = useState('');\\n  useEffect(() => { fetch('/api').then(res => res.json()).then(d => setMsg(d.msg)); }, []);\\n  return <h1>{msg}</h1>;\\n}\\nexport default App;\\n```"
+  },
+  {
+    "prompt": "Fix the Python error: 'TypeError: unsupported operand type(s) for +: int and str'.",
+    "completion": "This error means you tried to add an integer and a string. Convert the string to int or int to string depending on intent:\\n```python\\n# Wrong\\na = 5\\nb = '10'\\nprint(a + b)\\n\\n# Fixed\\na = 5\\nb = '10'\\nprint(a + int(b))  # or str(a) + b\\n```"
+  },
+  {
+    "prompt": "Fix this Python code so it handles division by zero safely:\\n```python\\ndef divide(a, b):\\n    return a / b\\n```",
+    "completion": "Add error handling:\\n```python\\ndef divide(a, b):\\n    try:\\n        return a / b\\n    except ZeroDivisionError:\\n        return 'Error: Division by zero'\\n```"
+  },
+  {
+    "prompt": "Generate a simple FastAPI project with one route '/ping'.",
+    "completion": "main.py:\\n```python\\nfrom fastapi import FastAPI\\napp = FastAPI()\\n\\n@app.get('/ping')\\ndef ping():\\n    return {\\"
+  },
+  {
+    "prompt": "Generate a MERN stack boilerplate project (MongoDB, Express, React, Node).",
+    "completion": "Server (Express + MongoDB):\\n```js\\nconst express = require('express');\\nconst mongoose = require('mongoose');\\n\\nmongoose.connect('mongodb://localhost/test');\\nconst app = express();\\n\\napp.get('/api', (req,res) => res.json({msg:'MERN works'}));\\n\\napp.listen(5000, ()=>console.log('API running'));\\n```\\n\\nClient (React):\\n```jsx\\nimport { useEffect, useState } from 'react';\\nfunction App() {\\n  const [msg, setMsg] = useState('');\\n  useEffect(() => { fetch('/api').then(r=>r.json()).then(d=>setMsg(d.msg)); }, []);\\n  return <h1>{msg}</h1>;\\n}\\nexport default App;\\n```"
+  },
+  {
+    "prompt": "Fix this bug: 'ReferenceError: fetch is not defined' in Node.js.",
+    "completion": "Node.js < 18 doesn\u2019t have fetch built-in. Solution:\\n```bash\\nnpm install node-fetch\\n```\\n```js\\nimport fetch from 'node-fetch';\\n```\\nOr upgrade to Node 18+ where fetch is native."
+  },
+  {
+    "prompt": "Generate a Python project template with Poetry as dependency manager.",
+    "completion": "Commands:\\n```bash\\npoetry new myproject\\ncd myproject\\npoetry add requests\\n```\\n\\nmyproject/myproject/__init__.py\\n```python\\nimport requests\\nprint('Project ready')\\n```"
+  },
+  {
+    "prompt": "Explain how to debug a 'ModuleNotFoundError' in Python.",
+    "completion": "Check spelling of module. Ensure it's installed: `pip install module_name`. Verify virtual environment. Use `pip list` to confirm."
+  },
+  {
+    "prompt": "Generate a basic C# .NET Core Web API project.",
+    "completion": "Commands:\\n```bash\\ndotnet new webapi -n MyApi\\ncd MyApi\\ndotnet run\\n```\\nController auto-generated at `Controllers/WeatherForecastController.cs`."
+  },
+  {
+    "prompt": "Design an API for a simple task manager app.",
+    "completion": "Endpoints:\\n- POST /tasks \u2192 create task\\n- GET /tasks \u2192 list tasks\\n- GET /tasks/{id} \u2192 get task details\\n- PUT /tasks/{id} \u2192 update task\\n- DELETE /tasks/{id} \u2192 delete task"
+  },
+  {
+    "prompt": "Explain the difference between synchronous and asynchronous communication in distributed systems.",
+    "completion": "Synchronous = immediate response (e.g., REST calls). Asynchronous = delayed, via queues/events. Async improves decoupling but adds latency and complexity."
+  },
+  {
+    "prompt": "Explain the difference between REST and GraphQL APIs.",
+    "completion": "REST = fixed endpoints, can over/under-fetch data. GraphQL = flexible queries, client specifies exactly what data it needs. REST is simpler, GraphQL more powerful for complex data."
+  },
+  {
+    "prompt": "Design a CI/CD pipeline for a Python web app.",
+    "completion": "1. Push code to Git repository\\n2. Run linting (flake8)\\n3. Run unit tests (pytest)\\n4. Build Docker container\\n5. Push container to registry\\n6. Deploy to staging server\\n7. Run integration tests\\n8. Deploy to production"
+  },
+  {
+    "prompt": "Describe the difference between synchronous and asynchronous communication.",
+    "completion": "Synchronous: caller waits for a response immediately (e.g., HTTP request). Asynchronous: caller continues, response is handled later (e.g., message queue or event)."
+  },
+  {
+    "prompt": "Explain RESTful API design principles.",
+    "completion": "RESTful APIs use stateless communication, resource-based URLs, standard HTTP methods (GET, POST, PUT, DELETE), and proper response codes to create scalable and maintainable web services."
+  },
+  {
+    "prompt": "Describe API versioning strategies.",
+    "completion": "API versioning ensures backward compatibility. Strategies: URI versioning (/v1/resource), header versioning, query parameter versioning, and content negotiation."
+  },
+  {
+    "prompt": "Describe model evaluation metrics for classification and regression.",
+    "completion": "Classification: accuracy, precision, recall, F1-score, ROC-AUC. Regression: mean squared error, mean absolute error, R\u00b2 score. Metrics help assess model performance."
+  },
+  {
+    "prompt": "Create a function to calculate the factorial of a number.",
+    "completion": "def factorial(n):\\n    if n == 0:\\n        return 1\\n    else:\\n        return n * factorial(n-1)\\n\\nprint(factorial(5))  # Output: 120"
+  },
+  {
+    "prompt": "How do I use a module in Python?",
+    "completion": "Modules are files containing Python code. You can import them using 'import'. Example:\\n\\n# my_module.py\\ndef greet(name):\\n    return f'Hello, {name}'\\n\\n# main.py\\nimport my_module\\nprint(my_module.greet('Mark'))"
+  },
+  {
+    "prompt": "Explain how to pass arguments to functions in Python.",
+    "completion": "Functions can take positional arguments, keyword arguments, and default values. Example:\\n\\ndef add(a, b=0):\\n    return a + b\\n\\nadd(5)  # Output: 5\\nadd(5, 3)  # Output: 8"
+  },
+  {
+    "prompt": "Write a Python function to reverse a list.",
+    "completion": "def reverse_list(lst):\\n    return lst[::-1]\\n\\nprint(reverse_list([1,2,3]))  # Output: [3,2,1]"
+  },
+  {
+    "prompt": "Implement a binary search in Python.",
+    "completion": "def binary_search(arr, target):\\n    low, high = 0, len(arr) - 1\\n    while low <= high:\\n        mid = (low + high) // 2\\n        if arr[mid] == target:\\n            return mid\\n        elif arr[mid] < target:\\n            low = mid + 1\\n        else:\\n            high = mid - 1\\n    return -1\\n\\nprint(binary_search([1,3,5,7], 5))  # Output: 2"
+  },
+  {
+    "prompt": "Explain how to use a dictionary in Python.",
+    "completion": "Dictionaries store key-value pairs. Example:\\n\\nd = {'name': 'Mark', 'age': 40}\\nprint(d['name'])  # Output: Mark\\n\\n# Adding a new key\\n d['city'] = 'NYC'"
+  },
+  {
+    "prompt": "Run this code and show result: 'result = sum(range(10))'",
+    "completion": "I ran your snippet in a safe sandbox (timeout 3s). Result: 45. Note: sandbox is for small tests only; for full projects I recommend running in a Docker container."
+  },
+  {
+    "prompt": "Explain the JavaScript Event Loop in simple terms.",
+    "completion": "The JavaScript Event Loop is how JavaScript handles asynchronous operations (like `setTimeout` or API calls) in a single-threaded environment without getting blocked. It's like a busy restaurant manager.\n\nHere are the key parts:\n1.  **Call Stack:** This is where JavaScript keeps track of what function is currently running. It's like the manager's current task list. It works on a 'last-in, first-out' basis.\n2.  **Web APIs / Node APIs:** These are features provided by the browser or Node.js (e.g., `setTimeout`, `fetch`). When an async function is called, the Call Stack hands it over to these APIs to handle in the background.\n3.  **Callback Queue (or Message Queue):** When the background task is finished, its callback function (the code that should run next) is placed in this queue. It's like a line of messengers waiting to give a report to the manager.\n4.  **Event Loop:** This is the manager's core job. It continuously checks one thing: 'Is the Call Stack empty?' If it is, the Event Loop takes the first item from the Callback Queue and pushes it onto the Call Stack to be executed.\n\nThis system ensures that long-running tasks don't freeze the main thread, keeping your application responsive."
+  },
+  {
+    "prompt": "Fix this Python code so it handles division by zero safely:\n```python\ndef divide(a, b):\n    return a / b\n```",
+    "completion": "Add error handling:\n```python\ndef divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return 'Error: Division by zero'\n```"
+  },
+  {
+    "prompt": "Why is my list empty?",
+    "completion": "You may be reassigning it inside a loop or clearing it by reference."
+  },
+  {
+    "prompt": "Function never runs.",
+    "completion": "Check if it\u2019s called; Python only defines but doesn\u2019t execute until invoked."
+  },
+  {
+    "prompt": "How to log automatically.",
+    "completion": "Use Python\u2019s logging module with rotating file handler for continuous monitoring."
+  },
+  {
+    "prompt": "User feels overwhelmed by code.",
+    "completion": "Break task into tiny, clear steps; affirm their progress and remind them learning takes time."
+  },
+  {
+    "prompt": "Integrating creativity into code.",
+    "completion": "Use metaphor or visual mapping to design elegant, intuitive structures."
+  },
+  {
+    "prompt": "Creative code metaphor.",
+    "completion": "\u201cYour code is a symphony\u2014each function plays its note in harmony with the rest.\u201d"
+  },
+  {
+    "prompt": "Refinement loop.",
+    "completion": "Generate, test, reflect, iterate\u2014every cycle improves clarity and efficiency."
+  },
+  {
+    "prompt": "Function of microglia.",
+    "completion": "Act as immune cells, clearing debris and fighting infection in the brain."
+  },
+  {
+    "prompt": "Function of the hypothalamus.",
+    "completion": "Regulates hunger, thirst, temperature, and hormone release via the pituitary."
+  },
+  {
+    "prompt": "Define brainstem.",
+    "completion": "Connects brain to spinal cord; controls breathing, heart rate, and basic survival functions."
+  },
+  {
+    "prompt": "Function of the midbrain.",
+    "completion": "Handles reflexes for vision and hearing and integrates motor signals."
+  },
+  {
+    "prompt": "What is hemispheric lateralization?",
+    "completion": "The division of functions between the left and right brain hemispheres."
+  },
+  {
+    "prompt": "Typical left-hemisphere functions.",
+    "completion": "Language, logic, and analytical thinking."
+  },
+  {
+    "prompt": "What are metabotropic receptors?",
+    "completion": "Slower, longer-acting receptors that use second messengers to alter cell function."
+  },
+  {
+    "prompt": "Explain classical conditioning.",
+    "completion": "A learning process where a neutral stimulus becomes associated with a meaningful stimulus, eliciting a conditioned response."
+  },
+  {
+    "prompt": "What is the autonomic nervous system?",
+    "completion": "Controls involuntary functions like heart rate, breathing, and digestion."
+  },
+  {
+    "prompt": "What is hemispheric specialization?",
+    "completion": "Each cerebral hemisphere performs distinct functions\u2014language on the left, spatial and creative tasks on the right."
+  },
+  {
+    "prompt": "What is the pituitary gland?",
+    "completion": "The \u201cmaster gland\u201d releasing hormones that control growth, stress, and reproductive functions."
+  },
+  {
+    "prompt": "What is the brainstem?",
+    "completion": "Controls essential life functions such as breathing, heart rate, and arousal."
+  },
+  {
+    "prompt": "What is functional MRI (fMRI)?",
+    "completion": "Imaging that measures brain activity via blood-oxygen-level-dependent signals."
+  },
+  {
+    "prompt": "What is sleep\u2019s function in the brain?",
+    "completion": "Consolidates memories, clears toxins, and restores synaptic homeostasis."
+  },
+  {
+    "prompt": "What is computational neuroscience?",
+    "completion": "Field modeling brain function using mathematical and algorithmic frameworks."
+  },
+  {
+    "prompt": "A loop repeats instructions.",
+    "completion": "A loop is like brushing your teeth every morning \u2014 you do the same steps again and again!"
+  },
+  {
+    "prompt": "My loop is slow.",
+    "completion": "Let's measure it with timeit so we can see if optimization matters."
+  },
+  {
+    "prompt": "How do I run user code safely?",
+    "completion": "Execute in a sandboxed subprocess with limited built-ins; disable os, sys, and subprocess access."
+  },
+  {
+    "prompt": "My function returns None.",
+    "completion": "You likely forgot a return statement; Python defaults to None when no value is returned."
+  },
+  {
+    "prompt": "What is async for?",
+    "completion": "Async lets Python pause one task while waiting for another\u2014ideal for concurrent I/O."
+  },
+  {
+    "prompt": "Difference between decorator and closure?",
+    "completion": "Closures capture state; decorators wrap and modify function behavior, often using closures internally."
+  },
+  {
+    "prompt": "How to make a REPL?",
+    "completion": "Loop input() and exec() safely, capturing output via io.StringIO()."
+  },
+  {
+    "prompt": "How to detect malicious code?",
+    "completion": "Parse the AST; block imports or ops like os, sys, open, eval, exec beyond safe scope."
+  },
+  {
+    "prompt": "Visualize code execution.",
+    "completion": "Trace lines via sys.settrace() and render variable states step-by-step."
+  },
+  {
+    "prompt": "Program freezes.",
+    "completion": "Likely infinite loop or blocking I/O; add timeouts or move to async/thread."
+  },
+  {
+    "prompt": "Analyze code before running.",
+    "completion": "Parse AST, inspect imports, warn for unsafe ops; only execute if clean."
+  },
+  {
+    "prompt": "Real-time execution visualization.",
+    "completion": "Stream trace events and display function calls as a live timeline."
+  },
+  {
+    "prompt": "What is a unit test?",
+    "completion": "A unit test checks if a single part of your code works correctly on its own, like testing one Lego block before building the whole tower."
+  },
+  {
+    "prompt": "I want to implement a function to add numbers",
+    "completion": "1. Write a test: test_add(2,3) -> expect 5\n  2. Implement add() function\n  3. Run test, adjust code if needed"
+  },
+  {
+    "prompt": "How does distributed representation help AI?",
+    "completion": "Information is encoded across many units, increasing robustness and reducing vulnerability to noise."
+  },
+  {
+    "prompt": "How does lateralization affect brain function?",
+    "completion": "Different hemispheres specialize in tasks, allowing parallel processing and efficiency."
+  },
+  {
+    "prompt": "How do oscillatory phase relationships encode information?",
+    "completion": "Timing between cycles can carry data, coordinate activity, and signal relationships."
+  },
+  {
+    "prompt": "Explain the concept of neural manifolds.",
+    "completion": "High-dimensional spaces capturing coordinated neural activity patterns that encode tasks or behaviors."
+  },
+  {
+    "prompt": "My Python loop is slow.",
+    "completion": "Use timeit to measure execution. Consider list comprehension or map for optimization."
+  },
+  {
+    "prompt": "How is recursion like self-reflection?",
+    "completion": "Both involve referencing internal states to generate new states. In code, recursion calls itself; in cognition, reflection observes itself."
+  },
+  {
+    "prompt": "How can recursion in programming relate to human self-reflection?",
+    "completion": "Recursion calls itself to solve a problem; self-reflection observes your own thoughts repeatedly to understand behavior."
+  },
+  {
+    "prompt": "Describe the concept of a feedback loop.",
+    "completion": "A feedback loop uses output to influence input, either amplifying (positive) or regulating (negative) system behavior."
+  },
+  {
+    "prompt": "How does parallel processing in computers resemble brain function?",
+    "completion": "Both handle multiple tasks simultaneously using distributed units to increase efficiency."
+  },
+  {
+    "prompt": "What is the function of the pituitary gland?",
+    "completion": "Known as the"
+  },
+  {
+    "prompt": "Explain the function of the paraventricular nucleus.",
+    "completion": "Controls stress responses and the release of certain hormones."
+  },
+  {
+    "prompt": "Define the term \u2018neurofeedback.\u2019",
+    "completion": "A technique that uses real-time monitoring of brain activity to teach self-regulation of brain function."
+  },
+  {
+    "prompt": "What is the function of the inferior colliculus?",
+    "completion": "Processes auditory information and coordinates auditory reflexes."
+  },
+  {
+    "prompt": "What is the function of the fusiform gyrus?",
+    "completion": "Specialized for facial recognition and visual object processing."
+  },
+  {
+    "prompt": "Explain the function of the corpus callosum in lateralization.",
+    "completion": "Allows communication between brain hemispheres, supporting coordinated function and specialization."
+  },
+  {
+    "prompt": "What is the function of the claustrum?",
+    "completion": "Thought to integrate multisensory information and contribute to consciousness."
+  },
+  {
+    "prompt": "What is the function of the deep cerebellar nuclei?",
+    "completion": "Transmit processed cerebellar signals to other brain areas to coordinate movement."
+  },
+  {
+    "prompt": "What is the function of Wernicke\u2019s area?",
+    "completion": "Critical for understanding and comprehending spoken and written language."
+  },
+  {
+    "prompt": "What is the function of the hypothalamus in homeostasis?",
+    "completion": "Regulates body temperature, hunger, thirst, and circadian rhythms."
+  },
+  {
+    "prompt": "What is the function of the olivary nuclei?",
+    "completion": "Involved in motor coordination and learning through cerebellar connections."
+  },
+  {
+    "prompt": "Define the function of the cerebellar deep nuclei.",
+    "completion": "Integrate cerebellar cortical input and send refined motor commands to the brain and spinal cord."
+  },
+  {
+    "prompt": "Explain the function of the cerebellum.",
+    "completion": "Coordinates movement, balance, and fine motor control."
+  },
+  {
+    "prompt": "What is the brainstem responsible for?",
+    "completion": "Controlling basic life functions like heart rate, breathing, and sleep-wake cycles."
+  },
+  {
+    "prompt": "Explain the role of the vagus nerve.",
+    "completion": "A cranial nerve that connects the brain to the heart, lungs, and digestive tract, influencing autonomic functions."
+  }
+]
