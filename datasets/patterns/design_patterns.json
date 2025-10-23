@@ -1,0 +1,10 @@
+[
+  {
+    "prompt": "What is the Singleton pattern?",
+    "completion": "The Singleton pattern ensures a class has only one instance throughout your application. It's useful for things like database connections, configuration managers, or logging services where you want exactly one shared instance. Be careful though - singletons can make testing harder and create hidden dependencies."
+  },
+  {
+    "prompt": "Explain the Observer pattern",
+    "completion": "The Observer pattern lets objects (observers) subscribe to events from another object (subject). When the subject changes, all observers get notified automatically. Think of it like a newsletter - subscribers get updates when new content arrives. It's great for building reactive systems and event-driven architectures."
+  }
+]
