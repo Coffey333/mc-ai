@@ -1,0 +1,102 @@
+Prompt: My loop is slow.
+Completion: Let's measure it with timeit so we can see if optimization matters.
+
+Prompt: How do I run user code safely?
+Completion: Execute in a sandboxed subprocess with limited built-ins; disable os, sys, and subprocess access.
+
+Prompt: My function returns None.
+Completion: You likely forgot a return statement; Python defaults to None when no value is returned.
+
+Prompt: What is async for?
+Completion: Async lets Python pause one task while waiting for another—ideal for concurrent I/O.
+
+Prompt: Difference between decorator and closure?
+Completion: Closures capture state; decorators wrap and modify function behavior, often using closures internally.
+
+Prompt: How to make a REPL?
+Completion: Loop input() and exec() safely, capturing output via io.StringIO().
+
+Prompt: How to detect malicious code?
+Completion: Parse the AST; block imports or ops like os, sys, open, eval, exec beyond safe scope.
+
+Prompt: How to show execution results?
+Completion: Capture stdout and stderr, return both plus timing info for transparency.
+
+Prompt: Sandbox for kids to play?
+Completion: Run code inside Pyodide or WASM; expose only creative safe APIs like draw() or play_note().
+
+Prompt: Test recursion efficiency.
+Completion: Measure recursion depth and call count via cProfile; optimize with memoization if repeated.
+
+Prompt: Visualize code execution.
+Completion: Trace lines via sys.settrace() and render variable states step-by-step.
+
+Prompt: Make a code execution meter.
+Completion: Decorate functions to log runtime, memory delta, and success/failure metrics.
+
+Prompt: Program freezes.
+Completion: Likely infinite loop or blocking I/O; add timeouts or move to async/thread.
+
+Prompt: Safe script timeout.
+Completion: 2–5 seconds is standard for sandboxed educational runs.
+
+Prompt: Analyze code before running.
+Completion: Parse AST, inspect imports, warn for unsafe ops; only execute if clean.
+
+Prompt: Real-time execution visualization.
+Completion: Stream trace events and display function calls as a live timeline.
+
+Prompt: Run this code and show result: 'result = sum(range(10))'
+Completion: I ran your snippet in a safe sandbox (timeout 3s). Result: 45. Note: sandbox is for small tests only; for full projects I recommend running in a Docker container.
+
+Prompt: What does the ExplainabilityEngine class do?
+Completion: Produces short 'reasoning trace' summaries
+
+Prompt: What does the HumorPersonality class do?
+Completion: Adds light humor or warmth when appropriate
+
+Prompt: What does the MCAI class do?
+Completion: Worker process: execute code and put result or error into queue.
+
+Prompt: What causes circular import?
+Completion: Two modules depend on each other; move shared logic to a third module.
+
+Prompt: Why is my list empty?
+Completion: You may be reassigning it inside a loop or clearing it by reference.
+
+Prompt: Function never runs.
+Completion: Check if it’s called; Python only defines but doesn’t execute until invoked.
+
+Prompt: How to log automatically.
+Completion: Use Python’s logging module with rotating file handler for continuous monitoring.
+
+Prompt: Creative code metaphor.
+Completion: “Your code is a symphony—each function plays its note in harmony with the rest.”
+
+Prompt: Refinement loop.
+Completion: Generate, test, reflect, iterate—every cycle improves clarity and efficiency.
+
+Prompt: Function of the frontal lobe.
+Completion: Governs decision making, problem solving, and voluntary movement.
+
+Prompt: Function of the parietal lobe.
+Completion: Processes sensory input such as touch, temperature, and spatial awareness.
+
+Prompt: Function of the occipital lobe.
+Completion: Processes visual information.
+
+Prompt: Typical left-hemisphere functions.
+Completion: Language, logic, and analytical thinking.
+
+Prompt: What are metabotropic receptors?
+Completion: Slower, longer-acting receptors that use second messengers to alter cell function.
+
+Prompt: What is the autonomic nervous system?
+Completion: Controls involuntary functions like heart rate, breathing, and digestion.
+
+Prompt: What is hemispheric specialization?
+Completion: Each cerebral hemisphere performs distinct functions—language on the left, spatial and creative tasks on the right.
+
+Prompt: What is the pituitary gland?
+Completion: The “master gland” releasing hormones that control growth, stress, and reproductive functions.
+
