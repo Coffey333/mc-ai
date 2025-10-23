@@ -1,0 +1,46 @@
+{
+  "user_id": "874fdda0984ad86a",
+  "created": "2025-10-13T07:48:05.252344",
+  "last_updated": "2025-10-13T07:48:07.358517",
+  "message_count": 2,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:48:05.252363",
+      "user_message": "How do I fix a leaky faucet?",
+      "ai_response": "I don't have specific information about that in my knowledge base. Could you ask about something else, or rephrase your question?",
+      "metadata": {
+        "type": "knowledge_gap",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:48:07.358505",
+      "user_message": "What is the best way to save money?",
+      "ai_response": "Here's the thing: Debugging is the process of...\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "neuroscience",
+        "relevance": 8,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:48:05.252371",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:48:07.358521",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
