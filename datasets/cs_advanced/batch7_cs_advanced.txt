@@ -1,0 +1,30 @@
+Prompt: What is Big O notation?
+Completion: Describes algorithm efficiency as input grows. O(1) constant, O(log n) logarithmic, O(n) linear, O(n log n) linearithmic, O(n²) quadratic, O(2^n) exponential. Focuses on worst-case, drops constants and lower terms. Binary search is O(log n), bubble sort O(n²).
+
+Prompt: Explain dynamic programming.
+Completion: Solving complex problems by breaking into simpler subproblems and storing results (memoization) to avoid recomputation. Fibonacci naive recursion is exponential; with memoization it's linear. Trade space for time. Classic examples: shortest path, knapsack problem.
+
+Prompt: What is a hash table?
+Completion: Data structure mapping keys to values using hash functions. O(1) average lookup, insert, delete. Hash function converts key to array index. Collisions handled by chaining or open addressing. Foundation of dictionaries, sets, database indexes. Trade-off: space for speed.
+
+Prompt: Explain binary search trees.
+Completion: Hierarchical structure where each node has ≤2 children, left < parent < right. Efficient searching O(log n) if balanced. Unbalanced degenerates to O(n). Self-balancing variants (AVL, Red-Black) maintain balance. Foundation of many database indexes.
+
+Prompt: What is recursion?
+Completion: Function calling itself. Base case stops infinite loop. Classic examples: factorial, Fibonacci, tree traversal. Can be elegant but risky (stack overflow). Often convertible to iteration. Divide-and-conquer algorithms use recursion naturally.
+
+Prompt: Explain graph traversal algorithms.
+Completion: BFS (breadth-first): level by level, uses queue, finds shortest path in unweighted graphs. DFS (depth-first): goes deep, uses stack/recursion, good for detecting cycles. Both O(V+E). Choice depends on problem - BFS for shortest path, DFS for connectivity.
+
+Prompt: What is NP-completeness?
+Completion: Hardest problems in NP (verifiable in polynomial time). If any NP-complete problem has polynomial solution, all NP problems do (P=NP). Examples: traveling salesman, satisfiability, graph coloring. No known efficient solutions. Often use approximations or heuristics.
+
+Prompt: Explain sorting algorithm comparison.
+Completion: Bubble sort O(n²), simple but slow. Merge sort O(n log n), stable, needs extra space. Quick sort O(n log n) average, O(n²) worst, in-place. Heap sort O(n log n) worst-case, in-place. Radix sort O(nk) for integers. Choice depends on data and constraints.
+
+Prompt: What is a distributed system?
+Completion: Multiple computers coordinating to appear as single system. Challenges: network failures, latency, consistency. CAP theorem: can't have consistency, availability, partition tolerance simultaneously - choose two. Examples: databases, file systems, web services.
+
+Prompt: Explain concurrent programming.
+Completion: Multiple computations happening simultaneously. Threads share memory (fast but risky - race conditions, deadlocks). Processes isolated (safe but slower communication). Synchronization primitives: locks, semaphores, monitors. Hard to debug. Async/await pattern simplifies I/O-bound concurrency.
+
