@@ -106,13 +106,17 @@ def send_collaboration_message():
         context = collaborative_ai.get_collaboration_context(session_id)
         
         # Generate MC AI's response with collaboration context
-        conversation_history = [{
-            'role': 'system',
-            'content': context
-        }, {
+        conversation_history = []
+        if context:
+            conversation_history.append({
+                'role': 'system',
+                'content': context
+            })
+        
+        conversation_history.append({
             'role': 'user',
             'content': message
-        }]
+        })
         
         result = response_gen.generate(
             query=message,
