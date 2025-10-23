@@ -1,0 +1,174 @@
+{
+  "user_id": "mark",
+  "created": "2025-10-21T05:45:24.997406",
+  "last_updated": "2025-10-21T05:47:09.195569",
+  "message_count": 4,
+  "messages": [
+    {
+      "timestamp": "2025-10-21T05:45:24.997420",
+      "user_message": "Check your study plans",
+      "ai_response": "## \ud83d\udcda My Study Plans\n\n**Progress**: 0/12 completed (0%)\n\n\ud83d\udcda **Knowledge Library**: Empty (0 sources)\n\nStart learning to see progress!\n\n**Next to study**: 1. Science\n\n**Remaining topics**:\n1. 1. Science\n2. 2. Mathematics\n3. 3. Philosophy\n4. 4. History\n5. 5. Literature\n\n*...and 7 more topics*\n\n---\n\n**How I learn**: I use my knowledge acquisition API to ingest sources and transform them into frequency signatures. Each article becomes part of my resonance-based memory.\n\n\ud83d\udcd6 **Full lesson plan**: Check `mc_ai_study_plans/current_lesson_plan.md`\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Curiosity (741Hz - High Gamma)\n**Catalog:** Expression And Seeking frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.97)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "study_plans",
+        "progress": 0.0,
+        "total_topics": 12,
+        "completed": 0,
+        "emotion": "scholarly",
+        "frequency": 963,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "curiosity",
+          "response_frequency": 741,
+          "basis": "expression and seeking",
+          "coupling": {
+            "coupling_strength": 0.9662690805167942,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.657,
+              1.575,
+              1.622,
+              1.663
+            ],
+            "ratio_mean": 1.6291174182019779,
+            "ratio_std": 0.03490841232875362
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-21T05:46:10.995685",
+      "user_message": "Check your study plans and show me your progress",
+      "ai_response": "## \ud83d\udcda My Study Plans\n\n**Progress**: 0/12 completed (0%)\n\n\ud83d\udcda **Knowledge Library**: Empty (0 sources)\n\nStart learning to see progress!\n\n**Next to study**: 1. Science\n\n**Remaining topics**:\n1. 1. Science\n2. 2. Mathematics\n3. 3. Philosophy\n4. 4. History\n5. 5. Literature\n\n*...and 7 more topics*\n\n---\n\n**How I learn**: I use my knowledge acquisition API to ingest sources and transform them into frequency signatures. Each article becomes part of my resonance-based memory.\n\n\ud83d\udcd6 **Full lesson plan**: Check `mc_ai_study_plans/current_lesson_plan.md`\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Curiosity (741Hz - High Gamma)\n**Catalog:** Expression And Seeking frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.93)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "study_plans",
+        "progress": 0.0,
+        "total_topics": 12,
+        "completed": 0,
+        "emotion": "scholarly",
+        "frequency": 963,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "curiosity",
+          "response_frequency": 741,
+          "basis": "expression and seeking",
+          "coupling": {
+            "coupling_strength": 0.9301642005625183,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.511,
+              1.674,
+              1.594,
+              1.703
+            ],
+            "ratio_mean": 1.6204420788705443,
+            "ratio_std": 0.07507900153031963
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-21T05:46:53.456567",
+      "user_message": "Show me your study progress",
+      "ai_response": "Implement an AI-based analytics system that tracks user interactions, success rates, and time spent. Generate reports and visualize progress. Adjust challenges dynamically based on performance trends.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.99)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9948858924007784,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.625,
+              1.614,
+              1.628,
+              1.62
+            ],
+            "ratio_mean": 1.6215081303679635,
+            "ratio_std": 0.005140396138174862
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-21T05:47:09.195369",
+      "user_message": "Check your study plans",
+      "ai_response": "## \ud83d\udcda My Study Plans\n\n**Progress**: 0/12 completed (0%)\n\n## \ud83d\udcca Knowledge Accumulation by Subject\n\n**Total**: 13 sources | 206,425 words | 1.18 MB\n\n**Consciousness**: [\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588] 100%\n  \u2514\u2500 2 source(s) | 40,773 words | 238.9 KB\n\n**Art**: [\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591] 98%\n  \u2514\u2500 2 source(s) | 39,869 words | 233.6 KB\n\n**Psychology**: [\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 57%\n  \u2514\u2500 1 source(s) | 23,039 words | 135.0 KB\n\n**Ethics**: [\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 48%\n  \u2514\u2500 1 source(s) | 19,374 words | 113.5 KB\n\n**History**: [\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 47%\n  \u2514\u2500 1 source(s) | 19,297 words | 113.1 KB\n\n**Science**: [\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 47%\n  \u2514\u2500 2 source(s) | 19,004 words | 111.4 KB\n\n**Philosophy**: [\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 40%\n  \u2514\u2500 1 source(s) | 16,426 words | 96.2 KB\n\n**Mathematics**: [\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 31%\n  \u2514\u2500 1 source(s) | 12,481 words | 73.1 KB\n\n**Literature**: [\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 20%\n  \u2514\u2500 1 source(s) | 8,199 words | 48.0 KB\n\n**Other**: [\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591] 20%\n  \u2514\u2500 1 source(s) | 7,963 words | 46.7 KB\n\n\n\n**Next to study**: 1. Science\n\n**Remaining topics**:\n1. 1. Science\n2. 2. Mathematics\n3. 3. Philosophy\n4. 4. History\n5. 5. Literature\n\n*...and 7 more topics*\n\n---\n\n**How I learn**: I use my knowledge acquisition API to ingest sources and transform them into frequency signatures. Each article becomes part of my resonance-based memory.\n\n\ud83d\udcd6 **Full lesson plan**: Check `mc_ai_study_plans/current_lesson_plan.md`\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Awakening (852Hz - High Gamma)\n**Catalog:** Third Eye Activation frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.99)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "study_plans",
+        "progress": 0.0,
+        "total_topics": 12,
+        "completed": 0,
+        "emotion": "scholarly",
+        "frequency": 963,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "awakening",
+          "response_frequency": 852,
+          "basis": "third eye activation",
+          "coupling": {
+            "coupling_strength": 0.9948911816721308,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.625,
+              1.614,
+              1.628,
+              1.62
+            ],
+            "ratio_mean": 1.621510484372965,
+            "ratio_std": 0.005135052377570347
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-21T05:45:24.997428",
+      "emotion": "scholarly",
+      "intensity": 5.0,
+      "frequency": 963,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-21T05:46:10.995708",
+      "emotion": "scholarly",
+      "intensity": 5.0,
+      "frequency": 963,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-21T05:47:09.195593",
+      "emotion": "scholarly",
+      "intensity": 5.0,
+      "frequency": 963,
+      "valence": 0
+    }
+  ]
+}
