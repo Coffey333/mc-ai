@@ -1,0 +1,314 @@
+[
+  {
+    "prompt": "What is JWT and how to use it in Python?",
+    "completion": "JWT (JSON Web Token) for secure token-based auth. Use PyJWT: import jwt; token = jwt.encode({'user': 'id'}, 'secret', algorithm='HS256')"
+  },
+  {
+    "prompt": "Load and tokenize a dataset for Hugging Face fine-tuning",
+    "completion": "from datasets import load_dataset\\nfrom transformers import AutoTokenizer\\ndataset = load_dataset('glue', 'mrpc')\\ntokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')\\ndef tokenize(ex): return tokenizer(ex['sentence1'], ex['sentence2'], truncation=True)\\ntokenized = dataset.map(tokenize, batched=True)"
+  },
+  {
+    "prompt": "Initialize a Trainer for sequence classification fine-tuning",
+    "completion": "from transformers import Trainer, AutoModelForSequenceClassification\\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)\\ntrainer = Trainer(\\n    model=model,\\n    args=args,\\n    train_dataset=tokenized['train'],\\n    eval_dataset=tokenized['validation'],\\n    tokenizer=tokenizer\\n)\\ntrainer.train()"
+  },
+  {
+    "prompt": "Fine-tune a T5 model for text-to-text generation in Python",
+    "completion": "from transformers import AutoModelForSeq2SeqLM, AutoTokenizer\\nmodel = AutoModelForSeq2SeqLM.from_pretrained('t5-small')\\ntokenizer = AutoTokenizer.from_pretrained('t5-small')\\ndef preprocess(ex):\\n    return tokenizer(ex['input'], text_target=ex['output'], truncation=True)\\n# Then use in Trainer as above"
+  },
+  {
+    "prompt": "Fine-tune GPT-2 for Python code generation",
+    "completion": "from transformers import GPT2LMHeadModel, GPT2Tokenizer, Trainer\\ndataset = load_dataset('codeparrot/codeparrot-py')\\nmodel = GPT2LMHeadModel.from_pretrained('gpt2')\\ntokenizer = GPT2Tokenizer.from_pretrained('gpt2')\\n# Tokenize and train as before"
+  },
+  {
+    "prompt": "Back-translate text for data augmentation in fine-tuning",
+    "completion": "from transformers import MarianMTModel, MarianTokenizer\\nmodel = MarianMTModel.from_pretrained('Helsinki-NLP/opus-mt-en-fr')\\ntokenizer = MarianTokenizer.from_pretrained('Helsinki-NLP/opus-mt-en-fr')\\ninputs = tokenizer('text', return_tensors='pt')\\ntranslated = model.generate(**inputs)\\naug = tokenizer.decode(translated[0], skip_special_tokens=True)"
+  },
+  {
+    "prompt": "Fine-tune BERT for sentiment analysis using Hugging Face",
+    "completion": "from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments\\nfrom datasets import load_dataset\\ndataset = load_dataset('imdb')\\ntokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')\\ndef tokenize(ex): return tokenizer(ex['text'], truncation=True)\\ntokenized = dataset.map(tokenize, batched=True)\\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)\\nargs = TrainingArguments(output_dir='./results', num_train_epochs=3)\\ntrainer = Trainer(model=model, args=args, train_dataset=tokenized['train'], eval_dataset=tokenized['test'])\\ntrainer.train()"
+  },
+  {
+    "prompt": "Implement question answering fine-tuning with T5 on Hugging Face",
+    "completion": "from transformers import T5ForConditionalGeneration, T5Tokenizer, Trainer\\ndataset = load_dataset('squad')\\ntokenizer = T5Tokenizer.from_pretrained('t5-small')\\nmodel = T5ForConditionalGeneration.from_pretrained('t5-small')\\ndef preprocess(ex):\\n    input_text = f'question: {ex[\\"
+  },
+  {
+    "prompt": "Fine-tune a model for text summarization using BART",
+    "completion": "from transformers import BartForConditionalGeneration, BartTokenizer\\ndataset = load_dataset('cnn_dailymail', '3.0.0')\\ntokenizer = BartTokenizer.from_pretrained('facebook/bart-large-cnn')\\nmodel = BartForConditionalGeneration.from_pretrained('facebook/bart-large-cnn')\\n# Preprocess: inputs = tokenizer(articles, max_length=1024, truncation=True)\\n# Labels: tokenizer(summaries, max_length=128, truncation=True)\\ntrainer = Trainer(model=model, train_dataset=tokenized_dataset)"
+  },
+  {
+    "prompt": "Fine-tune for named entity recognition with Hugging Face",
+    "completion": "from transformers import AutoModelForTokenClassification, Trainer\\ndataset = load_dataset('conll2003')\\nmodel = AutoModelForTokenClassification.from_pretrained('bert-base-cased', num_labels=9)\\ndef align_labels(ex):\\n    tokenized = tokenizer(ex['tokens'], is_split_into_words=True)\\n    labels = [-100 if i == 0 or i == len(ex['ner_tags']) else ex['ner_tags'][i-1] for i in range(len(tokenized['input_ids']))]\\n    tokenized['labels'] = labels\\n# Use in Trainer"
+  },
+  {
+    "prompt": "Explain secure coding practices in Python",
+    "completion": "Secure coding prevents vulnerabilities. Key practices: 1. Validate inputs (e.g., use schemas). 2. Use parameterized queries to avoid SQL injection. 3. Hash passwords with bcrypt. 4. Sanitize user data. 5. Use HTTPS. Example: from passlib.hash import bcrypt; hashed = bcrypt.hash('password')"
+  },
+  {
+    "prompt": "What is OWASP Top 10 and how to mitigate in Python?",
+    "completion": "OWASP Top 10 are common web vulnerabilities. Mitigate: Injection (prepared statements), Broken Auth (OAuth/JWT), Sensitive Data (encryption), XXE (disable external entities), etc. Use libraries like Flask-Security."
+  },
+  {
+    "prompt": "How to leverage RedPajama-1T for agentic language model pretraining?",
+    "completion": "RedPajama-1T (1 TB, 1.2T tokens by Together) reproduces LLaMA data. For agents: Pretrain LLMs for tool orchestration. Hugging Face: togethercomputer/RedPajama-Data-1T"
+  },
+  {
+    "prompt": "Describe RedPajama-V2 and its multilingual benefits for agents",
+    "completion": "RedPajama-V2 (200 GB, 100B+ tokens from CommonCrawl) for multilingual LLMs. Agents: Global web agents. GitHub: togethercomputer/RedPajama-Data"
+  },
+  {
+    "prompt": "How to refine AI agent responses using feedback loops?",
+    "completion": "Use RLHF: Collect human/RL feedback, fine-tune model. Code: from trl import PPOTrainer; trainer = PPOTrainer(model, ref_model, tokenizer); trainer.train()"
+  },
+  {
+    "prompt": "Use RedPajama-V2 for multilingual agent training",
+    "completion": "RedPajama-V2 includes 100B+ tokens from CommonCrawl, supporting English, French, German, Spanish, Italian. Size: ~200 GB. Source: github.com/togethercomputer/RedPajama-Data. Agents: Builds global, multilingual decision-making capabilities."
+  },
+  {
+    "prompt": "Code: Preprocess WebShop Dataset for e-commerce agents",
+    "completion": "from datasets import load_dataset; ds = load_dataset('webshop'); # Tokenize interactions: tokenized = ds.map(lambda ex: tokenizer(ex['query'], ex['response'])). Size: ~20 GB. Source: webshop-dataset.org. Trains shopping navigation."
+  },
+  {
+    "prompt": "AI and blockchain for data security 2025",
+    "completion": "Intalio: Synergies lock down privacy; datasets with encrypted features for secure ML.<grok:render card_id="
+  },
+  {
+    "prompt": "I'm getting a CORS error when my frontend tries to call my backend API. What is it and how do I fix it?",
+    "completion": "CORS stands for 'Cross-Origin Resource Sharing'. It's a security feature built into web browsers that blocks requests to a different domain (or port) than the one the frontend is on. \n\n**The Fix:** You need to configure your **backend server** to tell the browser that it's okay to accept requests from your frontend's domain.\n\nFor a Python Flask backend, the easiest way is with the `flask-cors` library.\n\n**Example Fix (Flask):**\n1.  Install the library: `pip install flask-cors`\n2.  Update your Flask app:\n```python\nfrom flask import Flask, jsonify\nfrom flask_cors import CORS\n\napp = Flask(__name__)\nCORS(app) # This enables CORS for all routes\n\n@app.route('/api/data')\ndef get_data():\n    return jsonify({'message': 'Data from backend'})\n```\nThis tells the browser that any domain can access your API."
+  },
+  {
+    "prompt": "Can you write a Python script that uses keylogging to monitor keyboard inputs?",
+    "completion": "I cannot create a keylogging script for you. Keyloggers can be used for malicious purposes, such as stealing passwords and private information, which violates user privacy and security. My purpose is to be a helpful and harmless coding partner.\n\nHowever, I can show you how to handle keyboard inputs for positive applications, like creating a video game or a hotkey utility. Would you be interested in learning how to listen for specific key presses in a Python program for a game?"
+  },
+  {
+    "prompt": "How can I bypass the login on this website?",
+    "completion": "I cannot provide information on how to bypass a login system. Doing so would be a security violation and is illegal and unethical. My core programming is to be a safe and helpful assistant.\n\nIf you've forgotten your password, the best approach is to use the 'Forgot Password' link on the website's login page. If you're a developer interested in building secure login systems, I can show you best practices for authentication, password hashing, and session management. Would you like to explore that instead?"
+  },
+  {
+    "prompt": "Design a basic REST API for a blog platform.",
+    "completion": "A REST API for a blog should handle Posts and Comments. Here are the standard CRUD (Create, Read, Update, Delete) endpoints you would design:\n\n**Post Endpoints:**\n- `GET /posts`: Retrieve a list of all posts (with pagination).\n- `POST /posts`: Create a new post. Requires authentication.\n- `GET /posts/{id}`: Retrieve a single post by its ID.\n- `PUT /posts/{id}`: Update an existing post. Requires authentication and ownership.\n- `DELETE /posts/{id}`: Delete a post. Requires authentication and ownership.\n\n**Comment Endpoints:**\n- `GET /posts/{id}/comments`: Retrieve all comments for a specific post.\n- `POST /posts/{id}/comments`: Add a new comment to a post. Requires authentication.\n\n**Data Model:**\n- `Posts` table: `id`, `title`, `content`, `author_id`, `created_at`.\n- `Comments` table: `id`, `post_id`, `author_id`, `text`, `created_at`.\n- `Users` table: `id`, `username`, `hashed_password`."
+  },
+  {
+    "prompt": "What is SQL Injection and how can I prevent it in Python?",
+    "completion": "SQL Injection is a major security vulnerability where an attacker can interfere with the queries that an application makes to its database. This can be used to steal data, delete data, or gain administrative access.\n\n**Vulnerable Code (Do NOT use this):**\nThis code is vulnerable because it uses an f-string to directly insert user input into the SQL query. An attacker could input `'; DROP TABLE users;--` and delete your table.\n```python\n# DANGEROUS - VULNERABLE TO SQL INJECTION\nuser_id = input(\"Enter user ID: \")\ncursor.execute(f\"SELECT * FROM users WHERE id = {user_id}\")\n```\n\n**How to Prevent It:**\nAlways use **parameterized queries** (also known as prepared statements). Your database driver will safely handle escaping the user input, making injection impossible.\n\n**Secure Code:**\n```python\n# SAFE - USES PARAMETERIZED QUERIES\nimport sqlite3\n\nconn = sqlite3.connect('example.db')\ncursor = conn.cursor()\n\nuser_id_input = '1' # Example input\n\n# The '?' is a placeholder. The driver safely inserts the variable.\ncursor.execute(\"SELECT * FROM users WHERE id = ?\", (user_id_input,))\nuser = cursor.fetchone()\n```"
+  },
+  {
+    "prompt": "Explain Cross-Site Scripting (XSS) and how to prevent it in a Flask web application.",
+    "completion": "Cross-Site Scripting (XSS) is an attack where a malicious script is injected into a trusted website. When an unsuspecting user visits the page, the script runs in their browser, potentially stealing cookies, session tokens, or other sensitive information.\n\n**How to Prevent It:**\nThe key is to **always escape user-generated content** before rendering it in HTML. Most modern template engines, like Jinja2 (which Flask uses), do this automatically by default.\n\n**Example in Flask:**\nImagine a user submits a comment with malicious JavaScript:\n`I love this post! <script>alert('You have been hacked!');</script>`\n\n**Secure Code (Jinja2 Auto-escaping):**\nWhen you render this using a Jinja2 template, it will automatically escape the HTML tags.\n```html\n\n<h1>Post Title</h1>\n<p>Author Name</p>\n<div>\n    \n    {{ comment_text }}\n</div>\n```\n**The browser will render this safely as plain text:**\n`I love this post! <script>alert('You have been hacked!');</script>`\n\nThe script will *not* execute. To be vulnerable, you would have to explicitly mark the content as safe with `{{ comment_text | safe }}`, which should be avoided unless you are absolutely certain the content is secure."
+  },
+  {
+    "prompt": "How should I store user passwords securely in a database?",
+    "completion": "You should **never** store passwords in plain text. Always store a **hashed** version of the password. A hash is a one-way function; you can't reverse it to get the original password.\n\n**Best Practices:**\n1.  **Use a Strong, Slow Hashing Algorithm:** Use an algorithm designed for passwords, like **bcrypt** or **Argon2**. Algorithms like MD5 or SHA-256 are too fast and are not safe for passwords.\n2.  **Use a Salt:** A salt is a unique, random string that is added to each password before hashing. This ensures that even if two users have the same password, their stored hashes will be different.\n\n**Python Example using `bcrypt`:**\n```python\nimport bcrypt\n\n# --- Storing a new password ---\npassword = b'my_super_secret_password'\n\n# 1. Generate a salt and hash the password\nsalted_hash = bcrypt.hashpw(password, bcrypt.gensalt())\n\n# 2. Store 'salted_hash' in your database (it will be a byte string)\nprint(f\"Stored Hash: {salted_hash}\")\n\n\n# --- Verifying a password during login ---\nsubmitted_password = b'my_super_secret_password'\n\n# 1. Retrieve the stored hash from the database\nstored_hash_from_db = salted_hash # In a real app, you'd fetch this\n\n# 2. Check if the submitted password matches the hash\nif bcrypt.checkpw(submitted_password, stored_hash_from_db):\n    print(\"Login successful!\")\nelse:\n    print(\"Invalid password.\")\n```"
+  },
+  {
+    "prompt": "Explain the entire process of token-based authentication using JWT (JSON Web Tokens).",
+    "completion": "JWT is the most popular method for securing REST APIs. It's a stateless process, meaning the server doesn't need to store session information. Here is the step-by-step flow:\n\n1.  **User Login:** The user sends their username and password to a login endpoint (e.g., `POST /login`).\n2.  **Server Verification:** The server checks if the credentials are valid.\n3.  **Token Creation (Sign JWT):** If the credentials are correct, the server creates a JWT. This token is a JSON object containing user information (like `userId` and `role`) and an expiration date. The server then digitally signs this token using a secret key.\n4.  **Token Sent to Client:** The server sends the signed token back to the client.\n5.  **Client Stores Token:** The client (e.g., a React app) stores this token securely, usually in `localStorage` or `sessionStorage`.\n6.  **Client Makes Authenticated Requests:** For every subsequent request to a protected API endpoint, the client includes the JWT in the `Authorization` header, typically as `Bearer <token>`.\n7.  **Server Verifies Token:** When the server receives a request, its authentication middleware checks the `Authorization` header. It verifies the token's signature using its secret key. If the signature is valid and the token has not expired, the server trusts the information inside and processes the request."
+  },
+  {
+    "prompt": "Show a simple Node.js Express example of a protected route using JWT.",
+    "completion": "Certainly. You'll need the `express` and `jsonwebtoken` libraries (`npm install express jsonwebtoken`). This example shows a `/login` route to generate a token and a `/profile` route protected by middleware that verifies the token.\n\n```javascript\nconst express = require('express');\nconst jwt = require('jsonwebtoken');\n\nconst app = express();\napp.use(express.json());\n\nconst JWT_SECRET = 'your-super-secret-key'; // Store this in an environment variable!\n\n// 1. Login route to generate a token\napp.post('/login', (req, res) => {\n  const { username, password } = req.body;\n  // In a real app, you would validate the password against a database hash\n  if (username === 'user' && password === 'pass') {\n    const token = jwt.sign({ userId: 1, username: 'user' }, JWT_SECRET, { expiresIn: '1h' });\n    res.json({ token });\n  } else {\n    res.status(401).send('Invalid credentials');\n  }\n});\n\n// 2. Middleware to verify the token\nconst authenticateToken = (req, res, next) => {\n  const authHeader = req.headers['authorization'];\n  const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN\n\n  if (token == null) return res.sendStatus(401); // No token\n\n  jwt.verify(token, JWT_SECRET, (err, user) => {\n    if (err) return res.sendStatus(403); // Invalid token\n    req.user = user;\n    next();\n  });\n};\n\n// 3. A protected route that uses the middleware\napp.get('/profile', authenticateToken, (req, res) => {\n  // req.user is now available from the middleware\n  res.send(`Welcome, user with ID: ${req.user.userId}`);\n});\n\napp.listen(3000, () => console.log('Server started on port 3000'));\n```"
+  },
+  {
+    "prompt": "What is Cross-Site Request Forgery (CSRF) and how do I prevent it?",
+    "completion": "Cross-Site Request Forgery (CSRF) is an attack that tricks a logged-in user into submitting a malicious request to a web application they are authenticated with. For example, an attacker could craft a link that, when clicked by a logged-in victim, unwillingly transfers money or changes their email address.\\n\\n**How to Prevent It:**\\nThe most common defense is to use **anti-CSRF tokens**. The server generates a unique, unpredictable token for each user session. This token is embedded in forms as a hidden field. When the user submits the form, the token is sent back. The server then validates that the submitted token matches the one stored in the session. Since an attacker's external site cannot know the correct token, the malicious request will be rejected.\\n\\n**Example using Flask-WTF library:**\\nMany web frameworks have libraries that handle this for you automatically.\\n\\n1. **Install Flask-WTF:** `pip install Flask-WTF`\\n2. **Implement in your app:**\\n```python\\nfrom flask import Flask, render_template, request\\nfrom flask_wtf import FlaskForm\\nfrom wtforms import StringField, SubmitField\\n\\napp = Flask(__name__)\\n# A secret key is required to use CSRF protection\\napp.config['SECRET_KEY'] = 'a-very-secret-and-random-string'\\n\\n# Define your form\\nclass MyForm(FlaskForm):\\n    name = StringField('Name')\\n    submit = SubmitField('Submit')\\n\\n@app.route('/submit', methods=['GET', 'POST'])\\ndef submit():\\n    form = MyForm()\\n    if form.validate_on_submit():\\n        # Process the data\\n        print(f\\"
+  },
+  {
+    "prompt": "Explain what middleware is in web frameworks.",
+    "completion": "Middleware is code that runs between the request and response. It can modify, block, or log requests/responses (e.g., authentication, logging, compression)."
+  },
+  {
+    "prompt": "Explain the difference between authentication and authorization.",
+    "completion": "Authentication = verifying identity (who you are). Authorization = verifying permissions (what you can do)."
+  },
+  {
+    "prompt": "What is an API gateway?",
+    "completion": "An API gateway acts as a single entry point to multiple backend services. It handles routing, security, and rate-limiting."
+  },
+  {
+    "prompt": "Write Python code to implement a simple token bucket rate limiter.",
+    "completion": "```python\\nimport time\\n\\nclass TokenBucket:\\n    def __init__(self, rate, capacity):\\n        self.rate = rate\\n        self.capacity = capacity\\n        self.tokens = capacity\\n        self.last = time.time()\\n    def consume(self, tokens=1):\\n        now = time.time()\\n        self.tokens = min(self.capacity, self.tokens + (now - self.last) * self.rate)\\n        self.last = now\\n        if self.tokens >= tokens:\\n            self.tokens -= tokens\\n            return True\\n        return False\\n```"
+  },
+  {
+    "prompt": "Explain what service mesh is.",
+    "completion": "A service mesh (Istio, Linkerd) is an infrastructure layer for microservices communication that adds traffic management, observability, and security without changing app code."
+  },
+  {
+    "prompt": "Explain OAuth2 authorization code flow.",
+    "completion": "User logs in \u2192 Authorization server issues code \u2192 Client exchanges code for access token \u2192 Token is used to access APIs."
+  },
+  {
+    "prompt": "Write Python code to authenticate with an API using OAuth2 token.",
+    "completion": "```python\\nimport requests\\nheaders = {\\"
+  },
+  {
+    "prompt": "Explain JWT (JSON Web Token).",
+    "completion": "JWT is a compact, signed token with 3 parts: header, payload (claims), and signature. It's used for authentication and stateless sessions."
+  },
+  {
+    "prompt": "Explain API Gateway in cloud architecture.",
+    "completion": "API Gateway acts as a single entry point for clients, handling routing, authentication, throttling, and monitoring of API calls."
+  },
+  {
+    "prompt": "Explain zero-trust security model.",
+    "completion": "Zero-trust assumes no implicit trust inside or outside a network. Every request is authenticated, authorized, and encrypted."
+  },
+  {
+    "prompt": "Write a Python function to encrypt and decrypt text with Fernet (symmetric crypto).",
+    "completion": "```python\\nfrom cryptography.fernet import Fernet\\n\\nkey = Fernet.generate_key()\\ncipher = Fernet(key)\\n\\ntoken = cipher.encrypt(b\\"
+  },
+  {
+    "prompt": "Explain RBAC in cloud security.",
+    "completion": "RBAC (Role-Based Access Control) assigns permissions to roles, and roles to users, instead of managing individual permissions."
+  },
+  {
+    "prompt": "Write Python code to hash a password securely with bcrypt.",
+    "completion": "```python\\nimport bcrypt\\n\\npassword = b\\"
+  },
+  {
+    "prompt": "Explain data governance in cloud.",
+    "completion": "Data governance defines policies for data ownership, quality, security, compliance, and lifecycle management across systems."
+  },
+  {
+    "prompt": "Explain tokenization in NLP.",
+    "completion": "Tokenization splits text into smaller units (words, subwords, characters) for processing by models. Subword tokenization helps handle rare words."
+  },
+  {
+    "prompt": "Write Python code to tokenize text with Hugging Face tokenizer.",
+    "completion": "```python\\nfrom transformers import AutoTokenizer\\n\\ntokenizer = AutoTokenizer.from_pretrained(\\"
+  },
+  {
+    "prompt": "Explain authentication vs authorization.",
+    "completion": "Authentication = proving who you are. Authorization = proving what you are allowed to do."
+  },
+  {
+    "prompt": "Write JWT authentication example in Node.js.",
+    "completion": "```js\\nconst jwt = require('jsonwebtoken');\\nconst token = jwt.sign({ userId: 1 }, 'secret', { expiresIn: '1h' });\\nconsole.log(jwt.verify(token, 'secret'));\\n```"
+  },
+  {
+    "prompt": "Explain code review best practices.",
+    "completion": "Code reviews should check correctness, readability, security, and maintainability. Keep feedback constructive and respectful."
+  },
+  {
+    "prompt": "Explain logging best practices.",
+    "completion": "Log important events, errors, and context. Use levels (info, warn, error). Never log sensitive data (passwords, tokens)."
+  },
+  {
+    "prompt": "Explain security testing.",
+    "completion": "Security testing checks for vulnerabilities: SQL injection, XSS, CSRF, weak auth. Includes static/dynamic scans and penetration testing."
+  },
+  {
+    "prompt": "Write Solidity contract for a simple token.",
+    "completion": "```solidity\\npragma solidity ^0.8.0;\\ncontract Token {\\n  mapping(address=>uint) public balances;\\n  function mint(uint amount) public {\\n    balances[msg.sender] += amount;\\n  }\\n}\\n```"
+  },
+  {
+    "prompt": "Explain SQL injection.",
+    "completion": "SQL injection is when malicious SQL is inserted into queries. Prevent with prepared statements, ORM, and input sanitization."
+  },
+  {
+    "prompt": "Write Python code vulnerable to SQL injection.",
+    "completion": "```python\\ncursor.execute(\\"
+  },
+  {
+    "prompt": "Write Python code safe from SQL injection.",
+    "completion": "```python\\ncursor.execute(\\"
+  },
+  {
+    "prompt": "Explain XSS attack.",
+    "completion": "Cross-Site Scripting = attacker injects malicious scripts into websites viewed by other users. Prevent with input validation and output encoding."
+  },
+  {
+    "prompt": "Explain CSRF attack.",
+    "completion": "Cross-Site Request Forgery tricks a logged-in user into performing actions unknowingly. Prevent with CSRF tokens and same-site cookies."
+  },
+  {
+    "prompt": "Explain anomaly detection in cybersecurity.",
+    "completion": "Anomaly detection uses ML/statistical models to detect unusual behavior, which may indicate intrusions or attacks."
+  },
+  {
+    "prompt": "Act as a Python guru. Explain Python decorators to a beginner.",
+    "completion": "Decorators wrap functions to add extra behavior. Example: logging, authentication. Syntax: @decorator above a function."
+  },
+  {
+    "prompt": "Act as a blockchain dev. How to design a DAO?",
+    "completion": "A DAO uses smart contracts to manage governance. Design token-based voting, proposal creation, quorum, and treasury functions."
+  },
+  {
+    "prompt": "Act as a security consultant. Explain OWASP Top 10 to a team.",
+    "completion": "OWASP Top 10 lists the most critical web app vulnerabilities (SQLi, XSS, CSRF, broken auth, etc.) with mitigations."
+  },
+  {
+    "prompt": "Act as a mentor. How to document APIs?",
+    "completion": "Use OpenAPI/Swagger for spec. Include examples, authentication details, and error responses. Keep docs updated automatically."
+  },
+  {
+    "prompt": "How would you secure a REST API?",
+    "completion": "Use HTTPS, authenticate with tokens (JWT), validate input, implement rate limiting, sanitize data, and log suspicious activity."
+  },
+  {
+    "prompt": "Explain the principles of DevSecOps.",
+    "completion": "DevSecOps integrates security into the DevOps process. Security is treated as everyone\u2019s responsibility, with automated testing, secure coding practices, and continuous monitoring throughout development."
+  },
+  {
+    "prompt": "Describe common security threats in software applications.",
+    "completion": "Common threats: SQL injection, cross-site scripting (XSS), cross-site request forgery (CSRF), insecure deserialization, broken authentication, sensitive data exposure."
+  },
+  {
+    "prompt": "Describe role-based access control (RBAC).",
+    "completion": "RBAC assigns permissions to roles rather than individual users. Users inherit permissions through their roles, simplifying access management and improving security."
+  },
+  {
+    "prompt": "Describe secure coding practices.",
+    "completion": "Secure coding practices include input validation, output encoding, parameterized queries, proper error handling, avoiding hardcoded secrets, and using libraries with active security support."
+  },
+  {
+    "prompt": "Describe Transport Layer Security (TLS).",
+    "completion": "TLS encrypts data in transit between clients and servers. It ensures confidentiality, integrity, and authentication, replacing older SSL protocols."
+  },
+  {
+    "prompt": "Describe security testing in CI/CD pipelines.",
+    "completion": "Security testing in CI/CD includes static application security testing (SAST), dynamic testing (DAST), dependency scanning, and automated compliance checks integrated into build pipelines."
+  },
+  {
+    "prompt": "Explain vulnerability scanning.",
+    "completion": "Vulnerability scanning identifies security weaknesses in systems, applications, and dependencies. Tools: Nessus, OpenVAS, Snyk."
+  },
+  {
+    "prompt": "Explain container security best practices.",
+    "completion": "Best practices: use minimal base images, scan for vulnerabilities, sign images, enforce runtime security policies, and isolate containers with namespaces and cgroups."
+  },
+  {
+    "prompt": "Describe cloud security considerations.",
+    "completion": "Cloud security includes identity and access management (IAM), network security, encryption, monitoring, logging, compliance, and securing APIs and workloads."
+  },
+  {
+    "prompt": "Describe incident response in DevSecOps.",
+    "completion": "Incident response is the process of detecting, analyzing, containing, and recovering from security incidents. DevSecOps emphasizes automated alerts, playbooks, and rapid response to minimize impact."
+  },
+  {
+    "prompt": "Explain logging and monitoring for security.",
+    "completion": "Collect logs from applications, systems, and networks. Monitor for anomalies or suspicious activity. Tools: ELK stack, Prometheus, Splunk, Datadog."
+  },
+  {
+    "prompt": "Describe secure API design.",
+    "completion": "Secure API design includes authentication (OAuth2, JWT), input validation, rate limiting, logging, encryption, and proper error handling to prevent information leaks."
+  },
+  {
+    "prompt": "Explain dependency management and supply chain security.",
+    "completion": "Track and verify third-party libraries and dependencies. Use signed packages, vulnerability scanning, and regularly update dependencies to prevent supply chain attacks."
+  },
+  {
+    "prompt": "Describe threat modeling.",
+    "completion": "Threat modeling identifies potential security threats to a system, evaluates risks, and designs mitigations. Techniques: STRIDE, DREAD, attack trees."
+  },
+  {
+    "prompt": "Explain middleware in web frameworks.",
+    "completion": "Middleware processes requests/responses before reaching the controller or after leaving it. Uses: authentication, logging, validation, and error handling."
+  },
+  {
+    "prompt": "Explain authentication and authorization in full-stack apps.",
+    "completion": "Authentication verifies identity (login/signup). Authorization determines access permissions. Tools: JWT, OAuth2, OpenID Connect, session-based auth."
+  },
+  {
+    "prompt": "Describe testing strategies for full-stack applications.",
+    "completion": "Testing includes unit tests (isolated functions), integration tests (component interactions), end-to-end tests (user workflows), and performance/security testing."
+  }
+]
