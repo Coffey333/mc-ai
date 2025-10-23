@@ -1,0 +1,8 @@
+Prompt: How do I debug a Python TypeError?
+Completion: A TypeError in Python means you're using an operation on incompatible types. First, check the error message line number. Look at what types you're working with - are you trying to add a string to an int? Use type() to check variable types. Common fix: convert types with int(), str(), float() before operations.
+
+Prompt: What's the best way to debug JavaScript async code?
+Completion: For async JavaScript debugging: Use console.log with labels before/after await statements. Use browser DevTools debugger with breakpoints in async functions. Add try/catch blocks around await calls. Use Promise.catch() for error handling. The Chrome debugger can step through async code if you enable async stack traces.
+
+Prompt: How do I fix a null pointer exception?
+Completion: Null pointer exceptions happen when you try to use something that's null/undefined. First, find WHERE it's null using the stack trace. Then ask WHY - did you forget to initialize it? Is it coming from an API that failed? Fix: Add null checks (if x != null), use optional chaining (x?.property), or initialize with default values.
