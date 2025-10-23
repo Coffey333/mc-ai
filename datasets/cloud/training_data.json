@@ -1,0 +1,114 @@
+[
+  {
+    "prompt": "How do I use Docker?",
+    "completion": "Write a Dockerfile that defines your app environment, build an image, then run containers that isolate it from your system."
+  },
+  {
+    "prompt": "Why use Kubernetes?",
+    "completion": "It automates deploying, scaling, and managing containerized apps across clusters."
+  },
+  {
+    "prompt": "Explain Docker Compose for multi-container apps",
+    "completion": "Docker Compose orchestrates multiple containers. Use docker-compose.yml: version: '3'; services: web: build: .; db: image: postgres."
+  },
+  {
+    "prompt": "Explain secret management in cloud systems.",
+    "completion": "Secret management stores and distributes credentials, API keys, and certificates securely (HashiCorp Vault, AWS Secrets Manager)."
+  },
+  {
+    "prompt": "Explain Kubernetes and why it's used.",
+    "completion": "Kubernetes is a container orchestration platform. It manages scaling, load balancing, service discovery, rolling updates, and fault tolerance for containerized applications."
+  },
+  {
+    "prompt": "Explain secrets vs config in cloud systems.",
+    "completion": "Configs = non-sensitive runtime parameters (URLs, feature flags). Secrets = sensitive credentials (API keys, DB passwords). Secrets require encryption and secure distribution."
+  },
+  {
+    "prompt": "Explain cloud autoscaling.",
+    "completion": "Cloud autoscaling adjusts compute resources up or down automatically based on metrics (CPU, requests) to handle demand efficiently."
+  },
+  {
+    "prompt": "Explain cloud cost optimization strategies.",
+    "completion": "Use autoscaling, right-size instances, spot/preemptible VMs, caching, CDNs, and monitoring to reduce unnecessary spend."
+  },
+  {
+    "prompt": "Explain multi-region cloud deployment.",
+    "completion": "Multi-region deployment runs services in multiple geographic regions for lower latency, fault tolerance, and disaster recovery."
+  },
+  {
+    "prompt": "Explain hybrid cloud vs multi-cloud.",
+    "completion": "Hybrid = mix of on-prem + public cloud. Multi-cloud = using multiple cloud providers. Hybrid = integration challenge; multi-cloud = vendor lock-in avoidance."
+  },
+  {
+    "prompt": "Explain what Helm is in Kubernetes.",
+    "completion": "Helm is a package manager for Kubernetes. It uses 'charts' to define, install, and upgrade complex Kubernetes apps easily."
+  },
+  {
+    "prompt": "Write Dockerfile for Node.js app.",
+    "completion": "```dockerfile\\nFROM node:18\\nWORKDIR /app\\nCOPY package*.json ./\\nRUN npm install\\nCOPY . .\\nCMD [\\"
+  },
+  {
+    "prompt": "Explain Kubernetes in simple terms.",
+    "completion": "Kubernetes = container orchestration system. It deploys, scales, and manages containers automatically."
+  },
+  {
+    "prompt": "Write simple Terraform script for AWS EC2.",
+    "completion": "```hcl\\nprovider \\"
+  },
+  {
+    "prompt": "Explain cloud-native applications.",
+    "completion": "Cloud-native apps are built to scale and run in cloud environments using microservices, containers, and dynamic orchestration."
+  },
+  {
+    "prompt": "Write Kubernetes deployment YAML for nginx.",
+    "completion": "```yaml\\napiVersion: apps/v1\\nkind: Deployment\\nmetadata:\\n  name: nginx-deploy\\nspec:\\n  replicas: 2\\n  selector:\\n    matchLabels:\\n      app: nginx\\n  template:\\n    metadata:\\n      labels:\\n        app: nginx\\n    spec:\\n      containers:\\n      - name: nginx\\n        image: nginx\\n        ports:\\n        - containerPort: 80\\n```"
+  },
+  {
+    "prompt": "Act as a cloud architect. Explain multi-region deployment.",
+    "completion": "Multi-region deploys your app in multiple geographic areas for low latency and high availability. Requires DNS routing and data replication."
+  },
+  {
+    "prompt": "Act as a mentor. Explain Docker to a beginner.",
+    "completion": "Docker packages your app and dependencies into containers. 'Build once, run anywhere.' Great for consistency between dev and prod."
+  },
+  {
+    "prompt": "Generate a Kubernetes deployment YAML for a Node.js app.",
+    "completion": "```yaml\\napiVersion: apps/v1\\nkind: Deployment\\nmetadata:\\n  name: node-app\\nspec:\\n  replicas: 2\\n  selector:\\n    matchLabels:\\n      app: node-app\\n  template:\\n    metadata:\\n      labels:\\n        app: node-app\\n    spec:\\n      containers:\\n      - name: node-container\\n        image: node:18\\n        ports:\\n        - containerPort: 3000\\n```"
+  },
+  {
+    "prompt": "Explain how Docker helps in system architecture.",
+    "completion": "Docker packages apps and dependencies into containers, ensuring consistency across environments. It enables microservices, faster deployments, and easier scaling."
+  },
+  {
+    "prompt": "Describe the role of Kubernetes in modern architectures.",
+    "completion": "Kubernetes orchestrates containers: manages scaling, networking, service discovery, rolling updates, and self-healing for containerized applications."
+  },
+  {
+    "prompt": "Explain the role of Docker in CI/CD pipelines.",
+    "completion": "Docker packages apps and dependencies into containers, ensuring consistency across environments. CI/CD pipelines build and test Docker images before deploying them, making deployments predictable and repeatable."
+  },
+  {
+    "prompt": "Describe Kubernetes deployment strategies.",
+    "completion": "Rolling update: gradually replace pods with new version.\\nBlue/Green: run new version alongside old, then switch traffic.\\nCanary: deploy to a subset of users, monitor, then expand."
+  },
+  {
+    "prompt": "Describe container orchestration with Kubernetes.",
+    "completion": "Kubernetes automates deployment, scaling, and management of containerized apps. Key concepts: pods (units of deployment), services (networking), deployments (desired state management)."
+  },
+  {
+    "prompt": "Explain horizontal pod autoscaling in Kubernetes.",
+    "completion": "Automatically adjusts the number of pods in a deployment based on CPU usage or custom metrics, ensuring apps handle variable load efficiently."
+  },
+  {
+    "prompt": "Describe cloud-native architecture principles.",
+    "completion": "1. Microservices design\\n2. API-first approach\\n3. Scalability and elasticity\\n4. Automation and CI/CD\\n5. Observability and monitoring\\n6. Resilience and fault tolerance"
+  },
+  {
+    "prompt": "Describe containerization with Docker.",
+    "completion": "Docker packages applications and dependencies into containers, ensuring consistency across environments. Containers are lightweight, portable, and isolated."
+  },
+  {
+    "prompt": "Explain orchestration with Kubernetes.",
+    "completion": "Kubernetes manages containerized applications across clusters. Features: automated deployment, scaling, load balancing, and self-healing."
+  }
+]
