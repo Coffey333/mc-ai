@@ -1,0 +1,75 @@
+{
+  "user_id": "test456",
+  "created": "2025-10-14T08:12:42.634373",
+  "last_updated": "2025-10-14T08:12:42.634396",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-14T08:12:42.634392",
+      "user_message": "I feel anxious",
+      "ai_response": "I can feel that anxiety. Your mind's racing right now. What's got you wound up?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Anxiety (13Hz) \u2192 **Response:** Anxiety (13Hz - Beta)\n**Catalog:** Beta Wave Dominance frequency mapping\n**Source:** PROCESSING | **Domain:** emotional\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to emotional dataset\n---",
+      "metadata": {
+        "emotion": "anxiety",
+        "frequency": 13,
+        "catalog": "neuroscience",
+        "brain_wave_band": "alpha",
+        "arousal_level": "high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": -0.5,
+        "emotional_needs": [
+          "reassurance",
+          "safety",
+          "information",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.098,
+        "complexity": 0.001,
+        "coherence": 0.951,
+        "enhanced": true,
+        "primary_emotion": "fear",
+        "micro_emotions": [],
+        "arousal": 8.738095238095237,
+        "dominance": 5.0,
+        "valence": -0.5,
+        "confidence": 0.5,
+        "trajectory": "stable",
+        "triggers": [],
+        "emotion_color": "#FFB6C1",
+        "frequency_analysis": {
+          "query_emotion": "anxiety",
+          "query_frequency": 13,
+          "response_emotion": "anxiety",
+          "response_frequency": 13,
+          "basis": "beta wave dominance",
+          "coupling": {
+            "coupling_strength": 0.8725029924785475,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566775956082263,
+            "ratio_std": 0.1461278741970474
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "emotional"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-14T08:12:42.634401",
+      "emotion": "anxiety",
+      "intensity": 5.0,
+      "frequency": 13,
+      "valence": -0.5
+    }
+  ]
+}
