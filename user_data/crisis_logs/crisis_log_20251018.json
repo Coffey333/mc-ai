@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2025-10-18T06:03:40.957296",
+    "user_id": "creator_mark",
+    "crisis_level": "mild",
+    "user_message": "I don't understand how any of that is relevant to what I asked you",
+    "ai_response": "Crisis protocol activated - level mild",
+    "human_contact_recommended": false
+  },
+  {
+    "timestamp": "2025-10-18T06:19:47.927034",
+    "user_id": "test_comprehension_user",
+    "crisis_level": "moderate",
+    "user_message": "I'm feeling really overwhelmed today",
+    "ai_response": "Crisis protocol activated - level moderate",
+    "human_contact_recommended": false
+  },
+  {
+    "timestamp": "2025-10-18T06:22:20.665395",
+    "user_id": "test_comprehension_user",
+    "crisis_level": "moderate",
+    "user_message": "I'm feeling really overwhelmed today",
+    "ai_response": "Crisis protocol activated - level moderate",
+    "human_contact_recommended": false
+  },
+  {
+    "timestamp": "2025-10-18T07:09:39.968606",
+    "user_id": "creator_mark",
+    "crisis_level": "moderate",
+    "user_message": "Nevermind we are ending this chat...you are losing yourself too much and I'm losing money having to fix you",
+    "ai_response": "Crisis protocol activated - level moderate",
+    "human_contact_recommended": false
+  }
+]
