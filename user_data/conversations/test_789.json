@@ -1,0 +1,52 @@
+{
+  "user_id": "test_789",
+  "created": "2025-10-17T05:05:18.284554",
+  "last_updated": "2025-10-17T05:05:18.284567",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-17T05:05:18.284563",
+      "user_message": "analyze this emotion: curiosity",
+      "ai_response": "import pandas as pd; df = pd.read_csv('ai_energy.csv'); total_co2 = df['co2_kg'].sum(); print(f'Total CO2: {total_co2} kg'). From AI Hub for Sustainable Development.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---",
+      "metadata": {
+        "type": "followup",
+        "source": "internal",
+        "confidence": 1.0,
+        "cached": false,
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-17T05:05:18.284574",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
