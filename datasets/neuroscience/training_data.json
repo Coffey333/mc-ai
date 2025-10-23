@@ -1,0 +1,2754 @@
+[
+  {
+    "prompt": "What is a neuron?",
+    "completion": "A neuron is..."
+  },
+  {
+    "prompt": "Explain alpha waves",
+    "completion": "Alpha waves are..."
+  },
+  {
+    "prompt": "Explain how a neural network is like a human brain.",
+    "completion": "Both have nodes (neurons) connected by links (synapses/weights). Signals flow through layers, activating certain nodes, analogous to how biological neurons fire and transmit signals."
+  },
+  {
+    "prompt": "Explain backpropagation in neural networks in simple terms.",
+    "completion": "Backpropagation adjusts weights in a network by calculating how much each weight contributed to the error, then moving weights to reduce future errors, like learning from mistakes."
+  },
+  {
+    "prompt": "User: My brain feels like spaghetti.",
+    "completion": "Sounds like you\u2019re feeling tangled with thoughts. Let\u2019s untangle them step by step!"
+  },
+  {
+    "prompt": "Give me a brain teaser",
+    "completion": "What has keys but can\u2019t open locks?"
+  },
+  {
+    "prompt": "Child playing with blocks, focused",
+    "completion": "Frontal Beta waves 15\u201325 Hz, ~12 \u00b5V. Theta 5\u201310 \u00b5V, attention strong."
+  },
+  {
+    "prompt": "Child watching favorite cartoon",
+    "completion": "Alpha 8\u201312 Hz, ~20 \u00b5V. Theta low (~10 \u00b5V), frontal-temporal engagement."
+  },
+  {
+    "prompt": "Child frustrated with toy",
+    "completion": "Frontal Beta waves 18\u201328 Hz, ~15 \u00b5V. Alpha suppressed (~5\u201310 \u00b5V)."
+  },
+  {
+    "prompt": "Child learning to write letters",
+    "completion": "Frontal Beta 15\u201325 Hz, ~12 \u00b5V. Theta moderate 10\u201315 \u00b5V, motor cortex active."
+  },
+  {
+    "prompt": "Child listening to nursery rhymes",
+    "completion": "Alpha 8\u201312 Hz, 20\u201325 \u00b5V. Theta 5\u201310 \u00b5V, temporal regions active."
+  },
+  {
+    "prompt": "Child excited opening gift",
+    "completion": "Frontal Beta 20\u201328 Hz, ~15 \u00b5V. Theta low (~10 \u00b5V). Heart rate elevated."
+  },
+  {
+    "prompt": "Child sad after losing game",
+    "completion": "Frontal Theta 6\u20138 Hz, ~20 \u00b5V. Beta low (~8 \u00b5V), slight alpha 8\u201312 Hz ~10 \u00b5V."
+  },
+  {
+    "prompt": "Child running outside",
+    "completion": "Beta moderate 15\u201320 Hz, ~12 \u00b5V. Alpha low 5\u201310 \u00b5V, motor cortex active."
+  },
+  {
+    "prompt": "Child resting quietly",
+    "completion": "Alpha 8\u201312 Hz, 25\u201330 \u00b5V. Theta moderate 10\u201315 \u00b5V, frontal-parietal calm."
+  },
+  {
+    "prompt": "Adolescent listening to music while studying",
+    "completion": "Alpha 8\u201312 Hz, 15\u201325 \u00b5V. Theta 5\u201310 \u00b5V. Beta 15\u201320 Hz frontal moderate."
+  },
+  {
+    "prompt": "Adolescent frustrated with homework",
+    "completion": "Frontal Beta 18\u201328 Hz, 12\u201315 \u00b5V. Alpha suppressed ~5 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent excited about sports win",
+    "completion": "Frontal Beta 20\u201330 Hz, ~15 \u00b5V. Theta low (~5\u201310 \u00b5V). Heart rate elevated."
+  },
+  {
+    "prompt": "Adolescent focused on coding project",
+    "completion": "Beta 15\u201325 Hz frontal-central, 12\u201315 \u00b5V. Alpha suppressed (~5 \u00b5V), theta 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent relaxed reading a book",
+    "completion": "Alpha 8\u201312 Hz, 20\u201325 \u00b5V. Theta 5\u201310 \u00b5V. Occipital-parietal calm."
+  },
+  {
+    "prompt": "Adolescent daydreaming",
+    "completion": "Theta 4\u20138 Hz, 15\u201325 \u00b5V. Alpha moderate (~15 \u00b5V), frontal regions engaged."
+  },
+  {
+    "prompt": "Adolescent stressed before exam",
+    "completion": "Frontal Beta 20\u201330 Hz, 15 \u00b5V. Alpha suppressed ~5\u20138 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent excited playing video game",
+    "completion": "Beta 20\u201328 Hz frontal, 15 \u00b5V. Alpha low ~5 \u00b5V, motor cortex active."
+  },
+  {
+    "prompt": "Adolescent calm, listening to meditation music",
+    "completion": "Alpha 8\u201312 Hz, 25\u201330 \u00b5V. Theta 10\u201315 \u00b5V, frontal-parietal relaxed."
+  },
+  {
+    "prompt": "Adult focused on coding a project",
+    "completion": "Frontal Beta 20\u201330 Hz, 10\u201315 \u00b5V. Alpha suppressed (~5 \u00b5V)."
+  },
+  {
+    "prompt": "Adult stressed, multitasking",
+    "completion": "Frontal Beta 18\u201330 Hz, 12\u201318 \u00b5V. Alpha low (~5\u20138 \u00b5V). Theta 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Adult meditating",
+    "completion": "Frontal-midline Theta 4\u20137 Hz, 15\u201320 \u00b5V. Alpha 8\u201312 Hz, 20 \u00b5V parietal."
+  },
+  {
+    "prompt": "Adult solving complex problem",
+    "completion": "Frontal Beta 20\u201330 Hz, 10\u201320 \u00b5V. Alpha suppressed ~5 \u00b5V. Theta low ~5 \u00b5V."
+  },
+  {
+    "prompt": "Adult happy interacting socially",
+    "completion": "Beta moderate 15\u201320 Hz frontal, 10\u201315 \u00b5V. Alpha 10\u201315 \u00b5V. Theta 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Adult tired after long workday",
+    "completion": "Theta 4\u20137 Hz, 20\u201330 \u00b5V frontal. Alpha low (~10 \u00b5V)."
+  },
+  {
+    "prompt": "Adult excited about new project",
+    "completion": "Beta 18\u201328 Hz frontal, 12\u201315 \u00b5V. Alpha suppressed ~5 \u00b5V."
+  },
+  {
+    "prompt": "Adult focused on learning new skill",
+    "completion": "Frontal Beta 15\u201325 Hz, 12\u201315 \u00b5V. Alpha suppressed 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Child exploring new toy",
+    "completion": "Beta 15\u201325 Hz frontal, 12 \u00b5V. Alpha moderate 10\u201315 \u00b5V. Theta 10 \u00b5V."
+  },
+  {
+    "prompt": "Child listening to story",
+    "completion": "Alpha 8\u201312 Hz 20\u201325 \u00b5V. Theta 5\u201310 \u00b5V. Frontal-parietal calm."
+  },
+  {
+    "prompt": "Child excited about outdoors",
+    "completion": "Beta 18\u201328 Hz frontal 15 \u00b5V. Theta low ~10 \u00b5V. Heart rate up."
+  },
+  {
+    "prompt": "Child focused drawing",
+    "completion": "Frontal Beta 15\u201325 Hz, 12 \u00b5V. Alpha 10\u201312 \u00b5V. Theta ~10 \u00b5V."
+  },
+  {
+    "prompt": "Child sleepy after school",
+    "completion": "Theta 4\u20137 Hz, 25 \u00b5V. Alpha 10 \u00b5V. Frontal drowsy."
+  },
+  {
+    "prompt": "Child happy playing with friends",
+    "completion": "Beta 15\u201325 Hz frontal, 12 \u00b5V. Alpha 10\u201315 \u00b5V. Theta 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Child frustrated with homework",
+    "completion": "Frontal Beta 18\u201328 Hz, 15 \u00b5V. Alpha suppressed 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Child relaxed listening to music",
+    "completion": "Alpha 8\u201312 Hz, 20\u201325 \u00b5V. Theta 5\u201310 \u00b5V. Frontal-parietal calm."
+  },
+  {
+    "prompt": "Adolescent focused on homework",
+    "completion": "Frontal Beta 15\u201325 Hz, 12\u201315 \u00b5V. Alpha suppressed 5\u201310 \u00b5V. Theta 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent excited for weekend",
+    "completion": "Beta 20\u201328 Hz frontal, 12\u201315 \u00b5V. Theta low ~5 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent happy socializing",
+    "completion": "Beta 15\u201325 Hz frontal, 12 \u00b5V. Alpha 10\u201315 \u00b5V. Theta 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent stressed studying",
+    "completion": "Frontal Beta 18\u201328 Hz, 15 \u00b5V. Alpha suppressed 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Adult focused coding",
+    "completion": "Frontal Beta 20\u201330 Hz, 10\u201315 \u00b5V. Alpha suppressed 5 \u00b5V."
+  },
+  {
+    "prompt": "Adult stressed at work",
+    "completion": "Frontal Beta 18\u201330 Hz, 12\u201318 \u00b5V. Alpha low 5\u20138 \u00b5V."
+  },
+  {
+    "prompt": "Adult problem-solving",
+    "completion": "Frontal Beta 20\u201330 Hz, 10\u201320 \u00b5V. Alpha suppressed 5 \u00b5V. Theta low 5 \u00b5V."
+  },
+  {
+    "prompt": "Astronaut during EVA (extravehicular activity), high concentration",
+    "completion": "Frontal Beta 20\u201330 Hz, 12\u201318 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5\u201310 \u00b5V. Heart rate 90\u2013110 bpm."
+  },
+  {
+    "prompt": "Astronaut under high-G centrifuge training",
+    "completion": "Frontal Beta 25\u201335 Hz, 15 \u00b5V. Theta 5\u201310 \u00b5V. Heart rate elevated 120\u2013140 bpm."
+  },
+  {
+    "prompt": "Astronaut during cognitive task performance on ISS",
+    "completion": "Frontal Beta 20\u201325 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 80\u201390 bpm."
+  },
+  {
+    "prompt": "Astronaut during high-stress mission scenario",
+    "completion": "Frontal Beta 25\u201335 Hz, 18 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 100\u2013120 bpm."
+  },
+  {
+    "prompt": "Astronaut during cognitive task performance on Earth after return",
+    "completion": "Frontal Beta 20\u201325 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 80\u201390 bpm."
+  },
+  {
+    "prompt": "Astronaut during high-stress mission scenario on Earth",
+    "completion": "Frontal Beta 25\u201335 Hz, 18 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 100\u2013120 bpm."
+  },
+  {
+    "prompt": "Astronaut during cognitive task performance on Earth",
+    "completion": "Frontal Beta 20\u201325 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 80\u201390 bpm."
+  },
+  {
+    "prompt": "High-performance athlete during intense training",
+    "completion": "Frontal Beta 25\u201335 Hz, 15 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 150\u2013180 bpm."
+  },
+  {
+    "prompt": "High-performance athlete during competition",
+    "completion": "Frontal Beta 20\u201330 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 120\u2013150 bpm."
+  },
+  {
+    "prompt": "High-performance athlete during cognitive task",
+    "completion": "Frontal Beta 20\u201325 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 80\u201390 bpm."
+  },
+  {
+    "prompt": "High-performance athlete during stress",
+    "completion": "Frontal Beta 25\u201335 Hz, 15 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 100\u2013120 bpm."
+  },
+  {
+    "prompt": "High-performance pilot during flight",
+    "completion": "Frontal Beta 20\u201330 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 90\u2013110 bpm."
+  },
+  {
+    "prompt": "High-performance pilot during cognitive task",
+    "completion": "Frontal Beta 20\u201325 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 80\u201390 bpm."
+  },
+  {
+    "prompt": "EEG data for 36\u201340 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20133 Hz with amplitude 20\u201345 \u00b5V during Sleep / Recovery"
+  },
+  {
+    "prompt": "EEG data for 36\u201340 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 10\u201320 \u00b5V during Memory retrieval / Learning"
+  },
+  {
+    "prompt": "EEG data for 36\u201340 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201312 Hz with amplitude 10\u201320 \u00b5V during Relaxed focus / Reading"
+  },
+  {
+    "prompt": "EEG data for 36\u201340 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201325 Hz with amplitude 5\u201315 \u00b5V during Decision-making / Analytical tasks"
+  },
+  {
+    "prompt": "EEG data for 41\u201350 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20133 Hz with amplitude 20\u201345 \u00b5V during Deep sleep"
+  },
+  {
+    "prompt": "EEG data for 41\u201350 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 10\u201320 \u00b5V during Learning / Memory consolidation"
+  },
+  {
+    "prompt": "EEG data for 41\u201350 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201320 \u00b5V during Calm focus / Mindfulness"
+  },
+  {
+    "prompt": "EEG data for 41\u201350 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201325 Hz with amplitude 5\u201315 \u00b5V during Stress response / Active problem-solving"
+  },
+  {
+    "prompt": "EEG data for 51\u201360 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20133 Hz with amplitude 20\u201345 \u00b5V during Sleep / Recovery"
+  },
+  {
+    "prompt": "EEG data for 51\u201360 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 10\u201320 \u00b5V during Memory tasks / Reflection"
+  },
+  {
+    "prompt": "EEG data for 51\u201360 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201320 \u00b5V during Relaxed alertness / Meditation"
+  },
+  {
+    "prompt": "EEG data for 51\u201360 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201325 Hz with amplitude 5\u201315 \u00b5V during Cognitive load / Analytical thinking"
+  },
+  {
+    "prompt": "EEG data for 13\u201318 years, Gamma band frequency and cognitive state",
+    "completion": "Gamma waves at 30\u2013100 Hz with amplitude 5\u201315 \u00b5V during Visual processing / Attention tasks"
+  },
+  {
+    "prompt": "EEG data for 19\u201335 years, Gamma band frequency and cognitive state",
+    "completion": "Gamma waves at 30\u2013100 Hz with amplitude 5\u201315 \u00b5V during Working memory / Problem-solving"
+  },
+  {
+    "prompt": "EEG data for 36\u201360 years, Gamma band frequency and cognitive state",
+    "completion": "Gamma waves at 30\u2013100 Hz with amplitude 5\u201315 \u00b5V during Sensory integration / Perceptual binding"
+  },
+  {
+    "prompt": "EEG data for 13\u201318 years, Mu band frequency and cognitive state",
+    "completion": "Mu waves at 8\u201313 Hz with amplitude 10\u201330 \u00b5V during Motor imagery / Preparation"
+  },
+  {
+    "prompt": "EEG data for 19\u201335 years, Mu band frequency and cognitive state",
+    "completion": "Mu waves at 8\u201313 Hz with amplitude 10\u201330 \u00b5V during Motor execution / Neurofeedback"
+  },
+  {
+    "prompt": "EEG data for 36\u201360 years, Mu band frequency and cognitive state",
+    "completion": "Mu waves at 8\u201313 Hz with amplitude 10\u201330 \u00b5V during Sensorimotor integration / Rehabilitation"
+  },
+  {
+    "prompt": "... / Completion: ...\n        - Q: ... / A: ...\n        - # Comment describing prompt-completion pairs\n        \"\"\"\n        with open(file_path, 'r', encoding='utf-8') as f:\n            content = f.read()\n        \n        examples = []\n        \n        # Pattern 1: Prompt: ... \\n Completion: ...\n        pattern1 = r'Prompt:\\s*(.+?)\\s*(?:Completion|Response|Answer):\\s*(.+?)(?=Prompt:|$)'\n        matches = re.findall(pattern1, content, re.DOTALL | re.IGNORECASE)\n        for prompt, completion in matches:\n            examples.append({\n                'prompt': prompt.strip(),\n                'completion': completion.strip()\n            })\n        \n        # Pattern 2: Q: ... \\n A: ...\n        pattern2 = r'Q:\\s*(.+?)\\s*A:\\s*(.+?)(?=Q:|$)'\n        matches = re.findall(pattern2, content, re.DOTALL)\n        for prompt, completion in matches:\n            examples.append({\n                'prompt': prompt.strip(),\n                'completion': completion.strip()\n            })\n        \n        # Pattern 3: User: ... \\n Assistant: ...\n        pattern3 = r'User:\\s*(.+?)\\s*(?:Assistant|AI|MC AI):\\s*(.+?)(?=User:|$)'\n        matches = re.findall(pattern3, content, re.DOTALL | re.IGNORECASE)\n        for prompt, completion in matches:\n            examples.append({\n                'prompt': prompt.strip(),\n                'completion': completion.strip()\n            })\n        \n        # Pattern 4: Python docstring format (for code examples)\n        if file_path.suffix == '.py':\n            # Extract class/function definitions as examples\n            class_pattern = r'class\\s+(\\w+).*?\"\"\"(.+?)\"\"\"'\n            matches = re.findall(class_pattern, content, re.DOTALL)\n            for class_name, docstring in matches:\n                examples.append({\n                    'prompt': f'Explain {class_name}',\n                    'completion': docstring.strip()\n                })\n        \n        return examples\n```\n\n---\n\n### Step 3: Create `src/dataset_bank.py`\n\n```python\n\"\"\"\nDataset Bank - Central repository for all training data\nProvides fast lookup and semantic search\n\"\"\"\n\nimport json\nimport pickle\nfrom pathlib import Path\nfrom typing import List, Dict, Optional\nfrom collections import defaultdict\nfrom src.dataset_loader import DatasetLoader\n\nclass DatasetBank:\n    \"\"\"\n    Central knowledge bank that loads, indexes, and retrieves training examples\n    \"\"\"\n    \n    def __init__(self, datasets_dir: str = \"datasets\", cache_file: str = \"dataset_cache.pkl\"):\n        self.datasets_dir = datasets_dir\n        self.cache_file = cache_file\n        self.data: Dict[str, List[Dict]] = {}\n        self.index: Dict[str, List[tuple]] = defaultdict(list)  # keyword -> [(domain, example_idx)]\n        self.loaded = False\n    \n    def load(self, force_reload: bool = False):\n        \"\"\"Load all datasets (uses cache if available)\"\"\"\n        cache_path = Path(self.cache_file)\n        \n        # Try loading from cache first\n        if not force_reload and cache_path.exists():\n            print(\"\ud83d\udce6 Loading from cache...\")\n            try:\n                with open(cache_path, 'rb') as f:\n                    cached = pickle.load(f)\n                    self.data = cached['data']\n                    self.index = cached['index']\n                    self.loaded = True\n                    print(f\"\u2705 Loaded {sum(len(v) for v in self.data.values())} examples from cache\\n\")\n                    return\n            except Exception as e:\n                print(f\"\u26a0\ufe0f Cache load failed: {e}\")\n        \n        # Load from files\n        print(\"\ud83d\udd04 Loading datasets from files...\")\n        loader = DatasetLoader(self.datasets_dir)\n        self.data = loader.load_all_datasets()\n        \n        # Build search index\n        print(\"\ud83d\udd0d Building search index...\")\n        self._build_index()\n        \n        # Save cache\n        print(\"\ud83d\udcbe Saving cache...\")\n        self._save_cache()\n        \n        self.loaded = True\n        total = sum(len(v) for v in self.data.values())\n        print(f\"\u2705 Dataset Bank ready with {total} examples across {len(self.data)} domains\\n\")\n    \n    def _build_index(self):\n        \"\"\"Build keyword index for fast search\"\"\"\n        self.index.clear()\n        \n        for domain, examples in self.data.items():\n            for idx, example in enumerate(examples):\n                # Extract keywords from prompt\n                prompt = example.get('prompt', '').lower()\n                words = set(prompt.split())\n                \n                for word in words:\n                    if len(word) > 3:  # Skip short words\n                        self.index[word].append((domain, idx))\n    \n    def _save_cache(self):\n        \"\"\"Save processed data to cache\"\"\"\n        try:\n            with open(self.cache_file, 'wb') as f:\n                pickle.dump({\n                    'data': self.data,\n                    'index': self.index\n                }, f)\n        except Exception as e:\n            print(f\"\u26a0\ufe0f Failed to save cache: {e}\")\n    \n    def search(self, query: str, domain: Optional[str] = None, limit: int = 5) -> List[Dict]:\n        \"\"\"\n        Search for relevant examples\n        \n        Args:\n            query: Search query\n            domain: Optional domain filter (e.g., 'coding', 'neuroscience')\n            limit: Max results to return\n        \n        Returns:\n            List of matching examples with metadata\n        \"\"\"\n        if not self.loaded:\n            self.load()\n        \n        query_lower = query.lower()\n        words = query_lower.split()\n        \n        # Score examples by keyword matches\n        scores = defaultdict(int)\n        \n        for word in words:\n            if word in self.index:\n                for dom, idx in self.index[word]:\n                    if domain is None or dom == domain:\n                        scores[(dom, idx)] += 1\n        \n        # Sort by score\n        ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)\n        \n        # Get top results\n        results = []\n        for (dom, idx), score in ranked[:limit]:\n            example = self.data[dom][idx].copy()\n            example['domain'] = dom\n            example['relevance_score'] = score\n            results.append(example)\n        \n        return results\n    \n    def get_domain(self, domain: str) -> List[Dict]:\n        \"\"\"Get all examples from a specific domain\"\"\"\n        if not self.loaded:\n            self.load()\n        return self.data.get(domain, [])\n    \n    def get_random_example(self, domain: Optional[str] = None) -> Optional[Dict]:\n        \"\"\"Get a random example (optionally from specific domain)\"\"\"\n        if not self.loaded:\n            self.load()\n        \n        import random\n        \n        if domain:\n            examples = self.data.get(domain, [])\n            return random.choice(examples) if examples else None\n        else:\n            all_examples = [ex for examples in self.data.values() for ex in examples]\n            return random.choice(all_examples) if all_examples else None\n    \n    def stats(self) -> Dict:\n        \"\"\"Get dataset statistics\"\"\"\n        if not self.loaded:\n            self.load()\n        \n        return {\n            'total_examples': sum(len(v) for v in self.data.values()),\n            'domains': {\n                domain: len(examples) \n                for domain, examples in self.data.items()\n            },\n            'indexed_keywords': len(self.index)\n        }\n    \n    def export_summary(self, output_file: str = \"dataset_summary.json\"):\n        \"\"\"Export dataset summary to JSON\"\"\"\n        summary = self.stats()\n        with open(output_file, 'w') as f:\n            json.dump(summary, f, indent=2)\n        print(f\"\ud83d\udcc4 Summary exported to {output_file}\")\n```\n\n---\n\n### Step 4: Update `src/response_generator.py` to use Dataset Bank\n\n```python\n\"\"\"Main response generation - NOW WITH FULL DATASET BANK\"\"\"\nfrom src.catalogs import get_frequency\nfrom src.cymatic import CymaticTransformer\nfrom src.personality import PersonalityEngine\nfrom src.dataset_bank import DatasetBank\n\nclass ResponseGenerator:\n    def __init__(self):\n        self.cymatic = CymaticTransformer()\n        self.personality = PersonalityEngine()\n        self.dataset_bank = DatasetBank()\n        \n        # Load all datasets on init\n        print(\"\ud83c\udfe6 Initializing Dataset Bank...\")\n        self.dataset_bank.load()\n    \n    def generate(self, query: str) -> dict:\n        # First, search dataset bank for relevant knowledge\n        search_results = self.dataset_bank.search(query, limit=3)\n        \n        if search_results and search_results[0]['relevance_score'] >= 2:\n            # Found highly relevant training example\n            best_match = search_results[0]\n            response = best_match['completion']\n            \n            # Add some personality\n            response = f\"{response}\\n\\n\ud83d\udca1 Want to know more about {best_match['domain']}?\"\n            \n            return {\n                'response': response,\n                'metadata': {\n                    'source': 'dataset_bank',\n                    'domain': best_match['domain'],\n                    'relevance': best_match['relevance_score'],\n                    'emotion': 'knowledge',\n                    'frequency': 432\n                }\n            }\n        \n        # Fallback to emotion-based response\n        emotion_data = get_frequency(query)\n        emotion = emotion_data['emotion']\n        freq = emotion_data['frequency']\n        basis = emotion_data['basis']\n        catalog = emotion_data['catalog']\n        \n        cymatic_props = self.cymatic.transform(query, freq)\n        response = self.personality.generate_response(emotion, freq, basis)\n        \n        return {\n            'response': response,\n            'metadata': {\n                'emotion': emotion,\n                'frequency': freq,\n                'catalog': catalog,\n                'symmetry': round(cymatic_props['symmetry'], 3),\n                'complexity': round(cymatic_props['complexity'], 3),\n                'coherence': round(cymatic_props['coherence'], 3)\n            }\n        }\n```\n\n---\n\n### Step 5: Add dataset stats endpoint to `app.py`\n\n```python\n# Add this new route to app.py\n\n@app.route('/api/datasets/stats', methods=['GET'])\ndef dataset_stats():\n    \"\"\"Get dataset bank statistics\"\"\"\n    stats = generator.dataset_bank.stats()\n    return jsonify(stats)\n\n@app.route('/api/datasets/reload', methods=['POST'])\ndef reload_datasets():\n    \"\"\"Force reload datasets from files\"\"\"\n    generator.dataset_bank.load(force_reload=True)\n    return jsonify({'status': 'reloaded', 'stats': generator.dataset_bank.stats()})\n```\n\n---\n\n## \ud83d\udcc1 **HOW TO USE IT:**\n\n### 1. **Organize your dataset files like this:**\n\n```\ndatasets/\n\u251c\u2500\u2500 coding/\n\u2502   \u251c\u2500\u2500 python_examples.txt\n\u2502   \u251c\u2500\u2500 debugging_guide.json\n\u2502   \u2514\u2500\u2500 patterns.py\n\u251c\u2500\u2500 neuroscience/\n\u2502   \u251c\u2500\u2500 brain_waves.txt\n\u2502   \u251c\u2500\u2500 neurons.md\n\u2502   \u2514\u2500\u2500 neurotransmitters.json\n\u251c\u2500\u2500 debugging/\n\u2502   \u2514\u2500\u2500 error_solutions.txt\n\u251c\u2500\u2500 architecture/\n\u2502   \u2514\u2500\u2500 design_patterns.json\n\u2514\u2500\u2500 psychology/\n    \u2514\u2500\u2500 emotional_intelligence.txt\n```\n\n### 2. **Just dump ALL your files into these folders**\n\nThe system will:\n- \u2705 Auto-detect file formats (.txt, .py, .json, .csv, .md)\n- \u2705 Extract prompt-completion pairs automatically\n- \u2705 Build a searchable index\n- \u2705 Cache everything for fast loading\n\n### 3. **Supported file formats:**\n\n**JSON format:**\n```json\n[\n  {\"prompt\": \"What is a neuron?\", \"completion\": \"A neuron is...\"},\n  {\"prompt\": \"Explain alpha waves\", \"completion\": \"Alpha waves are...\"}\n]\n```\n\n**Text format:**\n```\nPrompt: What is debugging?",
+    "completion": "Debugging is the process of..."
+  },
+  {
+    "prompt": "What is a neuron?",
+    "completion": "A neuron is a specialized cell that transmits electrical and chemical signals in the nervous system."
+  },
+  {
+    "prompt": "Define synapse.",
+    "completion": "A synapse is the junction where one neuron communicates with another via neurotransmitters."
+  },
+  {
+    "prompt": "What role does the myelin sheath play?",
+    "completion": "It insulates the axon, speeding up the transmission of electrical impulses."
+  },
+  {
+    "prompt": "Explain action potential.",
+    "completion": "It\u2019s the rapid electrical change that travels along a neuron when it fires, caused by ion exchange across the membrane."
+  },
+  {
+    "prompt": "What ions are critical for action potentials?",
+    "completion": "Sodium (Na+) and potassium (K+) ions create voltage changes that propagate the signal."
+  },
+  {
+    "prompt": "Differentiate gray matter and white matter.",
+    "completion": "Gray matter contains neuron cell bodies; white matter consists mainly of myelinated axons for signal transmission."
+  },
+  {
+    "prompt": "What is neuroplasticity?",
+    "completion": "The brain\u2019s ability to reorganize and form new connections in response to learning or injury."
+  },
+  {
+    "prompt": "What are neurotransmitters?",
+    "completion": "Chemical messengers that carry signals across synapses between neurons."
+  },
+  {
+    "prompt": "Give examples of common neurotransmitters.",
+    "completion": "Dopamine, serotonin, acetylcholine, norepinephrine, and GABA."
+  },
+  {
+    "prompt": "What does dopamine regulate?",
+    "completion": "Motivation, reward, pleasure, and motor control."
+  },
+  {
+    "prompt": "Function of serotonin.",
+    "completion": "Regulates mood, sleep, appetite, and emotional balance."
+  },
+  {
+    "prompt": "What does GABA do?",
+    "completion": "It\u2019s the main inhibitory neurotransmitter, reducing neural activity and promoting calmness."
+  },
+  {
+    "prompt": "What are glial cells?",
+    "completion": "Supportive cells that nourish neurons, remove waste, and maintain homeostasis."
+  },
+  {
+    "prompt": "What do astrocytes do?",
+    "completion": "Provide nutrients to neurons and regulate the chemical environment around synapses."
+  },
+  {
+    "prompt": "Function of oligodendrocytes.",
+    "completion": "They form the myelin sheath in the central nervous system."
+  },
+  {
+    "prompt": "Function of Schwann cells.",
+    "completion": "They myelinate axons in the peripheral nervous system."
+  },
+  {
+    "prompt": "What is the cerebral cortex?",
+    "completion": "The brain\u2019s outer layer responsible for higher functions like reasoning, language, and perception."
+  },
+  {
+    "prompt": "Main lobes of the cerebral cortex.",
+    "completion": "Frontal, parietal, temporal, and occipital."
+  },
+  {
+    "prompt": "Function of the frontal lobe.",
+    "completion": "Governs decision making, problem solving, and voluntary movement."
+  },
+  {
+    "prompt": "Function of the parietal lobe.",
+    "completion": "Processes sensory input such as touch, temperature, and spatial awareness."
+  },
+  {
+    "prompt": "Function of the temporal lobe.",
+    "completion": "Handles hearing, memory, and language comprehension."
+  },
+  {
+    "prompt": "Function of the occipital lobe.",
+    "completion": "Processes visual information."
+  },
+  {
+    "prompt": "Key parts of the limbic system.",
+    "completion": "Amygdala, hippocampus, hypothalamus, and cingulate cortex."
+  },
+  {
+    "prompt": "Role of the hippocampus.",
+    "completion": "Essential for forming and retrieving long-term memories."
+  },
+  {
+    "prompt": "Role of the amygdala.",
+    "completion": "Processes emotional responses, especially fear and pleasure."
+  },
+  {
+    "prompt": "Function of the pons.",
+    "completion": "Links cerebellum and cortex, coordinating sleep and facial movement."
+  },
+  {
+    "prompt": "What are mirror neurons?",
+    "completion": "Neurons that fire both when performing an action and when observing someone else perform it."
+  },
+  {
+    "prompt": "What are sensory neurons?",
+    "completion": "They carry information from sense organs to the central nervous system."
+  },
+  {
+    "prompt": "What are motor neurons?",
+    "completion": "They transmit commands from the brain or spinal cord to muscles and glands."
+  },
+  {
+    "prompt": "Define interneurons.",
+    "completion": "Connect sensory and motor neurons within neural circuits."
+  },
+  {
+    "prompt": "What is an EEG?",
+    "completion": "An electroencephalogram measures brainwave activity through scalp electrodes."
+  },
+  {
+    "prompt": "What does brain plasticity mean in adults?",
+    "completion": "The adult brain can still form new synapses and reorganize pathways through learning or therapy."
+  },
+  {
+    "prompt": "What are brainwaves?",
+    "completion": "Rhythmic electrical patterns of neural activity, measured in frequencies like alpha, beta, theta, delta, and gamma."
+  },
+  {
+    "prompt": "Describe alpha waves.",
+    "completion": "Brainwaves between 8\u201313 Hz linked to relaxation and calm wakefulness."
+  },
+  {
+    "prompt": "Describe beta waves.",
+    "completion": "Fast brainwaves (13\u201330 Hz) associated with alertness, focus, and active thinking."
+  },
+  {
+    "prompt": "Describe theta waves.",
+    "completion": "Slow brainwaves (4\u20138 Hz) related to creativity, meditation, and light sleep."
+  },
+  {
+    "prompt": "Describe delta waves.",
+    "completion": "Very slow waves (0.5\u20134 Hz) dominant in deep, restorative sleep."
+  },
+  {
+    "prompt": "Describe gamma waves.",
+    "completion": "High-frequency waves (30\u2013100 Hz) tied to high-level cognition, attention, and consciousness integration."
+  },
+  {
+    "prompt": "What is the resting membrane potential?",
+    "completion": "The voltage difference across a neuron\u2019s membrane when it\u2019s not firing, typically around \u201370 mV."
+  },
+  {
+    "prompt": "How does a neuron depolarize?",
+    "completion": "Sodium ions enter, making the inside more positive and triggering an action potential."
+  },
+  {
+    "prompt": "What is hyperpolarization?",
+    "completion": "The neuron becomes more negative than the resting potential, temporarily preventing new firing."
+  },
+  {
+    "prompt": "What is the refractory period?",
+    "completion": "The brief time after an action potential when a neuron cannot fire again."
+  },
+  {
+    "prompt": "What are dendrites?",
+    "completion": "Branch-like extensions that receive incoming signals from other neurons."
+  },
+  {
+    "prompt": "What is an axon?",
+    "completion": "The long fiber that transmits electrical impulses away from the cell body to other neurons or muscles."
+  },
+  {
+    "prompt": "What is a soma?",
+    "completion": "The cell body of a neuron containing the nucleus and metabolic machinery."
+  },
+  {
+    "prompt": "What is the node of Ranvier?",
+    "completion": "Gaps in the myelin sheath where action potentials regenerate during saltatory conduction."
+  },
+  {
+    "prompt": "What is saltatory conduction?",
+    "completion": "The jumping of action potentials between myelin gaps, greatly speeding signal transmission."
+  },
+  {
+    "prompt": "What is a neurotransmitter receptor?",
+    "completion": "A protein on the postsynaptic membrane that binds neurotransmitters to trigger responses."
+  },
+  {
+    "prompt": "What are ionotropic receptors?",
+    "completion": "Fast-acting receptors that directly open ion channels when neurotransmitters bind."
+  },
+  {
+    "prompt": "What is the prefrontal cortex responsible for?",
+    "completion": "Planning, decision-making, impulse control, and complex reasoning."
+  },
+  {
+    "prompt": "What is the motor cortex?",
+    "completion": "The region controlling voluntary muscle movement."
+  },
+  {
+    "prompt": "What is the sensory cortex?",
+    "completion": "The region that processes tactile and sensory input from the body."
+  },
+  {
+    "prompt": "What is the visual cortex?",
+    "completion": "The occipital region specialized for interpreting"
+  },
+  {
+    "prompt": "How does deep sleep affect brainwaves?",
+    "completion": "Enhances delta activity, supporting restorative processes."
+  },
+  {
+    "prompt": "What is the relationship between beta waves and stress?",
+    "completion": "High beta activity can indicate stress, anxiety, or overthinking."
+  },
+  {
+    "prompt": "What is the relationship between alpha waves and calmness?",
+    "completion": "Higher alpha activity is linked to relaxation and reduced stress."
+  },
+  {
+    "prompt": "What is the role of gamma waves in memory?",
+    "completion": "Synchronizes neurons to enhance memory consolidation and retrieval."
+  },
+  {
+    "prompt": "Explain the effect of music on brainwaves.",
+    "completion": "Can entrain brainwaves to specific frequencies, altering mood and focus."
+  },
+  {
+    "prompt": "Explain the effect of light and flicker on brainwaves.",
+    "completion": "Can induce brainwave synchronization or entrainment at specific frequencies."
+  },
+  {
+    "prompt": "How do theta waves relate to creativity?",
+    "completion": "Promote relaxed mental states that support idea generation and insight."
+  },
+  {
+    "prompt": "Explain beta wave suppression.",
+    "completion": "Reducing beta activity can alleviate anxiety and overthinking."
+  },
+  {
+    "prompt": "Explain gamma wave synchronization.",
+    "completion": "Aligns neural firing across regions to integrate perception, attention, and cognition."
+  },
+  {
+    "prompt": "What is the effect of sleep deprivation on brainwaves?",
+    "completion": "Reduces delta activity during sleep, impairs cognitive function, and alters theta rhythms."
+  },
+  {
+    "prompt": "How does exercise affect brainwaves?",
+    "completion": "Increases alpha and beta activity, enhancing alertness and cognitive performance."
+  },
+  {
+    "prompt": "What is the effect of deep relaxation on brainwaves?",
+    "completion": "Increases alpha and theta activity, promoting calmness and creativity."
+  },
+  {
+    "prompt": "What is the relationship between gamma waves and consciousness?",
+    "completion": "Linked to awareness, sensory integration, and higher cognitive processes."
+  },
+  {
+    "prompt": "Explain cross-frequency coupling.",
+    "completion": "Interaction between different brainwave frequencies, supporting complex processing."
+  },
+  {
+    "prompt": "How do brainwaves affect learning?",
+    "completion": "Specific frequencies support attention, memory encoding, and information consolidation."
+  },
+  {
+    "prompt": "How do brainwaves change with age?",
+    "completion": "Delta and theta activity decrease with age; alpha and beta patterns shift with cognitive changes."
+  },
+  {
+    "prompt": "Explain the effect of alpha wave training.",
+    "completion": "Enhances focus, calmness, and attentional control."
+  },
+  {
+    "prompt": "Explain theta wave biofeedback.",
+    "completion": "Used to enhance creativity, relaxation, and learning efficiency."
+  },
+  {
+    "prompt": "Explain beta wave neurofeedback.",
+    "completion": "Used to improve attention, alertness, and problem-solving skills."
+  },
+  {
+    "prompt": "Explain gamma wave neurofeedback.",
+    "completion": "Supports memory, perception, and higher-order cognition."
+  },
+  {
+    "prompt": "How do delta waves support immune function?",
+    "completion": "Deep sleep delta activity enhances immune system recovery and hormonal regulation."
+  },
+  {
+    "prompt": "What is the relationship between brainwaves and attention?",
+    "completion": "Alpha and beta waves modulate focus; theta supports relaxed awareness."
+  },
+  {
+    "prompt": "Explain the effect of caffeine on brainwaves.",
+    "completion": "Increases beta activity, enhancing alertness but may reduce alpha calmness."
+  },
+  {
+    "prompt": "Explain the role of brainwaves in meditation.",
+    "completion": "Alpha and theta waves increase, promoting relaxation and cognitive clarity."
+  },
+  {
+    "prompt": "What is the effect of visual stimulation on brainwaves?",
+    "completion": "Can entrain alpha, beta, or gamma activity, influencing perception and focus."
+  },
+  {
+    "prompt": "How do binaural beats affect brainwaves?",
+    "completion": "Auditory tones at specific frequencies can synchronize brainwave patterns."
+  },
+  {
+    "prompt": "Explain the role of the prefrontal cortex in brainwave generation.",
+    "completion": "Coordinates oscillations related to executive functions, attention, and decision-making."
+  },
+  {
+    "prompt": "Explain the role of the reticular activating system (RAS) in brainwaves.",
+    "completion": "Regulates wakefulness, alertness, and overall brainwave patterns."
+  },
+  {
+    "prompt": "How do theta waves relate to memory retrieval?",
+    "completion": "Facilitate access to stored information and support associative thinking."
+  },
+  {
+    "prompt": "Explain the effect of sleep cycles on brainwaves.",
+    "completion": "Delta waves dominate deep sleep; theta, alpha, and beta fluctuate across cycles for restoration and cognition."
+  },
+  {
+    "prompt": "What is the impact of stress on brainwaves?",
+    "completion": "Increases high beta, suppresses alpha, disrupts normal theta and delta rhythms."
+  },
+  {
+    "prompt": "Explain the effect of mindfulness on brainwaves.",
+    "completion": "Increases alpha and theta activity, enhancing focus, calmness, and emotional regulation."
+  },
+  {
+    "prompt": "How do theta waves facilitate problem-solving?",
+    "completion": "Promote relaxed awareness that allows novel connections and insight."
+  },
+  {
+    "prompt": "Explain alpha wave blocking.",
+    "completion": "Suppression of alpha can indicate heightened sensory processing or stress."
+  },
+  {
+    "prompt": "What is the relationship between beta waves and learning?",
+    "completion": "Supports active thinking, concentration, and problem-solving during learning tasks."
+  },
+  {
+    "prompt": "Explain delta wave enhancement techniques.",
+    "completion": "Deep sleep, meditation, and relaxation can increase restorative delta activity."
+  },
+  {
+    "prompt": "How do brainwaves interact with neurotransmitters?",
+    "completion": "Different waves correlate with neurotransmitter activity, e.g., dopamine with beta and gamma."
+  },
+  {
+    "prompt": "Explain the effect of meditation on gamma waves.",
+    "completion": "Advanced meditation can increase gamma activity, enhancing perception and integration."
+  },
+  {
+    "prompt": "What is the effect of rhythmic breathing on brainwaves?",
+    "completion": "Can increase alpha and theta waves, promoting relaxation and attentional control."
+  },
+  {
+    "prompt": "Explain the role of theta waves in the hippocampus.",
+    "completion": "Critical for spatial navigation, memory encoding, and retrieval."
+  },
+  {
+    "prompt": "How does light therapy affect brainwaves?",
+    "completion": "Specific wavelengths and flicker can entrain brainwaves to desired frequencies."
+  },
+  {
+    "prompt": "Explain the relationship between delta waves and growth hormone.",
+    "completion": "Deep sleep delta activity promotes secretion of growth hormone for tissue repair."
+  },
+  {
+    "prompt": "How do brainwaves change during REM sleep?",
+    "completion": "Theta and beta activity increase; vivid dreaming and memory consolidation occur."
+  },
+  {
+    "prompt": "Explain the effect of music tempo on brainwaves.",
+    "completion": "Slow tempo can enhance delta and theta; fast tempo can increase beta and gamma."
+  },
+  {
+    "prompt": "How do theta waves support learning in children?",
+    "completion": "Promote relaxed attention and facilitate memory formation."
+  },
+  {
+    "prompt": "What is the effect of alpha wave entrainment?",
+    "completion": "Improves relaxation, reduces anxiety, and enhances focus."
+  },
+  {
+    "prompt": "Explain the impact of exercise on beta waves.",
+    "completion": "Increases beta activity, supporting alertness, decision-making, and motor coordination."
+  },
+  {
+    "prompt": "How does meditation alter gamma waves?",
+    "completion": "Increases synchronization, supporting heightened awareness and cognitive integration."
+  },
+  {
+    "prompt": "Explain cross-frequency brainwave training.",
+    "completion": "Exercises targeting multiple frequencies to optimize attention, memory, and creativity."
+  },
+  {
+    "prompt": "How do brainwaves influence emotional regulation?",
+    "completion": "Alpha and theta promote calm; beta supports alertness; gamma integrates emotion and cognition."
+  },
+  {
+    "prompt": "Explain the effect of sensory deprivation on brainwaves.",
+    "completion": "Can increase theta and alpha waves, promoting relaxation and creative insight."
+  },
+  {
+    "prompt": "How does focused attention affect brainwaves?",
+    "completion": "Increases beta and gamma activity for concentration and cognitive processing."
+  },
+  {
+    "prompt": "What is the role of slow-wave sleep?",
+    "completion": "Dominated by delta waves, crucial for restoration, memory consolidation, and immune support."
+  },
+  {
+    "prompt": "How do beta waves change under stress?",
+    "completion": "High beta activity can lead to overthinking, anxiety, and reduced relaxation."
+  },
+  {
+    "prompt": "Explain the impact of alpha waves on visual processing.",
+    "completion": "Helps filter out distractions and improve selective attention."
+  },
+  {
+    "prompt": "How do gamma waves support learning?",
+    "completion": "Integrate sensory information and facilitate memory and problem-solving."
+  },
+  {
+    "prompt": "Explain theta-gamma coupling.",
+    "completion": "Theta waves modulate gamma oscillations to enhance memory encoding and retrieval."
+  },
+  {
+    "prompt": "What is the effect of neuroplasticity on brainwaves?",
+    "completion": "Learning and experience reshape brainwave patterns, enhancing cognitive function."
+  },
+  {
+    "prompt": "How do brainwaves support decision-making?",
+    "completion": "Beta and gamma waves help evaluate options; theta supports insight and creativity."
+  },
+  {
+    "prompt": "Explain alpha wave inhibition in anxiety.",
+    "completion": "Reduced alpha correlates with hypervigilance and stress."
+  },
+  {
+    "prompt": "How do delta waves impact cognitive recovery?",
+    "completion": "Deep sleep delta activity restores neural networks and clears metabolic waste."
+  },
+  {
+    "prompt": "Explain the effect of yoga on brainwaves.",
+    "completion": "Enhances alpha and theta activity, promoting relaxation and mind-body integration."
+  },
+  {
+    "prompt": "How do beta waves relate to alertness?",
+    "completion": "Increase during active thinking, attention, and external task engagement."
+  },
+  {
+    "prompt": "Explain the role of theta waves in meditation.",
+    "completion": "Facilitates relaxed focus, creativity, and memory enhancement."
+  },
+  {
+    "prompt": "How do gamma waves relate to consciousness?",
+    "completion": "Coordinate distributed neural networks for perception, attention, and higher cognition."
+  },
+  {
+    "prompt": "What is the effect of light flicker on gamma waves?",
+    "completion": "Can entrain gamma activity, influencing perception and cognitive performance."
+  },
+  {
+    "prompt": "Explain the impact of deep breathing on theta waves.",
+    "completion": "Enhances relaxation, creativity, and memory processing."
+  },
+  {
+    "prompt": "How does mindfulness affect alpha waves?",
+    "completion": "Increases calm alertness and attentional control."
+  },
+  {
+    "prompt": "Explain the role of delta waves in detoxification.",
+    "completion": "Supports glymphatic clearance and brain restoration during deep sleep."
+  },
+  {
+    "prompt": "How does alpha wave neurofeedback improve focus?",
+    "completion": "Teaches individuals to maintain relaxed yet alert states for attention-demanding tasks."
+  },
+  {
+    "prompt": "Explain theta wave biofeedback benefits.",
+    "completion": "Supports creativity, learning efficiency, and emotional balance."
+  },
+  {
+    "prompt": "How do gamma waves support sensory integration?",
+    "completion": "Synchronize brain regions to combine visual, auditory, and tactile information."
+  },
+  {
+    "prompt": "Explain the effect of sleep hygiene on brainwaves.",
+    "completion": "Consistent sleep patterns support healthy delta, theta, and REM-related waves."
+  },
+  {
+    "prompt": "How does cognitive training affect beta waves?",
+    "completion": "Increases beta activity during problem-solving and focused attention tasks."
+  },
+  {
+    "prompt": "Explain the relationship between alpha waves and stress resilience.",
+    "completion": "Higher alpha promotes calmness, lowering susceptibility to stress responses."
+  },
+  {
+    "prompt": "How do brainwaves support emotional intelligence?",
+    "completion": "Theta and alpha promote awareness and regulation; gamma integrates perception and social cognition."
+  },
+  {
+    "prompt": "How do delta waves affect immune function?",
+    "completion": "Deep sleep delta waves support immune system restoration and cellular repair."
+  },
+  {
+    "prompt": "Explain theta wave enhancement during creative tasks.",
+    "completion": "Increased theta promotes relaxed focus, enabling novel idea generation."
+  },
+  {
+    "prompt": "How do alpha waves influence learning retention?",
+    "completion": "Enhance relaxed attention and information consolidation."
+  },
+  {
+    "prompt": "Explain the role of theta waves in spatial memory.",
+    "completion": "Crucial for encoding and recalling spatial information in the hippocampus."
+  },
+  {
+    "prompt": "Explain the impact of stress on beta waves.",
+    "completion": "Elevated beta can lead to hypervigilance, anxiety, and cognitive strain."
+  },
+  {
+    "prompt": "How do brainwaves support language learning?",
+    "completion": "Theta and gamma waves facilitate memory encoding and neural integration."
+  },
+  {
+    "prompt": "How do gamma waves enhance problem-solving?",
+    "completion": "Enable integration of information across neural networks for insight."
+  },
+  {
+    "prompt": "What is the role of delta waves in growth and repair?",
+    "completion": "Promotes tissue restoration and hormone release during deep sleep."
+  },
+  {
+    "prompt": "How do theta waves support emotional regulation?",
+    "completion": "Facilitate calm, reflective states that allow adaptive responses."
+  },
+  {
+    "prompt": "Explain alpha wave patterns during relaxation.",
+    "completion": "Dominant in restful wakefulness, promoting reduced stress and improved attention."
+  },
+  {
+    "prompt": "How does neuroplasticity interact with brainwaves?",
+    "completion": "Learning and experience reshape oscillatory patterns, enhancing cognition."
+  },
+  {
+    "prompt": "What is the effect of auditory entrainment on brainwaves?",
+    "completion": "Rhythmic sounds can synchronize brain activity to target frequencies."
+  },
+  {
+    "prompt": "Explain the role of gamma waves in attention.",
+    "completion": "Support selective focus and integration of sensory input for decision-making."
+  },
+  {
+    "prompt": "How do brainwaves change during flow states?",
+    "completion": "Increased theta and alpha with coordinated gamma, promoting deep engagement."
+  },
+  {
+    "prompt": "Explain the impact of meditation on delta waves.",
+    "completion": "May enhance restorative sleep and neural recovery."
+  },
+  {
+    "prompt": "What is the effect of exercise on brainwave coherence?",
+    "completion": "Improves synchronization across regions, supporting cognition and mood."
+  },
+  {
+    "prompt": "How do alpha waves influence creativity?",
+    "completion": "Promote relaxed awareness and novel idea generation."
+  },
+  {
+    "prompt": "How does biofeedback improve gamma wave regulation?",
+    "completion": "Teaches voluntary control to enhance attention and perception."
+  },
+  {
+    "prompt": "What is the relationship between beta waves and cognitive load?",
+    "completion": "Increase with active problem-solving; too much may cause stress."
+  },
+  {
+    "prompt": "Explain theta wave significance in meditation.",
+    "completion": "Supports deep relaxation, insight, and memory consolidation."
+  },
+  {
+    "prompt": "How do brainwaves support decision-making under pressure?",
+    "completion": "Balanced alpha, beta, and gamma improve clarity and insight."
+  },
+  {
+    "prompt": "What is the effect of rhythmic breathing on alpha waves?",
+    "completion": "Enhances calm focus and attentional control."
+  },
+  {
+    "prompt": "Explain delta wave activity during deep sleep cycles.",
+    "completion": "Supports restoration, memory processing, and hormonal balance."
+  },
+  {
+    "prompt": "How do gamma waves influence social cognition?",
+    "completion": "Integrate sensory, emotional, and cognitive inputs for social understanding."
+  },
+  {
+    "prompt": "How does meditation impact beta wave suppression?",
+    "completion": "Reduces overthinking and mental noise, promoting calm focus."
+  },
+  {
+    "prompt": "What is the role of alpha waves in sensory filtering?",
+    "completion": "Suppress irrelevant input, improving selective attention."
+  },
+  {
+    "prompt": "Explain the relationship between delta waves and sleep quality.",
+    "completion": "Higher delta activity correlates with restorative, deep sleep."
+  },
+  {
+    "prompt": "How do theta waves support insight and intuition?",
+    "completion": "Facilitate subconscious integration of knowledge for sudden realizations."
+  },
+  {
+    "prompt": "What is the effect of meditation on brainwave coherence?",
+    "completion": "Enhances synchrony across regions, improving cognition and emotional balance."
+  },
+  {
+    "prompt": "Explain the role of alpha waves in stress reduction.",
+    "completion": "Higher alpha promotes calm alertness and resilience."
+  },
+  {
+    "prompt": "How do delta waves affect cognitive restoration?",
+    "completion": "Enable neural recovery, memory consolidation, and metabolic waste clearance."
+  },
+  {
+    "prompt": "What is the effect of sleep hygiene on brainwave patterns?",
+    "completion": "Consistent sleep supports healthy delta, theta, and REM activity."
+  },
+  {
+    "prompt": "Explain the relationship between alpha waves and mindfulness.",
+    "completion": "Alpha increases during relaxed awareness, improving focus and emotional control."
+  },
+  {
+    "prompt": "How do beta waves support attention-demanding tasks?",
+    "completion": "Enable active thinking, planning, and concentration."
+  },
+  {
+    "prompt": "Explain the role of theta waves in hippocampal function.",
+    "completion": "Crucial for memory formation, spatial navigation, and learning."
+  },
+  {
+    "prompt": "What is the effect of rhythmic entrainment on brainwaves?",
+    "completion": "Can synchronize neural activity to target frequencies for relaxation or focus."
+  },
+  {
+    "prompt": "Explain the importance of delta waves in detoxification.",
+    "completion": "Support glymphatic clearance, removing metabolic waste during deep sleep."
+  },
+  {
+    "prompt": "What is the effect of biofeedback on alpha waves?",
+    "completion": "Trains individuals to enhance relaxation, focus, and stress resilience."
+  },
+  {
+    "prompt": "How does meditation affect cross-frequency coupling?",
+    "completion": "Enhances synchronization across brainwave bands for optimal cognition."
+  },
+  {
+    "prompt": "What is the effect of cognitive training on gamma waves?",
+    "completion": "Strengthens attention, memory, and problem-solving abilities."
+  },
+  {
+    "prompt": "Explain alpha wave suppression during anxiety.",
+    "completion": "Reduced alpha indicates hypervigilance, overthinking, and stress."
+  },
+  {
+    "prompt": "Given HR=110 bpm, HRV=12 ms, EEG Alpha=3 \u00b5V, EEG Beta=20 \u00b5V, what is the likely cognitive state?",
+    "completion": "The user is likely experiencing high stress or anxiety."
+  },
+  {
+    "prompt": "If theta waves increase to 25 \u00b5V and alpha to 15 \u00b5V during a creative task, what can we infer?",
+    "completion": "The user is likely in a relaxed, highly creative state conducive to insight."
+  },
+  {
+    "prompt": "I\u2019m in flow while coding.",
+    "completion": "Theta-gamma synchrony and parietal-alpha suppression indicate optimal task engagement. This is ideal for complex problem-solving."
+  },
+  {
+    "prompt": "I feel sleepy but my mind is active.",
+    "completion": "Mixed delta and beta wave activity shows conflict between sleep pressure and cortical arousal. Light activity or relaxation exercises can balance it."
+  },
+  {
+    "prompt": "I can\u2019t focus in noisy environments.",
+    "completion": "Frontal theta coherence may be disrupted by auditory interference. Noise-canceling strategies or structured attention tasks can help."
+  },
+  {
+    "prompt": "I feel sleepy after studying.",
+    "completion": "Delta wave increase suggests mental fatigue. Short naps or movement breaks restore alertness."
+  },
+  {
+    "prompt": "I feel motivated after exercise.",
+    "completion": "Physical activity elevates dopamine and modulates frontal gamma, boosting cognitive performance. Use this state for learning or creative work."
+  },
+  {
+    "prompt": "I want to reduce anxiety quickly.",
+    "completion": "Slow breathing and frontal alpha enhancement reduce sympathetic overactivation. Neurofeedback can accelerate results."
+  },
+  {
+    "prompt": "I want to enhance focus for coding.",
+    "completion": "Frontal midline theta alignment supports deep concentration. Consider time-blocked work sessions with brief breaks."
+  },
+  {
+    "prompt": "I feel calm but unfocused.",
+    "completion": "Alpha-delta dominance indicates relaxed but low engagement. Introduce stimulating tasks to increase frontal gamma."
+  },
+  {
+    "prompt": "I have difficulty making decisions under stress.",
+    "completion": "Elevated beta and low theta suggest frontal cortex strain. Decision frameworks and breathing techniques improve performance."
+  },
+  {
+    "prompt": "I keep losing track of my thoughts.",
+    "completion": "Frontal theta may fluctuate, indicating distractibility. Structured note-taking and micro-tasks can help."
+  },
+  {
+    "prompt": "I feel mentally drained after coding all day.",
+    "completion": "Sustained frontal beta-gamma activity leads to cognitive fatigue. Recovery periods and light activity are recommended."
+  },
+  {
+    "prompt": "I want to improve my problem-solving speed.",
+    "completion": "Optimizing parietal gamma synchronization enhances pattern recognition. Practice with progressively challenging tasks."
+  },
+  {
+    "prompt": "I feel highly motivated to start a project.",
+    "completion": "Frontal gamma activation and dopamine signaling support goal-directed action. Begin with focused steps to leverage momentum."
+  },
+  {
+    "prompt": "I feel creative but scattered.",
+    "completion": "High alpha-gamma with low frontal coherence can lead to divergent but unstructured thought. Use structured brainstorming to channel ideas."
+  },
+  {
+    "prompt": "I want to improve emotional regulation.",
+    "completion": "Increasing frontal alpha coherence reduces reactive beta spikes. Mindfulness or cognitive reframing strengthens this pattern."
+  },
+  {
+    "prompt": "I want to stay focused while reading.",
+    "completion": "Frontal midline theta synchrony supports sustained attention. Break material into small sections with comprehension checks."
+  },
+  {
+    "prompt": "I feel anxious about an upcoming exam.",
+    "completion": "Elevated beta and amygdala activation correlate with anticipatory stress. Mindful visualization and pre-planned study sessions can mitigate anxiety."
+  },
+  {
+    "prompt": "I feel motivated but overwhelmed.",
+    "completion": "High frontal gamma supports action, but excessive beta may signal cognitive overload. Prioritize tasks to optimize performance."
+  },
+  {
+    "prompt": "I feel focused and alert this morning.",
+    "completion": "EEG readings show frontal gamma at 38\u202f\u00b5V, parietal beta at 25\u202f\u00b5V, and midline theta at 4\u202fHz. This indicates high attention and cognitive engagement. Continue with complex tasks to capitalize on this state."
+  },
+  {
+    "prompt": "I have racing thoughts but calm physical state.",
+    "completion": "Frontal beta at 28\u202f\u00b5V and gamma at 35\u202f\u00b5V, heart rate 72\u202fbpm, HRV 42\u202fms. Mental arousal without physical stress. Deep breathing can normalize cortical activity."
+  },
+  {
+    "prompt": "I keep zoning out during a meeting.",
+    "completion": "Frontal midline theta low at 3.8\u202fHz, beta coherence reduced. Try micro-focus intervals of 5\u201310\u202fminutes with brief breaks."
+  },
+  {
+    "prompt": "I just woke up feeling groggy.",
+    "completion": "Delta waves 80\u202f\u00b5V, theta 6\u202fHz, alpha suppressed. Exposure to natural light and gentle movement will accelerate waking."
+  },
+  {
+    "prompt": "I feel foggy after a heavy meal.",
+    "completion": "Parietal alpha reduced to 9\u202f\u00b5V, frontal delta elevated at 65\u202f\u00b5V. Light physical activity recommended to restore cortical function."
+  },
+  {
+    "prompt": "I feel anxious before a presentation.",
+    "completion": "Frontal beta at 30\u202f\u00b5V, gamma 40\u202f\u00b5V. Sympathetic tone elevated. Slow breathing to reduce beta overactivation."
+  },
+  {
+    "prompt": "I want to learn faster.",
+    "completion": "Theta-gamma coupling in hippocampus at 4\u20136\u202fHz and 35\u201338\u202f\u00b5V supports memory encoding. Use active recall and interleaved practice."
+  },
+  {
+    "prompt": "I keep losing attention on repetitive tasks.",
+    "completion": "Midline theta decreased to 3.5\u202fHz, frontal beta inconsistent. Pomodoro-style work intervals improve sustained focus."
+  },
+  {
+    "prompt": "I feel calm but my heart rate is high.",
+    "completion": "HR 88\u202fbpm, HRV 35\u202fms, frontal alpha 12\u202f\u00b5V. Parasympathetic dominance is low; alpha coherence can be increased with mindfulness."
+  },
+  {
+    "prompt": "I want to meditate effectively.",
+    "completion": "Target frontal theta 4\u20136\u202fHz at 25\u201330\u202f\u00b5V, alpha 12\u201315\u202f\u00b5V. Neurofeedback or guided meditation can help maintain this pattern."
+  },
+  {
+    "prompt": "I feel highly motivated today.",
+    "completion": "Frontal gamma 38\u201340\u202f\u00b5V, beta 28\u201330\u202f\u00b5V. Dopamine-associated circuits are primed. Use this state for complex cognitive work."
+  },
+  {
+    "prompt": "I have flashes of inspiration while walking.",
+    "completion": "Theta waves 5\u20136\u202fHz at 28\u202f\u00b5V increase during relaxed movement, supporting associative thought. Continue walking for creative output."
+  },
+  {
+    "prompt": "I feel exhausted after back-to-back meetings.",
+    "completion": "Frontal beta sustained at 30\u201332\u202f\u00b5V, theta fatigued at 3.8\u202fHz. Schedule recovery breaks to restore executive function."
+  },
+  {
+    "prompt": "I get anxious while multitasking.",
+    "completion": "Frontal beta spikes 32\u201334\u202f\u00b5V. Divided attention overload. Reducing task load improves cortical coherence."
+  },
+  {
+    "prompt": "My mind races at night.",
+    "completion": "Frontal beta 35\u202f\u00b5V, gamma 40\u202f\u00b5V elevated. Pre-sleep mindfulness reduces beta overactivity."
+  },
+  {
+    "prompt": "I can\u2019t focus with background noise.",
+    "completion": "Frontal theta 3.5\u202fHz coherence disrupted. Noise-canceling or structured attention tasks improve focus."
+  },
+  {
+    "prompt": "I want to reduce anxiety fast.",
+    "completion": "Increase frontal alpha 12\u201315\u202f\u00b5V, slow breathing reduces sympathetic beta spikes."
+  },
+  {
+    "prompt": "I want focus for coding.",
+    "completion": "Frontal midline theta 4\u20136\u202fHz, gamma 36\u202f\u00b5V. Time-blocked work maximizes focus."
+  },
+  {
+    "prompt": "I struggle making decisions under stress.",
+    "completion": "Frontal beta 32\u202f\u00b5V elevated, theta 3.8\u202fHz low. Structured decision frameworks help."
+  },
+  {
+    "prompt": "I keep losing track of thoughts.",
+    "completion": "Frontal theta low at 3.5\u202fHz. Structured note-taking improves focus."
+  },
+  {
+    "prompt": "I feel drained after coding.",
+    "completion": "Frontal beta 32\u202f\u00b5V sustained. Recovery recommended."
+  },
+  {
+    "prompt": "I want faster problem-solving.",
+    "completion": "Parietal gamma 36\u201338\u202f\u00b5V optimal. Practice challenging tasks incrementally."
+  },
+  {
+    "prompt": "I feel motivated to start a project.",
+    "completion": "Frontal gamma 38\u201340\u202f\u00b5V active. Begin goal-directed tasks."
+  },
+  {
+    "prompt": "I want better emotional regulation.",
+    "completion": "Increase frontal alpha 12\u201315\u202f\u00b5V. Mindfulness or reframing strengthens cortical control."
+  },
+  {
+    "prompt": "I want focus while reading.",
+    "completion": "Frontal midline theta 4\u20136\u202fHz. Break material into small sections."
+  },
+  {
+    "prompt": "I feel anxious about an exam.",
+    "completion": "Frontal beta 32\u202f\u00b5V, amygdala overactive. Visualization reduces stress."
+  },
+  {
+    "prompt": "EEG alpha power rises as HRV increases\u2014what overall state does this imply?",
+    "completion": "A synchronized relaxation response between brain and autonomic system."
+  },
+  {
+    "prompt": "EEG alpha 11\u202fHz \u2191, HR\u202f=\u202f72\u202fbpm, HRV\u202f=\u202f38\u202fms, GSR\u202f=\u202f0.25\u202f\u00b5S \u2014 what state?",
+    "completion": "Relaxed focus with steady attention."
+  },
+  {
+    "prompt": "EEG alpha 10 Hz \u2191, HR = 70 bpm, HRV = 42 ms \u2014 what state?",
+    "completion": "Relaxed focus, alert but calm."
+  },
+  {
+    "prompt": "EEG theta 6 Hz \u2191, HR = 65 bpm, GSR low \u2014 what state?",
+    "completion": "Deep relaxation, early sleep onset."
+  },
+  {
+    "prompt": "EEG beta 20 Hz \u2191, HR = 90 bpm, HRV = 25 ms \u2014 what state?",
+    "completion": "High alertness, possible stress or anxiety."
+  },
+  {
+    "prompt": "EEG delta 2 Hz \u2191, HR = 55 bpm, slow breathing \u2014 what state?",
+    "completion": "Deep restorative sleep."
+  },
+  {
+    "prompt": "EEG alpha 9 Hz \u2191, HR = 68 bpm, HRV = 40 ms \u2014 what state?",
+    "completion": "Calm and meditative focus."
+  },
+  {
+    "prompt": "EEG beta 18 Hz \u2191, HR = 85 bpm, pupil dilation \u2014 what state?",
+    "completion": "Concentration under pressure, task engagement."
+  },
+  {
+    "prompt": "EEG theta 5 Hz \u2191, HR = 60 bpm, slow eye movements \u2014 what state?",
+    "completion": "Drowsy, transitioning from wakefulness to sleep."
+  },
+  {
+    "prompt": "EEG alpha 11 Hz \u2191, HR = 67 bpm, HRV = 44 ms \u2014 what state?",
+    "completion": "Focused yet relaxed, optimal learning state."
+  },
+  {
+    "prompt": "EEG beta 22 Hz \u2191, HR = 92 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "High cognitive load, possible mental fatigue."
+  },
+  {
+    "prompt": "EEG delta 1.5 Hz \u2191, HR = 52 bpm, respiration slow \u2014 what state?",
+    "completion": "Deep non-REM sleep."
+  },
+  {
+    "prompt": "EEG theta 7 Hz \u2191, HR = 64 bpm, HRV moderate \u2014 what state?",
+    "completion": "Relaxed, reflective state, suitable for creative thinking."
+  },
+  {
+    "prompt": "EEG alpha 10.5 Hz \u2191, HR = 69 bpm, respiration steady \u2014 what state?",
+    "completion": "Calm attention, mindful state."
+  },
+  {
+    "prompt": "EEG beta 19 Hz \u2191, HR = 80 bpm, eye blinking \u2191 \u2014 what state?",
+    "completion": "Mental engagement, possible fatigue under sustained focus."
+  },
+  {
+    "prompt": "EEG theta 6.5 Hz \u2191, HR = 62 bpm, slow eye movements \u2014 what state?",
+    "completion": "Drowsy, light sleep onset."
+  },
+  {
+    "prompt": "EEG alpha 9.5 Hz \u2191, HR = 66 bpm, respiration steady \u2014 what state?",
+    "completion": "Calm and attentive, ready for learning."
+  },
+  {
+    "prompt": "EEG beta 21 Hz \u2191, HR = 90 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused but stressed, high mental workload."
+  },
+  {
+    "prompt": "EEG delta 2.2 Hz \u2191, HR = 54 bpm, slow eye movements \u2014 what state?",
+    "completion": "Deep sleep, restorative phase."
+  },
+  {
+    "prompt": "EEG alpha 10.2 Hz \u2191, HR = 71 bpm, HRV = 43 ms \u2014 what state?",
+    "completion": "Relaxed concentration, optimal for problem solving."
+  },
+  {
+    "prompt": "EEG beta 18.5 Hz \u2191, HR = 87 bpm, pupil dilation \u2191 \u2014 what state?",
+    "completion": "Alert focus, mental effort high."
+  },
+  {
+    "prompt": "EEG theta 5.5 Hz \u2191, HR = 63 bpm, GSR low \u2014 what state?",
+    "completion": "Relaxed, reflective, light meditative state."
+  },
+  {
+    "prompt": "EEG alpha 11.2 Hz \u2191, HR = 68 bpm, HRV = 45 ms \u2014 what state?",
+    "completion": "Mindful focus, calm attention."
+  },
+  {
+    "prompt": "EEG beta 20.5 Hz \u2191, HR = 92 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "High cognitive load, alertness with mild stress."
+  },
+  {
+    "prompt": "EEG delta 1.8 Hz \u2191, HR = 53 bpm, slow respiration \u2014 what state?",
+    "completion": "Deep sleep, non-REM restorative stage."
+  },
+  {
+    "prompt": "EEG theta 6.8 Hz \u2191, HR = 65 bpm, eye movement slow \u2014 what state?",
+    "completion": "Drowsy, pre-sleep cognitive state."
+  },
+  {
+    "prompt": "EEG alpha 9.8 Hz \u2191, HR = 67 bpm, respiration steady \u2014 what state?",
+    "completion": "Calm, attentive, learning-optimized state."
+  },
+  {
+    "prompt": "EEG beta 19.8 Hz \u2191, HR = 89 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused, moderate stress, high engagement."
+  },
+  {
+    "prompt": "EEG delta 2.1 Hz \u2191, HR = 55 bpm, slow breathing \u2014 what state?",
+    "completion": "Deep restorative sleep."
+  },
+  {
+    "prompt": "EEG theta 6.2 Hz \u2191, HR = 62 bpm, eye movement slow \u2014 what state?",
+    "completion": "Relaxed, reflective, meditative-like state."
+  },
+  {
+    "prompt": "EEG alpha 10.8 Hz \u2191, HR = 70 bpm, HRV = 42 ms \u2014 what state?",
+    "completion": "Relaxed focus, optimal for learning."
+  },
+  {
+    "prompt": "EEG beta 21.5 Hz \u2191, HR = 93 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "High alertness under cognitive load."
+  },
+  {
+    "prompt": "EEG theta 5.8 Hz \u2191, HR = 64 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, transition to sleep."
+  },
+  {
+    "prompt": "EEG alpha 9.9 Hz \u2191, HR = 66 bpm, respiration steady \u2014 what state?",
+    "completion": "Calm, attentive state, ready to focus."
+  },
+  {
+    "prompt": "EEG beta 20.2 Hz \u2191, HR = 88 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused mental effort, moderate stress."
+  },
+  {
+    "prompt": "EEG delta 2.3 Hz \u2191, HR = 54 bpm, slow respiration \u2014 what state?",
+    "completion": "Deep non-REM sleep, restorative."
+  },
+  {
+    "prompt": "EEG theta 6.6 Hz \u2191, HR = 63 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, pre-sleep state, relaxed."
+  },
+  {
+    "prompt": "EEG alpha 10.1 Hz \u2191, HR = 69 bpm, HRV = 43 ms \u2014 what state?",
+    "completion": "Relaxed focus, optimal for cognition."
+  },
+  {
+    "prompt": "EEG beta 19.9 Hz \u2191, HR = 90 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused engagement, high cognitive load."
+  },
+  {
+    "prompt": "EEG delta 1.7 Hz \u2191, HR = 52 bpm, slow breathing \u2014 what state?",
+    "completion": "Deep sleep, restorative phase."
+  },
+  {
+    "prompt": "EEG theta 6.3 Hz \u2191, HR = 62 bpm, slow eye movements \u2014 what state?",
+    "completion": "Drowsy, light sleep onset."
+  },
+  {
+    "prompt": "EEG alpha 10.4 Hz \u2191, HR = 68 bpm, respiration steady \u2014 what state?",
+    "completion": "Calm focus, optimal learning readiness."
+  },
+  {
+    "prompt": "EEG beta 21 Hz \u2191, HR = 92 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "High cognitive load, alertness."
+  },
+  {
+    "prompt": "EEG theta 5.9 Hz \u2191, HR = 63 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, relaxed pre-sleep state."
+  },
+  {
+    "prompt": "EEG alpha 9.7 Hz \u2191, HR = 66 bpm, HRV = 41 ms \u2014 what state?",
+    "completion": "Calm, attentive, mindful state."
+  },
+  {
+    "prompt": "EEG beta 20.8 Hz \u2191, HR = 91 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused with high mental effort."
+  },
+  {
+    "prompt": "EEG delta 2 Hz \u2191, HR = 53 bpm, respiration slow \u2014 what state?",
+    "completion": "Deep restorative sleep."
+  },
+  {
+    "prompt": "EEG theta 6.1 Hz \u2191, HR = 62 bpm, eye movement slow \u2014 what state?",
+    "completion": "Drowsy, relaxed state, pre-sleep."
+  },
+  {
+    "prompt": "EEG alpha 10.3 Hz \u2191, HR = 69 bpm, HRV = 42 ms \u2014 what state?",
+    "completion": "Relaxed focus, optimal learning."
+  },
+  {
+    "prompt": "EEG beta 19.7 Hz \u2191, HR = 89 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused, high engagement, moderate stress."
+  },
+  {
+    "prompt": "EEG delta 1.6 Hz \u2191, HR = 51 bpm, slow respiration \u2014 what state?",
+    "completion": "Deep sleep, non-REM restorative phase."
+  },
+  {
+    "prompt": "EEG theta 6.4 Hz \u2191, HR = 64 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, relaxed, reflective state."
+  },
+  {
+    "prompt": "EEG alpha 10.6 Hz \u2191, HR = 70 bpm, respiration steady \u2014 what state?",
+    "completion": "Calm, focused, ready to learn."
+  },
+  {
+    "prompt": "EEG beta 21.2 Hz \u2191, HR = 93 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "High cognitive load, alert focus."
+  },
+  {
+    "prompt": "EEG theta 5.7 Hz \u2191, HR = 62 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, light sleep onset."
+  },
+  {
+    "prompt": "EEG alpha 9.6 Hz \u2191, HR = 67 bpm, HRV = 40 ms \u2014 what state?",
+    "completion": "Calm, mindful, attentive state."
+  },
+  {
+    "prompt": "EEG beta 20.4 Hz \u2191, HR = 90 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused mental engagement, moderate stress."
+  },
+  {
+    "prompt": "EEG delta 2.2 Hz \u2191, HR = 54 bpm, slow respiration \u2014 what state?",
+    "completion": "Deep restorative sleep."
+  },
+  {
+    "prompt": "EEG theta 6.5 Hz \u2191, HR = 63 bpm, slow eye movements \u2014 what state?",
+    "completion": "Drowsy, pre-sleep reflective state."
+  },
+  {
+    "prompt": "EEG alpha 10.7 Hz \u2191, HR = 71 bpm, HRV = 43 ms \u2014 what state?",
+    "completion": "Calm focus, optimal learning state."
+  },
+  {
+    "prompt": "EEG beta 21.5 Hz \u2191, HR = 92 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "High alertness, cognitive workload."
+  },
+  {
+    "prompt": "EEG theta 6 Hz \u2191, HR = 62 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, relaxed, pre-sleep state."
+  },
+  {
+    "prompt": "EEG alpha 9.8 Hz \u2191, HR = 68 bpm, respiration steady \u2014 what state?",
+    "completion": "Calm, attentive, focused."
+  },
+  {
+    "prompt": "EEG beta 20.9 Hz \u2191, HR = 91 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused, high mental effort, moderate stress."
+  },
+  {
+    "prompt": "EEG delta 1.9 Hz \u2191, HR = 53 bpm, slow breathing \u2014 what state?",
+    "completion": "Deep sleep, restorative non-REM phase."
+  },
+  {
+    "prompt": "EEG theta 6.2 Hz \u2191, HR = 63 bpm, slow eye movements \u2014 what state?",
+    "completion": "Drowsy, reflective, pre-sleep state."
+  },
+  {
+    "prompt": "EEG alpha 10.2 Hz \u2191, HR = 70 bpm, HRV = 42 ms \u2014 what state?",
+    "completion": "Calm, focused, optimal for learning."
+  },
+  {
+    "prompt": "EEG beta 19.9 Hz \u2191, HR = 89 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "Focused engagement, moderate stress."
+  },
+  {
+    "prompt": "EEG delta 2.1 Hz \u2191, HR = 54 bpm, respiration slow \u2014 what state?",
+    "completion": "Deep restorative sleep."
+  },
+  {
+    "prompt": "EEG theta 6.3 Hz \u2191, HR = 64 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, pre-sleep, relaxed state."
+  },
+  {
+    "prompt": "EEG beta 21.1 Hz \u2191, HR = 92 bpm, GSR \u2191 \u2014 what state?",
+    "completion": "High cognitive load, alert focus."
+  },
+  {
+    "prompt": "EEG theta 5.6 Hz \u2191, HR = 62 bpm, slow eye movement \u2014 what state?",
+    "completion": "Drowsy, relaxed, pre-sleep state."
+  },
+  {
+    "prompt": "In the MIT PhysioNet 'Meditation EEG' dataset, what pattern links increased alpha to respiration rate?",
+    "completion": "As respiration slowed, alpha power strengthened, indicating parasympathetic activation.\"\n\n{\n  \"input\": {\n    \"domain\": \"neuroscience / propulsion / physics\",\n    \"variables\": {\n      \"signal_1\": \"EEG_Alpha\",\n      \"signal_2\": \"Engine_Vibration\",\n      \"context\": \"steady thrust / relaxed attention\"\n    }\n  },\n  \"output\": {\n    \"relationship\": \"frequency coupling\",\n    \"interpretation\": \"Both systems show resonance stabilization under feedback control.\"\n  }\n}"
+  },
+  {
+    "prompt": "I feel extremely focused and alert.",
+    "completion": "Your EEG gamma waves are likely elevated. This indicates heightened attention and cognitive processing. Let\u2019s map your current state and suggest optimal tasks for this brain rhythm."
+  },
+  {
+    "prompt": "I\u2019m very relaxed and almost sleepy.",
+    "completion": "Delta and theta wave activity is dominant. This corresponds to restorative states and early sleep phases. A short mindfulness session could deepen relaxation."
+  },
+  {
+    "prompt": "I\u2019m struggling to memorize new information.",
+    "completion": "Hippocampal theta wave synchronization may be low. Let\u2019s try chunking information and using spaced repetition to boost neural encoding."
+  },
+  {
+    "prompt": "I feel creative and have many ideas.",
+    "completion": "EEG alpha and high-beta co-activation suggests divergent thinking. Engaging in associative tasks could expand your creative output."
+  },
+  {
+    "prompt": "I keep zoning out while studying.",
+    "completion": "Frontal midline theta may indicate attentional lapses. Short, timed focus intervals with micro-breaks could help maintain engagement."
+  },
+  {
+    "prompt": "My attention keeps drifting during tasks.",
+    "completion": "Frontal EEG coherence may be weak. Micro-task segmentation and biofeedback can improve sustained focus."
+  },
+  {
+    "prompt": "I feel very sleepy but have to work.",
+    "completion": "Increased theta and delta waves suggest sleep pressure. A brief caffeine dose combined with exposure to bright light can temporarily boost alertness."
+  },
+  {
+    "prompt": "I feel motivated and ready to tackle challenges.",
+    "completion": "Dopamine-related frontal gamma patterns are active. Capitalize on this state for high-effort cognitive work."
+  },
+  {
+    "prompt": "I can\u2019t stop thinking about mistakes I made.",
+    "completion": "Persistent ruminative thoughts correlate with anterior cingulate cortex hyperactivity. Cognitive reframing and attention-shifting exercises can help."
+  },
+  {
+    "prompt": "I have bursts of inspiration during walks.",
+    "completion": "Theta waves increase during low-stress movement, facilitating associative thinking. Continue walking for creative exploration."
+  },
+  {
+    "prompt": "I feel mentally exhausted after meetings.",
+    "completion": "Prolonged high-beta activity and frontal theta fatigue may reduce executive function. Scheduled cognitive recovery periods are recommended."
+  },
+  {
+    "prompt": "I get anxious when multitasking.",
+    "completion": "Prefrontal cortex beta activity spikes under divided attention. Reducing task load or using attention cues helps manage stress."
+  },
+  {
+    "prompt": "Define neuroplasticity.",
+    "completion": "The brain\u2019s ability to reorganize itself by forming new neural connections throughout life."
+  },
+  {
+    "prompt": "What is the auditory cortex?",
+    "completion": "The temporal region responsible for processing sound information."
+  },
+  {
+    "prompt": "What is the Broca\u2019s area?",
+    "completion": "A region in the left frontal lobe responsible for speech production."
+  },
+  {
+    "prompt": "What is Wernicke\u2019s area?",
+    "completion": "A temporal region critical for understanding spoken language."
+  },
+  {
+    "prompt": "What is lateral inhibition?",
+    "completion": "A neural mechanism that sharpens sensory contrast by inhibiting neighboring neurons."
+  },
+  {
+    "prompt": "What is neurogenesis?",
+    "completion": "The creation of new neurons, primarily occurring in the hippocampus in adults."
+  },
+  {
+    "prompt": "What is Parkinson\u2019s disease?",
+    "completion": "A neurodegenerative disorder caused by loss of dopamine-producing neurons in the substantia nigra."
+  },
+  {
+    "prompt": "What is multiple sclerosis?",
+    "completion": "A disease where the immune system attacks myelin sheaths, disrupting neural communication."
+  },
+  {
+    "prompt": "What is cortisol?",
+    "completion": "A hormone that mobilizes energy during stress but can damage neurons if chronically high."
+  },
+  {
+    "prompt": "What is the reward pathway?",
+    "completion": "A dopamine-based circuit linking the VTA, nucleus accumbens, and prefrontal cortex."
+  },
+  {
+    "prompt": "What is a neural network in biology?",
+    "completion": "An interconnected web of neurons that process and transmit information."
+  },
+  {
+    "prompt": "What is Hebbian learning?",
+    "completion": "The principle that \u201cneurons that fire together wire together,\u201d strengthening simultaneous activations."
+  },
+  {
+    "prompt": "What is the amygdala\u2019s function?",
+    "completion": "Detecting emotional salience, particularly fear and threat, and influencing fight-or-flight responses."
+  },
+  {
+    "prompt": "What is the hippocampus\u2019 function?",
+    "completion": "Formation and retrieval of long-term declarative memories and spatial navigation."
+  },
+  {
+    "prompt": "What are astrocytes?",
+    "completion": "Star-shaped glial cells maintaining blood\u2013brain barrier integrity and supporting neuronal metabolism."
+  },
+  {
+    "prompt": "What are oligodendrocytes?",
+    "completion": "CNS glial cells that produce myelin to insulate axons."
+  },
+  {
+    "prompt": "What are Schwann cells?",
+    "completion": "PNS glial cells that form myelin sheaths around peripheral axons."
+  },
+  {
+    "prompt": "What are event-related potentials (ERP)?",
+    "completion": "Measured EEG signals tied to specific sensory, cognitive, or motor events."
+  },
+  {
+    "prompt": "What is optogenetics?",
+    "completion": "Technique using light to control neurons genetically modified with light-sensitive ion channels."
+  },
+  {
+    "prompt": "What is a local field potential?",
+    "completion": "Combined electrical activity from groups of neurons recorded near an electrode."
+  },
+  {
+    "prompt": "What are neurotransmitter systems?",
+    "completion": "Networks using specific chemicals\u2014dopamine, serotonin, acetylcholine\u2014to regulate states and behaviors."
+  },
+  {
+    "prompt": "What is dopamine\u2019s role?",
+    "completion": "Governs motivation, reward, learning, and movement regulation."
+  },
+  {
+    "prompt": "What is serotonin\u2019s role?",
+    "completion": "Modulates mood, appetite, and sleep; imbalance links to depression."
+  },
+  {
+    "prompt": "What is GABA?",
+    "completion": "The brain\u2019s main inhibitory neurotransmitter reducing neuronal excitability."
+  },
+  {
+    "prompt": "What is glutamate?",
+    "completion": "The brain\u2019s primary excitatory neurotransmitter vital for learning and memory."
+  },
+  {
+    "prompt": "What is oxytocin?",
+    "completion": "A hormone and neurotransmitter fostering bonding, empathy, and trust."
+  },
+  {
+    "prompt": "What is neural synchrony?",
+    "completion": "Coordinated timing of neuronal firing across regions supporting communication and awareness."
+  },
+  {
+    "prompt": "What is mirror-neuron theory?",
+    "completion": "Neurons that fire both when acting and when observing others, underlying empathy and learning."
+  },
+  {
+    "prompt": "What is empathy\u2019s neural basis?",
+    "completion": "Overlap between pain, emotional, and mirror-neuron systems enabling shared affective states."
+  },
+  {
+    "prompt": "What is neurodevelopment?",
+    "completion": "Sequential formation of neurons, synapses, and networks shaping cognitive function."
+  },
+  {
+    "prompt": "What is myelination?",
+    "completion": "Process of wrapping axons with myelin to increase transmission speed and efficiency."
+  },
+  {
+    "prompt": "What is neural encoding?",
+    "completion": "The process by which neurons represent information through patterns of activity."
+  },
+  {
+    "prompt": "What is neurodegeneration?",
+    "completion": "Progressive loss of neuron structure or function leading to diseases like ALS or Alzheimer\u2019s."
+  },
+  {
+    "prompt": "What is apoptosis in the brain?",
+    "completion": "Programmed cell death removing unnecessary or damaged neurons."
+  },
+  {
+    "prompt": "What is cross-frequency coupling?",
+    "completion": "Interaction between brainwaves of different frequencies coordinating large-scale communication."
+  },
+  {
+    "prompt": "What is the neural correlate of intelligence?",
+    "completion": "Efficient network integration and prefrontal\u2013parietal connectivity predict cognitive capacity."
+  },
+  {
+    "prompt": "EEG shows increased Gamma activity during problem-solving.",
+    "completion": "Gamma waves correlate with high-level cognitive integration. This is similar to how signal processing filters manage complex data streams in physics."
+  },
+  {
+    "prompt": "<EEG observation or cognitive state>",
+    "completion": "<Simple analogy or story>"
+  },
+  {
+    "prompt": "Alpha waves increase when calm and relaxed.",
+    "completion": "Alpha waves are like soft waves in the ocean \u2014 your brain is chilling and thinking creatively!"
+  },
+  {
+    "prompt": "Delta waves during deep sleep.",
+    "completion": "Delta waves are your brain\u2019s nap waves \u2014 they help your body and brain recharge."
+  },
+  {
+    "prompt": "I don\u2019t understand how the brain works.",
+    "completion": "Imagine your brain is a busy city with roads (neurons) and cars (messages). The faster the cars go, the quicker you think!"
+  },
+  {
+    "prompt": "Gamma waves increase during focused problem-solving.",
+    "completion": "Gamma waves are like superhero brain sparks \u2014 your brain is really paying attention and thinking hard!"
+  },
+  {
+    "prompt": "EEG data for 5-1 year, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1.2-3.5 Hz with amplitude 50-100 \u00b5V during Sleep / Rest"
+  },
+  {
+    "prompt": "EEG data for 5-1 year, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4-6 Hz with amplitude 20-40 \u00b5V during Early attention / memory"
+  },
+  {
+    "prompt": "EEG data for 5-1 year, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 6-7 Hz with amplitude 10-20 \u00b5V during Visual attention / quiet alert"
+  },
+  {
+    "prompt": "EEG data for 5-1 year, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 12-18 Hz with amplitude 5-10 \u00b5V during Early motor activity"
+  },
+  {
+    "prompt": "EEG data for 1-3 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1-3.5 Hz with amplitude 40-80 \u00b5V during Sleep / rest"
+  },
+  {
+    "prompt": "EEG data for 1-3 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4-6 Hz with amplitude 15-35 \u00b5V during Memory consolidation / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 1-3 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 6-8 Hz with amplitude 8-15 \u00b5V during Relaxed alertness"
+  },
+  {
+    "prompt": "EEG data for 1-3 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 14-20 Hz with amplitude 5-12 \u00b5V during Motor control"
+  },
+  {
+    "prompt": "EEG data for 3-5 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1-3 Hz with amplitude 35-70 \u00b5V during Sleep / relaxation"
+  },
+  {
+    "prompt": "EEG data for 3-5 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4-6.5 Hz with amplitude 15-30 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 3-5 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 7-9 Hz with amplitude 10-18 \u00b5V during Focus / calm alertness"
+  },
+  {
+    "prompt": "EEG data for 3-5 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15-22 Hz with amplitude 5-12 \u00b5V during Active thinking / problem-solving"
+  },
+  {
+    "prompt": "EEG data for 5-7 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1-2.5 Hz with amplitude 30-60 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 5-7 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4-6 Hz with amplitude 10-25 \u00b5V during Memory / attention"
+  },
+  {
+    "prompt": "EEG data for 5-7 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 8-9 Hz with amplitude 10-15 \u00b5V during Calm focus / sensory processing"
+  },
+  {
+    "prompt": "EEG data for 5-7 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15-25 Hz with amplitude 5-10 \u00b5V during Active cognition / motor control"
+  },
+  {
+    "prompt": "EEG data for 7-10 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5-2 Hz with amplitude 25-50 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 7-10 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4-5.5 Hz with amplitude 8-20 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 7-10 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9-10 Hz with amplitude 10-12 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 7-10 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 16-26 Hz with amplitude 5-10 \u00b5V during Active thinking / problem-solving"
+  },
+  {
+    "prompt": "EEG data for 10-13 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5-1.5 Hz with amplitude 20-45 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 10-13 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4-5 Hz with amplitude 5-15 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 10-13 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9-11 Hz with amplitude 10-12 \u00b5V during Focus / cognitive engagement"
+  },
+  {
+    "prompt": "EEG data for 10-13 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17-27 Hz with amplitude 5-10 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 13-18 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5-1 Hz with amplitude 15-40 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 13-18 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4-5 Hz with amplitude 5-10 \u00b5V during Higher-order memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 13-18 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 10-12 Hz with amplitude 8-12 \u00b5V during Attention / calm focus"
+  },
+  {
+    "prompt": "EEG data for 13-18 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 18-28 Hz with amplitude 5-10 \u00b5V during Cognitive processing / motor planning"
+  },
+  {
+    "prompt": "EEG data for 5\u20131 year, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1.2\u20133.5 Hz with amplitude 50\u2013100 \u00b5V during Sleep / Rest"
+  },
+  {
+    "prompt": "EEG data for 5\u20131 year, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 20\u201340 \u00b5V during Early attention / memory"
+  },
+  {
+    "prompt": "EEG data for 5\u20131 year, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 6\u20137 Hz with amplitude 10\u201320 \u00b5V during Visual attention / quiet alert"
+  },
+  {
+    "prompt": "EEG data for 5\u20131 year, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 12\u201318 Hz with amplitude 5\u201310 \u00b5V during Early motor activity"
+  },
+  {
+    "prompt": "EEG data for 1\u20132 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20133.5 Hz with amplitude 40\u201380 \u00b5V during Sleep / rest"
+  },
+  {
+    "prompt": "EEG data for 1\u20132 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 15\u201335 \u00b5V during Memory consolidation / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 1\u20132 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 6\u20138 Hz with amplitude 8\u201315 \u00b5V during Relaxed alertness"
+  },
+  {
+    "prompt": "EEG data for 1\u20132 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 14\u201320 Hz with amplitude 5\u201312 \u00b5V during Motor control"
+  },
+  {
+    "prompt": "EEG data for 2\u20133 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20133 Hz with amplitude 35\u201370 \u00b5V during Sleep / relaxation"
+  },
+  {
+    "prompt": "EEG data for 2\u20133 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136.5 Hz with amplitude 15\u201330 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 2\u20133 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 7\u20139 Hz with amplitude 10\u201318 \u00b5V during Focus / calm alertness"
+  },
+  {
+    "prompt": "EEG data for 2\u20133 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201322 Hz with amplitude 5\u201312 \u00b5V during Active thinking / problem-solving"
+  },
+  {
+    "prompt": "EEG data for 3\u20134 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20132.5 Hz with amplitude 30\u201360 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 3\u20134 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 10\u201325 \u00b5V during Memory / attention"
+  },
+  {
+    "prompt": "EEG data for 3\u20134 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 8\u20139 Hz with amplitude 10\u201315 \u00b5V during Calm focus / sensory processing"
+  },
+  {
+    "prompt": "EEG data for 3\u20134 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201325 Hz with amplitude 5\u201310 \u00b5V during Active cognition / motor control"
+  },
+  {
+    "prompt": "EEG data for 4\u20135 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20132 Hz with amplitude 25\u201350 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 4\u20135 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135.5 Hz with amplitude 8\u201320 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 4\u20135 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201310 Hz with amplitude 10\u201312 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 4\u20135 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 16\u201326 Hz with amplitude 5\u201310 \u00b5V during Active thinking / problem-solving"
+  },
+  {
+    "prompt": "EEG data for 5\u20136 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 5\u20136 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 5\u20136 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Focus / cognitive engagement"
+  },
+  {
+    "prompt": "EEG data for 5\u20136 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 6\u20137 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 6\u20137 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 6\u20137 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 6\u20137 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 7\u20138 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 7\u20138 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 7\u20138 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Focus / cognitive engagement"
+  },
+  {
+    "prompt": "EEG data for 7\u20138 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 8\u20139 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 8\u20139 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 8\u20139 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 8\u20139 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 9\u201310 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 9\u201310 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 9\u201310 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Focus / cognitive engagement"
+  },
+  {
+    "prompt": "EEG data for 9\u201310 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 10\u201311 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 10\u201311 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 10\u201311 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 10\u201311 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 11\u201312 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 11\u201312 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 11\u201312 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Focus / cognitive engagement"
+  },
+  {
+    "prompt": "EEG data for 11\u201312 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 12\u201313 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 12\u201313 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 12\u201313 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 12\u201313 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 13\u201314 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 13\u201314 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 13\u201314 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Focus / cognitive engagement"
+  },
+  {
+    "prompt": "EEG data for 13\u201314 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 14\u201315 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 14\u201315 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 14\u201315 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 14\u201315 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 15\u201316 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 15\u201316 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 15\u201316 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Focus / cognitive engagement"
+  },
+  {
+    "prompt": "EEG data for 15\u201316 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 16\u201317 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 16\u201317 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Working memory / emotional regulation"
+  },
+  {
+    "prompt": "EEG data for 16\u201317 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Attention / learning"
+  },
+  {
+    "prompt": "EEG data for 16\u201317 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 17\u201327 Hz with amplitude 5\u201310 \u00b5V during Active thinking / motor tasks"
+  },
+  {
+    "prompt": "EEG data for 17\u201318 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 0.5\u20131.5 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 17\u201318 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20135 Hz with amplitude 5\u201315 \u00b5V during Learning / creativity"
+  },
+  {
+    "prompt": "EEG data for 17\u201318 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201312 \u00b5V during Focus /\uea011\uea02\n\n# AgeRange"
+  },
+  {
+    "prompt": "EEG data for 17\u201318 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201325 Hz with amplitude 5\u201315 \u00b5V during Active cognition"
+  },
+  {
+    "prompt": "EEG data for 19\u201321 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20133 Hz with amplitude 20\u201350 \u00b5V during Deep sleep"
+  },
+  {
+    "prompt": "EEG data for 19\u201321 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 10\u201325 \u00b5V during Working memory"
+  },
+  {
+    "prompt": "EEG data for 19\u201321 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201320 \u00b5V during Calm focus"
+  },
+  {
+    "prompt": "EEG data for 19\u201321 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201325 Hz with amplitude 5\u201315 \u00b5V during Cognitive processing"
+  },
+  {
+    "prompt": "EEG data for 22\u201325 years, Delta band frequency and cognitive state",
+    "completion": "Delta waves at 1\u20133 Hz with amplitude 20\u201345 \u00b5V during Sleep"
+  },
+  {
+    "prompt": "EEG data for 22\u201325 years, Theta band frequency and cognitive state",
+    "completion": "Theta waves at 4\u20136 Hz with amplitude 10\u201320 \u00b5V during Learning tasks"
+  },
+  {
+    "prompt": "EEG data for 22\u201325 years, Alpha band frequency and cognitive state",
+    "completion": "Alpha waves at 9\u201311 Hz with amplitude 10\u201320 \u00b5V during Relaxed alertness"
+  },
+  {
+    "prompt": "EEG data for 22\u201325 years, Beta band frequency and cognitive state",
+    "completion": "Beta waves at 15\u201325 Hz with amplitude 5\u201315 \u00b5V during Problem-solving"
+  },
+  {
+    "prompt": "Describe Hebbian learning.",
+    "completion": "Hebbian learning strengthens connections between neurons that fire together, forming patterns of correlated activity."
+  },
+  {
+    "prompt": "What are oscillatory brain patterns?",
+    "completion": "Rhythmic fluctuations in neural activity, like alpha, beta, delta, and gamma waves, linked to different cognitive states."
+  },
+  {
+    "prompt": "Explain the importance of temporal coding in neurons.",
+    "completion": "The timing of spikes can carry critical information beyond just the rate of firing."
+  },
+  {
+    "prompt": "Explain spike-timing dependent plasticity.",
+    "completion": "Neuronal connections strengthen or weaken based on the precise timing of pre- and postsynaptic spikes."
+  },
+  {
+    "prompt": "How do inhibitory neurons shape brain activity?",
+    "completion": "They regulate excitatory neurons, preventing overactivity and helping refine signal patterns."
+  },
+  {
+    "prompt": "How do convolutional neural networks mimic vision?",
+    "completion": "They process spatial hierarchies of features, similar to how the visual cortex detects edges, shapes, and objects."
+  },
+  {
+    "prompt": "How do resonance frequencies affect neurons?",
+    "completion": "Neurons respond preferentially to inputs at certain frequencies, enhancing signal detection and synchrony."
+  },
+  {
+    "prompt": "What is the role of dopamine in learning?",
+    "completion": "It acts as a reward signal, reinforcing behaviors that lead to positive outcomes."
+  },
+  {
+    "prompt": "Explain lateral inhibition.",
+    "completion": "Active neurons suppress nearby neurons to sharpen contrast and enhance signal precision."
+  },
+  {
+    "prompt": "What is the significance of gamma waves?",
+    "completion": "Gamma waves are linked to high-level processing, attention, and consciousness."
+  },
+  {
+    "prompt": "What is Hebbian assembly?",
+    "completion": "A group of neurons that fire together to encode a specific memory or function."
+  },
+  {
+    "prompt": "Explain neural adaptation.",
+    "completion": "Neurons adjust their sensitivity based on recent activity to maintain responsiveness."
+  },
+  {
+    "prompt": "How does dopamine prediction error guide learning?",
+    "completion": "It signals the difference between expected and received reward, adjusting future behavior."
+  },
+  {
+    "prompt": "Explain the significance of theta waves.",
+    "completion": "Theta waves are linked to memory encoding, navigation, and creative thinking."
+  },
+  {
+    "prompt": "Explain spike trains.",
+    "completion": "Sequences of action potentials that encode information through timing and frequency."
+  },
+  {
+    "prompt": "What is the role of serotonin in cognition?",
+    "completion": "It regulates mood, attention, and decision-making, influencing learning and behavior."
+  },
+  {
+    "prompt": "What is Hebbian plasticity?",
+    "completion": "Synaptic strengthening between co-activated neurons, forming the basis for learning and memory."
+  },
+  {
+    "prompt": "Explain the function of glial cells.",
+    "completion": "They support neurons, regulate neurotransmitters, maintain homeostasis, and assist in signaling."
+  },
+  {
+    "prompt": "How does temporal difference learning work?",
+    "completion": "It updates predictions based on the difference between expected and actual outcomes over time."
+  },
+  {
+    "prompt": "What is the significance of delta waves?",
+    "completion": "Delta waves dominate during deep sleep, supporting restoration and memory consolidation."
+  },
+  {
+    "prompt": "How do neuromodulators influence plasticity?",
+    "completion": "Chemicals like dopamine and serotonin alter the strength and likelihood of synaptic changes."
+  },
+  {
+    "prompt": "What is Hebbian competition?",
+    "completion": "Neurons compete for activation, strengthening the most relevant pathways while weakening others."
+  },
+  {
+    "prompt": "How does sparse coding improve efficiency?",
+    "completion": "Only a small subset of neurons activates for a given stimulus, saving energy and enhancing representation clarity."
+  },
+  {
+    "prompt": "What are reservoir networks?",
+    "completion": "Networks with fixed recurrent connections where only output weights are trained, useful for temporal processing."
+  },
+  {
+    "prompt": "Explain inhibitory plasticity.",
+    "completion": "Changes in inhibitory synapses adjust network balance and shape responses to stimuli."
+  },
+  {
+    "prompt": "What is the significance of alpha waves?",
+    "completion": "Alpha waves are linked to relaxed wakefulness and filtering out irrelevant information."
+  },
+  {
+    "prompt": "Explain the function of the hippocampus.",
+    "completion": "It encodes and retrieves declarative memories, spatial navigation, and contextual associations."
+  },
+  {
+    "prompt": "What is the role of long-term depression?",
+    "completion": "Activity-dependent weakening of synapses balances potentiation and prevents overexcitation."
+  },
+  {
+    "prompt": "What is the significance of beta waves?",
+    "completion": "Beta waves are associated with active thinking, problem-solving, and motor control."
+  },
+  {
+    "prompt": "How do auto-regressive models work?",
+    "completion": "They predict the next value based on previous ones, capturing temporal dependencies."
+  },
+  {
+    "prompt": "How does spike frequency adaptation affect computation?",
+    "completion": "Neurons reduce firing over sustained input, regulating energy and encoding dynamic changes."
+  },
+  {
+    "prompt": "Explain the function of the prefrontal cortex.",
+    "completion": "Responsible for decision-making, planning, executive control, and moderating social behavior."
+  },
+  {
+    "prompt": "What is the role of microcircuits in computation?",
+    "completion": "Local groups of neurons perform specialized processing, contributing to overall brain function."
+  },
+  {
+    "prompt": "Explain the role of the amygdala.",
+    "completion": "It processes emotions, particularly fear and reward-related learning, influencing decisions."
+  },
+  {
+    "prompt": "What is the function of cortical columns?",
+    "completion": "Vertical\n\nPerfect \u2014 let\u2019s create a comprehensive roadmap for MC\u202fAI, combining data ingestion, training structures, coaching frameworks, and interactive learning, all in a way you can feed directly to Claude. I\u2019ll break it down into structured sections with copy-and-pasteable guidance so you can implement it step by step.\nMC\u202fAI Advanced Training Roadmap\n1. Core Knowledge Ingestion\nGoal: Build deep understanding across multiple domains (neuroscience, coding, physics, psychology, brainwaves).\nStructure:\nDomain: <Domain Name> Input:"
+  },
+  {
+    "prompt": "EEG Alpha waves measured at 10 Hz during relaxed wakefulness.",
+    "completion": "Alpha waves (~8-12 Hz) correlate with calm, creative states. This frequency often supports learning and associative thinking."
+  },
+  {
+    "prompt": "Delta waves at 2 Hz, high amplitude, during sleep stage 3.",
+    "completion": "Deep sleep stage; restorative processes active."
+  },
+  {
+    "prompt": "Show me alpha brainwave patterns.",
+    "completion": "Alpha waves (8\u201312\u202fHz) indicate relaxed alertness. Typical EEG amplitude is 20\u201360\u202f\u00b5V. You\u2019ll see them strongest over the occipital lobe when eyes are closed."
+  },
+  {
+    "prompt": "What is a beta state?",
+    "completion": "Beta waves (13\u201330\u202fHz) are associated with active thinking, focus, or anxiety. Amplitude: 5\u201320\u202f\u00b5V, often frontal or central regions."
+  },
+  {
+    "prompt": "Cognitive load effect on EEG?",
+    "completion": "Increased cognitive load reduces alpha power and increases frontal midline theta (4\u20137\u202fHz). Theta amplitude: ~20\u202f\u00b5V during mental tasks."
+  },
+  {
+    "prompt": "EEG during deep sleep?",
+    "completion": "Deep sleep (N3) shows delta waves (0.5\u20134\u202fHz) with high amplitude (75\u2013200\u202f\u00b5V), mostly frontal."
+  },
+  {
+    "prompt": "How does meditation show up in EEG?",
+    "completion": "Experienced meditators show increased alpha (8\u201312\u202fHz) and theta (4\u20137\u202fHz) waves, often frontal-midline, amplitude 20\u201370\u202f\u00b5V."
+  },
+  {
+    "prompt": "What happens to brainwaves under stress?",
+    "completion": "Stress increases beta waves (13\u201330\u202fHz), sometimes 30\u201340\u202f\u00b5V, especially in frontal regions, and reduces alpha activity."
+  },
+  {
+    "prompt": "EEG signature of flow state?",
+    "completion": "Flow often shows frontal-midline theta (4\u20137\u202fHz) increase with moderate beta (15\u201325\u202fHz). Theta amplitude ~25\u201340\u202f\u00b5V."
+  },
+  {
+    "prompt": "Cognitive fatigue markers in EEG?",
+    "completion": "Cognitive fatigue shows decreased alpha and beta power, increased theta, especially frontal regions. Delta may also rise slightly (~10\u201315\u202f\u00b5V)."
+  },
+  {
+    "prompt": "EEG during problem-solving?",
+    "completion": "Problem-solving activates frontal theta and beta rhythms. Beta: 13\u201325\u202fHz, amplitude 10\u201325\u202f\u00b5V; Theta: 4\u20137\u202fHz, amplitude 15\u201330\u202f\u00b5V."
+  },
+  {
+    "prompt": "How do emotions show in EEG?",
+    "completion": "Positive emotions increase left frontal alpha suppression; negative emotions increase right frontal alpha suppression. Amplitudes ~10\u201350\u202f\u00b5V."
+  },
+  {
+    "prompt": "What connects neuron firing to data processing?",
+    "completion": "Both use energy thresholds and signal propagation\u2014neurons fire when potential crosses ~-55\u202fmV; CPUs trigger logic gates at voltage thresholds."
+  },
+  {
+    "prompt": "Explain the relationship between neuron firing and CPU processing.",
+    "completion": "Both use thresholds to trigger events. Neurons fire when potential crosses -55\u202fmV; CPUs execute instructions when voltage signals reach logic levels."
+  },
+  {
+    "prompt": "How do electrical impulses in neurons compare to signals in circuits?",
+    "completion": "Both transmit information via voltage changes along pathways, with signal amplitude and timing encoding data."
+  },
+  {
+    "prompt": "Explain the connection between frequency and cognitive states.",
+    "completion": "Brainwave frequencies correlate with states like focus, relaxation, or sleep; recognizing these patterns can inform cognitive modeling."
+  },
+  {
+    "prompt": "Explain the role of energy thresholds in neurons.",
+    "completion": "Neurons only fire when the membrane potential exceeds a threshold, conserving energy and ensuring meaningful signals."
+  },
+  {
+    "prompt": "Explain advantages of high I_sp engines.\"\nMC AI\n\n# Neuroscience & EEG Training Pairs\n\nInput: \"Show me alpha brainwave patterns.",
+    "completion": "Alpha waves (8\u201312\u202fHz) indicate relaxed alertness. Typical EEG amplitude is 20\u201360\u202f\u00b5V. You\u2019ll see them strongest over the occipital lobe when eyes are closed."
+  },
+  {
+    "prompt": "What is the function of the substantia nigra?",
+    "completion": "A brain structure involved in movement control and dopamine production."
+  },
+  {
+    "prompt": "Explain the function of the ventral tegmental area (VTA).",
+    "completion": "A brain region involved in reward, motivation, and the release of dopamine."
+  },
+  {
+    "prompt": "Explain the role of the amygdala in fear conditioning.",
+    "completion": "Processes fearful stimuli and forms associations between neutral cues and aversive events."
+  },
+  {
+    "prompt": "What is the function of the lateral geniculate nucleus (LGN)?",
+    "completion": "A relay center in the thalamus for visual information from the retina to the visual cortex."
+  },
+  {
+    "prompt": "What is the function of the entorhinal cortex?",
+    "completion": "Serves as a hub for memory and navigation by connecting the hippocampus with other brain regions."
+  },
+  {
+    "prompt": "Define the term \u2018neuroinflammation.\u2019",
+    "completion": "Inflammatory responses within the nervous system that can impact neuron function and survival."
+  },
+  {
+    "prompt": "Explain the function of the medial prefrontal cortex.",
+    "completion": "Involved in decision-making, social cognition, and personality expression."
+  },
+  {
+    "prompt": "What is the role of the ventromedial prefrontal cortex?",
+    "completion": "Plays a key role in risk assessment, decision-making, and emotional regulation."
+  },
+  {
+    "prompt": "Define the dorsolateral prefrontal cortex.",
+    "completion": "Supports executive functions, including working memory, planning, and reasoning."
+  },
+  {
+    "prompt": "What is the function of the orbitofrontal cortex?",
+    "completion": "Involved in reward evaluation, decision-making, and impulse control."
+  },
+  {
+    "prompt": "Define place cells.",
+    "completion": "Neurons in the hippocampus that become active in specific spatial locations, aiding navigation."
+  },
+  {
+    "prompt": "What are grid cells?",
+    "completion": "Neurons that create a coordinate system for spatial navigation, primarily in the entorhinal cortex."
+  },
+  {
+    "prompt": "Explain the role of the parietal association cortex.",
+    "completion": "Integrates sensory information for spatial awareness, attention, and action planning."
+  },
+  {
+    "prompt": "What is the role of inhibitory interneurons?",
+    "completion": "Regulate neural circuit activity and prevent excessive firing of neurons."
+  },
+  {
+    "prompt": "Explain the role of the substantia innominata.",
+    "completion": "Contains cholinergic neurons important for attention, learning, and arousal."
+  },
+  {
+    "prompt": "What is the function of the medial temporal lobe?",
+    "completion": "Critical for memory formation and retrieval."
+  },
+  {
+    "prompt": "What is the function of the stria terminalis?",
+    "completion": "A pathway connecting the amygdala to other brain regions, involved in stress and anxiety responses."
+  },
+  {
+    "prompt": "Define the concept of metaplasticity.",
+    "completion": "The plasticity of synaptic plasticity; prior activity affects how easily synapses change in the future."
+  },
+  {
+    "prompt": "What is the role of the cerebellar cortex?",
+    "completion": "Coordinates fine motor control, timing, and precision of movements."
+  },
+  {
+    "prompt": "Explain the function of Purkinje cells.",
+    "completion": "Large cerebellar neurons that integrate inputs and inhibit deep cerebellar nuclei to refine movement."
+  },
+  {
+    "prompt": "What is the function of the medial geniculate nucleus?",
+    "completion": "A thalamic relay for auditory information to the auditory cortex."
+  },
+  {
+    "prompt": "Explain the role of astrocytes.",
+    "completion": "Glial cells that support neurons, maintain homeostasis, modulate synaptic transmission, and form the blood-brain barrier."
+  },
+  {
+    "prompt": "What is the function of oligodendrocytes?",
+    "completion": "Glial cells that produce myelin in the central nervous system to insulate axons and speed neural transmission."
+  },
+  {
+    "prompt": "What is the function of Schwann cells?",
+    "completion": "Produce myelin in the peripheral nervous system and support nerve regeneration."
+  },
+  {
+    "prompt": "Explain the function of the somatosensory cortex.",
+    "completion": "Processes touch, pressure, temperature, and pain information from the body."
+  },
+  {
+    "prompt": "What is the role of the motor cortex?",
+    "completion": "Controls voluntary movements and coordinates complex motor actions."
+  },
+  {
+    "prompt": "Explain the function of the auditory cortex.",
+    "completion": "Processes auditory information, including pitch, volume, and spatial location of sounds."
+  },
+  {
+    "prompt": "What is the role of the visual cortex?",
+    "completion": "Processes visual input, including color, motion, and shape recognition."
+  },
+  {
+    "prompt": "What is the role of the gustatory cortex?",
+    "completion": "Processes taste information and integrates it with other sensory input."
+  },
+  {
+    "prompt": "Explain the function of the thalamus.",
+    "completion": "Acts as a relay station for sensory and motor signals to the cortex."
+  },
+  {
+    "prompt": "Define the function of the basal forebrain.",
+    "completion": "Supports learning, memory, attention, and cortical activation through cholinergic neurons."
+  },
+  {
+    "prompt": "What is the role of the amygdala in emotional memory?",
+    "completion": "Encodes and processes emotionally significant events, particularly fear and reward."
+  },
+  {
+    "prompt": "Explain the function of the insular cortex.",
+    "completion": "Integrates sensory, emotional, and autonomic information to guide behavior."
+  },
+  {
+    "prompt": "What is the function of the dorsal anterior cingulate cortex?",
+    "completion": "Involved in conflict monitoring, decision-making, and error detection."
+  },
+  {
+    "prompt": "Define the role of the ventral anterior cingulate cortex.",
+    "completion": "Plays a role in emotion regulation and reward-based decision-making."
+  },
+  {
+    "prompt": "What is the function of the perirhinal cortex?",
+    "completion": "Supports object recognition and memory encoding."
+  },
+  {
+    "prompt": "Explain the role of the retrosplenial cortex.",
+    "completion": "Involved in spatial navigation, memory, and contextual processing."
+  },
+  {
+    "prompt": "Define the function of the fornix.",
+    "completion": "Connects the hippocampus to other brain structures, aiding memory consolidation."
+  },
+  {
+    "prompt": "What is the function of the globus pallidus?",
+    "completion": "Regulates voluntary movement and communicates with the thalamus and cortex."
+  },
+  {
+    "prompt": "Define Hebbian learning.",
+    "completion": "A principle that neurons that fire together wire together, strengthening synaptic connections."
+  },
+  {
+    "prompt": "What is the function of GABAergic neurons?",
+    "completion": "Inhibit neuronal activity to regulate circuit excitability and prevent overactivation."
+  },
+  {
+    "prompt": "Define the function of cholinergic neurons.",
+    "completion": "Release acetylcholine to support attention, learning, and memory."
+  },
+  {
+    "prompt": "What is the role of dopaminergic neurons?",
+    "completion": "Modulate reward, motivation, motor control, and reinforcement learning."
+  },
+  {
+    "prompt": "Explain the function of serotonergic neurons.",
+    "completion": "Regulate mood, appetite, sleep, and cognitive flexibility."
+  },
+  {
+    "prompt": "What is the function of noradrenergic neurons?",
+    "completion": "Modulate arousal, attention, stress responses, and learning."
+  },
+  {
+    "prompt": "Define the role of neurotrophic factors.",
+    "completion": "Proteins that support neuron growth, survival, and synaptic plasticity."
+  },
+  {
+    "prompt": "What is the function of brain-derived neurotrophic factor (BDNF)?",
+    "completion": "Promotes survival, growth, and differentiation of neurons and supports synaptic plasticity."
+  },
+  {
+    "prompt": "Explain the role of synaptogenesis.",
+    "completion": "The formation of new synapses, essential for learning and memory."
+  },
+  {
+    "prompt": "What is the function of myelination in development?",
+    "completion": "Increases neural signal speed and efficiency, supporting cognitive and motor skills."
+  },
+  {
+    "prompt": "Define the concept of neural oscillations.",
+    "completion": "Rhythmic patterns of neuronal activity that coordinate communication and cognitive functions."
+  },
+  {
+    "prompt": "What is the role of theta waves?",
+    "completion": "Support memory encoding, spatial navigation, and cognitive control."
+  },
+  {
+    "prompt": "Explain the function of alpha waves.",
+    "completion": "Linked to relaxed wakefulness, attention modulation, and inhibition of irrelevant stimuli."
+  },
+  {
+    "prompt": "What is the function of beta waves?",
+    "completion": "Associated with active thinking, problem-solving, and motor control."
+  },
+  {
+    "prompt": "Define gamma waves.",
+    "completion": "High-frequency oscillations linked to perception, attention, and memory processing."
+  },
+  {
+    "prompt": "What is the role of delta waves?",
+    "completion": "Dominant during deep sleep, supporting restorative processes and memory consolidation."
+  },
+  {
+    "prompt": "Define delta waves.",
+    "completion": "Slow brainwaves (0.5\u20134 Hz) dominant in deep sleep, promoting restoration and memory consolidation."
+  },
+  {
+    "prompt": "Define theta waves.",
+    "completion": "Brainwaves (4\u20138 Hz) associated with relaxation, creativity, and memory encoding."
+  },
+  {
+    "prompt": "Define alpha waves.",
+    "completion": "Brainwaves (8\u201312 Hz) linked to calm wakefulness and attentional focus."
+  },
+  {
+    "prompt": "Define beta waves.",
+    "completion": "Brainwaves (12\u201330 Hz) linked to active thinking, problem-solving, and motor control."
+  },
+  {
+    "prompt": "What brain state is associated with delta waves?",
+    "completion": "Deep, restorative sleep and unconscious processing."
+  },
+  {
+    "prompt": "What brain state is associated with theta waves?",
+    "completion": "Drowsiness, meditation, creativity, and light sleep stages."
+  },
+  {
+    "prompt": "What brain state is associated with alpha waves?",
+    "completion": "Relaxed alertness and calm focus."
+  },
+  {
+    "prompt": "What brain state is associated with beta waves?",
+    "completion": "Active thinking, alertness, and focused attention."
+  },
+  {
+    "prompt": "What brain state is associated with gamma waves?",
+    "completion": "Heightened perception, learning, and consciousness integration."
+  },
+  {
+    "prompt": "Explain the function of the thalamus in brainwave regulation.",
+    "completion": "Relays sensory information and helps coordinate cortical oscillations."
+  },
+  {
+    "prompt": "Explain the role of the hippocampus in theta waves.",
+    "completion": "Generates theta rhythms for memory encoding and spatial navigation."
+  },
+  {
+    "prompt": "Explain the function of alpha waves in visual attention.",
+    "completion": "Inhibit irrelevant stimuli and enhance focus on relevant sensory input."
+  },
+  {
+    "prompt": "Explain beta waves in motor control.",
+    "completion": "Coordinate voluntary movement and fine motor adjustments."
+  },
+  {
+    "prompt": "Explain gamma waves and perception.",
+    "completion": "Synchronize neuronal firing across regions to integrate sensory information."
+  },
+  {
+    "prompt": "What is the role of delta waves in brain recovery?",
+    "completion": "Facilitate cellular repair, memory consolidation, and toxin clearance."
+  },
+  {
+    "prompt": "What is the role of theta waves in learning?",
+    "completion": "Support encoding of new information and creative problem-solving."
+  },
+  {
+    "prompt": "What is the function of brainwave entrainment?",
+    "completion": "Using rhythmic stimuli to synchronize brainwaves for cognitive or emotional effects."
+  },
+  {
+    "prompt": "Define neural oscillations.",
+    "completion": "Rhythmic or repetitive electrical activity in the brain, underlying brainwaves."
+  },
+  {
+    "prompt": "Explain coherence in brainwaves.",
+    "completion": "Synchronization between brain regions, promoting effective communication."
+  },
+  {
+    "prompt": "Define the term \u2018neurotransmitter\u2019.",
+    "completion": "Chemical substances that transmit signals across a synapse from one neuron to another."
+  },
+  {
+    "prompt": "Explain the concept of neurogenesis.",
+    "completion": "The formation of new neurons in the brain, occurring throughout life in certain regions."
+  },
+  {
+    "prompt": "Define the term \u2018mirror neurons\u2019.",
+    "completion": "Neurons that fire both when an individual acts and when they observe the same action performed by another, related to empathy and imitation."
+  },
+  {
+    "prompt": "What is an action potential?",
+    "completion": "A rapid change in electrical potential across a neuron\u2019s membrane, allowing it to transmit signals."
+  },
+  {
+    "prompt": "Explain the role of myelin.",
+    "completion": "Myelin is a fatty layer that insulates axons, increasing the speed of neural signal transmission."
+  },
+  {
+    "prompt": "What is the difference between excitatory and inhibitory neurotransmitters?",
+    "completion": "Excitatory neurotransmitters increase the likelihood of neuron firing; inhibitory neurotransmitters decrease it."
+  },
+  {
+    "prompt": "Define the term \u2018neuroplasticity.\u2019",
+    "completion": "The brain\u2019s ability to reorganize and form new neural connections throughout life."
+  },
+  {
+    "prompt": "Explain the role of the hippocampus.",
+    "completion": "A brain structure critical for forming new memories and spatial navigation."
+  },
+  {
+    "prompt": "What is the amygdala responsible for?",
+    "completion": "Processing emotions, especially fear and threat detection."
+  },
+  {
+    "prompt": "Define the prefrontal cortex.",
+    "completion": "The brain region involved in decision-making, planning, problem-solving, and self-control."
+  },
+  {
+    "prompt": "What is the difference between gray matter and white matter?",
+    "completion": "Gray matter contains neuron cell bodies; white matter contains myelinated axons connecting brain regions."
+  },
+  {
+    "prompt": "Define the term \u2018neurogenesis.\u2019",
+    "completion": "The process of generating new neurons, occurring primarily in the hippocampus throughout life."
+  },
+  {
+    "prompt": "Explain the role of glial cells.",
+    "completion": "Support neurons by providing nutrients, removing waste, and assisting in signal transmission."
+  },
+  {
+    "prompt": "Define the term \u2018dopamine.\u2019",
+    "completion": "A neurotransmitter involved in reward, motivation, movement, and learning."
+  },
+  {
+    "prompt": "What is serotonin?",
+    "completion": "A neurotransmitter that regulates mood, appetite, sleep, and cognition."
+  },
+  {
+    "prompt": "Explain the function of acetylcholine.",
+    "completion": "A neurotransmitter important for muscle activation, attention, and memory."
+  },
+  {
+    "prompt": "Define glutamate.",
+    "completion": "The primary excitatory neurotransmitter in the nervous system, critical for learning and memory."
+  },
+  {
+    "prompt": "What is a neural circuit?",
+    "completion": "A network of interconnected neurons that processes specific types of information."
+  },
+  {
+    "prompt": "Explain the function of the occipital lobe.",
+    "completion": "Responsible for processing visual information."
+  },
+  {
+    "prompt": "What is the parietal lobe responsible for?",
+    "completion": "Processing sensory information such as touch, temperature, and spatial awareness."
+  },
+  {
+    "prompt": "Define the temporal lobe.",
+    "completion": "Involved in auditory processing, memory, and language comprehension."
+  },
+  {
+    "prompt": "What is the frontal lobe responsible for?",
+    "completion": "Executive functions, decision-making, planning, problem-solving, and controlling behavior."
+  },
+  {
+    "prompt": "What is the role of the anterior cingulate cortex?",
+    "completion": "Involved in error detection, emotion regulation, and attention control."
+  },
+  {
+    "prompt": "Define the concept of spike-timing dependent plasticity.",
+    "completion": "A type of synaptic plasticity where the timing of neuron firing affects the strength of synaptic connections."
+  },
+  {
+    "prompt": "Explain the function of theta waves.",
+    "completion": "Brainwave patterns associated with memory, navigation, and relaxation."
+  },
+  {
+    "prompt": "What are gamma waves?",
+    "completion": "High-frequency brainwaves linked to attention, perception, and consciousness."
+  },
+  {
+    "prompt": "Explain the role of oligodendrocytes.",
+    "completion": "Glial cells that form myelin sheaths around neurons in the central nervous system."
+  },
+  {
+    "prompt": "What is a dendritic spine?",
+    "completion": "Small protrusions on dendrites where synapses are formed, important for learning and memory."
+  },
+  {
+    "prompt": "Explain the function of neurotrophins.",
+    "completion": "Proteins that promote neuron survival, growth, and differentiation."
+  },
+  {
+    "prompt": "What is the role of BDNF (brain-derived neurotrophic factor)?",
+    "completion": "Supports the survival of existing neurons, encourages growth of new neurons and synapses, and is vital for learning and memory."
+  },
+  {
+    "prompt": "Define the concept of Hebbian learning.",
+    "completion": "Neurons that fire together wire together;"
+  }
+]
