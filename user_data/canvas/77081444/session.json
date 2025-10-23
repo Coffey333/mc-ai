@@ -1,0 +1,15 @@
+{
+  "session_id": "77081444",
+  "created_at": "2025-10-19T07:24:20.919929",
+  "mode": "building",
+  "title": "Ninja Turtle Chronicles",
+  "description": "Custom game: Action-packed platformer featuring ninja turtles on a mission to save the city",
+  "artifacts": [
+    "game.html"
+  ],
+  "metadata": {},
+  "preview_url": null,
+  "screenshot_path": null,
+  "test_results": [],
+  "expires_at": "2025-10-20T07:24:20.919935"
+}
