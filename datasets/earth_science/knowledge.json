@@ -1,0 +1,27 @@
+[
+  {
+    "prompt": "What are the layers of the Earth?",
+    "response": "Earth has four main layers:\n\n**1. Crust** (outermost)\n- Thickness: 5-70 km\n- Two types: oceanic (thinner) and continental (thicker)\n- What we live on\n\n**2. Mantle**\n- Thickness: ~2,900 km\n- Semi-solid rock that flows slowly\n- Contains most of Earth's mass\n- Temperature: 500-4,000\u00b0C\n- Convection currents drive plate tectonics\n\n**3. Outer Core**\n- Thickness: ~2,200 km\n- Liquid iron and nickel\n- Temperature: 4,000-6,000\u00b0C\n- Movement creates Earth's magnetic field\n\n**4. Inner Core** (center)\n- Radius: ~1,220 km\n- Solid iron and nickel\n- Temperature: 5,000-7,000\u00b0C (hot as sun's surface!)\n- Solid despite heat due to extreme pressure",
+    "domain": "earth_science"
+  },
+  {
+    "prompt": "How do earthquakes happen?",
+    "response": "Earthquakes occur when stress in Earth's crust is released:\n\n**Causes:**\n1. **Tectonic plates moving** (most common)\n   - Plates collide, separate, or slide past each other\n   - Stress builds up along faults\n   - Rock suddenly breaks, releases energy\n\n2. **Volcanic activity**\n   - Magma movement creates tremors\n\n3. **Human activity** (rare)\n   - Mining, reservoir filling, fracking\n\n**Process:**\n1. Stress accumulates along fault line\n2. Rock reaches breaking point\n3. Sudden rupture releases energy as seismic waves\n4. Waves travel through Earth, cause shaking\n\n**Measurement:**\n- Magnitude: Richter or Moment Magnitude Scale (energy released)\n- Intensity: Modified Mercalli Scale (damage/effects)\n\n**Safety:** Drop, Cover, Hold On during earthquake",
+    "domain": "earth_science"
+  },
+  {
+    "prompt": "How does the water cycle work?",
+    "response": "The water cycle is continuous movement of water on, above, and below Earth's surface:\n\n**Steps:**\n\n**1. Evaporation**\n- Sun heats water in oceans, lakes, rivers\n- Liquid water becomes water vapor (gas)\n- Rises into atmosphere\n\n**2. Transpiration**\n- Plants release water vapor through leaves\n- Combines with evaporation\n\n**3. Condensation**\n- Water vapor cools in atmosphere\n- Forms tiny water droplets\n- Creates clouds and fog\n\n**4. Precipitation**\n- Droplets combine, get heavy\n- Fall as rain, snow, sleet, hail\n\n**5. Collection**\n- Water collects in oceans, lakes, rivers, groundwater\n- Cycle begins again\n\n**Importance:**\n- Provides fresh water\n- Regulates climate\n- Distributes heat around globe",
+    "domain": "earth_science"
+  },
+  {
+    "prompt": "What causes seasons?",
+    "response": "Seasons are caused by Earth's tilted axis:\n\n**Key Fact:** Earth's axis tilts 23.5\u00b0 relative to its orbit\n\n**How it works:**\n\n**Summer (for hemisphere):**\n- Tilted toward sun\n- Direct sunlight\n- Longer days\n- Warmer temperatures\n\n**Winter (for hemisphere):**\n- Tilted away from sun\n- Indirect sunlight\n- Shorter days\n- Colder temperatures\n\n**Spring/Fall:**\n- Neither tilted toward nor away\n- Moderate temperatures\n- Equal day/night\n\n**Note:** When Northern Hemisphere has summer, Southern has winter (opposite tilt)\n\n**NOT caused by:** Distance from sun (Earth's orbit is nearly circular)",
+    "domain": "earth_science"
+  },
+  {
+    "prompt": "What is the rock cycle?",
+    "response": "The rock cycle shows how rocks transform:\n\n**Three Rock Types:**\n\n**1. Igneous**\n- Form from cooled magma/lava\n- Examples: granite, basalt\n\n**2. Sedimentary**\n- Form from compressed sediments\n- Examples: sandstone, limestone\n\n**3. Metamorphic**\n- Form from heat/pressure changing existing rocks\n- Examples: marble (from limestone), slate (from shale)\n\n**Transformations:**\n- Igneous \u2192 (weathering) \u2192 Sedimentary\n- Sedimentary \u2192 (heat/pressure) \u2192 Metamorphic\n- Metamorphic \u2192 (melting) \u2192 Igneous\n- Any rock \u2192 (extreme heat) \u2192 Igneous\n\n**Processes:** Weathering, erosion, deposition, compaction, heat, pressure, melting\n\n**Timeline:** Can take millions of years!",
+    "domain": "earth_science"
+  }
+]
