@@ -1,0 +1,186 @@
+{
+  "user_id": "regression_test",
+  "created": "2025-10-19T07:24:20.956721",
+  "last_updated": "2025-10-19T07:25:06.379064",
+  "message_count": 4,
+  "messages": [
+    {
+      "timestamp": "2025-10-19T07:24:20.956739",
+      "user_message": "Create a platformer game with ninja turtles",
+      "ai_response": "\ud83c\udfae **I've created Ninja Turtle Chronicles just for you!**\n\nAction-packed platformer featuring ninja turtles on a mission to save the city\n\n\u2022 You play as: \ud83d\udc22 ninja turtle\n\u2022 Theme: urban ninja adventure\n\n\ud83d\udcf8 I'm looking at the preview now - it looks great! Optimized for your neutral state. Have fun!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Excitement (20Hz - Beta)\n**Catalog:** High Beta Activation frequency mapping\n**Source:** PROCESSING | **Domain:** creative\n**Coherence:** Phi Resonance (strength: 0.83)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to creative dataset\n---",
+      "metadata": {
+        "type": "game_generation",
+        "emotion": "neutral",
+        "game_title": "Ninja Turtle Chronicles",
+        "game_type": "platformer",
+        "canvas_id": "77081444",
+        "preview_url": null,
+        "dynamic_generation": true,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "excitement",
+          "response_frequency": 20,
+          "basis": "high beta activation",
+          "coupling": {
+            "coupling_strength": 0.8266858677714649,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.926,
+              1.589,
+              1.335,
+              1.596
+            ],
+            "ratio_mean": 1.6115208515689567,
+            "ratio_std": 0.20964932265716113
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "creative"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T07:24:45.037018",
+      "user_message": "Create a racing game with emoji cars",
+      "ai_response": "\ud83c\udfae **I've created Emoji Car Racers just for you!**\n\nA fast-paced racing game where players compete using emoji-themed cars\n\n\u2022 You play as: \ud83d\ude97 emoji cars\n\u2022 Theme: emoji racing\n\n\ud83d\udcf8 I'm looking at the preview now - it looks great! Optimized for your neutral state. Have fun!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Excitement (20Hz - Beta)\n**Catalog:** High Beta Activation frequency mapping\n**Source:** PROCESSING | **Domain:** creative\n**Coherence:** Phi Resonance (strength: 0.81)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to creative dataset\n---",
+      "metadata": {
+        "type": "game_generation",
+        "emotion": "neutral",
+        "game_title": "Emoji Car Racers",
+        "game_type": "racing",
+        "canvas_id": "c68fcaba",
+        "preview_url": null,
+        "dynamic_generation": true,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "excitement",
+          "response_frequency": 20,
+          "basis": "high beta activation",
+          "coupling": {
+            "coupling_strength": 0.8111122141297198,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.87,
+              1.504,
+              1.429,
+              1.226
+            ],
+            "ratio_mean": 1.5069993040991925,
+            "ratio_std": 0.2328750357593205
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "creative"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T07:24:56.858289",
+      "user_message": "Build a space shooter game",
+      "ai_response": "\ud83c\udfae **I've created Galactic Blaster just for you!**\n\nFast-paced space shooter where players battle alien ships in outer space\n\n\u2022 You play as: spaceship\n\u2022 Opponent: alien ships\n\u2022 Theme: outer space\n\n\ud83d\udcf8 I'm looking at the preview now - it looks great! Optimized for your neutral state. Have fun!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Excitement (20Hz - Beta)\n**Catalog:** High Beta Activation frequency mapping\n**Source:** PROCESSING | **Domain:** science\n**Coherence:** Phi Resonance (strength: 0.83)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to science dataset\n---",
+      "metadata": {
+        "type": "game_generation",
+        "emotion": "neutral",
+        "game_title": "Galactic Blaster",
+        "game_type": "shooter",
+        "canvas_id": "6f18ffc7",
+        "preview_url": null,
+        "dynamic_generation": true,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "excitement",
+          "response_frequency": 20,
+          "basis": "high beta activation",
+          "coupling": {
+            "coupling_strength": 0.8266858677714649,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.926,
+              1.589,
+              1.335,
+              1.596
+            ],
+            "ratio_mean": 1.6115208515689567,
+            "ratio_std": 0.20964932265716113
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "science"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T07:25:06.379052",
+      "user_message": "I want to play tic-tac-toe with unicorns vs poop emojis",
+      "ai_response": "\ud83c\udfae **I've created Unicorn vs Poop Tic-Tac-Toe just for you!**\n\nClassic tic-tac-toe with magical unicorns battling poop emojis\n\n\u2022 You play as: \ud83e\udd84 unicorn\n\u2022 Opponent: \ud83d\udca9 poop emoji\n\u2022 Theme: fun and silly\n\n\ud83d\udcf8 I'm looking at the preview now - it looks great! Optimized for your neutral state. Have fun!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Excitement (20Hz - Beta)\n**Catalog:** High Beta Activation frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.83)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "game_generation",
+        "emotion": "neutral",
+        "game_title": "Unicorn vs Poop Tic-Tac-Toe",
+        "game_type": "board",
+        "canvas_id": "bb7cf5c3",
+        "preview_url": null,
+        "dynamic_generation": true,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "excitement",
+          "response_frequency": 20,
+          "basis": "high beta activation",
+          "coupling": {
+            "coupling_strength": 0.8266858677714649,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.926,
+              1.589,
+              1.335,
+              1.596
+            ],
+            "ratio_mean": 1.6115208515689567,
+            "ratio_std": 0.20964932265716113
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-19T07:24:20.956750",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T07:24:45.037040",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T07:24:56.858320",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T07:25:06.379073",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    }
+  ]
+}
