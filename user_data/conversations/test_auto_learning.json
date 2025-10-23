@@ -1,0 +1,53 @@
+{
+  "user_id": "test_auto_learning",
+  "created": "2025-10-19T06:45:47.319555",
+  "last_updated": "2025-10-19T06:45:47.319572",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-19T06:45:47.319570",
+      "user_message": "What is emotional resonance and how does it work?",
+      "ai_response": "Alpha and theta promote calm; beta supports alertness; gamma integrates emotion and cognition.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Calm (10Hz - Alpha)\n**Catalog:** Alpha Wave Relaxation frequency mapping\n**Source:** INTERNAL | **Domain:** emotional\n**Coherence:** Phi Resonance (strength: 0.75)\n**Brain Wave:** Relaxed focus (flow state, learning)\n**Auto-Learned:** \u2713 Saved to emotional dataset\n---",
+      "metadata": {
+        "type": "followup",
+        "source": "internal",
+        "confidence": 1.0,
+        "cached": false,
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "calm",
+          "response_frequency": 10,
+          "basis": "alpha wave relaxation",
+          "coupling": {
+            "coupling_strength": 0.7534745459644341,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.38,
+              1.98,
+              1.242,
+              1.935
+            ],
+            "ratio_mean": 1.6342501491520656,
+            "ratio_std": 0.32718484699442324
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "emotional"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-19T06:45:47.319578",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
