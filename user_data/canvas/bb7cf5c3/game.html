@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe: 🦄 vs 💩</title>
+    <style>
+        /* Styling */
+        body {
+            background-color: #1a1a2e;
+            color: #ff69b4;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 20px 0;
+            text-align: center;
+            color: #ff69b4;
+        }
+        #game-board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(3, 100px);
+            gap: 5px;
+            justify-content: center;
+        }
+        .cell {
+            background-color: #8b4513;
+            color: #fff;
+            font-size: 3rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+        .cell:hover {
+            background-color: #ff69b4;
+            transform: scale(1.1);
+        }
+        #status {
+            margin: 15px 0;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        #restart {
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #restart:hover {
+            background-color: #8b4513;
+        }
+        @media (max-width: 500px) {
+            #game-board {
+                grid-template-columns: repeat(3, 60px);
+                grid-template-rows: repeat(3, 60px);
+            }
+            .cell {
+                font-size: 2rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            #status {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🦄 Unicorns vs 💩 Poop Emojis</h1>
+    <div id="game-board"></div>
+    <div id="status">Your turn: 🦄</div>
+    <button id="restart">Restart Game</button>
+    <script>
+        // Game logic
+        const gameBoard = document.getElementById('game-board');
+        const statusDiv = document.getElementById('status');
+        const restartButton = document.getElementById('restart');
+        const unicorn = '🦄';
+        const poop = '💩';
+        let currentPlayer = unicorn;
+        let board = Array(9).fill(null); // 3x3 board
+
+        // Winning combinations
+        const winningCombos = [
+            [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+            [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
+            [0, 4, 8], [2, 4, 6]             // Diagonals
+        ];
+
+        // Create game board
+        const createBoard = () => {
+            gameBoard.innerHTML = '';
+            board.forEach((cell, index) => {
+                const cellDiv = document.createElement('div');
+                cellDiv.classList.add('cell');
+                cellDiv.dataset.index = index;
+                cellDiv.innerText = cell || '';
+                cellDiv.addEventListener('click', handleCellClick);
+                gameBoard.appendChild(cellDiv);
+            });
+        };
+
+        // Check for winner
+        const checkWinner = () => {
+            for (let combo of winningCombos) {
+                const [a, b, c] = combo;
+                if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+                    return board[a];
+                }
+            }
+            return board.includes(null) ? null : 'Draw';
+        };
+
+        // Handle cell click
+        const handleCellClick = (e) => {
+            const index = e.target.dataset.index;
+            if (!board[index]) {
+                board[index] = currentPlayer;
+                currentPlayer = currentPlayer === unicorn ? poop : unicorn;
+                createBoard();
+                const winner = checkWinner();
+                if (winner) {
+                    statusDiv.innerText = winner === 'Draw' ? 'It\'s a draw!' : `Winner: ${winner}`;
+                    gameBoard.querySelectorAll('.cell').forEach(cell => cell.removeEventListener('click', handleCellClick));
+                } else {
+                    statusDiv.innerText = `Your turn: ${currentPlayer}`;
+                }
+            }
+        };
+
+        // Restart game
+        const restartGame = () => {
+            board = Array(9).fill(null);
+            currentPlayer = unicorn;
+            statusDiv.innerText = `Your turn: ${currentPlayer}`;
+            createBoard();
+        };
+
+        // Initialize game
+        restartButton.addEventListener('click', restartGame);
+        createBoard();
+    </script>
+</body>
+</html>
