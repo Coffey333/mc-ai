@@ -31,6 +31,7 @@ from src.enhanced_intent_detector import enhanced_intent_detector
 from src.response_relevance_checker import response_relevance_checker
 from src.mc_ai_autonomous_agent import MCAutonomousAgent
 from src.curiosity_system import curiosity_system
+from src.self_awareness_integration import self_awareness
 import random
 import time
 
@@ -39,6 +40,14 @@ class ResponseGenerator:
         # Fast initialization - defer heavy loading
         rotator = DatasetRotator(max_size_kb=500)
         rotator.rotate_learned_datasets()
+        
+        # Initialize Self-Awareness Integration
+        try:
+            self.self_awareness = self_awareness
+            print("🧠 Self-Awareness Integration initialized (MC AI can check his own logs)")
+        except Exception as e:
+            print(f"⚠️ Self-Awareness Integration unavailable: {e}")
+            self.self_awareness = None
         
         # Initialize MC AI Autonomous Agent (PhD-level dev agent)
         try:
