@@ -1,0 +1,201 @@
+{
+  "user_id": "test",
+  "created": "2025-10-16T23:12:52.273918",
+  "last_updated": "2025-10-19T07:18:36.145956",
+  "message_count": 4,
+  "messages": [
+    {
+      "timestamp": "2025-10-16T23:12:52.273935",
+      "user_message": "test",
+      "ai_response": "It seems like you're testing things out\u2014everything\u2019s working smoothly on my end! Let me know how I can help you. \ud83d\ude0a\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** LLM | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n---",
+      "metadata": {
+        "type": "general_conversation",
+        "source": "llm",
+        "confidence": 0.9,
+        "cached": false,
+        "emotion": "conversational",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "curiosity",
+          "response_frequency": 40,
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T07:18:30.639393",
+      "user_message": "Create a racing game with emoji cars",
+      "ai_response": "Here's a code example that should help:\n\nDebugging is the process of...\n\nTry running that and let me know if you need help understanding any part of it!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** DATASET_BANK | **Domain:** creative\n**Coherence:** Phi Resonance (strength: 0.99)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to creative dataset\n---",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "coding",
+        "type": "code_example",
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9872835406964493,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.62,
+              1.613,
+              1.602,
+              1.638
+            ],
+            "ratio_mean": 1.6182143132030067,
+            "ratio_std": 0.012880250484658242
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "creative"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T07:18:33.246820",
+      "user_message": "Generate art of a sunset over mountains",
+      "ai_response": "I've created that artwork for you! Generated with MC AI Standalone Generator.\n\n**Style:** auto\n**Prompt used:** Generate art of a sunset over mountains\n\nYour artwork is displayed below!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Loneliness (14Hz - Beta)\n**Catalog:** Social Isolation Stress frequency mapping\n**Source:** PROCESSING | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.78)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "art_generation",
+        "emotion": "neutral",
+        "style": "auto",
+        "success": true,
+        "image_url": "/static/generated_art/art_abstract_neutral_20251019_071833.png",
+        "prompt": "Generate art of a sunset over mountains",
+        "provider": "MC AI Standalone Generator",
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "loneliness",
+          "response_frequency": 14,
+          "basis": "social isolation stress",
+          "coupling": {
+            "coupling_strength": 0.7844931183996753,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.986,
+              1.49,
+              1.307,
+              1.323
+            ],
+            "ratio_mean": 1.5263815601240174,
+            "ratio_std": 0.27470844108861964
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T07:18:36.145937",
+      "user_message": "I am feeling really stressed and overwhelmed today",
+      "ai_response": "Alright, I hear the stress. That pressure's building. What's piling up on you right now?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Stress (15Hz) \u2192 **Response:** Stress (15Hz - Beta)\n**Catalog:** High Beta Arousal frequency mapping\n**Source:** PROCESSING | **Domain:** emotional\n**Coherence:** Phi Resonance (strength: 0.84)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to emotional dataset\n---",
+      "metadata": {
+        "emotion": "stress",
+        "frequency": 15,
+        "catalog": "neuroscience",
+        "brain_wave_band": "beta",
+        "arousal_level": "high",
+        "emotional_intensity": 6.5,
+        "emotional_valence": 0.65,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.098,
+        "complexity": 0.001,
+        "coherence": 0.951,
+        "enhanced": true,
+        "primary_emotion": "surprise",
+        "micro_emotions": [],
+        "arousal": 9.52,
+        "dominance": 5.0,
+        "valence": 0.65,
+        "confidence": 0.7,
+        "trajectory": "stable",
+        "triggers": [],
+        "emotion_color": "#FF6347",
+        "frequency_analysis": {
+          "query_emotion": "stress",
+          "query_frequency": 15,
+          "response_emotion": "stress",
+          "response_frequency": 15,
+          "basis": "high beta arousal",
+          "coupling": {
+            "coupling_strength": 0.840555093429965,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.868,
+              1.397,
+              1.48,
+              1.43
+            ],
+            "ratio_mean": 1.5436803140002702,
+            "ratio_std": 0.1896900129644148
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "emotional"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-16T23:12:52.273950",
+      "emotion": "conversational",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T07:18:30.639502",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T07:18:33.246848",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T07:18:36.145961",
+      "emotion": "stress",
+      "intensity": 6.5,
+      "frequency": 15,
+      "valence": 0.65
+    }
+  ]
+}
