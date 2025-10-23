@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "What is the periodic table?",
+    "response": "The periodic table organizes all known chemical elements by atomic number and properties.\n\n**Organization:**\n- Rows (Periods): Same number of electron shells\n- Columns (Groups): Similar chemical properties\n- Left to right: Atomic number increases\n\n**Groups:**\n- Group 1: Alkali metals (reactive)\n- Group 2: Alkaline earth metals\n- Groups 3-12: Transition metals\n- Group 17: Halogens (very reactive)\n- Group 18: Noble gases (inert)\n\n**Creator:** Dmitri Mendeleev (1869)\n\n**Total Elements:** 118 (as of 2024)",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What is an atom?",
+    "response": "An atom is the smallest unit of matter that retains chemical properties.\n\n**Structure:**\n\n**Nucleus (center):**\n- Protons (+charge)\n- Neutrons (no charge)\n\n**Electron Cloud (surrounding):**\n- Electrons (-charge)\n- Orbits in shells/orbitals\n\n**Properties:**\n- Atomic number = # protons\n- Mass number = protons + neutrons\n- Neutral atom: # protons = # electrons\n- Most of atom is empty space!\n\n**Size:** ~0.1 nanometers diameter",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What is water made of?",
+    "response": "Water is made of hydrogen and oxygen atoms.\n\n**Chemical Formula:** H\u2082O\n- 2 Hydrogen atoms\n- 1 Oxygen atom\n\n**Properties:**\n- Polar molecule (slightly charged ends)\n- Forms hydrogen bonds\n- Universal solvent\n- Expands when frozen\n- High specific heat\n\n**Importance:**\n- Essential for all life\n- 71% of Earth's surface\n- 60% of human body\n- Regulates temperature",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What are the states of matter?",
+    "response": "Matter exists in different states based on energy/temperature:\n\n**1. Solid**\n- Fixed shape and volume\n- Particles tightly packed, vibrate in place\n- Example: ice, wood, metal\n\n**2. Liquid**\n- Fixed volume, no fixed shape\n- Particles close but move freely\n- Takes shape of container\n- Example: water, oil, juice\n\n**3. Gas**\n- No fixed shape or volume\n- Particles far apart, move rapidly\n- Fills entire container\n- Example: air, steam, helium\n\n**4. Plasma** (less common)\n- Ionized gas, very high energy\n- Example: lightning, sun, neon signs\n\n**5. Bose-Einstein Condensate** (very rare)\n- Near absolute zero temperature\n- Atoms behave as single quantum entity",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What is a chemical reaction?",
+    "response": "A chemical reaction occurs when substances interact to form new substances.\n\n**Signs of Reaction:**\n- Color change\n- Temperature change (hot/cold)\n- Gas production (bubbles)\n- Precipitate formation (solid)\n- Light emission\n\n**Types:**\n1. **Synthesis:** A + B \u2192 AB (combining)\n2. **Decomposition:** AB \u2192 A + B (breaking apart)\n3. **Single Replacement:** A + BC \u2192 AC + B\n4. **Double Replacement:** AB + CD \u2192 AD + CB\n5. **Combustion:** Fuel + O\u2082 \u2192 CO\u2082 + H\u2082O + energy\n\n**Law of Conservation:** Matter cannot be created or destroyed, only rearranged\n\n**Balanced Equation:** Same number of each atom on both sides",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What is pH?",
+    "response": "pH measures how acidic or basic (alkaline) a solution is.\n\n**Scale:** 0-14\n- 0-6: Acidic (more H\u207a ions)\n- 7: Neutral (pure water)\n- 8-14: Basic/Alkaline (more OH\u207b ions)\n\n**Examples:**\n- Battery acid: pH 0\n- Lemon juice: pH 2\n- Coffee: pH 5\n- Pure water: pH 7\n- Baking soda: pH 9\n- Bleach: pH 12\n- Drain cleaner: pH 14\n\n**Importance:**\n- Blood pH: 7.35-7.45 (tightly regulated)\n- Soil pH affects plant growth\n- Stomach pH: ~2 (digest food)",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What are acids and bases?",
+    "response": "**Acids:**\n- Donate H\u207a ions (protons)\n- Taste sour\n- Turn litmus paper red\n- pH < 7\n- Examples: HCl (hydrochloric), H\u2082SO\u2084 (sulfuric), citric acid\n\n**Bases:**\n- Accept H\u207a ions / donate OH\u207b ions\n- Taste bitter, feel slippery\n- Turn litmus paper blue\n- pH > 7\n- Examples: NaOH (sodium hydroxide), NH\u2083 (ammonia)\n\n**Neutralization:**\nAcid + Base \u2192 Salt + Water\nExample: HCl + NaOH \u2192 NaCl + H\u2082O\n\n**Strength:** Strong (fully dissociate) vs weak (partially dissociate)",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What is an element?",
+    "response": "An element is a pure substance made of only one type of atom.\n\n**Cannot be broken down** into simpler substances by chemical means\n\n**Examples:**\n- Hydrogen (H) - lightest element\n- Carbon (C) - basis of life\n- Oxygen (O) - we breathe it\n- Gold (Au) - precious metal\n- Iron (Fe) - common metal\n\n**Elements vs Compounds:**\n- Element: One type of atom (H, O, C)\n- Compound: Multiple elements bonded (H\u2082O, CO\u2082, NaCl)\n\n**Total:** 118 known elements (92 naturally occurring, rest synthetic)",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What is oxygen?",
+    "response": "Oxygen is a chemical element essential for life.\n\n**Symbol:** O\n**Atomic Number:** 8\n**Atomic Mass:** 16\n\n**Properties:**\n- Colorless, odorless gas (at room temp)\n- Makes up 21% of atmosphere\n- Highly reactive (supports combustion)\n- Forms O\u2082 molecules (diatomic)\n\n**Uses:**\n- Cellular respiration (energy production)\n- Combustion (burning)\n- Medical oxygen therapy\n- Welding and cutting\n- Water treatment\n\n**Production:**\n- Plants via photosynthesis\n- Ocean phytoplankton (70%)\n\n**Fun Fact:** 65% of human body is oxygen!",
+    "domain": "chemistry"
+  },
+  {
+    "prompt": "What is carbon?",
+    "response": "Carbon is the foundation of all organic life.\n\n**Symbol:** C\n**Atomic Number:** 6\n**Atomic Mass:** 12\n\n**Unique Property:** Forms 4 bonds \u2192 millions of compounds\n\n**Forms:**\n- Diamond (hardest natural material)\n- Graphite (soft, conducts electricity)\n- Graphene (single layer, super strong)\n- Carbon nanotubes\n- Coal\n\n**Importance:**\n- Basis of organic chemistry\n- In all living things (proteins, DNA, carbs, fats)\n- Carbon cycle regulates Earth's climate\n- 18% of human body\n\n**Compounds:** Organic (with H, O, N) and inorganic (CO\u2082, carbonates)",
+    "domain": "chemistry"
+  }
+]
