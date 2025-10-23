@@ -1,0 +1,73 @@
+{
+  "user_id": "test_user_comprehensive",
+  "created": "2025-10-19T16:10:16.115049",
+  "last_updated": "2025-10-19T16:10:16.115065",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-19T16:10:16.115063",
+      "user_message": "Hello MC AI! Tell me about your emotional intelligence capabilities.",
+      "ai_response": "It sounds like you're experiencing neutral.\n\nI can tell you're seeking something. What's the question on your mind?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** PROCESSING | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.95)\n**Brain Wave:** Peak performance (insight, integration)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "emotion": "curiosity",
+        "frequency": 40,
+        "catalog": "neuroscience",
+        "brain_wave_band": "gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 7.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.102,
+        "complexity": 0.002,
+        "coherence": 0.952,
+        "enhanced": true,
+        "primary_emotion": "neutral",
+        "micro_emotions": [],
+        "arousal": 5.0,
+        "dominance": 5.0,
+        "valence": 0.0,
+        "confidence": 0.7,
+        "trajectory": "stable",
+        "triggers": [],
+        "emotion_color": "#9370DB",
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "curiosity",
+          "response_frequency": 40,
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.9462905025197024,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.677,
+              1.605,
+              1.667,
+              1.535
+            ],
+            "ratio_mean": 1.6209072010438503,
+            "ratio_std": 0.056757937797414684
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-19T16:10:16.115071",
+      "emotion": "curiosity",
+      "intensity": 7.0,
+      "frequency": 40,
+      "valence": 0.0
+    }
+  ]
+}
