@@ -1,0 +1,45 @@
+{
+  "user_id": "7bf11dd824d5bfa8",
+  "created": "2025-10-13T07:57:36.813549",
+  "last_updated": "2025-10-13T07:57:39.011263",
+  "message_count": 2,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:57:36.813561",
+      "user_message": "My favorite color is purple",
+      "ai_response": "This is the first thing you've said to me, so I don't have any previous conversation to recall!",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:57:39.011254",
+      "user_message": "What is my favorite color?",
+      "ai_response": "You said your favorite color is purple!",
+      "metadata": {
+        "type": "memory_recall",
+        "recalled_info": "favorite_color",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:57:36.813570",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:57:39.011266",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
