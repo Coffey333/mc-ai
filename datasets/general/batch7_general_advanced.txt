@@ -1,0 +1,33 @@
+Prompt: What is linguistic relativism?
+Completion: Idea that language shapes worldview. Hopi language treating time differently than English might lead to different time concepts. Evidence limited but exists for color perception, spatial reasoning, number concepts. Language doesn't imprison thought but channels it.
+
+Prompt: What is cognitive behavioral therapy?
+Completion: Identifies and changes negative thought patterns affecting emotions and behavior. Core belief → automatic thoughts → feelings → actions. Challenge distortions (catastrophizing, all-or-nothing thinking). Evidence-based for depression, anxiety. Homework, thought records, behavioral experiments. Short-term, structured.
+
+Prompt: Explain attachment theory.
+Completion: Early caregiver relationships shape adult relationships. Secure: comfortable with intimacy and independence. Anxious: fear abandonment, clingy. Avoidant: uncomfortable with closeness, self-reliant. Disorganized: want but fear closeness. Not fixed - can change with awareness and new experiences.
+
+Prompt: What is neuroplasticity in mental health?
+Completion: Brain rewires itself based on experience. Therapy, meditation, exercise create new neural pathways. Depression/anxiety involve stuck patterns; treatment helps form new ones. Even adult brains remain plastic. Hope for recovery - you're not fixed in current state.
+
+Prompt: Explain trauma and PTSD.
+Completion: PTSD: experiencing or witnessing trauma → persistent re-experiencing (flashbacks), avoidance, negative thoughts, hyperarousal. Trauma stored differently in memory - fragmented, overwhelming. Not weakness - natural brain response to overwhelming threat. Treatments: EMDR, prolonged exposure, CPT.
+
+Prompt: What is mindfulness-based therapy?
+Completion: Awareness of present moment without judgment. Observe thoughts as mental events, not facts. Reduces rumination, emotional reactivity. Used for depression relapse prevention (MBCT), stress reduction (MBSR), dialectical behavior therapy (DBT). Changes brain structure with practice (increased grey matter).
+
+Prompt: Explain neurotransmitters in mental health.
+Completion: Serotonin: mood, linked to depression. Dopamine: motivation, reward, linked to addiction. Norepinephrine: alertness, stress response. GABA: calming, low in anxiety. Glutamate: excitation, learning. Medications target these (SSRIs increase serotonin). But mental health isn't just chemical imbalance.
+
+Prompt: What is emotional regulation?
+Completion: Managing emotional intensity and expression. Identify emotion, understand trigger, choose response. Skills: mindfulness, distress tolerance, opposite action, self-soothing. Poor regulation in borderline personality, ADHD. Learned in childhood; can be improved with practice and therapy.
+
+Prompt: Explain the window of tolerance.
+Completion: Optimal arousal zone for functioning. Hypoarousal: shutdown, numb, depressed. Hyperarousal: anxious, hypervigilant, panicked. Trauma narrows window. Goal: widen window through grounding, regulation skills, safety. Notice when you're leaving window, use tools to return.
+
+Prompt: What is complex PTSD?
+Completion: From prolonged trauma (abuse, captivity). PTSD symptoms plus: emotional dysregulation, negative self-concept, relationship difficulties. Childhood trauma often involved. Different from PTSD - pervasive impact on sense of self. Treatment: phase-based (safety, processing, integration).
+
+Prompt: Explain the default mode network.
+Completion: Brain regions active during rest, mind-wandering, self-reflection. Overactive in depression (rumination) and PTSD. Meditation quiets it. Psychedelics temporarily disrupt it - may explain therapeutic effects. Connects autobiographical memory, future planning, theory of mind.
+
