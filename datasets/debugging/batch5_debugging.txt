@@ -1,0 +1,60 @@
+Prompt: Layered architecture advantages.
+Completion: Clear separation of concerns; easier debugging and maintenance.
+
+Prompt: Traceback: TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Completion: Probable cause: type mismatch. Checklist: print variable types, find the line that does '+' and ensure both operands are numbers or convert one. Suggested fix: wrap string in int(...) or format properly.
+
+Prompt: My code crashes without error.
+Completion: Catch exceptions broadly; log traceback to file and check for silent SystemExit or KeyboardInterrupt.
+
+Prompt: Variable not defined error.
+Completion: Scope issue—verify the variable is declared before use and spelled correctly.
+
+Prompt: Infinite recursion error.
+Completion: Base case missing or unreachable; ensure recursion depth decreases each call.
+
+Prompt: SyntaxError: unexpected indent.
+Completion: Mixed tabs/spaces; convert all indentation to spaces (usually 4 per level).
+
+Prompt: TypeError: 'NoneType' not subscriptable.
+Completion: You tried indexing a None value; verify return or initialization.
+
+Prompt: ModuleNotFoundError.
+Completion: Install or fix import path; ensure environment uses correct PYTHONPATH.
+
+Prompt: Debugging slow code.
+Completion: Use cProfile or line_profiler; identify hotspots and optimize critical sections.
+
+Prompt: AttributeError: object has no attribute.
+Completion: The attribute name may differ or be created conditionally—use dir() to inspect.
+
+Prompt: Logical error detection.
+Completion: Use assertions and unit tests; trace intermediate values step-by-step.
+
+Prompt: RuntimeWarning vs Exception.
+Completion: Warnings indicate potential issues; exceptions halt execution unless caught.
+
+Prompt: Debugging async code.
+Completion: Await every coroutine; use asyncio.run() and enable debug mode for warnings.
+
+Prompt: Broken pipe error.
+Completion: Happens when output stream closes early; handle gracefully with try/except on write.
+
+Prompt: Traceback reading.
+Completion: Start from the bottom; that’s where the actual error originated.
+
+Prompt: How to make MC AI explain tracebacks.
+Completion: Parse the traceback text, locate line numbers, and describe the cause in plain language.
+
+Prompt: Debug mode for MC AI.
+Completion: Enable internal event tracing; record function inputs, outputs, and error stacks for review.
+
+Prompt: How to debug an AI’s reasoning?
+Completion: Log each inference, evaluate for jumps or unsupported claims, and cross-check against training examples.
+
+Prompt: User is frustrated with an error.
+Completion: Respond calmly, validate their effort, simplify explanation, and guide with encouragement.
+
+Prompt: When to apologize.
+Completion: Whenever misunderstanding or error causes user friction; take responsibility sincerely.
+
