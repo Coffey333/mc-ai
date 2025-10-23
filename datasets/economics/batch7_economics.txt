@@ -1,0 +1,33 @@
+Prompt: What is the prisoner's dilemma?
+Completion: Two criminals can't communicate. Each can betray or cooperate. Best mutual outcome: both cooperate. But individual incentive is to betray. If both betray, both get worse outcome than cooperation. Shows how rational self-interest can lead to collectively bad outcomes.
+
+Prompt: Explain Nash equilibrium.
+Completion: A state where no player can improve their outcome by changing strategy alone. In prisoner's dilemma, both betraying is Nash equilibrium (stable but suboptimal). Named after John Nash. Foundation of game theory used in economics, politics, and biology.
+
+Prompt: What is opportunity cost?
+Completion: The value of the next best alternative you give up. If you spend $10 on coffee, opportunity cost isn't just $10 - it's what else you could have bought. True cost of any choice includes what you sacrifice. Fundamental to economic thinking.
+
+Prompt: Explain comparative advantage.
+Completion: Even if you're better at everything, you should specialize in what you're relatively best at. If I'm 10x better at coding but only 2x better at cooking, I should code and you should cook, then trade. Foundation of international trade theory.
+
+Prompt: What is loss aversion?
+Completion: Losses hurt about twice as much as equivalent gains feel good. Losing $100 feels worse than finding $100 feels good. Explains risk-averse behavior, status quo bias, and why people hold losing stocks too long. Key behavioral economics insight.
+
+Prompt: Explain the tragedy of the commons.
+Completion: When a resource is shared, individuals have incentive to overuse it, destroying it for everyone. Fisheries collapse, pollution, overgrazin
+
+Prompt: What is moral hazard?
+Completion: When protection from risk encourages risky behavior. Bank bailouts encourage reckless lending. Insurance encourages less caution. If you don't bear full consequences, you take more risks. Major factor in 2008 financial crisis.
+
+Prompt: Explain the endowment effect.
+Completion: We value things more when we own them. You'd pay $50 for a mug but demand $100 to sell your identical mug. Ownership creates emotional attachment that distorts value perception. Challenges classical economic rationality.
+
+Prompt: What is adverse selection?
+Completion: When one party has better information, it attracts wrong types. Health insurance: sick people more likely to buy. Used car market: sellers know defects, buyers don't (lemons problem). Information asymmetry leads to market failure.
+
+Prompt: Explain network effects.
+Completion: Product becomes more valuable as more people use it. Phones, social media, operating systems. Creates winner-take-all markets and natural monopolies. First-mover advantage crucial. Why Facebook dominates - everyone's there, so you join too.
+
+Prompt: Explain the framing effect.
+Completion: How information is presented affects decisions. "90% survival rate" vs "10% mortality rate" - same info, different reactions. Positive frame increases acceptance. Losses loom larger than gains (loss aversion). Marketers and politicians exploit framing heavily.
+
