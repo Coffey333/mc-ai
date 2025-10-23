@@ -1,0 +1,63 @@
+{
+  "user_id": "test_user_final",
+  "created": "2025-10-13T22:33:17.684333",
+  "last_updated": "2025-10-13T22:33:17.684344",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T22:33:17.684342",
+      "user_message": "Hello MC AI! Can you analyze this simple Python code: print(\"hello\")",
+      "ai_response": "It sounds like you're experiencing neutral.\n\nYou seem pretty balanced right now - not too intense either way. What's on your mind?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Stress (15Hz - Beta)\n**Catalog:** High Beta Arousal frequency mapping\n**Source:** PROCESSING | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "emotion": "neutral",
+        "frequency": 240,
+        "catalog": "neuroscience",
+        "brain_wave_band": "hyper_gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 7.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.131,
+        "complexity": 0.013,
+        "coherence": 0.955,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "stress",
+          "response_frequency": 15,
+          "basis": "high beta arousal",
+          "coupling": {
+            "coupling_strength": 0.8724760825558224,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5668057863139364,
+            "ratio_std": 0.14616322440680576
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T22:33:17.684347",
+      "emotion": "neutral",
+      "intensity": 7.0,
+      "frequency": 240,
+      "valence": 0.0
+    }
+  ]
+}
