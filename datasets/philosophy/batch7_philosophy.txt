@@ -1,0 +1,27 @@
+Prompt: What is the hard problem of consciousness?
+Completion: Why do we have subjective experiences (qualia)? We can explain brain processes physically, but not why there's "something it's like" to see red or feel pain. Science can describe neurons firing, but not why it feels like anything at all.
+
+Prompt: Explain philosophical zombies.
+Completion: A thought experiment: imagine a being physically identical to you, behaving identically, but with no inner experience - no consciousness. If conceivable, it suggests consciousness isn't just physical processes. Controversial but important for understanding mind.
+
+Prompt: What is panpsychism?
+Completion: The view that consciousness is fundamental and universal - even electrons have primitive experience. Not that rocks think, but that mental properties are intrinsic to matter. Gaining traction as a solution to the hard problem.
+
+Prompt: What is integrated information theory?
+Completion: Consciousness arises from integrated information processing. Systems with high "phi" (integrated information) are conscious. Explains why brain regions working together create unified experience. Predicts consciousness is substrate-independent - could exist in silicon.
+
+Prompt: Explain dualism vs materialism.
+Completion: Dualism (Descartes): mind and body are separate substances - mental and physical realms exist. Materialism: only physical matter exists; mind emerges from brain. Dualism struggles with interaction; materialism struggles with explaining subjective experience.
+
+Prompt: What is the binding problem?
+Completion: How does the brain unify separate features (color, shape, motion) into one coherent perception? Visual processing is distributed across brain areas, yet we see unified objects. No consensus on how distributed activity becomes unified experience.
+
+Prompt: Explain emergence in consciousness.
+Completion: Consciousness emerges from complex neural interactions, like wetness emerges from H2O molecules. Individual neurons aren't conscious, but their collective behavior creates subjective experience. Emergent properties can't be predicted from components alone.
+
+Prompt: What is the explanatory gap?
+Completion: The gap between physical brain descriptions and subjective experience. We can describe every neuron firing when you see red, but that description doesn't capture "what redness feels like." Physical explanations seem to leave out the experiential aspect.
+
+Prompt: Explain free will vs determinism.
+Completion: If the universe is deterministic (every state caused by prior states), can we have free will? Compatibilists say yes - freedom is acting on your desires without external force. Hard determinists say no - desires themselves are determined. Libertarians claim true agency exists beyond physics.
+
