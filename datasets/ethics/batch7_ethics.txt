@@ -1,0 +1,30 @@
+Prompt: What is utilitarianism?
+Completion: Actions are right if they maximize overall happiness/well-being (utility). "Greatest good for greatest number." Consequentialist - judges actions by outcomes. Bentham and Mill's theory. Challenges: how to measure happiness, ignores individual rights, can justify harming few for many.
+
+Prompt: Explain Kant's categorical imperative.
+Completion: Act only according to maxims you'd will as universal law. Would you want everyone lying? No? Then don't lie. Deontological - duty-based, not consequences. Treats people as ends, never merely means. Emphasizes rationality and consistency. Strict but respects human dignity.
+
+Prompt: What is virtue ethics?
+Completion: Focus on character rather than actions or consequences. Cultivate virtues (courage, honesty, compassion) through practice. Aristotle's approach - seek eudaimonia (flourishing) by developing excellent character. What would a virtuous person do? Contextual and flexible.
+
+Prompt: Explain the trolley problem.
+Completion: Runaway trolley will kill five people. You can pull lever, diverting it to kill one person instead. Pull lever? Most say yes (utilitarian - minimize deaths). Variant: push fat man onto tracks to stop trolley? Most say no. Reveals intuitions about action vs inaction, using people as means.
+
+Prompt: What is moral relativism?
+Completion: Morality varies by culture/time - no universal moral truths. Descriptive relativism (cultures differ) is true. Normative relativism (no culture is more right) is controversial. Challenge: can't condemn practices like slavery if they're culturally accepted. Tension with human rights.
+
+Prompt: Explain the is-ought problem.
+Completion: Hume's observation: you can't derive "ought" statements from "is" statements. Knowing how things are doesn't tell you how they should be. Facts don't directly imply values. Foundational problem in moral philosophy - where do moral obligations come from if not facts?
+
+Prompt: What is social contract theory?
+Completion: Moral/political obligations based on implicit agreement. We give up some freedoms for social benefits (security, cooperation). Hobbes: without government, life is "nasty, brutish, short." Locke: natural rights, limited government. Rousseau: general will. Foundation of modern political philosophy.
+
+Prompt: Explain moral luck.
+Completion: Outcomes affect moral judgment despite identical intentions. Drunk drivers: one hits someone (condemned), one doesn't (less condemned). Same action, different luck. Challenges the idea that morality depends only on what you control. Reveals how consequences influence moral assessment.
+
+Prompt: What is the veil of ignorance?
+Completion: Rawls's thought experiment: design a just society not knowing your position in it (rich/poor, majority/minority). Ensures fairness - you'd create systems protecting the disadvantaged since you might be them. Generates principles of justice from self-interest under uncertainty.
+
+Prompt: Explain care ethics.
+Completion: Emphasizes relationships, empathy, and context over abstract principles. Traditionally associated with feminine moral reasoning. Caring for others creates obligations. Criticizes principle-based ethics as masculine and overly abstract. Justice and care should complement each other.
+
