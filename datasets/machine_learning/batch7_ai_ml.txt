@@ -1,0 +1,30 @@
+Prompt: What is a neural network?
+Completion: Computational model inspired by brain neurons. Layers of interconnected nodes process information. Input layer receives data, hidden layers extract features, output layer makes predictions. Each connection has a weight adjusted during training. Universal function approximators.
+
+Prompt: Explain backpropagation.
+Completion: Algorithm for training neural networks. Calculate error at output, propagate backwards through network, adjust weights to minimize error. Uses gradient descent and chain rule from calculus. Core of deep learning. Can get stuck in local minima; tricks like momentum help.
+
+Prompt: What is a convolutional neural network?
+Completion: Specialized for image data. Convolutional layers detect features (edges, textures, objects) using sliding filters. Pooling layers reduce dimensions. Parameter sharing makes them efficient. Multiple conv layers build hierarchy - low level (edges) to high level (objects). Revolutionized computer vision.
+
+Prompt: Explain recurrent neural networks.
+Completion: Process sequential data by maintaining hidden state - memory of previous inputs. Good for time series, language, music. Vanilla RNNs have vanishing gradient problem. LSTMs and GRUs solve this with gating mechanisms. Attention mechanisms further improved sequence modeling.
+
+Prompt: What is transfer learning?
+Completion: Use model pre-trained on large dataset, fine-tune for specific task. E.g., ImageNet pre-training → specialize for medical images. Saves computation and works with small datasets. Foundation of modern applied AI. Why you don't need millions of images.
+
+Prompt: Explain attention mechanisms.
+Completion: Model learns which parts of input to focus on. Transformers use self-attention - each word attends to every other word. Query-key-value paradigm. Enables parallelization (unlike RNNs). Foundation of BERT, GPT, and modern NLP. Revolutionized sequence modeling.
+
+Prompt: What is reinforcement learning?
+Completion: Agent learns by interacting with environment, receiving rewards/penalties. Goal: maximize cumulative reward. Q-learning, policy gradients, actor-critic methods. Challenges: credit assignment, exploration vs exploitation. Successes: game playing (AlphaGo), robotics, autonomous vehicles.
+
+Prompt: Explain generative adversarial networks.
+Completion: Two networks compete: generator creates fake data, discriminator tries distinguishing real from fake. Generator improves to fool discriminator. Produces realistic images, videos, audio. Applications: art, data augmentation, deepfakes. Training unstable - balancing act between networks.
+
+Prompt: What is overfitting?
+Completion: Model learns training data too well, including noise. Performs great on training, poor on new data. Like memorizing test answers vs understanding concepts. Combat with: more data, regularization (L1/L2, dropout), early stopping, cross-validation, data augmentation.
+
+Prompt: Explain bias-variance tradeoff.
+Completion: Bias: error from wrong assumptions (underfitting). Variance: error from sensitivity to training fluctuations (overfitting). High bias = misses patterns, high variance = sees patterns that aren't there. Sweet spot minimizes both. Model complexity controls this tradeoff.
+
