@@ -1,0 +1,29 @@
+{
+  "user_id": "test_user_123",
+  "export_date": "2025-10-13T06:53:39.964597",
+  "data_retention_days": 30,
+  "conversations": [],
+  "emotional_profile": {},
+  "consent_record": {
+    "user_id": "test_user_123",
+    "date": "2025-10-13T06:53:39.957487",
+    "version": "1.0",
+    "data_storage": true,
+    "analytics": false,
+    "emotional_tracking": true,
+    "permissions": {
+      "store_conversations": true,
+      "generate_art": true
+    },
+    "ip_address": null,
+    "user_agent": null
+  },
+  "generated_content": {
+    "art": [],
+    "music": [],
+    "games": [],
+    "videos": []
+  },
+  "format": "json",
+  "version": "1.0"
+}
