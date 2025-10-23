@@ -1,0 +1,27 @@
+Prompt: What is confirmation bias?
+Completion: Seeking, interpreting, and remembering information that confirms existing beliefs. Ignore or rationalize away contradictory evidence. Why echo chambers form, conspiracy theories persist. Combat by actively seeking disconfirming evidence and devil's advocate reasoning.
+
+Prompt: Explain the dunning-kruger effect.
+Completion: Incompetent people overestimate their competence; experts underestimate theirs. Low skill → can't recognize incompetence → overconfidence. High skill → aware of complexity → cautious. Explains why beginners are often most confident. Metacognition requires competence.
+
+Prompt: What is anchoring bias?
+Completion: First number you hear influences subsequent judgments. Ask "Is Gandhi older than 120?" then "How old was Gandhi?" → higher estimates. Negotiations, prices, estimates all affected. Even random anchors work. Combat by generating own estimate first or using multiple anchors.
+
+Prompt: Explain availability heuristic.
+Completion: Judge probability by how easily examples come to mind. Plane crashes memorable → overestimate risk. Shark attacks publicized → fear sharks more than vending machines (which kill more). Recent or vivid events seem more likely. Media coverage distorts risk perception.
+
+Prompt: What is the sunk cost fallacy?
+Completion: Continuing something because you've invested time/money/effort, even when stopping is better. Already paid doesn't affect whether continuing is worthwhile. Past costs are sunk - only future costs/benefits matter. Explains staying in bad relationships, continuing doomed projects.
+
+Prompt: Explain the halo effect.
+Completion: One positive trait colors perception of other traits. Attractive people judged more intelligent, competent. Successful in one domain assumed good at everything. Brand reputation affects product perception. Explains celebrity endorsements and first impressions' power.
+
+Prompt: What is hindsight bias?
+Completion: After learning outcome, believing you "knew it all along." Makes past seem more predictable than it was. "I knew that stock would crash!" Distorts learning - can't learn from errors you don't admit. Combat by writing predictions before outcomes.
+
+Prompt: What is groupthink?
+Completion: Desire for group harmony leads to poor decisions. Dissent suppressed, alternatives not considered, illusion of unanimity. Famous failures: Bay of Pigs, Challenger disaster. Combat with devil's advocate, anonymous input, diverse perspectives, and leader withholding opinion initially.
+
+Prompt: Explain the fundamental attribution error.
+Completion: Overemphasize personality, underemphasize situation when explaining others' behavior. "He's late because he's lazy" (ignore traffic). For own behavior, emphasize situation. Creates misunderstandings and conflict. Combat by considering situational factors before judging.
+
