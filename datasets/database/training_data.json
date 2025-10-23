@@ -1,0 +1,78 @@
+[
+  {
+    "prompt": "How do I choose a database type?",
+    "completion": "SQL for structured relational data. NoSQL for unstructured, large-scale, or highly flexible data."
+  },
+  {
+    "prompt": "Explain SQL joins with an example",
+    "completion": "Joins combine tables. INNER JOIN: matching rows. Example:\\nSELECT u.name, o.product FROM users u INNER JOIN orders o ON u.id = o.user_id"
+  },
+  {
+    "prompt": "Write a SQL query to join two tables, `users` and `orders`, to find the name of each user and the products they ordered.",
+    "completion": "You can use an `INNER JOIN` to combine rows from both tables where the `user_id` matches.\n\n```sql\nSELECT\n    u.name,\n    o.product_name,\n    o.order_date\nFROM\n    users AS u\nINNER JOIN\n    orders AS o ON u.id = o.user_id;\n```"
+  },
+  {
+    "prompt": "Explain the difference between `GROUP BY` and `ORDER BY` in SQL.",
+    "completion": "`GROUP BY` is used to aggregate rows that have the same values in specified columns into summary rows, often with aggregate functions like `COUNT()`, `SUM()`, or `AVG()`. `ORDER BY` is used to sort the result set in ascending or descending order based on one or more columns. `GROUP BY` changes the number of rows returned, while `ORDER BY` only re-arranges them."
+  },
+  {
+    "prompt": "Write a SQL query to find the total sales for each category from a `products` table.",
+    "completion": "You can achieve this by using `GROUP BY` on the `category` column and the `SUM()` aggregate function on the `sales` column.\n\n```sql\nSELECT\n    category,\n    SUM(sales) AS total_sales\nFROM\n    products\nGROUP BY\n    category\nORDER BY\n    total_sales DESC;\n```"
+  },
+  {
+    "prompt": "Explain the difference between SQL and NoSQL databases.",
+    "completion": "SQL databases use structured schemas and relational tables. NoSQL databases use flexible schemas (key-value, document, graph) and scale horizontally better."
+  },
+  {
+    "prompt": "Write a SQL query to count the number of users in a table.",
+    "completion": "```sql\\nSELECT COUNT(*) FROM users;\\n```"
+  },
+  {
+    "prompt": "Explain sharding in databases.",
+    "completion": "Sharding splits a database into smaller chunks (shards) across multiple servers to improve scalability and performance."
+  },
+  {
+    "prompt": "Explain horizontal partitioning vs vertical partitioning in databases.",
+    "completion": "Horizontal partitioning splits rows (by key ranges). Vertical partitioning splits columns (e.g. frequently accessed vs infrequent data)."
+  },
+  {
+    "prompt": "Explain CQRS (Command Query Responsibility Segregation).",
+    "completion": "CQRS separates read (query) and write (command) models of an application for scalability and performance improvements."
+  },
+  {
+    "prompt": "Explain database replication lag.",
+    "completion": "Replication lag is the delay between primary and replica databases applying writes. It can cause stale reads."
+  },
+  {
+    "prompt": "Explain difference between SQL and NoSQL databases.",
+    "completion": "SQL = structured, relational, fixed schema (Postgres). NoSQL = flexible, document/key-value/graph stores (MongoDB, Redis)."
+  },
+  {
+    "prompt": "When should I use MongoDB instead of Postgres?",
+    "completion": "Use MongoDB for flexible schemas, fast prototyping, hierarchical data (JSON). Use Postgres for structured data, strong consistency, complex queries."
+  },
+  {
+    "prompt": "Write GraphQL query example.",
+    "completion": "```graphql\\n{\\n  user(id: 1) {\\n    name\\n    posts { title }\\n  }\\n}\\n```"
+  },
+  {
+    "prompt": "Act as a mentor. How to design scalable database schemas?",
+    "completion": "Normalize for consistency. Denormalize where performance matters. Index frequently queried fields. Plan for sharding early."
+  },
+  {
+    "prompt": "Fix this broken SQL query: 'SELECT name age FROM users'.",
+    "completion": "You need a comma between fields:\\n```sql\\nSELECT name, age FROM users;\\n```"
+  },
+  {
+    "prompt": "Design a database schema for a blog app.",
+    "completion": "Tables:\\n- Users(id, name, email)\\n- Posts(id, user_id, title, content, created_at)\\n- Comments(id, post_id, user_id, text, created_at)\\nRelationships: Users 1\u2192Many Posts, Posts 1\u2192Many Comments."
+  },
+  {
+    "prompt": "Explain database normalization.",
+    "completion": "Normalization organizes data to reduce redundancy and improve integrity. Normal forms (1NF, 2NF, 3NF) define rules for structuring tables and relationships efficiently."
+  },
+  {
+    "prompt": "Explain ACID vs BASE properties in databases.",
+    "completion": "ACID = Atomicity, Consistency, Isolation, Durability (traditional SQL). BASE = Basically Available, Soft state, Eventual consistency (NoSQL)."
+  }
+]
