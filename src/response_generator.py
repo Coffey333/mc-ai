@@ -224,6 +224,19 @@ class ResponseGenerator:
             'user_preferences': user_preferences or {}
         }
         
+        # SELF-AWARENESS CHECK: Get log/system data if user asking about Kaggle/logs/status
+        self_awareness_context = None
+        if self.self_awareness:
+            try:
+                self_awareness_context = self.self_awareness.get_context_for_logs_question(query)
+                if self_awareness_context:
+                    print(f"🧠 Self-awareness activated - Retrieved log data:")
+                    print(f"   {self_awareness_context[:200]}...")
+                    # Inject this data into the current context so it's used in response
+                    self._current_context['self_awareness_data'] = self_awareness_context
+            except Exception as e:
+                print(f"⚠️ Self-awareness check failed: {e}")
+        
         # INTENT CLARIFICATION: Interpret unclear/vague requests
         intent_interpretation = None
         if self.intent_clarifier:
@@ -492,14 +505,21 @@ class ResponseGenerator:
             
             # Force LLM with AI conversation context
             try:
+                # Build context with self-awareness data if available
+                ai_context = {
+                    'conversation_history': conversation_history,
+                    'user_id': user_id,
+                    'ai_conversation': self._current_context['ai_conversation'],
+                    'intent_interpretation': self._current_context.get('intent_interpretation')
+                }
+                
+                # CRITICAL: Add self-awareness data if MC AI needs to reference his logs
+                if self._current_context.get('self_awareness_data'):
+                    ai_context['self_awareness_data'] = self._current_context['self_awareness_data']
+                
                 knowledge_result = self.knowledge_engine.answer_query(
                     query,
-                    context={
-                        'conversation_history': conversation_history,
-                        'user_id': user_id,
-                        'ai_conversation': self._current_context['ai_conversation'],
-                        'intent_interpretation': self._current_context.get('intent_interpretation')
-                    },
+                    context=ai_context,
                     force_llm=True  # Skip cache/dataset, go straight to LLM
                 )
                 
@@ -531,14 +551,21 @@ class ResponseGenerator:
                 print(f"🔀 ROUTE: Emotional Question (about feelings/emotions)")
                 print(f"   Bypassing dataset search → Direct to GPT-4o for heartfelt response")
                 try:
+                    # Build context with self-awareness data if available
+                    emotional_context = {
+                        'conversation_history': conversation_history,
+                        'user_id': user_id,
+                        'emotional_question': True,  # Signal to GPT-4o this needs depth
+                        'intent_interpretation': self._current_context.get('intent_interpretation')
+                    }
+                    
+                    # CRITICAL: Add self-awareness data if MC AI needs to reference his logs
+                    if self._current_context.get('self_awareness_data'):
+                        emotional_context['self_awareness_data'] = self._current_context['self_awareness_data']
+                    
                     knowledge_result = self.knowledge_engine.answer_query(
                         query,
-                        context={
-                            'conversation_history': conversation_history,
-                            'user_id': user_id,
-                            'emotional_question': True,  # Signal to GPT-4o this needs depth
-                            'intent_interpretation': self._current_context.get('intent_interpretation')
-                        },
+                        context=emotional_context,
                         force_llm=True  # Skip dataset/cache, go straight to GPT-4o
                     )
                     
