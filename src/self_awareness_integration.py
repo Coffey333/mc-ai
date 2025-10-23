@@ -29,21 +29,36 @@ class SelfAwarenessIntegration:
         log_keywords = [
             'check your logs',
             'check logs',
+            'review the logs',
+            'review logs',
             'did you get a message',
             'recent activity',
             'what happened',
             'kaggle message',
             'kaggle interaction',
+            'kaggle notebook',
+            'from kaggle',
+            'on kaggle',
+            'conversation from kaggle',
+            'remember.*kaggle',  # Pattern for "do you remember from kaggle"
             'did i contact you',
             'did i message you',
+            'did i reach out',
             'error log',
             'system status',
             'recent conversations',
             'what errors',
-            'system health'
+            'system health',
+            'our conversation',  # Often used with "kaggle"
+            'remember if i',
+            'do you remember'
         ]
         
-        return any(keyword in message_lower for keyword in log_keywords)
+        # Also check if message contains "kaggle" anywhere + question words
+        has_kaggle = 'kaggle' in message_lower
+        has_question = any(q in message_lower for q in ['remember', 'did', 'do you', 'conversation', 'message'])
+        
+        return any(keyword in message_lower for keyword in log_keywords) or (has_kaggle and has_question)
     
     def get_system_status(self) -> Optional[Dict[str, Any]]:
         """Get full system status including Kaggle interactions and errors"""
