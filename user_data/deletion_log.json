@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-10-13T06:53:39.968170",
+    "user_id_hash": "5196da40749b5940694f7359f41c239f9f5b8e56cb4ff6af95ccb95dc84f1e42",
+    "reason": "user_request",
+    "deleted_items": [
+      "generated_content",
+      "consent_record"
+    ]
+  }
+]
