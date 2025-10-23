@@ -1,0 +1,41 @@
+{
+  "user_id": "test_comprehensive",
+  "created": "2025-10-16T20:54:40.005555",
+  "last_updated": "2025-10-16T20:54:40.005571",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-16T20:54:40.005566",
+      "user_message": "What is quantum entanglement?",
+      "ai_response": "Classical computing uses bits (0 or 1) and deterministic operations. Quantum computing uses qubits, which can exist in superpositions, allowing probabilistic and massively parallel computation.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---",
+      "metadata": {
+        "type": "science_answer",
+        "source": "internal",
+        "confidence": 1.0,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": []
+}
