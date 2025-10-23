@@ -1,0 +1,277 @@
+[
+  {
+    "timestamp": "2025-10-23T14:16:40.210112",
+    "level": "INFO",
+    "message": "\ud83d\ude80 MC AI - Real ECG Data Download System"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.210154",
+    "level": "INFO",
+    "message": "\ud83d\udcc5 Started: 2025-10-23 14:16:40\n"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.210160",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.210165",
+    "level": "INFO",
+    "message": "DOWNLOADING PTB-XL REAL ECG WAVEFORMS"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.210169",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.210260",
+    "level": "INFO",
+    "message": "Downloading PTB-XL sample records (100Hz)..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.210290",
+    "level": "INFO",
+    "message": "  Downloading 00001_lr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.805529",
+    "level": "INFO",
+    "message": "  \u2705 00001_lr downloaded"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:40.805595",
+    "level": "INFO",
+    "message": "  Downloading 00002_lr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:41.355608",
+    "level": "INFO",
+    "message": "  \u2705 00002_lr downloaded"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:41.355702",
+    "level": "INFO",
+    "message": "  Downloading 00003_lr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:41.988550",
+    "level": "INFO",
+    "message": "  \u2705 00003_lr downloaded"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:41.988642",
+    "level": "INFO",
+    "message": "  Downloading 00004_lr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:42.531754",
+    "level": "INFO",
+    "message": "  \u2705 00004_lr downloaded"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:42.531826",
+    "level": "INFO",
+    "message": "  Downloading 00005_lr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:43.044929",
+    "level": "INFO",
+    "message": "  \u2705 00005_lr downloaded"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:43.044956",
+    "level": "INFO",
+    "message": "\n\u2705 Downloaded 5 real ECG records from PTB-XL"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:43.044969",
+    "level": "INFO",
+    "message": "\n================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:43.044972",
+    "level": "INFO",
+    "message": "DOWNLOADING MIT-BIH ARRHYTHMIA DATABASE"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:43.044976",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:43.045150",
+    "level": "INFO",
+    "message": "  Downloading 100.hea..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:43.270578",
+    "level": "INFO",
+    "message": "  Downloading 100.dat..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:50.446436",
+    "level": "INFO",
+    "message": "  Downloading 100.atr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:50.687861",
+    "level": "INFO",
+    "message": "  \u2705 Record 100 complete"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:50.687925",
+    "level": "INFO",
+    "message": "  Downloading 101.hea..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:50.906615",
+    "level": "INFO",
+    "message": "  Downloading 101.dat..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:58.289433",
+    "level": "INFO",
+    "message": "  Downloading 101.atr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:58.536478",
+    "level": "INFO",
+    "message": "  \u2705 Record 101 complete"
+  },
+  {
+    "timestamp": "2025-10-23T14:16:58.536517",
+    "level": "INFO",
+    "message": "  Downloading 102.hea..."
+  },
+  {
+    "timestamp": "2025-10-23T14:16:58.772607",
+    "level": "INFO",
+    "message": "  Downloading 102.dat..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:06.273100",
+    "level": "INFO",
+    "message": "  Downloading 102.atr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:06.504185",
+    "level": "INFO",
+    "message": "  \u2705 Record 102 complete"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:06.504223",
+    "level": "INFO",
+    "message": "  Downloading 103.hea..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:06.739364",
+    "level": "INFO",
+    "message": "  Downloading 103.dat..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:13.931917",
+    "level": "INFO",
+    "message": "  Downloading 103.atr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:14.165663",
+    "level": "INFO",
+    "message": "  \u2705 Record 103 complete"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:14.165704",
+    "level": "INFO",
+    "message": "  Downloading 104.hea..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:14.391791",
+    "level": "INFO",
+    "message": "  Downloading 104.dat..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.322064",
+    "level": "INFO",
+    "message": "  Downloading 104.atr..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.552069",
+    "level": "INFO",
+    "message": "  \u2705 Record 104 complete"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.552090",
+    "level": "INFO",
+    "message": "\n\u2705 Downloaded 5 MIT-BIH ECG records"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.552098",
+    "level": "INFO",
+    "message": "\n================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.552101",
+    "level": "INFO",
+    "message": "DOWNLOADING ECG IMAGE SAMPLES FOR TESTING"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.552102",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.552227",
+    "level": "INFO",
+    "message": "Looking for publicly available ECG image samples..."
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.942754",
+    "level": "INFO",
+    "message": "\u2705 Downloaded sample ECG image: sample_ecg_segmentation.png"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.942782",
+    "level": "INFO",
+    "message": "\n================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.942829",
+    "level": "INFO",
+    "message": "SCANNING EXISTING DATA"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.942835",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.944550",
+    "level": "INFO",
+    "message": "\u2705 Found PTB-XL metadata: 1,355 records"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.946447",
+    "level": "INFO",
+    "message": "\u2705 Found ptb-xl-samples: 10 files (0.12 MB)"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.950038",
+    "level": "INFO",
+    "message": "\u2705 Found mit-bih-samples: 15 files (9.32 MB)"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.951484",
+    "level": "INFO",
+    "message": "\u2705 Found ecg-images: 1 files (1.42 MB)"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.952270",
+    "level": "INFO",
+    "message": "\n\ud83d\udcc4 Data inventory saved: real_ecg_data/data_inventory.json"
+  },
+  {
+    "timestamp": "2025-10-23T14:17:23.952944",
+    "level": "INFO",
+    "message": "\n\ud83d\udcd8 Testing guide created: real_ecg_data/TESTING_GUIDE.md"
+  }
+]
