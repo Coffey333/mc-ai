@@ -1546,7 +1546,19 @@ Use the full conversation history to provide a complete, accurate summary.{cross
     
     def _handle_emotional_response(self, query: str, context: str) -> dict:
         """Handle emotional expressions with advanced empathy, humor, and crisis support"""
-        emotion_data = get_frequency(query)
+        
+        # CHECK: Is user asking ABOUT an emotion (educational) or EXPERIENCING it?
+        is_query, queried_emotion = enhanced_intent_detector.is_emotion_query(query)
+        
+        if is_query and queried_emotion:
+            # User is asking ABOUT an emotion (e.g., "Analyze the frequency of gratitude")
+            # Override emotion detection to use the queried emotion
+            emotion_data = get_frequency(queried_emotion)  # Use the emotion they're asking about
+            print(f"🎓 Educational query detected: User asking about '{queried_emotion}' frequency")
+        else:
+            # User is EXPERIENCING an emotion - detect their current emotional state
+            emotion_data = get_frequency(query)
+        
         emotion = emotion_data['emotion']
         freq = emotion_data['frequency']
         basis = emotion_data['basis']
