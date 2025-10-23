@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC AI Evolution Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: #0f0f0f;
+            color: #e8e8e8;
+            padding: 20px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { color: #888; margin-bottom: 32px; font-size: 16px; }
+        
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            border-bottom: 2px solid #2a2a2a;
+        }
+        .tab {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            color: #888;
+            font-size: 15px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+        .tab.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+        }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .stat-card {
+            background: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .stat-label {
+            font-size: 13px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .stat-value {
+            font-size: 32px;
+            font-weight: 600;
+        }
+        .stat-good { color: #4caf50; }
+        .stat-warning { color: #ff9800; }
+        .stat-error { color: #f44336; }
+        
+        /* Panels */
+        .panel {
+            background: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            display: none;
+        }
+        .panel.active { display: block; }
+        .panel-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        /* Proposals */
+        .proposal {
+            background: #0f0f0f;
+            border: 1px solid #2a2a2a;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+        .proposal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 16px;
+        }
+        .proposal-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .proposal-meta {
+            font-size: 13px;
+            color: #666;
+            margin-top: 4px;
+        }
+        .proposal-badges {
+            display: flex;
+            gap: 8px;
+        }
+        .badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-low { background: #1e5128; color: #4caf50; }
+        .badge-medium { background: #5c3317; color: #ff9800; }
+        .badge-high { background: #5c1a1a; color: #f44336; }
+        .proposal-description {
+            margin-bottom: 16px;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .code-diff {
+            background: #000;
+            border: 1px solid #333;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 16px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            overflow-x: auto;
+        }
+        .proposal-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+        .btn {
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-approve {
+            background: #4caf50;
+            color: white;
+        }
+        .btn-approve:hover { background: #45a049; }
+        .btn-reject {
+            background: #f44336;
+            color: white;
+        }
+        .btn-reject:hover { background: #da190b; }
+        .btn-test {
+            background: #2196F3;
+            color: white;
+        }
+        .btn-test:hover { background: #0b7dda; }
+        .btn-secondary {
+            background: #333;
+            color: #e8e8e8;
+        }
+        .btn-secondary:hover { background: #444; }
+        
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 MC AI Evolution Dashboard</h1>
+        <p class="subtitle">MC AI's Self-Diagnosis & Evolution System</p>
+        
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Recent Errors</div>
+                <div class="stat-value stat-warning" id="errorCount">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Pending Proposals</div>
+                <div class="stat-value stat-warning" id="pendingCount">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Deployed Fixes</div>
+                <div class="stat-value stat-good" id="deployedCount">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Success Rate</div>
+                <div class="stat-value stat-good" id="successRate">--</div>
+            </div>
+        </div>
+        
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('proposals')">Proposals</button>
+            <button class="tab" onclick="showTab('errors')">Live Errors</button>
+            <button class="tab" onclick="showTab('deployments')">Deployments</button>
+            <button class="tab" onclick="showTab('settings')">Settings</button>
+        </div>
+        
+        <!-- Proposals Panel -->
+        <div class="panel active" id="proposalsPanel">
+            <div class="panel-title">Change Proposals Awaiting Review</div>
+            <div id="proposalsList"></div>
+        </div>
+        
+        <!-- Errors Panel -->
+        <div class="panel" id="errorsPanel">
+            <div class="panel-title">Live Error Log</div>
+            <div id="errorsList"></div>
+        </div>
+        
+        <!-- Deployments Panel -->
+        <div class="panel" id="deploymentsPanel">
+            <div class="panel-title">Deployment History</div>
+            <div id="deploymentsList"></div>
+        </div>
+        
+        <!-- Settings Panel -->
+        <div class="panel" id="settingsPanel">
+            <div class="panel-title">Evolution Settings</div>
+            <div style="color: #ccc; line-height: 1.8;">
+                <p><strong>Auto-Diagnosis:</strong> MC AI automatically analyzes errors and proposes fixes</p>
+                <p><strong>Sandbox Testing:</strong> All changes tested in isolation before deployment</p>
+                <p><strong>Security Scanning:</strong> Automatic vulnerability detection</p>
+                <p><strong>Safe Deployment:</strong> Automatic rollback on failure</p>
+                <p><strong>Protected Files:</strong> app.py, emotional_intelligence.py, .env</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Get admin token from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const adminToken = urlParams.get('token');
+        
+        // Helper to add auth token to fetch requests
+        function authFetch(url, options = {}) {
+            const headers = new Headers(options.headers || {});
+            if (adminToken) {
+                headers.set('X-Admin-Token', adminToken);
+            }
+            return fetch(url, { ...options, headers });
+        }
+        
+        async function loadData() {
+            try {
+                // Load stats
+                const stats = await authFetch('/api/evolution/stats').then(r => r.json());
+                document.getElementById('errorCount').textContent = stats.errors.total_errors_session || 0;
+                document.getElementById('pendingCount').textContent = stats.proposals.pending || 0;
+                document.getElementById('deployedCount').textContent = stats.proposals.deployed || 0;
+                document.getElementById('successRate').textContent = stats.fix_success_rate + '%';
+                
+                // Load proposals
+                const proposals = await authFetch('/api/evolution/proposals/pending').then(r => r.json());
+                displayProposals(proposals.proposals);
+                
+                // Load errors
+                const errors = await authFetch('/api/evolution/errors/recent').then(r => r.json());
+                displayErrors(errors.errors);
+                
+                // Load deployments
+                const deployments = await authFetch('/api/evolution/deployments/history').then(r => r.json());
+                displayDeployments(deployments.deployments);
+                
+            } catch (error) {
+                console.error('Failed to load data:', error);
+            }
+        }
+        
+        function displayProposals(proposals) {
+            const container = document.getElementById('proposalsList');
+            
+            if (!proposals || proposals.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">✅</div>
+                        <div>No proposals pending review</div>
+                        <div style="margin-top: 8px; font-size: 13px;">MC AI is running smoothly!</div>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = proposals.map(p => `
+                <div class="proposal">
+                    <div class="proposal-header">
+                        <div>
+                            <div class="proposal-title">${p.title}</div>
+                            <div class="proposal-meta">
+                                ${p.created_at} | Confidence: ${p.confidence}%
+                            </div>
+                        </div>
+                        <div class="proposal-badges">
+                            <span class="badge badge-${p.risk_level.toLowerCase()}">${p.risk_level} RISK</span>
+                        </div>
+                    </div>
+                    <div class="proposal-description">${p.description}</div>
+                    <div class="code-diff">${p.code_diff || 'No code diff available'}</div>
+                    <div class="proposal-actions">
+                        <button class="btn btn-approve" onclick="approveProposal('${p.id}')">✓ Approve & Deploy</button>
+                        <button class="btn btn-reject" onclick="rejectProposal('${p.id}')">✗ Reject</button>
+                        <button class="btn btn-test" onclick="testProposal('${p.id}')">🧪 Test in Sandbox</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function displayErrors(errors) {
+            const container = document.getElementById('errorsList');
+            
+            if (!errors || errors.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div>No recent errors</div></div>';
+                return;
+            }
+            
+            container.innerHTML = errors.map(e => `
+                <div class="proposal">
+                    <div class="proposal-header">
+                        <div>
+                            <div class="proposal-title">${e.type}</div>
+                            <div class="proposal-meta">${e.timestamp} | ${e.severity}</div>
+                        </div>
+                    </div>
+                    <div class="proposal-description">${e.message}</div>
+                    <div class="code-diff">${e.traceback}</div>
+                </div>
+            `).join('');
+        }
+        
+        function displayDeployments(deployments) {
+            const container = document.getElementById('deploymentsList');
+            
+            if (!deployments || deployments.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div>No deployments yet</div></div>';
+                return;
+            }
+            
+            container.innerHTML = deployments.map(d => `
+                <div class="proposal">
+                    <div class="proposal-header">
+                        <div>
+                            <div class="proposal-title">Deployment ${d.deployment_id}</div>
+                            <div class="proposal-meta">${d.deployed_at}</div>
+                        </div>
+                        <div class="proposal-badges">
+                            <span class="badge badge-low">SUCCESS</span>
+                        </div>
+                    </div>
+                    <div class="proposal-description">Files changed: ${d.files_changed.join(', ')}</div>
+                </div>
+            `).join('');
+        }
+        
+        async function approveProposal(id) {
+            if (!confirm('Deploy this change to production?')) return;
+            
+            try {
+                await authFetch(`/api/evolution/proposals/${id}/approve`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({reviewer: 'admin', notes: 'Approved via dashboard'})
+                });
+                
+                // Deploy
+                await authFetch(`/api/evolution/proposals/${id}/deploy`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({reviewer: 'admin'})
+                });
+                
+                alert('Deployed successfully!');
+                loadData();
+            } catch (error) {
+                alert('Deployment failed: ' + error.message);
+            }
+        }
+        
+        async function rejectProposal(id) {
+            const reason = prompt('Why reject this proposal?');
+            if (!reason) return;
+            
+            try {
+                await authFetch(`/api/evolution/proposals/${id}/reject`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({reviewer: 'admin', reason})
+                });
+                
+                alert('Proposal rejected');
+                loadData();
+            } catch (error) {
+                alert('Failed to reject: ' + error.message);
+            }
+        }
+        
+        async function testProposal(id) {
+            alert('Testing in sandbox... This may take a moment.');
+            
+            try {
+                const result = await authFetch(`/api/evolution/proposals/${id}/test`, {
+                    method: 'POST'
+                }).then(r => r.json());
+                
+                alert(`Test Results:\nSecurity: ${result.security_scan?.safe ? 'SAFE' : 'UNSAFE'}\nTests: ${result.automated_tests?.passed ? 'PASSED' : 'FAILED'}`);
+            } catch (error) {
+                alert('Testing failed: ' + error.message);
+            }
+        }
+        
+        function showTab(tabName) {
+            // Update tab buttons
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Update panels
+            document.querySelectorAll('.panel').forEach(panel => panel.classList.remove('active'));
+            document.getElementById(tabName + 'Panel').classList.add('active');
+        }
+        
+        // Load data on page load
+        loadData();
+        
+        // Refresh every 30 seconds
+        setInterval(loadData, 30000);
+    </script>
+</body>
+</html>
