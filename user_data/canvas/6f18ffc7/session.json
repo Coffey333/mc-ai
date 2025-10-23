@@ -1,0 +1,15 @@
+{
+  "session_id": "6f18ffc7",
+  "created_at": "2025-10-19T07:24:56.757585",
+  "mode": "building",
+  "title": "Galactic Blaster",
+  "description": "Custom game: Fast-paced space shooter where players battle alien ships in outer space",
+  "artifacts": [
+    "game.html"
+  ],
+  "metadata": {},
+  "preview_url": null,
+  "screenshot_path": null,
+  "test_results": [],
+  "expires_at": "2025-10-20T07:24:56.757591"
+}
