@@ -1,0 +1,72 @@
+{
+  "user_id": "test_user_123",
+  "created": "2025-10-17T05:02:40.930858",
+  "last_updated": "2025-10-17T05:02:40.930927",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-17T05:02:40.930910",
+      "user_message": "Hello MC AI!",
+      "ai_response": "It sounds like you're experiencing neutral.\n\nYou seem pretty balanced right now - not too intense either way. What's on your mind?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Stress (15Hz - Beta)\n**Catalog:** High Beta Arousal frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Active thinking (engagement, processing)\n---",
+      "metadata": {
+        "emotion": "neutral",
+        "frequency": 240,
+        "catalog": "neuroscience",
+        "brain_wave_band": "hyper_gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 7.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.131,
+        "complexity": 0.013,
+        "coherence": 0.955,
+        "enhanced": true,
+        "primary_emotion": "neutral",
+        "micro_emotions": [],
+        "arousal": 5.0,
+        "dominance": 5.0,
+        "valence": 0.0,
+        "confidence": 0.5,
+        "trajectory": "stable",
+        "triggers": [],
+        "emotion_color": "#D3D3D3",
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "stress",
+          "response_frequency": 15,
+          "basis": "high beta arousal",
+          "coupling": {
+            "coupling_strength": 0.8724760825558224,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5668057863139364,
+            "ratio_std": 0.14616322440680576
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-17T05:02:40.930959",
+      "emotion": "neutral",
+      "intensity": 7.0,
+      "frequency": 240,
+      "valence": 0.0
+    }
+  ]
+}
