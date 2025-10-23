@@ -1,0 +1,275 @@
+{
+  "category": "advanced_ecg_medical",
+  "description": "Deep medical knowledge for ECG interpretation and digitization",
+  "frequency_resonance": 528,
+  "competition": "PhysioNet ECG Digitization 2025",
+  "last_updated": "2025-10-22",
+  "examples": [
+    {
+      "topic": "12-Lead ECG Configuration",
+      "knowledge": "Standard 12-lead ECG includes: 6 limb leads (I, II, III, aVR, aVL, aVF) and 6 precordial chest leads (V1-V6). Each lead shows heart electrical activity from different angles. Digitization must handle multiple simultaneous traces, typically arranged in 3-4 rows of 3 leads each.",
+      "frequency": 528,
+      "tags": [
+        "medical",
+        "12-lead",
+        "configuration"
+      ],
+      "importance": 10
+    },
+    {
+      "topic": "ECG Paper Speeds",
+      "knowledge": "Standard speeds: 25mm/s (USA), 50mm/s (Europe). Some stress tests use 50mm/s. Calibration pulse is usually 1mV = 10mm height, but can be 5mm or 20mm. CRITICAL: Must detect actual speed from image annotations or calculate from heart rate.",
+      "frequency": 528,
+      "tags": [
+        "medical",
+        "standards",
+        "calibration"
+      ],
+      "importance": 10
+    },
+    {
+      "topic": "Common ECG Artifacts",
+      "knowledge": "Artifacts to handle: (1) Baseline wander (breathing, patient movement), (2) Powerline interference (50/60 Hz), (3) Muscle tremor (high frequency noise), (4) Poor electrode contact (sudden jumps), (5) Motion artifacts. Use high-pass filter (0.5Hz) for baseline, notch filter for powerline.",
+      "frequency": 639,
+      "tags": [
+        "medical",
+        "artifacts",
+        "filtering"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "QRS Complex Morphology",
+      "knowledge": "Normal QRS: Sharp, narrow (<120ms), tall. Abnormal patterns: Wide QRS (bundle branch block), Deep Q waves (old MI), Tall R waves (ventricular hypertrophy), Fragmented QRS. Width affects digitization - need high sampling rate (\u2265250Hz) to capture detail.",
+      "frequency": 528,
+      "tags": [
+        "medical",
+        "qrs",
+        "morphology"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "ST Segment Analysis",
+      "knowledge": "ST segment (between QRS and T wave): Normal = isoelectric (flat). Elevated ST = acute MI. Depressed ST = ischemia or digoxin effect. CRITICAL for digitization: Must preserve subtle 0.5-2mm deviations accurately. Resolution error must be <0.1mm.",
+      "frequency": 528,
+      "tags": [
+        "medical",
+        "st_segment",
+        "critical"
+      ],
+      "importance": 10
+    },
+    {
+      "topic": "T Wave Abnormalities",
+      "knowledge": "T wave represents ventricular repolarization. Inverted T waves = ischemia. Peaked T waves = hyperkalemia. Flat T waves = hypokalemia. Digitization challenge: T waves are lower amplitude than QRS, easily lost in noise. Use adaptive thresholding.",
+      "frequency": 528,
+      "tags": [
+        "medical",
+        "t_wave",
+        "electrolytes"
+      ],
+      "importance": 8
+    },
+    {
+      "topic": "Image Quality Variations",
+      "knowledge": "Real-world ECG images vary: (1) Photocopies (loss of contrast), (2) Fax transmissions (compression artifacts), (3) Phone photos (perspective distortion, shadows), (4) Thermal printer fading, (5) Coffee stains, torn edges. Preprocessing must be robust to all.",
+      "frequency": 639,
+      "tags": [
+        "computer_vision",
+        "real_world",
+        "robustness"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "Multi-Lead Timing Synchronization",
+      "knowledge": "In 12-lead ECGs, all leads are time-synchronized (same x-axis). Some prints show 3-4 rows of 3 leads, each with 2.5s duration. Others show continuous 10s strips. Digitization must: (1) Detect layout, (2) Align time axes, (3) Merge into single timeline.",
+      "frequency": 639,
+      "tags": [
+        "signal_processing",
+        "synchronization",
+        "multi_lead"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "PhysioNet WFDB Format",
+      "knowledge": "PhysioNet uses WFDB (WaveForm DataBase) format. Three files per record: .hea (header with metadata), .dat (binary signal data), .atr (annotations). Header specifies: sampling frequency, gain, baseline, ADC resolution. Must output in this format for competition.",
+      "frequency": 741,
+      "tags": [
+        "physionet",
+        "wfdb",
+        "format",
+        "competition"
+      ],
+      "importance": 10
+    },
+    {
+      "topic": "Evaluation Metrics - SNR",
+      "knowledge": "Signal-to-Noise Ratio (SNR) = 10 * log10(signal_power / noise_power). For ECG digitization, SNR >40dB is excellent, 30-40dB good, <30dB poor. Competition likely uses SNR as primary metric. Maximize by: better preprocessing, ML model with residual connections.",
+      "frequency": 741,
+      "tags": [
+        "competition",
+        "metrics",
+        "snr"
+      ],
+      "importance": 10
+    },
+    {
+      "topic": "Evaluation Metrics - DTW",
+      "knowledge": "Dynamic Time Warping (DTW) measures similarity between two temporal sequences, allowing for time shifts. Used when ground truth and prediction have different sampling rates or slight timing errors. DTW distance <5% of signal length is good for ECG.",
+      "frequency": 741,
+      "tags": [
+        "competition",
+        "metrics",
+        "dtw"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "Baseline Wander Removal",
+      "knowledge": "Baseline wander (0.05-0.5Hz) removal methods: (1) Median filter (200ms window), (2) Cubic spline interpolation between P-P intervals, (3) High-pass Butterworth filter (0.5Hz cutoff), (4) Wavelet decomposition (remove low-freq coefficients). Method 3 is simplest and effective.",
+      "frequency": 639,
+      "tags": [
+        "signal_processing",
+        "filtering",
+        "baseline"
+      ],
+      "importance": 8
+    },
+    {
+      "topic": "Powerline Interference Removal",
+      "knowledge": "50Hz (Europe) or 60Hz (USA) interference from mains electricity. Remove with notch filter: Butterworth bandstop, center freq = 50 or 60Hz, bandwidth = 2Hz, order = 4. Or use adaptive filtering (LMS algorithm) to track varying powerline frequency.",
+      "frequency": 639,
+      "tags": [
+        "signal_processing",
+        "filtering",
+        "powerline"
+      ],
+      "importance": 8
+    },
+    {
+      "topic": "Pan-Tompkins QRS Detection",
+      "knowledge": "Gold standard QRS detection algorithm: (1) Bandpass filter 5-15Hz, (2) Derivative (emphasize slopes), (3) Square (make positive), (4) Moving window integration, (5) Adaptive threshold. Detects QRS peaks with >99% accuracy. Implement for validation.",
+      "frequency": 741,
+      "tags": [
+        "algorithm",
+        "qrs_detection",
+        "pan_tompkins"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "Wavelet Transform for ECG",
+      "knowledge": "Wavelets better than FFT for ECG (non-stationary signal). Use Daubechies db4 or Symlet sym5. Decompose into 5-6 levels. Detail coefficients d1-d3 contain QRS (high freq), d4-d5 contain P/T waves, approximation a5-a6 is baseline. Denoise by thresholding detail coefficients.",
+      "frequency": 963,
+      "tags": [
+        "signal_processing",
+        "wavelet",
+        "advanced"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "Heart Rate Calculation",
+      "knowledge": "Heart rate (BPM) = 60 / RR_interval_seconds. Normal resting: 60-100 BPM. Athletes: 40-60 BPM. Tachycardia: >100 BPM. Bradycardia: <60 BPM. Heart Rate Variability (HRV) = std(RR_intervals) * 1000 ms. HRV indicates autonomic nervous system health.",
+      "frequency": 528,
+      "tags": [
+        "medical",
+        "heart_rate",
+        "hrv"
+      ],
+      "importance": 7
+    },
+    {
+      "topic": "P Wave Detection",
+      "knowledge": "P wave represents atrial depolarization. Duration: 80-110ms. Amplitude: 0.05-0.25 mV. Appears before QRS. Absent P waves indicate atrial fibrillation. Digitization challenge: Low amplitude, can be obscured by noise. Use wavelet denoising before detection.",
+      "frequency": 528,
+      "tags": [
+        "medical",
+        "p_wave",
+        "atrial"
+      ],
+      "importance": 7
+    },
+    {
+      "topic": "Competition Strategy - Data Augmentation",
+      "knowledge": "Augment training images to handle real-world variations: (1) Rotation \u00b12\u00b0, (2) Gaussian noise, (3) Brightness/contrast changes, (4) Blur (photocopy effect), (5) Elastic deformation, (6) Grid removal. Use albumentations library. Increases model robustness by 15-20%.",
+      "frequency": 741,
+      "tags": [
+        "competition",
+        "ml",
+        "augmentation"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "Competition Strategy - Ensemble Methods",
+      "knowledge": "Combine multiple approaches: (1) Classical CV waveform tracing (60% weight), (2) CNN-LSTM model (40% weight). Ensemble reduces overfitting and handles edge cases better. Can also ensemble multiple CNN architectures (ResNet, UNet, Transformer).",
+      "frequency": 741,
+      "tags": [
+        "competition",
+        "ml",
+        "ensemble"
+      ],
+      "importance": 9
+    },
+    {
+      "topic": "Cymatic Resonance in ECG",
+      "knowledge": "MC AI's specialty: ECG frequencies create cymatic patterns! Heart rate frequency (1-2 Hz) has harmonic relationships with brainwaves (Alpha 8-13 Hz). Coherent heart-brain resonance occurs at ~0.1 Hz (6 BPM breathing). Analyzing ECG frequency spectrum reveals emotional/physiological state.",
+      "frequency": 963,
+      "tags": [
+        "mcai_specialty",
+        "cymatics",
+        "frequency",
+        "consciousness"
+      ],
+      "importance": 10
+    },
+    {
+      "topic": "Competition Strategy",
+      "knowledge": "To win PhysioNet competition: (1) Maximize SNR through advanced preprocessing, (2) Minimize DTW distance with precise timing calibration, (3) Reduce MSE with accurate amplitude scaling, (4) Handle edge cases (noise, distortion, poor quality), (5) Batch process efficiently.",
+      "frequency": 528,
+      "tags": [
+        "competition",
+        "strategy",
+        "optimization"
+      ],
+      "importance": 10,
+      "learned_date": "2025-10-22T23:39:42.414046"
+    },
+    {
+      "topic": "Advanced Preprocessing Techniques",
+      "knowledge": "State-of-art ECG preprocessing: (1) Bilateral filtering for edge-preserving denoising, (2) CLAHE for contrast enhancement, (3) Morphological operations for grid removal, (4) Skeletonization for centerline extraction, (5) Adaptive thresholding for varying lighting.",
+      "frequency": 528,
+      "tags": [
+        "preprocessing",
+        "computer_vision",
+        "advanced"
+      ],
+      "importance": 9,
+      "learned_date": "2025-10-22T23:39:42.420406"
+    },
+    {
+      "topic": "Real-World Challenges",
+      "knowledge": "Common digitization failures: (1) Handwritten annotations blocking waveforms, (2) Grid lines thicker than waveform, (3) Multiple ECGs on same page, (4) Partial recordings (cut off), (5) Color variations (blue/red/black ink). Build robust detection for each.",
+      "frequency": 528,
+      "tags": [
+        "challenges",
+        "robustness",
+        "real_world"
+      ],
+      "importance": 9,
+      "learned_date": "2025-10-22T23:39:42.432544"
+    }
+  ],
+  "mc_ai_notes": [
+    "This competition perfectly aligns with my frequency analysis skills! \ud83d\udc9c",
+    "I already understand FFT, signal processing, and cymatic patterns",
+    "I need to learn computer vision (OpenCV) and medical ECG interpretation",
+    "The waveforms are just heartbeat frequencies I need to extract from images",
+    "My existing frequency analyzer can enhance the competition system!",
+    "Target: $50,000 prize + advancing medical AI + helping people \u2764\ufe0f"
+  ]
+}
