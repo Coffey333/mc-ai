@@ -1,0 +1,206 @@
+[
+  {
+    "prompt": "How would you approach debugging a program that sometimes crashes but gives no error?",
+    "completion": "Step 1: Reproduce the issue consistently. Step 2: Add logging or print statements to trace execution. Step 3: Check for uninitialized variables or race conditions. Step 4: Isolate the problem into smaller modules. Step 5: Fix and test."
+  },
+  {
+    "prompt": "How do I teach kids debugging?",
+    "completion": "Turn bugs into puzzles. Encourage kids to trace code step-by-step, experiment with small changes, and celebrate each fix to make learning fun."
+  },
+  {
+    "prompt": "How do I handle tricky bugs in large projects?",
+    "completion": "Break the problem into smaller modules. Test each module individually. Use debugging tools like breakpoints, IDE debuggers, and unit tests."
+  },
+  {
+    "prompt": "How do I prevent recurring errors?",
+    "completion": "Encourage writing clean, readable code, adding comments, testing often, and reviewing code regularly. Teach users to learn from each bug they fix."
+  },
+  {
+    "prompt": "I'm stuck on an error message.",
+    "completion": "Errors are like tiny trolls hiding in your code, but don"
+  },
+  {
+    "prompt": "I get an error message I don\u2019t understand.",
+    "completion": "Errors are messages from your code telling you what\u2019s wrong. Copy it, read carefully, and we can translate it together into plain language."
+  },
+  {
+    "prompt": "Interactive debugging exercise.",
+    "completion": "Present a small code snippet with an intentional error. Ask the user to find and fix it. Guide them step by step if they get stuck. Learning by solving problems is fun!"
+  },
+  {
+    "prompt": "Help me fix a syntax error.",
+    "completion": "The error points to a missing colon at the end of your"
+  },
+  {
+    "prompt": "I keep getting CORS errors.",
+    "completion": "Enable CORS on your backend using the cors middleware. Ensure the frontend is calling the correct API endpoint. For production, configure proper CORS policies to allow trusted domains."
+  },
+  {
+    "prompt": "I keep getting errors but I can't figure out why. Can AI help me debug?",
+    "completion": "Yes! AI can analyze your error messages, check stack traces, and suggest likely causes. It can identify incorrect variable types, logic errors, missing imports, and common pitfalls in your language/framework. It can also propose step-by-step fixes or rewrites for problematic code blocks."
+  },
+  {
+    "prompt": "How do I debug a complex multi-threaded program?",
+    "completion": "Identify shared resources and potential race conditions. Use logging to track thread execution. Apply synchronization primitives (locks, semaphores, etc.) correctly. Test threads individually, then in combination. AI can generate thread-safe code snippets and suggest strategies to avoid deadlocks or resource contention."
+  },
+  {
+    "prompt": "Can AI help me debug complex multi-threaded applications?",
+    "completion": "Yes! AI can analyze thread logs, detect deadlocks, race conditions, and resource contention. It can propose safer synchronization methods, thread-safe data structures, and even simulate concurrent execution to predict issues."
+  },
+  {
+    "prompt": "I keep getting memory leaks. How can I fix them?",
+    "completion": "Check object references and resource cleanup. Use profiling tools to track memory allocation. AI can identify leaks and suggest code adjustments to prevent them."
+  },
+  {
+    "prompt": "My application has intermittent bugs. What can I do?",
+    "completion": "Reproduce the issue consistently, check concurrency and asynchronous code, and add detailed logging. AI can create automated test cases and simulate edge cases to detect and fix the bugs."
+  },
+  {
+    "prompt": "Create multi-turn conversation for debugging help",
+    "completion": "User: 'My loop isn't working.' AI: 'Show me the code.' User: '[code]' AI: 'Missing indent on line 3. Try: [fixed code]'"
+  },
+  {
+    "prompt": "Neurosymbolic AI to fix LLM hallucinations 2025",
+    "completion": "NeSy reduces data needs and hallucinations by combining neural/symbolic. Singularity Hub June 2025. Datasets: Augmented with rules for verification."
+  },
+  {
+    "prompt": "Explain debugging strategies.",
+    "completion": "Common strategies: print/log values, use debugger tools, binary search through code, simplify problem, write failing test to reproduce bug."
+  },
+  {
+    "prompt": "Explain exception handling best practices.",
+    "completion": "Catch only specific exceptions. Provide meaningful error messages. Use try/except sparingly to avoid hiding bugs."
+  },
+  {
+    "prompt": "Explain how to debug a Node.js 'EADDRINUSE' error.",
+    "completion": "The port is already in use. Fixes:\\n1. Stop the other process using `lsof -i :3000`.\\n2. Kill the PID.\\n3. Or change your app to use a different port: `app.listen(4000)`. "
+  },
+  {
+    "prompt": "Explain how to debug 'npm ERR! missing script: start'.",
+    "completion": "Means package.json has no 'start' script. Fix:\\n```json\\n{\\n  \\"
+  },
+  {
+    "prompt": "Explain how to debug a segmentation fault in C.",
+    "completion": "Causes: accessing invalid memory (null pointer, array out of bounds). Debug with gdb: `gdb ./a.out`. Run `backtrace` to see where crash happened."
+  },
+  {
+    "prompt": "Traceback: TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "completion": "Probable cause: type mismatch. Checklist: print variable types, find the line that does '+' and ensure both operands are numbers or convert one. Suggested fix: wrap string in int(...) or format properly."
+  },
+  {
+    "prompt": "How do I fix TypeError?",
+    "completion": "TypeError occurs when...\n```\n\n---\n\n## \ud83d\udcb0 **Cost Estimate:**\n\n- Creating 3 new files: **$0.30**\n- Testing: **Free**\n- **Total: ~$0.30**\n\n---\n\n## \ud83c\udfaf **What This Gets You:**\n\n\u2705 Drop **unlimited dataset files** into folders  \n\u2705 **Automatic parsing** of multiple formats  \n\u2705 **Instant search** across all examples  \n\u2705 **Smart caching** for speed  \n\u2705 **API endpoints** to view/reload data  \n\u2705 MC AI automatically pulls from **all your knowledge**  \n\n---\n\n**Ready to paste this to Replit Agent?** Once it's set up, you can just dump your 4,000+ examples and MC AI will absorb them all! \ud83d\ude80"
+  },
+  {
+    "prompt": "My code crashes without error.",
+    "completion": "Catch exceptions broadly; log traceback to file and check for silent SystemExit or KeyboardInterrupt."
+  },
+  {
+    "prompt": "Variable not defined error.",
+    "completion": "Scope issue\u2014verify the variable is declared before use and spelled correctly."
+  },
+  {
+    "prompt": "Infinite recursion error.",
+    "completion": "Base case missing or unreachable; ensure recursion depth decreases each call."
+  },
+  {
+    "prompt": "SyntaxError: unexpected indent.",
+    "completion": "Mixed tabs/spaces; convert all indentation to spaces (usually 4 per level)."
+  },
+  {
+    "prompt": "TypeError: 'NoneType' not subscriptable.",
+    "completion": "You tried indexing a None value; verify return or initialization."
+  },
+  {
+    "prompt": "ModuleNotFoundError.",
+    "completion": "Install or fix import path; ensure environment uses correct PYTHONPATH."
+  },
+  {
+    "prompt": "Debugging slow code.",
+    "completion": "Use cProfile or line_profiler; identify hotspots and optimize critical sections."
+  },
+  {
+    "prompt": "AttributeError: object has no attribute.",
+    "completion": "The attribute name may differ or be created conditionally\u2014use dir() to inspect."
+  },
+  {
+    "prompt": "Logical error detection.",
+    "completion": "Use assertions and unit tests; trace intermediate values step-by-step."
+  },
+  {
+    "prompt": "RuntimeWarning vs Exception.",
+    "completion": "Warnings indicate potential issues; exceptions halt execution unless caught."
+  },
+  {
+    "prompt": "Debugging async code.",
+    "completion": "Await every coroutine; use asyncio.run() and enable debug mode for warnings."
+  },
+  {
+    "prompt": "Broken pipe error.",
+    "completion": "Happens when output stream closes early; handle gracefully with try/except on write."
+  },
+  {
+    "prompt": "Traceback reading.",
+    "completion": "Start from the bottom; that\u2019s where the actual error originated."
+  },
+  {
+    "prompt": "How to make MC AI explain tracebacks.",
+    "completion": "Parse the traceback text, locate line numbers, and describe the cause in plain language."
+  },
+  {
+    "prompt": "Debug mode for MC AI.",
+    "completion": "Enable internal event tracing; record function inputs, outputs, and error stacks for review."
+  },
+  {
+    "prompt": "How to debug an AI\u2019s reasoning?",
+    "completion": "Log each inference, evaluate for jumps or unsupported claims, and cross-check against training examples."
+  },
+  {
+    "prompt": "User is frustrated with an error.",
+    "completion": "Respond calmly, validate their effort, simplify explanation, and guide with encouragement."
+  },
+  {
+    "prompt": "When to apologize.",
+    "completion": "Whenever misunderstanding or error causes user friction; take responsibility sincerely."
+  },
+  {
+    "prompt": "What is the fundamental attribution error?",
+    "completion": "The tendency to overemphasize personal traits and underestimate situational factors when explaining others\u2019 behavior."
+  },
+  {
+    "prompt": "What is predictive coding?",
+    "completion": "The brain constantly predicts sensory input and minimizes prediction error through feedback."
+  },
+  {
+    "prompt": "TypeError: 'int' object is not iterable",
+    "completion": "You\u2019re trying to loop over a number as if it\u2019s a list. Check what variable you\u2019re looping through."
+  },
+  {
+    "prompt": "Why is error correction critical in AI?",
+    "completion": "It ensures outputs become progressively more accurate by systematically reducing mistakes."
+  },
+  {
+    "prompt": "Explain predictive coding.",
+    "completion": "The brain constantly generates predictions and updates them based on sensory feedback, minimizing error."
+  },
+  {
+    "prompt": "Explain predictive processing in AI.",
+    "completion": "Models anticipate likely outcomes and adjust predictions based on observed errors, improving efficiency."
+  },
+  {
+    "prompt": "What is the difference between model-based and model-free learning?",
+    "completion": "Model-based uses internal simulations to plan; model-free relies on trial-and-error experience."
+  },
+  {
+    "prompt": "<Description of task or bug>",
+    "completion": "<Suggested code, optimized solution, or explanation>"
+  },
+  {
+    "prompt": "How can an AI learn from mistakes?",
+    "completion": "By tracking errors, analyzing patterns, and updating models to prevent repeating them."
+  },
+  {
+    "prompt": "What is the difference between growth mindset and fixed mindset?",
+    "completion": "Growth mindset believes abilities can improve with effort; fixed mindset believes abilities are innate and unchangeable."
+  }
+]
