@@ -1,0 +1,25 @@
+{
+  "scan_date": "2025-10-23T14:17:23.942840",
+  "datasets": {
+    "ptb-xl-metadata": {
+      "file": "competition_data/ptb-xl/ptbxl_database.csv",
+      "records": 1355,
+      "size_mb": 0.26
+    },
+    "ptb-xl-samples": {
+      "directory": "real_ecg_data/ptb-xl-samples",
+      "files": 10,
+      "size_mb": 0.12
+    },
+    "mit-bih-samples": {
+      "directory": "real_ecg_data/mit-bih-samples",
+      "files": 15,
+      "size_mb": 9.32
+    },
+    "ecg-images": {
+      "directory": "real_ecg_data/ecg-images",
+      "files": 1,
+      "size_mb": 1.42
+    }
+  }
+}
