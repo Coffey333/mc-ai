@@ -1,0 +1,866 @@
+[
+  {
+    "prompt": "What is the difference between a list and a tuple in Python?",
+    "response": "In Python, a list is mutable, meaning you can change its contents after creation, while a tuple is immutable, which means once it's defined, it cannot be modified. For example, you can append elements to a list using list.append(), but attempting to do the same with a tuple will raise an error.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224632"
+  },
+  {
+    "prompt": "How do you declare a variable in JavaScript?",
+    "response": "You can declare a variable in JavaScript using the keywords 'var', 'let', or 'const'. 'var' is function-scoped, 'let' and 'const' are block-scoped, with 'const' being used for variables that should not be reassigned.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224641"
+  },
+  {
+    "prompt": "What is the purpose of the 'self' parameter in Python class methods?",
+    "response": "'self' refers to the instance of the class and is a way to access variables and methods associated with that instance. It must be the first parameter of any method in a class definition to allow the instance to call and modify its own attributes.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224643"
+  },
+  {
+    "prompt": "Explain the concept of hoisting in JavaScript.",
+    "response": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope during compile time. This means you can reference a variable or function before it is declared in the code, although uninitialized variables will return 'undefined'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224644"
+  },
+  {
+    "prompt": "What are Python decorators and how do you use them?",
+    "response": "Decorators in Python are functions that modify the behavior of another function. They are applied using the '@decorator_name' syntax above the function definition and are commonly used for logging, access control, and modifying the return value.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224645"
+  },
+  {
+    "prompt": "How do you create a responsive layout in web development?",
+    "response": "A responsive layout can be created using CSS media queries that apply different styles based on the viewport size. You can use 'flexbox' or 'grid' layouts to ensure elements adjust seamlessly on different devices.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224646"
+  },
+  {
+    "prompt": "What is event bubbling in JavaScript?",
+    "response": "Event bubbling is a phase in the event propagation model where an event starts from the most specific element (the target) and bubbles up to the least specific one (the root). This allows parent elements to listen for events triggered by their children.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224647"
+  },
+  {
+    "prompt": "How can you handle exceptions in Python?",
+    "response": "Exceptions in Python can be handled using the 'try' and 'except' blocks. You place code that may raise an exception inside the 'try' block and handle the exception in the 'except' block to prevent the program from crashing.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224650"
+  },
+  {
+    "prompt": "What is the purpose of 'async' and 'await' in JavaScript?",
+    "response": "'async' and 'await' are used to handle asynchronous operations in JavaScript more efficiently. Marking a function as 'async' allows you to use 'await' inside it, which pauses the function execution until the Promise is resolved, simplifying the code structure.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224651"
+  },
+  {
+    "prompt": "What is the difference between '==' and '===' in JavaScript?",
+    "response": "'==' is the equality operator that compares two values for equality after converting them to a common type, while '===' is the strict equality operator that checks for both value and type without coercion. Using '===' is generally recommended to avoid unexpected type conversions.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224652"
+  },
+  {
+    "prompt": "How can you read a file in Python?",
+    "response": "You can read a file in Python using the built-in 'open()' function, along with methods like '.read()' to read the entire file, '.readline()' to read line by line, or '.readlines()' to get a list of all lines. Always wrap your file operations in a 'with' statement to ensure proper resource management.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224653"
+  },
+  {
+    "prompt": "What are closures in JavaScript?",
+    "response": "Closures are functions that retain access to their lexical scope, even when the function is executed outside that scope. This feature allows for data encapsulation and private variables, making it a powerful tool for creating function factories.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224654"
+  },
+  {
+    "prompt": "Explain the use of the 'with' statement in Python.",
+    "response": "The 'with' statement in Python simplifies exception handling by encapsulating common preparation and cleanup tasks in a block of code. It is commonly used for file operations to ensure files are properly closed after their suite finishes executing.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224655"
+  },
+  {
+    "prompt": "How do you add external CSS to an HTML document?",
+    "response": "You can add external CSS to an HTML document by linking a stylesheet in the <head> section using the <link> tag. For example: <link rel='stylesheet' type='text/css' href='styles.css'>.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224656"
+  },
+  {
+    "prompt": "What is a promise in JavaScript?",
+    "response": "A promise in JavaScript is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value. Promises can be in one of three states: pending, fulfilled, or rejected, allowing for better handling of async operations.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224657"
+  },
+  {
+    "prompt": "How do you create a virtual environment in Python?",
+    "response": "You can create a virtual environment in Python using the 'venv' module. Run 'python -m venv myenv' in your terminal, which creates a directory named 'myenv' containing a self-contained installation of Python, allowing you to manage dependencies for your projects independently.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224658"
+  },
+  {
+    "prompt": "What are the benefits of using frameworks like React for web development?",
+    "response": "Frameworks like React provide reusable components, a virtual DOM for optimized rendering, and a unidirectional data flow which simplifies state management. They enhance productivity and enable better organization of code, making it easier to build scalable applications.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224659"
+  },
+  {
+    "prompt": "What is the purpose of the 'map()' function in Python?",
+    "response": "'map()' is a built-in function in Python that applies a specified function to every item of an iterable (like a list) and returns a map object (which can be converted to a list). It is useful for processing collections succinctly, for example: list(map(str, [1, 2, 3])) converts integers to strings.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:04:52.224660"
+  },
+  {
+    "prompt": "What is the difference between a list and a tuple in Python?",
+    "response": "In Python, a list is mutable, meaning you can change its contents after it is created, while a tuple is immutable, meaning its contents cannot be altered. For example, you can append to a list using list.append(), but attempting to do the same with a tuple will result in an error.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963407"
+  },
+  {
+    "prompt": "How do you declare a variable in JavaScript?",
+    "response": "In JavaScript, you can declare a variable using 'var', 'let', or 'const'. For example, 'let x = 10;' creates a block-scoped variable named 'x' with the value of 10, while 'const y = 20;' creates a constant variable that cannot be reassigned.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963418"
+  },
+  {
+    "prompt": "What are Python decorators and how do they work?",
+    "response": "Python decorators are functions that modify the behavior of another function. They are defined using the '@decorator_name' syntax above the function definition, allowing for reusable code enhancements like logging or access control.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963420"
+  },
+  {
+    "prompt": "Explain the concept of closures in JavaScript.",
+    "response": "Closures in JavaScript are created when a function retains access to its lexical scope, even when the function is executed outside that scope. This allows for private variables and functions, as shown in the example where an inner function can access variables declared in its outer function.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963421"
+  },
+  {
+    "prompt": "What is the purpose of the 'self' parameter in Python class methods?",
+    "response": "'self' represents the instance of the class and allows access to its attributes and methods. It must be the first parameter in instance methods to differentiate between instance variables and local variables.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963423"
+  },
+  {
+    "prompt": "Describe the JavaScript event delegation model.",
+    "response": "Event delegation is a technique in JavaScript where a single event listener is added to a parent element instead of multiple listeners on child elements. This is efficient for handling events in dynamically added elements, as events will bubble up to the parent where they can be captured.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963424"
+  },
+  {
+    "prompt": "What are f-strings in Python, and how do they improve string formatting?",
+    "response": "F-strings, introduced in Python 3.6, allow for easy and efficient string formatting by embedding expressions inside curly braces within strings prefixed with 'f'. For example, 'name = \"Alice\"; f\"Hello, {name}!\"' evaluates to 'Hello, Alice!'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963426"
+  },
+  {
+    "prompt": "How do you create a simple web server using Node.js?",
+    "response": "You can create a simple web server in Node.js using the 'http' module. For example, by running 'const http = require('http'); http.createServer((req, res) => { res.writeHead(200, {'Content-Type': 'text/plain'}); res.end('Hello World!'); }).listen(3000);', you start a server that responds with 'Hello World!' on port 3000.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963428"
+  },
+  {
+    "prompt": "What are the main differences between HTTP and HTTPS?",
+    "response": "HTTP is a protocol used for transmitting data over the web, while HTTPS is its secure version that encrypts the data exchanged using SSL/TLS. This encryption protects against eavesdropping and ensures data integrity and authentication.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963429"
+  },
+  {
+    "prompt": "Explain the concept of a promise in JavaScript.",
+    "response": "A promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation. It allows for cleaner code by chaining '.then()' for successful outcomes and '.catch()' for handling errors, improving readability and error management.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963431"
+  },
+  {
+    "prompt": "How can you iterate over a dictionary in Python?",
+    "response": "You can iterate over a dictionary in Python using a for loop. For example, 'for key, value in my_dict.items():' allows you to access both the keys and values of the dictionary during iteration.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963432"
+  },
+  {
+    "prompt": "What are modules in JavaScript, and how do you export and import them?",
+    "response": "Modules in JavaScript allow you to break your code into reusable pieces. You can export a module using 'export' and import it using 'import' statements, making it easier to manage dependencies and organize code.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963434"
+  },
+  {
+    "prompt": "What is the purpose of the 'with' statement in Python?",
+    "response": "The 'with' statement in Python simplifies exception handling by encapsulating common preparation and cleanup tasks. It is commonly used with file operations to ensure files are properly closed after their suite finishes executing.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963435"
+  },
+  {
+    "prompt": "What is the Document Object Model (DOM) in web development?",
+    "response": "The Document Object Model (DOM) is a programming interface that represents HTML or XML documents as a tree structure, allowing scripts to dynamically access and update the content, structure, and style of the document.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963437"
+  },
+  {
+    "prompt": "How can you handle errors in JavaScript using try-catch?",
+    "response": "In JavaScript, you can handle errors using the try-catch block. By placing code that may throw an error in the try block and handling it in the catch block, you can prevent the entire script from crashing and manage errors gracefully.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963439"
+  },
+  {
+    "prompt": "What is the use of the 'break' statement in loops in Python?",
+    "response": "'break' is used to exit a loop prematurely when a certain condition is met. For example, in a for loop, 'for i in range(10): if i == 5: break' will stop the loop when 'i' equals 5.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963440"
+  },
+  {
+    "prompt": "Explain the concept of asynchronous programming in JavaScript.",
+    "response": "Asynchronous programming in JavaScript allows code to run without blocking the execution thread. This is achieved through callbacks, promises, or async/await, enabling tasks such as network requests to complete while other code continues to run.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963442"
+  },
+  {
+    "prompt": "What is a lambda function in Python?",
+    "response": "A lambda function in Python is an anonymous function defined with the 'lambda' keyword. It can take multiple arguments but has only one expression, making it useful for short, throwaway functions, such as 'lambda x: x + 2'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:11.963443"
+  },
+  {
+    "prompt": "What is the difference between a list and a tuple in Python?",
+    "response": "Lists are mutable, meaning their contents can be changed after creation, while tuples are immutable, so their contents cannot be altered. This makes tuples ideal for fixed data, as they can be used as dictionary keys, while lists cannot.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896720"
+  },
+  {
+    "prompt": "How do you declare a variable in JavaScript?",
+    "response": "In JavaScript, you can declare a variable using `var`, `let`, or `const`. `var` is function-scoped, while `let` and `const` are block-scoped. Use `const` for values that won\u2019t change and `let` for those that will.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896733"
+  },
+  {
+    "prompt": "What is a closure in JavaScript?",
+    "response": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. This allows the function to remember the environment it was created in, enabling powerful patterns like data privacy and partial application.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896734"
+  },
+  {
+    "prompt": "What are Python decorators and how are they used?",
+    "response": "Decorators are functions that modify the behavior of another function. They are commonly used to add functionality such as logging, access control, or memoization, by wrapping the original function with additional code.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896735"
+  },
+  {
+    "prompt": "Explain the concept of promises in JavaScript.",
+    "response": "Promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value. They allow you to attach callbacks for success (`then`) and failure (`catch`), improving code readability and error handling.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896736"
+  },
+  {
+    "prompt": "What is list comprehension in Python and give an example?",
+    "response": "List comprehension is a concise way to create lists in Python using a single line of code. For example, `[x**2 for x in range(10)]` creates a list of squares of numbers from 0 to 9.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896737"
+  },
+  {
+    "prompt": "How can you handle exceptions in Python?",
+    "response": "You can handle exceptions in Python using `try` and `except` blocks. Any code that might raise an exception is placed inside the `try` block, and you define how to handle the exception in the `except` block.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896738"
+  },
+  {
+    "prompt": "What are the benefits of using a JavaScript framework like React?",
+    "response": "React provides a component-based architecture, making it easier to build interactive UIs that are maintainable and reusable. It also offers efficient rendering through its Virtual DOM and a rich ecosystem of libraries and tools.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896739"
+  },
+  {
+    "prompt": "How do you create a function in Python?",
+    "response": "You create a function in Python using the `def` keyword followed by the function name and parentheses. For example: `def my_function(param): return param + 1` defines a function that adds 1 to its input.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896739"
+  },
+  {
+    "prompt": "What is the purpose of 'this' keyword in JavaScript?",
+    "response": "'this' refers to the context in which a function is called, not where it is defined. In global scope, it refers to the global object, but inside a method, it refers to the object the method is called on.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896740"
+  },
+  {
+    "prompt": "Explain the concept of inheritance in Python.",
+    "response": "Inheritance allows a class to inherit attributes and methods from another class, promoting code reuse. This is achieved using the syntax `class ChildClass(ParentClass):`, where the child class can override or extend the parent class's functionalities.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896741"
+  },
+  {
+    "prompt": "What is the difference between synchronous and asynchronous programming?",
+    "response": "Synchronous programming executes tasks sequentially, blocking further code execution until the current task completes, while asynchronous programming allows tasks to run concurrently, enabling other code to execute while waiting for a task to finish.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896742"
+  },
+  {
+    "prompt": "How can you set up a simple web server in Python using Flask?",
+    "response": "You can set up a simple web server in Flask by installing Flask via pip and creating a file with the code: `from flask import Flask; app = Flask(__name__); @app.route('/'); def hello(): return 'Hello, World!'; app.run()`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896743"
+  },
+  {
+    "prompt": "What are JavaScript modules and why are they important?",
+    "response": "JavaScript modules allow you to encapsulate code in separate files and import them as needed, promoting better organization and reusability. They help manage dependencies and prevent global scope pollution.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896744"
+  },
+  {
+    "prompt": "What is the purpose of the 'self' parameter in Python class methods?",
+    "response": "'self' refers to the instance of the class and is used to access instance variables and methods from within class methods. It must be the first parameter in any method defined inside a class.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896745"
+  },
+  {
+    "prompt": "Explain the concept of event delegation in JavaScript.",
+    "response": "Event delegation is a technique that allows you to add a single event listener to a parent element instead of multiple listeners for child elements. This improves performance and allows for dynamic elements to inherit the event handling.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896746"
+  },
+  {
+    "prompt": "How do you perform a GET request in JavaScript using Fetch API?",
+    "response": "You can perform a GET request using the Fetch API by calling `fetch('url')`. This returns a Promise that resolves to the Response object, which you can then convert to JSON using `.then(response => response.json())`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896747"
+  },
+  {
+    "prompt": "What is the significance of the __init__ method in Python classes?",
+    "response": "The `__init__` method is a special method in Python classes that acts as a constructor, initializing an object's attributes when a class instance is created. It allows you to set initial states of an object.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:20.896747"
+  },
+  {
+    "prompt": "What is a variable in Python and how do you declare one?",
+    "response": "A variable in Python is a named location used to store data in memory. You can declare a variable simply by assigning a value to it, like this: `x = 10` or `name = 'Alice'`. Python automatically determines the variable's type based on the assigned value.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486504"
+  },
+  {
+    "prompt": "Explain the difference between 'let', 'const', and 'var' in JavaScript.",
+    "response": "'let' and 'const' are block-scoped variables introduced in ES6, while 'var' is function-scoped. 'let' allows you to declare variables that can be reassigned, while 'const' is used for immutable constants. Using 'var' can lead to unexpected behaviors due to hoisting.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486516"
+  },
+  {
+    "prompt": "What is a list comprehension in Python?",
+    "response": "List comprehension is a concise way to create lists in Python. It consists of brackets containing an expression followed by a 'for' clause, allowing you to generate lists in a single line. For example, `[x**2 for x in range(10)]` creates a list of squares from 0 to 9.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486518"
+  },
+  {
+    "prompt": "How can you handle errors in JavaScript?",
+    "response": "You can handle errors in JavaScript using try-catch blocks. Wrap the code that might throw an error in a 'try' block, and define a 'catch' block to handle the error. For example: `try { // code } catch (error) { console.error(error); }`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486520"
+  },
+  {
+    "prompt": "What is the purpose of the __init__ method in Python classes?",
+    "response": "The __init__ method is a special method in Python classes, often called the constructor. It initializes the instance of the class by assigning values to the properties or attributes when an object is created. For example: `def __init__(self, name): self.name = name`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486522"
+  },
+  {
+    "prompt": "How can you make an HTTP request in JavaScript?",
+    "response": "You can make HTTP requests in JavaScript using the Fetch API. For example, to make a GET request, you can use: `fetch('https://api.example.com/data') .then(response => response.json()) .then(data => console.log(data));`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486523"
+  },
+  {
+    "prompt": "What is the difference between a tuple and a list in Python?",
+    "response": "A tuple is immutable, meaning its elements cannot be changed after creation, while a list is mutable and can be modified. Tuples are defined using parentheses (e.g., `my_tuple = (1, 2, 3)`), whereas lists use square brackets (e.g., `my_list = [1, 2, 3]`).",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486525"
+  },
+  {
+    "prompt": "How can you create a simple web server using Python?",
+    "response": "You can create a simple web server using Python's built-in `http.server` module. Running the command `python -m http.server` in your terminal will start a server at `http://localhost:8000` serving files from the current directory.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486527"
+  },
+  {
+    "prompt": "What are closures in JavaScript?",
+    "response": "Closures are functions that have access to their outer function's scope even after the outer function has finished executing. This allows for data encapsulation and can be used to create private variables. For example: `function outer() { let count = 0; return function() { count++; return count; }; }`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486529"
+  },
+  {
+    "prompt": "What is a lambda function in Python?",
+    "response": "A lambda function is a small anonymous function defined with the `lambda` keyword. It can take any number of arguments but can only have one expression. For example: `add = lambda x, y: x + y` creates a function that adds two numbers.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486531"
+  },
+  {
+    "prompt": "How do you add event listeners in JavaScript?",
+    "response": "You can add event listeners in JavaScript using the `addEventListener` method on a DOM element. For example: `document.getElementById('myButton').addEventListener('click', function() { alert('Button clicked!'); });`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486533"
+  },
+  {
+    "prompt": "What is the purpose of the 'self' keyword in Python?",
+    "response": "The 'self' keyword in Python is used to represent the instance of the class and allows access to the instance's attributes and methods. It must be the first parameter of instance methods and is used to differentiate between instance variables and local variables.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486534"
+  },
+  {
+    "prompt": "Explain the concept of promise in JavaScript.",
+    "response": "A promise in JavaScript represents an asynchronous operation that can produce a value in the future. It can be in one of three states: pending, fulfilled, or rejected. You can use `.then()` to handle fulfilled promises and `.catch()` for rejected ones.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486536"
+  },
+  {
+    "prompt": "What is a decorator in Python?",
+    "response": "A decorator in Python is a function that modifies the behavior of another function or method. It allows you to add functionality to existing code in a clean and readable way, such as logging or access control. You can apply a decorator using the `@decorator_name` syntax above the function definition.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486539"
+  },
+  {
+    "prompt": "What is the Document Object Model (DOM)?",
+    "response": "The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a document as a tree of objects, allowing programming languages like JavaScript to manipulate the content and structure of web pages dynamically.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486541"
+  },
+  {
+    "prompt": "How do you install external packages in Python?",
+    "response": "You can install external packages in Python using the package manager pip. For example, to install the requests library, you would run `pip install requests` in your terminal. This allows you to use third-party libraries in your Python projects.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486543"
+  },
+  {
+    "prompt": "What is asynchronous programming in JavaScript?",
+    "response": "Asynchronous programming in JavaScript allows you to perform non-blocking operations, such as fetching data from a server, without freezing the main thread. It uses callbacks, promises, or async/await syntax to handle operations that may take time to complete.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486545"
+  },
+  {
+    "prompt": "How can you read a file in Python?",
+    "response": "You can read a file in Python using the built-in `open()` function along with a context manager. For example: `with open('file.txt', 'r') as file: content = file.read()` ensures that the file is properly closed after reading.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:05:47.486547"
+  },
+  {
+    "prompt": "What is Python and what are its main uses?",
+    "response": "Python is a high-level, interpreted programming language known for its readability and simplicity. It is widely used in web development, data analysis, artificial intelligence, scientific computing, and automation.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656600"
+  },
+  {
+    "prompt": "What are JavaScript closures and why are they useful?",
+    "response": "Closures are functions that have access to their outer function's scope even after the outer function has finished executing. They are useful for data encapsulation and creating private variables.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656610"
+  },
+  {
+    "prompt": "How can you create a simple web server in Python?",
+    "response": "You can create a simple web server in Python using the built-in `http.server` module. By running `python -m http.server` in your terminal, you can serve files from the current directory at http://localhost:8000.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656611"
+  },
+  {
+    "prompt": "Explain the difference between 'var', 'let', and 'const' in JavaScript.",
+    "response": "'var' declares a variable that is function-scoped or globally-scoped, 'let' declares a block-scoped variable that can be reassigned, and 'const' declares a block-scoped variable that cannot be reassigned after its initial value.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656612"
+  },
+  {
+    "prompt": "What is a Python list comprehension and provide an example?",
+    "response": "A list comprehension is a concise way to create lists in Python. For example, `[x**2 for x in range(10)]` generates a list of squares of numbers from 0 to 9.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656613"
+  },
+  {
+    "prompt": "How do you handle errors in JavaScript using try-catch?",
+    "response": "You can handle errors in JavaScript using a try-catch block. Code that may throw an error is placed inside the 'try' block, and the 'catch' block is executed if an error occurs, allowing for graceful error handling.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656614"
+  },
+  {
+    "prompt": "What are Python decorators and how do they enhance functions?",
+    "response": "Decorators in Python are functions that modify the behavior of another function. They are often used for logging, enforcing access control, or modifying input/output, making your code cleaner and more reusable.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656615"
+  },
+  {
+    "prompt": "Explain the concept of promises in JavaScript.",
+    "response": "Promises in JavaScript are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value. They allow for better handling of asynchronous code, using `.then()` for success and `.catch()` for errors.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656615"
+  },
+  {
+    "prompt": "What is the purpose of the '__init__' method in Python classes?",
+    "response": "The '__init__' method in Python classes is a special method called a constructor, which initializes the object's attributes when an instance of the class is created. It allows for setting initial values for the object's properties.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656616"
+  },
+  {
+    "prompt": "How do you create a responsive layout in web development?",
+    "response": "You can create a responsive layout using CSS media queries, which apply different styles based on the device's screen size. This ensures that your webpage looks good on all devices, from mobile phones to desktop computers.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656617"
+  },
+  {
+    "prompt": "What is a callback function in JavaScript?",
+    "response": "A callback function is a function passed as an argument to another function, which is then executed after a certain event or action occurs. This pattern is commonly used in asynchronous operations like event handling and network requests.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656618"
+  },
+  {
+    "prompt": "What is the difference between a list and a tuple in Python?",
+    "response": "The main difference between a list and a tuple in Python is that lists are mutable (can be changed), while tuples are immutable (cannot be changed). This makes tuples faster and a good choice for fixed collections of items.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656619"
+  },
+  {
+    "prompt": "How can you load external JavaScript files in a web page?",
+    "response": "You can load external JavaScript files in a web page by using the `<script>` tag with the `src` attribute pointing to the JavaScript file's URL. For example: `<script src='script.js'></script>`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656620"
+  },
+  {
+    "prompt": "What are Python's built-in data types?",
+    "response": "Python's built-in data types include integers, floats, strings, lists, tuples, dictionaries, sets, and booleans. These data types enable the storage and manipulation of data in various forms.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656621"
+  },
+  {
+    "prompt": "Explain the concept of event delegation in JavaScript.",
+    "response": "Event delegation is a technique in JavaScript where a single event listener is added to a parent element instead of individual child elements. This improves performance and simplifies event handling, especially in dynamic lists.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656622"
+  },
+  {
+    "prompt": "How do you read a file in Python?",
+    "response": "You can read a file in Python using the built-in `open()` function followed by the `read()` method. For example: `with open('file.txt', 'r') as file: data = file.read()` reads the entire content of 'file.txt'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656622"
+  },
+  {
+    "prompt": "What is the purpose of 'async' and 'await' in JavaScript?",
+    "response": "'async' and 'await' are used to simplify working with promises in JavaScript. An 'async' function always returns a promise, and 'await' pauses the execution of the function until the promise is resolved.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656623"
+  },
+  {
+    "prompt": "Describe how to create a basic web form in HTML.",
+    "response": "You can create a basic web form in HTML using the `<form>` tag, along with input elements like `<input>`, `<textarea>`, and `<select>`. For example: `<form><input type='text' name='username'><input type='submit'></form>`.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:01.656624"
+  },
+  {
+    "prompt": "What is a list in Python and how do you create one?",
+    "response": "A list in Python is a mutable, ordered collection of items, which can be of different types. You can create a list by enclosing items in square brackets, e.g., my_list = [1, 2, 3, 'four', 5.0].",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415083"
+  },
+  {
+    "prompt": "How do you declare a variable in JavaScript?",
+    "response": "In JavaScript, you can declare a variable using the 'var', 'let', or 'const' keywords. For example, let x = 10; will create a variable 'x' with the value of 10.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415093"
+  },
+  {
+    "prompt": "What is the difference between '==' and '===' in JavaScript?",
+    "response": "'==' checks for value equality with type coercion, while '===' checks for both value and type equality. For instance, '5' == 5 evaluates to true, while '5' === 5 evaluates to false.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415094"
+  },
+  {
+    "prompt": "Explain the concept of functions in Python.",
+    "response": "Functions in Python are defined using the 'def' keyword and are used to encapsulate code for reuse. For example, def greet(name): return 'Hello ' + name creates a function that greets a person.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415095"
+  },
+  {
+    "prompt": "What is a closure in JavaScript?",
+    "response": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. For example, if a function returns another function, the inner function can still access variables from the outer function.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415096"
+  },
+  {
+    "prompt": "How can you create a responsive web design?",
+    "response": "Responsive web design can be achieved through CSS media queries, flexible grid layouts, and using relative units like percentages for widths. This allows web pages to adapt to various screen sizes.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415097"
+  },
+  {
+    "prompt": "What are Python decorators and how are they used?",
+    "response": "Decorators in Python are functions that modify the behavior of another function. They are applied using the '@' symbol above the function definition, allowing for functionality like logging or access control without changing the original function.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415098"
+  },
+  {
+    "prompt": "What does the 'this' keyword refer to in JavaScript?",
+    "response": "The 'this' keyword refers to the context in which a function is executed. In a method, 'this' refers to the object it belongs to, while in a regular function, it refers to the global object (or 'undefined' in strict mode).",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415099"
+  },
+  {
+    "prompt": "How do you handle exceptions in Python?",
+    "response": "Exceptions in Python can be handled using try and except blocks. Code that may raise an exception is placed in the try block, while the except block contains the code that runs if an exception occurs.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415100"
+  },
+  {
+    "prompt": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+    "response": "'async' defines an asynchronous function that returns a promise, while 'await' pauses the execution of the async function until the promise is resolved. This allows for easier management of asynchronous code.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415100"
+  },
+  {
+    "prompt": "Explain how to implement a simple REST API using Flask in Python.",
+    "response": "To implement a REST API using Flask, first install Flask, then create an app instance, define routes using decorators like @app.route('/api/resource'), and use JSON responses with return jsonify(data).",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415101"
+  },
+  {
+    "prompt": "What is the 'DOM' in web development?",
+    "response": "The Document Object Model (DOM) is a programming interface for HTML and XML documents that represents the structure of a document. It allows programming languages like JavaScript to manipulate the content and structure of a web page.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415102"
+  },
+  {
+    "prompt": "How can you make an AJAX request using JavaScript?",
+    "response": "You can make an AJAX request using the XMLHttpRequest object or the Fetch API. For example, using Fetch: fetch('https://api.example.com/data').then(response => response.json()).then(data => console.log(data));",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415103"
+  },
+  {
+    "prompt": "What are list comprehensions in Python?",
+    "response": "List comprehensions are a concise way to create lists in Python using a single line of code. For example, squares = [x**2 for x in range(10)] creates a list of squares from 0 to 9.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415104"
+  },
+  {
+    "prompt": "What is the event loop in JavaScript?",
+    "response": "The event loop is a mechanism that allows JavaScript to perform non-blocking I/O operations by offloading operations to the system and using a queue to handle events when the call stack is empty.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415105"
+  },
+  {
+    "prompt": "What is the purpose of the 'self' parameter in Python class methods?",
+    "response": "'self' is a reference to the instance of the class and is used to access variables and methods associated with that instance. It must be the first parameter of instance methods.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415106"
+  },
+  {
+    "prompt": "How do you implement a simple form validation in JavaScript?",
+    "response": "Simple form validation can be implemented by adding an event listener to the form's submit event, checking input values, and preventing submission if they don't meet criteria, e.g., if (input.value == '') { event.preventDefault(); }.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415107"
+  },
+  {
+    "prompt": "What is the purpose of the 'return' statement in Python functions?",
+    "response": "The 'return' statement in Python functions is used to exit the function and optionally pass back a value to the caller. If no return statement is provided, the function returns None by default.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415107"
+  },
+  {
+    "prompt": "How can you prevent XSS attacks in web applications?",
+    "response": "To prevent Cross-Site Scripting (XSS) attacks, you should sanitize user input, encode output data, and use Content Security Policies (CSP). Libraries like DOMPurify can help sanitize HTML.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:14.415108"
+  },
+  {
+    "prompt": "What is a variable in Python?",
+    "response": "A variable in Python is a reserved memory location to store values. It is created when you assign a value to it using the '=' operator, and it can hold different types of data, including integers, strings, and lists.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000919"
+  },
+  {
+    "prompt": "How do you declare an array in JavaScript?",
+    "response": "In JavaScript, you can declare an array using square brackets. For example, let myArray = [1, 2, 3, 'four']; creates an array containing numbers and a string.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000928"
+  },
+  {
+    "prompt": "What is the purpose of the 'self' keyword in Python classes?",
+    "response": "'self' is a reference to the current instance of the class in Python. It is used to access variables and methods associated with the object, allowing you to differentiate instance variables from local variables.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000929"
+  },
+  {
+    "prompt": "Explain the concept of closures in JavaScript.",
+    "response": "Closures in JavaScript occur when a function retains access to its lexical scope even when the function is executed outside that scope. This is useful for data encapsulation and creating private variables.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000930"
+  },
+  {
+    "prompt": "How do you handle exceptions in Python?",
+    "response": "In Python, exceptions can be handled using try-except blocks. You place the code that might raise an exception in the try block and handle the error in the except block, allowing your program to continue running smoothly.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000931"
+  },
+  {
+    "prompt": "What is the Document Object Model (DOM) in web development?",
+    "response": "The Document Object Model (DOM) is a programming interface that represents HTML and XML documents as a tree structure. It allows scripts and programs to dynamically access and update the content, structure, and style of a document.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000932"
+  },
+  {
+    "prompt": "What is a promise in JavaScript?",
+    "response": "A promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation. It allows you to attach callback functions to handle the result or error of the operation asynchronously.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000933"
+  },
+  {
+    "prompt": "How can you create a virtual environment in Python?",
+    "response": "You can create a virtual environment in Python using the 'venv' module. Just run 'python -m venv myenv' in your terminal, which creates an isolated environment where you can manage dependencies without affecting the global Python installation.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000934"
+  },
+  {
+    "prompt": "What is the purpose of the 'this' keyword in JavaScript?",
+    "response": "'this' in JavaScript refers to the object from which a function was called. In global context, it refers to the global object, but its value can change depending on the function's context (e.g., object method, event handler).",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000935"
+  },
+  {
+    "prompt": "Can you explain what list comprehensions are in Python?",
+    "response": "List comprehensions in Python provide a concise way to create lists. They consist of brackets containing an expression followed by a for clause, and can include conditionals, e.g., '[x**2 for x in range(10) if x % 2 == 0]' generates a list of squares of even numbers.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000936"
+  },
+  {
+    "prompt": "What is the difference between 'let' and 'var' in JavaScript?",
+    "response": "'let' and 'var' are both used to declare variables in JavaScript, but 'let' has block scope, meaning it's limited to the block in which it's defined, while 'var' has function scope. This makes 'let' a safer choice in many cases.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000937"
+  },
+  {
+    "prompt": "Describe the use of decorators in Python.",
+    "response": "Decorators in Python are a powerful tool that allows you to modify the behavior of a function or class method. They are typically defined with '@decorator_name' syntax above the function definition and can be used for logging, access control, and more.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000938"
+  },
+  {
+    "prompt": "What is AJAX and how does it work?",
+    "response": "AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data asynchronously from a server without refreshing the page. It involves creating an XMLHttpRequest object to exchange data in the background.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000938"
+  },
+  {
+    "prompt": "How do you install a package using pip?",
+    "response": "To install a package using pip, you can run the command 'pip install package_name' in your terminal. Ensure you have pip installed and that you're operating within the desired Python environment.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000939"
+  },
+  {
+    "prompt": "What is the role of CSS in web development?",
+    "response": "CSS (Cascading Style Sheets) is used in web development to control the presentation and layout of HTML elements. It allows developers to apply styles such as colors, fonts, and spacing to enhance the visual appearance of web pages.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000940"
+  },
+  {
+    "prompt": "Explain the difference between synchronous and asynchronous programming.",
+    "response": "Synchronous programming executes tasks in a sequential manner, meaning each task must complete before the next begins. Asynchronous programming allows tasks to run independently, enabling the program to continue executing other tasks while waiting for operations to complete.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000941"
+  },
+  {
+    "prompt": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+    "response": "'async' and 'await' are used in JavaScript to simplify working with promises. The 'async' keyword allows a function to return a promise, while 'await' makes JavaScript wait for that promise to resolve before proceeding, thus enabling cleaner and more readable asynchronous code.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:24.000942"
+  },
+  {
+    "prompt": "What is the difference between a list and a tuple in Python?",
+    "response": "In Python, a list is mutable, meaning its contents can be changed after creation, while a tuple is immutable, meaning once it is created, its contents cannot be altered. This makes tuples generally more memory efficient and suitable for fixed collections of items.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096247"
+  },
+  {
+    "prompt": "How do you create a simple web server using Node.js?",
+    "response": "You can create a simple web server in Node.js using the 'http' module. Here\u2019s an example: 'const http = require(\"http\"); const server = http.createServer((req, res) => { res.statusCode = 200; res.setHeader(\"Content-Type\", \"text/plain\"); res.end(\"Hello, World!\\n\"); }); server.listen(3000, () => console.log('Server running at http://localhost:3000/'));' This code listens on port 3000 and responds with 'Hello, World!'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096256"
+  },
+  {
+    "prompt": "What does 'self' represent in a Python class?",
+    "response": "'self' refers to the instance of the class in Python and is used to access variables and methods associated with that instance. It allows you to differentiate between instance variables and local variables within methods.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096257"
+  },
+  {
+    "prompt": "What are closure functions in JavaScript?",
+    "response": "Closures in JavaScript are functions that have access to their outer function\u2019s scope even after the outer function has returned. This allows for private variables and encapsulation. For example, in 'function outer() { let count = 0; return function inner() { count++; return count; }; }', the 'inner' function maintains access to 'count'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096258"
+  },
+  {
+    "prompt": "How can you handle exceptions in Python?",
+    "response": "In Python, exceptions can be handled using try-except blocks. For example, 'try: x = 1 / 0 except ZeroDivisionError: print(\"You can't divide by zero!\")' will catch and handle the ZeroDivisionError gracefully instead of crashing the program.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096259"
+  },
+  {
+    "prompt": "What is the purpose of the 'this' keyword in JavaScript?",
+    "response": "In JavaScript, 'this' refers to the context in which a function is called. It can point to different objects depending on how the function is invoked, which can lead to varied behaviors if not understood properly.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096260"
+  },
+  {
+    "prompt": "What is a dictionary in Python and how do you create one?",
+    "response": "A dictionary in Python is an unordered collection of key-value pairs, where each key must be unique. You can create one using curly braces: 'my_dict = {'name': 'Alice', 'age': 30}'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096261"
+  },
+  {
+    "prompt": "How can you fetch data from a REST API using JavaScript?",
+    "response": "You can fetch data from a REST API in JavaScript using the Fetch API. For example: 'fetch(\"https://api.example.com/data\").then(response => response.json()).then(data => console.log(data));' This makes an HTTP GET request to the specified URL.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096262"
+  },
+  {
+    "prompt": "Explain list comprehensions in Python with an example.",
+    "response": "List comprehensions in Python provide a concise way to create lists. For example, '[x * 2 for x in range(5)]' generates a list of doubled values from 0 to 4, resulting in [0, 2, 4, 6, 8].",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096263"
+  },
+  {
+    "prompt": "What is the event loop in JavaScript?",
+    "response": "The event loop in JavaScript is a mechanism that allows non-blocking asynchronous programming by handling events and executing the code, collecting and processing events, and executing queued sub-tasks. It ensures that JavaScript can handle many operations concurrently without blocking the main thread.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096264"
+  },
+  {
+    "prompt": "How do you format strings in Python?",
+    "response": "In Python, you can format strings using f-strings (available in Python 3.6 and later) by prefixing the string with 'f' and embedding expressions inside curly braces. For example: 'name = \"John\"; f\"Hello, {name}!\"' results in 'Hello, John!'.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096264"
+  },
+  {
+    "prompt": "What are JavaScript promises?",
+    "response": "JavaScript promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value. A promise can be in one of three states: pending, fulfilled, or rejected, and can be handled with '.then()' for success and '.catch()' for errors.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096265"
+  },
+  {
+    "prompt": "How can you create a virtual environment in Python?",
+    "response": "To create a virtual environment in Python, you can use the 'venv' module. Run the command 'python -m venv myenv' in your terminal, which creates a directory called 'myenv' containing a separate Python installation and a 'Scripts' folder to activate it.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096266"
+  },
+  {
+    "prompt": "What is the purpose of the 'let' keyword in JavaScript?",
+    "response": "'let' is a keyword used in JavaScript to declare block-scoped variables. Unlike 'var', variables declared with 'let' are confined to the block in which they are defined, preventing issues related to variable hoisting.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096267"
+  },
+  {
+    "prompt": "How do you read a file line by line in Python?",
+    "response": "You can read a file line by line in Python using a with statement and a for loop. For example: 'with open(\"file.txt\") as f: for line in f: print(line.strip())' reads each line and prints it without leading/trailing whitespace.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096268"
+  },
+  {
+    "prompt": "What is the difference between synchronous and asynchronous programming?",
+    "response": "Synchronous programming executes tasks sequentially, meaning each task must complete before the next one starts, potentially leading to delays. Asynchronous programming allows tasks to run concurrently, improving efficiency and responsiveness, especially for I/O operations.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096269"
+  },
+  {
+    "prompt": "Explain the concept of inheritance in Java.",
+    "response": "Inheritance in Java is a mechanism where one class (subclass) can inherit fields and methods from another class (superclass). This promotes code reusability and establishes a hierarchical relationship, allowing subclasses to extend or modify the behavior of superclasses.",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096270"
+  },
+  {
+    "prompt": "What are the main differences between Python 2 and Python 3?",
+    "response": "Major differences between Python 2 and Python 3 include print being a function in Python 3 (print()), Unicode support by default in Python 3, and changes in integer division (where 5/2 results in 2.5 in Python 3, rather than 2 in Python 2).",
+    "domain": "programming",
+    "generated_at": "2025-10-13T09:06:36.096271"
+  }
+]
