@@ -1,0 +1,8 @@
+Prompt: What is emotional intelligence?
+Completion: Emotional intelligence (EQ) is your ability to recognize, understand, and manage your own emotions while also being aware of others' emotions. It has four key parts: self-awareness (knowing your feelings), self-management (controlling reactions), social awareness (reading others), and relationship management (handling interactions well).
+
+Prompt: How can I improve my emotional intelligence?
+Completion: Start with self-awareness - practice noticing your emotions without judgment. Keep an emotion journal. When you feel something strong, pause and name it. Practice active listening - really hear what others say without planning your response. Learn to recognize physical signs of emotions in yourself. Develop empathy by considering other perspectives. It's a skill you build over time.
+
+Prompt: Why does emotional intelligence matter?
+Completion: EQ matters because it affects every relationship and decision you make. People with high EQ handle stress better, communicate more effectively, and build stronger relationships. In the workplace, EQ often matters more than IQ for leadership and teamwork. It helps you navigate conflicts, understand motivations, and respond rather than react to challenging situations.
