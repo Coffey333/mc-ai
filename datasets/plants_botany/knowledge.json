@@ -1,0 +1,27 @@
+[
+  {
+    "prompt": "What is photosynthesis?",
+    "response": "Photosynthesis is the process by which plants convert light energy into chemical energy (glucose).\n\n**Equation:** 6CO\u2082 + 6H\u2082O + light \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082\n\n**Process:**\n1. Plants absorb sunlight through chlorophyll\n2. Light energy splits water molecules\n3. CO\u2082 combines with hydrogen\n4. Produces glucose and releases oxygen\n\n**Importance:**\n- Produces oxygen we breathe\n- Creates food for plants\n- Base of food chains\n- Removes CO\u2082 from atmosphere",
+    "domain": "plants_botany"
+  },
+  {
+    "prompt": "How do I care for a snake plant?",
+    "response": "Snake Plant (Sansevieria) - easiest houseplant!\n\n**Light:** Low to bright indirect (very tolerant)\n**Water:** Every 2-3 weeks, let soil dry completely\n**Soil:** Well-draining cactus/succulent mix\n**Temperature:** 60-85\u00b0F\n\n**Benefits:**\n- Purifies air\n- Produces oxygen at night\n- Nearly indestructible\n\n**Warning:** Overwatering is the main killer!",
+    "domain": "plants_botany"
+  },
+  {
+    "prompt": "What are the main parts of a plant?",
+    "response": "Plants have several key parts:\n\n**1. Roots**\n- Anchor plant in soil\n- Absorb water and nutrients\n- Store food (in some plants)\n\n**2. Stem**\n- Supports leaves and flowers\n- Transports water and nutrients\n- Stores food (in some plants)\n\n**3. Leaves**\n- Perform photosynthesis\n- Gas exchange (O\u2082 and CO\u2082)\n- Transpiration (water loss)\n\n**4. Flowers** (in flowering plants)\n- Reproductive structures\n- Produce seeds\n- Attract pollinators\n\n**5. Seeds/Fruit**\n- Contain embryo\n- Enable reproduction\n- Protect and disperse offspring",
+    "domain": "plants_botany"
+  },
+  {
+    "prompt": "How do I grow tomatoes?",
+    "response": "Growing tomatoes successfully:\n\n**Starting:**\n- Start seeds indoors 6-8 weeks before last frost\n- Or buy seedlings from nursery\n\n**Planting:**\n- Full sun (6-8 hours daily)\n- Rich, well-draining soil (pH 6.0-6.8)\n- Space 24-36 inches apart\n- Plant deep (bury stem up to first leaves)\n\n**Care:**\n- Water deeply (1-2 inches per week)\n- Mulch around plants\n- Fertilize every 2-3 weeks\n- Stake or cage for support\n- Prune suckers for bigger fruit\n\n**Harvest:**\n- Pick when fully colored\n- 60-85 days from transplanting\n- Store on counter, not fridge\n\n**Common issues:**\n- Blossom end rot: Add calcium, water consistently\n- Hornworms: Hand pick",
+    "domain": "plants_botany"
+  },
+  {
+    "prompt": "What is the difference between annuals and perennials?",
+    "response": "**Annual Plants:**\n- Complete life cycle in one year\n- Germinate, grow, flower, seed, die\n- Must replant each year\n- Examples: marigolds, zinnias, tomatoes, basil\n- Longer flowering periods\n- Good for: seasonal color, vegetables\n\n**Perennial Plants:**\n- Live for multiple years (3+ years)\n- Die back in winter, regrow in spring\n- Establish root systems that survive winter\n- Examples: hostas, daylilies, lavender, strawberries\n- Lower maintenance after establishment\n- Good for: permanent landscape, less replanting\n\n**Biennials** (bonus):\n- Two-year life cycle\n- Year 1: vegetative growth\n- Year 2: flower, seed, die\n- Examples: carrots, parsley, foxglove",
+    "domain": "plants_botany"
+  }
+]
