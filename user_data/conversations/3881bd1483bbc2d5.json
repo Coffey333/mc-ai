@@ -1,0 +1,61 @@
+{
+  "user_id": "3881bd1483bbc2d5",
+  "created": "2025-10-13T07:48:01.492611",
+  "last_updated": "2025-10-13T07:48:03.623488",
+  "message_count": 2,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:48:01.492621",
+      "user_message": "I'm feeling anxious about my job interview tomorrow",
+      "ai_response": "That anxious energy is coming through strong. You trying to calm down, or just need to process what's going on?",
+      "metadata": {
+        "emotion": "anxiety",
+        "frequency": 13,
+        "catalog": "neuroscience",
+        "brain_wave_band": "alpha",
+        "arousal_level": "high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": -0.5,
+        "emotional_needs": [
+          "reassurance",
+          "safety",
+          "information",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.098,
+        "complexity": 0.001,
+        "coherence": 0.951
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:48:03.623475",
+      "user_message": "What are good stress management techniques?",
+      "ai_response": "Let me help you with that: Elevated beta and amygdala activation correlate with anticipatory stress. Mindful visualization and pre-planned study sessions can mitigate anxiety.\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "neuroscience",
+        "relevance": 3,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:48:01.492626",
+      "emotion": "anxiety",
+      "intensity": 5.0,
+      "frequency": 13,
+      "valence": -0.5
+    },
+    {
+      "timestamp": "2025-10-13T07:48:03.623492",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
