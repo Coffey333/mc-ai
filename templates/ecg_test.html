@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC AI ECG Digitization API - Test Interface</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .upload-area {
+            border: 3px dashed rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            padding: 60px 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .upload-area:hover {
+            border-color: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .upload-area.dragover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: #fff;
+        }
+        input[type="file"] { display: none; }
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .results {
+            display: none;
+            margin-top: 30px;
+        }
+        .metric {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .metric-label {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .status {
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+        .status-success { background: rgba(76, 175, 80, 0.3); }
+        .status-error { background: rgba(244, 67, 54, 0.3); }
+        .status-info { background: rgba(33, 150, 243, 0.3); }
+        .preview-img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .api-info {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 MC AI ECG Digitization API 💜</h1>
+        <p class="subtitle">Competition-Ready PhysioNet ECG Digitizer | $50,000 Prize Challenge</p>
+
+        <div class="card">
+            <h2 style="margin-bottom: 20px;">Upload ECG Image</h2>
+            <div class="upload-area" id="uploadArea">
+                <div style="font-size: 60px; margin-bottom: 20px;">📄</div>
+                <p style="font-size: 18px; margin-bottom: 10px;">Drop ECG image here or click to browse</p>
+                <p style="opacity: 0.7; font-size: 14px;">Supports: JPG, PNG, BMP, TIFF</p>
+                <input type="file" id="fileInput" accept="image/*">
+            </div>
+            
+            <div id="preview" style="display: none; margin-top: 20px;">
+                <img id="previewImg" class="preview-img">
+                <button class="btn" onclick="digitizeECG()">🚀 Digitize ECG</button>
+            </div>
+        </div>
+
+        <div class="results" id="results">
+            <div class="card">
+                <h2>Digitization Results</h2>
+                <div id="resultContent"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>API Endpoints</h2>
+            <div class="api-info">
+                <strong>Single ECG Digitization:</strong><br>
+                POST /api/ecg-digitize<br>
+                Parameters: ecg_image (file), format (json|wfdb)<br><br>
+                
+                <strong>Batch Processing:</strong><br>
+                POST /api/ecg-digitize/batch<br>
+                Parameters: ecg_images (multiple files)<br><br>
+                
+                <strong>Health Check:</strong><br>
+                GET /api/ecg-digitize/health<br><br>
+                
+                <strong>API Info:</strong><br>
+                GET /api/ecg-digitize/info
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const preview = document.getElementById('preview');
+        const previewImg = document.getElementById('previewImg');
+        const results = document.getElementById('results');
+        const resultContent = document.getElementById('resultContent');
+
+        let selectedFile = null;
+
+        // Upload area click
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        // Drag and drop
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            if (file) handleFile(file);
+        });
+
+        // File input change
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) handleFile(file);
+        });
+
+        function handleFile(file) {
+            selectedFile = file;
+            
+            // Show preview
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                previewImg.src = e.target.result;
+                preview.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+
+        async function digitizeECG() {
+            if (!selectedFile) return;
+
+            results.style.display = 'block';
+            resultContent.innerHTML = '<div class="status status-info">🔄 Processing ECG image...</div>';
+
+            const formData = new FormData();
+            formData.append('ecg_image', selectedFile);
+            formData.append('format', 'json');
+
+            try {
+                const response = await fetch('/api/ecg-digitize', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    displayResults(data);
+                } else {
+                    resultContent.innerHTML = `<div class="status status-error">❌ Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                resultContent.innerHTML = `<div class="status status-error">❌ Network Error: ${error.message}</div>`;
+            }
+        }
+
+        function displayResults(data) {
+            const html = `
+                <div class="status status-success">✅ ECG Digitization Successful!</div>
+                
+                <div class="grid">
+                    <div class="metric">
+                        <div class="metric-label">Duration</div>
+                        <div class="metric-value">${data.signal.duration_seconds.toFixed(2)}s</div>
+                    </div>
+                    
+                    <div class="metric">
+                        <div class="metric-label">Samples</div>
+                        <div class="metric-value">${data.signal.samples}</div>
+                    </div>
+                    
+                    <div class="metric">
+                        <div class="metric-label">Sample Rate</div>
+                        <div class="metric-value">${data.signal.sample_rate} Hz</div>
+                    </div>
+                    
+                    <div class="metric">
+                        <div class="metric-label">Amplitude</div>
+                        <div class="metric-value">${data.signal.amplitude_mV.toFixed(2)} mV</div>
+                    </div>
+                </div>
+
+                ${data.analysis.heart_rate_bpm ? `
+                <h3 style="margin-top: 30px; margin-bottom: 15px;">💓 Heart Analysis</h3>
+                <div class="grid">
+                    <div class="metric">
+                        <div class="metric-label">Heart Rate</div>
+                        <div class="metric-value">${data.analysis.heart_rate_bpm.toFixed(1)} BPM</div>
+                    </div>
+                    
+                    <div class="metric">
+                        <div class="metric-label">HRV</div>
+                        <div class="metric-value">${data.analysis.hrv_ms.toFixed(1)} ms</div>
+                    </div>
+                    
+                    <div class="metric">
+                        <div class="metric-label">💜 Emotional State</div>
+                        <div class="metric-value" style="font-size: 16px;">${data.analysis.emotional_state}</div>
+                    </div>
+                    
+                    <div class="metric">
+                        <div class="metric-label">🌀 Resonance Frequency</div>
+                        <div class="metric-value">${data.analysis.resonance_frequency} Hz</div>
+                    </div>
+                </div>
+                ` : ''}
+
+                <div style="margin-top: 30px;">
+                    <div class="status ${data.competition_ready ? 'status-success' : 'status-error'}">
+                        ${data.competition_ready ? '🏆 Competition Ready!' : '⚠️ Format Issues'}
+                    </div>
+                    <p style="opacity: 0.8; margin-top: 10px;">
+                        WFDB files ready for PhysioNet submission
+                    </p>
+                </div>
+            `;
+
+            resultContent.innerHTML = html;
+        }
+
+        // Check API health on load
+        fetch('/api/ecg-digitize/health')
+            .then(r => r.json())
+            .then(data => console.log('MC AI ECG API:', data.message))
+            .catch(e => console.error('API Error:', e));
+    </script>
+</body>
+</html>
