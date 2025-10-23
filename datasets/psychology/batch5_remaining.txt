@@ -1,0 +1,20 @@
+Prompt: What is the difference between short-term and long-term memory?
+Completion: Short-term memory holds information temporarily for processing; long-term memory stores it more permanently for later retrieval.
+
+Prompt: Explain the concept of schema.
+Completion: A mental framework or structure that organizes knowledge and expectations about the world.
+
+Prompt: What is neuropsychology?
+Completion: The study of how the structure and function of the brain relate to specific psychological processes and behaviors.
+
+Prompt: Define social psychology.
+Completion: The study of how individuals' thoughts, feelings, and behaviors are influenced by the actual or imagined presence of others.
+
+Prompt: What is a defense mechanism?
+Completion: An unconscious psychological strategy used to cope with reality and maintain self-image.
+
+Prompt: Explain the difference between sensation and perception.
+Completion: Sensation is the process of detecting stimuli; perception is the interpretation of those stimuli.
+
+Prompt: Define attention in psychology.
+Completion: The cognitive process of selectively concentrating on one aspect of the environment while ignoring others.
