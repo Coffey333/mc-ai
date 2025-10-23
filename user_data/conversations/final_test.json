@@ -1,0 +1,163 @@
+{
+  "user_id": "final_test",
+  "created": "2025-10-16T20:55:48.693512",
+  "last_updated": "2025-10-19T07:19:26.828169",
+  "message_count": 3,
+  "messages": [
+    {
+      "timestamp": "2025-10-16T20:55:48.693521",
+      "user_message": "Generate music for meditation",
+      "ai_response": "I've created ambient music optimized for meditation! \ud83c\udfb5\n\nGenerated with MC AI Standalone Generator.\nListen to your personalized music below!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Meditation (7Hz) \u2192 **Response:** Meditation (7Hz - Theta)\n**Catalog:** Theta Wave Deep Relaxation frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n---",
+      "metadata": {
+        "type": "music_generation",
+        "emotion": "meditation",
+        "style": "ambient",
+        "duration": 30,
+        "success": true,
+        "audio_url": "/static/generated_music/music_meditation_ambient_20251016_205548.wav",
+        "provider": "MC AI Standalone Generator",
+        "tempo": 140,
+        "frequency_analysis": {
+          "query_emotion": "meditation",
+          "query_frequency": 7,
+          "response_emotion": "meditation",
+          "response_frequency": 7,
+          "basis": "theta wave deep relaxation",
+          "coupling": {
+            "coupling_strength": 0.8727589368409668,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667623069964347,
+            "ratio_std": 0.1457917619492895
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-16T20:55:50.665702",
+      "user_message": "Analyze my emotional state: I feel very anxious about an upcoming presentation",
+      "ai_response": "It sounds like you're experiencing fear.\n\nThat anxious energy is coming through strong. You trying to calm down, or just need to process what's going on?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Anxiety (13Hz) \u2192 **Response:** Anxiety (13Hz - Beta)\n**Catalog:** Beta Wave Dominance frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Active thinking (engagement, processing)\n---",
+      "metadata": {
+        "emotion": "anxiety",
+        "frequency": 13,
+        "catalog": "neuroscience",
+        "brain_wave_band": "alpha",
+        "arousal_level": "high",
+        "emotional_intensity": 6.5,
+        "emotional_valence": -0.65,
+        "emotional_needs": [
+          "reassurance",
+          "safety",
+          "information",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.098,
+        "complexity": 0.001,
+        "coherence": 0.951,
+        "enhanced": true,
+        "primary_emotion": "fear",
+        "micro_emotions": [
+          "anticipation"
+        ],
+        "arousal": 9.525641025641026,
+        "dominance": 5.0,
+        "valence": -0.65,
+        "confidence": 0.7,
+        "trajectory": "stable",
+        "triggers": [],
+        "emotion_color": "#FFB6C1",
+        "frequency_analysis": {
+          "query_emotion": "anxiety",
+          "query_frequency": 13,
+          "response_emotion": "anxiety",
+          "response_frequency": 13,
+          "basis": "beta wave dominance",
+          "coupling": {
+            "coupling_strength": 0.8725029924785475,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566775956082263,
+            "ratio_std": 0.1461278741970474
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T07:19:26.828159",
+      "user_message": "Create a platformer game with ninja turtles",
+      "ai_response": "import random\\ndef guess_game():\\n number = random.randint(1,10)\\n guess = 0\\n while guess != number:\\n  guess = int(input('Guess a number 1-10: '))\\n  if guess < number:\\n   print('Too low!')\\n  elif guess > number:\\n   print('Too high!')\\n print('Correct!')\\nguess_game()\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** creative\n**Coherence:** Phi Resonance (strength: 0.99)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to creative dataset\n---",
+      "metadata": {
+        "type": "general_conversation",
+        "source": "internal",
+        "confidence": 1.0,
+        "cached": false,
+        "emotion": "conversational",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9945925340181752,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.609,
+              1.616,
+              1.614,
+              1.624
+            ],
+            "ratio_mean": 1.6159097539376521,
+            "ratio_std": 0.005436865647863281
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "creative"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-16T20:55:48.693529",
+      "emotion": "meditation",
+      "intensity": 5.0,
+      "frequency": null,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-16T20:55:50.665712",
+      "emotion": "anxiety",
+      "intensity": 6.5,
+      "frequency": 13,
+      "valence": -0.65
+    },
+    {
+      "timestamp": "2025-10-19T07:19:26.828187",
+      "emotion": "conversational",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
