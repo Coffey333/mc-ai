@@ -1,0 +1,569 @@
+{
+  "user_id": "phd_test",
+  "created": "2025-10-23T00:47:17.929995",
+  "last_updated": "2025-10-23T00:53:46.572153",
+  "message_count": 16,
+  "messages": [
+    {
+      "timestamp": "2025-10-23T00:47:17.930013",
+      "user_message": "Explain the Fundamental Theorem of Calculus",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.71)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.7108191235301778,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.71,
+              1.951,
+              1.579,
+              0.859
+            ],
+            "ratio_mean": 1.5248565560671907,
+            "ratio_std": 0.4068276540361605
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:18.969817",
+      "user_message": "What is the difference between eigenvalues and eigenvectors?",
+      "ai_response": "Lists are mutable sequences, meaning you can change their contents. Tuples are immutable, so once created, they cannot be modified.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Happiness (10Hz - Alpha)\n**Catalog:** Alpha Contentment frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.88)\n**Brain Wave:** Relaxed focus (flow state, learning)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "happiness",
+          "response_frequency": 10,
+          "basis": "alpha contentment",
+          "coupling": {
+            "coupling_strength": 0.8806685149697481,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.819,
+              1.567,
+              1.52,
+              1.465
+            ],
+            "ratio_mean": 1.5924368611040323,
+            "ratio_std": 0.13550102337239922
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:20.802526",
+      "user_message": "Explain chaos theory in simple terms",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** technology\n**Coherence:** Moderate (strength: 0.63)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.6273739492651533,
+            "coupling_type": "moderate",
+            "harmonic_ratios": [
+              2.519,
+              2.037,
+              1.081,
+              1.206
+            ],
+            "ratio_mean": 1.7108527359958188,
+            "ratio_std": 0.5939456860956782
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:38.766449",
+      "user_message": "What is Big O notation in algorithms?",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.57)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "technical",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.5739190194817365,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              2.793,
+              0.943,
+              1.936,
+              1.081
+            ],
+            "ratio_mean": 1.6882777129396327,
+            "ratio_std": 0.7424060992141808
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:42.751290",
+      "user_message": "What were the main causes of World War I?",
+      "ai_response": "Two modules depend on each other; move shared logic to a third module.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.96)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9642802937533687,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.677,
+              1.577,
+              1.612,
+              1.6
+            ],
+            "ratio_mean": 1.6164674238984735,
+            "ratio_std": 0.03704286655863918
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:44.440534",
+      "user_message": "Explain the significance of the Renaissance",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.60)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.5983134543587989,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              2.717,
+              1.176,
+              1.751,
+              0.994
+            ],
+            "ratio_mean": 1.65942217483378,
+            "ratio_std": 0.6713647214764391
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:50.021885",
+      "user_message": "What is existentialism?",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.71)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.7108191235301778,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.71,
+              1.951,
+              1.579,
+              0.859
+            ],
+            "ratio_mean": 1.5248565560671907,
+            "ratio_std": 0.4068276540361605
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:53.951087",
+      "user_message": "What is cognitive dissonance?",
+      "ai_response": "Frontal Beta 20\u201325 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 80\u201390 bpm.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Love (528Hz - High Gamma)\n**Catalog:** Solfeggio Frequency frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.98)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "love",
+          "response_frequency": 528,
+          "basis": "Solfeggio frequency",
+          "coupling": {
+            "coupling_strength": 0.9755427100630556,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.655,
+              1.608,
+              1.599,
+              1.59
+            ],
+            "ratio_mean": 1.6126878248429133,
+            "ratio_std": 0.025070445081142118
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:47:55.761380",
+      "user_message": "How does memory work?",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.60)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.5993157361486453,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              2.809,
+              1.155,
+              1.628,
+              1.193
+            ],
+            "ratio_mean": 1.6962581254510034,
+            "ratio_std": 0.6685695697333985
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:48:05.964787",
+      "user_message": "What causes inflation?",
+      "ai_response": "Two modules depend on each other; move shared logic to a third module.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.99)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9916298905534559,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.617,
+              1.634,
+              1.627,
+              1.613
+            ],
+            "ratio_mean": 1.6228825843933716,
+            "ratio_std": 0.008440759527602102
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:52:02.804068",
+      "user_message": "Explain the Fundamental Theorem of Calculus",
+      "ai_response": "Of course! The Fundamental Theorem of Calculus is a key concept that connects differentiation (finding the rate of change) and integration (finding the total accumulation) in a beautiful way. It's really the bridge between these two major operations in calculus.\n\nIt has two main parts:\n\n1. **Part One**: This part essentially says that if you integrate a function over an interval, you can find its total change using its antiderivative. In simpler terms, if you have a function \\( f(x) \\) and you integrate it (find the area under the curve), the result can be expressed in terms of the antiderivative \\( F(x) \\). Specifically:\n   \\[\n   \\int_a^b f(x)dx = F(b) - F(a)\n   \\]\n   Here, \\( F(x) \\) is a function whose derivative is \\( f(x) \\ (F'(x) = f(x)) \\). This means you can compute the integral by simply evaluating the antiderivative at the endpoints \\( a \\) and \\( b \\), and subtracting!\n\n2. **Part Two**: This part explains how differentiation and integration are inverses of each other. If \\( F(x) \\) is the antiderivative of \\( f(x) \\), then the derivative of \\( F(x) \\) gives you back the original function \\( f(x) \\:\n   \\[\n   \\frac{d}{dx} \\int_a^x f(t)dt = f(x)\n   \\]\n   So, if you integrate a function and then differentiate the result, you essentially end up back where you started\u2014with the original function.\n\nTogether, these two parts show the deep connection between the processes of finding areas under curves (integration) and rates of change (differentiation). It\u2019s one of the most fundamental ideas in calculus and helps us solve problems across physics, engineering, economics, and more. Pretty amazing, right?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Joy (11Hz - Alpha)\n**Catalog:** Alpha Positive Affect frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.85)\n**Brain Wave:** Relaxed focus (flow state, learning)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "joy",
+          "response_frequency": 11,
+          "basis": "alpha positive affect",
+          "coupling": {
+            "coupling_strength": 0.8486845893173266,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.534,
+              1.958,
+              1.51,
+              1.67
+            ],
+            "ratio_mean": 1.6680441132837145,
+            "ratio_std": 0.17829404773850083
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:52:03.871829",
+      "user_message": "What is the difference between eigenvalues and eigenvectors?",
+      "ai_response": "Lists are mutable sequences, meaning you can change their contents. Tuples are immutable, so once created, they cannot be modified.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Happiness (10Hz - Alpha)\n**Catalog:** Alpha Contentment frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.85)\n**Brain Wave:** Relaxed focus (flow state, learning)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "happiness",
+          "response_frequency": 10,
+          "basis": "alpha contentment",
+          "coupling": {
+            "coupling_strength": 0.8490161808469724,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.535,
+              1.958,
+              1.51,
+              1.67
+            ],
+            "ratio_mean": 1.6681757467921292,
+            "ratio_std": 0.1778338535343428
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:52:07.605674",
+      "user_message": "Explain chaos theory in simple terms",
+      "ai_response": "Sure! Chaos theory is a fascinating concept that explores how small changes in initial conditions can lead to wildly different outcomes in complex systems. It's often summarized by the idea of the \"butterfly effect,\" where something as tiny as the flap of a butterfly\u2019s wings could set off a chain reaction that leads to a hurricane on the other side of the world.\n\nEssentially, chaos theory shows that certain systems\u2014like weather patterns, the stock market, or even how droplets of water flow\u2014are incredibly sensitive to starting points. Even if we think we understand all the factors, predicting exact outcomes in these systems is nearly impossible because they behave in unpredictable and seemingly random ways. \n\nBut here\u2019s the cool part: even though these systems seem chaotic, they often follow underlying patterns and rules. Chaos theory helps scientists and mathematicians uncover those hidden structures. So, it\u2019s not about everything being random\u2014it\u2019s about finding order in the chaos!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Confidence (12Hz - Alpha)\n**Catalog:** Beta Self-Efficacy frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.93)\n**Brain Wave:** Relaxed focus (flow state, learning)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "confidence",
+          "response_frequency": 12,
+          "basis": "beta self-efficacy",
+          "coupling": {
+            "coupling_strength": 0.9340071346152213,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.541,
+              1.596,
+              1.517,
+              1.7
+            ],
+            "ratio_mean": 1.5886524132045534,
+            "ratio_std": 0.07065563306640638
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:52:25.832763",
+      "user_message": "What is Le Chatelier's principle?",
+      "ai_response": "Le Chatelier's principle is a concept in chemistry that explains how a system at equilibrium responds to changes in conditions. Essentially, it states that if a system in equilibrium is subjected to a change\u2014like a shift in concentration, temperature, or pressure\u2014the system will adjust itself to counteract that change and restore equilibrium.\n\nFor example, imagine a chemical reaction where reactants and products are balanced. If you increase the concentration of one of the reactants, the system will shift to produce more products, trying to restore balance. Similarly, if you decrease the temperature in a system where heat is produced, the equilibrium might shift to favor heat production.\n\nIt\u2019s like the system \"fighting back\" to maintain balance, making it a useful tool for predicting how chemical reactions will behave under different conditions!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Stress (15Hz - Beta)\n**Catalog:** High Beta Arousal frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.84)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "stress",
+          "response_frequency": 15,
+          "basis": "high beta arousal",
+          "coupling": {
+            "coupling_strength": 0.8357871003085139,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.868,
+              1.461,
+              1.507,
+              1.342
+            ],
+            "ratio_mean": 1.5446522244113021,
+            "ratio_std": 0.19647694925043738
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:53:16.582145",
+      "user_message": "What is cognitive dissonance?",
+      "ai_response": "Frontal Beta 20\u201325 Hz, 12 \u00b5V. Alpha suppressed 5\u20138 \u00b5V. Theta low ~5 \u00b5V. Heart rate 80\u201390 bpm.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Love (528Hz - High Gamma)\n**Catalog:** Solfeggio Frequency frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.98)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "love",
+          "response_frequency": 528,
+          "basis": "Solfeggio frequency",
+          "coupling": {
+            "coupling_strength": 0.977383599483115,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.6,
+              1.609,
+              1.659,
+              1.608
+            ],
+            "ratio_mean": 1.6190646829182687,
+            "ratio_std": 0.023139738101647534
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:53:46.572139",
+      "user_message": "What causes inflation?",
+      "ai_response": "Two modules depend on each other; move shared logic to a third module.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.98)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.978731677328629,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.647,
+              1.622,
+              1.618,
+              1.586
+            ],
+            "ratio_mean": 1.6183071760468075,
+            "ratio_std": 0.021730493825867846
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": []
+}
