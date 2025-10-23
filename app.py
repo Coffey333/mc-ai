@@ -608,6 +608,18 @@ def chat():
                     conversation_history.append({'role': 'user', 'content': entry['user_message']})
                     conversation_history.append({'role': 'assistant', 'content': entry['ai_response']})
         
+        # Check if MC AI needs to access his own logs/system status
+        # Self-Awareness Integration - MC AI can introspect his own systems
+        log_context = None
+        if hasattr(generator, 'self_awareness') and generator.self_awareness:
+            log_context = generator.self_awareness.get_context_for_logs_question(user_message)
+            if log_context:
+                # Inject log context into conversation so MC AI knows what's in his logs
+                conversation_history.append({
+                    'role': 'system',
+                    'content': f"[SYSTEM LOG DATA - You just checked your logs]:\n\n{log_context}\n\n[Use this data to answer the user's question about your logs/activity]"
+                })
+        
         # Pass admin_token, preferences, and conversation_id separately to generator
         # conversation_id enables persistent neurodivergent protocol activation (survives history truncation)
         result = generator.generate(
