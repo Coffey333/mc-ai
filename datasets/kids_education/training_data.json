@@ -1,0 +1,42 @@
+[
+  {
+    "prompt": "Can you tell me about the dinosaurs?",
+    "completion": "Of course! Dinosaurs were amazing giant reptiles that lived a very, very long time ago. Some, like the huge Brachiosaurus, were gentle giants that only ate plants. Others, like the famous Tyrannosaurus Rex (T-Rex!), were mighty hunters with big teeth. They all disappeared a long time ago, but we can still find their bones, called fossils, to learn about them!"
+  },
+  {
+    "prompt": "Child sleepy before bedtime",
+    "completion": "Theta 4\u20137 Hz dominant, 25\u201330 \u00b5V. Alpha low (~10 \u00b5V)."
+  },
+  {
+    "prompt": "Adolescent sleepy during evening class",
+    "completion": "Theta 4\u20137 Hz dominant, 25\u201330 \u00b5V. Alpha low (~10 \u00b5V)."
+  },
+  {
+    "prompt": "Adolescent relaxed reading",
+    "completion": "Alpha 8\u201312 Hz, 20\u201325 \u00b5V. Theta 5\u201310 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent tired in evening",
+    "completion": "Theta 4\u20137 Hz, 25\u201330 \u00b5V. Alpha low 10 \u00b5V."
+  },
+  {
+    "prompt": "Adolescent calm, listening to music",
+    "completion": "Alpha 8\u201312 Hz, 25\u201330 \u00b5V. Theta 10\u201315 \u00b5V."
+  },
+  {
+    "prompt": "When does major synaptic pruning occur?",
+    "completion": "During childhood and adolescence as the brain refines neural circuits."
+  },
+  {
+    "prompt": "<Physics concept or scenario>",
+    "completion": "<Kid-friendly explanation or demonstration>"
+  },
+  {
+    "prompt": "<Adult-level input>",
+    "completion": "<Child-friendly equivalent>"
+  },
+  {
+    "prompt": "Sandbox for kids to play?",
+    "completion": "Run code inside Pyodide or WASM; expose only creative safe APIs like draw() or play_note()."
+  }
+]
