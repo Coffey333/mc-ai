@@ -1,0 +1,157 @@
+[
+  {
+    "prompt": "What is 247 + 389?",
+    "response": "247 + 389 = 636",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is 15 \u00d7 23?",
+    "response": "15 \u00d7 23 = 345",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is 144 \u00f7 12?",
+    "response": "144 \u00f7 12 = 12",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "Solve for x: 2x + 5 = 13",
+    "response": "To solve 2x + 5 = 13:\n1. Subtract 5 from both sides: 2x = 8\n2. Divide both sides by 2: x = 4\nAnswer: x = 4",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "Solve the quadratic equation: x\u00b2 - 5x + 6 = 0",
+    "response": "To solve x\u00b2 - 5x + 6 = 0:\nMethod 1 (Factoring): (x - 2)(x - 3) = 0\nTherefore: x = 2 or x = 3\n\nMethod 2 (Quadratic formula): x = (5 \u00b1 \u221a(25-24))/2 = (5 \u00b1 1)/2\nx = 3 or x = 2",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the area of a circle with radius 5?",
+    "response": "The area of a circle is A = \u03c0r\u00b2\nWith radius r = 5:\nA = \u03c0(5)\u00b2 = 25\u03c0 \u2248 78.54 square units",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the Pythagorean theorem?",
+    "response": "The Pythagorean theorem states that in a right triangle, the square of the hypotenuse (c) equals the sum of squares of the other two sides (a and b):\n\na\u00b2 + b\u00b2 = c\u00b2\n\nExample: If a = 3 and b = 4, then c\u00b2 = 9 + 16 = 25, so c = 5",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the derivative of x\u00b2?",
+    "response": "The derivative of x\u00b2 with respect to x is 2x.\n\nUsing the power rule: d/dx(x\u207f) = nx\u207f\u207b\u00b9\nFor x\u00b2: d/dx(x\u00b2) = 2x\u00b2\u207b\u00b9 = 2x",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the integral of 2x?",
+    "response": "The integral of 2x with respect to x is x\u00b2 + C (where C is the constant of integration).\n\n\u222b2x dx = x\u00b2 + C\n\nUsing the power rule for integration: \u222bx\u207f dx = x\u207f\u207a\u00b9/(n+1) + C",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the mean of 3, 7, 9, 12, 15?",
+    "response": "The mean (average) is the sum divided by the count.\n\nSum: 3 + 7 + 9 + 12 + 15 = 46\nCount: 5\nMean: 46 \u00f7 5 = 9.2",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the median of 3, 7, 9, 12, 15?",
+    "response": "The median is the middle value when numbers are arranged in order.\n\nOrdered: 3, 7, 9, 12, 15\nMiddle position: 3rd number\nMedian: 9",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is a prime number?",
+    "response": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.\n\nExamples: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29...\n\nNote: 2 is the only even prime number. All other primes are odd.",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the Fibonacci sequence?",
+    "response": "The Fibonacci sequence is a series where each number is the sum of the two preceding ones:\n\n0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...\n\nFormula: F(n) = F(n-1) + F(n-2)\nWith F(0) = 0 and F(1) = 1\n\nThis sequence appears throughout nature in spiral patterns, flower petals, and tree branches.",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is 456 - 189?",
+    "response": "456 - 189 = 267",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is 25% of 80?",
+    "response": "25% of 80 = 0.25 \u00d7 80 = 20",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "Solve for y: 3y - 7 = 14",
+    "response": "To solve 3y - 7 = 14:\n1. Add 7 to both sides: 3y = 21\n2. Divide both sides by 3: y = 7\nAnswer: y = 7",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the perimeter of a rectangle with length 8 and width 5?",
+    "response": "Perimeter of rectangle = 2(length + width)\nP = 2(8 + 5) = 2(13) = 26 units",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the volume of a cube with side length 4?",
+    "response": "Volume of cube = side\u00b3\nV = 4\u00b3 = 4 \u00d7 4 \u00d7 4 = 64 cubic units",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the derivative of 3x\u00b3?",
+    "response": "Using the power rule: d/dx(x\u207f) = nx\u207f\u207b\u00b9\nFor 3x\u00b3: d/dx(3x\u00b3) = 3 \u00d7 3x\u00b2 = 9x\u00b2",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the mode of 2, 3, 3, 5, 7, 3, 9?",
+    "response": "The mode is the value that appears most frequently.\n\nValues: 2, 3, 3, 5, 7, 3, 9\n3 appears 3 times (most frequent)\nMode: 3",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the range of 5, 12, 8, 15, 3?",
+    "response": "Range = Largest value - Smallest value\n\nLargest: 15\nSmallest: 3\nRange: 15 - 3 = 12",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the greatest common divisor (GCD) of 12 and 18?",
+    "response": "GCD is the largest number that divides both numbers evenly.\n\nFactors of 12: 1, 2, 3, 4, 6, 12\nFactors of 18: 1, 2, 3, 6, 9, 18\nCommon factors: 1, 2, 3, 6\nGCD: 6",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the least common multiple (LCM) of 4 and 6?",
+    "response": "LCM is the smallest number divisible by both numbers.\n\nMultiples of 4: 4, 8, 12, 16, 20...\nMultiples of 6: 6, 12, 18, 24...\nFirst common multiple: 12\nLCM: 12",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is 3/4 + 1/2?",
+    "response": "3/4 + 1/2 = 3/4 + 2/4 = 5/4 = 1 1/4",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is 2.5 \u00d7 4?",
+    "response": "2.5 \u00d7 4 = 10",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the slope formula?",
+    "response": "The slope formula is:\nm = (y\u2082 - y\u2081)/(x\u2082 - x\u2081)\n\nExample: Points (2, 3) and (5, 9)\nm = (9 - 3)/(5 - 2) = 6/3 = 2\n\nSlope represents rate of change.",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the area of a triangle with base 6 and height 4?",
+    "response": "Area of triangle = (1/2) \u00d7 base \u00d7 height\nA = (1/2) \u00d7 6 \u00d7 4 = 12 square units",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the circumference of a circle with radius 3?",
+    "response": "Circumference = 2\u03c0r\nC = 2\u03c0(3) = 6\u03c0 \u2248 18.85 units",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is the derivative of sin(x)?",
+    "response": "The derivative of sin(x) is cos(x).\n\nd/dx[sin(x)] = cos(x)",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is standard deviation?",
+    "response": "Standard deviation measures how spread out numbers are from the mean.\n\n**Steps:**\n1. Find mean\n2. Subtract mean from each value, square the results\n3. Find average of squared differences\n4. Take square root\n\n**Interpretation:**\n- Small SD: Data clustered near mean\n- Large SD: Data spread out",
+    "domain": "mathematics"
+  },
+  {
+    "prompt": "What is a perfect number?",
+    "response": "A perfect number equals the sum of its proper divisors (excluding itself).\n\n**Example: 6**\nDivisors of 6: 1, 2, 3\nSum: 1 + 2 + 3 = 6 \u2713\n\n**Example: 28**\nDivisors: 1, 2, 4, 7, 14\nSum: 1 + 2 + 4 + 7 + 14 = 28 \u2713\n\nPerfect numbers are rare: 6, 28, 496, 8128...",
+    "domain": "mathematics"
+  }
+]
