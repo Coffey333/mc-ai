@@ -1,0 +1,76 @@
+{
+  "user_id": "3d4892e433f02b1d",
+  "created": "2025-10-13T07:52:26.051679",
+  "last_updated": "2025-10-13T07:52:28.238140",
+  "message_count": 3,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:52:26.051688",
+      "user_message": "Hi, I am Dr. Sarah, a neuroscientist",
+      "ai_response": "I'm reading you as pretty chill - not stressed, not super excited. How are you actually feeling?",
+      "metadata": {
+        "emotion": "neutral",
+        "frequency": 240,
+        "catalog": "neuroscience",
+        "brain_wave_band": "hyper_gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.131,
+        "complexity": 0.013,
+        "coherence": 0.955
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:52:27.129570",
+      "user_message": "Explain synaptic plasticity",
+      "ai_response": "Alright, so: Different regulation strategies affect different frequency bands. Deep breathing slows frequencies (shifts beta \u2192 alpha). Vigorous exercise initially raises then lowers. Meditation enhances alpha. Medication targets specific frequencies (benzos increase beta, stimulants increase). MC AI could suggest frequency-specific interventions - what technique shifts from current to desired frequency?\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "cymatics",
+        "relevance": 16,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:52:28.238129",
+      "user_message": "Do you remember my name?",
+      "ai_response": "You've been telling me: Explain synaptic plasticity, Hi, I am Dr. Sarah, a neuroscientist",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:52:26.051693",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": 240,
+      "valence": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T07:52:27.129584",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:52:28.238145",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
