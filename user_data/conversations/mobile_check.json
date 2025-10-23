@@ -1,0 +1,51 @@
+{
+  "user_id": "mobile_check",
+  "created": "2025-10-17T01:32:17.150782",
+  "last_updated": "2025-10-17T01:32:17.150794",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-17T01:32:17.150792",
+      "user_message": "mobile test",
+      "ai_response": "Let me help you with that: For a mobile app, first choose a framework (React Native, Flutter, etc.). Then define your components/screens, set up navigation, and decide on data storage (local or cloud). I can provide starter code for any framework you choose.\n\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Anger (18Hz - Beta)\n**Catalog:** High Beta Agitation frequency mapping\n**Source:** DATASET_BANK | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Active thinking (engagement, processing)\n---",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "patterns",
+        "relevance": 17,
+        "emotion": "neutral",
+        "frequency": 240,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "anger",
+          "response_frequency": 18,
+          "basis": "high beta agitation",
+          "coupling": {
+            "coupling_strength": 0.8726474330340105,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667795030966751,
+            "ratio_std": 0.1459381671738971
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-17T01:32:17.150805",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": 240,
+      "valence": 0
+    }
+  ]
+}
