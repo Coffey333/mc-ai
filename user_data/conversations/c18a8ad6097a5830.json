@@ -1,0 +1,49 @@
+{
+  "user_id": "c18a8ad6097a5830",
+  "created": "2025-10-13T07:48:08.141708",
+  "last_updated": "2025-10-13T07:48:10.331406",
+  "message_count": 2,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:48:08.141716",
+      "user_message": "Explain the latest research on neuroplasticity",
+      "ai_response": "Your brain's hungry for knowledge right now. Let's dig into whatever you're curious about.\n\n**Technical breakdown:** You're at 40Hz - that's gamma wave territory. Peak cognitive performance - intense focus, insights happening, binding everything together.",
+      "metadata": {
+        "emotion": "curiosity",
+        "frequency": 40,
+        "catalog": "neuroscience",
+        "brain_wave_band": "gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.102,
+        "complexity": 0.002,
+        "coherence": 0.952
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:48:10.331395",
+      "user_message": "What are the implications of quantum computing?",
+      "ai_response": "That's an interesting science question! While I don't have specific information about that in my knowledge base, I'd recommend checking educational resources like Khan Academy, NASA's website, or scientific journals for detailed information.",
+      "metadata": {
+        "type": "science_referral",
+        "category": "general_knowledge"
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:48:08.141728",
+      "emotion": "curiosity",
+      "intensity": 5.0,
+      "frequency": 40,
+      "valence": 0.0
+    }
+  ]
+}
