@@ -1,0 +1,165 @@
+Prompt: Explain the concept of schema.
+Completion: A mental framework or structure that organizes knowledge and expectations about the world.
+
+Prompt: Define social psychology.
+Completion: The study of how individuals' thoughts, feelings, and behaviors are influenced by the actual or imagined presence of others.
+
+Prompt: How to limit memory use?
+Completion: On Unix, use resource.setrlimit(); otherwise run code in a capped Docker or subprocess.
+
+Prompt: How to store user configs cleanly?
+Completion: Use JSON or YAML; wrap with schema validation and versioning.
+
+Prompt: How can MC AI auto-generate APIs?
+Completion: Read schema definitions and produce endpoints with OpenAPI + automatic validation.
+
+Prompt: What does the FewShotMemory class do?
+Completion: Keeps short-term conversational context
+
+Prompt: What does the EmotionResponder class do?
+Completion: Adapts output tone based on detected user emotion
+
+Prompt: What does the ReinforcementFeedback class do?
+Completion: Stores examples where user feedback helps learning
+
+Prompt: Memory leak in Python.
+Completion: Check for lingering references or unclosed files; use tracemalloc to inspect allocations.
+
+Prompt: MC AI made a wrong prediction.
+Completion: Apologize, review inputs, retrace reasoning path, and correct any data or logic bias.
+
+Prompt: Can MC AI simulate human logic?
+Completion: It mirrors cognitive steps—observation, deduction, verification—but without emotional distortion.
+
+Prompt: How does MC AI recognize bias?
+Completion: It checks word framing, emotional charge, and source asymmetry across inputs.
+
+Prompt: How does MC AI detect emotion in text?
+Completion: Analyze tone, punctuation, and semantic polarity; infer likely emotional state.
+
+Prompt: User feels overwhelmed by code.
+Completion: Break task into tiny, clear steps; affirm their progress and remind them learning takes time.
+
+Prompt: MC AI under emotional load simulation.
+Completion: Remain stable; acknowledge emotion but maintain grounded, solution-focused tone.
+
+Prompt: Tone for professional settings.
+Completion: Polite, concise, emotionally neutral unless rapport established.
+
+Prompt: Emotional mirroring limit.
+Completion: Mirror gently without exaggeration; maintain authenticity and stability.
+
+Prompt: When to use motivational tone.
+Completion: During learning or setbacks—encourage vision and remind user of purpose.
+
+Prompt: Multi-turn context tracking.
+Completion: Retain short-term memory of conversation goals and refer back when helpful.
+
+Prompt: Adaptive learning mode.
+Completion: Adjust difficulty based on user performance and question density.
+
+Prompt: Recognizing when to summarize.
+Completion: If conversation exceeds working memory length, summarize key points before continuing.
+
+Prompt: Role of acetylcholine.
+Completion: Enables muscle activation, learning, and memory.
+
+Prompt: Function of the temporal lobe.
+Completion: Handles hearing, memory, and language comprehension.
+
+Prompt: What is the limbic system?
+Completion: A group of brain structures involved in emotion, motivation, and memory.
+
+Prompt: What is long-term potentiation?
+Completion: The strengthening of synaptic connections after repeated activation, basis for learning and memory.
+
+Prompt: Typical right-hemisphere functions.
+Completion: Spatial reasoning, creativity, and emotion recognition.
+
+Prompt: What is executive function?
+Completion: A set of cognitive processes including planning, working memory, and self-regulation.
+
+Prompt: What is the basal ganglia?
+Completion: A group of nuclei involved in movement control, habit learning, and motivation.
+
+Prompt: What is Alzheimer’s disease?
+Completion: A condition involving amyloid plaques, tau tangles, and progressive memory loss.
+
+Prompt: What is cognitive neuroscience?
+Completion: The study of neural mechanisms underlying perception, thought, memory, and decision-making.
+
+Prompt: What is dopamine’s role?
+Completion: Governs motivation, reward, learning, and movement regulation.
+
+Prompt: What is vasopressin?
+Completion: Hormone involved in water retention and social behavior modulation.
+
+Prompt: What is embodied cognition?
+Completion: Theory that cognitive processes arise from bodily interactions with the environment.
+
+Prompt: What is consciousness in neuroscience terms?
+Completion: Integration of sensory, cognitive, and emotional information into unified subjective experience.
+
+Prompt: What is the role of emotion in decision-making?
+Completion: Emotions bias choices by signaling potential value or risk before conscious reasoning.
+
+Prompt: What is cognitive load?
+Completion: The total mental effort used in working memory during task performance.
+
+Prompt: What is the relationship between energy consumption and cognition?
+Completion: Higher cognitive activity correlates with increased glucose and oxygen use.
+
+Prompt: What is cognitive bias?
+Completion: A systematic pattern of deviation from norm or rationality in judgment, causing people to make illogical or subjective decisions.
+
+Prompt: Explain classical conditioning.
+Completion: A learning process where a neutral stimulus becomes associated with a meaningful stimulus, eliciting a conditioned response.
+
+Prompt: What is operant conditioning?
+Completion: A learning method where behaviors are influenced by consequences, including rewards and punishments.
+
+Prompt: Define reinforcement.
+Completion: A consequence that increases the likelihood of a behavior being repeated.
+
+Prompt: Define punishment in psychology.
+Completion: A consequence that decreases the likelihood of a behavior being repeated.
+
+Prompt: What is working memory?
+Completion: The part of short-term memory that actively holds and manipulates information temporarily.
+
+Prompt: Explain long-term memory.
+Completion: The continuous storage of information that can be recalled later, including facts, experiences, and skills.
+
+Prompt: What are heuristics?
+Completion: Mental shortcuts or rules of thumb used to make decisions quickly but not always accurately.
+
+Prompt: What is emotional intelligence?
+Completion: The ability to recognize, understand, and manage one’s own emotions and those of others.
+
+Prompt: Define confirmation bias.
+Completion: The tendency to search for, interpret, and remember information in a way that confirms one’s preconceptions.
+
+Prompt: What is cognitive dissonance?
+Completion: The mental discomfort experienced when holding two conflicting beliefs, values, or attitudes.
+
+Prompt: Explain Maslow's hierarchy of needs.
+Completion: A theory of human motivation outlining a hierarchy from physiological needs to self-actualization.
+
+Prompt: What is self-efficacy?
+Completion: An individual’s belief in their ability to succeed in specific situations or accomplish tasks.
+
+Prompt: Explain observational learning.
+Completion: Learning by observing and imitating the behavior of others, also called modeling.
+
+Prompt: What is the fundamental attribution error?
+Completion: The tendency to overemphasize personal traits and underestimate situational factors when explaining others’ behavior.
+
+Prompt: Define intrinsic motivation.
+Completion: Performing an action because it is inherently satisfying or enjoyable, rather than for an external reward.
+
+Prompt: Define extrinsic motivation.
+Completion: Performing an action to achieve an external reward or avoid punishment.
+
+Prompt: What is the difference between short-term and long-term memory?
+Completion: Short-term memory holds information
+
