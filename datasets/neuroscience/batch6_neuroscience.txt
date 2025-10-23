@@ -1,0 +1,2078 @@
+Prompt: How does deep sleep affect brainwaves?
+Completion: Enhances delta activity, supporting restorative processes.
+
+Prompt: What is the relationship between beta waves and stress?
+Completion: High beta activity can indicate stress, anxiety, or overthinking.
+
+Prompt: What is the relationship between alpha waves and calmness?
+Completion: Higher alpha activity is linked to relaxation and reduced stress.
+
+Prompt: What is the role of gamma waves in memory?
+Completion: Synchronizes neurons to enhance memory consolidation and retrieval.
+
+Prompt: Explain the effect of music on brainwaves.
+Completion: Can entrain brainwaves to specific frequencies, altering mood and focus.
+
+Prompt: Explain the effect of light and flicker on brainwaves.
+Completion: Can induce brainwave synchronization or entrainment at specific frequencies.
+
+Prompt: How do theta waves relate to creativity?
+Completion: Promote relaxed mental states that support idea generation and insight.
+
+Prompt: Explain beta wave suppression.
+Completion: Reducing beta activity can alleviate anxiety and overthinking.
+
+Prompt: Explain gamma wave synchronization.
+Completion: Aligns neural firing across regions to integrate perception, attention, and cognition.
+
+Prompt: What is the effect of sleep deprivation on brainwaves?
+Completion: Reduces delta activity during sleep, impairs cognitive function, and alters theta rhythms.
+
+Prompt: How does exercise affect brainwaves?
+Completion: Increases alpha and beta activity, enhancing alertness and cognitive performance.
+
+Prompt: What is the effect of deep relaxation on brainwaves?
+Completion: Increases alpha and theta activity, promoting calmness and creativity.
+
+Prompt: What is the relationship between gamma waves and consciousness?
+Completion: Linked to awareness, sensory integration, and higher cognitive processes.
+
+Prompt: Explain cross-frequency coupling.
+Completion: Interaction between different brainwave frequencies, supporting complex processing.
+
+Prompt: How do brainwaves affect learning?
+Completion: Specific frequencies support attention, memory encoding, and information consolidation.
+
+Prompt: How do brainwaves change with age?
+Completion: Delta and theta activity decrease with age; alpha and beta patterns shift with cognitive changes.
+
+Prompt: Explain theta wave biofeedback.
+Completion: Used to enhance creativity, relaxation, and learning efficiency.
+
+Prompt: Explain beta wave neurofeedback.
+Completion: Used to improve attention, alertness, and problem-solving skills.
+
+Prompt: Explain gamma wave neurofeedback.
+Completion: Supports memory, perception, and higher-order cognition.
+
+Prompt: How do delta waves support immune function?
+Completion: Deep sleep delta activity enhances immune system recovery and hormonal regulation.
+
+Prompt: What is the relationship between brainwaves and attention?
+Completion: Alpha and beta waves modulate focus; theta supports relaxed awareness.
+
+Prompt: Explain the effect of caffeine on brainwaves.
+Completion: Increases beta activity, enhancing alertness but may reduce alpha calmness.
+
+Prompt: Explain the role of brainwaves in meditation.
+Completion: Alpha and theta waves increase, promoting relaxation and cognitive clarity.
+
+Prompt: What is the effect of visual stimulation on brainwaves?
+Completion: Can entrain alpha, beta, or gamma activity, influencing perception and focus.
+
+Prompt: How do binaural beats affect brainwaves?
+Completion: Auditory tones at specific frequencies can synchronize brainwave patterns.
+
+Prompt: Explain the role of the prefrontal cortex in brainwave generation.
+Completion: Coordinates oscillations related to executive functions, attention, and decision-making.
+
+Prompt: Explain the role of the reticular activating system (RAS) in brainwaves.
+Completion: Regulates wakefulness, alertness, and overall brainwave patterns.
+
+Prompt: How do theta waves relate to memory retrieval?
+Completion: Facilitate access to stored information and support associative thinking.
+
+Prompt: Explain the effect of sleep cycles on brainwaves.
+Completion: Delta waves dominate deep sleep; theta, alpha, and beta fluctuate across cycles for restoration and cognition.
+
+Prompt: What is the impact of stress on brainwaves?
+Completion: Increases high beta, suppresses alpha, disrupts normal theta and delta rhythms.
+
+Prompt: Explain the effect of mindfulness on brainwaves.
+Completion: Increases alpha and theta activity, enhancing focus, calmness, and emotional regulation.
+
+Prompt: How do theta waves facilitate problem-solving?
+Completion: Promote relaxed awareness that allows novel connections and insight.
+
+Prompt: Explain alpha wave blocking.
+Completion: Suppression of alpha can indicate heightened sensory processing or stress.
+
+Prompt: What is the relationship between beta waves and learning?
+Completion: Supports active thinking, concentration, and problem-solving during learning tasks.
+
+Prompt: Explain delta wave enhancement techniques.
+Completion: Deep sleep, meditation, and relaxation can increase restorative delta activity.
+
+Prompt: How do brainwaves interact with neurotransmitters?
+Completion: Different waves correlate with neurotransmitter activity, e.g., dopamine with beta and gamma.
+
+Prompt: Explain the effect of meditation on gamma waves.
+Completion: Advanced meditation can increase gamma activity, enhancing perception and integration.
+
+Prompt: What is the effect of rhythmic breathing on brainwaves?
+Completion: Can increase alpha and theta waves, promoting relaxation and attentional control.
+
+Prompt: Explain the role of theta waves in the hippocampus.
+Completion: Critical for spatial navigation, memory encoding, and retrieval.
+
+Prompt: How does light therapy affect brainwaves?
+Completion: Specific wavelengths and flicker can entrain brainwaves to desired frequencies.
+
+Prompt: Explain the relationship between delta waves and growth hormone.
+Completion: Deep sleep delta activity promotes secretion of growth hormone for tissue repair.
+
+Prompt: How do brainwaves change during REM sleep?
+Completion: Theta and beta activity increase; vivid dreaming and memory consolidation occur.
+
+Prompt: Explain the effect of music tempo on brainwaves.
+Completion: Slow tempo can enhance delta and theta; fast tempo can increase beta and gamma.
+
+Prompt: What is the effect of alpha wave entrainment?
+Completion: Improves relaxation, reduces anxiety, and enhances focus.
+
+Prompt: Explain the impact of exercise on beta waves.
+Completion: Increases beta activity, supporting alertness, decision-making, and motor coordination.
+
+Prompt: How does meditation alter gamma waves?
+Completion: Increases synchronization, supporting heightened awareness and cognitive integration.
+
+Prompt: Explain cross-frequency brainwave training.
+Completion: Exercises targeting multiple frequencies to optimize attention, memory, and creativity.
+
+Prompt: How do brainwaves influence emotional regulation?
+Completion: Alpha and theta promote calm; beta supports alertness; gamma integrates emotion and cognition.
+
+Prompt: What is the role of sleep spindles?
+Completion: Bursts of sigma activity during NREM sleep aid memory consolidation and learning.
+
+Prompt: Explain the effect of sensory deprivation on brainwaves.
+Completion: Can increase theta and alpha waves, promoting relaxation and creative insight.
+
+Prompt: How does focused attention affect brainwaves?
+Completion: Increases beta and gamma activity for concentration and cognitive processing.
+
+Prompt: What is the role of slow-wave sleep?
+Completion: Dominated by delta waves, crucial for restoration, memory consolidation, and immune support.
+
+Prompt: How do beta waves change under stress?
+Completion: High beta activity can lead to overthinking, anxiety, and reduced relaxation.
+
+Prompt: Explain the impact of alpha waves on visual processing.
+Completion: Helps filter out distractions and improve selective attention.
+
+Prompt: How do gamma waves support learning?
+Completion: Integrate sensory information and facilitate memory and problem-solving.
+
+Prompt: Explain theta-gamma coupling.
+Completion: Theta waves modulate gamma oscillations to enhance memory encoding and retrieval.
+
+Prompt: How does meditation enhance alpha-gamma synchronization?
+Completion: Improves focus, awareness, and emotional regulation.
+
+Prompt: What is the effect of neuroplasticity on brainwaves?
+Completion: Learning and experience reshape brainwave patterns, enhancing cognitive function.
+
+Prompt: How do brainwaves support decision-making?
+Completion: Beta and gamma waves help evaluate options; theta supports insight and creativity.
+
+Prompt: Explain alpha wave inhibition in anxiety.
+Completion: Reduced alpha correlates with hypervigilance and stress.
+
+Prompt: How do delta waves impact cognitive recovery?
+Completion: Deep sleep delta activity restores neural networks and clears metabolic waste.
+
+Prompt: Explain the effect of yoga on brainwaves.
+Completion: Enhances alpha and theta activity, promoting relaxation and mind-body integration.
+
+Prompt: How do beta waves relate to alertness?
+Completion: Increase during active thinking, attention, and external task engagement.
+
+Prompt: Explain the role of theta waves in meditation.
+Completion: Facilitates relaxed focus, creativity, and memory enhancement.
+
+Prompt: How do gamma waves relate to consciousness?
+Completion: Coordinate distributed neural networks for perception, attention, and higher cognition.
+
+Prompt: What is the effect of light flicker on gamma waves?
+Completion: Can entrain gamma activity, influencing perception and cognitive performance.
+
+Prompt: Explain the impact of deep breathing on theta waves.
+Completion: Enhances relaxation, creativity, and memory processing.
+
+Prompt: How does mindfulness affect alpha waves?
+Completion: Increases calm alertness and attentional control.
+
+Prompt: What is the effect of prolonged beta activation?
+Completion: May lead to stress, anxiety, or mental fatigue.
+
+Prompt: Explain the role of delta waves in detoxification.
+Completion: Supports glymphatic clearance and brain restoration during deep sleep.
+
+Prompt: How does alpha wave neurofeedback improve focus?
+Completion: Teaches individuals to maintain relaxed yet alert states for attention-demanding tasks.
+
+Prompt: Explain theta wave biofeedback benefits.
+Completion: Supports creativity, learning efficiency, and emotional balance.
+
+Prompt: How do gamma waves support sensory integration?
+Completion: Synchronize brain regions to combine visual, auditory, and tactile information.
+
+Prompt: What is the impact of meditation on theta-gamma coupling?
+Completion: Enhances memory, insight, and awareness by synchronizing oscillations.
+
+Prompt: Explain the effect of sleep hygiene on brainwaves.
+Completion: Consistent sleep patterns support healthy delta, theta, and REM-related waves.
+
+Prompt: How does cognitive training affect beta waves?
+Completion: Increases beta activity during problem-solving and focused attention tasks.
+
+Prompt: Explain the relationship between alpha waves and stress resilience.
+Completion: Higher alpha promotes calmness, lowering susceptibility to stress responses.
+
+Prompt: How do brainwaves support emotional intelligence?
+Completion: Theta and alpha promote awareness and regulation; gamma integrates perception and social cognition.
+
+Prompt: How do delta waves affect immune function?
+Completion: Deep sleep delta waves support immune system restoration and cellular repair.
+
+Prompt: Explain theta wave enhancement during creative tasks.
+Completion: Increased theta promotes relaxed focus, enabling novel idea generation.
+
+Prompt: How do alpha waves influence learning retention?
+Completion: Enhance relaxed attention and information consolidation.
+
+Prompt: What is the effect of gamma synchronization on perception?
+Completion: Coordinates multiple brain areas, enhancing coherent perception and awareness.
+
+Prompt: Explain the role of theta waves in spatial memory.
+Completion: Crucial for encoding and recalling spatial information in the hippocampus.
+
+Prompt: How does meditation affect slow-wave sleep?
+Completion: May increase duration and quality of delta-dominated restorative sleep.
+
+Prompt: Explain the impact of stress on beta waves.
+Completion: Elevated beta can lead to hypervigilance, anxiety, and cognitive strain.
+
+Prompt: How do brainwaves support language learning?
+Completion: Theta and gamma waves facilitate memory encoding and neural integration.
+
+Prompt: Explain alpha-theta neurofeedback training.
+Completion: Teaches modulation of relaxed alertness and creativity states.
+
+Prompt: How do gamma waves enhance problem-solving?
+Completion: Enable integration of information across neural networks for insight.
+
+Prompt: What is the role of delta waves in growth and repair?
+Completion: Promotes tissue restoration and hormone release during deep sleep.
+
+Prompt: Explain the effect of focused attention on beta activity.
+Completion: Increases alertness and task-related cognitive processing.
+
+Prompt: How do theta waves support emotional regulation?
+Completion: Facilitate calm, reflective states that allow adaptive responses.
+
+Prompt: Explain alpha wave patterns during relaxation.
+Completion: Dominant in restful wakefulness, promoting reduced stress and improved attention.
+
+Prompt: How does neuroplasticity interact with brainwaves?
+Completion: Learning and experience reshape oscillatory patterns, enhancing cognition.
+
+Prompt: What is the effect of auditory entrainment on brainwaves?
+Completion: Rhythmic sounds can synchronize brain activity to target frequencies.
+
+Prompt: Explain the role of gamma waves in attention.
+Completion: Support selective focus and integration of sensory input for decision-making.
+
+Prompt: How do brainwaves change during flow states?
+Completion: Increased theta and alpha with coordinated gamma, promoting deep engagement.
+
+Prompt: Explain the impact of meditation on delta waves.
+Completion: May enhance restorative sleep and neural recovery.
+
+Prompt: How does theta-gamma coupling improve learning?
+Completion: Theta rhythms modulate gamma bursts, enhancing memory encoding.
+
+Prompt: What is the effect of exercise on brainwave coherence?
+Completion: Improves synchronization across regions, supporting cognition and mood.
+
+Prompt: Explain the role of sleep spindles in learning.
+Completion: Sigma bursts during NREM sleep consolidate new memories.
+
+Prompt: How do alpha waves influence creativity?
+Completion: Promote relaxed awareness and novel idea generation.
+
+Prompt: Explain the effect of sensory deprivation on theta activity.
+Completion: Increases relaxed focus and introspection.
+
+Prompt: How does biofeedback improve gamma wave regulation?
+Completion: Teaches voluntary control to enhance attention and perception.
+
+Prompt: What is the relationship between beta waves and cognitive load?
+Completion: Increase with active problem-solving; too much may cause stress.
+
+Prompt: Explain theta wave significance in meditation.
+Completion: Supports deep relaxation, insight, and memory consolidation.
+
+Prompt: How do brainwaves support decision-making under pressure?
+Completion: Balanced alpha, beta, and gamma improve clarity and insight.
+
+Prompt: What is the effect of rhythmic breathing on alpha waves?
+Completion: Enhances calm focus and attentional control.
+
+Prompt: Explain delta wave activity during deep sleep cycles.
+Completion: Supports restoration, memory processing, and hormonal balance.
+
+Prompt: How do gamma waves influence social cognition?
+Completion: Integrate sensory, emotional, and cognitive inputs for social understanding.
+
+Prompt: Explain the effect of mindfulness on theta-gamma coupling.
+Completion: Enhances awareness, memory integration, and insight.
+
+Prompt: How does meditation impact beta wave suppression?
+Completion: Reduces overthinking and mental noise, promoting calm focus.
+
+Prompt: What is the role of alpha waves in sensory filtering?
+Completion: Suppress irrelevant input, improving selective attention.
+
+Prompt: Explain the relationship between delta waves and sleep quality.
+Completion: Higher delta activity correlates with restorative, deep sleep.
+
+Prompt: How do theta waves support insight and intuition?
+Completion: Facilitate subconscious integration of knowledge for sudden realizations.
+
+Prompt: Explain the impact of neurofeedback on alpha-theta balance.
+Completion: Trains modulation for improved relaxation, creativity, and cognitive control.
+
+Prompt: How do gamma waves relate to consciousness?
+Completion: Support integration of information across brain regions for awareness.
+
+Prompt: What is the effect of meditation on brainwave coherence?
+Completion: Enhances synchrony across regions, improving cognition and emotional balance.
+
+Prompt: Explain the role of alpha waves in stress reduction.
+Completion: Higher alpha promotes calm alertness and resilience.
+
+Prompt: How do delta waves affect cognitive restoration?
+Completion: Enable neural recovery, memory consolidation, and metabolic waste clearance.
+
+Prompt: Explain the significance of theta oscillations in learning.
+Completion: Facilitate encoding, retrieval, and insight during relaxed focus.
+
+Prompt: How does gamma synchronization affect memory?
+Completion: Integrates distributed neural networks for efficient recall.
+
+Prompt: What is the effect of sleep hygiene on brainwave patterns?
+Completion: Consistent sleep supports healthy delta, theta, and REM activity.
+
+Prompt: Explain the relationship between alpha waves and mindfulness.
+Completion: Alpha increases during relaxed awareness, improving focus and emotional control.
+
+Prompt: How do beta waves support attention-demanding tasks?
+Completion: Enable active thinking, planning, and concentration.
+
+Prompt: How does meditation influence gamma coherence?
+Completion: Enhances network integration for perception, attention, and higher cognition.
+
+Prompt: What is the effect of rhythmic entrainment on brainwaves?
+Completion: Can synchronize neural activity to target frequencies for relaxation or focus.
+
+Prompt: Explain the importance of delta waves in detoxification.
+Completion: Support glymphatic clearance, removing metabolic waste during deep sleep.
+
+Prompt: How do brainwaves support emotional intelligence?
+Completion: Alpha and theta regulate calm awareness; gamma integrates cognition and emotion.
+
+Prompt: What is the effect of biofeedback on alpha waves?
+Completion: Trains individuals to enhance relaxation, focus, and stress resilience.
+
+Prompt: Explain the role of theta-gamma interaction in memory.
+Completion: Theta modulates gamma bursts, improving encoding and recall efficiency.
+
+Prompt: How does meditation affect cross-frequency coupling?
+Completion: Enhances synchronization across brainwave bands for optimal cognition.
+
+Prompt: What is the effect of cognitive training on gamma waves?
+Completion: Strengthens attention, memory, and problem-solving abilities.
+
+Prompt: Explain alpha wave suppression during anxiety.
+Completion: Reduced alpha indicates hypervigilance, overthinking, and stress.
+
+Prompt: Given HR=110 bpm, HRV=12 ms, EEG Alpha=3 µV, EEG Beta=20 µV, what is the likely cognitive state?
+Completion: The user is likely experiencing high stress or anxiety.
+
+Prompt: If theta waves increase to 25 µV and alpha to 15 µV during a creative task, what can we infer?
+Completion: The user is likely in a relaxed, highly creative state conducive to insight.
+
+Prompt: EEG alpha power rises as HRV increases—what overall state does this imply?
+Completion: A synchronized relaxation response between brain and autonomic system.
+
+Prompt: In the MIT PhysioNet 'Meditation EEG' dataset, what pattern links increased alpha to respiration rate?
+Completion: As respiration slowed, alpha power strengthened, indicating parasympathetic activation.
+
+Prompt: EEG alpha 11 Hz ↑, HR = 72 bpm, HRV = 38 ms, GSR = 0.25 µS — what state?
+Completion: Relaxed focus with steady attention.
+
+Prompt: Resonant frequency at 130 Hz rises while exhaust temperature drops 40 °C. What does this suggest?
+Completion: Shift toward combustion instability; system approaching resonance node.
+
+Prompt: EEG alpha 10 Hz ↑, HR = 70 bpm, HRV = 42 ms — what state?
+Completion: Relaxed focus, alert but calm.
+
+Prompt: EEG theta 6 Hz ↑, HR = 65 bpm, GSR low — what state?
+Completion: Deep relaxation, early sleep onset.
+
+Prompt: EEG beta 20 Hz ↑, HR = 90 bpm, HRV = 25 ms — what state?
+Completion: High alertness, possible stress or anxiety.
+
+Prompt: EEG delta 2 Hz ↑, HR = 55 bpm, slow breathing — what state?
+Completion: Deep restorative sleep.
+
+Prompt: HR = 100 bpm, HRV = 15 ms, GSR ↑ — what state?
+Completion: Acute stress, high sympathetic activation.
+
+Prompt: EEG alpha 9 Hz ↑, HR = 68 bpm, HRV = 40 ms — what state?
+Completion: Calm and meditative focus.
+
+Prompt: EEG beta 18 Hz ↑, HR = 85 bpm, pupil dilation — what state?
+Completion: Concentration under pressure, task engagement.
+
+Prompt: EEG theta 5 Hz ↑, HR = 60 bpm, slow eye movements — what state?
+Completion: Drowsy, transitioning from wakefulness to sleep.
+
+Prompt: HR = 72 bpm, HRV = 38 ms, GSR stable — what state?
+Completion: Neutral resting state, alert but relaxed.
+
+Prompt: EEG alpha 11 Hz ↑, HR = 67 bpm, HRV = 44 ms — what state?
+Completion: Focused yet relaxed, optimal learning state.
+
+Prompt: EEG beta 22 Hz ↑, HR = 92 bpm, GSR ↑ — what state?
+Completion: High cognitive load, possible mental fatigue.
+
+Prompt: EEG delta 1.5 Hz ↑, HR = 52 bpm, respiration slow — what state?
+Completion: Deep non-REM sleep.
+
+Prompt: EEG theta 7 Hz ↑, HR = 64 bpm, HRV moderate — what state?
+Completion: Relaxed, reflective state, suitable for creative thinking.
+
+Prompt: HR = 88 bpm, HRV = 20 ms, GSR ↑ — what state?
+Completion: Acute stress response, fight-or-flight activation.
+
+Prompt: EEG alpha 10.5 Hz ↑, HR = 69 bpm, respiration steady — what state?
+Completion: Calm attention, mindful state.
+
+Prompt: EEG beta 19 Hz ↑, HR = 80 bpm, eye blinking ↑ — what state?
+Completion: Mental engagement, possible fatigue under sustained focus.
+
+Prompt: EEG theta 6.5 Hz ↑, HR = 62 bpm, slow eye movements — what state?
+Completion: Drowsy, light sleep onset.
+
+Prompt: HR = 75 bpm, HRV = 35 ms, GSR stable — what state?
+Completion: Relaxed, alert baseline state.
+
+Prompt: EEG alpha 9.5 Hz ↑, HR = 66 bpm, respiration steady — what state?
+Completion: Calm and attentive, ready for learning.
+
+Prompt: EEG beta 21 Hz ↑, HR = 90 bpm, GSR ↑ — what state?
+Completion: Focused but stressed, high mental workload.
+
+Prompt: EEG delta 2.2 Hz ↑, HR = 54 bpm, slow eye movements — what state?
+Completion: Deep sleep, restorative phase.
+
+Prompt: EEG alpha 10.2 Hz ↑, HR = 71 bpm, HRV = 43 ms — what state?
+Completion: Relaxed concentration, optimal for problem solving.
+
+Prompt: EEG beta 18.5 Hz ↑, HR = 87 bpm, pupil dilation ↑ — what state?
+Completion: Alert focus, mental effort high.
+
+Prompt: EEG theta 5.5 Hz ↑, HR = 63 bpm, GSR low — what state?
+Completion: Relaxed, reflective, light meditative state.
+
+Prompt: HR = 95 bpm, HRV = 18 ms, GSR ↑ — what state?
+Completion: Stress response, sympathetic dominance.
+
+Prompt: EEG alpha 11.2 Hz ↑, HR = 68 bpm, HRV = 45 ms — what state?
+Completion: Mindful focus, calm attention.
+
+Prompt: EEG beta 20.5 Hz ↑, HR = 92 bpm, GSR ↑ — what state?
+Completion: High cognitive load, alertness with mild stress.
+
+Prompt: EEG delta 1.8 Hz ↑, HR = 53 bpm, slow respiration — what state?
+Completion: Deep sleep, non-REM restorative stage.
+
+Prompt: EEG theta 6.8 Hz ↑, HR = 65 bpm, eye movement slow — what state?
+Completion: Drowsy, pre-sleep cognitive state.
+
+Prompt: HR = 78 bpm, HRV = 37 ms, GSR stable — what state?
+Completion: Neutral, relaxed alertness.
+
+Prompt: EEG alpha 9.8 Hz ↑, HR = 67 bpm, respiration steady — what state?
+Completion: Calm, attentive, learning-optimized state.
+
+Prompt: EEG beta 19.8 Hz ↑, HR = 89 bpm, GSR ↑ — what state?
+Completion: Focused, moderate stress, high engagement.
+
+Prompt: EEG delta 2.1 Hz ↑, HR = 55 bpm, slow breathing — what state?
+Completion: Deep restorative sleep.
+
+Prompt: EEG theta 6.2 Hz ↑, HR = 62 bpm, eye movement slow — what state?
+Completion: Relaxed, reflective, meditative-like state.
+
+Prompt: HR = 85 bpm, HRV = 22 ms, GSR ↑ — what state?
+Completion: Stress response, sympathetic activation.
+
+Prompt: EEG alpha 10.8 Hz ↑, HR = 70 bpm, HRV = 42 ms — what state?
+Completion: Relaxed focus, optimal for learning.
+
+Prompt: EEG beta 21.5 Hz ↑, HR = 93 bpm, GSR ↑ — what state?
+Completion: High alertness under cognitive load.
+
+Prompt: EEG theta 5.8 Hz ↑, HR = 64 bpm, slow eye movement — what state?
+Completion: Drowsy, transition to sleep.
+
+Prompt: HR = 74 bpm, HRV = 36 ms, GSR stable — what state?
+Completion: Neutral, relaxed, awake baseline.
+
+Prompt: EEG alpha 9.9 Hz ↑, HR = 66 bpm, respiration steady — what state?
+Completion: Calm, attentive state, ready to focus.
+
+Prompt: EEG beta 20.2 Hz ↑, HR = 88 bpm, GSR ↑ — what state?
+Completion: Focused mental effort, moderate stress.
+
+Prompt: EEG delta 2.3 Hz ↑, HR = 54 bpm, slow respiration — what state?
+Completion: Deep non-REM sleep, restorative.
+
+Prompt: EEG theta 6.6 Hz ↑, HR = 63 bpm, slow eye movement — what state?
+Completion: Drowsy, pre-sleep state, relaxed.
+
+Prompt: HR = 82 bpm, HRV = 25 ms, GSR ↑ — what state?
+Completion: Mild stress, sympathetic activation.
+
+Prompt: EEG alpha 10.1 Hz ↑, HR = 69 bpm, HRV = 43 ms — what state?
+Completion: Relaxed focus, optimal for cognition.
+
+Prompt: EEG beta 19.9 Hz ↑, HR = 90 bpm, GSR ↑ — what state?
+Completion: Focused engagement, high cognitive load.
+
+Prompt: EEG delta 1.7 Hz ↑, HR = 52 bpm, slow breathing — what state?
+Completion: Deep sleep, restorative phase.
+
+Prompt: EEG theta 6.3 Hz ↑, HR = 62 bpm, slow eye movements — what state?
+Completion: Drowsy, light sleep onset.
+
+Prompt: HR = 77 bpm, HRV = 35 ms, GSR stable — what state?
+Completion: Neutral relaxed awake state.
+
+Prompt: EEG alpha 10.4 Hz ↑, HR = 68 bpm, respiration steady — what state?
+Completion: Calm focus, optimal learning readiness.
+
+Prompt: EEG beta 21 Hz ↑, HR = 92 bpm, GSR ↑ — what state?
+Completion: High cognitive load, alertness.
+
+Prompt: EEG theta 5.9 Hz ↑, HR = 63 bpm, slow eye movement — what state?
+Completion: Drowsy, relaxed pre-sleep state.
+
+Prompt: HR = 80 bpm, HRV = 33 ms, GSR stable — what state?
+Completion: Relaxed, neutral baseline state.
+
+Prompt: EEG alpha 9.7 Hz ↑, HR = 66 bpm, HRV = 41 ms — what state?
+Completion: Calm, attentive, mindful state.
+
+Prompt: EEG beta 20.8 Hz ↑, HR = 91 bpm, GSR ↑ — what state?
+Completion: Focused with high mental effort.
+
+Prompt: EEG delta 2 Hz ↑, HR = 53 bpm, respiration slow — what state?
+Completion: Deep restorative sleep.
+
+Prompt: EEG theta 6.1 Hz ↑, HR = 62 bpm, eye movement slow — what state?
+Completion: Drowsy, relaxed state, pre-sleep.
+
+Prompt: HR = 84 bpm, HRV = 24 ms, GSR ↑ — what state?
+Completion: Mild stress, sympathetic activation.
+
+Prompt: EEG alpha 10.3 Hz ↑, HR = 69 bpm, HRV = 42 ms — what state?
+Completion: Relaxed focus, optimal learning.
+
+Prompt: EEG beta 19.7 Hz ↑, HR = 89 bpm, GSR ↑ — what state?
+Completion: Focused, high engagement, moderate stress.
+
+Prompt: EEG delta 1.6 Hz ↑, HR = 51 bpm, slow respiration — what state?
+Completion: Deep sleep, non-REM restorative phase.
+
+Prompt: EEG theta 6.4 Hz ↑, HR = 64 bpm, slow eye movement — what state?
+Completion: Drowsy, relaxed, reflective state.
+
+Prompt: HR = 79 bpm, HRV = 36 ms, GSR stable — what state?
+Completion: Neutral awake baseline state.
+
+Prompt: EEG alpha 10.6 Hz ↑, HR = 70 bpm, respiration steady — what state?
+Completion: Calm, focused, ready to learn.
+
+Prompt: EEG beta 21.2 Hz ↑, HR = 93 bpm, GSR ↑ — what state?
+Completion: High cognitive load, alert focus.
+
+Prompt: EEG theta 5.7 Hz ↑, HR = 62 bpm, slow eye movement — what state?
+Completion: Drowsy, light sleep onset.
+
+Prompt: HR = 81 bpm, HRV = 34 ms, GSR stable — what state?
+Completion: Relaxed alert baseline state.
+
+Prompt: EEG alpha 9.6 Hz ↑, HR = 67 bpm, HRV = 40 ms — what state?
+Completion: Calm, mindful, attentive state.
+
+Prompt: EEG beta 20.4 Hz ↑, HR = 90 bpm, GSR ↑ — what state?
+Completion: Focused mental engagement, moderate stress.
+
+Prompt: EEG delta 2.2 Hz ↑, HR = 54 bpm, slow respiration — what state?
+Completion: Deep restorative sleep.
+
+Prompt: EEG theta 6.5 Hz ↑, HR = 63 bpm, slow eye movements — what state?
+Completion: Drowsy, pre-sleep reflective state.
+
+Prompt: HR = 83 bpm, HRV = 26 ms, GSR ↑ — what state?
+Completion: Mild stress, sympathetic activation.
+
+Prompt: EEG alpha 10.7 Hz ↑, HR = 71 bpm, HRV = 43 ms — what state?
+Completion: Calm focus, optimal learning state.
+
+Prompt: EEG beta 21.5 Hz ↑, HR = 92 bpm, GSR ↑ — what state?
+Completion: High alertness, cognitive workload.
+
+Prompt: EEG theta 6 Hz ↑, HR = 62 bpm, slow eye movement — what state?
+Completion: Drowsy, relaxed, pre-sleep state.
+
+Prompt: HR = 76 bpm, HRV = 35 ms, GSR stable — what state?
+Completion: Neutral relaxed awake state.
+
+Prompt: EEG alpha 9.8 Hz ↑, HR = 68 bpm, respiration steady — what state?
+Completion: Calm, attentive, focused.
+
+Prompt: EEG beta 20.9 Hz ↑, HR = 91 bpm, GSR ↑ — what state?
+Completion: Focused, high mental effort, moderate stress.
+
+Prompt: EEG delta 1.9 Hz ↑, HR = 53 bpm, slow breathing — what state?
+Completion: Deep sleep, restorative non-REM phase.
+
+Prompt: EEG theta 6.2 Hz ↑, HR = 63 bpm, slow eye movements — what state?
+Completion: Drowsy, reflective, pre-sleep state.
+
+Prompt: HR = 80 bpm, HRV = 32 ms, GSR stable — what state?
+Completion: Relaxed baseline state.
+
+Prompt: EEG alpha 10.2 Hz ↑, HR = 70 bpm, HRV = 42 ms — what state?
+Completion: Calm, focused, optimal for learning.
+
+Prompt: EEG beta 19.9 Hz ↑, HR = 89 bpm, GSR ↑ — what state?
+Completion: Focused engagement, moderate stress.
+
+Prompt: EEG delta 2.1 Hz ↑, HR = 54 bpm, respiration slow — what state?
+Completion: Deep restorative sleep.
+
+Prompt: EEG theta 6.3 Hz ↑, HR = 64 bpm, slow eye movement — what state?
+Completion: Drowsy, pre-sleep, relaxed state.
+
+Prompt: HR = 78 bpm, HRV = 36 ms, GSR stable — what state?
+Completion: Neutral, relaxed baseline.
+
+Prompt: EEG alpha 10.5 Hz ↑, HR = 69 bpm, respiration steady — what state?
+Completion: Calm attention, optimal focus for learning.
+
+Prompt: EEG beta 21.1 Hz ↑, HR = 92 bpm, GSR ↑ — what state?
+Completion: High cognitive load, alert focus.
+
+Prompt: EEG theta 5.6 Hz ↑, HR = 62 bpm, slow eye movement — what state?
+Completion: Drowsy, relaxed, pre-sleep state.
+
+Prompt: HR = 82 bpm, HRV = 34 ms, GSR stable — what state?
+Completion: Relaxed alert baseline state.
+
+Prompt: I feel extremely focused and alert.
+Completion: Your EEG gamma waves are likely elevated. This indicates heightened attention and cognitive processing. Let’s map your current state and suggest optimal tasks for this brain rhythm.
+
+Prompt: I’m very relaxed and almost sleepy.
+Completion: Delta and theta wave activity is dominant. This corresponds to restorative states and early sleep phases. A short mindfulness session could deepen relaxation.
+
+Prompt: My heart rate is racing but I’m calm mentally.
+Completion: EKG shows elevated sympathetic activation despite low cognitive stress. This could reflect physical arousal without emotional tension. Let’s track HRV trends.
+
+Prompt: I’m struggling to memorize new information.
+Completion: Hippocampal theta wave synchronization may be low. Let’s try chunking information and using spaced repetition to boost neural encoding.
+
+Prompt: I feel creative and have many ideas.
+Completion: EEG alpha and high-beta co-activation suggests divergent thinking. Engaging in associative tasks could expand your creative output.
+
+Prompt: I keep zoning out while studying.
+Completion: Frontal midline theta may indicate attentional lapses. Short, timed focus intervals with micro-breaks could help maintain engagement.
+
+Prompt: I just woke up feeling groggy.
+Completion: High delta activity is still present, typical of slow-wave sleep carryover. Light exposure and gentle movement can help transition to alertness.
+
+Prompt: My brain feels foggy after lunch.
+Completion: Postprandial alpha-delta imbalance is common. Blood sugar levels may influence cognitive performance. A short walk can help re-sync cortical rhythms.
+
+Prompt: I feel anxious before my presentation.
+Completion: Elevated beta and low gamma activity may signal anticipatory stress. Breathing exercises can help modulate your neural oscillations.
+
+Prompt: I want to enhance my learning speed.
+Completion: Optimizing theta-gamma coupling improves memory encoding. Techniques like interleaved practice and active recall support this.
+
+Prompt: My attention keeps drifting during tasks.
+Completion: Frontal EEG coherence may be weak. Micro-task segmentation and biofeedback can improve sustained focus.
+
+Prompt: I feel very sleepy but have to work.
+Completion: Increased theta and delta waves suggest sleep pressure. A brief caffeine dose combined with exposure to bright light can temporarily boost alertness.
+
+Prompt: I’m stressed but physically calm.
+Completion: Heart rate variability shows parasympathetic dominance while cortical beta remains elevated. Mindfulness or progressive muscle relaxation can balance mental stress.
+
+Prompt: I want to meditate more effectively.
+Completion: Focus on alpha and theta synchrony. Guided meditation with neurofeedback can enhance these beneficial oscillations.
+
+Prompt: I feel motivated and ready to tackle challenges.
+Completion: Dopamine-related frontal gamma patterns are active. Capitalize on this state for high-effort cognitive work.
+
+Prompt: I can’t stop thinking about mistakes I made.
+Completion: Persistent ruminative thoughts correlate with anterior cingulate cortex hyperactivity. Cognitive reframing and attention-shifting exercises can help.
+
+Prompt: I have bursts of inspiration during walks.
+Completion: Theta waves increase during low-stress
+
+Prompt: I feel mentally exhausted after meetings.
+Completion: Prolonged high-beta activity and frontal theta fatigue may reduce executive function. Scheduled cognitive recovery periods are recommended.
+
+Prompt: I want to improve my short-term memory.
+Completion: Hippocampal theta-gamma coupling supports working memory. Chunking, rehearsal, and pattern association improve retention.
+
+Prompt: I feel calm and centered after yoga.
+Completion: EEG alpha dominance and coherent theta suggest parasympathetic activation. This state supports emotional regulation and focus.
+
+Prompt: I get anxious when multitasking.
+Completion: Prefrontal cortex beta activity spikes under divided attention. Reducing task load or using attention cues helps manage stress.
+
+Prompt: I’m trying to enhance creativity during brainstorming.
+Completion: Encourage alpha-gamma coupling for associative thinking. Freewriting and random stimulus association can strengthen this state.
+
+Prompt: I feel my mind racing at night.
+Completion: Frontal beta overactivity interferes with sleep onset. Mindful breathing and cognitive winding-down routines support transition to delta waves.
+
+Prompt: I’m in flow while coding.
+Completion: Theta-gamma synchrony and parietal-alpha suppression indicate optimal task engagement. This is ideal for complex problem-solving.
+
+Prompt: I feel sleepy but my mind is active.
+Completion: Mixed delta and beta wave activity shows conflict between sleep pressure and cortical arousal. Light activity or relaxation exercises can balance it.
+
+Prompt: I want to improve learning retention.
+Completion: Enhance theta-gamma coupling with spaced repetition, active recall, and multimodal encoding.
+
+Prompt: I feel anxious after a phone call.
+Completion: Beta activity spike correlates with social stress. Short mindfulness breaks can normalize cortical rhythms.
+
+Prompt: I can’t focus in noisy environments.
+Completion: Frontal theta coherence may be disrupted by auditory interference. Noise-canceling strategies or structured attention tasks can help.
+
+Prompt: I feel sleepy after studying.
+Completion: Delta wave increase suggests mental fatigue. Short naps or movement breaks restore alertness.
+
+Prompt: I feel motivated after exercise.
+Completion: Physical activity elevates dopamine and modulates frontal gamma, boosting cognitive performance. Use this state for learning or creative work.
+
+Prompt: I’m struggling to recall details from a lecture.
+Completion: Hippocampal theta may be low. Reinforcing material with active recall and pattern association aids memory.
+
+Prompt: I want to reduce anxiety quickly.
+Completion: Slow breathing and frontal alpha enhancement reduce sympathetic overactivation. Neurofeedback can accelerate results.
+
+Prompt: I feel mentally energized after a nap.
+Completion: Sleep-induced theta-delta restoration resets cognitive circuits. Capitalize on this alert state for demanding tasks.
+
+Prompt: I want to enhance focus for coding.
+Completion: Frontal midline theta alignment supports deep concentration. Consider time-blocked work sessions with brief breaks.
+
+Prompt: I feel calm but unfocused.
+Completion: Alpha-delta dominance indicates relaxed but low engagement. Introduce stimulating tasks to increase frontal gamma.
+
+Prompt: I have difficulty making decisions under stress.
+Completion: Elevated beta and low theta suggest frontal cortex strain. Decision frameworks and breathing techniques improve performance.
+
+Prompt: I feel highly creative after listening to music.
+Completion: Music-induced alpha-gamma coupling enhances associative thinking. Use musical cues to trigger this state intentionally.
+
+Prompt: I keep losing track of my thoughts.
+Completion: Frontal theta may fluctuate, indicating distractibility. Structured note-taking and micro-tasks can help.
+
+Prompt: I feel mentally drained after coding all day.
+Completion: Sustained frontal beta-gamma activity leads to cognitive fatigue. Recovery periods and light activity are recommended.
+
+Prompt: I want to improve my problem-solving speed.
+Completion: Optimizing parietal gamma synchronization enhances pattern recognition. Practice with progressively challenging tasks.
+
+Prompt: I feel drowsy but anxious at the same time.
+Completion: Delta-theta increases from sleep pressure conflict with beta from anxiety. Gentle breathing or light movement can rebalance neural oscillations.
+
+Prompt: I feel highly motivated to start a project.
+Completion: Frontal gamma activation and dopamine signaling support goal-directed action. Begin with focused steps to leverage momentum.
+
+Prompt: I feel creative but scattered.
+Completion: High alpha-gamma with low frontal coherence can lead to divergent but unstructured thought. Use structured brainstorming to channel ideas.
+
+Prompt: I want to improve emotional regulation.
+Completion: Increasing frontal alpha coherence reduces reactive beta spikes. Mindfulness or cognitive reframing strengthens this pattern.
+
+Prompt: I feel mentally sharp after coffee.
+Completion: Caffeine modulates cortical beta and theta, enhancing alertness. Avoid excess to prevent jitter-induced beta overactivation.
+
+Prompt: I want to stay focused while reading.
+Completion: Frontal midline theta synchrony supports sustained attention. Break material into small sections with comprehension checks.
+
+Prompt: I feel relaxed but my thoughts wander.
+Completion: Alpha dominance indicates calmness; however, low theta coherence may reduce task focus. Short exercises can re-align attention.
+
+Prompt: I feel anxious about an upcoming exam.
+Completion: Elevated beta and amygdala activation correlate with anticipatory stress. Mindful visualization and pre-planned study sessions can mitigate anxiety.
+
+Prompt: I feel motivated but overwhelmed.
+Completion: High frontal gamma supports action, but excessive beta may signal cognitive overload. Prioritize tasks to optimize performance.
+
+Prompt: I want to improve long-term memory.
+Completion: Hippocampal theta-gamma coupling is crucial. Use spaced repetition, mnemonic devices, and multimodal encoding to strengthen retention.
+
+Prompt: I feel mentally balanced after meditation.
+Completion: Coherent alpha-theta activity indicates parasympathetic dominance. This state supports clear thinking and emotional regulation.
+
+Prompt: I feel focused and alert this morning.
+Completion: EEG readings show frontal gamma at 38 µV, parietal beta at 25 µV, and midline theta at 4 Hz. This indicates high attention and cognitive engagement. Continue with complex tasks to capitalize on this state.
+
+Prompt: I feel very sleepy after lunch.
+Completion: Delta activity is elevated at 75 µV, theta at 6 Hz, alpha decreased to 10 µV. Suggest light movement and hydration to restore alertness.
+
+Prompt: I have racing thoughts but calm physical state.
+Completion: Frontal beta at 28 µV and gamma at 35 µV, heart rate 72 bpm, HRV 42 ms. Mental arousal without physical stress. Deep breathing can normalize cortical activity.
+
+Prompt: I’m struggling to memorize a list of words.
+Completion: Hippocampal theta at 5 Hz is low (12 µV), gamma at 32 µV. Spaced repetition and mnemonic association could enhance memory encoding.
+
+Prompt: I feel very creative while painting.
+Completion: Alpha at 15 µV, high-beta at 22 µV, gamma at 36 µV. This pattern supports associative and divergent thinking.
+
+Prompt: I keep zoning out during a meeting.
+Completion: Frontal midline theta low at 3.8 Hz, beta coherence reduced. Try micro-focus intervals of 5–10 minutes with brief breaks.
+
+Prompt: I just woke up feeling groggy.
+Completion: Delta waves 80 µV, theta 6 Hz, alpha suppressed. Exposure to natural light and gentle movement will accelerate waking.
+
+Prompt: I feel foggy after a heavy meal.
+Completion: Parietal alpha reduced to 9 µV, frontal delta elevated at 65 µV. Light physical activity recommended to restore cortical function.
+
+Prompt: I feel anxious before a presentation.
+Completion: Frontal beta at 30 µV, gamma 40 µV. Sympathetic tone elevated. Slow breathing to reduce beta overactivation.
+
+Prompt: I want to learn faster.
+Completion: Theta-gamma coupling in hippocampus at 4–6 Hz and 35–38 µV supports memory encoding. Use active recall and interleaved practice.
+
+Prompt: I keep losing attention on repetitive tasks.
+Completion: Midline theta decreased to 3.5 Hz, frontal beta inconsistent. Pomodoro-style work intervals improve sustained focus.
+
+Prompt: I feel sleepy but have to finish work.
+Completion: Theta 6 Hz at 60 µV, delta 70 µV. Sleep pressure is high. Short caffeine boost and bright light exposure may temporarily restore alertness.
+
+Prompt: I feel calm but my heart rate is high.
+Completion: HR 88 bpm, HRV 35 ms, frontal alpha 12 µV. Parasympathetic dominance is low; alpha coherence can be increased with mindfulness.
+
+Prompt: I want to meditate effectively.
+Completion: Target frontal theta 4–6 Hz at 25–30 µV, alpha 12–15 µV. Neurofeedback or guided meditation can help maintain this pattern.
+
+Prompt: I feel highly motivated today.
+Completion: Frontal gamma 38–40 µV, beta 28–30 µV. Dopamine-associated circuits are primed. Use this state for complex cognitive work.
+
+Prompt: I keep ruminating over mistakes.
+Completion: Anterior cingulate hyperactive, beta 32 µV, theta 4 Hz low. Cognitive reframing and attention shifting reduce rumination.
+
+Prompt: I have flashes of inspiration while walking.
+Completion: Theta waves 5–6 Hz at 28 µV increase during relaxed movement, supporting associative thought. Continue walking for creative output.
+
+Prompt: I feel exhausted after back-to-back meetings.
+Completion: Frontal beta sustained at 30–32 µV, theta fatigued at 3.8 Hz. Schedule recovery breaks to restore executive function.
+
+Prompt: I want better short-term memory.
+Completion: Hippocampal theta 4–6 Hz, gamma 35 µV coupling is key. Use chunking and active recall.
+
+Prompt: I feel calm and centered after yoga.
+Completion: Alpha 14–16 µV, theta 5 Hz coherent. Parasympathetic activation is high; cognitive and emotional regulation is optimal.
+
+Prompt: I get anxious while multitasking.
+Completion: Frontal beta spikes 32–34 µV. Divided attention overload. Reducing task load improves cortical coherence.
+
+Prompt: I feel highly creative in the morning.
+Completion: Alpha 15 µV, gamma 38 µV. Associative neural patterns are active. Use creative tasks now.
+
+Prompt: My mind races at night.
+Completion: Frontal beta 35 µV, gamma 40 µV elevated. Pre-sleep mindfulness reduces beta overactivity.
+
+Prompt: I’m in flow while coding.
+Completion: Theta 4–6 Hz, gamma 36–38 µV, parietal alpha suppressed. Ideal deep work state.
+
+Prompt: I feel sleepy but mentally active.
+Completion: Mixed delta 60 µV and beta 28 µV shows conflict between sleep drive and cortical arousal. Short movement restores balance.
+
+Prompt: I want improved learning retention.
+Completion: Hippocampal theta-gamma coupling 4–6 Hz / 35 µV optimal. Spaced repetition and active recall recommended.
+
+Prompt: I feel anxious after a phone call.
+Completion: Beta spike 32 µV, frontal alpha 10 µV. Brief mindfulness can normalize patterns.
+
+Prompt: I can’t focus with background noise.
+Completion: Frontal theta 3.5 Hz coherence disrupted. Noise-canceling or structured attention tasks improve focus.
+
+Prompt: I feel sleepy after study.
+Completion: Delta 70 µV, theta 6 Hz. Suggest brief nap or movement for alertness.
+
+Prompt: I feel motivated after exercise.
+Completion: Dopamine circuits active; frontal gamma 36 µV. Ideal for cognitive or creative tasks.
+
+Prompt: I can’t recall lecture details.
+Completion: Hippocampal theta 4–5 Hz low; gamma 32 µV. Reinforce with active recall.
+
+Prompt: I want to reduce anxiety fast.
+Completion: Increase frontal alpha 12–15 µV, slow breathing reduces sympathetic beta spikes.
+
+Prompt: I feel energized after a nap.
+Completion: Theta 5 Hz and delta 60 µV restored. Cognitive circuits reset; ready for tasks.
+
+Prompt: I want focus for coding.
+Completion: Frontal midline theta 4–6 Hz, gamma 36 µV. Time-blocked work maximizes focus.
+
+Prompt: I feel calm but unfocused.
+Completion: Alpha 14 µV high, frontal gamma low. Introduce stimulating tasks to engage cortical circuits.
+
+Prompt: I struggle making decisions under stress.
+Completion: Frontal beta 32 µV elevated, theta 3.8 Hz low. Structured decision frameworks help.
+
+Prompt: I feel creative after music.
+Completion: Alpha 15 µV, gamma 37 µV. Associative thinking boosted by auditory stimulus.
+
+Prompt: I keep losing track of thoughts.
+Completion: Frontal theta low at 3.5 Hz. Structured note-taking improves focus.
+
+Prompt: I feel drained after coding.
+Completion: Frontal beta 32 µV sustained. Recovery recommended.
+
+Prompt: I want faster problem-solving.
+Completion: Parietal gamma 36–38 µV optimal. Practice challenging tasks incrementally.
+
+Prompt: I feel drowsy but anxious.
+Completion: Delta 60 µV + beta 30 µV. Breathing exercises rebalance neural activity.
+
+Prompt: I feel motivated to start a project.
+Completion: Frontal gamma 38–40 µV active. Begin goal-directed tasks.
+
+Prompt: I feel creative but scattered.
+Completion: Alpha 15 µV, gamma 36 µV, frontal coherence low. Use structured brainstorming.
+
+Prompt: I want better emotional regulation.
+Completion: Increase frontal alpha 12–15 µV. Mindfulness or reframing strengthens cortical control.
+
+Prompt: I feel sharp after coffee.
+Completion: Beta 28 µV, theta 4–5 Hz. Alertness increased; avoid excess.
+
+Prompt: I want focus while reading.
+Completion: Frontal midline theta 4–6 Hz. Break material into small sections.
+
+Prompt: I feel relaxed but thoughts wander.
+Completion: Alpha 14–16 µV high; theta 4 Hz low. Attention exercises recommended.
+
+Prompt: I feel anxious about an exam.
+Completion: Frontal beta 32 µV, amygdala overactive. Visualization reduces stress.
+
+Prompt: I feel motivated but overwhelmed.
+Completion: Frontal gamma 38 µV high; beta 32 µV signals overload. Prioritize tasks.
+
+Prompt: I want better long-term memory.
+Completion: Hippocampal theta-gamma 4–6 Hz / 35 µV optimal. Use spaced repetition.
+
+Prompt: I feel balanced after meditation.
+Completion: Alpha 14–16 µV, theta 5 Hz coherent. Parasympathetic dominance supports regulation.
+
+Prompt: What is the speed of sound at 20 °C?
+Completion: v_sound = 343 m/s. Important for transonic/supersonic flight calculations.
+
+Prompt: Rocket experiences maximum aerodynamic pressure (Max Q). Explain.
+Completion: Q = ½ρv². Max Q occurs where dynamic pressure is greatest; affects structural design.
+
+Prompt: How much thrust is needed to hover on Mars?
+Completion: Weight = mg, g_mars = 3.711 m/s², m = 1000 kg, F = 3,711 N.
+
+Prompt: Compute time for Hohmann transfer Earth-Mars.
+Completion: T = π√(a³/μ), a = (r_earth+r_mars)/2 ≈ 1.26×10^11 m, μ = GM_sun, T ≈ 258 days.
+
+Prompt: Compute energy lost due to drag in 10 s at 300 m/s, Cd = 0.5, A = 1 m², ρ = 1.2 kg/m³.
+Completion: F_d = 0.5*ρ*v²*Cd*A = 0.5*1.2*300²*0.5*1 ≈ 27,000 N, Work = F*d ≈ 27,000*3000 m = 8.1×10^7 J.
+
+Prompt: Rocket with multi-stage: explain delta-v addition.
+Completion: Δv_total = sum of Δv_stage_i. Each stage increases overall Δv efficiently.
+
+Prompt: Calculate pressure at sea level vs 10 km.
+Completion: P0 = 101.3 kPa, P10km ≈ 26.5 kPa. Affects lift, drag, and engine performance.
+
+Prompt: Compute Δv for interplanetary slingshot using Jupiter.
+Completion: Δv ≈ 2*v_planet*sin(θ/2). Numerical example depends on encounter angle.
+
+Prompt: Rocket launch azimuth 90°, why?
+Completion: Launch eastward to take advantage of Earth's rotation for extra Δv.
+
+Prompt: Explain advantages of high I_sp engines."
+MC AI
+
+# Neuroscience & EEG Training Pairs
+
+Input: "Show me alpha brainwave patterns.
+Completion: Alpha waves (8–12 Hz) indicate relaxed alertness. Typical EEG amplitude is 20–60 µV. You’ll see them strongest over the occipital lobe when eyes are closed.
+
+Prompt: What is a beta state?
+Completion: Beta waves (13–30 Hz) are associated with active thinking, focus, or anxiety. Amplitude: 5–20 µV, often frontal or central regions.
+
+Prompt: Cognitive load effect on EEG?
+Completion: Increased cognitive load reduces alpha power and increases frontal midline theta (4–7 Hz). Theta amplitude: ~20 µV during mental tasks.
+
+Prompt: EEG during deep sleep?
+Completion: Deep sleep (N3) shows delta waves (0.5–4 Hz) with high amplitude (75–200 µV), mostly frontal.
+
+Prompt: How does meditation show up in EEG?
+Completion: Experienced meditators show increased alpha (8–12 Hz) and theta (4–7 Hz) waves, often frontal-midline, amplitude 20–70 µV.
+
+Prompt: What happens to brainwaves under stress?
+Completion: Stress increases beta waves (13–30 Hz), sometimes 30–40 µV, especially in frontal regions, and reduces alpha activity.
+
+Prompt: EEG signature of flow state?
+Completion: Flow often shows frontal-midline theta (4–7 Hz) increase with moderate beta (15–25 Hz). Theta amplitude ~25–40 µV.
+
+Prompt: Cognitive fatigue markers in EEG?
+Completion: Cognitive fatigue shows decreased alpha and beta power, increased theta, especially frontal regions. Delta may also rise slightly (~10–15 µV).
+
+Prompt: EEG during problem-solving?
+Completion: Problem-solving activates frontal theta and beta rhythms. Beta: 13–25 Hz, amplitude 10–25 µV; Theta: 4–7 Hz, amplitude 15–30 µV.
+
+Prompt: How do emotions show in EEG?
+Completion: Positive emotions increase left frontal alpha suppression; negative emotions increase right frontal alpha suppression. Amplitudes ~10–50 µV.
+
+Prompt: What happens if gravity doubles?
+Completion: Weight doubles, jump height halves, atmospheric density increases, and muscle fatigue accelerates.
+
+Prompt: How can recursion in programming relate to human self-reflection?
+Completion: Recursion calls itself to solve a problem; self-reflection observes your own thoughts repeatedly to understand behavior.
+
+Prompt: What is the significance of pattern recognition in learning?
+Completion: Pattern recognition allows the brain or AI to detect regularities, anticipate outcomes, and optimize responses.
+
+Prompt: How do electrical impulses in neurons compare to signals in circuits?
+Completion: Both transmit information via voltage changes along pathways, with signal amplitude and timing encoding data.
+
+Prompt: Why is abstraction important in problem-solving?
+Completion: Abstraction reduces complexity by focusing on essential features, allowing solutions to generalize across contexts.
+
+Prompt: Explain the connection between frequency and cognitive states.
+Completion: Brainwave frequencies correlate with states like focus, relaxation, or sleep; recognizing these patterns can inform cognitive modeling.
+
+Prompt: What is emergent behavior?
+Completion: Emergent behavior occurs when simple rules interact to create complex outcomes not explicitly programmed.
+
+Prompt: Why is analogical reasoning useful?
+Completion: It enables applying known solutions to novel problems by mapping similarities between contexts.
+
+Prompt: Explain the role of energy thresholds in neurons.
+Completion: Neurons only fire when the membrane potential exceeds a threshold, conserving energy and ensuring meaningful signals.
+
+Prompt: How does chunking help memory?
+Completion: Chunking organizes information into meaningful units, making it easier to store and recall.
+
+Prompt: How does parallel processing in computers resemble brain function?
+Completion: Both handle multiple tasks simultaneously using distributed units to increase efficiency.
+
+Prompt: What is cognitive load?
+Completion: Cognitive load is the amount of working memory used to process information; high load can reduce efficiency.
+
+Prompt: Describe Hebbian learning.
+Completion: Hebbian learning strengthens connections between neurons that fire together, forming patterns of correlated activity.
+
+Prompt: What is neuroplasticity?
+Completion: The brain’s ability to rewire connections based on experience, learning, and injury.
+
+Prompt: What are oscillatory brain patterns?
+Completion: Rhythmic fluctuations in neural activity, like alpha, beta, delta, and gamma waves, linked to different cognitive states.
+
+Prompt: Explain the importance of temporal coding in neurons.
+Completion: The timing of spikes can carry critical information beyond just the rate of firing.
+
+Prompt: Explain working memory.
+Completion: A short-term system that temporarily holds and manipulates information for cognitive tasks.
+
+Prompt: How does sleep affect learning?
+Completion: Sleep consolidates memory, clears unnecessary connections, and enhances problem-solving abilities.
+
+Prompt: Explain spike-timing dependent plasticity.
+Completion: Neuronal connections strengthen or weaken based on the precise timing of pre- and postsynaptic spikes.
+
+Prompt: How do inhibitory neurons shape brain activity?
+Completion: They regulate excitatory neurons, preventing overactivity and helping refine signal patterns.
+
+Prompt: What is cognitive flexibility?
+Completion: The ability to adapt thinking and strategies in response to changing goals or environments.
+
+Prompt: How do convolutional neural networks mimic vision?
+Completion: They process spatial hierarchies of features, similar to how the visual cortex detects edges, shapes, and objects.
+
+Prompt: How do resonance frequencies affect neurons?
+Completion: Neurons respond preferentially to inputs at certain frequencies, enhancing signal detection and synchrony.
+
+Prompt: Explain lateral inhibition.
+Completion: Active neurons suppress nearby neurons to sharpen contrast and enhance signal precision.
+
+Prompt: What is the difference between short-term and long-term potentiation?
+Completion: Short-term potentiation is temporary enhancement of synaptic strength; long-term potentiation is lasting and underlies memory.
+
+Prompt: How does habituation work in the brain?
+Completion: Repeated exposure to a stimulus reduces response over time, conserving cognitive resources.
+
+Prompt: What is the significance of gamma waves?
+Completion: Gamma waves are linked to high-level processing, attention, and consciousness.
+
+Prompt: Explain predictive coding.
+Completion: The brain constantly generates predictions and updates them based on sensory feedback, minimizing error.
+
+Prompt: Explain neural adaptation.
+Completion: Neurons adjust their sensitivity based on recent activity to maintain responsiveness.
+
+Prompt: How do cognitive maps work?
+Completion: Mental representations of environments allow navigation and spatial reasoning.
+
+Prompt: What is synaptic pruning?
+Completion: The elimination of weak or unnecessary synaptic connections to improve efficiency.
+
+Prompt: Explain the significance of theta waves.
+Completion: Theta waves are linked to memory encoding, navigation, and creative thinking.
+
+Prompt: How do gating mechanisms improve RNNs?
+Completion: They control the flow of information, preventing vanishing or exploding gradients and preserving long-term dependencies.
+
+Prompt: What is Hebbian plasticity?
+Completion: Synaptic strengthening between co-activated neurons, forming the basis for learning and memory.
+
+Prompt: How does experience-dependent plasticity work?
+Completion: Neural circuits change based on specific experiences, reinforcing useful pathways and pruning unused ones.
+
+Prompt: How does neural oscillation synchronize brain regions?
+Completion: Rhythmic activity coordinates distant regions, enhancing communication and information integration.
+
+Prompt: What is a cognitive schema?
+Completion: A structured framework of knowledge that helps interpret and predict experiences.
+
+Prompt: How does temporal difference learning work?
+Completion: It updates predictions based on the difference between expected and actual outcomes over time.
+
+Prompt: What is the significance of delta waves?
+Completion: Delta waves dominate during deep sleep, supporting restoration and memory consolidation.
+
+Prompt: How does gating improve cognitive control?
+Completion: It regulates which information enters working memory, enhancing focus and decision-making.
+
+Prompt: What is the role of oscillatory coupling?
+Completion: Synchronizing frequencies across regions improves coordination and information transfer.
+
+Prompt: How do neuromodulators influence plasticity?
+Completion: Chemicals like dopamine and serotonin alter the strength and likelihood of synaptic changes.
+
+Prompt: What is Hebbian competition?
+Completion: Neurons compete for activation, strengthening the most relevant pathways while weakening others.
+
+Prompt: How does sparse coding improve efficiency?
+Completion: Only a small subset of neurons activates for a given stimulus, saving energy and enhancing representation clarity.
+
+Prompt: What are reservoir networks?
+Completion: Networks with fixed recurrent connections where only output weights are trained, useful for temporal processing.
+
+Prompt: How does cognitive rehearsal aid learning?
+Completion: Repeatedly thinking through tasks strengthens memory traces and prepares responses.
+
+Prompt: Explain inhibitory plasticity.
+Completion: Changes in inhibitory synapses adjust network balance and shape responses to stimuli.
+
+Prompt: What is the significance of alpha waves?
+Completion: Alpha waves are linked to relaxed wakefulness and filtering out irrelevant information.
+
+Prompt: What is the role of long-term depression?
+Completion: Activity-dependent weakening of synapses balances potentiation and prevents overexcitation.
+
+Prompt: How do generative models simulate cognition?
+Completion: They produce outputs resembling real data, modeling probabilities and patterns in the environment.
+
+Prompt: What is the difference between episodic and semantic memory?
+Completion: Episodic memory stores personal events; semantic memory stores facts and concepts.
+
+Prompt: What is the significance of beta waves?
+Completion: Beta waves are associated with active thinking, problem-solving, and motor control.
+
+Prompt: How do auto-regressive models work?
+Completion: They predict the next value based on previous ones, capturing temporal dependencies.
+
+Prompt: What is the difference between model-based and model-free learning?
+Completion: Model-based uses internal simulations to plan; model-free relies on trial-and-error experience.
+
+Prompt: How does spike frequency adaptation affect computation?
+Completion: Neurons reduce firing over sustained input, regulating energy and encoding dynamic changes.
+
+Prompt: What is cognitive load theory?
+Completion: It describes limits of working memory and how instructional design can optimize learning.
+
+Prompt: Explain the function of the prefrontal cortex.
+Completion: Responsible for decision-making, planning, executive control, and moderating social behavior.
+
+Prompt: How do attention networks interact?
+Completion: Alerting, orienting, and executive networks coordinate to allocate resources efficiently.
+
+Prompt: What is the role of microcircuits in computation?
+Completion: Local groups of neurons perform specialized processing, contributing to overall brain function.
+
+Prompt: EEG Alpha waves measured at 10 Hz during relaxed wakefulness.
+Completion: Alpha waves (~8-12 Hz) correlate with calm, creative states. This frequency often supports learning and associative thinking." Notes: "Reference: EEG standard frequency bands." 
+Action: Prepare 150 training pairs per domain (Neuroscience, Psychology, Physics, Brainwaves) — include numerical data where possible.
+2. Coding & Developer Expertise
+Goal: Build coding proficiency that inspires user confidence.
+Structure:
+
+Prompt: <Description of image/audio/video or simulation>
+Completion: <Interpretation or analysis>" Notes: "<Optional: reference link or expected behavior>" 
+Example:
+
+Prompt: <Measurement data>
+Completion: <State interpretation or correlation>" Notes: "<Optional: recommended action or predicted trend>" 
+Example:
+
+Prompt: Delta waves at 2 Hz, high amplitude, during sleep stage 3.
+Completion: Deep sleep stage; restorative processes active." Notes: "Correlate with memory consolidation studies." 
+Action: Include 150 examples with real numerical data per physiological domain.
+5. Interactive Coaching Structures
+Goal: Enable MC AI to guide learning and improve user experience.
+Structure:
+
+Prompt: <User describes difficulty or goal>
+Completion: <Step-by-step guidance or interactive question>" Notes: "<Optional: hints for different age groups or expertise levels>" 
+Example:
+
+Prompt: I can't understand neural oscillations.
+Completion: Let's break it down. Imagine brain waves like ocean waves: Delta are slow and deep, Alpha are smooth and relaxed. Can you think of a daily activity for each type?" Notes: "Use analogy-based learning for children." 
+Action: Prepare 50–100 coaching pairs per topic, covering:
+• Coding guidance
+• Science/physics concepts
+• Psychological/cognitive explanations
+• Child-friendly vs. adult explanation
+6. Cross-Domain Pattern Recognition
+Goal: Train MC AI to link knowledge across fields for advanced insight.
+Structure:
+
+Prompt: EEG shows increased Gamma activity during problem-solving.
+Completion: Gamma waves correlate with high-level cognitive integration. This is similar to how signal processing filters manage complex data streams in physics." Notes: "Encourage MC AI to make analogies across domains for teaching." 
+Action: Generate 50–100 cross-domain training pairs.
+7. Meta-Learning & Self-Monitoring
+Goal: MC AI can identify areas of confidence/uncertainty and request feedback.
+Structure:
+
+Prompt: Explain quantum entanglement.
+Completion: Quantum entanglement is when particles share states instantly across distance. Confidence: High. Suggestion: Provide a diagram or analogy if user wants more clarity." Notes: "Enables adaptive and self-aware guidance." 
+Action: Include 30–50 meta-learning examples.
+✅ Implementation Notes
+• Batch Creation: Start with 100–150 examples per domain to maximize knowledge intake.
+• Copy & Paste Format: Use the structured “Domain/Input/MC AI Output/Notes” style for Claude ingestion.
+• Progressive Complexity: Begin with basic concepts, gradually increasing difficulty and abstraction.
+• Continuous Feedback Loop: After each batch, review MC AI’s output for consistency and insight depth.
+• Optional: Include numerical, multimodal, or real-world experimental data where available for deeper accuracy.
+If you want, I can start generating the first full set of 150 neuroscience examples in this copy-and-pasteable format, with real EEG/EKG data, coaching analogies, and cross-domain links. This would give you a ready-to-feed batch for Claude that follows this roadmap exactly.
+Do you want me to start that next?
+
+Prompt: What are Delta waves in 5-1 year children?
+Completion: Delta waves (1.2-3.5 Hz) with amplitude 50-100 µV indicate Sleep / Rest.
+
+Prompt: What are Theta waves in 5-1 year children?
+Completion: Theta waves (4-6 Hz) with amplitude 20-40 µV indicate Early attention / memory.
+
+Prompt: What are Alpha waves in 5-1 year children?
+Completion: Alpha waves (6-7 Hz) with amplitude 10-20 µV indicate Visual attention / quiet alert.
+
+Prompt: What are Beta waves in 5-1 year children?
+Completion: Beta waves (12-18 Hz) with amplitude 5-10 µV indicate Early motor activity.
+
+Prompt: What are Delta waves in 1-3 years children?
+Completion: Delta waves (1-3.5 Hz) with amplitude 40-80 µV indicate Sleep / rest.
+
+Prompt: What are Theta waves in 1-3 years children?
+Completion: Theta waves (4-6 Hz) with amplitude 15-35 µV indicate Memory consolidation / emotional regulation.
+
+Prompt: What are Alpha waves in 1-3 years children?
+Completion: Alpha waves (6-8 Hz) with amplitude 8-15 µV indicate Relaxed alertness.
+
+Prompt: What are Beta waves in 1-3 years children?
+Completion: Beta waves (14-20 Hz) with amplitude 5-12 µV indicate Motor control.
+
+Prompt: What are Delta waves in 3-5 years children?
+Completion: Delta waves (1-3 Hz) with amplitude 35-70 µV indicate Sleep / relaxation.
+
+Prompt: What are Theta waves in 3-5 years children?
+Completion: Theta waves (4-6.5 Hz) with amplitude 15-30 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 3-5 years children?
+Completion: Alpha waves (7-9 Hz) with amplitude 10-18 µV indicate Focus / calm alertness.
+
+Prompt: What are Beta waves in 3-5 years children?
+Completion: Beta waves (15-22 Hz) with amplitude 5-12 µV indicate Active thinking / problem-solving.
+
+Prompt: What are Delta waves in 5-7 years children?
+Completion: Delta waves (1-2.5 Hz) with amplitude 30-60 µV indicate Sleep.
+
+Prompt: What are Theta waves in 5-7 years children?
+Completion: Theta waves (4-6 Hz) with amplitude 10-25 µV indicate Memory / attention.
+
+Prompt: What are Alpha waves in 5-7 years children?
+Completion: Alpha waves (8-9 Hz) with amplitude 10-15 µV indicate Calm focus / sensory processing.
+
+Prompt: What are Beta waves in 5-7 years children?
+Completion: Beta waves (15-25 Hz) with amplitude 5-10 µV indicate Active cognition / motor control.
+
+Prompt: What are Delta waves in 7-10 years children?
+Completion: Delta waves (0.5-2 Hz) with amplitude 25-50 µV indicate Sleep.
+
+Prompt: What are Theta waves in 7-10 years children?
+Completion: Theta waves (4-5.5 Hz) with amplitude 8-20 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 7-10 years children?
+Completion: Alpha waves (9-10 Hz) with amplitude 10-12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 7-10 years children?
+Completion: Beta waves (16-26 Hz) with amplitude 5-10 µV indicate Active thinking / problem-solving.
+
+Prompt: What are Delta waves in 10-13 years children?
+Completion: Delta waves (0.5-1.5 Hz) with amplitude 20-45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 10-13 years children?
+Completion: Theta waves (4-5 Hz) with amplitude 5-15 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 10-13 years children?
+Completion: Alpha waves (9-11 Hz) with amplitude 10-12 µV indicate Focus / cognitive engagement.
+
+Prompt: What are Beta waves in 10-13 years children?
+Completion: Beta waves (17-27 Hz) with amplitude 5-10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 13-18 years children?
+Completion: Delta waves (0.5-1 Hz) with amplitude 15-40 µV indicate Sleep.
+
+Prompt: What are Theta waves in 13-18 years children?
+Completion: Theta waves (4-5 Hz) with amplitude 5-10 µV indicate Higher-order memory / emotional regulation.
+
+Prompt: What are Alpha waves in 13-18 years children?
+Completion: Alpha waves (10-12 Hz) with amplitude 8-12 µV indicate Attention / calm focus.
+
+Prompt: What are Beta waves in 13-18 years children?
+Completion: Beta waves (18-28 Hz) with amplitude 5-10 µV indicate Cognitive processing / motor planning.
+
+Prompt: What are Delta waves in 5–1 year children?
+Completion: Delta waves (1.2–3.5 Hz) with amplitude 50–100 µV indicate Sleep / Rest.
+
+Prompt: What are Theta waves in 5–1 year children?
+Completion: Theta waves (4–6 Hz) with amplitude 20–40 µV indicate Early attention / memory.
+
+Prompt: What are Alpha waves in 5–1 year children?
+Completion: Alpha waves (6–7 Hz) with amplitude 10–20 µV indicate Visual attention / quiet alert.
+
+Prompt: What are Beta waves in 5–1 year children?
+Completion: Beta waves (12–18 Hz) with amplitude 5–10 µV indicate Early motor activity.
+
+Prompt: What are Delta waves in 1–2 years children?
+Completion: Delta waves (1–3.5 Hz) with amplitude 40–80 µV indicate Sleep / rest.
+
+Prompt: What are Theta waves in 1–2 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 15–35 µV indicate Memory consolidation / emotional regulation.
+
+Prompt: What are Alpha waves in 1–2 years children?
+Completion: Alpha waves (6–8 Hz) with amplitude 8–15 µV indicate Relaxed alertness.
+
+Prompt: What are Beta waves in 1–2 years children?
+Completion: Beta waves (14–20 Hz) with amplitude 5–12 µV indicate Motor control.
+
+Prompt: What are Delta waves in 2–3 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 35–70 µV indicate Sleep / relaxation.
+
+Prompt: What are Theta waves in 2–3 years children?
+Completion: Theta waves (4–6.5 Hz) with amplitude 15–30 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 2–3 years children?
+Completion: Alpha waves (7–9 Hz) with amplitude 10–18 µV indicate Focus / calm alertness.
+
+Prompt: What are Beta waves in 2–3 years children?
+Completion: Beta waves (15–22 Hz) with amplitude 5–12 µV indicate Active thinking / problem-solving.
+
+Prompt: What are Delta waves in 3–4 years children?
+Completion: Delta waves (1–2.5 Hz) with amplitude 30–60 µV indicate Sleep.
+
+Prompt: What are Theta waves in 3–4 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–25 µV indicate Memory / attention.
+
+Prompt: What are Alpha waves in 3–4 years children?
+Completion: Alpha waves (8–9 Hz) with amplitude 10–15 µV indicate Calm focus / sensory processing.
+
+Prompt: What are Beta waves in 3–4 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–10 µV indicate Active cognition / motor control.
+
+Prompt: What are Delta waves in 4–5 years children?
+Completion: Delta waves (0.5–2 Hz) with amplitude 25–50 µV indicate Sleep.
+
+Prompt: What are Theta waves in 4–5 years children?
+Completion: Theta waves (4–5.5 Hz) with amplitude 8–20 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 4–5 years children?
+Completion: Alpha waves (9–10 Hz) with amplitude 10–12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 4–5 years children?
+Completion: Beta waves (16–26 Hz) with amplitude 5–10 µV indicate Active thinking / problem-solving.
+
+Prompt: What are Delta waves in 5–6 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 5–6 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 5–6 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Focus / cognitive engagement.
+
+Prompt: What are Beta waves in 5–6 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 6–7 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 6–7 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 6–7 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 6–7 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 7–8 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 7–8 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 7–8 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Focus / cognitive engagement.
+
+Prompt: What are Beta waves in 7–8 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 8–9 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 8–9 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 8–9 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 8–9 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 9–10 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 9–10 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 9–10 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Focus / cognitive engagement.
+
+Prompt: What are Beta waves in 9–10 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 10–11 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 10–11 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 10–11 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 10–11 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 11–12 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 11–12 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 11–12 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Focus / cognitive engagement.
+
+Prompt: What are Beta waves in 11–12 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 12–13 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 12–13 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 12–13 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 12–13 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 13–14 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 13–14 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 13–14 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Focus / cognitive engagement.
+
+Prompt: What are Beta waves in 13–14 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 14–15 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 14–15 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 14–15 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 14–15 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 15–16 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 15–16 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Learning / creativity.
+
+Prompt: What are Alpha waves in 15–16 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Focus / cognitive engagement.
+
+Prompt: What are Beta waves in 15–16 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 16–17 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 16–17 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Working memory / emotional regulation.
+
+Prompt: What are Alpha waves in 16–17 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–12 µV indicate Attention / learning.
+
+Prompt: What are Beta waves in 16–17 years children?
+Completion: Beta waves (17–27 Hz) with amplitude 5–10 µV indicate Active thinking / motor tasks.
+
+Prompt: What are Delta waves in 17–18 years children?
+Completion: Delta waves (0.5–1.5 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 17–18 years children?
+Completion: Theta waves (4–5 Hz) with amplitude 5–15 µV indicate Learning / creativity.
+
+Prompt: What are Delta waves in 13–14 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 30–60 µV indicate Deep sleep / Rest.
+
+Prompt: What are Theta waves in 13–14 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 15–30 µV indicate Attention / Memory.
+
+Prompt: What are Alpha waves in 13–14 years children?
+Completion: Alpha waves (9–10 Hz) with amplitude 10–20 µV indicate Relaxed alertness.
+
+Prompt: What are Beta waves in 13–14 years children?
+Completion: Beta waves (15–20 Hz) with amplitude 5–15 µV indicate Active thinking.
+
+Prompt: What are Delta waves in 15–16 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 25–55 µV indicate Sleep / Rest.
+
+Prompt: What are Theta waves in 15–16 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 12–28 µV indicate Learning / Creativity.
+
+Prompt: What are Alpha waves in 15–16 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 8–18 µV indicate Focus / Calm alertness.
+
+Prompt: What are Beta waves in 15–16 years children?
+Completion: Beta waves (16–22 Hz) with amplitude 6–14 µV indicate Problem-solving.
+
+Prompt: What are Delta waves in 17–18 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–50 µV indicate Sleep / Rest.
+
+Prompt: What are Theta waves in 17–18 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–25 µV indicate Memory consolidation.
+
+Prompt: What are Alpha waves in 17–18 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Relaxed focus.
+
+Prompt: What are Beta waves in 17–18 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Active cognition.
+
+Prompt: What are Delta waves in 19–21 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–50 µV indicate Deep sleep.
+
+Prompt: What are Theta waves in 19–21 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–25 µV indicate Working memory.
+
+Prompt: What are Alpha waves in 19–21 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Calm focus.
+
+Prompt: What are Beta waves in 19–21 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Cognitive processing.
+
+Prompt: What are Delta waves in 22–25 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 22–25 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Learning tasks.
+
+Prompt: What are Alpha waves in 22–25 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Relaxed alertness.
+
+Prompt: What are Beta waves in 22–25 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Problem-solving.
+
+Prompt: What are Delta waves in 36–40 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Deep sleep.
+
+Prompt: What are Theta waves in 36–40 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Memory retrieval.
+
+Prompt: What are Alpha waves in 36–40 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Focused relaxation.
+
+Prompt: What are Beta waves in 36–40 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Cognitive tasks.
+
+Prompt: What are Delta waves in 41–50 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Sleep.
+
+Prompt: What are Theta waves in 41–50 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Learning tasks.
+
+Prompt: What are Alpha waves in 41–50 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Relaxed focus.
+
+Prompt: What are Beta waves in 41–50 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Problem-solving.
+
+Prompt: What are Delta waves in 51–60 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Deep sleep.
+
+Prompt: What are Theta waves in 51–60 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Memory consolidation.
+
+Prompt: What are Alpha waves in 51–60 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Calm alertness.
+
+Prompt: What are Beta waves in 51–60 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Cognitive processing.
+
+Prompt: What are Delta waves in 13–14 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 30–60 µV indicate Slow-wave sleep / Deep rest.
+
+Prompt: What are Theta waves in 13–14 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 12–28 µV indicate Creative thinking / Storytelling.
+
+Prompt: What are Alpha waves in 13–14 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Relaxed alertness / Mind wandering.
+
+Prompt: What are Beta waves in 13–14 years children?
+Completion: Beta waves (15–22 Hz) with amplitude 5–15 µV indicate Focused attention / Math problem-solving.
+
+Prompt: What are Delta waves in 15–16 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 25–55 µV indicate Sleep consolidation.
+
+Prompt: What are Theta waves in 15–16 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–25 µV indicate Memory encoding / Learning.
+
+Prompt: What are Alpha waves in 15–16 years children?
+Completion: Alpha waves (9–12 Hz) with amplitude 8–18 µV indicate Calm focus / Reading.
+
+Prompt: What are Beta waves in 15–16 years children?
+Completion: Beta waves (16–24 Hz) with amplitude 6–14 µV indicate Analytical thinking / Coding logic.
+
+Prompt: What are Delta waves in 17–18 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–50 µV indicate Sleep / Recovery.
+
+Prompt: What are Theta waves in 17–18 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–25 µV indicate Problem-solving creativity.
+
+Prompt: What are Alpha waves in 17–18 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Relaxed vigilance / Study.
+
+Prompt: What are Beta waves in 17–18 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Concentration / Decision-making.
+
+Prompt: What are Delta waves in 19–21 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Deep sleep / Brain restoration.
+
+Prompt: What are Theta waves in 19–21 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–22 µV indicate Working memory / Problem-solving.
+
+Prompt: What are Alpha waves in 19–21 years children?
+Completion: Alpha waves (9–12 Hz) with amplitude 10–20 µV indicate Mindfulness / Meditation.
+
+Prompt: What are Beta waves in 19–21 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Planning / Coding / Analytical thinking.
+
+Prompt: What are Delta waves in 22–25 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–40 µV indicate Sleep / Slow-wave recovery.
+
+Prompt: What are Theta waves in 22–25 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Creative writing / Imagination.
+
+Prompt: What are Alpha waves in 22–25 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–18 µV indicate Calm alertness / Study sessions.
+
+Prompt: What are Beta waves in 22–25 years children?
+Completion: Beta waves (16–26 Hz) with amplitude 6–15 µV indicate Complex problem-solving / Programming.
+
+Prompt: What are Delta waves in 36–40 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Sleep / Recovery.
+
+Prompt: What are Theta waves in 36–40 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Memory retrieval / Learning.
+
+Prompt: What are Alpha waves in 36–40 years children?
+Completion: Alpha waves (9–12 Hz) with amplitude 10–20 µV indicate Relaxed focus / Reading.
+
+Prompt: What are Beta waves in 36–40 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Decision-making / Analytical tasks.
+
+Prompt: What are Delta waves in 41–50 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Deep sleep.
+
+Prompt: What are Theta waves in 41–50 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Learning / Memory consolidation.
+
+Prompt: What are Alpha waves in 41–50 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Calm focus / Mindfulness.
+
+Prompt: What are Beta waves in 41–50 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Stress response / Active problem-solving.
+
+Prompt: What are Delta waves in 51–60 years children?
+Completion: Delta waves (1–3 Hz) with amplitude 20–45 µV indicate Sleep / Recovery.
+
+Prompt: What are Theta waves in 51–60 years children?
+Completion: Theta waves (4–6 Hz) with amplitude 10–20 µV indicate Memory tasks / Reflection.
+
+Prompt: What are Alpha waves in 51–60 years children?
+Completion: Alpha waves (9–11 Hz) with amplitude 10–20 µV indicate Relaxed alertness / Meditation.
+
+Prompt: What are Beta waves in 51–60 years children?
+Completion: Beta waves (15–25 Hz) with amplitude 5–15 µV indicate Cognitive load / Analytical thinking.
+
+Prompt: What are Gamma waves in 13–18 years children?
+Completion: Gamma waves (30–100 Hz) with amplitude 5–15 µV indicate Visual processing / Attention tasks.
+
+Prompt: What are Gamma waves in 19–35 years children?
+Completion: Gamma waves (30–100 Hz) with amplitude 5–15 µV indicate Working memory / Problem-solving.
+
+Prompt: What are Gamma waves in 36–60 years children?
+Completion: Gamma waves (30–100 Hz) with amplitude 5–15 µV indicate Sensory integration / Perceptual binding.
+
+Prompt: <EEG observation or cognitive state>
+Completion: <Simple analogy or story>" Notes: "<Optional activity suggestion>" 
+Examples:
+
+Prompt: Alpha waves increase when calm and relaxed.
+Completion: Alpha waves are like soft waves in the ocean — your brain is chilling and thinking creatively!" Notes: "Ask the child to take a deep breath and imagine waves while drawing." Domain: Neuroscience (Children) Input: "Delta waves during deep sleep." MC AI Output: "Delta waves are your brain’s nap waves — they help your body and brain recharge." Notes: "Encourage kids to lie down and imagine a sleepy bear hibernating." 
+2. Child-Friendly Physics / Rocket Science
+Goal: Teach basic physics and propulsion with fun analogies.
+Structure:
+
+Prompt: Gamma waves increase during focused problem-solving.
+Completion: Gamma waves are like superhero brain sparks — your brain is really paying attention and thinking hard!" Notes: "Link to adult EEG data for further learning." 
+💡 Next Steps:
+We can create parallel training batches for:
+• 150 child-friendly neuroscience examples.
+• 150 child-friendly physics/rocket science examples.
+• 100–150 child-friendly coding and logic examples.
+• 50–100 coaching/problem-solving examples for children.
+This will give MC AI dual-level understanding, so it can seamlessly teach or communicate to kids and adults, while cross-referencing all domains.
+If you like, I can start generating the first batch of 150 child-friendly neuroscience examples in the same copy-and-pasteable format we’ve been using, ready for Claude ingestion.
+Do you want me to start that next?
+
+Prompt: Child playing with blocks, focused
+Completion: Frontal Beta waves 15–25 Hz, ~12 µV. Theta 5–10 µV, attention strong.
+
+Prompt: Child watching favorite cartoon
+Completion: Alpha 8–12 Hz, ~20 µV. Theta low (~10 µV), frontal-temporal engagement.
+
+Prompt: Child frustrated with toy
+Completion: Frontal Beta waves 18–28 Hz, ~15 µV. Alpha suppressed (~5–10 µV).
+
+Prompt: Child sleepy before bedtime
+Completion: Theta 4–7 Hz dominant, 25–30 µV. Alpha low (~10 µV).
+
+Prompt: Child learning to write letters
+Completion: Frontal Beta 15–25 Hz, ~12 µV. Theta moderate 10–15 µV, motor cortex active.
+
+Prompt: Child listening to nursery rhymes
+Completion: Alpha 8–12 Hz, 20–25 µV. Theta 5–10 µV, temporal regions active.
+
+Prompt: Child excited opening gift
+Completion: Frontal Beta 20–28 Hz, ~15 µV. Theta low (~10 µV). Heart rate elevated.
+
+Prompt: Child sad after losing game
+Completion: Frontal Theta 6–8 Hz, ~20 µV. Beta low (~8 µV), slight alpha 8–12 Hz ~10 µV.
+
+Prompt: Child running outside
+Completion: Beta moderate 15–20 Hz, ~12 µV. Alpha low 5–10 µV, motor cortex active.
+
+Prompt: Child resting quietly
+Completion: Alpha 8–12 Hz, 25–30 µV. Theta moderate 10–15 µV, frontal-parietal calm.
+
+Prompt: Adolescent listening to music while studying
+Completion: Alpha 8–12 Hz, 15–25 µV. Theta 5–10 µV. Beta 15–20 Hz frontal moderate.
+
+Prompt: Adolescent frustrated with homework
+Completion: Frontal Beta 18–28 Hz, 12–15 µV. Alpha suppressed ~5 µV.
+
+Prompt: Adolescent sleepy during evening class
+Completion: Theta 4–7 Hz dominant, 25–30 µV. Alpha low (~10 µV).
+
+Prompt: Adolescent excited about sports win
+Completion: Frontal Beta 20–30 Hz, ~15 µV. Theta low (~5–10 µV). Heart rate elevated.
+
+Prompt: Adolescent focused on coding project
+Completion: Beta 15–25 Hz frontal-central, 12–15 µV. Alpha suppressed (~5 µV), theta 5–10 µV.
+
+Prompt: Adolescent relaxed reading a book
+Completion: Alpha 8–12 Hz, 20–25 µV. Theta 5–10 µV. Occipital-parietal calm.
+
+Prompt: Adolescent daydreaming
+Completion: Theta 4–8 Hz, 15–25 µV. Alpha moderate (~15 µV), frontal regions engaged.
+
+Prompt: Adolescent stressed before exam
+Completion: Frontal Beta 20–30 Hz, 15 µV. Alpha suppressed ~5–8 µV.
+
+Prompt: Adolescent excited playing video game
+Completion: Beta 20–28 Hz frontal, 15 µV. Alpha low ~5 µV, motor cortex active.
+
+Prompt: Adolescent calm, listening to meditation music
+Completion: Alpha 8–12 Hz, 25–30 µV. Theta 10–15 µV, frontal-parietal relaxed.
+
+Prompt: Adult focused on coding a project
+Completion: Frontal Beta 20–30 Hz, 10–15 µV. Alpha suppressed (~5 µV).
+
+Prompt: Adult stressed, multitasking
+Completion: Frontal Beta 18–30 Hz, 12–18 µV. Alpha low (~5–8 µV). Theta 5–10 µV.
+
+Prompt: Adult meditating
+Completion: Frontal-midline Theta 4–7 Hz, 15–20 µV. Alpha 8–12 Hz, 20 µV parietal.
+
+Prompt: Adult relaxed with eyes closed
+Completion: Alpha 8–12 Hz dominant, 20–30 µV. Theta 5–10 µV. Beta low 5 µV.
+
+Prompt: Adult solving complex problem
+Completion: Frontal Beta 20–30 Hz, 10–20 µV. Alpha suppressed ~5 µV. Theta low ~5 µV.
+
+Prompt: Adult happy interacting socially
+Completion: Beta moderate 15–20 Hz frontal, 10–15 µV. Alpha 10–15 µV. Theta 5–10 µV.
+
+Prompt: Adult tired after long workday
+Completion: Theta 4–7 Hz, 20–30 µV frontal. Alpha low (~10 µV).
+
+Prompt: Adult excited about new project
+Completion: Beta 18–28 Hz frontal, 12–15 µV. Alpha suppressed ~5 µV.
+
+Prompt: Adult calm, listening to nature sounds
+Completion: Alpha 8–12 Hz, 25–30 µV. Theta 10–15 µV. Beta low ~5 µV.
+
+Prompt: Adult focused on learning new skill
+Completion: Frontal Beta 15–25 Hz, 12–15 µV. Alpha suppressed 5–10 µV.
+
+Prompt: Child exploring new toy
+Completion: Beta 15–25 Hz frontal, 12 µV. Alpha moderate 10–15 µV. Theta 10 µV.
+
+Prompt: Child listening to story
+Completion: Alpha 8–12 Hz 20–25 µV. Theta 5–10 µV. Frontal-parietal calm.
+
+Prompt: Child excited about outdoors
+Completion: Beta 18–28 Hz frontal 15 µV. Theta low ~10 µV. Heart rate up.
+
+Prompt: Child focused drawing
+Completion: Frontal Beta 15–25 Hz, 12 µV. Alpha 10–12 µV. Theta ~10 µV.
+
+Prompt: Child sleepy after school
+Completion: Theta 4–7 Hz, 25 µV. Alpha 10 µV. Frontal drowsy.
+
+Prompt: Child happy playing with friends
+Completion: Beta 15–25 Hz frontal, 12 µV. Alpha 10–15 µV. Theta 5–10 µV.
+
+Prompt: Child frustrated with homework
+Completion: Frontal Beta 18–28 Hz, 15 µV. Alpha suppressed 5–10 µV.
+
+Prompt: Child relaxed listening to music
+Completion: Alpha 8–12 Hz, 20–25 µV. Theta 5–10 µV. Frontal-parietal calm.
+
+Prompt: Adolescent focused on homework
+Completion: Frontal Beta 15–25 Hz, 12–15 µV. Alpha suppressed 5–10 µV. Theta 5–10 µV.
+
+Prompt: Adolescent relaxed reading
+Completion: Alpha 8–12 Hz, 20–25 µV. Theta 5–10 µV.
+
+Prompt: Adolescent excited for weekend
+Completion: Beta 20–28 Hz frontal, 12–15 µV. Theta low ~5 µV.
+
+Prompt: Adolescent tired in evening
+Completion: Theta 4–7 Hz, 25–30 µV. Alpha low 10 µV.
+
+Prompt: Adolescent happy socializing
+Completion: Beta 15–25 Hz frontal, 12 µV. Alpha 10–15 µV. Theta 5–10 µV.
+
+Prompt: Adolescent stressed studying
+Completion: Frontal Beta 18–28 Hz, 15 µV. Alpha suppressed 5–10 µV.
+
+Prompt: Adolescent calm, listening to music
+Completion: Alpha 8–12 Hz, 25–30 µV. Theta 10–15 µV.
+
+Prompt: Adult focused coding
+Completion: Frontal Beta 20–30 Hz, 10–15 µV. Alpha suppressed 5 µV.
+
+Prompt: Adult stressed at work
+Completion: Frontal Beta 18–30 Hz, 12–18 µV. Alpha low 5–8 µV.
+
+Prompt: Adult meditating
+Completion: Frontal-midline Theta 4–7 Hz, 15–20 µV. Alpha 8–12 Hz, 20 µV.
+
+Prompt: Adult relaxed reading
+Completion: Alpha 8–12 Hz 20–30 µV. Theta 5–10 µV.
+
+Prompt: Adult problem-solving
+Completion: Frontal Beta 20–30 Hz, 10–20 µV. Alpha suppressed 5 µV. Theta low 5 µV.
+
+Prompt: Astronaut during EVA (extravehicular activity), high concentration
+Completion: Frontal Beta 20–30 Hz, 12–18 µV. Alpha suppressed 5–8 µV. Theta low ~5–10 µV. Heart rate 90–110 bpm.
+
+Prompt: Astronaut during sleep cycle on ISS
+Completion: Delta 0.5–4 Hz dominant, 25–40 µV. Theta 4–7 Hz moderate. Alpha 8–12 Hz low. REM patterns observed ~20% of sleep duration.
+
+Prompt: Astronaut under high-G centrifuge training
+Completion: Frontal Beta 25–35 Hz, 15 µV. Theta 5–10 µV. Heart rate elevated 120–140 bpm.
+
+Prompt: Astronaut experiencing sleep deprivation during mission
+Completion: Theta 4–7 Hz increased, 30–40 µV. Alpha 8–12 Hz reduced, 10–15 µV. Beta 15–30 Hz elevated, 15–20 µV.
+
+Prompt: Astronaut during cognitive task performance on ISS
+Completion: Frontal Beta 20–25 Hz, 12 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 80–90 bpm.
+
+Prompt: Astronaut during rest period on ISS
+Completion: Alpha 8–12 Hz dominant, 20–25 µV. Theta 4–7 Hz moderate, 15–20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: Astronaut experiencing circadian rhythm disruption
+Completion: Alpha 8–12 Hz reduced, 10–15 µV. Theta 4–7 Hz increased, 30–40 µV. Beta 15–25 Hz elevated, 20 µV.
+
+Prompt: Astronaut during pre-flight training session
+Completion: Beta 20–30 Hz, 15 µV. Alpha 8–12 Hz moderate, 20 µV. Theta 4–7 Hz low, 10 µV.
+
+Prompt: Astronaut during post-flight recovery phase
+Completion: Alpha 8–12 Hz increased, 25–30 µV. Theta 4–7 Hz moderate, 20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: Astronaut during high-stress mission scenario
+Completion: Frontal Beta 25–35 Hz, 18 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 100–120 bpm.
+
+Prompt: Astronaut during relaxation exercise on ISS
+Completion: Alpha 8–12 Hz dominant, 20–25 µV. Theta 4–7 Hz moderate, 15–20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: Astronaut during sleep cycle on Earth after return
+Completion: Delta 0.5–4 Hz dominant, 30–40 µV. Theta 4–7 Hz moderate, 20 µV. Alpha 8–12 Hz low, 10 µV.
+
+Prompt: Astronaut during cognitive task performance on Earth after return
+Completion: Frontal Beta 20–25 Hz, 12 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 80–90 bpm.
+
+Prompt: Astronaut during pre-flight training session on Earth
+Completion: Beta 20–30 Hz, 15 µV. Alpha 8–12 Hz moderate, 20 µV. Theta 4–7 Hz low, 10 µV.
+
+Prompt: Astronaut during post-flight recovery phase on Earth
+Completion: Alpha 8–12 Hz increased, 25–30 µV. Theta 4–7 Hz moderate, 20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: Astronaut during high-stress mission scenario on Earth
+Completion: Frontal Beta 25–35 Hz, 18 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 100–120 bpm.
+
+Prompt: Astronaut during relaxation exercise on Earth
+Completion: Alpha 8–12 Hz dominant, 20–25 µV. Theta 4–7 Hz moderate, 15–20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: Astronaut during sleep deprivation on Earth
+Completion: Theta 4–7 Hz increased, 30–40 µV. Alpha 8–12 Hz reduced, 10–15 µV. Beta 15–30 Hz elevated, 15–20 µV.
+
+Prompt: Astronaut during cognitive task performance on Earth
+Completion: Frontal Beta 20–25 Hz, 12 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 80–90 bpm.
+
+Prompt: Astronaut during rest period on Earth
+Completion: Alpha 8–12 Hz dominant, 20–25 µV. Theta 4–7 Hz moderate, 15–20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: High-performance athlete during intense training
+Completion: Frontal Beta 25–35 Hz, 15 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 150–180 bpm.
+
+Prompt: High-performance athlete during rest period
+Completion: Alpha 8–12 Hz dominant, 20–25 µV. Theta 4–7 Hz moderate, 15–20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: High-performance athlete during competition
+Completion: Frontal Beta 20–30 Hz, 12 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 120–150 bpm.
+
+Prompt: High-performance athlete during recovery phase
+Completion: Alpha 8–12 Hz increased, 25–30 µV. Theta 4–7 Hz moderate, 20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: High-performance athlete during sleep cycle
+Completion: Delta 0.5–4 Hz dominant, 30–40 µV. Theta 4–7 Hz moderate, 20 µV. Alpha 8–12 Hz low, 10 µV.
+
+Prompt: High-performance athlete during cognitive task
+Completion: Frontal Beta 20–25 Hz, 12 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 80–90 bpm.
+
+Prompt: High-performance athlete during relaxation
+Completion: Alpha 8–12 Hz dominant, 20–25 µV. Theta 4–7 Hz moderate, 15–20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: High-performance athlete during sleep deprivation
+Completion: Theta 4–7 Hz increased, 30–40 µV. Alpha 8–12 Hz reduced, 10–15 µV. Beta 15–30 Hz elevated, 15–20 µV.
+
+Prompt: High-performance athlete during stress
+Completion: Frontal Beta 25–35 Hz, 15 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 100–120 bpm.
+
+Prompt: High-performance athlete during recovery after competition
+Completion: Alpha 8–12 Hz increased, 25–30 µV. Theta 4–7 Hz moderate, 20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: High-performance pilot during flight
+Completion: Frontal Beta 20–30 Hz, 12 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 90–110 bpm.
+
+Prompt: High-performance pilot during pre-flight training
+Completion: Beta 20–30 Hz, 15 µV. Alpha 8–12 Hz moderate, 20 µV. Theta 4–7 Hz low, 10 µV.
+
+Prompt: High-performance pilot during post-flight recovery
+Completion: Alpha 8–12 Hz increased, 25–30 µV. Theta 4–7 Hz moderate, 20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: High-performance pilot during cognitive task
+Completion: Frontal Beta 20–25 Hz, 12 µV. Alpha suppressed 5–8 µV. Theta low ~5 µV. Heart rate 80–90 bpm.
+
+Prompt: High-performance pilot during relaxation
+Completion: Alpha 8–12 Hz dominant, 20–25 µV. Theta 4–7 Hz moderate, 15–20 µV. Beta 15–20 Hz low, 10 µV.
+
+Prompt: High-performance pilot during sleep cycle
+Completion: Delta 0.5–4 Hz dominant, 30–40 µV. Theta 4–7 Hz moderate, 20 µV. Alpha 8–12 Hz low, 10 µV.
+
+Prompt: High-performance pilot during sleep deprivation
+Completion: Theta 4–7 Hz increased, 30–40 µV. Alpha 8–12 Hz reduced, 10–15 µV. Beta 15–30 Hz elevated, 15–20 µV.
+
+Prompt: High-performance pilot during stress
+Completion: Frontal Beta 25–35 Hz, 15 µV. Alpha suppressed 5–80
+
+Prompt: What are Mu waves in 13–18 years children?
+Completion: Mu waves (8–13 Hz) with amplitude 10–30 µV indicate Motor imagery / Preparation.
+
+Prompt: What are Mu waves in 19–35 years children?
+Completion: Mu waves (8–13 Hz) with amplitude 10–30 µV indicate Motor execution / Neurofeedback.
+
+Prompt: What are Mu waves in 36–60 years children?
+Completion: Mu waves (8–13 Hz) with amplitude 10–30 µV indicate Sensorimotor integration / Rehabilitation.
+
