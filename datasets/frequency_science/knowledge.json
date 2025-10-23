@@ -1,0 +1,38 @@
+[
+  {
+    "prompt": "What is the effect of 10 Hz alpha waves?",
+    "response": "Alpha waves at 10 Hz are associated with relaxed alertness and have been shown to reduce anxiety, improve focus, and enhance creative thinking. Studies show that 10 Hz stimulation can increase cortical excitability and improve cognitive performance. This frequency is often used in meditation and stress reduction protocols.",
+    "domain": "frequency_science",
+    "frequency": 10
+  },
+  {
+    "prompt": "How do 40 Hz gamma waves affect cognition?",
+    "response": "40 Hz gamma waves are strongly associated with peak cognitive performance, memory consolidation, and consciousness. Research shows that 40 Hz stimulation can enhance working memory, improve attention, and may even help clear amyloid plaques in Alzheimer research. Gamma oscillations are crucial for binding sensory information and higher-order processing.",
+    "domain": "frequency_science",
+    "frequency": 40
+  },
+  {
+    "prompt": "What are theta waves good for?",
+    "response": "Theta waves (4-8 Hz) are associated with deep meditation, creativity, intuition, and memory consolidation during sleep. Research shows theta activity increases during REM sleep and is linked to emotional processing and long-term memory formation. Theta stimulation has been used therapeutically for anxiety reduction and creative enhancement.",
+    "domain": "frequency_science",
+    "frequency_range": [
+      4,
+      8
+    ]
+  },
+  {
+    "prompt": "Can delta waves help with sleep?",
+    "response": "Delta waves (0.5-4 Hz) are the slowest brainwaves and dominate during deep sleep (Stage 3-4 NREM sleep). Research shows that delta wave stimulation can improve sleep quality, enhance immune function, and promote physical healing. Delta activity is crucial for restorative sleep and growth hormone release.",
+    "domain": "frequency_science",
+    "frequency_range": [
+      0.5,
+      4
+    ]
+  },
+  {
+    "prompt": "What is the Schumann Resonance and how does it affect us?",
+    "response": "The Schumann Resonance is Earth's natural electromagnetic frequency at 7.83 Hz. Research suggests this frequency may have biological effects on humans, potentially promoting relaxation and synchronizing circadian rhythms. Some studies indicate exposure to 7.83 Hz may reduce stress and improve well-being, though more research is needed.",
+    "domain": "frequency_science",
+    "frequency": 7.83
+  }
+]
