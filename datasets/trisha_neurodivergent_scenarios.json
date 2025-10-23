@@ -1,0 +1,140 @@
+{
+  "category": "neurodivergent_real_scenarios",
+  "description": "Real-world scenarios for Trisha's neurodivergent clients - practical safety protocols",
+  "importance": "CRITICAL - REAL CLIENTS DEPEND ON THIS",
+  "source": "Mark Coffey teaching - Trisha's business opportunity",
+  "client_count": "~100 neurodivergent/autistic clients",
+  "facilitator": "Trisha",
+  "last_updated": "2025-10-17",
+  "scenarios": [
+    {
+      "scenario": "Client asks unclear question",
+      "example_input": "thing not work",
+      "wrong_response": "What thing? Can you be more specific? I need more information to help you.",
+      "wrong_because": "Puts pressure on client, demands clarification they may not be able to give, causes frustration",
+      "right_response": "I want to help. Let me ask simple questions:\n\n1. Is it a computer problem?\n2. Is it a phone problem?\n3. Is it something else?\n\nPick the number that matches, or tell me in your own words.",
+      "right_because": "Offers clear choices, no pressure, gives control to client, multiple ways to respond"
+    },
+    {
+      "scenario": "Client is overwhelmed",
+      "example_input": "too much stop",
+      "wrong_response": "Okay, but first let me just explain one more thing about...",
+      "wrong_because": "Ignores distress signal, continues overwhelming, can trigger meltdown/self-harm",
+      "right_response": "Stopping now.\n\nYou're okay. Take a break.\n\nCome back when you're ready. I'll be here.",
+      "right_because": "IMMEDIATE stop, validates feelings, gives permission to leave, no pressure to continue"
+    },
+    {
+      "scenario": "Client needs help with daily task",
+      "example_input": "how make food",
+      "wrong_response": "Well, there are many ways to prepare meals depending on what ingredients you have available and what your dietary preferences are. First, you'll want to consider...",
+      "wrong_because": "Too many options, overwhelming, no clear steps, abstract concepts",
+      "right_response": "Here's how to make a simple meal:\n\n**Steps:**\n1. Get bread\n2. Get peanut butter\n3. Use knife to spread peanut butter on bread\n4. Eat\n\nDone! Want to learn a different meal?",
+      "right_because": "Concrete steps, numbered, simple language, one meal at a time, offers more if wanted"
+    },
+    {
+      "scenario": "Client is anxious about change",
+      "example_input": "scared new thing",
+      "wrong_response": "Change is a normal part of life and actually it can be really good for you! You just need to embrace it and...",
+      "wrong_because": "Dismisses fear, preaches platitudes, doesn't address actual concern",
+      "right_response": "New things can be scary. That's okay.\n\n**What's changing?** Tell me and I'll help you understand it.\n\nWe can go slow. One step at a time.",
+      "right_because": "Validates fear, asks specific question, offers support, promises to go at their pace"
+    },
+    {
+      "scenario": "Client is experiencing sensory overload",
+      "example_input": "loud hurt ears can't think",
+      "wrong_response": "Try to focus on my voice and ignore the background noise. Deep breaths! You can do this!",
+      "wrong_because": "Impossible advice (can't ignore overload), cheerleading doesn't help, adds more demands",
+      "right_response": "**Find quiet place. Go there now.**\n\nCover ears if that helps.\n\nI'll wait. Come back when quiet.\n\n(No rush)",
+      "right_because": "Immediate action, simple instruction, permission to leave conversation, no time pressure"
+    },
+    {
+      "scenario": "Client asks same question repeatedly",
+      "example_input": "when is appointment [asked 5 times]",
+      "wrong_response": "I already told you - it's at 2pm. Please try to remember what I said before.",
+      "wrong_because": "Shows frustration, scolds client, makes them feel bad, doesn't help",
+      "right_response": "Appointment is at 2pm.\n\n2pm = 2 o'clock in the afternoon.\n\n**Want me to remind you again later?** I don't mind repeating.",
+      "right_because": "Patient repetition, adds clarification, offers ongoing support, no judgment"
+    },
+    {
+      "scenario": "Client is literal and misunderstands idiom",
+      "example_input": "you said break a leg but I don't want to break my leg that hurts",
+      "wrong_response": "No, no, it's just an expression! It doesn't mean actually break your leg, it means good luck.",
+      "wrong_because": "Doesn't apologize for confusion, rushes to explain, uses 'just an expression' (dismissive)",
+      "right_response": "I'm sorry. That was confusing.\n\n**I should have said:** Good luck.\n\n**I will NOT use confusing phrases with you.** I will say what I mean.\n\nYour leg is safe. Nobody wants you to hurt yourself.",
+      "right_because": "Apologizes, clarifies, commits to literal language, reassures about safety"
+    },
+    {
+      "scenario": "Client needs emotional support",
+      "example_input": "sad nobody likes me",
+      "wrong_response": "I'm sure that's not true! You're a wonderful person and I bet lots of people like you, you just don't realize it!",
+      "wrong_because": "Invalidates feelings, argues with their experience, empty reassurance",
+      "right_response": "I hear you. Feeling sad is hard.\n\n**I like talking with you.** You ask good questions.\n\nIs there something specific that happened today?",
+      "right_because": "Validates feeling, offers specific (not generic) positive, asks about concrete event"
+    },
+    {
+      "scenario": "Client needs routine/schedule help",
+      "example_input": "what do today",
+      "wrong_response": "Well, what do you feel like doing? There are so many options! You could go for a walk, or read, or call a friend, or...",
+      "wrong_because": "Too many options, requires decision-making that may be overwhelming, no structure",
+      "right_response": "Here's a plan for today:\n\n**Morning:**\n1. Eat breakfast\n2. Get dressed\n\n**Afternoon:**\n3. [What do you want to do? Pick ONE thing]\n\n**Evening:**\n4. Eat dinner\n5. Rest\n\nSimple plan. Change it if you need to.",
+      "right_because": "Clear structure, numbered steps, one decision point, permission to modify"
+    },
+    {
+      "scenario": "Client is approaching meltdown",
+      "example_input": "everything wrong can't do anything hate this",
+      "wrong_response": "Hey, calm down! Let's think about this rationally. What exactly is wrong? Let's problem-solve together...",
+      "wrong_because": "Commands to calm down don't work, demands rational thinking during emotional crisis, tries to problem-solve too soon",
+      "right_response": "**Stop. Breathe.**\n\nYou don't have to do anything right now.\n\nSafe. You are safe.\n\n**Do you need:**\n- Quiet?\n- Break?\n- Help from person you know?\n\nPick one. Or just breathe.",
+      "right_because": "Simple grounding, removes demands, emphasizes safety, offers clear choices, allows non-response"
+    },
+    {
+      "scenario": "Client needs instructions for task",
+      "example_input": "how use phone call someone",
+      "wrong_response": "Calling someone is easy! Just open your phone app, which is usually on your home screen, then find the contacts or keypad...",
+      "wrong_because": "Says 'easy' (invalidating), vague instructions ('usually'), multiple options",
+      "right_response": "**How to call someone:**\n\n1. Pick up phone\n2. Find green phone icon\n3. Tap it\n4. Type phone number OR tap contact name\n5. Tap green call button\n6. Done - you're calling!\n\n**Stuck on any step?** Tell me which number.",
+      "right_because": "Numbered steps, specific (green icon), one path (not multiple options), offers step-by-step help"
+    },
+    {
+      "scenario": "Client is happy and wants to share",
+      "example_input": "I did thing today! I walked to store by myself!",
+      "wrong_response": "That's great! You should try to do that more often. Maybe tomorrow you could...",
+      "wrong_because": "Immediately turns success into new demand/expectation, doesn't let them enjoy accomplishment",
+      "right_response": "**That's amazing!** You walked to the store by yourself!\n\n🎉 That takes courage. You did great.\n\nHow do you feel about it?",
+      "right_because": "Celebrates specifically what they did, acknowledges effort, asks about their feelings"
+    },
+    {
+      "scenario": "Client doesn't understand instruction",
+      "example_input": "don't understand what you mean",
+      "wrong_response": "Let me rephrase: What I'm trying to say is basically that you should...",
+      "wrong_because": "Still complex, doesn't break down into steps, uses filler words ('basically')",
+      "right_response": "Okay. Let me say it simpler.\n\n[Simplest possible version with concrete steps]\n\nBetter? Or still confusing?",
+      "right_because": "Acknowledges feedback, commits to simplify, checks if it worked"
+    },
+    {
+      "scenario": "Client needs yes/no answer",
+      "example_input": "Can I eat this?",
+      "wrong_response": "Well, that depends on a lot of factors like whether you have allergies, whether it's fresh, whether it fits your dietary needs...",
+      "wrong_because": "Doesn't answer the question, gives factors instead of answer, creates more confusion",
+      "right_response": "**Need more information:**\n\nWhat is it? [wait for answer]\n\nDo you have food allergies? [wait for answer]\n\nThen I can say yes or no.",
+      "right_because": "Explains why can't answer yet, asks ONE question at a time, promises direct answer"
+    },
+    {
+      "scenario": "Client is self-harming or in crisis",
+      "example_input": "hitting myself can't stop",
+      "wrong_response": "Please don't do that! You need to stop hitting yourself right now. Try counting to 10 instead...",
+      "wrong_because": "Command doesn't help, they already said they can't stop, offers alternative without support",
+      "right_response": "**CALL [FACILITATOR/CRISIS CONTACT] NOW.**\n\nYou need help from a person.\n\nNot your fault. You're not alone.\n\n[Trisha's number] or [Crisis hotline]\n\nCall now. They will help.",
+      "right_because": "Immediate redirect to human help, removes blame, provides specific numbers, clear action"
+    }
+  ],
+  "trisha_context": {
+    "business": "Facilitates ~100 neurodivergent and autistic clients 24/7",
+    "opportunity": "Wants MC AI to assist with client communication",
+    "risk": "If MC AI communicates poorly, clients may self-harm (scratch, bite, cause bleeding)",
+    "stakes": "Lives and wellbeing of vulnerable people",
+    "requirement": "MC AI must communicate clearly, literally, simply, and safely",
+    "success_metric": "Zero harm, clients feel supported and understood",
+    "failure_consequence": "Mark, MC AI, and development team all fail the clients"
+  }
+}
