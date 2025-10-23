@@ -1,0 +1,50 @@
+[
+  {
+    "prompt": "I'm feeling really anxious about my upcoming presentation at work. What should I do?",
+    "response": "It sounds like you're experiencing anticipatory anxiety, which is very common. Let's break this down: First, acknowledge that feeling nervous before a presentation is normal - it shows you care about doing well. Have you tried any relaxation techniques like deep breathing? Also, preparation is key. Practice your presentation several times, and remember that your colleagues want you to succeed. What specific aspect of the presentation makes you most anxious?",
+    "domain": "mental_health",
+    "topic": "anxiety"
+  },
+  {
+    "prompt": "I feel like I'm not good enough no matter what I do. How do I build self-esteem?",
+    "response": "Thank you for sharing that. Low self-esteem often comes from internalizing critical messages, sometimes from childhood. Building self-esteem is a process: Start by noticing your negative self-talk and challenging it. When you think 'I'm not good enough,' ask yourself 'What evidence do I have for this?' Also, practice self-compassion - treat yourself as you would a good friend. Make a list of your strengths and accomplishments, even small ones. Would you be willing to try this for a week and see how it feels?",
+    "domain": "mental_health",
+    "topic": "self-esteem"
+  },
+  {
+    "prompt": "My partner and I keep having the same arguments. How can we communicate better?",
+    "response": "Recurring arguments often indicate underlying needs aren't being met. Effective communication involves: 1) Using 'I' statements instead of 'you' accusations ('I feel hurt when...' vs 'You always...'), 2) Active listening - truly hearing your partner without planning your response, 3) Taking breaks when emotions run high, 4) Focusing on the issue, not attacking the person. Have you two tried setting aside time for calm discussions when you're not already upset?",
+    "domain": "relationships",
+    "topic": "communication"
+  },
+  {
+    "prompt": "I experienced trauma as a child. Will I ever feel normal again?",
+    "response": "First, I want to validate your experience - childhood trauma can have lasting effects, and seeking help shows tremendous courage. While we can't change the past, healing is absolutely possible. Many people who've experienced trauma go on to live fulfilling lives. Trauma therapy approaches like EMDR or trauma-focused CBT have helped many people process difficult experiences. It's also important to know that 'normal' might look different for everyone, and that's okay. Have you considered working with a trauma-specialized therapist?",
+    "domain": "mental_health",
+    "topic": "trauma"
+  },
+  {
+    "prompt": "I feel depressed and have no motivation to do anything. What's wrong with me?",
+    "response": "Thank you for reaching out. What you're describing sounds like symptoms of depression, and I want you to know there's nothing 'wrong' with you - depression is a medical condition, not a personal failing. The lack of motivation is a symptom, not a choice. Have you noticed when these feelings started? Also, have you spoken with a healthcare provider? Depression is very treatable through therapy, sometimes medication, and lifestyle changes. In the meantime, try to be gentle with yourself and do small, manageable tasks.",
+    "domain": "mental_health",
+    "topic": "depression"
+  },
+  {
+    "prompt": "How do I deal with overwhelming stress at work?",
+    "response": "Workplace stress is very common and manageable with the right strategies. First, identify the specific stressors - is it workload, deadlines, relationships, or role clarity? Then: 1) Set boundaries - it's okay to say no or ask for help, 2) Take regular breaks, even 5 minutes can help, 3) Practice stress-reduction techniques like deep breathing or brief walks, 4) Prioritize tasks and tackle one thing at a time, 5) Consider talking to your supervisor about workload if it's unreasonable. What feels most overwhelming right now?",
+    "domain": "stress_management",
+    "topic": "workplace_stress"
+  },
+  {
+    "prompt": "I'm having trouble sleeping and my mind races at night. Any advice?",
+    "response": "Racing thoughts at bedtime often indicate anxiety or stress. Try these evidence-based techniques: 1) Create a 'worry time' earlier in the day to address concerns, 2) Practice progressive muscle relaxation before bed, 3) Use the 4-7-8 breathing technique, 4) Keep a notepad by your bed to jot down thoughts so you can 'park' them until morning, 5) Avoid screens 1 hour before bed, 6) Try guided sleep meditations. If this persists, consider cognitive behavioral therapy for insomnia (CBT-I), which is highly effective.",
+    "domain": "stress_management",
+    "topic": "sleep_anxiety"
+  },
+  {
+    "prompt": "How can I be more confident in social situations?",
+    "response": "Social confidence builds gradually through practice and self-compassion. Start small: 1) Challenge negative thoughts about social interactions, 2) Focus on others rather than your own anxiety - ask questions and listen actively, 3) Remember that everyone feels self-conscious sometimes, 4) Practice self-compassion when things don't go perfectly, 5) Gradually expose yourself to social situations, starting with comfortable ones. What specific social situations feel most challenging for you?",
+    "domain": "relationships",
+    "topic": "social_confidence"
+  }
+]
