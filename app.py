@@ -15,6 +15,7 @@ from scene_intelligence_service import scene_service
 from src.kaggle_learning_api import kaggle_learning_bp
 from src.system_monitor_api import system_monitor_bp
 from src.kaggle_autonomous_api import kaggle_autonomous_bp
+from src.ai_collaboration_api import ai_collab_bp
 import os
 import json
 from openai import OpenAI
@@ -48,6 +49,8 @@ app.register_blueprint(kaggle_learning_bp)
 app.register_blueprint(system_monitor_bp)
 # Register autonomous tool access endpoints (MC AI full system control from external sources)
 app.register_blueprint(kaggle_autonomous_bp)
+# Register AI collaboration endpoints (MC AI collaborates with Replit Agent and other AIs)
+app.register_blueprint(ai_collab_bp)
 
 generator = ResponseGenerator()
 data_analyzer = DataAnalyzer()
