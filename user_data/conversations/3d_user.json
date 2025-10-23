@@ -1,0 +1,136 @@
+{
+  "user_id": "3d_user",
+  "created": "2025-10-19T16:00:35.377149",
+  "last_updated": "2025-10-19T18:14:30.845458",
+  "message_count": 3,
+  "messages": [
+    {
+      "timestamp": "2025-10-19T16:00:35.377166",
+      "user_message": "I was thinking of a favorite book to read but I don't know what book I want to read",
+      "ai_response": "Let me help you with that: No worries! Just describe it with your own words. I can help translate your ideas into code and guide you along the way.\n\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** DATASET_BANK | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.96)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "coding",
+        "relevance": 41,
+        "emotion": "curiosity",
+        "frequency": 40,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9637904066611225,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.605,
+              1.593,
+              1.685,
+              1.599
+            ],
+            "ratio_mean": 1.6207384529194377,
+            "ratio_std": 0.03756998730078569
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T17:33:31.295232",
+      "user_message": "Let's turn your background into a space theme",
+      "ai_response": "Let me help you with that: Next time: simplify language, add a metaphor, and include a small visual.\n\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Grounding (396Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** DATASET_BANK | **Domain:** science\n**Coherence:** Phi Resonance (strength: 0.96)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to science dataset\n---",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "patterns",
+        "relevance": 41,
+        "emotion": "grounding",
+        "frequency": 396,
+        "frequency_analysis": {
+          "query_emotion": "grounding",
+          "query_frequency": 396,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9607147228291474,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.668,
+              1.615,
+              1.567,
+              1.663
+            ],
+            "ratio_mean": 1.6282119326495528,
+            "ratio_std": 0.04089171971380209
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "science"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-19T18:14:30.845442",
+      "user_message": "Let's talk about space",
+      "ai_response": "Okay, here's what I know about that: Sure! Feeling excited is like a balloon floating up. Feeling nervous is like butterflies in your stomach. Can you show me your feeling with a gesture?\n\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Anxiety (13Hz - Beta)\n**Catalog:** Beta Wave Dominance frequency mapping\n**Source:** DATASET_BANK | **Domain:** science\n**Coherence:** Phi Resonance (strength: 0.73)\n**Brain Wave:** Active thinking (engagement, processing)\n**Auto-Learned:** \u2713 Saved to science dataset\n---",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "psychology",
+        "relevance": 28,
+        "emotion": "neutral",
+        "frequency": 240,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "anxiety",
+          "response_frequency": 13,
+          "basis": "beta wave dominance",
+          "coupling": {
+            "coupling_strength": 0.7326651629443841,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              2.145,
+              1.603,
+              1.251,
+              1.256
+            ],
+            "ratio_mean": 1.563649110917769,
+            "ratio_std": 0.3648799623299533
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "science"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-19T16:00:35.377179",
+      "emotion": "curiosity",
+      "intensity": 5.0,
+      "frequency": 40,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T17:33:31.295263",
+      "emotion": "grounding",
+      "intensity": 5.0,
+      "frequency": 396,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-19T18:14:30.845472",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": 240,
+      "valence": 0
+    }
+  ]
+}
