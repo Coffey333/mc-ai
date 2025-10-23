@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eee;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        #game {
+            text-align: center;
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        h1 { color: #16c79a; margin-bottom: 20px; }
+        #board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 10px;
+            margin: 20px auto;
+        }
+        .cell {
+            width: 100px;
+            height: 100px;
+            background: rgba(22, 199, 154, 0.1);
+            border: 3px solid #16c79a;
+            border-radius: 10px;
+            font-size: 50px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+        .cell:hover { background: rgba(22, 199, 154, 0.3); transform: scale(1.05); }
+        #status { font-size: 20px; margin: 20px 0; color: #16c79a; }
+        button {
+            background: #16c79a;
+            color: #1a1a2e;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        button:hover { background: #0fa; transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <div id="game">
+        <h1>I want to play tic-tac-toe and I want to be unicorns and you could be poop emojis</h1>
+        <div id="status">Your turn! You're 😊</div>
+        <div id="board"></div>
+        <button onclick="resetGame()">Play Again</button>
+    </div>
+    <script>
+        const board = Array(9).fill('');
+        const player = '😊';
+        const ai = '🤖';
+        let currentPlayer = player;
+        let gameOver = false;
+
+        function createBoard() {
+            const boardEl = document.getElementById('board');
+            boardEl.innerHTML = '';
+            for (let i = 0; i < 9; i++) {
+                const cell = document.createElement('div');
+                cell.className = 'cell';
+                cell.onclick = () => makeMove(i);
+                boardEl.appendChild(cell);
+            }
+            updateBoard();
+        }
+
+        function updateBoard() {
+            const cells = document.querySelectorAll('.cell');
+            cells.forEach((cell, i) => {
+                cell.textContent = board[i];
+            });
+        }
+
+        function makeMove(i) {
+            if (gameOver || board[i]) return;
+            
+            board[i] = currentPlayer;
+            updateBoard();
+            
+            if (checkWin()) {
+                document.getElementById('status').textContent = `${currentPlayer} wins! 🎉`;
+                gameOver = true;
+                return;
+            }
+            
+            if (board.every(cell => cell)) {
+                document.getElementById('status').textContent = "It's a tie!";
+                gameOver = true;
+                return;
+            }
+            
+            currentPlayer = currentPlayer === player ? ai : player;
+            document.getElementById('status').textContent = `${currentPlayer}'s turn`;
+            
+            if (currentPlayer === ai) {
+                setTimeout(aiMove, 500);
+            }
+        }
+
+        function aiMove() {
+            const empty = board.map((v, i) => v === '' ? i : null).filter(v => v !== null);
+            if (empty.length > 0) {
+                const move = empty[Math.floor(Math.random() * empty.length)];
+                makeMove(move);
+            }
+        }
+
+        function checkWin() {
+            const wins = [
+                [0,1,2], [3,4,5], [6,7,8],
+                [0,3,6], [1,4,7], [2,5,8],
+                [0,4,8], [2,4,6]
+            ];
+            return wins.some(w => 
+                board[w[0]] && board[w[0]] === board[w[1]] && board[w[0]] === board[w[2]]
+            );
+        }
+
+        function resetGame() {
+            board.fill('');
+            currentPlayer = player;
+            gameOver = false;
+            document.getElementById('status').textContent = `Your turn! You're ${player}`;
+            updateBoard();
+        }
+
+        createBoard();
+    </script>
+</body>
+</html>
