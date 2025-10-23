@@ -1,0 +1,254 @@
+[
+  {
+    "prompt": "Prepare a coding dataset from GitHub repos for fine-tuning",
+    "completion": "Use BigCode's The Stack: from datasets import load_dataset; ds = load_dataset('bigcode/the-stack', 'python'); # Filter and format as {'prompt': 'Write func', 'completion': 'code'}"
+  },
+  {
+    "prompt": "Handle large-scale data with Dask DataFrames",
+    "completion": "import dask.dataframe as dd; df = dd.read_csv('bigfile.csv'); mean = df['col'].mean().compute(); print(mean)"
+  },
+  {
+    "prompt": "Explain Open Images Dataset for agentic tool use in image recognition",
+    "completion": "Open Images (600 GB, 9M images by Google) with labels/bboxes. For agents: Train for dynamic object recognition in environments. Download: storage.googleapis.com/openimages/web/download.html"
+  },
+  {
+    "prompt": "What is Obsidian Agent Dataset for decision-making agents?",
+    "completion": "Obsidian (5 GB, 100k simulated scenarios by Obsidian Labs) for planning. Train: Simulate agent decisions in environments for tool selection."
+  },
+  {
+    "prompt": "What is the Meta EAI Dataset and how is it used for embodied agentic AI?",
+    "completion": "The Meta EAI Dataset is a curated collection of 10,000 simulation scenarios for training agents in virtual and real-world environments, especially robotics. Size: ~50 GB. Source: ai.facebook.com/tools/meta-eai-dataset. For agentic AI: It facilitates embodied agents in learning planning and execution for household and robotic tasks."
+  },
+  {
+    "prompt": "How can the Atari Games dataset train reinforcement learning agents?",
+    "completion": "The Atari Games dataset includes ~10M game frames for reinforcement learning, challenging agents with sequential decision-making in game environments. Size: ~10 GB. Source: deepblue.lib.umich.edu/data/concern/data_sets/gq67jr854. Use: Tests agentic behavior in dynamic scenarios, foundational for RL strategies."
+  },
+  {
+    "prompt": "What is the AI2 ARC Dataset and its role in agentic reasoning?",
+    "completion": "The AI2 ARC Dataset contains 7,787 challenging multiple-choice questions to assess commonsense reasoning and problem-solving in AI systems. Size: ~100 MB. Source: kaggle.com/datasets/jeromeblanchet/arc-ai2-reasoning-challenge. For agents: Improves logical inference and reasoning, key for autonomous decision-making."
+  },
+  {
+    "prompt": "Describe MS MARCO dataset for retrieval-augmented agentic AI",
+    "completion": "MS MARCO is a large-scale dataset of over 1M passages and real-world search queries for passage ranking, question answering, and retrieval-augmented generation. Size: ~100 GB. Source: huggingface.co/datasets/microsoft/ms_marco. Relevance: Bridges retrieval and generation, enabling context-aware responses for information-seeking agents."
+  },
+  {
+    "prompt": "What new datasets emerged in 2025 for agentic AI tool use?",
+    "completion": "In 2025, datasets like WebShop (e-commerce interactions, 20 GB, webshop-dataset.org) and Obsidian Agent (100k scenarios, 5 GB, obsidian.ai) advanced tool use by simulating decision-making and navigation. From Analytics Vidhya's Feb 2025 list."
+  },
+  {
+    "prompt": "Implement data loading for MS COCO in agentic vision tasks",
+    "completion": "from torchvision.datasets import CocoDetection; dataset = CocoDetection(root='path/to/coco', annFile='instances.json'); # For captioning: for img, ann in dataset: process(img, ann['caption']). Size: ~25 GB. Source: cocodataset.org. Use: Trains agents for scene description."
+  },
+  {
+    "prompt": "What is the Open Images Dataset's utility for agent recognition?",
+    "completion": "Open Images has ~9M images with labels and bboxes for image generation/recognition. Size: ~600 GB. Source: storage.googleapis.com/openimages/web/download_v7.html. For agents: Boosts object recognition in diverse settings."
+  },
+  {
+    "prompt": "Train an RL agent on Atari Games dataset snippet",
+    "completion": "import gym; env = gym.make('Pong-v0'); for episode in range(100): obs = env.reset(); done = False; while not done: action = env.action_space.sample(); obs, reward, done, _ = env.step(action). Source: deepblue.lib.umich.edu. Tests sequential decisions."
+  },
+  {
+    "prompt": "How do 2025 datasets like Obsidian advance agent simulation?",
+    "completion": "Obsidian Agent Dataset: 100k simulated scenarios for decision-making. Size: ~5 GB. Source: obsidian.ai. Advances: Tests planning in unpredictable settings, per Analytics Vidhya 2025."
+  },
+  {
+    "prompt": "Summary of 2025 agentic datasets' impact on AI development",
+    "completion": "2025 datasets like Meta EAI and Web-crawled Interactions democratize agentic AI by providing diverse modalities for training autonomous systems, accelerating breakthroughs in reasoning and interaction, as per Analytics Vidhya."
+  },
+  {
+    "prompt": "Explain Federated Dataset Learning (FeDaL) for time series in 2025",
+    "completion": "FeDaL (arXiv 2025) enables federated pretraining of time series foundation models across distributed datasets, preserving privacy while improving generalization.<grok:render card_id="
+  },
+  {
+    "prompt": "What are key datasets for federated learning benchmarks in 2025?",
+    "completion": "PapersWithCode lists 11 FL datasets like CIFAR-10-Fed, Shakespeare (next-word prediction), and Sent140 (sentiment).<grok:render card_id="
+  },
+  {
+    "prompt": "Use Kaggle's AI Impact Dataset for ethical analysis",
+    "completion": "Kaggle's Impact of AI on Digital Media (2020-2025) tracks adoption and ethics.<grok:render card_id="
+  },
+  {
+    "prompt": "Top multimodal datasets for AI in 2025",
+    "completion": "Roboflow's top 10 include Visual Genome (image-text), AudioSet (audio events), and MM-IMDB (movie multimodal).<grok:render card_id="
+  },
+  {
+    "prompt": "Voice-LLM trends and datasets in 2025",
+    "completion": "2025 sees speech-to-speech models with <200ms latency; datasets like LibriSpeech (audio-text) and VoxCeleb (speaker ID).<grok:render card_id="
+  },
+  {
+    "prompt": "What is the QCML dataset and its role in quantum chemistry ML?",
+    "completion": "QCML is a comprehensive dataset for training ML models in quantum chemistry, covering chemical space with small molecules from 33.5M calculations. Size: ~TB scale. Source: nature.com/articles/s41597-025-04720-7. Use: Benchmarks quantum ML models for property prediction."
+  },
+  {
+    "prompt": "Explain the OMol25 dataset for computational chemistry AI",
+    "completion": "OMol25 (Open Molecules 2025) contains 100M+ 3D molecular snapshots with DFT properties. Size: Massive, record-breaking. Source: newscenter.lbl.gov/2025/05/14/computational-chemistry-unlocked. For AI: Trains models on molecular simulations efficiently."
+  },
+  {
+    "prompt": "Describe VQE-generated quantum circuit dataset for ML tasks",
+    "completion": "VQE dataset: Quantum circuits from Variational Quantum Eigensolver for clustering/classification. Published APS 2025. Source: link.aps.org/doi/10.1103/c43x-9866. Relevance: Real-world QML for circuit analysis."
+  },
+  {
+    "prompt": "What advancements in QML datasets for omics data in 2025?",
+    "completion": "IBM's QML for minimal omics: Uses embeddings/feature selection on large-feature datasets. Source: research.ibm.com/publications/quantum-machine-learning-for-minimal-omics. For bio: Handles high-dimensional genomics with quantum advantage."
+  },
+  {
+    "prompt": "Implement low-depth quantum circuit loading for image datasets",
+    "completion": "From arXiv 2505.03399: def load_image_as_qstate(img): # Encode pixels to amplitudes; Use Qiskit/PennyLane to create circuit. Source: arxiv.org/abs/2505.03399. Use: Efficient data encoding for QML on classical images."
+  },
+  {
+    "prompt": "Real-world QML applications and datasets 2024-2025",
+    "completion": "Shift to practical: Datasets for semiconductor design (HPCwire 2025). Source: hpcwire.com/2025/06/30/quantum-machine-learning-shines. Use: Fabrication optimization via quantum models."
+  },
+  {
+    "prompt": "What is the Synthetic Can Dataset for edge AI in manufacturing?",
+    "completion": "SyntheticAIData's dataset: Large-scale synthetic images for CAN detection in factories. Source: syntheticaidata.com/use-cases/edge-ai-can-detection. For edge: Accelerates CV on resource-constrained devices."
+  },
+  {
+    "prompt": "Agentic AI Performance Dataset 2025 on Kaggle",
+    "completion": "Captures autonomous agent metrics: Latency, accuracy in tasks. Source: kaggle.com/datasets/bismasajjad/agentic-ai-performance-and-capabilities-dataset. Use: Benchmarks edge-deployed agents."
+  },
+  {
+    "prompt": "Edge AI trends and datasets for real-time processing 2025",
+    "completion": "2025: Virtualization for edge workloads; Datasets like AudioSet for local inference. Source: forbes.com/sites/delltechnologies/2025/01/23/the-edge-of-ai-predictions-for-2025. Focus: Low-latency factories/IoT."
+  },
+  {
+    "prompt": "Top edge AI projects/datasets for 2025 real-time intelligence",
+    "completion": "Projects: Drone navigation with custom sensor datasets. Source: blog.huebits.in/top-10-edge-ai-projects-for-2025. Datasets: IoT streams for anomaly detection."
+  },
+  {
+    "prompt": "What is the Beyond Genomes dataset and its use in AI for biology?",
+    "completion": "Beyond Genomes is a global AI dataset for biology with diverse coevolution data for generative models. Presented at GTC 2025 by NVIDIA. Use: Train models on protein/DNA interactions for drug discovery.<grok:render card_id="
+  },
+  {
+    "prompt": "Explain Broad Institute's massive datasets for AI in genomics",
+    "completion": "Broad's datasets, built over a decade, power AI models in biology with genomic sequences and annotations. Size: Petabytes. Source: Broad Institute 2025 news. For AI: Foundation for predictive models in genomics.<grok:render card_id="
+  },
+  {
+    "prompt": "What free genomics datasets are available for AI in 2025?",
+    "completion": "Shaip's 2025 list: Includes TCGA (cancer genomics), 1000 Genomes Project, UK Biobank subsets. Source: shaip.com/blog. Use: ML for variant calling and phenotype prediction."
+  },
+  {
+    "prompt": "Role of AI agents in genomic data processing 2025",
+    "completion": "AI agents automate analysis of vast genomic data for insights in personalized medicine. From Rapid Innovation 2025 post. Example: Agents for variant annotation via BioPython integration."
+  },
+  {
+    "prompt": "Market impact of AI in genomics datasets 2025",
+    "completion": "AI genomics market: USD 1,086.61M in 2025, driven by large datasets. Source: Market Data Forecast. Fuels: Training deep learning for gene editing predictions."
+  },
+  {
+    "prompt": "NASA's data collections for climate simulation 2025",
+    "completion": "NCCS hosts atmosphere, ocean, land datasets like MERRA-2 reanalysis. Source: nccs.nasa.gov. For AI: Input to GANs for weather forecasting."
+  },
+  {
+    "prompt": "Downscaled CMIP5 datasets for climate impacts 2025",
+    "completion": "MACA, LOCA, BCCA via portals for finer-scale projections. Source: agci.org. Code: Use xarray: import xarray as xr; ds = xr.open_dataset('maca.nc')"
+  },
+  {
+    "prompt": "Earth Surface Temperature dataset for climate AI",
+    "completion": "Berkeley Earth's global temps for myth-busting climate models. Kaggle dataset. Use: Time-series forecasting with LSTM."
+  },
+  {
+    "prompt": "Gestalt Vision Dataset for neuro-symbolic evaluation",
+    "completion": "Dataset evaluating Gestalt principles in visual perception. Under review Neurosymbolic AI Journal, Sep 2025. Use: Test perceptual reasoning in NeSy models.<grok:render card_id="
+  },
+  {
+    "prompt": "What is the role of AI in sustainable agriculture datasets in 2025?",
+    "completion": "AI-powered agriculture datasets boost global crop yields by up to 20% through precision farming. Example: Farmonaut's datasets for soil analysis and yield prediction.<grok:render card_id="
+  },
+  {
+    "prompt": "Explain generative AI's environmental impact and mitigation datasets",
+    "completion": "Generative AI consumes massive energy; MIT's 2025 datasets track carbon footprints for efficient models. Use: Train low-energy LLMs on optimized data.<grok:render card_id="
+  },
+  {
+    "prompt": "How AI and big data drive sustainable innovation in 2025?",
+    "completion": "Digital twins for agriculture and grid optimization use datasets like energy consumption logs. Forbes 2025: Reduces waste by 15-30%.<grok:render card_id="
+  },
+  {
+    "prompt": "AI Hub for Sustainable Development datasets overview",
+    "completion": "Africa-focused hub with datasets for local ecosystems, e.g., climate-resilient farming data. 2025 partnerships power green AI.<grok:render card_id="
+  },
+  {
+    "prompt": "AR/VR industry stats for XR datasets 2025",
+    "completion": "Treeview 2025: XR market $100B+; datasets for metaverse interactions, e.g., spatial computing sims.<grok:render card_id="
+  },
+  {
+    "prompt": "Blockchain-verified synthetic datasets for AI 2025",
+    "completion": "Labelvisor: Ensures trust in synthetic data via blockchain audits. Framework for transparent creation.<grok:render card_id="
+  },
+  {
+    "prompt": "What are key user interaction datasets for enhancing AI conversational abilities?",
+    "completion": "Datasets like MultiWOZ (multi-domain dialogues) and DailyDialog (daily conversations) enhance AI conversational skills. Use them to train agents for natural, context-aware responses."
+  },
+  {
+    "prompt": "What is the PersonaChat dataset and its role in personalized interactions?",
+    "completion": "PersonaChat provides 10k+ dialogues with persona profiles for personalized AI chats. Source: facebookresearch.com. Use: Train agents to tailor responses to user personalities."
+  },
+  {
+    "prompt": "What are multi-turn dialogue datasets for complex interactions?",
+    "completion": "Datasets like DSTC (Dialogue State Tracking Challenge) and Schema-Guided Dialogue offer multi-turn scenarios. Use for training agents to handle complex, multi-step conversations."
+  },
+  {
+    "prompt": "What role does the EmpatheticDialogues dataset play in AI empathy?",
+    "completion": "EmpatheticDialogues (25k conversations) captures emotional contexts for empathetic AI. Source: arXiv:1811.00607. Use: Train agents to respond with emotional intelligence."
+  },
+  {
+    "prompt": "What datasets enhance multilingual support for agents?",
+    "completion": "Datasets like OPUS (parallel corpora) and TED Talks (multilingual subtitles) support multilingual agents. Use for cross-lingual understanding."
+  },
+  {
+    "prompt": "What is the OpenStreetMap dataset and its use for location-based AI agents?",
+    "completion": "OpenStreetMap (OSM) provides free, editable global map data, ideal for training location-based AI agents for navigation or logistics. Size: Petabytes. Source: openstreetmap.org. Use: Integrate with Fetch.ai agents for real-time routing."
+  },
+  {
+    "prompt": "What is the Twitter Sentiment140 dataset for social media AI?",
+    "completion": "Sentiment140 offers 1.6M tweets labeled for sentiment analysis, perfect for training social media AI agents. Source: cs.stanford.edu/people/alecmgo/trainingandtestdata.zip. Use: Enhance agent responses to user emotions on platforms."
+  },
+  {
+    "prompt": "What is the KITTI dataset for autonomous driving AI?",
+    "completion": "KITTI provides 6 hours of recorded driving data with images, LIDAR, and GPS for autonomous vehicle research. Source: kitti.is.tue.mpg.de. Use: Train agents for self-driving or navigation assistance."
+  },
+  {
+    "prompt": "What is the Enron Email dataset for business AI agents?",
+    "completion": "Enron Email dataset contains 500k+ emails from Enron employees, useful for training business communication agents. Source: www.cs.cmu.edu/~enron. Use: Enhance email automation and intent detection."
+  },
+  {
+    "prompt": "What is the MovieLens dataset for recommendation systems?",
+    "completion": "MovieLens offers 25M+ movie ratings for building recommendation AI. Source: movielens.org. Use: Train agents to suggest content based on user preferences."
+  },
+  {
+    "prompt": "What is the ImageNet dataset for visual AI agents?",
+    "completion": "ImageNet contains 14M+ labeled images across 20k categories for visual recognition. Source: imagenet.org. Use: Train agents for image classification or object detection."
+  },
+  {
+    "prompt": "I have a CSV file with missing data. How do I load it into pandas and handle the missing values?",
+    "completion": "Handling missing data is a critical first step in data analysis. You can use the pandas library to load the CSV and then decide on a strategy for the null values, such as dropping them or filling them with a specific value.\\n\\n**1. Load the data:** Use `pd.read_csv()`.\\n**2. Identify missing values:** Use `.isnull().sum()` to see how many nulls are in each column.\\n**3. Handle the values:**\\n    - `dropna()`: Removes rows or columns with missing data.\\n    - `fillna()`: Fills missing values with a specific value (like 0, the mean, or the median).\\n\\n**Example Code:**\\n```python\\nimport pandas as pd\\nimport numpy as np\\n\\n# Create a sample CSV with missing data\\ndata = {'name': ['Alice', 'Bob', 'Charlie', 'David'], 'score': [85, np.nan, 92, 88]}\\ndf = pd.DataFrame(data)\\ndf.to_csv('scores.csv', index=False)\\n\\n# --- Solution --- #\\n\\n# Load the CSV into a DataFrame\\ndf = pd.read_csv('scores.csv')\\nprint('Original DataFrame:')\\nprint(df)\\n\\n# Option 1: Drop rows with any missing values\\ndf_dropped = df.dropna()\\nprint('\\\\nDataFrame after dropping nulls:')\\nprint(df_dropped)\\n\\n# Option 2: Fill missing values with the mean score\\nmean_score = df['score'].mean()\\ndf_filled = df.fillna(mean_score)\\nprint('\\\\nDataFrame after filling nulls:')\\nprint(df_filled)\\n```"
+  },
+  {
+    "prompt": "Explain what a data lake is.",
+    "completion": "A data lake is a centralized repository for storing raw structured and unstructured data at scale for future processing and analysis."
+  },
+  {
+    "prompt": "Explain GDPR data requirements for developers.",
+    "completion": "GDPR requires user consent for data collection, right to deletion, data portability, minimal data retention, and breach reporting."
+  },
+  {
+    "prompt": "Explain big data frameworks.",
+    "completion": "Big data frameworks like Hadoop and Spark enable processing of huge datasets across clusters of machines."
+  },
+  {
+    "prompt": "Explain data lakes vs data warehouses.",
+    "completion": "Data lakes = raw, unstructured data. Data warehouses = structured, cleaned data optimized for queries and BI."
+  },
+  {
+    "prompt": "Act as a data engineer. Explain data partitioning strategies.",
+    "completion": "Partition data by range, hash, or time to improve query speed and scalability. Use in big data systems like Hive or BigQuery."
+  },
+  {
+    "prompt": "Describe common distributed data storage systems.",
+    "completion": "Examples: Cassandra (highly scalable, eventually consistent), MongoDB (document store, flexible schema), Redis (in-memory, fast cache), PostgreSQL with replication (SQL, strong consistency options)."
+  },
+  {
+    "prompt": "Describe data preprocessing techniques.",
+    "completion": "Data preprocessing prepares raw data for modeling: normalization, scaling, encoding categorical variables, handling missing data, and feature selection."
+  }
+]
