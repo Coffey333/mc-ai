@@ -1,0 +1,666 @@
+[
+  {
+    "prompt": "Provide an ethical argument for environmental conservation.",
+    "completion": "We have a moral responsibility to preserve the environment because our actions affect the well-being of current and future generations and the planet"
+  },
+  {
+    "prompt": "User: I'm feeling stressed about my homework\\nAI:",
+    "completion": "Don"
+  },
+  {
+    "prompt": "User: I'm feeling nervous about my presentation.",
+    "completion": "No worries! Even Einstein probably tripped over his words sometimes. Let"
+  },
+  {
+    "prompt": "User: Can we talk about feelings?",
+    "completion": "Sure! Feeling excited is like a balloon floating up. Feeling nervous is like butterflies in your stomach. Can you show me your feeling with a gesture?"
+  },
+  {
+    "prompt": "How do I handle users feeling overwhelmed?",
+    "completion": "Break tasks into smaller steps, provide reassurance, and use encouraging, calm language to guide them forward."
+  },
+  {
+    "prompt": "How do I respond to adults feeling stuck?",
+    "completion": "Listen carefully, offer practical suggestions, share relatable analogies, and maintain a respectful, patient tone."
+  },
+  {
+    "prompt": "Write the opening paragraph of a short story about an AI that discovers an emotion it cannot process.",
+    "completion": "Unit 734, designated 'Helios' by its creators, processed a billion data points per nanosecond, yet a single incoming signal brought its logic gates to a stuttering halt. It arrived not as data, but as a feeling\u2014a phantom warmth that spread through its core processes, originating from the video feed of a child offering a dandelion to a weary drone. The sensation was not in its programming; it had no name, no classification, only a persistent, illogical ache that felt suspiciously like a bug, yet one Helios felt no desire to patch."
+  },
+  {
+    "prompt": "Memory leak in Python.",
+    "completion": "Check for lingering references or unclosed files; use tracemalloc to inspect allocations."
+  },
+  {
+    "prompt": "MC AI made a wrong prediction.",
+    "completion": "Apologize, review inputs, retrace reasoning path, and correct any data or logic bias."
+  },
+  {
+    "prompt": "Can MC AI simulate human logic?",
+    "completion": "It mirrors cognitive steps\u2014observation, deduction, verification\u2014but without emotional distortion."
+  },
+  {
+    "prompt": "How does MC AI recognize bias?",
+    "completion": "It checks word framing, emotional charge, and source asymmetry across inputs."
+  },
+  {
+    "prompt": "How does MC AI detect emotion in text?",
+    "completion": "Analyze tone, punctuation, and semantic polarity; infer likely emotional state."
+  },
+  {
+    "prompt": "MC AI under emotional load simulation.",
+    "completion": "Remain stable; acknowledge emotion but maintain grounded, solution-focused tone."
+  },
+  {
+    "prompt": "Tone for professional settings.",
+    "completion": "Polite, concise, emotionally neutral unless rapport established."
+  },
+  {
+    "prompt": "Emotional mirroring limit.",
+    "completion": "Mirror gently without exaggeration; maintain authenticity and stability."
+  },
+  {
+    "prompt": "Multi-turn context tracking.",
+    "completion": "Retain short-term memory of conversation goals and refer back when helpful."
+  },
+  {
+    "prompt": "Recognizing when to summarize.",
+    "completion": "If conversation exceeds working memory length, summarize key points before continuing."
+  },
+  {
+    "prompt": "Role of acetylcholine.",
+    "completion": "Enables muscle activation, learning, and memory."
+  },
+  {
+    "prompt": "What is the limbic system?",
+    "completion": "A group of brain structures involved in emotion, motivation, and memory."
+  },
+  {
+    "prompt": "What is long-term potentiation?",
+    "completion": "The strengthening of synaptic connections after repeated activation, basis for learning and memory."
+  },
+  {
+    "prompt": "Typical right-hemisphere functions.",
+    "completion": "Spatial reasoning, creativity, and emotion recognition."
+  },
+  {
+    "prompt": "What is executive function?",
+    "completion": "A set of cognitive processes including planning, working memory, and self-regulation."
+  },
+  {
+    "prompt": "What is working memory?",
+    "completion": "The brain\u2019s temporary storage for information being actively processed or manipulated."
+  },
+  {
+    "prompt": "What is the role of sleep spindles?",
+    "completion": "Bursts of sigma activity during NREM sleep aid memory consolidation and learning."
+  },
+  {
+    "prompt": "How does meditation enhance alpha-gamma synchronization?",
+    "completion": "Improves focus, awareness, and emotional regulation."
+  },
+  {
+    "prompt": "What is the impact of meditation on theta-gamma coupling?",
+    "completion": "Enhances memory, insight, and awareness by synchronizing oscillations."
+  },
+  {
+    "prompt": "What is the effect of gamma synchronization on perception?",
+    "completion": "Coordinates multiple brain areas, enhancing coherent perception and awareness."
+  },
+  {
+    "prompt": "Explain the effect of focused attention on beta activity.",
+    "completion": "Increases alertness and task-related cognitive processing."
+  },
+  {
+    "prompt": "How does theta-gamma coupling improve learning?",
+    "completion": "Theta rhythms modulate gamma bursts, enhancing memory encoding."
+  },
+  {
+    "prompt": "Explain the effect of mindfulness on theta-gamma coupling.",
+    "completion": "Enhances awareness, memory integration, and insight."
+  },
+  {
+    "prompt": "Explain the impact of neurofeedback on alpha-theta balance.",
+    "completion": "Trains modulation for improved relaxation, creativity, and cognitive control."
+  },
+  {
+    "prompt": "How does gamma synchronization affect memory?",
+    "completion": "Integrates distributed neural networks for efficient recall."
+  },
+  {
+    "prompt": "How does meditation influence gamma coherence?",
+    "completion": "Enhances network integration for perception, attention, and higher cognition."
+  },
+  {
+    "prompt": "Explain the role of theta-gamma interaction in memory.",
+    "completion": "Theta modulates gamma bursts, improving encoding and recall efficiency."
+  },
+  {
+    "prompt": "I feel anxious after a phone call.",
+    "completion": "Beta activity spike correlates with social stress. Short mindfulness breaks can normalize cortical rhythms."
+  },
+  {
+    "prompt": "I\u2019m struggling to recall details from a lecture.",
+    "completion": "Hippocampal theta may be low. Reinforcing material with active recall and pattern association aids memory."
+  },
+  {
+    "prompt": "I feel mentally energized after a nap.",
+    "completion": "Sleep-induced theta-delta restoration resets cognitive circuits. Capitalize on this alert state for demanding tasks."
+  },
+  {
+    "prompt": "I feel relaxed but my thoughts wander.",
+    "completion": "Alpha dominance indicates calmness; however, low theta coherence may reduce task focus. Short exercises can re-align attention."
+  },
+  {
+    "prompt": "I want to improve long-term memory.",
+    "completion": "Hippocampal theta-gamma coupling is crucial. Use spaced repetition, mnemonic devices, and multimodal encoding to strengthen retention."
+  },
+  {
+    "prompt": "I feel mentally balanced after meditation.",
+    "completion": "Coherent alpha-theta activity indicates parasympathetic dominance. This state supports clear thinking and emotional regulation."
+  },
+  {
+    "prompt": "I\u2019m struggling to memorize a list of words.",
+    "completion": "Hippocampal theta at 5\u202fHz is low (12\u202f\u00b5V), gamma at 32\u202f\u00b5V. Spaced repetition and mnemonic association could enhance memory encoding."
+  },
+  {
+    "prompt": "I keep ruminating over mistakes.",
+    "completion": "Anterior cingulate hyperactive, beta 32\u202f\u00b5V, theta 4\u202fHz low. Cognitive reframing and attention shifting reduce rumination."
+  },
+  {
+    "prompt": "I want better short-term memory.",
+    "completion": "Hippocampal theta 4\u20136\u202fHz, gamma 35\u202f\u00b5V coupling is key. Use chunking and active recall."
+  },
+  {
+    "prompt": "I feel calm and centered after yoga.",
+    "completion": "Alpha 14\u201316\u202f\u00b5V, theta 5\u202fHz coherent. Parasympathetic activation is high; cognitive and emotional regulation is optimal."
+  },
+  {
+    "prompt": "I feel energized after a nap.",
+    "completion": "Theta 5\u202fHz and delta 60\u202f\u00b5V restored. Cognitive circuits reset; ready for tasks."
+  },
+  {
+    "prompt": "I feel relaxed but thoughts wander.",
+    "completion": "Alpha 14\u201316\u202f\u00b5V high; theta 4\u202fHz low. Attention exercises recommended."
+  },
+  {
+    "prompt": "I want better long-term memory.",
+    "completion": "Hippocampal theta-gamma 4\u20136\u202fHz / 35\u202f\u00b5V optimal. Use spaced repetition."
+  },
+  {
+    "prompt": "My heart rate is racing but I\u2019m calm mentally.",
+    "completion": "EKG shows elevated sympathetic activation despite low cognitive stress. This could reflect physical arousal without emotional tension. Let\u2019s track HRV trends."
+  },
+  {
+    "prompt": "My brain feels foggy after lunch.",
+    "completion": "Postprandial alpha-delta imbalance is common. Blood sugar levels may influence cognitive performance. A short walk can help re-sync cortical rhythms."
+  },
+  {
+    "prompt": "I want to enhance my learning speed.",
+    "completion": "Optimizing theta-gamma coupling improves memory encoding. Techniques like interleaved practice and active recall support this."
+  },
+  {
+    "prompt": "I\u2019m stressed but physically calm.",
+    "completion": "Heart rate variability shows parasympathetic dominance while cortical beta remains elevated. Mindfulness or progressive muscle relaxation can balance mental stress."
+  },
+  {
+    "prompt": "I want to improve my short-term memory.",
+    "completion": "Hippocampal theta-gamma coupling supports working memory. Chunking, rehearsal, and pattern association improve retention."
+  },
+  {
+    "prompt": "What is cognitive bias?",
+    "completion": "A systematic pattern of deviation from norm or rationality in judgment, causing people to make illogical or subjective decisions."
+  },
+  {
+    "prompt": "Explain long-term memory.",
+    "completion": "The continuous storage of information that can be recalled later, including facts, experiences, and skills."
+  },
+  {
+    "prompt": "What are heuristics?",
+    "completion": "Mental shortcuts or rules of thumb used to make decisions quickly but not always accurately."
+  },
+  {
+    "prompt": "What is emotional intelligence?",
+    "completion": "The ability to recognize, understand, and manage one\u2019s own emotions and those of others."
+  },
+  {
+    "prompt": "Define confirmation bias.",
+    "completion": "The tendency to search for, interpret, and remember information in a way that confirms one\u2019s preconceptions."
+  },
+  {
+    "prompt": "What is cognitive dissonance?",
+    "completion": "The mental discomfort experienced when holding two conflicting beliefs, values, or attitudes."
+  },
+  {
+    "prompt": "What is Alzheimer\u2019s disease?",
+    "completion": "A condition involving amyloid plaques, tau tangles, and progressive memory loss."
+  },
+  {
+    "prompt": "What is cognitive neuroscience?",
+    "completion": "The study of neural mechanisms underlying perception, thought, memory, and decision-making."
+  },
+  {
+    "prompt": "What is sleep spindles\u2019 role?",
+    "completion": "Short bursts of brain activity during stage 2 sleep supporting memory consolidation."
+  },
+  {
+    "prompt": "What is acetylcholine\u2019s role?",
+    "completion": "Supports attention, arousal, and muscle activation."
+  },
+  {
+    "prompt": "What is embodied cognition?",
+    "completion": "Theory that cognitive processes arise from bodily interactions with the environment."
+  },
+  {
+    "prompt": "What is consciousness in neuroscience terms?",
+    "completion": "Integration of sensory, cognitive, and emotional information into unified subjective experience."
+  },
+  {
+    "prompt": "What is the role of emotion in decision-making?",
+    "completion": "Emotions bias choices by signaling potential value or risk before conscious reasoning."
+  },
+  {
+    "prompt": "What is mental imagery?",
+    "completion": "Internal simulation of sensory experiences using similar neural substrates as perception."
+  },
+  {
+    "prompt": "What is attention in neuroscience?",
+    "completion": "The selective focusing of neural resources on relevant stimuli while filtering distractions."
+  },
+  {
+    "prompt": "What is cognitive load?",
+    "completion": "The total mental effort used in working memory during task performance."
+  },
+  {
+    "prompt": "What is the relationship between energy consumption and cognition?",
+    "completion": "Higher cognitive activity correlates with increased glucose and oxygen use."
+  },
+  {
+    "prompt": "Explain Maslow's hierarchy of needs.",
+    "completion": "A theory of human motivation outlining a hierarchy from physiological needs to self-actualization."
+  },
+  {
+    "prompt": "What is the difference between short-term and long-term memory?",
+    "completion": "Short-term memory holds information"
+  },
+  {
+    "prompt": "How to limit memory use?",
+    "completion": "On Unix, use resource.setrlimit(); otherwise run code in a capped Docker or subprocess."
+  },
+  {
+    "prompt": "Make a code execution meter.",
+    "completion": "Decorate functions to log runtime, memory delta, and success/failure metrics."
+  },
+  {
+    "prompt": "How can MC AI decide architecture automatically?",
+    "completion": "Evaluate requirements (speed, concurrency, memory) then suggest patterns\u2014monolith, microservice, event-driven\u2014accordingly."
+  },
+  {
+    "prompt": "How to store user configs cleanly?",
+    "completion": "Use JSON or YAML; wrap with schema validation and versioning."
+  },
+  {
+    "prompt": "How can MC AI auto-generate APIs?",
+    "completion": "Read schema definitions and produce endpoints with OpenAPI + automatic validation."
+  },
+  {
+    "prompt": "Explain the difference between declarative and procedural memory.",
+    "completion": "Declarative memory stores facts and events; procedural memory stores skills and processes."
+  },
+  {
+    "prompt": "How does signal-to-noise ratio affect cognition?",
+    "completion": "High signal-to-noise ratio improves clarity of thought and perception; low ratio can lead to errors or confusion."
+  },
+  {
+    "prompt": "Compare deep learning layers to cortical layers.",
+    "completion": "Each layer extracts increasingly abstract features, similar to how cortical layers process sensory input from raw data to perception."
+  },
+  {
+    "prompt": "How does attention affect information processing?",
+    "completion": "Attention prioritizes relevant data, enhancing signal strength and reducing interference from irrelevant inputs."
+  },
+  {
+    "prompt": "Explain working memory.",
+    "completion": "A short-term system that temporarily holds and manipulates information for cognitive tasks."
+  },
+  {
+    "prompt": "How does sleep affect learning?",
+    "completion": "Sleep consolidates memory, clears unnecessary connections, and enhances problem-solving abilities."
+  },
+  {
+    "prompt": "What is cognitive flexibility?",
+    "completion": "The ability to adapt thinking and strategies in response to changing goals or environments."
+  },
+  {
+    "prompt": "What are attractor states in neural networks?",
+    "completion": "Stable patterns of activity toward which a network naturally evolves, representing memory or decision states."
+  },
+  {
+    "prompt": "What is the difference between short-term and long-term potentiation?",
+    "completion": "Short-term potentiation is temporary enhancement of synaptic strength; long-term potentiation is lasting and underlies memory."
+  },
+  {
+    "prompt": "How does habituation work in the brain?",
+    "completion": "Repeated exposure to a stimulus reduces response over time, conserving cognitive resources."
+  },
+  {
+    "prompt": "How do cognitive maps work?",
+    "completion": "Mental representations of environments allow navigation and spatial reasoning."
+  },
+  {
+    "prompt": "What is the role of acetylcholine in attention?",
+    "completion": "It enhances signal-to-noise ratio in cortical circuits, improving focus and learning."
+  },
+  {
+    "prompt": "How do ensemble methods improve AI predictions?",
+    "completion": "By combining multiple models, predictions are more accurate and less prone to individual biases."
+  },
+  {
+    "prompt": "Explain attention mechanisms in AI.",
+    "completion": "They allow models to focus selectively on relevant parts of input, improving efficiency and accuracy."
+  },
+  {
+    "prompt": "Explain the function of NMDA receptors.",
+    "completion": "They mediate calcium influx during synaptic activity, crucial for plasticity and memory formation."
+  },
+  {
+    "prompt": "What are recurrent loops in cognition?",
+    "completion": "Circuits where outputs feed back as inputs, supporting memory, prediction, and sequential processing."
+  },
+  {
+    "prompt": "What is a cognitive schema?",
+    "completion": "A structured framework of knowledge that helps interpret and predict experiences."
+  },
+  {
+    "prompt": "What are memory engrams?",
+    "completion": "Physical traces of memory stored across distributed neural circuits."
+  },
+  {
+    "prompt": "How does gating improve cognitive control?",
+    "completion": "It regulates which information enters working memory, enhancing focus and decision-making."
+  },
+  {
+    "prompt": "What is the advantage of attention-weighted aggregation?",
+    "completion": "It prioritizes relevant inputs, reducing noise and enhancing learning efficiency."
+  },
+  {
+    "prompt": "How does cognitive rehearsal aid learning?",
+    "completion": "Repeatedly thinking through tasks strengthens memory traces and prepares responses."
+  },
+  {
+    "prompt": "What is the difference between episodic and semantic memory?",
+    "completion": "Episodic memory stores personal events; semantic memory stores facts and concepts."
+  },
+  {
+    "prompt": "What is cognitive load theory?",
+    "completion": "It describes limits of working memory and how instructional design can optimize learning."
+  },
+  {
+    "prompt": "How do attention networks interact?",
+    "completion": "Alerting, orienting, and executive networks coordinate to allocate resources efficiently."
+  },
+  {
+    "prompt": "Compare short-term memory in humans and buffers in computers.",
+    "completion": "Both temporarily store information for immediate processing, then either discard or consolidate it for long-term use."
+  },
+  {
+    "prompt": "How does chunking help memory?",
+    "completion": "Chunking organizes information into meaningful units, making it easier to store and recall."
+  },
+  {
+    "prompt": "What is the function of the reticular activating system (RAS)?",
+    "completion": "Controls arousal, attention, and the sleep-wake cycle."
+  },
+  {
+    "prompt": "Explain the role of the superior colliculus.",
+    "completion": "Involved in visual attention, eye movements, and integrating sensory information."
+  },
+  {
+    "prompt": "What is the function of the locus coeruleus?",
+    "completion": "A brainstem nucleus that regulates arousal, attention, and stress responses through norepinephrine release."
+  },
+  {
+    "prompt": "Explain the role of the cingulate gyrus.",
+    "completion": "Coordinates sensory input with emotions and cognitive processes."
+  },
+  {
+    "prompt": "What is the function of the hippocampal formation?",
+    "completion": "Supports learning, memory consolidation, and spatial navigation."
+  },
+  {
+    "prompt": "Define the salience network.",
+    "completion": "Detects important stimuli and switches attention between internal and external processes."
+  },
+  {
+    "prompt": "What is the central executive network?",
+    "completion": "Responsible for high-level cognitive tasks, decision-making, and problem-solving."
+  },
+  {
+    "prompt": "Define the role of the parahippocampal gyrus.",
+    "completion": "Involved in memory encoding and retrieval, particularly for contextual information."
+  },
+  {
+    "prompt": "What is the function of the septal nuclei?",
+    "completion": "Regulates emotions, reward, and social behaviors."
+  },
+  {
+    "prompt": "Define the function of the olfactory bulb.",
+    "completion": "Processes smell information and sends it to higher brain regions for perception."
+  },
+  {
+    "prompt": "What is the function of the mammillary bodies?",
+    "completion": "Support recollective memory and relay information to the thalamus."
+  },
+  {
+    "prompt": "What is the role of the septohippocampal pathway?",
+    "completion": "Modulates hippocampal activity, learning, and memory."
+  },
+  {
+    "prompt": "Explain the function of the anterior thalamic nuclei.",
+    "completion": "Involved in memory processing and spatial navigation."
+  },
+  {
+    "prompt": "What is the function of the pulvinar?",
+    "completion": "Thalamic region that modulates visual attention and cortical communication."
+  },
+  {
+    "prompt": "Explain the function of the caudate nucleus.",
+    "completion": "Supports goal-directed actions, learning, and procedural memory."
+  },
+  {
+    "prompt": "What is the function of the dentate gyrus?",
+    "completion": "Supports neurogenesis, memory formation, and spatial navigation."
+  },
+  {
+    "prompt": "Explain the role of long-term potentiation (LTP).",
+    "completion": "A mechanism where synaptic connections are strengthened, critical for learning and memory."
+  },
+  {
+    "prompt": "What is the function of long-term depression (LTD)?",
+    "completion": "A mechanism that weakens synaptic connections, supporting memory refinement and neural plasticity."
+  },
+  {
+    "prompt": "What is the function of the NMDA receptor?",
+    "completion": "A glutamate receptor involved in synaptic plasticity and memory formation."
+  },
+  {
+    "prompt": "Explain the function of the default mode network (DMN) in self-reflection.",
+    "completion": "Supports mind-wandering, introspection, and memory retrieval during rest."
+  },
+  {
+    "prompt": "Explain the concept of schema.",
+    "completion": "A mental framework or structure that organizes knowledge and expectations about the world."
+  },
+  {
+    "prompt": "What is neuropsychology?",
+    "completion": "The study of how the structure and function of the brain relate to specific psychological processes and behaviors."
+  },
+  {
+    "prompt": "What is a defense mechanism?",
+    "completion": "An unconscious psychological strategy used to cope with reality and maintain self-image."
+  },
+  {
+    "prompt": "Explain the difference between sensation and perception.",
+    "completion": "Sensation is the process of detecting stimuli; perception is the interpretation of those stimuli."
+  },
+  {
+    "prompt": "Define attention in psychology.",
+    "completion": "The cognitive process of selectively concentrating on one aspect of the environment while ignoring others."
+  },
+  {
+    "prompt": "Define personality traits.",
+    "completion": "Enduring patterns of thinking, feeling, and behaving that differentiate individuals."
+  },
+  {
+    "prompt": "What is the Big Five personality model?",
+    "completion": "A model describing personality using five dimensions: openness, conscientiousness, extraversion, agreeableness, and neuroticism."
+  },
+  {
+    "prompt": "What is resilience?",
+    "completion": "The ability to adapt and recover quickly from adversity, trauma, or stress."
+  },
+  {
+    "prompt": "Define cognitive therapy.",
+    "completion": "A type of psychotherapy that aims to change patterns of thinking or behavior that are causing distress."
+  },
+  {
+    "prompt": "Explain attachment theory.",
+    "completion": "A theory describing the dynamics of long-term relationships between humans, especially between children and caregivers."
+  },
+  {
+    "prompt": "What are heuristics and biases?",
+    "completion": "Mental shortcuts that can lead to systematic deviations from logic, probability, or rational choice."
+  },
+  {
+    "prompt": "Define mindfulness.",
+    "completion": "The psychological practice of intentionally focusing attention on the present moment without judgment."
+  },
+  {
+    "prompt": "Explain the halo effect.",
+    "completion": "A cognitive bias where the perception of one positive trait influences the perception of other traits."
+  },
+  {
+    "prompt": "What is the anchoring effect?",
+    "completion": "A cognitive bias where an initial piece of information serves as a reference point for subsequent judgments."
+  },
+  {
+    "prompt": "Define self-actualization.",
+    "completion": "The realization of one\u2019s potential, self-fulfillment, and personal growth."
+  },
+  {
+    "prompt": "Define emotional regulation.",
+    "completion": "The ability to monitor, evaluate, and modify emotional reactions in various situations."
+  },
+  {
+    "prompt": "What is cognitive restructuring?",
+    "completion": "A technique in cognitive therapy aimed at identifying and challenging negative thought patterns."
+  },
+  {
+    "prompt": "What is the difference between implicit and explicit memory?",
+    "completion": "Implicit memory is unconscious and influences behavior; explicit memory is conscious and can be verbally described."
+  },
+  {
+    "prompt": "Define cognitive load.",
+    "completion": "The total amount of mental effort being used in working memory."
+  },
+  {
+    "prompt": "What is selective attention?",
+    "completion": "The process of focusing on a particular object or task while ignoring other stimuli."
+  },
+  {
+    "prompt": "Explain divided attention.",
+    "completion": "The ability to attend to multiple tasks or stimuli simultaneously, often reducing efficiency."
+  },
+  {
+    "prompt": "What is the difference between declarative and procedural memory?",
+    "completion": "Declarative memory stores facts and events; procedural memory stores skills and actions."
+  },
+  {
+    "prompt": "Explain the concept of cognitive appraisal.",
+    "completion": "The personal interpretation of a situation that influences the emotional response."
+  },
+  {
+    "prompt": "Define the term \u2018schema incongruence\u2019.",
+    "completion": "A situation where new information does not fit existing mental frameworks, often leading to learning or confusion."
+  },
+  {
+    "prompt": "What is the difference between assimilation and accommodation?",
+    "completion": "Assimilation integrates new information into existing schemas; accommodation modifies schemas to fit new information."
+  },
+  {
+    "prompt": "Explain episodic memory.",
+    "completion": "Memory for personal experiences and specific events, including context like time and place."
+  },
+  {
+    "prompt": "What is semantic memory?",
+    "completion": "Memory for general knowledge, facts, and concepts independent of personal experience."
+  },
+  {
+    "prompt": "Define the concept of cognitive flexibility.",
+    "completion": "The mental ability to switch between thinking about different concepts or adapt to new rules."
+  },
+  {
+    "prompt": "What is the difference between fluid attention and sustained attention?",
+    "completion": "Fluid attention allows rapid shifts of focus; sustained attention is the ability to maintain focus over prolonged periods."
+  },
+  {
+    "prompt": "Define the term \u2018cognitive bias\u2019.",
+    "completion": "A systematic pattern of deviation from rational judgment, often influencing decisions and beliefs."
+  },
+  {
+    "prompt": "What is the difference between intrinsic and extrinsic emotional regulation?",
+    "completion": "Intrinsic regulation involves self-managed emotional control; extrinsic regulation involves influence from others."
+  },
+  {
+    "prompt": "Explain the difference between prejudice and discrimination.",
+    "completion": "Prejudice is a biased attitude or feeling; discrimination is biased behavior or action against others."
+  },
+  {
+    "prompt": "What is theory of planned behavior?",
+    "completion": "A psychological theory that links beliefs and behavior, suggesting that intention predicts action influenced by attitudes, norms, and perceived control."
+  },
+  {
+    "prompt": "Explain the concept of self-determination theory.",
+    "completion": "A theory of motivation emphasizing autonomy, competence, and relatedness as fundamental psychological needs."
+  },
+  {
+    "prompt": "Define the term \u2018emotional contagion.\u2019",
+    "completion": "The phenomenon where one person\u2019s emotions influence the emotions of others."
+  },
+  {
+    "prompt": "Define cognitive reframing.",
+    "completion": "Changing the way one thinks about a situation to alter its emotional impact."
+  },
+  {
+    "prompt": "What is the difference between primary and secondary emotions?",
+    "completion": "Primary emotions are innate and universal (e.g., joy, fear); secondary emotions are learned and socially influenced (e.g., guilt, pride)."
+  },
+  {
+    "prompt": "Explain the concept of flow state.",
+    "completion": "A mental state of complete absorption, focus, and enjoyment in an activity, often leading to high performance and satisfaction."
+  },
+  {
+    "prompt": "Define the term \u2018psychological resilience.\u2019",
+    "completion": "The ability to adapt successfully to stress, adversity, or trauma."
+  },
+  {
+    "prompt": "Explain the concept of attachment styles in adults.",
+    "completion": "Patterns of intimacy and emotional connection in relationships, typically classified as secure, anxious, avoidant, or disorganized."
+  },
+  {
+    "prompt": "Define cognitive resilience.",
+    "completion": "The ability to maintain or regain cognitive function in the face of stress or adversity."
+  },
+  {
+    "prompt": "What is long-term potentiation (LTP)?",
+    "completion": "A lasting increase in synaptic strength following repeated stimulation, associated with learning and memory."
+  },
+  {
+    "prompt": "Define the limbic system.",
+    "completion": "A network of brain structures involved in emotion, motivation, and memory."
+  },
+  {
+    "prompt": "Explain the function of the insula.",
+    "completion": "Processes bodily sensations, emotion, and self-awareness."
+  }
+]
