@@ -1,0 +1,62 @@
+{
+  "user_id": "96e8a2a5ab8abef1",
+  "created": "2025-10-13T07:46:09.042187",
+  "last_updated": "2025-10-13T07:46:13.948818",
+  "message_count": 3,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:46:09.042199",
+      "user_message": "Hello, my name is Sarah and I love astronomy",
+      "ai_response": "This is the first thing you've said to me, so I don't have any previous conversation to recall!",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:46:11.651493",
+      "user_message": "What did I just tell you about myself?",
+      "ai_response": "You've been telling me: Hello, my name is Sarah and I love astronomy",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:46:13.948808",
+      "user_message": "Do you remember my name?",
+      "ai_response": "Yeah, you told me your name is Sarah! I've got that noted.",
+      "metadata": {
+        "type": "memory_recall",
+        "recalled_info": "name",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:46:09.042237",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:46:11.651521",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:46:13.948822",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
