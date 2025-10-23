@@ -294,35 +294,46 @@ class EnhancedIntentDetector:
     
     def resolve_vague_reference(self, query: str, context_clues: Dict) -> Optional[str]:
         """
-        Resolve vague references using context
+        Resolve ACTUAL vague references using context (CONSERVATIVE - only clear vague refs)
         
         Examples:
-        - "tell me more about it" + context["recent_topics"] = ["quantum computing"]
-          → "tell me more about quantum computing"
+        - "tell me more about it" → resolve "it"
+        - "explain that" → resolve "that"
+        - "anything that's on your mind" → DON'T resolve (not vague!)
         """
-        query_lower = query.lower()
+        query_lower = query.lower().strip()
         
-        # Vague pronouns
-        vague_patterns = [
-            (r'\bit\b', 'recent_topics'),
-            (r'\bthat\b', 'recent_topics'),
-            (r'\bthis\b', 'recent_topics'),
+        # VERY CONSERVATIVE: Only resolve if it's a CLEAR vague reference
+        # These patterns match vague refs at START or in isolation, not as part of normal grammar
+        clear_vague_patterns = [
+            # Standalone at start of sentence
+            (r'^\s*it\s+(is|was|has|does|means|shows|looks|seems)', 'recent_topics'),
+            (r'^\s*that\s+(is|was|has|does|means|shows|looks|seems)', 'recent_topics'),
+            (r'^\s*this\s+(is|was|has|does|means|shows|looks|seems)', 'recent_topics'),
+            # Action verbs with vague object
+            (r'\b(explain|describe|tell me about|show me)\s+it\b', 'recent_topics'),
+            (r'\b(explain|describe|tell me about|show me)\s+that\b', 'recent_topics'),
+            (r'\b(explain|describe|tell me about|show me)\s+this\b', 'recent_topics'),
+            # "more about it/that/this"
+            (r'\bmore about (it|that|this)\b', 'recent_topics'),
+            # "the thing"
             (r'\bthe thing\b', 'recent_topics'),
-            (r'\bthem\b', 'recent_entities'),
-            (r'\bthey\b', 'recent_entities')
         ]
         
         resolved = query
         
-        for pattern, context_key in vague_patterns:
-            if re.search(pattern, query_lower):
+        for pattern, context_key in clear_vague_patterns:
+            match = re.search(pattern, query_lower)
+            if match:
                 # Get most recent item from context
                 items = context_clues.get(context_key, [])
-                if items:
+                if items and len(items) > 0:
                     most_recent = items[-1]
-                    # Replace vague reference with specific reference
-                    resolved = re.sub(pattern, most_recent, resolved, count=1, flags=re.IGNORECASE)
-                    break
+                    # Only replace if the most recent topic is actually meaningful
+                    if len(most_recent) > 2:  # Avoid replacing with tiny refs
+                        # Replace the vague reference with specific reference
+                        resolved = re.sub(pattern, most_recent, resolved, count=1, flags=re.IGNORECASE)
+                        break
         
         return resolved if resolved != query else None
     
