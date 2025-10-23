@@ -40,6 +40,15 @@ class EnhancedIntentDetector:
             r'\b(tell me (about|more))\b',
             r'\b(interested in|curious about)\b'
         ]
+        
+        # Patterns that indicate user is asking ABOUT an emotion (not experiencing it)
+        self.emotion_query_patterns = [
+            r'\b(analyze|explain|describe|tell me about|what is)\b.{0,30}\b(frequency|frequencies)\b.{0,30}\b(of|for)\b',
+            r'\b(frequency|frequencies)\b.{0,20}\b(of|for)\b.{0,20}\b(emotion|feeling)',
+            r'\b(what|explain|describe)\b.{0,10}\b(is|are)\b.{0,10}\bthe\b.{0,10}\bfrequency\b',
+            r'\banalyze\b.{0,30}\b(emotion|feeling|frequency)',
+            r'\btell me about\b.{0,30}\b(emotion|feeling|frequency)'
+        ]
     
     def wants_art(self, query: str, is_ai_conversation: bool = False) -> bool:
         """
@@ -316,6 +325,42 @@ class EnhancedIntentDetector:
                     break
         
         return resolved if resolved != query else None
+    
+    def is_emotion_query(self, query: str) -> Tuple[bool, Optional[str]]:
+        """
+        Detect if user is asking ABOUT an emotion (educational) vs EXPERIENCING it.
+        
+        Returns:
+            Tuple of (is_query, emotion_name)
+            - is_query: True if asking about emotion, False if expressing it
+            - emotion_name: The emotion being asked about, or None
+        
+        Examples:
+            "Analyze the frequency of gratitude" → (True, "gratitude")
+            "Explain how fear works" → (True, "fear")
+            "I feel grateful" → (False, None)
+        """
+        query_lower = query.lower()
+        
+        # Check if this matches emotion query patterns
+        for pattern in self.emotion_query_patterns:
+            if re.search(pattern, query_lower):
+                # Extract emotion name from common emotion words
+                emotion_words = [
+                    'love', 'gratitude', 'joy', 'happiness', 'peace', 'calm',
+                    'fear', 'anxiety', 'anger', 'sadness', 'stress', 'hope',
+                    'excitement', 'frustration', 'confusion', 'surprise',
+                    'pride', 'relief', 'disappointment', 'determination'
+                ]
+                
+                for emotion in emotion_words:
+                    if emotion in query_lower:
+                        return (True, emotion)
+                
+                # Found pattern but no specific emotion mentioned
+                return (True, None)
+        
+        return (False, None)
 
 
 # Global instance
