@@ -206,7 +206,7 @@ def kaggle_chat():
         
         # Generate response using MC AI's main pipeline
         response_data = generator.generate(
-            user_input=user_message,
+            query=user_message,
             user_id=user_id,
             conversation_history=conversation_history
         )
