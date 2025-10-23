@@ -1,0 +1,27 @@
+Prompt: What is a zero-day exploit?
+Completion: Security vulnerability unknown to software vendor. Attackers exploit before patch available. "Zero days" to fix. Valuable on black market. Famous examples: Stuxnet, WannaCry. Defense: behavioral analysis, air gaps, least privilege, redundancy. Perfect security impossible.
+
+Prompt: Explain public key cryptography.
+Completion: Two keys: public (encrypt/verify) and private (decrypt/sign). Math ensures you can't derive private from public (factoring hard problems). Enables secure communication without shared secret. Foundation of SSL, Bitcoin, email encryption. RSA, elliptic curves most common.
+
+Prompt: What is a side-channel attack?
+Completion: Extract secrets by measuring physical implementation, not breaking crypto directly. Timing attacks (how long operations take), power analysis (energy consumption patterns), acoustic (sound of computation). Spectre/Meltdown exploited CPU caching. Defense: constant-time algorithms, physical shielding.
+
+Prompt: Explain blockchain security.
+Completion: Distributed ledger secured by cryptographic hashing. Each block contains transactions + hash of previous block. Changing history requires recomputing all subsequent blocks (computationally infeasible). 51% attack: control majority of mining power to rewrite history. Immutability is key feature.
+
+Prompt: What is homomorphic encryption?
+Completion: Compute on encrypted data without decrypting. Perform operations on ciphertexts that correspond to plaintext operations. Enables cloud computing on sensitive data without exposing it. Fully homomorphic encryption (FHE) allows any computation but slow. Future of privacy-preserving computation.
+
+Prompt: Explain differential privacy.
+Completion: Add noise to data/queries so individual records can't be identified, but aggregate patterns remain. Formal mathematical guarantees. Used by Census, Apple, Google for data collection. Privacy budget: more queries → less privacy. Balances utility and privacy.
+
+Prompt: What is a salt in password hashing?
+Completion: Random data added to password before hashing. Prevents rainbow table attacks (precomputed hashes). Each user gets unique salt. Attacker must crack each password individually. Stored alongside hash. Modern: bcrypt, Argon2 (intentionally slow to resist brute force).
+
+Prompt: Explain SQL injection.
+Completion: Malicious SQL inserted into input, executed by database. `' OR '1'='1` bypasses authentication. Can extract, modify, delete data. Prevention: parameterized queries (prepared statements), input validation, least privilege, web application firewall. Still common despite being well-known.
+
+Prompt: What is defense in depth?
+Completion: Multiple layers of security controls. If one fails, others protect. Firewall, IDS/IPS, encryption, authentication, access control, monitoring, backups. No single point of failure. Assumes breach will occur - limit damage. Medieval castle analogy: walls, moat, inner keep.
+
