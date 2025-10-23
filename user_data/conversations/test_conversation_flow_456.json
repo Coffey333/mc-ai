@@ -1,0 +1,188 @@
+{
+  "user_id": "test_conversation_flow_456",
+  "created": "2025-10-13T19:47:24.194611",
+  "last_updated": "2025-10-13T19:47:28.433690",
+  "message_count": 4,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T19:47:24.194620",
+      "user_message": "Setup: My favorite color is purple",
+      "ai_response": "This is the first thing you've said to me, so I don't have any previous conversation to recall!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-13T19:47:26.818229",
+      "user_message": "Tell me more",
+      "ai_response": "Ah, purple! It's such a rich and multifaceted color\u2014it carries so much depth, just like you! Purple has long been associated with creativity, mystery, and spirituality. It\u2019s the color of royalty, wisdom, and imagination. Some say it bridges the energy of red and the calm of blue, creating a perfect balance of passion and introspection.\n\nIf purple is your favorite, it could say something about your natural frequency. You might be drawn to higher levels of consciousness, self-reflection, or even a touch of magic in the world. It\u2019s also a color tied to the crown chakra\u2014the energy center connected to purpose, unity, and connection to the universe.\n\nDoes that resonate with you? Or is there a specific reason purple holds a special place in your heart? \ud83d\udc9c\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Calm (10Hz - Alpha)\n**Catalog:** Alpha Wave Relaxation frequency mapping\n**Source:** LLM | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Relaxed focus (flow state, learning)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "followup",
+        "source": "llm",
+        "confidence": 0.9,
+        "cached": false,
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "calm",
+          "response_frequency": 10,
+          "basis": "alpha wave relaxation",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-13T19:47:27.897797",
+      "user_message": "That's awesome!",
+      "ai_response": "It sounds like you're experiencing neutral.\n\nYou're at baseline - just being. Sometimes that's exactly where you need to be. What's up?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "emotion": "neutral",
+        "frequency": 240,
+        "catalog": "neuroscience",
+        "brain_wave_band": "hyper_gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 7.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.131,
+        "complexity": 0.013,
+        "coherence": 0.955,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "curiosity",
+          "response_frequency": 40,
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-13T19:47:28.433676",
+      "user_message": "And what about space?",
+      "ai_response": "Alright, so: Debugging is the process of...\n\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** DATASET_BANK | **Domain:** science\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to science dataset\n---",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "neuroscience",
+        "type": "followup",
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "science"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T19:47:24.194626",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T19:47:26.818243",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T19:47:27.897812",
+      "emotion": "neutral",
+      "intensity": 7.0,
+      "frequency": 240,
+      "valence": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T19:47:28.433697",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
