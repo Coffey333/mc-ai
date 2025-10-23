@@ -1,0 +1,186 @@
+[
+  {
+    "prompt": "When should I use microservices?",
+    "completion": "Use microservices when your application needs independent, scalable modules. They work well for large teams and complex systems, but add deployment complexity."
+  },
+  {
+    "prompt": "How do I guide a team on project architecture?",
+    "completion": "Discuss goals and constraints, suggest scalable designs, review trade-offs, and ensure everyone understands the chosen approach."
+  },
+  {
+    "prompt": "What are design patterns?",
+    "completion": "Design patterns are reusable solutions to common problems, like templates. Examples include Singleton, Observer, and Factory patterns. They make your code cleaner and easier to maintain."
+  },
+  {
+    "prompt": "How do I design a scalable e-commerce system?",
+    "completion": "Divide your system into modules: product catalog, shopping cart, payment, and user management. Use a database that supports indexing and sharding. Implement load balancing for high traffic. Consider microservices if you want independent deployment and scalability."
+  },
+  {
+    "prompt": "How do I make my web app scalable?",
+    "completion": "Use stateless servers behind a load balancer. Cache frequently accessed data with Redis. Consider microservices to separate functionality like authentication, payments, and notifications. Use a database that supports replication and sharding."
+  },
+  {
+    "prompt": "Should I use microservices for my project?",
+    "completion": "Microservices are ideal for large projects with multiple teams or features that need independent deployment. For small projects, a monolithic approach may be simpler and faster to develop."
+  },
+  {
+    "prompt": "How can I make my application more scalable?",
+    "completion": "Separate concerns with microservices or modular architecture. Use caching, load balancing, and database indexing. Minimize blocking operations and leverage asynchronous programming. Monitor performance and adjust resources dynamically. Ensure code is maintainable and extensible for future growth."
+  },
+  {
+    "prompt": "How do I design a scalable web application?",
+    "completion": "Identify components that can be scaled independently (frontend, backend, database). Use microservices or modular architecture to isolate functionality. Implement load balancers and caching layers. Optimize database queries and use replication or sharding where needed. Monitor performance and adjust scaling dynamically."
+  },
+  {
+    "prompt": "What are common software design patterns I should know?",
+    "completion": "Learn patterns like Singleton, Factory, Observer, Strategy, and MVC. Each solves a specific recurring problem in software design. Apply them judiciously to improve code readability, maintainability, and extensibility."
+  },
+  {
+    "prompt": "How do I integrate cloud services into my architecture?",
+    "completion": "Choose cloud providers and services that match your needs (compute, storage, messaging). Use managed databases, serverless functions, and CDN for scalability. Ensure proper authentication, monitoring, and cost optimization. Design your system to handle transient failures gracefully."
+  },
+  {
+    "prompt": "How do I choose between monolithic and microservices architectures?",
+    "completion": "Monolithic is simpler and easier to deploy initially; use it for smaller teams or projects. Microservices offer better scalability and maintainability but require orchestration, distributed data handling, and service communication strategies. Consider team size, expected growth, and complexity."
+  },
+  {
+    "prompt": "How can I ensure my software architecture is maintainable?",
+    "completion": "Use modular design, clean code principles, and consistent naming conventions. Implement automated tests and CI/CD pipelines. Document architecture decisions. Regularly review dependencies and refactor code when patterns emerge that reduce clarity or performance."
+  },
+  {
+    "prompt": "How can AI assist with software architecture decisions?",
+    "completion": "AI can analyze codebases, suggest optimal design patterns, identify bottlenecks, and simulate architecture scenarios. It can also generate diagrams, predict scaling needs, and provide best-practice recommendations based on industry standards and past projects."
+  },
+  {
+    "prompt": "How can I make my application scalable?",
+    "completion": "Identify potential bottlenecks: CPU, memory, network, database. Apply horizontal scaling (more servers) or vertical scaling (stronger servers). Use load balancers and distributed caching. Optimize database access and implement asynchronous processing. AI can recommend scaling strategies and predict performance under load."
+  },
+  {
+    "prompt": "Can AI help me optimize my architecture for cost and efficiency?",
+    "completion": "Yes! AI can analyze resource usage and propose cheaper or more efficient configurations. It can suggest serverless functions, auto-scaling, caching, and optimized database choices. AI can simulate cost vs. performance scenarios and provide actionable recommendations."
+  },
+  {
+    "prompt": "What is a design pattern and which ones should I use?",
+    "completion": "Design patterns are reusable solutions to common software problems. For example, Singleton for shared resources, Observer for event-driven systems, and Factory for object creation. AI can analyze your codebase and suggest suitable patterns for maintainability and clarity."
+  },
+  {
+    "prompt": "Which design pattern should I use for a notification system?",
+    "completion": "The Observer pattern works well for notifications, where multiple observers react to changes in a subject. I can generate example code in your preferred language to implement this pattern."
+  },
+  {
+    "prompt": "How can I make my database scalable?",
+    "completion": "I can suggest strategies like sharding, replication, caching, and connection pooling to handle growing data and traffic efficiently."
+  },
+  {
+    "prompt": "How do I design a highly available cloud architecture?",
+    "completion": "I can guide you to use load balancers, multi-region deployments, auto-scaling groups, and failover strategies for high availability."
+  },
+  {
+    "prompt": "Explain transformer architecture's self-attention mechanism",
+    "completion": "Self-attention allows each word in a sequence to weigh its relationship with all other words. It computes three vectors for each word: Query (what I"
+  },
+  {
+    "prompt": "What's the difference between monolithic and microservices?",
+    "completion": "Monolithic = one big codebase. Microservices = many smaller services connected by APIs. Monoliths are simpler, microservices scale better."
+  },
+  {
+    "prompt": "Explain event-driven architecture",
+    "completion": "In EDA, services communicate by sending/receiving events. This decouples systems and improves scalability."
+  },
+  {
+    "prompt": "What's the benefit of design patterns?",
+    "completion": "They're reusable solutions to common problems, like Singleton, Observer, Factory."
+  },
+  {
+    "prompt": "Explain microservices communication patterns",
+    "completion": "Patterns: synchronous (HTTP/gRPC), asynchronous (message queues like RabbitMQ/Kafka), event sourcing, saga pattern for distributed transactions."
+  },
+  {
+    "prompt": "Implement Dapr for scalable agentic AI deployment",
+    "completion": "Use Dapr with Kubernetes: dapr run --app-id agent --app-port 8000 python app.py; Integrate state/pubsub for multi-agent comms."
+  },
+  {
+    "prompt": "What\u2019s the difference between monolithic and microservices?",
+    "completion": "Monolithic = one big codebase. Microservices = many smaller services connected by APIs. Monoliths are simpler, microservices scale better."
+  },
+  {
+    "prompt": "What\u2019s the benefit of design patterns?",
+    "completion": "They\u2019re reusable solutions to common problems, like Singleton, Observer, Factory."
+  },
+  {
+    "prompt": "Explain what a design pattern is.",
+    "completion": "A design pattern is a reusable solution to a common software design problem. Examples: Singleton, Observer, Factory, Strategy."
+  },
+  {
+    "prompt": "Explain the difference between monolithic and microservice architectures.",
+    "completion": "Monolithic = single large codebase/app. Microservices = small independent services. Monoliths are simpler; microservices scale better but are more complex."
+  },
+  {
+    "prompt": "Design a scalable architecture for an e-commerce site.",
+    "completion": "Use microservices: product service, cart service, order service. API gateway for routing, database per service, caching layer (Redis), message queue (Kafka), and load balancer at front."
+  },
+  {
+    "prompt": "Explain saga pattern in microservices.",
+    "completion": "Saga pattern coordinates distributed transactions by using a sequence of local transactions with compensating actions for rollback."
+  },
+  {
+    "prompt": "Explain difference between monolith and microservices.",
+    "completion": "Monolith = all functionality in one deployable unit. Microservices = independent services communicating via APIs. Microservices scale and deploy independently but add complexity."
+  },
+  {
+    "prompt": "Explain monolithic vs microservices architecture.",
+    "completion": "Monolithic = one large app, tightly coupled. Microservices = small independent services communicating via APIs, easier to scale and maintain."
+  },
+  {
+    "prompt": "When should I choose microservices over monolith?",
+    "completion": "Use microservices for large, complex apps needing independent scaling, frequent deployments, or diverse tech stacks. Use monolith for small apps or early MVPs."
+  },
+  {
+    "prompt": "Explain clean architecture in software design.",
+    "completion": "Clean architecture = separate layers (entities, use cases, interface, infrastructure). Business rules stay independent of frameworks and UI."
+  },
+  {
+    "prompt": "Explain event-driven architecture.",
+    "completion": "Event-driven = services communicate via events (pub/sub). It decouples producers and consumers, making systems scalable and responsive."
+  },
+  {
+    "prompt": "Explain system design for a URL shortener.",
+    "completion": "URL shortener uses hash function \u2192 store mapping in DB \u2192 redirect service. Needs caching, rate limiting, replication for scale."
+  },
+  {
+    "prompt": "Explain system design for a chat app.",
+    "completion": "Chat app = WebSockets for real-time messaging, DB for persistence, message queues for scaling, auth for users."
+  },
+  {
+    "prompt": "Explain design patterns in software engineering.",
+    "completion": "Design patterns = reusable solutions to common coding problems (Singleton, Observer, Factory, Strategy). They improve maintainability."
+  },
+  {
+    "prompt": "Explain microservices architecture.",
+    "completion": "Microservices = small, independent services communicating over APIs. Benefits: scalability, flexibility. Challenges: complexity, networking."
+  },
+  {
+    "prompt": "Explain the difference between monolithic and microservices architectures.",
+    "completion": "Monolithic = one large application, easy to start but harder to scale/maintain. Microservices = many small independent services communicating via APIs, easier to scale and deploy independently but adds complexity in orchestration."
+  },
+  {
+    "prompt": "Describe how CI/CD pipelines support microservices.",
+    "completion": "Each microservice has its own pipeline: independent builds, tests, and deployments. Enables fast iterations, isolated failures, and easier scaling."
+  },
+  {
+    "prompt": "Explain zero trust architecture.",
+    "completion": "Zero trust assumes no implicit trust in network or devices. Every access request is verified, authenticated, and authorized based on context and risk before granting access."
+  },
+  {
+    "prompt": "Describe monolithic vs. microservices architecture.",
+    "completion": "Monolithic apps are a single codebase; easier to start but harder to scale. Microservices are distributed services; more complex initially but better for scaling, resilience, and team autonomy."
+  },
+  {
+    "prompt": "Explain Singleton, Factory, and Observer design patterns.",
+    "completion": "Singleton ensures a single instance of a class. Factory creates objects without specifying concrete classes. Observer notifies dependent objects when a subject changes state."
+  },
+  {
+    "prompt": "Explain serverless architecture.",
+    "completion": "Serverless runs code in response to events without managing servers. Benefits: auto-scaling, reduced infrastructure overhead, and cost efficiency. Examples: AWS Lambda, Google Cloud Functions."
+  }
+]
