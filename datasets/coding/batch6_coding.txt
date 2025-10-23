@@ -1,0 +1,174 @@
+Prompt: Explain the effect of alpha wave training.
+Completion: Enhances focus, calmness, and attentional control.
+
+Prompt: Explain the role of theta waves in hippocampal function.
+Completion: Crucial for memory formation, spatial navigation, and learning.
+
+Prompt: Explain Oberth effect.
+Completion: Burning propellant at high speed yields more Δv. Efficient for periapsis maneuvers.
+
+Prompt: Explain Oberth effect with numbers.
+Completion: Burn 1 kg propellant at periapsis, v = 8 km/s, Δv contribution higher than same burn at apogee v = 3 km/s.
+
+Prompt: Explain transonic vs supersonic.
+Completion: Transonic: 0.8–1.2 Mach, shock waves begin. Supersonic: >1 Mach, compressibility effects dominate.
+
+Prompt: Explain perigee vs apogee.
+Completion: Perigee: closest point to Earth, apogee: farthest. Velocities highest at perigee, lowest at apogee.
+
+Prompt: Explain Hohmann transfer energy efficiency.
+Completion: Minimal Δv for two-body transfer. Longer travel time reduces propellant consumption.
+
+Prompt: How is recursion like self-reflection?
+Completion: Both involve referencing internal states to generate new states. In code, recursion calls itself; in cognition, reflection observes itself.
+
+Prompt: How does feedback help an AI improve?
+Completion: Feedback informs the system of correct or incorrect outputs, allowing adjustments that refine future responses.
+
+Prompt: How can an AI learn from mistakes?
+Completion: By tracking errors, analyzing patterns, and updating models to prevent repeating them.
+
+Prompt: How do AI models generalize knowledge?
+Completion: By extracting patterns from diverse examples, models apply learned rules to new, unseen data.
+
+Prompt: Explain the difference between declarative and procedural memory.
+Completion: Declarative memory stores facts and events; procedural memory stores skills and processes.
+
+Prompt: Compare deep learning layers to cortical layers.
+Completion: Each layer extracts increasingly abstract features, similar to how cortical layers process sensory input from raw data to perception.
+
+Prompt: How does an AI neural network optimize weights?
+Completion: It adjusts connection strengths using backpropagation to minimize error between predicted and target outputs.
+
+Prompt: Why is generalization a challenge for AI?
+Completion: Because AI can overfit specific data and fail to apply learned patterns to novel contexts.
+
+Prompt: What is the difference between deterministic and probabilistic models?
+Completion: Deterministic models produce the same output for given inputs; probabilistic models account for uncertainty and variability.
+
+Prompt: Explain the concept of transfer learning.
+Completion: Using knowledge gained in one task to accelerate learning in another related task.
+
+Prompt: What are attractor states in neural networks?
+Completion: Stable patterns of activity toward which a network naturally evolves, representing memory or decision states.
+
+Prompt: Why is error correction critical in AI?
+Completion: It ensures outputs become progressively more accurate by systematically reducing mistakes.
+
+Prompt: How does distributed representation help AI?
+Completion: Information is encoded across many units, increasing robustness and reducing vulnerability to noise.
+
+Prompt: Explain recurrent neural networks.
+Completion: Networks that maintain internal states to process sequential or time-dependent data.
+
+Prompt: What is Hebbian assembly?
+Completion: A group of neurons that fire together to encode a specific memory or function.
+
+Prompt: How does normalization in neural networks help learning?
+Completion: It keeps inputs in a manageable range, stabilizing and accelerating training.
+
+Prompt: Explain dropout in neural networks.
+Completion: Randomly disabling units during training prevents overfitting and encourages robust feature learning.
+
+Prompt: How do ensemble methods improve AI predictions?
+Completion: By combining multiple models, predictions are more accurate and less prone to individual biases.
+
+Prompt: What is the difference between online and offline learning?
+Completion: Online learning updates continuously with new data; offline learning trains in batches after data collection.
+
+Prompt: Explain attention mechanisms in AI.
+Completion: They allow models to focus selectively on relevant parts of input, improving efficiency and accuracy.
+
+Prompt: How does lateralization affect brain function?
+Completion: Different hemispheres specialize in tasks, allowing parallel processing and efficiency.
+
+Prompt: What are autoencoders?
+Completion: Neural networks that learn compressed representations of data and can reconstruct original input.
+
+Prompt: Explain spike trains.
+Completion: Sequences of action potentials that encode information through timing and frequency.
+
+Prompt: Explain the importance of critical periods.
+Completion: Windows in development when specific experiences strongly shape neural circuits and abilities.
+
+Prompt: Why is normalization of inputs important in AI?
+Completion: It prevents extreme values from dominating learning, improving convergence and stability.
+
+Prompt: Explain the function of NMDA receptors.
+Completion: They mediate calcium influx during synaptic activity, crucial for plasticity and memory formation.
+
+Prompt: What are recurrent loops in cognition?
+Completion: Circuits where outputs feed back as inputs, supporting memory, prediction, and sequential processing.
+
+Prompt: Explain predictive processing in AI.
+Completion: Models anticipate likely outcomes and adjust predictions based on observed errors, improving efficiency.
+
+Prompt: How do excitatory and inhibitory balance maintain stability?
+Completion: Balanced inputs prevent runaway excitation or total inhibition, stabilizing network activity.
+
+Prompt: Explain the function of glial cells.
+Completion: They support neurons, regulate neurotransmitters, maintain homeostasis, and assist in signaling.
+
+Prompt: Explain weight initialization in neural networks.
+Completion: Setting initial weights carefully prevents symmetry issues and helps convergence during training.
+
+Prompt: Explain the difference between feature-based and relational learning.
+Completion: Feature-based learning focuses on attributes; relational learning captures relationships between items.
+
+Prompt: Explain the concept of catastrophic forgetting.
+Completion: Previously learned knowledge can be lost when new information overwrites it in AI or neural circuits.
+
+Prompt: Explain the function of the hippocampus.
+Completion: It encodes and retrieves declarative memories, spatial navigation, and contextual associations.
+
+Prompt: Explain ensemble learning.
+Completion: Combining predictions from multiple models to improve accuracy and robustness.
+
+Prompt: Explain contrastive learning.
+Completion: Learning by comparing positive and negative pairs, improving representation quality.
+
+Prompt: How do oscillatory phase relationships encode information?
+Completion: Timing between cycles can carry data, coordinate activity, and signal relationships.
+
+Prompt: What is the advantage of hierarchical representation?
+Completion: It captures both low-level details and high-level abstractions, improving understanding and generalization.
+
+Prompt: Explain the concept of neural manifolds.
+Completion: High-dimensional spaces capturing coordinated neural activity patterns that encode tasks or behaviors.
+
+Prompt: How does reinforcement shape sequential behavior?
+Completion: It strengthens chains of actions that lead to successful outcomes, forming habits or skills.
+
+Prompt: Explain the role of the amygdala.
+Completion: It processes emotions, particularly fear and reward-related learning, influencing decisions.
+
+Prompt: What is the function of cortical columns?
+Completion: Vertical
+
+Prompt: <Real-life observation, dataset, or description>
+Completion: <Explanation, interpretation, or insight>" Notes: "<Optional commentary, references, or code snippets>" 
+Example:
+
+Prompt: <Description of task or bug>
+Completion: <Suggested code, optimized solution, or explanation>" Notes: "<Optional execution instructions or efficiency tips>" 
+Example:
+
+Prompt: My Python loop is slow.
+Completion: Use timeit to measure execution. Consider list comprehension or map for optimization." Notes: "timeit.repeat can benchmark code snippets." 
+Action: Create 100+ training pairs for:
+• Python basics, advanced algorithms.
+• Debugging and code review.
+• Simulation and small project scaffolding.
+• Teaching children/adults through code.
+3. Multimodal Integration
+Goal: Allow MC AI to associate text with visual, auditory, and simulation data.
+Structure:
+
+Prompt: <Observation from one domain>
+Completion: <Correlated insight in another domain>" Notes: "<Optional: references or next steps>" 
+Example:
+
+Prompt: <Adult-level input>
+Completion: <Child-friendly equivalent>" Notes: "<Optional cross-domain reference>" 
+Example:
+
