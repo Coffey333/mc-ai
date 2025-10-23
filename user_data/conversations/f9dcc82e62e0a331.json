@@ -1,0 +1,70 @@
+{
+  "user_id": "f9dcc82e62e0a331",
+  "created": "2025-10-13T07:48:35.926285",
+  "last_updated": "2025-10-13T07:48:36.032810",
+  "message_count": 2,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:48:35.926297",
+      "user_message": "Hi, I am Sarah, a 35-year-old teacher",
+      "ai_response": "Your brain's hungry for knowledge right now. Let's dig into whatever you're curious about.",
+      "metadata": {
+        "emotion": "curiosity",
+        "frequency": 40,
+        "catalog": "neuroscience",
+        "brain_wave_band": "gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.102,
+        "complexity": 0.002,
+        "coherence": 0.952
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:48:36.032801",
+      "user_message": "I feel overwhelmed with work",
+      "ai_response": "You're feeling overwhelmed - I can tell. Want to talk through what's got you stressed, or need strategies to deal with it?",
+      "metadata": {
+        "emotion": "stress",
+        "frequency": 15,
+        "catalog": "neuroscience",
+        "brain_wave_band": "beta",
+        "arousal_level": "high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.098,
+        "complexity": 0.001,
+        "coherence": 0.951
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:48:35.926303",
+      "emotion": "curiosity",
+      "intensity": 5.0,
+      "frequency": 40,
+      "valence": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T07:48:36.032815",
+      "emotion": "stress",
+      "intensity": 5.0,
+      "frequency": 15,
+      "valence": 0.0
+    }
+  ]
+}
