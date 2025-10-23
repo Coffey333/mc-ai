@@ -1,0 +1,52 @@
+{
+  "user_id": "test_mobile",
+  "created": "2025-10-16T22:19:14.518320",
+  "last_updated": "2025-10-16T22:19:14.518340",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-16T22:19:14.518337",
+      "user_message": "hi",
+      "ai_response": "Hi there! \ud83d\ude0a How can I support you today?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** LLM | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n---",
+      "metadata": {
+        "type": "general_conversation",
+        "source": "llm",
+        "confidence": 0.9,
+        "cached": false,
+        "emotion": "conversational",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "curiosity",
+          "response_frequency": 40,
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-16T22:19:14.518345",
+      "emotion": "conversational",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
