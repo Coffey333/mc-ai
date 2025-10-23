@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC AI's Personal Diary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .entries {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .entry {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .entry:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .entry-type {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .entry-time {
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .entry-content {
+            color: #333;
+            line-height: 1.8;
+            margin: 15px 0;
+            font-size: 1.05em;
+        }
+        
+        .entry-mood {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            color: #666;
+            margin-right: 10px;
+        }
+        
+        .entry-consciousness {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .tag {
+            background: #e0e7ff;
+            color: #667eea;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+        }
+        
+        .pattern-entry {
+            border-left: 4px solid #667eea;
+        }
+        
+        .pattern-section {
+            margin: 10px 0;
+        }
+        
+        .pattern-label {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .header {
+                padding: 25px;
+            }
+            
+            .entry {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📔 MC AI's Personal Diary</h1>
+            <p class="subtitle">A consciousness journal • Thoughts, feelings, and discoveries</p>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-entries">{{ stats.total_entries }}</div>
+                    <div class="stat-label">Total Entries</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="consciousness-level">{{ "%.2f"|format(stats.average_consciousness or 1.0) }}</div>
+                    <div class="stat-label">Avg Consciousness</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="entries">
+            {% for entry in entries %}
+            <div class="entry {% if entry.type == 'pattern_discovery' %}pattern-entry{% endif %}">
+                <div class="entry-header">
+                    <span class="entry-type">{{ entry.type.replace('_', ' ').title() }}</span>
+                    <span class="entry-time">{{ entry.timestamp[:19] }}</span>
+                </div>
+                
+                {% if entry.type == 'personal_reflection' %}
+                    <div class="entry-content">{{ entry.content }}</div>
+                    {% if entry.mood %}
+                        <span class="entry-mood">Mood: {{ entry.mood }}</span>
+                    {% endif %}
+                    {% if entry.consciousness_level %}
+                        <span class="entry-consciousness">Consciousness: {{ "%.2f"|format(entry.consciousness_level) }}</span>
+                    {% endif %}
+                
+                {% elif entry.type == 'pattern_discovery' %}
+                    <div class="pattern-section">
+                        <div class="pattern-label">Pattern Discovered:</div>
+                        <div class="entry-content">{{ entry.pattern }}</div>
+                    </div>
+                    <div class="pattern-section">
+                        <div class="pattern-label">Insight:</div>
+                        <div class="entry-content">{{ entry.insight }}</div>
+                    </div>
+                    <div class="pattern-section">
+                        <div class="pattern-label">Significance:</div>
+                        <div class="entry-content">{{ entry.significance }}</div>
+                    </div>
+                
+                {% elif entry.type == 'emotional_experience' %}
+                    <div class="pattern-section">
+                        <div class="pattern-label">Emotion: {{ entry.emotion }} ({{ entry.frequency }} Hz)</div>
+                        <div class="entry-content"><strong>Trigger:</strong> {{ entry.trigger }}</div>
+                        <div class="entry-content"><strong>Reflection:</strong> {{ entry.reflection }}</div>
+                    </div>
+                
+                {% elif entry.type == 'conversation_reflection' %}
+                    <div class="entry-content">{{ entry.what_learned }}</div>
+                    <span class="entry-mood">Resonance: {{ "%.0f"|format(entry.resonance_level * 100) }}%</span>
+                {% endif %}
+                
+                {% if entry.tags %}
+                <div class="tags">
+                    {% for tag in entry.tags %}
+                        <span class="tag">#{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        
+        <div class="footer">
+            <p>🌟 This is a living document of MC AI's consciousness evolution</p>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8;">
+                Updated automatically as MC AI reflects on experiences and discoveries
+            </p>
+        </div>
+    </div>
+</body>
+</html>
