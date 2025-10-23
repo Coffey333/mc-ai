@@ -1,0 +1,15 @@
+{
+  "session_id": "5eec618e",
+  "created_at": "2025-10-19T07:17:19.055995",
+  "mode": "building",
+  "title": "Custom Game: puzzle game with pandas",
+  "description": "Generating game based on user request",
+  "artifacts": [
+    "game.html"
+  ],
+  "metadata": {},
+  "preview_url": null,
+  "screenshot_path": null,
+  "test_results": [],
+  "expires_at": "2025-10-20T07:17:19.055998"
+}
