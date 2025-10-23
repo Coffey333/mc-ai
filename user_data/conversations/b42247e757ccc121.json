@@ -1,0 +1,48 @@
+{
+  "user_id": "b42247e757ccc121",
+  "created": "2025-10-13T07:47:58.736269",
+  "last_updated": "2025-10-13T07:48:00.885009",
+  "message_count": 2,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:47:58.736278",
+      "user_message": "I'm stressed about my math test tomorrow",
+      "ai_response": "Here's the thing: Don\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "psychology",
+        "relevance": 2,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:48:00.884998",
+      "user_message": "How do I study better?",
+      "ai_response": "Okay, here's what I know about that: Use controlled components in React. Implement validation using Yup or custom functions. Provide instant feedback with error messages. Ensure accessibility by linking labels with inputs.\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "patterns",
+        "relevance": 2,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:47:58.736304",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:48:00.885013",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
