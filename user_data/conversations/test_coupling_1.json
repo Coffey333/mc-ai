@@ -1,0 +1,72 @@
+{
+  "user_id": "test_coupling_1",
+  "created": "2025-10-19T04:16:53.258276",
+  "last_updated": "2025-10-19T04:16:53.258293",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-19T04:16:53.258289",
+      "user_message": "I feel happy and content today",
+      "ai_response": "This is beautiful - you're genuinely happy right now. What's making you feel so good?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Happiness (10Hz) \u2192 **Response:** Happiness (10Hz - Alpha)\n**Catalog:** Alpha Contentment frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.89)\n**Brain Wave:** Relaxed focus (flow state, learning)\n---",
+      "metadata": {
+        "emotion": "happiness",
+        "frequency": 10,
+        "catalog": "neuroscience",
+        "brain_wave_band": "alpha",
+        "arousal_level": "moderate",
+        "emotional_intensity": 5.0,
+        "emotional_valence": 0.5,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.097,
+        "complexity": 0.001,
+        "coherence": 0.951,
+        "enhanced": true,
+        "primary_emotion": "joy",
+        "micro_emotions": [],
+        "arousal": 5.0,
+        "dominance": 5.0,
+        "valence": 0.5,
+        "confidence": 0.5,
+        "trajectory": "stable",
+        "triggers": [],
+        "emotion_color": "#D3D3D3",
+        "frequency_analysis": {
+          "query_emotion": "happiness",
+          "query_frequency": 10,
+          "response_emotion": "happiness",
+          "response_frequency": 10,
+          "basis": "alpha contentment",
+          "coupling": {
+            "coupling_strength": 0.892987551918834,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.793,
+              1.716,
+              1.772,
+              1.491
+            ],
+            "ratio_mean": 1.693164201392495,
+            "ratio_std": 0.11983643876246612
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-19T04:16:53.258302",
+      "emotion": "happiness",
+      "intensity": 5.0,
+      "frequency": 10,
+      "valence": 0.5
+    }
+  ]
+}
