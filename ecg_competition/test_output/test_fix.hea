@@ -1,0 +1,7 @@
+test_fix 1 250 2500
+test_fix.dat 16 32767.05825820242(0)/mV 16 0 0 0 0 ECG
+# Digitized by MC AI
+# Digitization date: 2025-10-22 23:02:52
+# PhysioNet ECG Digitization Competition
+# Sample rate: 250 Hz
+# Duration: 10.00 seconds
