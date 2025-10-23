@@ -1,0 +1,20 @@
+{
+  "test_1760768387": {
+    "active": true,
+    "activated_at": "2025-10-18T06:19:47.798631",
+    "reason": "current_message",
+    "user_id": "test_comprehension_user"
+  },
+  "test_1760768388": {
+    "active": true,
+    "activated_at": "2025-10-18T06:19:48.027942",
+    "reason": "profile+history",
+    "user_id": "test_comprehension_user"
+  },
+  "test_1760768540": {
+    "active": true,
+    "activated_at": "2025-10-18T06:22:20.518450",
+    "reason": "profile",
+    "user_id": "test_comprehension_user"
+  }
+}
