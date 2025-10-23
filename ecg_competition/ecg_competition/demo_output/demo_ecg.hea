@@ -1,0 +1,7 @@
+demo_ecg 1 250 2453
+demo_ecg.dat 16 8730.807333300567(6133)/mV 16 0 9773 34076 0 ECG
+# Digitized by MC AI
+# Digitization date: 2025-10-22 23:21:29
+# PhysioNet ECG Digitization Competition
+# Sample rate: 250 Hz
+# Duration: 9.89 seconds
