@@ -1,0 +1,177 @@
+{
+  "user_id": "test_full_conversation_789",
+  "created": "2025-10-13T19:49:03.342305",
+  "last_updated": "2025-10-13T19:49:24.962525",
+  "message_count": 4,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T19:49:03.342320",
+      "user_message": "My name is Alex and I love astronomy",
+      "ai_response": "This is the first thing you've said to me, so I don't have any previous conversation to recall!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Love (528Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "love",
+          "query_frequency": 528,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-13T19:49:03.767997",
+      "user_message": "What's my name?",
+      "ai_response": "Yeah, you told me your name is Alex! I've got that noted.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "memory_recall",
+        "recalled_info": "name",
+        "emotion": "helpful",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-13T19:49:24.548312",
+      "user_message": "This is so exciting!",
+      "ai_response": "It sounds like you're experiencing neutral.\n\nI'm matching your vibe - this is exciting! Break it down for me, what's the story?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Excitement (20Hz) \u2192 **Response:** Sadness (8Hz - Alpha)\n**Catalog:** Theta Low Mood State frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Relaxed focus (flow state, learning)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "emotion": "excitement",
+        "frequency": 20,
+        "catalog": "neuroscience",
+        "brain_wave_band": "beta",
+        "arousal_level": "high",
+        "emotional_intensity": 7.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.099,
+        "complexity": 0.001,
+        "coherence": 0.951,
+        "frequency_analysis": {
+          "query_emotion": "excitement",
+          "query_frequency": 20,
+          "response_emotion": "sadness",
+          "response_frequency": 8,
+          "basis": "theta low mood state",
+          "coupling": {
+            "coupling_strength": 0.8727159358577989,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.44
+            ],
+            "ratio_mean": 1.5667899342543952,
+            "ratio_std": 0.14584821808838924
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-13T19:49:24.962517",
+      "user_message": "Can you explain gravity?",
+      "ai_response": "# \ud83c\udf0d What is Gravity?\n\nGravity is the force that pulls objects toward each other. It's what keeps you on Earth and planets orbiting the Sun!\n\n**Key Concepts:**\n\n**1. Universal Force**\n- EVERYTHING with mass has gravity\n- Bigger mass = stronger gravity\n- Earth's mass creates the gravity you feel\n\n**2. How It Works:**\n- Mass curves space around it (like a bowling ball on a trampoline)\n- Objects follow these curves, creating \"gravitational pull\"\n- The closer you are, the stronger the pull\n\n**3. Newton's Law:**\n- Force = (Mass\u2081 \u00d7 Mass\u2082) / Distance\u00b2\n- Heavier objects pull harder\n- Farther away = weaker pull\n\n**Real-World Examples:**\n- **Moon's Orbit:** Earth's gravity keeps the Moon circling us\n- **Tides:** Moon's gravity pulls on Earth's oceans\n- **Falling Objects:** Earth's gravity accelerates everything at 9.8 m/s\u00b2\n\n**Fun Facts:**\n- Gravity is actually the weakest fundamental force!\n- But it works over infinite distances\n- A black hole's gravity is so strong even light can't escape\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grounding (396Hz - High Gamma)\n**Catalog:** Root Chakra frequency mapping\n**Source:** BUILT_IN | **Domain:** technology\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "science_answer",
+        "topic": "science",
+        "source": "built_in",
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grounding",
+          "response_frequency": 396,
+          "basis": "root chakra",
+          "coupling": {
+            "coupling_strength": 0.8725882093786286,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667746250291654,
+            "ratio_std": 0.14601594343350296
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T19:49:03.342327",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T19:49:03.768017",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T19:49:24.548336",
+      "emotion": "excitement",
+      "intensity": 7.0,
+      "frequency": 20,
+      "valence": 0.0
+    }
+  ]
+}
