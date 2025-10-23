@@ -1,0 +1,30 @@
+Prompt: What is the greenhouse effect?
+Completion: Certain gases (CO2, methane, water vapor) trap heat in atmosphere like a greenhouse. Solar energy enters, Earth radiates infrared back, greenhouse gases absorb and re-emit it, warming the planet. Natural and essential - without it Earth would be frozen. Problem is enhancement from human emissions.
+
+Prompt: Explain climate vs weather.
+Completion: Weather is short-term atmospheric conditions (today's rain). Climate is long-term patterns (rainy season). "Climate is what you expect, weather is what you get." One cold day doesn't disprove climate change - it's about trends over decades.
+
+Prompt: What are feedback loops in climate?
+Completion: Changes that amplify (positive feedback) or dampen (negative feedback) warming. Positive: ice melts → less reflection → more warming → more melting. Negative: warming → more evaporation → more clouds → less warming. Positive feedbacks accelerate change, negative feedbacks stabilize.
+
+Prompt: Explain ocean acidification.
+Completion: Oceans absorb CO2, forming carbonic acid, lowering pH. Makes it harder for marine life (coral, shellfish) to build calcium carbonate shells/skeletons. Already 30% more acidic than pre-industrial. Threatens marine ecosystems and food chains.
+
+Prompt: What is albedo?
+Completion: Reflectivity - how much sunlight a surface reflects. Ice/snow: high albedo (bright, reflects). Ocean/forest: low albedo (dark, absorbs). Ice melting reduces albedo, creating feedback loop. Critical for understanding Arctic amplification of warming.
+
+Prompt: Explain carbon sinks.
+Completion: Natural systems that absorb more CO2 than they emit. Forests, oceans, soil. Forests take CO2 via photosynthesis, oceans dissolve it. Capacity limited - can become sources if damaged (burning forests release stored carbon). Essential for climate stability.
+
+Prompt: What is the jet stream?
+Completion: Fast-flowing air currents 5-9 miles up, flowing west to east. Created by temperature differences between poles and equator. Influences weather patterns. Climate change may be weakening/meandering it, causing extreme weather to persist longer (stuck heat waves, cold snaps).
+
+Prompt: Explain permafrost thawing.
+Completion: Permanently frozen ground in Arctic is melting due to warming. Contains vast amounts of organic carbon. As it thaws, microbes decompose organic matter, releasing CO2 and methane. Potential massive feedback loop - significant climate wildcard.
+
+Prompt: What are tipping points?
+Completion: Thresholds where small changes trigger large, irreversible shifts. Examples: Amazon rainforest becoming savanna, West Antarctic ice sheet collapse, Atlantic circulation shutdown. Once crossed, system doesn't return easily. Major concern in climate science.
+
+Prompt: Explain climate models.
+Completion: Computer simulations of Earth's climate system based on physics equations. Divide atmosphere/ocean into grid cells, calculate energy/moisture transfers. Tested against past data, used to project futures under different emissions scenarios. Not perfect but increasingly accurate.
+
