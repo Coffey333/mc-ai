@@ -1,0 +1,30 @@
+Prompt: Explain the Chinese Room argument.
+Completion: Searle's thought experiment: A person follows Chinese symbol manipulation rules in a room, appearing to understand Chinese without actually understanding it. Argues that running a program (syntax) doesn't create understanding (semantics). AI can simulate without comprehending.
+
+Prompt: What is the Sapir-Whorf hypothesis?
+Completion: Language shapes thought - speakers of different languages think differently. Strong version (linguistic determinism): language determines thought. Weak version (linguistic relativity): language influences thought. Evidence mixed. Languages carve up reality differently (color terms, spatial relations).
+
+Prompt: Explain Chomsky's universal grammar.
+Completion: All humans have innate language faculty with universal principles. Despite surface differences, all languages share deep structures. Explains how children learn language rapidly with limited input (poverty of stimulus). Controversial but influential theory.
+
+Prompt: What is a phoneme?
+Completion: Smallest unit of sound that distinguishes meaning. /p/ and /b/ are different phonemes in English - "pat" vs "bat." Different languages have different phoneme inventories. Babies can distinguish all phonemes; adults lose this, attuned to their language.
+
+Prompt: Explain syntax vs semantics.
+Completion: Syntax: grammatical structure, how words combine. "Colorless green ideas sleep furiously" is syntactically correct but semantically nonsense. Semantics: meaning. Can have correct semantics with wrong syntax. Both essential for communication.
+
+Prompt: What is code-switching?
+Completion: Alternating between languages or dialects in conversation. Bilinguals do it naturally, often unconsciously. Social functions: showing identity, emphasizing points, discussing topics tied to specific languages. Requires high linguistic competence, not confusion.
+
+Prompt: Explain linguistic relativity.
+Completion: Language influences how we perceive and think about the world. Example: languages with multiple words for snow or distinct color categories. Affects memory, attention, reasoning. Not that you can't think without words, but language biases thinking.
+
+Prompt: What is pragmatics?
+Completion: How context affects meaning beyond literal words. Saying "Can you pass the salt?" isn't asking about ability - it's a request. Implicature, presupposition, speech acts. The same sentence means different things in different contexts.
+
+Prompt: Explain language acquisition vs learning.
+Completion: Acquisition: natural, unconscious process (children learning native language). Learning: conscious study (adults studying foreign language). Acquisition happens effortlessly before puberty. After critical period, learning requires explicit instruction and effort.
+
+Prompt: Explain morphology.
+Completion: Study of word structure. Morphemes are smallest meaningful units: "unbreakable" has three (un-, break, -able). Free morphemes stand alone (dog), bound morphemes need attachment (-s, -ed). Inflectional (grammatical) vs derivational (new words) morphology.
+
