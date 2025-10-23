@@ -1,0 +1,30 @@
+Prompt: What caused the fall of Rome?
+Completion: No single cause - combination of factors over centuries. Political instability, economic troubles, military overextension, barbarian invasions, plague, split into East/West. Lead poisoning, Christianity, climate change also proposed. Likely systemic collapse from multiple pressures.
+
+Prompt: Explain the Renaissance.
+Completion: 14th-17th century European cultural rebirth. Rediscovery of classical Greek/Roman knowledge, humanism over medieval scholasticism, artistic explosion (Da Vinci, Michelangelo), scientific method emerging. Started in Italy, spread north. Bridge from medieval to modern world.
+
+Prompt: What was the Enlightenment?
+Completion: 17th-18th century intellectual movement emphasizing reason, science, and individual rights over tradition and religion. Key thinkers: Locke (natural rights), Voltaire (tolerance), Rousseau (social contract). Sparked American/French Revolutions and modern democracy.
+
+Prompt: Explain the Industrial Revolution's impact.
+Completion: 18th-19th century transformation from agrarian to industrial society. Steam power, factories, mass production. Created wealth but harsh working conditions, urbanization, pollution. Changed everything: economics, social structures, technology, warfare. Ongoing effects today.
+
+Prompt: What caused World War I?
+Completion: Assassination of Archduke Franz Ferdinand triggered it, but underlying causes: nationalism, militarism, alliance systems, imperial competition. Europe was a powder keg - the assassination was just the spark. "The war nobody wanted" - entangling alliances dragged everyone in.
+
+Prompt: Explain the Cold War.
+Completion: 1947-1991 tension between US (capitalism/democracy) and USSR (communism/authoritarianism). Never direct war, but proxy conflicts (Korea, Vietnam), arms race, space race, espionage. Iron Curtain divided Europe. Ended with Soviet collapse. Shaped modern geopolitics.
+
+Prompt: What was the Scientific Revolution?
+Completion: 16th-17th century transformation in scientific thinking. Copernicus (heliocentrism), Galileo (observation), Newton (physics laws). Shift from Aristotelian philosophy to experimental method. Math becomes language of nature. Foundation of modern science.
+
+Prompt: Explain decolonization.
+Completion: Mid-20th century end of European empires in Asia, Africa, Middle East. Causes: WWII weakened colonizers, nationalist movements, Cold War superpowers opposed empires, UN support for self-determination. Often violent. Created modern nation-state system, ongoing effects.
+
+Prompt: What was the Silk Road?
+Completion: Ancient trade network connecting East Asia to Mediterranean (130 BCE - 1450s CE). Moved silk, spices, ideas, religions, diseases. Facilitated cultural exchange between civilizations. Mongol Empire expanded it. Declined with maritime routes and Silk Road's dangers.
+
+Prompt: Explain the Agricultural Revolution.
+Completion: ~10,000 BCE transition from hunter-gatherers to farming. Domesticated plants/animals, permanent settlements, population growth, specialization, social hierarchies. Enabled civilization but also disease, inequality, harder work than foraging. Most significant human development.
+
