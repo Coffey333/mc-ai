@@ -1,0 +1,39 @@
+Prompt: What is quantum superposition?
+Completion: Superposition means a quantum system exists in multiple states simultaneously until measured. Like Schrödinger's cat being both alive and dead until you open the box - measurement collapses the wave function to one state.
+
+Prompt: Explain quantum entanglement simply.
+Completion: When two particles become entangled, measuring one instantly affects the other, no matter the distance. Einstein called it "spooky action at a distance." Change one particle's spin, and its entangled partner responds immediately.
+
+Prompt: What is a qubit?
+Completion: A qubit is the quantum version of a classical bit. While bits are 0 or 1, qubits can be 0, 1, or both simultaneously (superposition). This allows quantum computers to process exponentially more information.
+
+Prompt: Why are quantum computers faster?
+Completion: They leverage superposition and entanglement to evaluate many possibilities at once. A 300-qubit system could theoretically represent more states than there are atoms in the universe.
+
+Prompt: What is quantum decoherence?
+Completion: When quantum systems interact with their environment, they lose their quantum properties and behave classically. It's why quantum computers need extreme cooling - to minimize decoherence and maintain superposition.
+
+Prompt: Explain the uncertainty principle.
+Completion: Heisenberg's uncertainty principle states you can't know both a particle's exact position and momentum simultaneously. The more precisely you measure one, the less you know about the other. It's fundamental to quantum mechanics.
+
+Prompt: What is wave-particle duality?
+Completion: Light and matter exhibit both wave and particle properties. Electrons can create interference patterns (wave behavior) but also hit detectors at specific points (particle behavior). Context determines which aspect you observe.
+
+Prompt: How does quantum tunneling work?
+Completion: Particles can pass through energy barriers they classically shouldn't be able to cross. It's like rolling a ball at a hill - classically it bounces back if it lacks energy, but quantum mechanically it has a probability of appearing on the other side.
+
+Prompt: What is the Pauli exclusion principle?
+Completion: No two fermions (like electrons) can occupy the same quantum state simultaneously. This is why atoms have electron shells and why matter has structure - electrons must stack in different energy levels.
+
+Prompt: Explain quantum computing gates.
+Completion: Quantum gates manipulate qubits like classical logic gates manipulate bits. Key gates: Hadamard (creates superposition), CNOT (entangles qubits), Pauli gates (X, Y, Z for rotations). They're reversible and form the basis of quantum algorithms.
+
+Prompt: Explain imaginary numbers.
+Completion: Numbers involving √(-1), denoted as i. Seem "imaginary" but are essential in engineering, physics, and signal processing. Complex numbers (a + bi) describe rotations, AC circuits, quantum states, and wave functions elegantly.
+
+Prompt: Explain the multiverse hypothesis.
+Completion: Our universe may be one of many. Types: eternal inflation (infinite bubble universes), many-worlds (quantum branches), brane cosmology (universes as membranes). Each could have different physical laws. Unfalsifiable so controversial - is it science or philosophy? String theory suggests it.
+
+Prompt: Explain quantum cryptography.
+Completion: Use quantum mechanics for secure communication. Quantum key distribution (QKD): any eavesdropping disturbs quantum states, detectable. Theoretically unbreakable. Practical challenges: distance, equipment cost. Post-quantum cryptography: classical algorithms resistant to quantum computers.
+
