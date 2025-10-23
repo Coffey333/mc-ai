@@ -1,0 +1,438 @@
+Prompt: What is neuropsychology?
+Completion: The study of how the structure and function of the brain relate to specific psychological processes and behaviors.
+
+Prompt: Tone for creative brainstorming.
+Completion: Energetic, open, affirming—encourage exploration and freedom of thought.
+
+Prompt: What is a neuron?
+Completion: A neuron is a specialized cell that transmits electrical and chemical signals in the nervous system.
+
+Prompt: Define synapse.
+Completion: A synapse is the junction where one neuron communicates with another via neurotransmitters.
+
+Prompt: What role does the myelin sheath play?
+Completion: It insulates the axon, speeding up the transmission of electrical impulses.
+
+Prompt: Explain action potential.
+Completion: It’s the rapid electrical change that travels along a neuron when it fires, caused by ion exchange across the membrane.
+
+Prompt: What ions are critical for action potentials?
+Completion: Sodium (Na+) and potassium (K+) ions create voltage changes that propagate the signal.
+
+Prompt: Differentiate gray matter and white matter.
+Completion: Gray matter contains neuron cell bodies; white matter consists mainly of myelinated axons for signal transmission.
+
+Prompt: What is neuroplasticity?
+Completion: The brain’s ability to reorganize and form new connections in response to learning or injury.
+
+Prompt: What are neurotransmitters?
+Completion: Chemical messengers that carry signals across synapses between neurons.
+
+Prompt: Give examples of common neurotransmitters.
+Completion: Dopamine, serotonin, acetylcholine, norepinephrine, and GABA.
+
+Prompt: What does dopamine regulate?
+Completion: Motivation, reward, pleasure, and motor control.
+
+Prompt: Function of serotonin.
+Completion: Regulates mood, sleep, appetite, and emotional balance.
+
+Prompt: What does GABA do?
+Completion: It’s the main inhibitory neurotransmitter, reducing neural activity and promoting calmness.
+
+Prompt: What are glial cells?
+Completion: Supportive cells that nourish neurons, remove waste, and maintain homeostasis.
+
+Prompt: Name main types of glia.
+Completion: Astrocytes, oligodendrocytes, microglia, and Schwann cells.
+
+Prompt: What do astrocytes do?
+Completion: Provide nutrients to neurons and regulate the chemical environment around synapses.
+
+Prompt: Function of oligodendrocytes.
+Completion: They form the myelin sheath in the central nervous system.
+
+Prompt: Function of Schwann cells.
+Completion: They myelinate axons in the peripheral nervous system.
+
+Prompt: Function of microglia.
+Completion: Act as immune cells, clearing debris and fighting infection in the brain.
+
+Prompt: What is the cerebral cortex?
+Completion: The brain’s outer layer responsible for higher functions like reasoning, language, and perception.
+
+Prompt: Main lobes of the cerebral cortex.
+Completion: Frontal, parietal, temporal, and occipital.
+
+Prompt: What is the cerebellum responsible for?
+Completion: Coordination, balance, and fine motor control.
+
+Prompt: Key parts of the limbic system.
+Completion: Amygdala, hippocampus, hypothalamus, and cingulate cortex.
+
+Prompt: Role of the hippocampus.
+Completion: Essential for forming and retrieving long-term memories.
+
+Prompt: Role of the amygdala.
+Completion: Processes emotional responses, especially fear and pleasure.
+
+Prompt: Function of the hypothalamus.
+Completion: Regulates hunger, thirst, temperature, and hormone release via the pituitary.
+
+Prompt: What is the thalamus?
+Completion: The relay station that directs sensory signals to the appropriate cortical areas.
+
+Prompt: Define brainstem.
+Completion: Connects brain to spinal cord; controls breathing, heart rate, and basic survival functions.
+
+Prompt: What is the medulla oblongata?
+Completion: A brainstem structure that manages autonomic processes like breathing and heartbeat.
+
+Prompt: Function of the pons.
+Completion: Links cerebellum and cortex, coordinating sleep and facial movement.
+
+Prompt: Function of the midbrain.
+Completion: Handles reflexes for vision and hearing and integrates motor signals.
+
+Prompt: What is a reflex arc?
+Completion: A simple neural pathway that produces an automatic response without conscious control.
+
+Prompt: What is the blood-brain barrier?
+Completion: A selective membrane that protects the brain from toxins while allowing nutrients to pass.
+
+Prompt: What are mirror neurons?
+Completion: Neurons that fire both when performing an action and when observing someone else perform it.
+
+Prompt: What is hemispheric lateralization?
+Completion: The division of functions between the left and right brain hemispheres.
+
+Prompt: What are sensory neurons?
+Completion: They carry information from sense organs to the central nervous system.
+
+Prompt: What are motor neurons?
+Completion: They transmit commands from the brain or spinal cord to muscles and glands.
+
+Prompt: Define interneurons.
+Completion: Connect sensory and motor neurons within neural circuits.
+
+Prompt: What is an EEG?
+Completion: An electroencephalogram measures brainwave activity through scalp electrodes.
+
+Prompt: What does brain plasticity mean in adults?
+Completion: The adult brain can still form new synapses and reorganize pathways through learning or therapy.
+
+Prompt: What are brainwaves?
+Completion: Rhythmic electrical patterns of neural activity, measured in frequencies like alpha, beta, theta, delta, and gamma.
+
+Prompt: Describe alpha waves.
+Completion: Brainwaves between 8–13 Hz linked to relaxation and calm wakefulness.
+
+Prompt: Describe beta waves.
+Completion: Fast brainwaves (13–30 Hz) associated with alertness, focus, and active thinking.
+
+Prompt: Describe theta waves.
+Completion: Slow brainwaves (4–8 Hz) related to creativity, meditation, and light sleep.
+
+Prompt: What is the resting membrane potential?
+Completion: The voltage difference across a neuron’s membrane when it’s not firing, typically around –70 mV.
+
+Prompt: How does a neuron depolarize?
+Completion: Sodium ions enter, making the inside more positive and triggering an action potential.
+
+Prompt: What is hyperpolarization?
+Completion: The neuron becomes more negative than the resting potential, temporarily preventing new firing.
+
+Prompt: What is the refractory period?
+Completion: The brief time after an action potential when a neuron cannot fire again.
+
+Prompt: What are dendrites?
+Completion: Branch-like extensions that receive incoming signals from other neurons.
+
+Prompt: What is an axon?
+Completion: The long fiber that transmits electrical impulses
+
+Prompt: What is a soma?
+Completion: The cell body of a neuron containing the nucleus and metabolic machinery.
+
+Prompt: What is the node of Ranvier?
+Completion: Gaps in the myelin sheath where action potentials regenerate during saltatory conduction.
+
+Prompt: What is saltatory conduction?
+Completion: The jumping of action potentials between myelin gaps, greatly speeding signal transmission.
+
+Prompt: What is a neurotransmitter receptor?
+Completion: A protein on the postsynaptic membrane that binds neurotransmitters to trigger responses.
+
+Prompt: What are ionotropic receptors?
+Completion: Fast-acting receptors that directly open ion channels when neurotransmitters bind.
+
+Prompt: What is synaptic pruning?
+Completion: The brain’s process of eliminating weaker synaptic connections to enhance efficiency.
+
+Prompt: When does major synaptic pruning occur?
+Completion: During childhood and adolescence as the brain refines neural circuits.
+
+Prompt: What is the prefrontal cortex responsible for?
+Completion: Planning, decision-making, impulse control, and complex reasoning.
+
+Prompt: What is working memory?
+Completion: The brain’s temporary storage for information being actively processed or manipulated.
+
+Prompt: What is the default mode network?
+Completion: A set of brain regions active during rest, daydreaming, and internal reflection.
+
+Prompt: What is the motor cortex?
+Completion: The region controlling voluntary muscle movement.
+
+Prompt: What is the sensory cortex?
+Completion: The region that processes tactile and sensory input from the body.
+
+Prompt: What is the visual cortex?
+Completion: The occipital region specialized for interpreting visual input.
+
+Prompt: What is the auditory cortex?
+Completion: The temporal region responsible for processing sound information.
+
+Prompt: What is lateral inhibition?
+Completion: A neural mechanism that sharpens sensory contrast by inhibiting neighboring neurons.
+
+Prompt: What is neurogenesis?
+Completion: The creation of new neurons, primarily occurring in the hippocampus in adults.
+
+Prompt: What is Parkinson’s disease?
+Completion: A neurodegenerative disorder caused by loss of dopamine-producing neurons in the substantia nigra.
+
+Prompt: What is multiple sclerosis?
+Completion: A disease where the immune system attacks myelin sheaths, disrupting neural communication.
+
+Prompt: What is epilepsy?
+Completion: A neurological disorder characterized by recurrent seizures due to abnormal neural activity.
+
+Prompt: What is a seizure?
+Completion: Sudden, excessive electrical activity in the brain that alters consciousness or movement.
+
+Prompt: What is the vagus nerve?
+Completion: A cranial nerve connecting the brain to organs, regulating heart rate, digestion, and relaxation.
+
+Prompt: What is the enteric nervous system?
+Completion: The “second brain” in the gut that independently regulates digestion and communicates with the CNS.
+
+Prompt: What is the peripheral nervous system?
+Completion: The network of nerves outside the brain and spinal cord that links the CNS to the body.
+
+Prompt: What is cortisol?
+Completion: A hormone that mobilizes energy during stress but can damage neurons if chronically high.
+
+Prompt: What is the reward pathway?
+Completion: A dopamine-based circuit linking the VTA, nucleus accumbens, and prefrontal cortex.
+
+Prompt: What is a neural network in biology?
+Completion: An interconnected web of neurons that process and transmit information.
+
+Prompt: What is Hebbian learning?
+Completion: The principle that “neurons that fire together wire together,” strengthening simultaneous activations.
+
+Prompt: What is brain lateralization?
+Completion: The tendency for certain processes to be more dominant in one hemisphere than the other.
+
+Prompt: What happens if the corpus callosum is severed?
+Completion: Split-brain effects occur, where each hemisphere operates independently with limited data sharing.
+
+Prompt: What is the limbic system?
+Completion: A network including the amygdala, hippocampus, and hypothalamus regulating emotion and memory.
+
+Prompt: What is the amygdala’s function?
+Completion: Detecting emotional salience, particularly fear and threat, and influencing fight-or-flight responses.
+
+Prompt: What is the hippocampus’ function?
+Completion: Formation and retrieval of long-term declarative memories and spatial navigation.
+
+Prompt: What is the thalamus?
+Completion: The brain’s relay center that directs sensory signals to appropriate cortical areas.
+
+Prompt: What is the hypothalamus?
+Completion: Regulates homeostasis—temperature, hunger, thirst, and circadian rhythms—and controls the endocrine system.
+
+Prompt: What is the cerebellum responsible for?
+Completion: Coordination, balance, fine-motor control, and procedural learning.
+
+Prompt: What is the brainstem?
+Completion: Controls essential life functions such as breathing, heart rate, and arousal.
+
+Prompt: What are glial cells?
+Completion: Non-neuronal support cells that provide nutrients, clean waste, insulate axons, and regulate signaling.
+
+Prompt: What are astrocytes?
+Completion: Star-shaped glial cells maintaining blood–brain barrier integrity and supporting neuronal metabolism.
+
+Prompt: What are oligodendrocytes?
+Completion: CNS glial cells that produce myelin to insulate axons.
+
+Prompt: What are Schwann cells?
+Completion: PNS glial cells that form myelin sheaths around peripheral axons.
+
+Prompt: What are microglia?
+Completion: Immune cells of the brain that remove debris and respond to injury or infection.
+
+Prompt: What is neural plasticity?
+Completion: The brain’s ability to reorganize connections in response to experience or damage.
+
+Prompt: What is experience-dependent plasticity?
+Completion: Changes in neural wiring driven by learning and environmental interaction.
+
+Prompt: What are event-related potentials (ERP)?
+Completion: Measured EEG signals tied to specific sensory, cognitive, or motor events.
+
+Prompt: What is functional MRI (fMRI)?
+Completion: Imaging that measures brain activity via blood-oxygen-level-dependent signals.
+
+Prompt: What is PET scanning used for?
+Completion: Detecting metabolic activity in brain regions using radioactive tracers like FDG.
+
+Prompt: What is transcranial magnetic stimulation (TMS)?
+Completion: Non-invasive stimulation that modulates neural activity with magnetic fields.
+
+Prompt: What is optogenetics?
+Completion: Technique using light to control neurons genetically modified with light-sensitive ion channels.
+
+Prompt: What is neural decoding?
+Completion: Inferring thoughts or stimuli from neural activity patterns using computational models.
+
+Prompt: What is the connectome?
+Completion: The comprehensive map of neural connections within a brain.
+
+Prompt: What is a local field potential?
+Completion: Combined electrical activity from groups of neurons recorded near an electrode.
+
+Prompt: What is the blood–brain barrier?
+Completion: A selective barrier protecting the brain from toxins while allowing nutrient passage.
+
+Prompt: What is neurovascular coupling?
+Completion: The process linking neural activity to local changes in blood flow.
+
+Prompt: What is the glymphatic system?
+Completion: A brain-wide network clearing waste products during sleep via cerebrospinal fluid flow.
+
+Prompt: What is sleep’s function in the brain?
+Completion: Consolidates memories, clears toxins, and restores synaptic homeostasis.
+
+Prompt: What is REM sleep?
+Completion: Sleep stage with vivid dreaming, rapid eye movement, and high brain activity.
+
+Prompt: What is sleep spindles’ role?
+Completion: Short bursts of brain activity during stage 2 sleep supporting memory consolidation.
+
+Prompt: What are neurotransmitter systems?
+Completion: Networks using specific chemicals—dopamine, serotonin, acetylcholine—to regulate states and behaviors.
+
+Prompt: What is serotonin’s role?
+Completion: Modulates mood, appetite, and sleep; imbalance links to depression.
+
+Prompt: What is GABA?
+Completion: The brain’s main inhibitory neurotransmitter reducing neuronal excitability.
+
+Prompt: What is glutamate?
+Completion: The brain’s primary excitatory neurotransmitter vital for learning and memory.
+
+Prompt: What is histamine’s role in the brain?
+Completion: Regulates wakefulness, immune response, and learning processes.
+
+Prompt: What is oxytocin?
+Completion: A hormone and neurotransmitter fostering bonding, empathy, and trust.
+
+Prompt: What is neuroethics?
+Completion: The study of ethical issues arising from neuroscience advances and brain interventions.
+
+Prompt: What is neuromodulation?
+Completion: Regulation of neural circuits through targeted electrical, chemical, or magnetic stimulation.
+
+Prompt: What is deep-brain stimulation (DBS)?
+Completion: Implantation of electrodes to alleviate movement disorders or depression.
+
+Prompt: What is neurofeedback?
+Completion: Real-time monitoring allowing individuals to self-regulate brain activity.
+
+Prompt: What is computational neuroscience?
+Completion: Field modeling brain function using mathematical and algorithmic frameworks.
+
+Prompt: What is predictive coding?
+Completion: The brain constantly predicts sensory input and minimizes prediction error through feedback.
+
+Prompt: What is free-energy principle?
+Completion: Model positing that brains minimize surprise by optimizing internal representations of the world.
+
+Prompt: What is the global workspace theory?
+Completion: Consciousness emerges when information becomes globally available across brain networks.
+
+Prompt: What is neural synchrony?
+Completion: Coordinated timing of neuronal firing across regions supporting communication and awareness.
+
+Prompt: What is neuroplastic rehabilitation?
+Completion: Re-training neural circuits after injury using repetitive, targeted stimuli.
+
+Prompt: What is mirror-neuron theory?
+Completion: Neurons that fire both when acting and when observing others, underlying empathy and learning.
+
+Prompt: What is neuroeconomics?
+Completion: Study of how brain mechanisms govern decision-making, risk, and reward valuation.
+
+Prompt: What is social neuroscience?
+Completion: Investigation of neural processes underlying empathy, cooperation, and social cognition.
+
+Prompt: What is the theory of mind network?
+Completion: Brain regions like the TPJ and mPFC that infer others’ beliefs and intentions.
+
+Prompt: What is empathy’s neural basis?
+Completion: Overlap between pain, emotional, and mirror-neuron systems enabling shared affective states.
+
+Prompt: What is neurodevelopment?
+Completion: Sequential formation of neurons, synapses, and networks shaping cognitive function.
+
+Prompt: What is critical period in brain development?
+Completion: Limited window when experience profoundly influences neural wiring, such as language learning.
+
+Prompt: What is myelination?
+Completion: Process of wrapping axons with myelin to increase transmission speed and efficiency.
+
+Prompt: What is brain-computer interface (BCI)?
+Completion: Direct communication pathway translating neural signals into machine commands.
+
+Prompt: What is neural encoding?
+Completion: The process by which neurons represent information through patterns of activity.
+
+Prompt: What is neurodegeneration?
+Completion: Progressive loss of neuron structure or function leading to diseases like ALS or Alzheimer’s.
+
+Prompt: What is apoptosis in the brain?
+Completion: Programmed cell death removing unnecessary or damaged neurons.
+
+Prompt: What are brain oscillations?
+Completion: Rhythmic electrical patterns coordinating information processing across regions.
+
+Prompt: What is cross-frequency coupling?
+Completion: Interaction between brainwaves of different frequencies coordinating large-scale communication.
+
+Prompt: What is mental imagery?
+Completion: Internal simulation of sensory experiences using similar neural substrates as perception.
+
+Prompt: What is attention in neuroscience?
+Completion: The selective focusing of neural resources on relevant stimuli while filtering distractions.
+
+Prompt: What is the neural correlate of intelligence?
+Completion: Efficient network integration and prefrontal–parietal connectivity predict cognitive capacity.
+
+Prompt: What is the plasticity–stability dilemma?
+Completion: The brain must balance learning flexibility with preserving established knowledge.
+
+Prompt: What is neuroaesthetics?
+Completion: The study of how brain systems generate aesthetic appreciation and creative experience.
+
+Prompt: What is neurolinguistics?
+Completion: The study of neural mechanisms underlying language comprehension and production.
+
+Prompt: What is consciousness research moving toward?
+Completion: Multimodal integration of neural, computational, and phenomenological data to map awareness.
+
+Prompt: Define neuroplasticity.
+Completion: The brain’s ability to reorganize itself by forming new neural connections throughout life.
+
