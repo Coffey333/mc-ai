@@ -1,0 +1,58 @@
+[
+  {
+    "prompt": "Scrape and preprocess data for domain-specific fine-tuning",
+    "completion": "import requests\\nfrom bs4 import BeautifulSoup\\nresponse = requests.get('url')\\nsoup = BeautifulSoup(response.text, 'html.parser')\\ntexts = [p.text for p in soup.find_all('p')]\\n# Save to CSV for dataset"
+  },
+  {
+    "prompt": "Create a concurrent web scraper using aiohttp",
+    "completion": "import aiohttp\\nimport asyncio\\nasync def fetch(session, url):\\n    async with session.get(url) as resp:\\n        return await resp.text()\\nasync def main():\\n    async with aiohttp.ClientSession() as session:\\n        tasks = [fetch(session, f'https://example.com/{i}') for i in range(5)]\\n        return await asyncio.gather(*tasks)\\nasyncio.run(main())"
+  },
+  {
+    "prompt": "Explain Common Crawl dataset for agentic tool use in web interactions",
+    "completion": "Common Crawl is a 60 TB dataset of ~2.5 billion web pages from monthly crawls by Common Crawl Foundation. Ideal for training agents to understand web content for retrieval-augmented generation (RAG). Example: Use for fine-tuning agents that scrape and summarize web data dynamically."
+  },
+  {
+    "prompt": "Describe OpenWebText and its role in agentic AI training",
+    "completion": "OpenWebText (38 GB, 8M documents from Reddit links) recreates WebText for open-source LLMs. Use for training web-interaction agents. GitHub: jcpeterson/openwebtext; preprocess for tool-calling in agents."
+  },
+  {
+    "prompt": "What is OpenAI WebGPT Dataset for training web-browsing agents?",
+    "completion": "WebGPT (~10 GB, 10k annotated sessions by OpenAI) for retrieval agents. Use: Train tool-use for web navigation. openai.com/blog/webgpt"
+  },
+  {
+    "prompt": "Use WebShop Dataset for e-commerce agent training",
+    "completion": "WebShop (20 GB, 1M interactions) for product search. Agents: Optimize shopping tasks. webshop-dataset.org"
+  },
+  {
+    "prompt": "Explain the Web-crawled Interactions dataset for interactive agents",
+    "completion": "Web-crawled Interactions provides large-scale user behavior data from online platforms, capturing billions of interaction logs for training interactive agents. Size: ~500 GB. Source: web-crawled-interactions.org. Relevance: Enhances agents\u2019 ability to predict and respond to real-world user interactions on the web."
+  },
+  {
+    "prompt": "Create a simple, responsive two-column layout using CSS Flexbox.",
+    "completion": "To create a responsive two-column layout, use a container with `display: flex`. The columns will align side-by-side on wider screens and stack on smaller screens by changing `flex-direction`.\n\n**HTML:**\n```html\n<div class=\"container\">\n  <div class=\"column\">Column 1</div>\n  <div class=\"column\">Column 2</div>\n</div>\n```\n\n**CSS:**\n```css\n.container {\n  display: flex;\n  flex-wrap: wrap; /* Allows items to wrap to the next line */\n}\n\n.column {\n  flex: 1; /* Each column takes up equal space */\n  min-width: 250px; /* Ensures columns don't get too narrow */\n  padding: 1rem;\n  border: 1px solid #ccc;\n}\n```"
+  },
+  {
+    "prompt": "How do I create a `docker-compose.yml` file to run a web application and a Postgres database together?",
+    "completion": "`docker-compose` is perfect for managing multi-container applications. This `docker-compose.yml` file defines two services: `web` (your app) and `db` (Postgres). The `web` service depends on the `db` service, ensuring the database starts first.\n\n```yaml\nversion: '3.8'\n\nservices:\n  web:\n    build: . # Looks for a Dockerfile in the current directory\n    command: python app.py\n    volumes:\n      - .:/app\n    ports:\n      - \"5000:5000\"\n    depends_on:\n      - db\n    environment:\n      - DATABASE_URL=postgresql://user:password@db:5432/mydatabase\n\n  db:\n    image: postgres:13\n    volumes:\n      - postgres_data:/var/lib/postgresql/data/\n    environment:\n      - POSTGRES_DB=mydatabase\n      - POSTGRES_USER=user\n      - POSTGRES_PASSWORD=password\n\nvolumes:\n  postgres_data:\n```\nTo run this, save it as `docker-compose.yml` and execute `docker-compose up` in your terminal."
+  },
+  {
+    "prompt": "Write Docker Compose file for web + db service.",
+    "completion": "```yaml\\nversion: '3'\\nservices:\\n  web:\\n    build: .\\n    ports:\\n      - \\"
+  },
+  {
+    "prompt": "Act as a mentor. Guide a complete beginner to build a personal website.",
+    "completion": "Step 1: HTML basics. Step 2: CSS styling. Step 3: Use GitHub Pages for free hosting. Show examples and encourage experimentation."
+  },
+  {
+    "prompt": "Fix this CSS so that text is centered:\\n```css\\nh1 { text-align left; }\\n```",
+    "completion": "CSS properties need a colon. Correct:\\n```css\\nh1 {\\n  text-align: center;\\n}\\n```"
+  },
+  {
+    "prompt": "Fix this HTML: '<img src='dog.jpg' alt=Dog>'",
+    "completion": "Attributes need quotes. Correct:\\n```html\\n<img src=\\"
+  },
+  {
+    "prompt": "Design a caching strategy for a high-traffic website.",
+    "completion": "Use CDN for static assets, Redis/Memcached for dynamic data, cache at multiple levels (browser, server, DB), and implement cache invalidation strategies (time-based or event-based)."
+  }
+]
