@@ -1,0 +1,338 @@
+Prompt: When thrust frequency in a rocket engine increases, what happens to resonance amplitude?
+Completion: Resonance amplitude rises until damped by structural design limits.
+
+Prompt: What is the escape velocity of Earth?
+Completion: Escape velocity v = √(2GM/R). With G = 6.674×10^-11 m³/kg·s², M = 5.972×10^24 kg, R = 6.371×10^6 m, v ≈ 11.2 km/s.
+
+Prompt: Calculate the orbital period of a satellite at 400 km above Earth.
+Completion: Orbital period T = 2π√(r³/GM), r = R_earth + 400 km = 6.771×10^6 m. T ≈ 92 minutes.
+
+Prompt: How does thrust relate to rocket acceleration?
+Completion: F = ma. For rocket mass m, thrust T generates acceleration a = T/m. Must account for decreasing mass as fuel burns.
+
+Prompt: I want to achieve geostationary orbit.
+Completion: Altitude ~35,786 km above equator, orbital period 24 hours, orbital speed ~3.07 km/s.
+
+Prompt: What is the effect of gravity on a multi-stage rocket?
+Completion: Each stage reduces mass, increasing acceleration. Gravity losses depend on burn time and thrust-to-weight ratio (TWR).
+
+Prompt: Calculate delta-v for LEO to GEO transfer.
+Completion: Using Hohmann transfer: Δv1 ≈ 2.44 km/s, Δv2 ≈ 1.46 km/s, total Δv ≈ 3.90 km/s.
+
+Prompt: How do I minimize fuel consumption for interplanetary travel?
+Completion: Use gravity assists, low-thrust propulsion, and Hohmann transfers. Optimize Δv and trajectory.
+
+Prompt: Rocket is accelerating at 3 m/s², mass = 2,000 kg. Find thrust.
+Completion: F = ma = 2,000 kg × 3 m/s² = 6,000 N. Must add weight to overcome gravity: F_total = 6,000 N + 19,620 N ≈ 25,620 N.
+
+Prompt: Calculate orbital speed at 500 km altitude.
+Completion: v = √(GM/r), r = 6,371 + 500 km = 6.871×10^6 m, v ≈ 7.61 km/s.
+
+Prompt: How much energy does a rocket need to reach LEO?
+Completion: Kinetic + potential energy: KE = ½mv² ≈ 0.5×1000×(7.8×10^3)² ≈ 3.04×10^10 J, PE = GMm/R ≈ 8.8×10^10 J, total ≈ 1.18×10^11 J.
+
+Prompt: How does atmospheric drag affect launch?
+Completion: Drag force F_d = ½ρv²CdA. Minimized by streamlined shapes, higher thrust during dense layers, and optimized trajectory.
+
+Prompt: Explain rocket Tsiolkovsky equation.
+Completion: Δv = v_e ln(m_0/m_f), v_e = exhaust velocity, m_0 = initial mass, m_f = final mass. Governs rocket design.
+
+Prompt: Calculate force on nozzle given exhaust speed 2,500 m/s and mass flow 10 kg/s.
+Completion: Thrust F = ṁv_e = 10 kg/s × 2,500 m/s = 25,000 N.
+
+Prompt: How do you maintain spacecraft attitude?
+Completion: Use reaction wheels, control moment gyros, thrusters. Torque τ = Iα applied to change angular velocity.
+
+Prompt: A rocket loses 10% of mass per stage. How does delta-v change?
+Completion: Δv = v_e ln(m_0/m_f). Each stage reduces m_f, increasing Δv for the remaining fuel.
+
+Prompt: How to compute specific impulse?
+Completion: I_sp = F / (ṁ g₀), units seconds. Measures fuel efficiency: higher I_sp = more efficient engine.
+
+Prompt: Calculate Δv for Mars transfer orbit from Earth.
+Completion: Hohmann transfer, semi-major axis a = (r_earth + r_mars)/2 ≈ 1.26×10^11 m, Δv ≈ 2.94 km/s from LEO.
+
+Prompt: Rocket in orbit experiences microgravity. Why?
+Completion: Free-fall condition: gravitational acceleration acts equally on all parts. Apparent weight = 0.
+
+Prompt: Explain gravity assist for interplanetary missions.
+Completion: Use planet's motion to accelerate spacecraft. Δv depends on planet speed and approach trajectory.
+
+Prompt: A satellite of 500 kg in circular orbit 800 km altitude. Find orbital period.
+Completion: T = 2π√(r³/GM), r = 6,371 + 800 km = 7.171×10^6 m, T ≈ 101 minutes.
+
+Prompt: Calculate kinetic energy of a satellite at 400 km altitude, mass 1000 kg.
+Completion: v ≈ 7.67 km/s, KE = ½mv² ≈ 0.5 × 1000 × (7,670)² ≈ 2.94×10^10 J.
+
+Prompt: Rocket engine with 500 kN thrust and 50,000 kg mass. Compute acceleration.
+Completion: a = F/m = 500,000 N / 50,000 kg = 10 m/s². Overcomes gravity? Weight = 50,000×9.81 ≈ 490,500 N. Net a ≈ 0.95 m/s².
+
+Prompt: Explain Lagrange points.
+Completion: Points where gravitational and centrifugal forces balance. Useful for satellites: stable (L4, L5) and unstable (L1, L2, L3).
+
+Prompt: How does solar radiation pressure affect spacecraft?
+Completion: F = P × A × reflectivity. Can slightly adjust orbit or orientation; used in solar sails.
+
+Prompt: Calculate orbital decay due to atmospheric drag at 300 km.
+Completion: Drag force F_d = ½ρv²CdA. ρ ~ 10^-11 kg/m³, v ~ 7.73 km/s, small deceleration over months reduces altitude.
+
+Prompt: Rocket mass = 1500 kg, exhaust = 2500 m/s. Δv required = 5,000 m/s. Find fuel mass.
+Completion: Δv = v_e ln(m_0/m_f) → m_f = m_0 / e^(Δv/v_e) ≈ 1500 / e^(5000/2500) ≈ 203 kg fuel left? (Check calculation).
+
+Prompt: A spacecraft in elliptical orbit, perigee 200 km, apogee 600 km. Find velocity at perigee.
+Completion: v = √[GM(2/r - 1/a)], a = (r_p + r_a)/2 = 6.571×10^6 m, r_p = 6.571×10^6 m, v ≈ 7.85 km/s.
+
+Prompt: Calculate centrifugal force on space station orbiting Earth at 400 km.
+Completion: F_c = m v² / r, v ≈ 7.67 km/s, r = 6,771 km, F_c ≈ 7.67²×10^6 / 6.771×10^6 × m ≈ 8.68 m/s² × m.
+
+Prompt: Explain rocket staging advantage.
+Completion: Reduces inert mass, increases Δv. Tsiolkovsky equation shows multi-stage rockets achieve higher velocities efficiently.
+
+Prompt: Calculate gravitational potential energy of satellite 500 km altitude.
+Completion: U = -GMm/r, r = 6,371 + 500 km = 6.871×10^6 m, U ≈ -4.88×10^10 J for m = 1000 kg.
+
+Prompt: Rocket launched at 30° to horizon. What is horizontal range?
+Completion: Ignoring drag: R = v² sin2θ / g. v = 300 m/s, θ = 30°, R ≈ 7,958 m.
+
+Prompt: How to calculate Δv for plane change maneuver?
+Completion: Δv = 2v sin(Δi/2), v = orbital speed, Δi = inclination change. Plane change is fuel-intensive.
+
+Prompt: How does thrust-to-weight ratio affect liftoff?
+Completion: T/W > 1 required for liftoff. Higher T/W = faster acceleration; affects fuel efficiency and trajectory.
+
+Prompt: Satellite experiences orbital precession. Why?
+Completion: Due to Earth's oblateness and gravitational perturbations. Correct with station-keeping thrusters.
+
+Prompt: Explain delta-v budget planning.
+Completion: Total Δv = sum of mission maneuvers. Crucial for fuel and trajectory optimization.
+
+Prompt: Calculate orbital velocity at LEO 200 km.
+Completion: v = √(GM/r) = √(3.986×10^14 / 6.571×10^6) ≈ 7.79 km/s.
+
+Prompt: Rocket in vacuum, nozzle exit pressure lower than ambient. Effect?
+Completion: Under-expanded nozzle, slightly less thrust. Optimize nozzle for operating environment.
+
+Prompt: Compute time to reach orbit under constant thrust.
+Completion: Integrate acceleration a = T/m(t) - g. Use numerical methods if mass decreases with fuel burn.
+
+Prompt: Explain effect of rotation on rocket trajectory near poles.
+Completion: Coriolis effect minimal near equator, increases near poles. Launch azimuth must compensate.
+
+Prompt: Calculate potential energy difference from 200 km to 400 km orbit.
+Completion: ΔU = GMm(1/r1 - 1/r2) ≈ 3.05×10^10 J for m = 1000 kg.
+
+Prompt: Rocket mass = 10,000 kg, thrust = 200 kN. Compute acceleration at liftoff.
+Completion: a = F/m = 200,000 N / 10,000 kg = 20 m/s². Overcomes gravity? Weight = 10,000×9.81 = 98,100 N, net a ≈ 10.2 m/s².
+
+Prompt: What is terminal velocity for a 100 kg satellite falling through air?
+Completion: v_t = √(2mg / ρCdA). With ρ ≈ 1.225 kg/m³, Cd = 0.47, A = 1 m², v_t ≈ 63 m/s.
+
+Prompt: Calculate escape velocity from Moon (M = 7.347×10^22 kg, R = 1.737×10^6 m).
+Completion: v = √(2GM/R) ≈ √(2×6.674×10^-11×7.347×10^22 / 1.737×10^6) ≈ 2.38 km/s.
+
+Prompt: Rocket in elliptical orbit, semi-major axis 10,000 km, perigee 2,000 km. Find apogee velocity.
+Completion: v_a = √[GM(2/r_a - 1/a)], r_a = a×2 - r_p? Compute numerical value v_a ≈ 3.5 km/s.
+
+Prompt: Compute gravitational force between two satellites, m1 = m2 = 500 kg, r = 100 m.
+Completion: F = G m1 m2 / r² = 6.674×10^-11×500×500 / 100² ≈ 1.67×10^-8 N.
+
+Prompt: Calculate energy required to transfer satellite from 200 km to 500 km orbit.
+Completion: ΔE = ΔKE + ΔPE. KE = ½mv², PE = -GMm/r. Compute total ≈ 2.1×10^10 J for m = 1000 kg.
+
+Prompt: A rocket burns 500 kg fuel per second, exhaust velocity 3,000 m/s. Thrust?
+Completion: F = ṁ v_e = 500 × 3,000 = 1.5×10^6 N.
+
+Prompt: Explain Lagrange points L1-L5 with examples.
+Completion: L1 between Earth-Moon: satellite remains aligned. L4/L5 stable, used for space observatories.
+
+Prompt: Rocket mass = 2,000 kg, Δv = 5,000 m/s, exhaust velocity 2,500 m/s. Find fuel fraction.
+Completion: Δv = v_e ln(m0/mf) → m0/mf = e^(Δv/v_e) = e^2 ≈ 7.39 → fuel = m0 - mf ≈ 1,730 kg.
+
+Prompt: Calculate orbital period of GPS satellite (altitude 20,200 km).
+Completion: r = 6,371 + 20,200 = 26,571 km, T = 2π√(r³/GM) ≈ 11.97 hours.
+
+Prompt: Rocket needs 9 km/s to reach LEO. Current Δv = 4 km/s. How much more is needed?
+Completion: Remaining Δv = 9 - 4 = 5 km/s.
+
+Prompt: Explain centrifugal vs centripetal force in orbit.
+Completion: Centripetal: toward center (keeps orbit). Centrifugal: apparent outward in rotating frame. Balance governs orbit.
+
+Prompt: Satellite 500 kg, circular orbit 700 km. Compute gravitational force.
+Completion: F = GMm/r² = 6.674×10^-11×5.972×10^24×500 / (7.071×10^6)² ≈ 3.98×10^3 N.
+
+Prompt: Rocket stage separation: effect on acceleration?
+Completion: Mass drops instantly → acceleration jumps: a = F/(m_remaining). Δv efficiency improves.
+
+Prompt: How does Coriolis affect rocket trajectory?
+Completion: Eastward deflection in Northern Hemisphere, westward in Southern. Correct launch azimuth accordingly.
+
+Prompt: Calculate pressure at 10 km altitude.
+Completion: Approximate: P = 26.5 kPa. Affects engine performance and aerodynamics.
+
+Prompt: Rocket nozzle design: effect on exhaust speed.
+Completion: Convergent-divergent nozzle accelerates exhaust to supersonic speeds. Exit area and chamber pressure critical.
+
+Prompt: Rocket in circular orbit: why microgravity?
+Completion: Free-fall condition: all parts accelerate equally → apparent weightless.
+
+Prompt: Compute orbital inclination change Δv for 10° at LEO.
+Completion: Δv = 2v sin(Δi/2), v ≈ 7.8 km/s, Δv ≈ 1.36 km/s. Plane changes expensive.
+
+Prompt: Satellite solar panel orientation for max power.
+Completion: Panels perpendicular to sun rays: angle θ = 0°. Power = P_sun A cosθ.
+
+Prompt: Explain retrograde vs prograde orbit.
+Completion: Prograde: same rotation direction as planet (less Δv). Retrograde: opposite direction (higher Δv, energy).
+
+Prompt: Rocket engine efficiency, define.
+Completion: η = Useful work / chemical energy of propellant. High I_sp engines are more efficient.
+
+Prompt: Calculate delta-v for low-thrust electric propulsion.
+Completion: Use Tsiolkovsky equation, integrate small Δv increments over long burn.
+
+Prompt: Compute orbital radius for 90-minute circular orbit.
+Completion: T = 2π√(r³/GM) → r ≈ 6,710 km → altitude ≈ 339 km.
+
+Prompt: Compute Δv to circularize at apogee 500 km.
+Completion: v_circular = √(GM/r_apogee), compare with current velocity at apogee → Δv ≈ 0.3 km/s.
+
+Prompt: Rocket accelerates 5 m/s² in vacuum, mass 1,000 kg. Thrust?
+Completion: F = ma = 1,000×5 = 5,000 N. No gravity compensation needed in vacuum.
+
+Prompt: Explain escape trajectory for Moon mission.
+Completion: Δv must exceed lunar escape velocity 2.38 km/s from surface. Trajectory designed for fuel efficiency.
+
+Prompt: Compute time in orbit: v = 7.8 km/s, circumference 42,000 km.
+Completion: T = distance / speed = 42,000 km / 7.8 km/s ≈ 5,385 s ≈ 1.5 hours.
+
+Prompt: Rocket mass = 2,000 kg, Δv = 5,000 m/s, v_e = 2,500 m/s. Fuel mass?
+Completion: m_f = m_0 / e^(Δv/v_e) ≈ 2,000 / e^2 ≈ 271 kg. Fuel ≈ 1,729 kg.
+
+Prompt: Rocket thrust 50 kN, mass 1,000 kg. T/W?
+Completion: T/W = 50,000 / (1,000×9.81) ≈ 5.1. Sufficient for liftoff.
+
+Prompt: Satellite 1,000 kg, orbit 500 km, compute KE.
+Completion: v ≈ 7.61 km/s, KE = 0.5×1000×(7,610)² ≈ 2.90×10^10 J.
+
+Prompt: Explain effect of solar flares on satellites.
+Completion: Charged particles can damage electronics, affect orbits via atmospheric expansion.
+
+Prompt: Rocket engine I_sp = 300 s, mass flow 50 kg/s. Thrust?
+Completion: F = I_sp * g₀ * ṁ = 300×9.81×50 ≈ 147,150 N.
+
+Prompt: Rocket in vacuum vs sea level: effect on exhaust velocity.
+Completion: Exhaust expands more in vacuum → higher v_e → higher thrust.
+
+Prompt: Compute orbital decay for satellite at 200 km over 1 week.
+Completion: Use atmospheric drag F_d = ½ρv²CdA, integrate over time → altitude drops ~10–20 km depending on density.
+
+Prompt: Rocket experiences Max Q at 12 km, 300 m/s. Compute dynamic pressure.
+Completion: Q = 0.5*ρ*v², ρ ≈ 0.31 kg/m³ → Q ≈ 14,000 Pa.
+
+Prompt: Explain coasting phase in orbital insertion.
+Completion: After main engine cutoff, spacecraft follows ballistic orbit until next burn or maneuver.
+
+Prompt: Rocket loses 2% Δv due to drag. How does fuel change?
+Completion: Δv lost → need slightly more fuel according to Tsiolkovsky equation.
+
+Prompt: Compute energy to move 1 kg from LEO 200 km to GEO.
+Completion: ΔE ≈ KE + PE difference ≈ 3.9×10^9 J.
+
+Prompt: Explain effect of Earth oblateness on satellite orbit.
+Completion: Causes nodal precession, affects long-term stability; must correct with station-keeping.
+
+Prompt: Rocket accelerates at 1.5 m/s², mass 1,500 kg. Compute thrust.
+Completion: F = ma + mg = 1,500×1.5 + 1,500×9.81 ≈ 16,965 N.
+
+Prompt: Compute energy of 500 kg satellite at 300 km orbit.
+Completion: KE = 0.5*m*v² ≈ 1.76×10^10 J, PE = -GMm/r ≈ -3.44×10^10 J, total ≈ -1.68×10^10 J.
+
+Prompt: Rocket with 3 stages, Δv each stage 2 km/s, 3 km/s, 4 km/s. Total Δv?
+Completion: Δv_total ≈ 2 + 3 + 4 = 9 km/s (approximation). More accurate via Tsiolkovsky per stage.
+
+Prompt: Satellite orbits Mars 400 km, mass 500 kg. Gravitational force?
+Completion: F = GMm/r² = 6.674×10^-11*6.417×10^23*500 / (3,389+400×10^3)² ≈ 1,993 N.
+
+Prompt: Explain gravity gradient torque.
+Completion: Differential gravitational force on extended body → natural attitude stabilization for satellites.
+
+Prompt: Rocket exhaust velocity 2,500 m/s, Δv 5 km/s. Compute mass ratio.
+Completion: m0/mf = e^(Δv/v_e) = e^2 ≈ 7.39.
+
+Prompt: Rocket in LEO 300 km, speed 7.73 km/s. How long to circle Earth?
+Completion: Orbit circumference ≈ 2π×(6,371+300) km ≈ 42,482 km, T ≈ 1.52 hours.
+
+Prompt: Rocket at 45° launch angle, v0 = 400 m/s. Horizontal range?
+Completion: R = v² sin2θ / g = 400² × sin90° / 9.81 ≈ 16,329 m.
+
+Prompt: Satellite 1000 kg, LEO 500 km. Compute orbital momentum.
+Completion: L = m v r = 1,000×7,613×6.871×10^6 ≈ 5.23×10^13 kg·m²/s.
+
+Prompt: Explain three-body problem relevance to space travel.
+Completion: Predicting motion with three massive bodies (e.g., Earth-Moon-satellite). Important for Lagrange point missions.
+
+Prompt: Rocket T/W = 1.5, mass 1,000 kg. Thrust?
+Completion: F = T/W × m g = 1.5 × 1,000 × 9.81 ≈ 14,715 N.
+
+Prompt: Calculate fuel needed for 500 kg Δv = 4 km/s, v_e = 2,000 m/s.
+Completion: m0/mf = e^(Δv/v_e) = e^2 = 7.39, fuel ≈ 437 kg.
+
+Prompt: Rocket in low-thrust trajectory, Δv = 3 km/s over 5 days. Average acceleration?
+Completion: a = Δv / t = 3,000 / (5*24*3600) ≈ 0.007 m/s².
+
+Prompt: Explain effect of atmospheric pressure on nozzle expansion.
+Completion: Over-expanded: P_exit < P_ambient, under-expanded: P_exit > P_ambient, affects thrust efficiency.
+
+Prompt: Satellite experiences tidal forces. Why?
+Completion: Differential gravitational forces stretch body along radial direction → affects orientation, instruments.
+
+Prompt: Compute Δv for interplanetary transfer to Venus.
+Completion: Hohmann transfer Δv ≈ 2.5 km/s from LEO, depending on launch window.
+
+Prompt: Rocket engine chamber pressure 5 MPa, nozzle exit area 1 m², exit pressure 0.1 MPa. Thrust?
+Completion: F = (P_c - P_e) A + ṁ v_e ≈ 5e6*1 + … ≈ 5 MN + momentum contribution.
+
+Prompt: Explain why rocket staging is more efficient.
+Completion: Mass drops → same thrust produces more acceleration → higher Δv.
+
+Prompt: Satellite 600 km orbit, compute kinetic energy.
+Completion: v ≈ 7.55 km/s, KE = 0.5×1000×(7,550)² ≈ 2.85×10^10 J.
+
+Prompt: Rocket launched from 28° latitude, eastward. Why?
+Completion: Takes advantage of Earth rotation for extra Δv. Launch site latitude affects trajectory.
+
+Prompt: Explain why microgravity affects fluids in spacecraft.
+Completion: No net body force → surface tension dominates → unusual fluid behavior.
+
+Prompt: Calculate LEO satellite's orbital speed at 400 km.
+Completion: v = √(GM/r) = √(3.986×10^14 / 6,771×10^3) ≈ 7.67 km/s.
+
+Prompt: Rocket Δv = 6 km/s, I_sp = 300 s. Fuel fraction?
+Completion: m0/mf = e^(Δv/v_e), v_e = I_sp*g₀ = 300*9.81 ≈ 2,943 m/s → m0/mf = e^(6,000/2,943) ≈ 7.05 → fuel fraction ≈ 0.857.
+
+Prompt: Satellite loses 1 m/s per day due to drag. Compute altitude loss over 30 days.
+Completion: Δv = 30 m/s, approximate altitude loss ≈ few km depending on orbit.
+
+Prompt: Why is feature extraction important in AI?
+Completion: It identifies the most relevant aspects of input data, reducing noise and improving learning efficiency.
+
+Prompt: What is the advantage of attention-weighted aggregation?
+Completion: It prioritizes relevant inputs, reducing noise and enhancing learning efficiency.
+
+Prompt: Projectile motion video with initial velocity 20 m/s at 45 degrees.
+Completion: The trajectory follows y = x*tan(θ) - (g*x^2)/(2*v^2*cos^2(θ)). Maximum height: 10.2 m. Range: 40.8 m." Notes: "Simulate variations for teaching purposes." 
+Action: Include 50–100 multimodal examples per domain.
+4. Real-World Sensor & Frequency Data
+Goal: Enable MC AI to detect patterns in cognitive and physical states.
+Structure:
+
+Prompt: <Physics concept or scenario>
+Completion: <Kid-friendly explanation or demonstration>" Notes: "<Optional hands-on activity>" 
+Examples:
+
+Prompt: Projectile motion with 20 m/s launch at 45 degrees.
+Completion: If you throw a ball like a superhero, it will fly in a curved path and land a little far away. That curve is called a rainbow path!" Notes: "Try tossing a ball gently in the backyard to see it." Domain: Physics (Children) Input: "Rocket lift-off." MC AI Output: "Rockets go up because the gas pushes them like when you blow up a balloon and let it go — zoom!" Notes: "Use a balloon rocket experiment for hands-on fun." 
+3. Child-Friendly Coding / Logic
+Goal: Introduce coding, loops, and logic through games and stories.
+Structure:
+
