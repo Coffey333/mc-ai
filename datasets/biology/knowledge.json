@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "What is a cell?",
+    "response": "A cell is the basic unit of life.\n\n**Two Main Types:**\n\n**1. Prokaryotic** (bacteria, archaea)\n- No nucleus\n- No membrane-bound organelles\n- DNA in nucleoid region\n- Smaller, simpler\n\n**2. Eukaryotic** (animals, plants, fungi, protists)\n- Has nucleus\n- Membrane-bound organelles\n- DNA in chromosomes\n- Larger, more complex\n\n**All Cells Have:**\n- Cell membrane (boundary)\n- Cytoplasm (jelly-like substance)\n- DNA (genetic material)\n- Ribosomes (make proteins)\n\n**Cell Theory:**\n1. All living things made of cells\n2. Cells are basic unit of life\n3. All cells come from pre-existing cells",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is DNA?",
+    "response": "DNA (Deoxyribonucleic Acid) is the molecule that stores genetic information.\n\n**Structure:**\n- Double helix (twisted ladder)\n- Two strands of nucleotides\n- Held together by base pairs\n\n**Bases (4):**\n- Adenine (A) pairs with Thymine (T)\n- Guanine (G) pairs with Cytosine (C)\n\n**Function:**\n- Stores instructions for making proteins\n- Passes traits from parents to offspring\n- Controls cell function\n\n**Location:**\n- Nucleus (eukaryotes)\n- Nucleoid (prokaryotes)\n- Mitochondria (small amount)\n\n**Discovery:** Watson & Crick (1953)\n\n**Fun Fact:** If uncoiled, DNA from one cell would be ~6 feet long!",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is photosynthesis?",
+    "response": "Photosynthesis converts light energy into chemical energy (glucose).\n\n**Equation:** 6CO\u2082 + 6H\u2082O + light \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082\n\n**Where:** Chloroplasts (in plant cells)\n\n**Process:**\n\n**1. Light Reactions (in thylakoids)**\n- Chlorophyll absorbs sunlight\n- Water splits \u2192 releases O\u2082\n- Produces ATP + NADPH\n\n**2. Dark Reactions / Calvin Cycle (in stroma)**\n- Uses ATP + NADPH\n- CO\u2082 converts to glucose\n\n**Importance:**\n- Produces oxygen we breathe\n- Creates food for plants (base of food chain)\n- Removes CO\u2082 from atmosphere",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is evolution?",
+    "response": "Evolution is the change in species over time through natural selection.\n\n**Key Mechanisms:**\n\n**1. Natural Selection**\n- Variation exists in populations\n- Some traits help survival/reproduction\n- Those individuals reproduce more\n- Beneficial traits become more common\n\n**2. Mutation**\n- Random DNA changes\n- Creates new variations\n\n**3. Genetic Drift**\n- Random changes in small populations\n\n**4. Gene Flow**\n- Migration between populations\n\n**Evidence:**\n- Fossils (show gradual changes)\n- DNA similarities (common ancestry)\n- Anatomical structures (homologous)\n- Biogeography (species distribution)\n- Observable evolution (bacteria, moths)\n\n**\"Survival of the fittest\"** = best adapted to environment",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is an ecosystem?",
+    "response": "An ecosystem is a community of living things interacting with their environment.\n\n**Components:**\n\n**Biotic (Living):**\n- Producers (plants, algae)\n- Consumers (herbivores, carnivores, omnivores)\n- Decomposers (bacteria, fungi)\n\n**Abiotic (Non-living):**\n- Water, air, sunlight\n- Temperature, soil\n- Rocks, minerals\n\n**Energy Flow:**\nSun \u2192 Producers \u2192 Primary consumers \u2192 Secondary consumers \u2192 Decomposers\n\n**Matter Cycles:**\n- Water cycle\n- Carbon cycle\n- Nitrogen cycle\n\n**Examples:**\n- Forest, ocean, desert, pond, coral reef\n\n**Balance:** Changes to one part affect the whole system",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What are the main organelles in a cell?",
+    "response": "Cell organelles are specialized structures with specific functions:\n\n**1. Nucleus** - Control center, contains DNA\n\n**2. Mitochondria** - Powerhouse, produces ATP (energy)\n\n**3. Ribosomes** - Make proteins\n\n**4. Endoplasmic Reticulum (ER)**\n- Rough ER: Has ribosomes, makes proteins\n- Smooth ER: No ribosomes, makes lipids\n\n**5. Golgi Apparatus** - Modifies & packages proteins\n\n**6. Lysosomes** - Digestive system, breaks down waste\n\n**7. Cell Membrane** - Boundary, controls what enters/exits\n\n**Plant Cells Only:**\n- Cell Wall (rigid support)\n- Chloroplasts (photosynthesis)\n- Large Vacuole (storage)\n\n**Analogy:** Like organs in body, each has a job",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is the difference between mitosis and meiosis?",
+    "response": "**Mitosis** (Body Cell Division):\n- Purpose: Growth, repair, asexual reproduction\n- 1 cell \u2192 2 identical cells\n- Same # chromosomes as parent (diploid \u2192 diploid)\n- Happens in somatic (body) cells\n- Example: Skin cell divides to heal wound\n\n**Meiosis** (Sex Cell Division):\n- Purpose: Sexual reproduction\n- 1 cell \u2192 4 unique cells\n- Half # chromosomes (diploid \u2192 haploid)\n- Happens in reproductive organs\n- Creates: Sperm, eggs, pollen, ovules\n- Increases genetic diversity (crossing over, independent assortment)\n\n**Key Difference:**\n- Mitosis: Clones (identical)\n- Meiosis: Variety (different)\n\n**Both:** Copy DNA first, then divide",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is genetics?",
+    "response": "Genetics is the study of heredity and variation in living organisms.\n\n**Key Concepts:**\n\n**Gene:** Unit of heredity, segment of DNA\n\n**Allele:** Different versions of a gene\n- Dominant: Expressed if present (uppercase: A)\n- Recessive: Only expressed if two copies (lowercase: a)\n\n**Genotype:** Genetic makeup (AA, Aa, aa)\n**Phenotype:** Physical appearance (brown eyes)\n\n**Inheritance:**\n- Mendel's Laws (pea plants)\n- Punnett Squares predict offspring\n\n**Examples:**\n- Eye color, height, blood type\n- Genetic disorders (sickle cell, cystic fibrosis)\n\n**Modern Genetics:**\n- DNA sequencing\n- Gene therapy\n- CRISPR gene editing",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is the human body made of?",
+    "response": "The human body is made of trillions of cells organized into systems.\n\n**Major Systems:**\n\n1. **Skeletal:** 206 bones, support & protection\n2. **Muscular:** 600+ muscles, movement\n3. **Circulatory:** Heart, blood vessels, transport\n4. **Respiratory:** Lungs, gas exchange\n5. **Digestive:** Break down food, absorb nutrients\n6. **Nervous:** Brain, spinal cord, control center\n7. **Endocrine:** Hormones, regulation\n8. **Immune:** Defense against disease\n9. **Excretory:** Kidneys, remove waste\n10. **Reproductive:** Create offspring\n\n**Organization:** Cells \u2192 Tissues \u2192 Organs \u2192 Organ Systems \u2192 Organism\n\n**Composition:**\n- 60% water\n- 16% protein\n- 16% fat\n- 6% minerals\n- 1% carbohydrates\n- <1% nucleic acids",
+    "domain": "biology"
+  },
+  {
+    "prompt": "What is cellular respiration?",
+    "response": "Cellular respiration converts glucose into usable energy (ATP).\n\n**Equation:** C\u2086H\u2081\u2082O\u2086 + 6O\u2082 \u2192 6CO\u2082 + 6H\u2082O + ATP\n\n**Stages:**\n\n**1. Glycolysis** (cytoplasm)\n- Glucose \u2192 2 Pyruvate\n- Produces 2 ATP (small amount)\n\n**2. Krebs Cycle** (mitochondrial matrix)\n- Pyruvate broken down\n- Releases CO\u2082\n- Produces electron carriers\n\n**3. Electron Transport Chain** (inner mitochondrial membrane)\n- Uses O\u2082\n- Produces ~34 ATP (most energy!)\n- Releases H\u2082O\n\n**Total:** ~36-38 ATP per glucose\n\n**Location:** Mitochondria (powerhouse of cell)\n\n**Note:** Opposite of photosynthesis!",
+    "domain": "biology"
+  }
+]
