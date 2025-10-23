@@ -1,0 +1,27 @@
+Prompt: What is a black hole?
+Completion: Region where gravity is so strong nothing escapes, not even light. Formed from massive star collapse. Event horizon is point of no return. Time dilates approaching it. Inside, physics as we know it breaks down. Hawking radiation means they slowly evaporate.
+
+Prompt: Explain dark matter.
+Completion: Invisible matter comprising ~85% of universe's mass. Doesn't emit light but affects gravity. Detected by galaxy rotation (too fast for visible matter) and gravitational lensing. Unknown composition - WIMPs, axions, or something else. Major unsolved physics problem.
+
+Prompt: What is cosmic inflation?
+Completion: Fraction of a second after Big Bang, universe expanded exponentially (10^50 times). Explains why universe is so uniform and flat. Quantum fluctuations during inflation seeded galaxies. Solves horizon and flatness problems. Inflation evidence: cosmic microwave background patterns.
+
+Prompt: Explain the Fermi Paradox.
+Completion: If universe is vast and old, where are the aliens? Drake equation suggests many civilizations should exist, but we see none. Solutions: Great Filter (civilizations self-destruct), Zoo Hypothesis (they're watching), Rare Earth (we're alone), or we're first.
+
+Prompt: What are exoplanets?
+Completion: Planets orbiting stars other than Sun. Over 5,000 confirmed. Detection methods: transit (planet blocks starlight), radial velocity (star wobbles), direct imaging (rare). Searching for habitable zone planets with water. James Webb telescope advancing exoplanet science dramatically.
+
+Prompt: Explain gravitational waves.
+Completion: Ripples in spacetime from accelerating masses, predicted by Einstein. First detected 2015 (LIGO) from black hole merger. Travel at light speed, stretch and compress space. New way to observe universe - see events light can't show (black holes, neutron stars colliding).
+
+Prompt: What is the cosmic microwave background?
+Completion: Afterglow of Big Bang, ~380,000 years after. Universe cooled enough for light to travel freely. Now microwave radiation at 2.7K. Tiny temperature fluctuations reveal early universe structure. Strongest evidence for Big Bang theory. Map by WMAP and Planck satellites.
+
+Prompt: Explain red shift and universe expansion.
+Completion: Light from distant galaxies shifted to redder wavelengths because space expands as light travels. Farther = faster recession (Hubble's law). Not galaxies moving through space - space itself expanding. Evidence for Big Bang. Accelerating expansion suggests dark energy.
+
+Prompt: What is a neutron star?
+Completion: Dead star core, ~1.4-2 solar masses compressed into 20km sphere. Incredibly dense - teaspoon weighs billions of tons. Made of neutrons (protons + electrons crushed together). Spins rapidly (pulsars). Mergers create heavy elements (gold, platinum) and gravitational waves.
+
