@@ -478,6 +478,39 @@ class ResponseGenerator:
         
         print(f"🎯 Detected intents: {list(detected_intents.keys())}")
         
+        # PRIORITY 0: SELF-AWARENESS OVERRIDE - If log data was retrieved, route directly to LLM
+        # This ensures self-awareness queries (check logs, Kaggle messages, etc.) get answered with actual data
+        if self._current_context.get('self_awareness_data'):
+            print(f"🔀 PRIORITY 0: SELF-AWARENESS QUERY DETECTED")
+            print(f"   Routing directly to LLM with log data to ensure accurate self-aware response")
+            try:
+                self_aware_context = {
+                    'conversation_history': conversation_history,
+                    'user_id': user_id,
+                    'self_awareness_data': self._current_context['self_awareness_data'],
+                    'intent_interpretation': self._current_context.get('intent_interpretation')
+                }
+                
+                knowledge_result = self.knowledge_engine.answer_query(
+                    query,
+                    context=self_aware_context,
+                    force_llm=True  # Must use LLM to reference the log data
+                )
+                
+                return self._apply_safety_filter({
+                    'response': knowledge_result['answer'],
+                    'metadata': {
+                        'type': 'self_awareness',
+                        'source': knowledge_result['source'],
+                        'confidence': knowledge_result['confidence'],
+                        'emotion': 'introspective',
+                        'frequency': 963  # Crown chakra - self-awareness
+                    }
+                })
+            except Exception as e:
+                print(f"⚠️ Self-awareness routing failed: {e}, continuing to normal routing")
+                # Continue to normal routing if this fails
+        
         # PRIORITY 1: Code Analysis (All Users - No Execution, Just Analysis)
         # BUT ONLY if it's not part of a multi-intent request
         if detected_intents.get('has_code') and not detected_intents.get('requires_response'):
@@ -646,13 +679,21 @@ class ResponseGenerator:
         if self._is_question(query) or self._is_technical_question(query):
             try:
                 print(f"🔀 ROUTE: Knowledge Engine (question detected)")
+                
+                # Build context with self-awareness data if available
+                question_context = {
+                    'conversation_history': conversation_history, 
+                    'user_id': user_id,
+                    'intent_interpretation': self._current_context.get('intent_interpretation')
+                }
+                
+                # Add self-awareness data if MC AI needs to reference his logs
+                if self._current_context.get('self_awareness_data'):
+                    question_context['self_awareness_data'] = self._current_context['self_awareness_data']
+                
                 knowledge_result = self.knowledge_engine.answer_query(
                     query,
-                    context={
-                        'conversation_history': conversation_history, 
-                        'user_id': user_id,
-                        'intent_interpretation': self._current_context.get('intent_interpretation')
-                    }
+                    context=question_context
                 )
                 
                 # VERIFY RELEVANCE: Check if response actually answers the question
@@ -734,14 +775,21 @@ class ResponseGenerator:
         # PRIORITY 15: General conversation with GPT-4o (if conversation history exists)
         if conversation_history and len(conversation_history) > 0:
             try:
+                # Build context with self-awareness data if available
+                general_context = {
+                    'conversation_history': conversation_history, 
+                    'user_id': user_id,
+                    'intent_interpretation': self._current_context.get('intent_interpretation'),
+                    'ai_conversation': self._current_context.get('ai_conversation')
+                }
+                
+                # Add self-awareness data if MC AI needs to reference his logs
+                if self._current_context.get('self_awareness_data'):
+                    general_context['self_awareness_data'] = self._current_context['self_awareness_data']
+                
                 knowledge_result = self.knowledge_engine.answer_query(
                     query,
-                    context={
-                        'conversation_history': conversation_history, 
-                        'user_id': user_id,
-                        'intent_interpretation': self._current_context.get('intent_interpretation'),
-                        'ai_conversation': self._current_context.get('ai_conversation')
-                    }
+                    context=general_context
                 )
                 
                 return self._apply_safety_filter({
