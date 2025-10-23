@@ -1,0 +1,27 @@
+[
+  {
+    "prompt": "What is Newton's First Law?",
+    "response": "Newton's First Law of Motion (Law of Inertia):\n\n**\"An object at rest stays at rest, and an object in motion stays in motion with the same speed and direction, unless acted upon by an unbalanced force.\"**\n\n**In Simple Terms:**\n- Things don't move unless pushed/pulled\n- Moving things don't stop unless something stops them\n\n**Inertia:** Resistance to change in motion\n- More mass = more inertia\n\n**Examples:**\n- Ball on ground stays there until kicked\n- Hockey puck slides until friction stops it\n- You jerk forward when car brakes suddenly (your body wants to keep moving!)\n\n**Key:** \"Unbalanced force\" means net force \u2260 0",
+    "domain": "physics"
+  },
+  {
+    "prompt": "What is Newton's Second Law?",
+    "response": "Newton's Second Law of Motion:\n\n**F = ma**\n- Force = mass \u00d7 acceleration\n\n**Meaning:**\n- Force causes acceleration\n- More force = more acceleration\n- More mass = less acceleration (for same force)\n\n**Units:**\n- Force: Newtons (N)\n- Mass: kilograms (kg)\n- Acceleration: m/s\u00b2\n\n**Examples:**\n- Push shopping cart: Easy when empty (low mass), hard when full (high mass)\n- Same force on car vs bicycle: Bicycle accelerates more (less mass)\n- Stronger push = faster acceleration\n\n**Rearrange:**\n- a = F/m (acceleration = force/mass)\n- m = F/a (mass = force/acceleration)",
+    "domain": "physics"
+  },
+  {
+    "prompt": "What is Newton's Third Law?",
+    "response": "Newton's Third Law of Motion:\n\n**\"For every action, there is an equal and opposite reaction.\"**\n\n**Key Points:**\n- Forces come in pairs\n- Equal strength\n- Opposite direction\n- Act on DIFFERENT objects\n\n**Examples:**\n- Jump up: You push down on ground, ground pushes up on you\n- Rocket: Gases push down, rocket pushes up\n- Swimming: Push water back, water pushes you forward\n- Bird flying: Wings push air down, air pushes bird up\n- Gun recoil: Bullet goes forward, gun goes back\n\n**Important:** Action and reaction act on different objects, so they don't cancel out",
+    "domain": "physics"
+  },
+  {
+    "prompt": "What is energy?",
+    "response": "Energy is the ability to do work or cause change.\n\n**Forms of Energy:**\n\n**1. Kinetic** - Energy of motion\n- Moving car, flowing water, flying baseball\n- KE = \u00bdmv\u00b2\n\n**2. Potential** - Stored energy\n- Gravitational (height): Ball on shelf\n- Elastic: Stretched rubber band\n- Chemical: Food, batteries, gasoline\n- Nuclear: Atom's nucleus\n\n**3. Thermal** - Heat energy (moving molecules)\n\n**4. Light** - Electromagnetic radiation\n\n**5. Sound** - Vibration energy\n\n**6. Electrical** - Moving electrons\n\n**Law of Conservation:**\nEnergy cannot be created or destroyed, only transformed\n\n**Energy Transfers:**\n- Chemical \u2192 Thermal + Light (burning)\n- Gravitational Potential \u2192 Kinetic (falling)\n- Electrical \u2192 Light + Thermal (light bulb)",
+    "domain": "physics"
+  },
+  {
+    "prompt": "What is gravity?",
+    "response": "Gravity is a force that attracts objects with mass toward each other.\n\n**Newton's Law of Gravitation:**\n- Every mass attracts every other mass\n- Larger masses = stronger pull\n- Closer distance = stronger pull\n\n**On Earth:**\n- Gravity pulls everything toward center\n- Acceleration: 9.8 m/s\u00b2 (at surface)\n- Gives objects weight: W = mg\n\n**Examples:**\n- Keeps us on ground\n- Makes things fall\n- Holds Moon in orbit\n- Keeps planets around Sun\n\n**Einstein's View:**\nGravity is curvature of spacetime caused by mass\n- Massive objects bend space\n- Objects follow curved paths\n\n**Weightlessness in space:** Not \"no gravity\", but continuous free-fall!",
+    "domain": "physics"
+  }
+]
