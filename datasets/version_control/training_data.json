@@ -1,0 +1,54 @@
+[
+  {
+    "prompt": "What is Git and how do I use it for version control?",
+    "completion": "Git tracks changes in code. Basic commands: git init, git add ., git commit -m 'msg', git push origin main."
+  },
+  {
+    "prompt": "Implement a GAN in PyTorch for generating MNIST digits",
+    "completion": "from torch import nn\\nimport torch\\nclass Generator(nn.Module):\\n    def __init__(self):\\n        super().__init__()\\n        self.model = nn.Sequential(nn.Linear(100, 256), nn.ReLU(), nn.Linear(256, 784), nn.Tanh())\\n    def forward(self, z):\\n        return self.model(z).view(-1, 1, 28, 28)\\ngen = Generator()"
+  },
+  {
+    "prompt": "What's the difference between `git merge` and `git rebase`?",
+    "completion": "Both are used to integrate changes from one branch into another, but they do it in very different ways.\n\n- **`git merge`**: This creates a new 'merge commit' that ties the histories of the two branches together. It's non-destructive and preserves the exact history of your branches. The downside is that it can make your project history look complicated if you merge often.\n\n- **`git rebase`**: This moves or 're-plays' the commits from your feature branch on top of the main branch. It rewrites the project history to be linear and clean. The downside is that you should never rebase a public branch that others are working on, as it can cause major issues.\n\n**Rule of thumb:** Use `merge` for public branches (like `main`) and `rebase` for your own private feature branches to keep them up-to-date."
+  },
+  {
+    "prompt": "Help! I made a commit, but I want to undo it. How can I do that safely?",
+    "completion": "You have a few safe options depending on whether you've pushed the commit to a remote repository (like GitHub).\n\n**Scenario 1: You have NOT pushed the commit yet.**\nYou can use `git reset`:\n```bash\n# This will undo the last commit but keep your changes in your working directory.\n# It's like taking the files out of the box but keeping the files themselves.\ngit reset --soft HEAD~1\n```\n\n**Scenario 2: You HAVE already pushed the commit.**\nDo not use `git reset`. Instead, use `git revert`. This creates a *new* commit that undoes the changes from the previous one. It's safe because it doesn't rewrite history.\n```bash\n# This will create a new commit that reverses the changes of the last commit.\ngit revert HEAD\n```"
+  },
+  {
+    "prompt": "Write GitHub Actions workflow to deploy Node app.",
+    "completion": "```yaml\\nname: Node CI\\non: [push]\\njobs:\\n  build:\\n    runs-on: ubuntu-latest\\n    steps:\\n    - uses: actions/checkout@v2\\n    - uses: actions/setup-node@v2\\n      with:\\n        node-version: '18'\\n    - run: npm install\\n    - run: npm test\\n```"
+  },
+  {
+    "prompt": "Explain Git branching strategies.",
+    "completion": "Common strategies: Git Flow (feature, release, hotfix branches), Trunk-Based Development (small frequent commits to main), GitHub Flow (feature branch \u2192 pull request \u2192 merge)."
+  },
+  {
+    "prompt": "Explain the difference between merge and rebase in Git.",
+    "completion": "Merge preserves history and creates a merge commit. Rebase rewrites history by applying commits on top of another branch for a linear history."
+  },
+  {
+    "prompt": "Write commands to resolve a Git merge conflict.",
+    "completion": "```bash\\ngit status  # see conflicted files\\ngit add <file>  # after fixing\\ngit commit     # finalize resolution\\n```"
+  },
+  {
+    "prompt": "Explain Git stash.",
+    "completion": "Git stash temporarily saves uncommitted changes so you can switch branches or pull updates without losing work."
+  },
+  {
+    "prompt": "Explain feature branching.",
+    "completion": "Feature branching = create branch for new feature \u2192 develop \u2192 merge when complete. Keeps main branch stable."
+  },
+  {
+    "prompt": "Explain digital twins.",
+    "completion": "Digital twin = virtual replica of a real-world system, updated in real-time, used for monitoring, simulation, and prediction."
+  },
+  {
+    "prompt": "What is version control and why is it important in DevOps?",
+    "completion": "Version control (Git) tracks changes to code, enables collaboration, and maintains history. Essential for CI/CD because pipelines trigger automatically on code changes."
+  },
+  {
+    "prompt": "Describe Git branching strategies for CI/CD.",
+    "completion": "Common strategies:\\n- GitFlow: develop, feature, release, hotfix branches\\n- Trunk-based: short-lived feature branches, merged to main frequently\\n- Feature toggles: deploy unfinished features safely"
+  }
+]
