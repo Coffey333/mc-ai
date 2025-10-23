@@ -1,0 +1,87 @@
+{
+  "user_id": "a3513400a060f707",
+  "created": "2025-10-13T07:51:36.105544",
+  "last_updated": "2025-10-13T07:51:38.411400",
+  "message_count": 3,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:51:36.105556",
+      "user_message": "Hello, I am Marcus, a 40-year-old engineer",
+      "ai_response": "You seem pretty balanced right now - not too intense either way. What's on your mind?",
+      "metadata": {
+        "emotion": "neutral",
+        "frequency": 240,
+        "catalog": "neuroscience",
+        "brain_wave_band": "hyper_gamma",
+        "arousal_level": "very_high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.131,
+        "complexity": 0.013,
+        "coherence": 0.955
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:51:37.238650",
+      "user_message": "I am feeling stressed about work deadlines",
+      "ai_response": "That stress is real. Let's figure out how to take some of that weight off. What's the biggest thing right now?",
+      "metadata": {
+        "emotion": "stress",
+        "frequency": 15,
+        "catalog": "neuroscience",
+        "brain_wave_band": "beta",
+        "arousal_level": "high",
+        "emotional_intensity": 5.0,
+        "emotional_valence": 0.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "support_strategy": "balanced_support",
+        "crisis_severity": "none",
+        "symmetry": 0.098,
+        "complexity": 0.001,
+        "coherence": 0.951
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:51:38.411390",
+      "user_message": "What was my name again?",
+      "ai_response": "You've been telling me: I am feeling stressed about work deadlines, Hello, I am Marcus, a 40-year-old engineer",
+      "metadata": {
+        "type": "memory_recall",
+        "emotion": "helpful",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:51:36.105563",
+      "emotion": "neutral",
+      "intensity": 5.0,
+      "frequency": 240,
+      "valence": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T07:51:37.238667",
+      "emotion": "stress",
+      "intensity": 5.0,
+      "frequency": 15,
+      "valence": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T07:51:38.411404",
+      "emotion": "helpful",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
