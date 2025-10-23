@@ -1,0 +1,32 @@
+{
+  "test_date": "2025-10-23T14:18:23.578002",
+  "tests": [
+    {
+      "test": "WFDB Reading",
+      "status": "PASS",
+      "record": "data_acquisition/real_ecg_data/ptb-xl-samples/00001_lr",
+      "leads": 12,
+      "sampling_rate": 100,
+      "duration_sec": 10.0
+    },
+    {
+      "test": "Heart Rate Detection",
+      "status": "PASS",
+      "heart_rate_bpm": 63.9,
+      "r_peaks": 11
+    },
+    {
+      "test": "Frequency Analysis",
+      "status": "PASS",
+      "dominant_freq_hz": 3.2,
+      "ecg_range_power_pct": 91.2
+    },
+    {
+      "test": "MIT-BIH Reading",
+      "status": "PASS",
+      "record": "data_acquisition/real_ecg_data/mit-bih-samples/100",
+      "annotations": 2274,
+      "annotation_types": 4
+    }
+  ]
+}
