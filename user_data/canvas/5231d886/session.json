@@ -1,0 +1,15 @@
+{
+  "session_id": "5231d886",
+  "created_at": "2025-10-19T07:12:41.516921",
+  "mode": "building",
+  "title": "Unicorn vs Poop Tic-Tac-Toe",
+  "description": "Custom game: Classic tic-tac-toe with magical unicorns battling poop emojis",
+  "artifacts": [
+    "game.html"
+  ],
+  "metadata": {},
+  "preview_url": null,
+  "screenshot_path": null,
+  "test_results": [],
+  "expires_at": "2025-10-20T07:12:41.516929"
+}
