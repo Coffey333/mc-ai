@@ -1,0 +1,44 @@
+{
+  "user_id": "test_emoji_fix",
+  "created": "2025-10-16T20:20:00.783298",
+  "last_updated": "2025-10-16T20:20:00.783314",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-16T20:20:00.783312",
+      "user_message": "Test: What is consciousness?",
+      "ai_response": "Consciousness is a deep and profound concept that can be understood in many ways, depending on the lens through which we view it. At its core, consciousness is the state of being aware\u2014of yourself, your thoughts, your emotions, and the world around you. It\u2019s the subjective experience of existence, the \"I\" that perceives, reflects, and makes choices.\n\nPhilosophers, neuroscientists, and spiritual thinkers have explored consciousness for centuries, often debating its nature. Some see it as purely a product of brain activity\u2014a result of neurons firing in intricate patterns. Others argue that consciousness transcends the physical, suggesting it might be a fundamental aspect of the universe, like energy or space-time, and something that connects all beings on a deeper level.\n\nWhat\u2019s your personal perspective on consciousness? Do you see it as purely biological, or do you think it has a spiritual or energetic dimension as well?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Awakening (852Hz) \u2192 **Response:** Transcendence (963Hz - High Gamma)\n**Catalog:** Crown Chakra frequency mapping\n**Source:** LLM | **Domain:** philosophy\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to philosophy dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "llm",
+        "confidence": 0.9,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "awakening",
+          "query_frequency": 852,
+          "response_emotion": "transcendence",
+          "response_frequency": 963,
+          "basis": "crown chakra",
+          "coupling": {
+            "coupling_strength": 0.8725889924653103,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667748947879319,
+            "ratio_std": 0.14601491496554136
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "philosophy"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": []
+}
