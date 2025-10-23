@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Racing Game 🚗</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: linear-gradient(to bottom, #1a1a2e, #16213e);
+            font-family: Arial, sans-serif;
+        }
+
+        #ui {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #fff;
+            font-size: 18px;
+            z-index: 10;
+        }
+
+        #ui div {
+            margin-bottom: 10px;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        .button-container {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .restart-btn {
+            padding: 10px 20px;
+            background-color: #16c79a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .restart-btn:hover {
+            background-color: #13a37d;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        <div id="score">Score: 0</div>
+        <div id="lap">Lap: 1 / 3</div>
+        <div id="status">Status: Racing...</div>
+    </div>
+    <div class="button-container">
+        <button class="restart-btn" onclick="restartGame()">Restart</button>
+    </div>
+    <canvas id="game"></canvas>
+    <script>
+        const canvas = document.getElementById('game');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        // Game variables
+        const playerCar = { x: canvas.width / 2, y: canvas.height - 100, width: 50, height: 80, speed: 0, boost: false };
+        const opponentCars = [];
+        const obstacles = [];
+        let score = 0;
+        let lap = 1;
+        let gameRunning = true;
+
+        // UI Elements
+        const scoreDisplay = document.getElementById('score');
+        const lapDisplay = document.getElementById('lap');
+        const statusDisplay = document.getElementById('status');
+
+        // Control variables
+        let keys = {};
+
+        // Helper function to get random number in range
+        function random(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        // Draw the player car
+        function drawPlayerCar() {
+            ctx.fillStyle = playerCar.boost ? '#FFD700' : '#16c79a';
+            ctx.fillRect(playerCar.x, playerCar.y, playerCar.width, playerCar.height);
+            ctx.font = '48px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('🚗', playerCar.x + playerCar.width / 2, playerCar.y + playerCar.height);
+        }
+
+        // Draw opponent cars
+        function drawOpponentCars() {
+            opponentCars.forEach(car => {
+                ctx.fillStyle = '#FF5733';
+                ctx.fillRect(car.x, car.y, car.width, car.height);
+                ctx.font = '48px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText('🚕', car.x + car.width / 2, car.y + car.height);
+            });
+        }
+
+        // Draw obstacles
+        function drawObstacles() {
+            obstacles.forEach(obs => {
+                ctx.fillStyle = '#900C3F';
+                ctx.fillRect(obs.x, obs.y, obs.width, obs.height);
+                ctx.font = '48px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText('🚧', obs.x + obs.width / 2, obs.y + obs.height);
+            });
+        }
+
+        // Update game objects
+        function updateGameObjects() {
+            if (keys.ArrowUp || keys.w) playerCar.speed += playerCar.boost ? 2 : 1;
+            if (keys.ArrowDown || keys.s) playerCar.speed -= 2;
+            if (keys.ArrowLeft || keys.a) playerCar.x -= 10;
+            if (keys.ArrowRight || keys.d) playerCar.x += 10;
+
+            playerCar.speed = Math.max(0, Math.min(playerCar.speed, 20)); // Limit speed
+            playerCar.y -= playerCar.speed;
+
+            // Generate opponent cars
+            if (Math.random() < 0.02) {
+                opponentCars.push({
+                    x: random(50, canvas.width - 50),
+                    y: -100,
+                    width: 50,
+                    height: 80
+                });
+            }
+            opponentCars.forEach(car => car.y += 5);
+
+            // Generate obstacles
+            if (Math.random() < 0.01) {
+                obstacles.push({
+                    x: random(50, canvas.width - 50),
+                    y: -100,
+                    width: 50,
+                    height: 50
+                });
+            }
+            obstacles.forEach(obs => obs.y += 8);
+
+            // Check collisions
+            opponentCars.forEach((car, index) => {
+                if (isColliding(playerCar, car)) {
+                    gameOver();
+                }
+                if (car.y > canvas.height) opponentCars.splice(index, 1);
+            });
+
+            obstacles.forEach((obs, index) => {
+                if (isColliding(playerCar, obs)) {
+                    gameOver();
+                }
+                if (obs.y > canvas.height) obstacles.splice(index, 1);
+            });
+
+            // Update score
+            score += Math.floor(playerCar.speed / 2);
+            scoreDisplay.innerText = `Score: ${score}`;
+
+            // Check lap progression
+            if (playerCar.y < -100) {
+                lap++;
+                playerCar.y = canvas.height - 100;
+                lapDisplay.innerText = `Lap: ${lap} / 3`;
+                playerCar.speed = 0;
+                if (lap > 3) {
+                    winGame();
+                }
+            }
+        }
+
+        // Check collision between two objects
+        function isColliding(obj1, obj2) {
+            return obj1.x < obj2.x + obj2.width &&
+                obj1.x + obj1.width > obj2.x &&
+                obj1.y < obj2.y + obj2.height &&
+                obj1.y + obj1.height > obj2.y;
+        }
+
+        // Game over
+        function gameOver() {
+            gameRunning = false;
+            statusDisplay.innerText = 'Status: Game Over!';
+        }
+
+        // Win game
+        function winGame() {
+            gameRunning = false;
+            statusDisplay.innerText = 'Status: You Win!';
+        }
+
+        // Restart game
+        function restartGame() {
+            playerCar.x = canvas.width / 2;
+            playerCar.y = canvas.height - 100;
+            playerCar.speed = 0;
+            opponentCars.length = 0;
+            obstacles.length = 0;
+            score = 0;
+            lap = 1;
+            gameRunning = true;
+            scoreDisplay.innerText = `Score: ${score}`;
+            lapDisplay.innerText = `Lap: ${lap} / 3`;
+            statusDisplay.innerText = 'Status: Racing...';
+        }
+
+        // Game loop
+        function gameLoop() {
+            if (!gameRunning) return;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            drawPlayerCar();
+            drawOpponentCars();
+            drawObstacles();
+
+            updateGameObjects();
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Event listeners
+        window.addEventListener('keydown', e => {
+            keys[e.key] = true;
+            if (e.key === 'Shift') playerCar.boost = true;
+        });
+
+        window.addEventListener('keyup', e => {
+            keys[e.key] = false;
+            if (e.key === 'Shift') playerCar.boost = false;
+        });
+
+        // Start the game
+        restartGame();
+        gameLoop();
+    </script>
+</body>
+</html>
