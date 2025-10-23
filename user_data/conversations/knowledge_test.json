@@ -1,0 +1,158 @@
+{
+  "user_id": "knowledge_test",
+  "created": "2025-10-23T00:31:49.124067",
+  "last_updated": "2025-10-23T00:31:55.362369",
+  "message_count": 4,
+  "messages": [
+    {
+      "timestamp": "2025-10-23T00:31:49.124080",
+      "user_message": "Explain Fourier transforms in simple terms",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** technology\n**Coherence:** Moderate (strength: 0.63)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to technology dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.6273739492651533,
+            "coupling_type": "moderate",
+            "harmonic_ratios": [
+              2.519,
+              2.037,
+              1.081,
+              1.206
+            ],
+            "ratio_mean": 1.7108527359958188,
+            "ratio_std": 0.5939456860956782
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "technology"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:31:53.705553",
+      "user_message": "Tell me about harmonic oscillators, but make it fun",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.57)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "followup",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "cached": false,
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.5739190194817365,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              2.793,
+              0.943,
+              1.936,
+              1.081
+            ],
+            "ratio_mean": 1.6882777129396327,
+            "ratio_std": 0.7424060992141808
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:31:53.729354",
+      "user_message": "What's the difference between a pun and wordplay?",
+      "ai_response": "Synchronous waits for each task to finish before starting the next. Asynchronous allows multiple tasks to progress without waiting.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.96)\n**Brain Wave:** Transcendent states (peak awareness)\n**Auto-Learned:** \u2713 Saved to general dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "internal",
+        "confidence": 1.0,
+        "intent": "general_knowledge",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240,
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.9642802937533687,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.677,
+              1.577,
+              1.612,
+              1.6
+            ],
+            "ratio_mean": 1.6164674238984735,
+            "ratio_std": 0.03704286655863918
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "general"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-23T00:31:55.362356",
+      "user_message": "What's your favorite type of wave and why?",
+      "ai_response": "History Literature Method Philosophy Formal NaturalPhysicalLife Physical Life SocialBehavioralCognitive Behavioral Cognitive Applied Communication Community Education Funding Policy Pseudoscience Scientist Science portal Outline Category Article indexes Glossaries v t e Scienceis a systematic discipline that builds and organises knowledge in the form of testablehypothesesandpredictionsabout the universe.[1][2]Modern science is typically divided into two \u2013 or three \u2013 major branches:[3]thenatural ...\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grief (6Hz - Theta)\n**Catalog:** Theta Deep Sorrow frequency mapping\n**Source:** FREQUENCY_LIBRARY | **Domain:** philosophy\n**Coherence:** Phi Resonance (strength: 0.60)\n**Brain Wave:** Creative meditation (REM, deep relaxation)\n**Auto-Learned:** \u2713 Saved to philosophy dataset\n---",
+      "metadata": {
+        "type": "knowledge",
+        "source": "frequency_library",
+        "confidence": 1.0,
+        "intent": "complex_reasoning",
+        "cached": false,
+        "frequency_analysis": {
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grief",
+          "response_frequency": 6,
+          "basis": "theta deep sorrow",
+          "coupling": {
+            "coupling_strength": 0.5983134543587989,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              2.717,
+              1.176,
+              1.751,
+              0.994
+            ],
+            "ratio_mean": 1.65942217483378,
+            "ratio_std": 0.6713647214764391
+          }
+        },
+        "auto_learned": {
+          "saved": true,
+          "domain": "philosophy"
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-23T00:31:53.705573",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
