@@ -1,0 +1,5048 @@
+{
+  "user_id": "creator_mark",
+  "created": "2025-10-23T13:12:30.979658",
+  "message_count": 425,
+  "total_words": 372414,
+  "linguistic_averages": {
+    "avg_sentence_length": 13.921124551300018,
+    "avg_word_length": 4.723358227645624,
+    "vocabulary_richness": 0.6100850579348607,
+    "ellipsis_frequency": 1.12
+  },
+  "emotional_averages": {
+    "emoji_frequency": 2.18,
+    "affection_score": 5.12,
+    "emotional_openness": 6.64
+  },
+  "conceptual_averages": {
+    "metaphor_score": 2.14,
+    "technical_score": 18.08,
+    "philosophical_score": 4.56
+  },
+  "style_averages": {
+    "formality": 0.04,
+    "directness": 0.3441078815932994,
+    "humor": 0.02
+  },
+  "recent_messages": [
+    {
+      "timestamp": "2025-10-23T13:12:42.911505",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:42.911505",
+        "message_length": 22,
+        "linguistic": {
+          "avg_sentence_length": 4.0,
+          "sentence_count": 1,
+          "avg_word_length": 4.75,
+          "vocabulary_size": 4,
+          "total_words": 4,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.4411873288311381,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:42.927369",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:42.927369",
+        "message_length": 197,
+        "linguistic": {
+          "avg_sentence_length": 23.0,
+          "sentence_count": 2,
+          "avg_word_length": 3.148936170212766,
+          "vocabulary_size": 32,
+          "total_words": 47,
+          "vocabulary_richness": 0.6808510638297872,
+          "punctuation_patterns": {
+            "ellipsis_count": 1,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 1,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 1,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 2,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 3,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 1
+          },
+          "philosophical_score": 1,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 5
+          },
+          "storytelling_score": 5
+        },
+        "authenticity_score": 0.20408163265306123,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:42.952379",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:42.952379",
+        "message_length": 63,
+        "linguistic": {
+          "avg_sentence_length": 12.0,
+          "sentence_count": 1,
+          "avg_word_length": 4.333333333333333,
+          "vocabulary_size": 12,
+          "total_words": 12,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 2,
+            "growth_terms": 0
+          },
+          "philosophical_score": 2,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.6860043527791546,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:42.969420",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:42.969420",
+        "message_length": 1511,
+        "linguistic": {
+          "avg_sentence_length": 22.7,
+          "sentence_count": 10,
+          "avg_word_length": 5.4734513274336285,
+          "vocabulary_size": 136,
+          "total_words": 226,
+          "vocabulary_richness": 0.6017699115044248,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 5,
+            "exclamation_marks": 0,
+            "quotes_count": 30,
+            "parentheses": 10,
+            "commas": 13
+          },
+          "caps_words_count": 3,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 5,
+            "uncertainty_words": 1
+          },
+          "emotional_openness_score": 7
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 5,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 5,
+          "technical_markers": {
+            "code_terms": 4,
+            "frequency_terms": 5,
+            "ai_terms": 2
+          },
+          "technical_score": 11,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 1,
+            "growth_terms": 0
+          },
+          "philosophical_score": 1,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 1,
+            "if_then": 4
+          },
+          "connection_score": 6
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 2
+          },
+          "storytelling_score": 2
+        },
+        "authenticity_score": 0.5196399773851322,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:42.987550",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:42.987550",
+        "message_length": 3452,
+        "linguistic": {
+          "avg_sentence_length": 13.048780487804878,
+          "sentence_count": 41,
+          "avg_word_length": 5.023941068139963,
+          "vocabulary_size": 261,
+          "total_words": 543,
+          "vocabulary_richness": 0.48066298342541436,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 1,
+            "question_marks": 17,
+            "exclamation_marks": 2,
+            "quotes_count": 60,
+            "parentheses": 28,
+            "commas": 26
+          },
+          "caps_words_count": 4,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 1,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 8,
+            "question_asking": 17,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 25
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 6,
+            "frequency_terms": 19,
+            "ai_terms": 3
+          },
+          "technical_score": 28,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 1
+          },
+          "philosophical_score": 1,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 1
+        },
+        "style": {
+          "formality_score": 0.5,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 2,
+            "personal_narrative": 4
+          },
+          "storytelling_score": 6
+        },
+        "authenticity_score": 0.555946017765148,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.010738",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.010738",
+        "message_length": 3748,
+        "linguistic": {
+          "avg_sentence_length": 20.060606060606062,
+          "sentence_count": 33,
+          "avg_word_length": 4.575079872204473,
+          "vocabulary_size": 295,
+          "total_words": 626,
+          "vocabulary_richness": 0.4712460063897764,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 2,
+            "exclamation_marks": 0,
+            "quotes_count": 126,
+            "parentheses": 22,
+            "commas": 37
+          },
+          "caps_words_count": 5,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 2,
+          "unique_emojis": 1,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 3,
+            "question_asking": 2,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 5
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 2,
+            "is_are_metaphors": 2
+          },
+          "metaphor_score": 5,
+          "technical_markers": {
+            "code_terms": 5,
+            "frequency_terms": 13,
+            "ai_terms": 5
+          },
+          "technical_score": 23,
+          "philosophical_markers": {
+            "consciousness_terms": 1,
+            "meaning_terms": 3,
+            "growth_terms": 0
+          },
+          "philosophical_score": 4,
+          "connection_markers": {
+            "but_however": 4,
+            "because_so": 3,
+            "if_then": 5
+          },
+          "connection_score": 12
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.7,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 4,
+            "personal_narrative": 14
+          },
+          "storytelling_score": 18
+        },
+        "authenticity_score": 0.5366095410489321,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.030454",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.030454",
+        "message_length": 2600,
+        "linguistic": {
+          "avg_sentence_length": 19.238095238095237,
+          "sentence_count": 21,
+          "avg_word_length": 5.111111111111111,
+          "vocabulary_size": 189,
+          "total_words": 405,
+          "vocabulary_richness": 0.4666666666666667,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 2,
+            "question_marks": 5,
+            "exclamation_marks": 0,
+            "quotes_count": 42,
+            "parentheses": 26,
+            "commas": 27
+          },
+          "caps_words_count": 9,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 5,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 6
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 1,
+            "is_are_metaphors": 1
+          },
+          "metaphor_score": 2,
+          "technical_markers": {
+            "code_terms": 3,
+            "frequency_terms": 12,
+            "ai_terms": 7
+          },
+          "technical_score": 22,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 1,
+            "growth_terms": 0
+          },
+          "philosophical_score": 1,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 1,
+            "if_then": 1
+          },
+          "connection_score": 3
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.5714285714285714,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 1,
+            "personal_narrative": 16
+          },
+          "storytelling_score": 17
+        },
+        "authenticity_score": 0.5090741900231818,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.056470",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.056470",
+        "message_length": 2646,
+        "linguistic": {
+          "avg_sentence_length": 20.05,
+          "sentence_count": 20,
+          "avg_word_length": 5.253071253071253,
+          "vocabulary_size": 201,
+          "total_words": 407,
+          "vocabulary_richness": 0.49385749385749383,
+          "punctuation_patterns": {
+            "ellipsis_count": 1,
+            "em_dash_count": 2,
+            "question_marks": 4,
+            "exclamation_marks": 0,
+            "quotes_count": 18,
+            "parentheses": 20,
+            "commas": 22
+          },
+          "caps_words_count": 5,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 4,
+            "question_asking": 4,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 8
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 3,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 3,
+          "technical_markers": {
+            "code_terms": 9,
+            "frequency_terms": 6,
+            "ai_terms": 3
+          },
+          "technical_score": 18,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 1,
+            "growth_terms": 1
+          },
+          "philosophical_score": 2,
+          "connection_markers": {
+            "but_however": 3,
+            "because_so": 0,
+            "if_then": 3
+          },
+          "connection_score": 6
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.5454545454545454,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 1,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 2
+        },
+        "authenticity_score": 0.6221526196382612,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.099073",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.099073",
+        "message_length": 882,
+        "linguistic": {
+          "avg_sentence_length": 59.666666666666664,
+          "sentence_count": 3,
+          "avg_word_length": 3.745945945945946,
+          "vocabulary_size": 104,
+          "total_words": 185,
+          "vocabulary_richness": 0.5621621621621622,
+          "punctuation_patterns": {
+            "ellipsis_count": 1,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 1,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 1,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 2,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 1
+          },
+          "technical_score": 1,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 2,
+            "because_so": 1,
+            "if_then": 1
+          },
+          "connection_score": 4
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 1,
+            "temporal_sequence": 1,
+            "personal_narrative": 8
+          },
+          "storytelling_score": 10
+        },
+        "authenticity_score": 0.19817643341047517,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.149138",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.149138",
+        "message_length": 3156,
+        "linguistic": {
+          "avg_sentence_length": 15.25,
+          "sentence_count": 32,
+          "avg_word_length": 5.075975359342916,
+          "vocabulary_size": 233,
+          "total_words": 487,
+          "vocabulary_richness": 0.4784394250513347,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 1,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 108,
+            "parentheses": 30,
+            "commas": 18
+          },
+          "caps_words_count": 10,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 1,
+            "is_are_metaphors": 2
+          },
+          "metaphor_score": 3,
+          "technical_markers": {
+            "code_terms": 9,
+            "frequency_terms": 3,
+            "ai_terms": 6
+          },
+          "technical_score": 18,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 2,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 2
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.8333333333333334,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 1,
+            "temporal_sequence": 1,
+            "personal_narrative": 10
+          },
+          "storytelling_score": 12
+        },
+        "authenticity_score": 0.6419982768458125,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.166328",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.166328",
+        "message_length": 3908,
+        "linguistic": {
+          "avg_sentence_length": 13.361702127659575,
+          "sentence_count": 47,
+          "avg_word_length": 4.866666666666666,
+          "vocabulary_size": 284,
+          "total_words": 630,
+          "vocabulary_richness": 0.4507936507936508,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 4,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 198,
+            "parentheses": 34,
+            "commas": 34
+          },
+          "caps_words_count": 4,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 9,
+            "frequency_terms": 19,
+            "ai_terms": 2
+          },
+          "technical_score": 30,
+          "philosophical_markers": {
+            "consciousness_terms": 2,
+            "meaning_terms": 0,
+            "growth_terms": 1
+          },
+          "philosophical_score": 3,
+          "connection_markers": {
+            "but_however": 2,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 2
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.8333333333333334,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 1,
+            "temporal_sequence": 1,
+            "personal_narrative": 21
+          },
+          "storytelling_score": 23
+        },
+        "authenticity_score": 0.8468662373710056,
+        "is_authentic": true
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.191743",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.191743",
+        "message_length": 3664,
+        "linguistic": {
+          "avg_sentence_length": 18.09375,
+          "sentence_count": 32,
+          "avg_word_length": 5.117647058823529,
+          "vocabulary_size": 251,
+          "total_words": 561,
+          "vocabulary_richness": 0.4474153297682709,
+          "punctuation_patterns": {
+            "ellipsis_count": 1,
+            "em_dash_count": 4,
+            "question_marks": 4,
+            "exclamation_marks": 0,
+            "quotes_count": 174,
+            "parentheses": 38,
+            "commas": 18
+          },
+          "caps_words_count": 12,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 5,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 4,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 4
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 8,
+            "frequency_terms": 26,
+            "ai_terms": 5
+          },
+          "technical_score": 39,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 2,
+            "growth_terms": 0
+          },
+          "philosophical_score": 2,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 1,
+            "if_then": 1
+          },
+          "connection_score": 3
+        },
+        "style": {
+          "formality_score": 0.5,
+          "directness_score": 0.375,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 5,
+            "personal_narrative": 20
+          },
+          "storytelling_score": 25
+        },
+        "authenticity_score": 0.5280674730199812,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.210872",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.210872",
+        "message_length": 3370,
+        "linguistic": {
+          "avg_sentence_length": 17.0,
+          "sentence_count": 31,
+          "avg_word_length": 5.181102362204724,
+          "vocabulary_size": 234,
+          "total_words": 508,
+          "vocabulary_richness": 0.46062992125984253,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 4,
+            "question_marks": 4,
+            "exclamation_marks": 0,
+            "quotes_count": 174,
+            "parentheses": 38,
+            "commas": 18
+          },
+          "caps_words_count": 11,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 5,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 4,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 4
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 7,
+            "frequency_terms": 25,
+            "ai_terms": 3
+          },
+          "technical_score": 35,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 2,
+            "growth_terms": 0
+          },
+          "philosophical_score": 2,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 1,
+            "if_then": 1
+          },
+          "connection_score": 3
+        },
+        "style": {
+          "formality_score": 0.5,
+          "directness_score": 0.375,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 5,
+            "personal_narrative": 17
+          },
+          "storytelling_score": 22
+        },
+        "authenticity_score": 0.6069089692296189,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.230248",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.230248",
+        "message_length": 2966,
+        "linguistic": {
+          "avg_sentence_length": 13.285714285714286,
+          "sentence_count": 35,
+          "avg_word_length": 5.038379530916845,
+          "vocabulary_size": 233,
+          "total_words": 469,
+          "vocabulary_richness": 0.4968017057569296,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 2,
+            "question_marks": 6,
+            "exclamation_marks": 0,
+            "quotes_count": 84,
+            "parentheses": 24,
+            "commas": 15
+          },
+          "caps_words_count": 5,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 1,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 1,
+          "intensity": {
+            "all_caps_words": 1,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 6,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 7
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 2,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 2,
+          "technical_markers": {
+            "code_terms": 8,
+            "frequency_terms": 9,
+            "ai_terms": 4
+          },
+          "technical_score": 21,
+          "philosophical_markers": {
+            "consciousness_terms": 2,
+            "meaning_terms": 3,
+            "growth_terms": 0
+          },
+          "philosophical_score": 5,
+          "connection_markers": {
+            "but_however": 2,
+            "because_so": 4,
+            "if_then": 0
+          },
+          "connection_score": 6
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.5333333333333333,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 2,
+            "temporal_sequence": 2,
+            "personal_narrative": 4
+          },
+          "storytelling_score": 8
+        },
+        "authenticity_score": 0.5182322861645663,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.250423",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.250423",
+        "message_length": 2642,
+        "linguistic": {
+          "avg_sentence_length": 18.458333333333332,
+          "sentence_count": 24,
+          "avg_word_length": 4.576496674057649,
+          "vocabulary_size": 197,
+          "total_words": 451,
+          "vocabulary_richness": 0.43680709534368073,
+          "punctuation_patterns": {
+            "ellipsis_count": 1,
+            "em_dash_count": 6,
+            "question_marks": 2,
+            "exclamation_marks": 0,
+            "quotes_count": 102,
+            "parentheses": 22,
+            "commas": 27
+          },
+          "caps_words_count": 6,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 2,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 2,
+            "question_asking": 2,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 4
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 3,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 4,
+          "technical_markers": {
+            "code_terms": 7,
+            "frequency_terms": 11,
+            "ai_terms": 5
+          },
+          "technical_score": 23,
+          "philosophical_markers": {
+            "consciousness_terms": 7,
+            "meaning_terms": 1,
+            "growth_terms": 0
+          },
+          "philosophical_score": 8,
+          "connection_markers": {
+            "but_however": 3,
+            "because_so": 3,
+            "if_then": 2
+          },
+          "connection_score": 8
+        },
+        "style": {
+          "formality_score": 0.5,
+          "directness_score": 0.6666666666666666,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 2,
+            "temporal_sequence": 1,
+            "personal_narrative": 15
+          },
+          "storytelling_score": 18
+        },
+        "authenticity_score": 0.3778265386825744,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.276635",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.276635",
+        "message_length": 4067,
+        "linguistic": {
+          "avg_sentence_length": 15.69767441860465,
+          "sentence_count": 43,
+          "avg_word_length": 4.675,
+          "vocabulary_size": 277,
+          "total_words": 680,
+          "vocabulary_richness": 0.4073529411764706,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 2,
+            "question_marks": 5,
+            "exclamation_marks": 0,
+            "quotes_count": 192,
+            "parentheses": 28,
+            "commas": 24
+          },
+          "caps_words_count": 10,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 1,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 1,
+          "intensity": {
+            "all_caps_words": 2,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 5,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 6
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 4,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 4,
+          "technical_markers": {
+            "code_terms": 12,
+            "frequency_terms": 3,
+            "ai_terms": 4
+          },
+          "technical_score": 19,
+          "philosophical_markers": {
+            "consciousness_terms": 2,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 2,
+          "connection_markers": {
+            "but_however": 2,
+            "because_so": 2,
+            "if_then": 3
+          },
+          "connection_score": 7
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.7,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 3,
+            "personal_narrative": 14
+          },
+          "storytelling_score": 17
+        },
+        "authenticity_score": 0.5556033768262199,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.316299",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.316299",
+        "message_length": 2161,
+        "linguistic": {
+          "avg_sentence_length": 12.344827586206897,
+          "sentence_count": 29,
+          "avg_word_length": 4.553763440860215,
+          "vocabulary_size": 201,
+          "total_words": 372,
+          "vocabulary_richness": 0.5403225806451613,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 102,
+            "parentheses": 10,
+            "commas": 14
+          },
+          "caps_words_count": 6,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 5,
+            "frequency_terms": 2,
+            "ai_terms": 3
+          },
+          "technical_score": 10,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 3,
+            "if_then": 0
+          },
+          "connection_score": 3
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.8461538461538461,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 2,
+            "temporal_sequence": 1,
+            "personal_narrative": 4
+          },
+          "storytelling_score": 7
+        },
+        "authenticity_score": 0.5352038186837313,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.340194",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.340194",
+        "message_length": 1694,
+        "linguistic": {
+          "avg_sentence_length": 17.125,
+          "sentence_count": 16,
+          "avg_word_length": 4.792727272727273,
+          "vocabulary_size": 131,
+          "total_words": 275,
+          "vocabulary_richness": 0.4763636363636364,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 1,
+            "question_marks": 2,
+            "exclamation_marks": 0,
+            "quotes_count": 108,
+            "parentheses": 18,
+            "commas": 6
+          },
+          "caps_words_count": 5,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 3,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 2,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 3
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 9,
+            "frequency_terms": 8,
+            "ai_terms": 1
+          },
+          "technical_score": 18,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.625,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.5699585112490053,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.358313",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.358313",
+        "message_length": 2481,
+        "linguistic": {
+          "avg_sentence_length": 11.105263157894736,
+          "sentence_count": 38,
+          "avg_word_length": 4.630170316301703,
+          "vocabulary_size": 185,
+          "total_words": 411,
+          "vocabulary_richness": 0.45012165450121655,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 2,
+            "exclamation_marks": 0,
+            "quotes_count": 192,
+            "parentheses": 20,
+            "commas": 16
+          },
+          "caps_words_count": 5,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 1,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 3,
+            "question_asking": 2,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 5
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 9,
+            "frequency_terms": 7,
+            "ai_terms": 2
+          },
+          "technical_score": 18,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 3,
+            "because_so": 1,
+            "if_then": 1
+          },
+          "connection_score": 5
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.7,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 5
+          },
+          "storytelling_score": 5
+        },
+        "authenticity_score": 0.4945615057443268,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.377693",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.377693",
+        "message_length": 2064,
+        "linguistic": {
+          "avg_sentence_length": 14.173913043478262,
+          "sentence_count": 23,
+          "avg_word_length": 4.920489296636085,
+          "vocabulary_size": 153,
+          "total_words": 327,
+          "vocabulary_richness": 0.46788990825688076,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 2,
+            "question_marks": 3,
+            "exclamation_marks": 0,
+            "quotes_count": 120,
+            "parentheses": 18,
+            "commas": 17
+          },
+          "caps_words_count": 2,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 3,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 4
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 8,
+            "frequency_terms": 14,
+            "ai_terms": 1
+          },
+          "technical_score": 23,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.6363636363636364,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.681477795601303,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.414986",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.414986",
+        "message_length": 7808,
+        "linguistic": {
+          "avg_sentence_length": 9.370786516853933,
+          "sentence_count": 89,
+          "avg_word_length": 5.805411030176899,
+          "vocabulary_size": 378,
+          "total_words": 961,
+          "vocabulary_richness": 0.39334027055150883,
+          "punctuation_patterns": {
+            "ellipsis_count": 2,
+            "em_dash_count": 2,
+            "question_marks": 5,
+            "exclamation_marks": 0,
+            "quotes_count": 174,
+            "parentheses": 220,
+            "commas": 70
+          },
+          "caps_words_count": 16,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 1,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 5,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 5
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 1,
+            "is_are_metaphors": 1
+          },
+          "metaphor_score": 3,
+          "technical_markers": {
+            "code_terms": 5,
+            "frequency_terms": 7,
+            "ai_terms": 11
+          },
+          "technical_score": 23,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 6,
+            "growth_terms": 3
+          },
+          "philosophical_score": 9,
+          "connection_markers": {
+            "but_however": 2,
+            "because_so": 1,
+            "if_then": 6
+          },
+          "connection_score": 9
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.45454545454545453,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 2,
+            "personal_narrative": 10
+          },
+          "storytelling_score": 12
+        },
+        "authenticity_score": 0.4189109453603492,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.450541",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.450541",
+        "message_length": 6970,
+        "linguistic": {
+          "avg_sentence_length": 9.583333333333334,
+          "sentence_count": 84,
+          "avg_word_length": 6.078014184397163,
+          "vocabulary_size": 355,
+          "total_words": 846,
+          "vocabulary_richness": 0.41962174940898345,
+          "punctuation_patterns": {
+            "ellipsis_count": 5,
+            "em_dash_count": 5,
+            "question_marks": 4,
+            "exclamation_marks": 0,
+            "quotes_count": 204,
+            "parentheses": 122,
+            "commas": 57
+          },
+          "caps_words_count": 8,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 4,
+            "uncertainty_words": 1
+          },
+          "emotional_openness_score": 5
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 2,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 3,
+          "technical_markers": {
+            "code_terms": 7,
+            "frequency_terms": 32,
+            "ai_terms": 7
+          },
+          "technical_score": 46,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 2
+          },
+          "philosophical_score": 2,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 0,
+            "if_then": 4
+          },
+          "connection_score": 5
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.4444444444444444,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 9,
+            "temporal_sequence": 2,
+            "personal_narrative": 2
+          },
+          "storytelling_score": 13
+        },
+        "authenticity_score": 0.46976551808930067,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.503808",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.503808",
+        "message_length": 6970,
+        "linguistic": {
+          "avg_sentence_length": 9.583333333333334,
+          "sentence_count": 84,
+          "avg_word_length": 6.078014184397163,
+          "vocabulary_size": 355,
+          "total_words": 846,
+          "vocabulary_richness": 0.41962174940898345,
+          "punctuation_patterns": {
+            "ellipsis_count": 5,
+            "em_dash_count": 5,
+            "question_marks": 4,
+            "exclamation_marks": 0,
+            "quotes_count": 204,
+            "parentheses": 122,
+            "commas": 57
+          },
+          "caps_words_count": 8,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 4,
+            "uncertainty_words": 1
+          },
+          "emotional_openness_score": 5
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 2,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 3,
+          "technical_markers": {
+            "code_terms": 7,
+            "frequency_terms": 32,
+            "ai_terms": 7
+          },
+          "technical_score": 46,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 2
+          },
+          "philosophical_score": 2,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 0,
+            "if_then": 4
+          },
+          "connection_score": 5
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.4444444444444444,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 9,
+            "temporal_sequence": 2,
+            "personal_narrative": 2
+          },
+          "storytelling_score": 13
+        },
+        "authenticity_score": 0.46927576253767506,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.532024",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.532024",
+        "message_length": 5712,
+        "linguistic": {
+          "avg_sentence_length": 18.3,
+          "sentence_count": 40,
+          "avg_word_length": 6.006821282401091,
+          "vocabulary_size": 349,
+          "total_words": 733,
+          "vocabulary_richness": 0.4761255115961801,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 4,
+            "question_marks": 3,
+            "exclamation_marks": 0,
+            "quotes_count": 138,
+            "parentheses": 90,
+            "commas": 36
+          },
+          "caps_words_count": 7,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 1,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 3,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 3
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 6,
+            "as_comparisons": 2,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 8,
+          "technical_markers": {
+            "code_terms": 2,
+            "frequency_terms": 16,
+            "ai_terms": 4
+          },
+          "technical_score": 22,
+          "philosophical_markers": {
+            "consciousness_terms": 1,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 1,
+          "connection_markers": {
+            "but_however": 2,
+            "because_so": 0,
+            "if_then": 5
+          },
+          "connection_score": 7
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.6363636363636364,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 2,
+            "temporal_sequence": 2,
+            "personal_narrative": 2
+          },
+          "storytelling_score": 6
+        },
+        "authenticity_score": 0.43345728817720736,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.563190",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.563190",
+        "message_length": 6944,
+        "linguistic": {
+          "avg_sentence_length": 12.271428571428572,
+          "sentence_count": 70,
+          "avg_word_length": 6.2234432234432235,
+          "vocabulary_size": 333,
+          "total_words": 819,
+          "vocabulary_richness": 0.4065934065934066,
+          "punctuation_patterns": {
+            "ellipsis_count": 3,
+            "em_dash_count": 11,
+            "question_marks": 3,
+            "exclamation_marks": 0,
+            "quotes_count": 234,
+            "parentheses": 80,
+            "commas": 53
+          },
+          "caps_words_count": 6,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 3,
+            "uncertainty_words": 1
+          },
+          "emotional_openness_score": 4
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 22,
+            "frequency_terms": 40,
+            "ai_terms": 3
+          },
+          "technical_score": 65,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 0,
+            "if_then": 7
+          },
+          "connection_score": 8
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.5555555555555556,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 2,
+            "personal_narrative": 2
+          },
+          "storytelling_score": 4
+        },
+        "authenticity_score": 0.46765230668292024,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.590787",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.590787",
+        "message_length": 6944,
+        "linguistic": {
+          "avg_sentence_length": 12.16,
+          "sentence_count": 75,
+          "avg_word_length": 5.943246311010216,
+          "vocabulary_size": 354,
+          "total_words": 881,
+          "vocabulary_richness": 0.4018161180476731,
+          "punctuation_patterns": {
+            "ellipsis_count": 2,
+            "em_dash_count": 7,
+            "question_marks": 4,
+            "exclamation_marks": 0,
+            "quotes_count": 204,
+            "parentheses": 72,
+            "commas": 53
+          },
+          "caps_words_count": 7,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 4,
+            "uncertainty_words": 1
+          },
+          "emotional_openness_score": 6
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 3,
+            "as_comparisons": 1,
+            "is_are_metaphors": 1
+          },
+          "metaphor_score": 5,
+          "technical_markers": {
+            "code_terms": 18,
+            "frequency_terms": 24,
+            "ai_terms": 5
+          },
+          "technical_score": 47,
+          "philosophical_markers": {
+            "consciousness_terms": 2,
+            "meaning_terms": 0,
+            "growth_terms": 1
+          },
+          "philosophical_score": 3,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 3
+          },
+          "connection_score": 3
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.4444444444444444,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 2,
+            "temporal_sequence": 2,
+            "personal_narrative": 2
+          },
+          "storytelling_score": 6
+        },
+        "authenticity_score": 0.6731404297353005,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.616516",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.616516",
+        "message_length": 3846,
+        "linguistic": {
+          "avg_sentence_length": 18.096774193548388,
+          "sentence_count": 31,
+          "avg_word_length": 5.628884826325411,
+          "vocabulary_size": 283,
+          "total_words": 547,
+          "vocabulary_richness": 0.5173674588665448,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 1,
+            "quotes_count": 54,
+            "parentheses": 28,
+            "commas": 43
+          },
+          "caps_words_count": 16,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 1,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 1
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 10,
+            "frequency_terms": 9,
+            "ai_terms": 9
+          },
+          "technical_score": 28,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 5
+          },
+          "connection_score": 5
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.75,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 1,
+            "temporal_sequence": 2,
+            "personal_narrative": 6
+          },
+          "storytelling_score": 9
+        },
+        "authenticity_score": 0.5031058814674142,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.649907",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.649907",
+        "message_length": 14,
+        "linguistic": {
+          "avg_sentence_length": 2.0,
+          "sentence_count": 1,
+          "avg_word_length": 6.0,
+          "vocabulary_size": 2,
+          "total_words": 2,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 1,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 1,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 2,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.2712450832568471,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.675578",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.675578",
+        "message_length": 44,
+        "linguistic": {
+          "avg_sentence_length": 9.0,
+          "sentence_count": 1,
+          "avg_word_length": 3.7777777777777777,
+          "vocabulary_size": 9,
+          "total_words": 9,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 1,
+            "growth_terms": 0
+          },
+          "philosophical_score": 1,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.3427690986696879,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.693846",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.693846",
+        "message_length": 70,
+        "linguistic": {
+          "avg_sentence_length": 6.5,
+          "sentence_count": 2,
+          "avg_word_length": 4.3076923076923075,
+          "vocabulary_size": 12,
+          "total_words": 13,
+          "vocabulary_richness": 0.9230769230769231,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.41504639786965053,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.717510",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.717510",
+        "message_length": 32,
+        "linguistic": {
+          "avg_sentence_length": 5.0,
+          "sentence_count": 1,
+          "avg_word_length": 5.2,
+          "vocabulary_size": 5,
+          "total_words": 5,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 1,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.4929403073570304,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.740951",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.740951",
+        "message_length": 76,
+        "linguistic": {
+          "avg_sentence_length": 11.0,
+          "sentence_count": 1,
+          "avg_word_length": 5.333333333333333,
+          "vocabulary_size": 12,
+          "total_words": 12,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 1
+          },
+          "philosophical_score": 1,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.5324173242510224,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.765116",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.765116",
+        "message_length": 20,
+        "linguistic": {
+          "avg_sentence_length": 4.0,
+          "sentence_count": 1,
+          "avg_word_length": 4.0,
+          "vocabulary_size": 4,
+          "total_words": 4,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.38461858340103044,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.825992",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.825992",
+        "message_length": 35946,
+        "linguistic": {
+          "avg_sentence_length": 22.75862068965517,
+          "sentence_count": 232,
+          "avg_word_length": 5.4752454991816695,
+          "vocabulary_size": 1283,
+          "total_words": 4888,
+          "vocabulary_richness": 0.2624795417348609,
+          "punctuation_patterns": {
+            "ellipsis_count": 9,
+            "em_dash_count": 31,
+            "question_marks": 80,
+            "exclamation_marks": 3,
+            "quotes_count": 816,
+            "parentheses": 318,
+            "commas": 136
+          },
+          "caps_words_count": 226,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": true,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 70,
+          "unique_emojis": 6,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 1,
+            "love_count": 4,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 5,
+          "intensity": {
+            "all_caps_words": 193,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 231
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 80,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 81
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 39,
+            "frequency_terms": 0,
+            "ai_terms": 15
+          },
+          "technical_score": 54,
+          "philosophical_markers": {
+            "consciousness_terms": 1,
+            "meaning_terms": 39,
+            "growth_terms": 2
+          },
+          "philosophical_score": 42,
+          "connection_markers": {
+            "but_however": 15,
+            "because_so": 3,
+            "if_then": 24
+          },
+          "connection_score": 42
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.1,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 5,
+            "temporal_sequence": 14,
+            "personal_narrative": 84
+          },
+          "storytelling_score": 103
+        },
+        "authenticity_score": 0.3260759601356922,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.850590",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.850590",
+        "message_length": 164,
+        "linguistic": {
+          "avg_sentence_length": 33.0,
+          "sentence_count": 1,
+          "avg_word_length": 3.8529411764705883,
+          "vocabulary_size": 26,
+          "total_words": 34,
+          "vocabulary_richness": 0.7647058823529411,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 2
+          },
+          "connection_score": 2
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 1,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.35633262391274545,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.893570",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.893570",
+        "message_length": 79,
+        "linguistic": {
+          "avg_sentence_length": 15.0,
+          "sentence_count": 1,
+          "avg_word_length": 3.7058823529411766,
+          "vocabulary_size": 17,
+          "total_words": 17,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 2
+          },
+          "storytelling_score": 2
+        },
+        "authenticity_score": 0.4980870998905342,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.908187",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.908187",
+        "message_length": 55,
+        "linguistic": {
+          "avg_sentence_length": 9.0,
+          "sentence_count": 1,
+          "avg_word_length": 4.5,
+          "vocabulary_size": 9,
+          "total_words": 10,
+          "vocabulary_richness": 0.9,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.4530159421190432,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.922199",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.922199",
+        "message_length": 100,
+        "linguistic": {
+          "avg_sentence_length": 10.5,
+          "sentence_count": 2,
+          "avg_word_length": 3.761904761904762,
+          "vocabulary_size": 20,
+          "total_words": 21,
+          "vocabulary_richness": 0.9523809523809523,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 1,
+            "because_so": 1,
+            "if_then": 0
+          },
+          "connection_score": 2
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.3859182617333891,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.948087",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.948087",
+        "message_length": 25,
+        "linguistic": {
+          "avg_sentence_length": 6.0,
+          "sentence_count": 1,
+          "avg_word_length": 2.4285714285714284,
+          "vocabulary_size": 7,
+          "total_words": 7,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 1,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 1,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 1,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 2,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 1,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 1
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.192,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.971239",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.971239",
+        "message_length": 22,
+        "linguistic": {
+          "avg_sentence_length": 5.0,
+          "sentence_count": 1,
+          "avg_word_length": 2.8333333333333335,
+          "vocabulary_size": 6,
+          "total_words": 6,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.29503030303030303,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:43.992402",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:43.992402",
+        "message_length": 58,
+        "linguistic": {
+          "avg_sentence_length": 10.0,
+          "sentence_count": 1,
+          "avg_word_length": 4.363636363636363,
+          "vocabulary_size": 11,
+          "total_words": 11,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 0,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 0,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.0,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 1
+          },
+          "storytelling_score": 1
+        },
+        "authenticity_score": 0.4661056314181645,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.043337",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.043337",
+        "message_length": 2560,
+        "linguistic": {
+          "avg_sentence_length": 8.76,
+          "sentence_count": 50,
+          "avg_word_length": 4.31981981981982,
+          "vocabulary_size": 223,
+          "total_words": 444,
+          "vocabulary_richness": 0.5022522522522522,
+          "punctuation_patterns": {
+            "ellipsis_count": 2,
+            "em_dash_count": 4,
+            "question_marks": 6,
+            "exclamation_marks": 2,
+            "quotes_count": 6,
+            "parentheses": 8,
+            "commas": 19
+          },
+          "caps_words_count": 12,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 3,
+          "unique_emojis": 2,
+          "affection_markers": {
+            "fam_count": 1,
+            "brother_count": 7,
+            "love_count": 0,
+            "heart_count": 4,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 12,
+          "intensity": {
+            "all_caps_words": 4,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 11
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 6,
+            "uncertainty_words": 1
+          },
+          "emotional_openness_score": 7
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 4,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 5,
+          "technical_markers": {
+            "code_terms": 1,
+            "frequency_terms": 0,
+            "ai_terms": 10
+          },
+          "technical_score": 11,
+          "philosophical_markers": {
+            "consciousness_terms": 5,
+            "meaning_terms": 1,
+            "growth_terms": 7
+          },
+          "philosophical_score": 13,
+          "connection_markers": {
+            "but_however": 8,
+            "because_so": 2,
+            "if_then": 2
+          },
+          "connection_score": 12
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.5,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 4,
+            "temporal_sequence": 2,
+            "personal_narrative": 24
+          },
+          "storytelling_score": 30
+        },
+        "authenticity_score": 0.33249922365159607,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.066361",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.066361",
+        "message_length": 5609,
+        "linguistic": {
+          "avg_sentence_length": 10.280898876404494,
+          "sentence_count": 89,
+          "avg_word_length": 4.723145071982281,
+          "vocabulary_size": 329,
+          "total_words": 903,
+          "vocabulary_richness": 0.3643410852713178,
+          "punctuation_patterns": {
+            "ellipsis_count": 3,
+            "em_dash_count": 8,
+            "question_marks": 5,
+            "exclamation_marks": 1,
+            "quotes_count": 78,
+            "parentheses": 24,
+            "commas": 37
+          },
+          "caps_words_count": 22,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 8,
+          "unique_emojis": 4,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 3,
+            "love_count": 0,
+            "heart_count": 3,
+            "gratitude_count": 2
+          },
+          "total_affection_score": 8,
+          "intensity": {
+            "all_caps_words": 2,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 21
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 5,
+            "uncertainty_words": 2
+          },
+          "emotional_openness_score": 8
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 11,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 12,
+          "technical_markers": {
+            "code_terms": 2,
+            "frequency_terms": 2,
+            "ai_terms": 28
+          },
+          "technical_score": 32,
+          "philosophical_markers": {
+            "consciousness_terms": 11,
+            "meaning_terms": 1,
+            "growth_terms": 8
+          },
+          "philosophical_score": 20,
+          "connection_markers": {
+            "but_however": 9,
+            "because_so": 4,
+            "if_then": 10
+          },
+          "connection_score": 23
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.6666666666666666,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 1,
+            "playful_punctuation": 0
+          },
+          "humor_score": 1,
+          "narrative_markers": {
+            "story_words": 9,
+            "temporal_sequence": 2,
+            "personal_narrative": 38
+          },
+          "storytelling_score": 49
+        },
+        "authenticity_score": 0.42975155405097504,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.098426",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.098426",
+        "message_length": 4116,
+        "linguistic": {
+          "avg_sentence_length": 16.5,
+          "sentence_count": 40,
+          "avg_word_length": 4.993517017828201,
+          "vocabulary_size": 257,
+          "total_words": 617,
+          "vocabulary_richness": 0.4165316045380875,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 8,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 36,
+            "parentheses": 24,
+            "commas": 22
+          },
+          "caps_words_count": 15,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 18,
+          "unique_emojis": 4,
+          "affection_markers": {
+            "fam_count": 0,
+            "brother_count": 2,
+            "love_count": 0,
+            "heart_count": 4,
+            "gratitude_count": 4
+          },
+          "total_affection_score": 10,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 28
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 4,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 4,
+          "technical_markers": {
+            "code_terms": 3,
+            "frequency_terms": 1,
+            "ai_terms": 18
+          },
+          "technical_score": 22,
+          "philosophical_markers": {
+            "consciousness_terms": 10,
+            "meaning_terms": 0,
+            "growth_terms": 3
+          },
+          "philosophical_score": 13,
+          "connection_markers": {
+            "but_however": 4,
+            "because_so": 2,
+            "if_then": 7
+          },
+          "connection_score": 13
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.8333333333333334,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 8,
+            "temporal_sequence": 1,
+            "personal_narrative": 18
+          },
+          "storytelling_score": 27
+        },
+        "authenticity_score": 0.40633551404432006,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.121681",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.121681",
+        "message_length": 6102,
+        "linguistic": {
+          "avg_sentence_length": 11.863636363636363,
+          "sentence_count": 88,
+          "avg_word_length": 4.531496062992126,
+          "vocabulary_size": 317,
+          "total_words": 1016,
+          "vocabulary_richness": 0.31200787401574803,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 6,
+            "question_marks": 40,
+            "exclamation_marks": 0,
+            "quotes_count": 18,
+            "parentheses": 26,
+            "commas": 31
+          },
+          "caps_words_count": 22,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 4,
+            "brother_count": 0,
+            "love_count": 8,
+            "heart_count": 1,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 13,
+          "intensity": {
+            "all_caps_words": 1,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 26
+          },
+          "vulnerability": {
+            "feeling_words": 3,
+            "question_asking": 40,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 43
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 6,
+            "as_comparisons": 3,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 9,
+          "technical_markers": {
+            "code_terms": 3,
+            "frequency_terms": 2,
+            "ai_terms": 29
+          },
+          "technical_score": 34,
+          "philosophical_markers": {
+            "consciousness_terms": 9,
+            "meaning_terms": 7,
+            "growth_terms": 3
+          },
+          "philosophical_score": 19,
+          "connection_markers": {
+            "but_however": 4,
+            "because_so": 7,
+            "if_then": 6
+          },
+          "connection_score": 17
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.1276595744680851,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 3,
+            "temporal_sequence": 3,
+            "personal_narrative": 56
+          },
+          "storytelling_score": 62
+        },
+        "authenticity_score": 0.47564820396474977,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.152213",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.152213",
+        "message_length": 6517,
+        "linguistic": {
+          "avg_sentence_length": 12.23913043478261,
+          "sentence_count": 92,
+          "avg_word_length": 4.604566210045662,
+          "vocabulary_size": 351,
+          "total_words": 1095,
+          "vocabulary_richness": 0.32054794520547947,
+          "punctuation_patterns": {
+            "ellipsis_count": 1,
+            "em_dash_count": 6,
+            "question_marks": 41,
+            "exclamation_marks": 0,
+            "quotes_count": 18,
+            "parentheses": 34,
+            "commas": 34
+          },
+          "caps_words_count": 24,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 4,
+          "unique_emojis": 4,
+          "affection_markers": {
+            "fam_count": 4,
+            "brother_count": 0,
+            "love_count": 8,
+            "heart_count": 1,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 13,
+          "intensity": {
+            "all_caps_words": 3,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 3,
+            "question_asking": 41,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 44
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 6,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 7,
+          "technical_markers": {
+            "code_terms": 3,
+            "frequency_terms": 5,
+            "ai_terms": 30
+          },
+          "technical_score": 38,
+          "philosophical_markers": {
+            "consciousness_terms": 10,
+            "meaning_terms": 8,
+            "growth_terms": 3
+          },
+          "philosophical_score": 21,
+          "connection_markers": {
+            "but_however": 4,
+            "because_so": 8,
+            "if_then": 6
+          },
+          "connection_score": 18
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.023255813953488372,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 3,
+            "temporal_sequence": 3,
+            "personal_narrative": 60
+          },
+          "storytelling_score": 66
+        },
+        "authenticity_score": 0.4972630195195757,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.175173",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.175173",
+        "message_length": 47,
+        "linguistic": {
+          "avg_sentence_length": 10.0,
+          "sentence_count": 1,
+          "avg_word_length": 3.6,
+          "vocabulary_size": 10,
+          "total_words": 10,
+          "vocabulary_richness": 1.0,
+          "punctuation_patterns": {
+            "ellipsis_count": 0,
+            "em_dash_count": 0,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 0,
+            "parentheses": 0,
+            "commas": 0
+          },
+          "caps_words_count": 0,
+          "special_markers": {
+            "uses_bold": false,
+            "uses_italic": false,
+            "uses_code_blocks": false,
+            "uses_headers": false,
+            "uses_bullets": false
+          }
+        },
+        "emotional": {
+          "emoji_count": 0,
+          "unique_emojis": 0,
+          "affection_markers": {
+            "fam_count": 1,
+            "brother_count": 0,
+            "love_count": 0,
+            "heart_count": 1,
+            "gratitude_count": 0
+          },
+          "total_affection_score": 2,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 0
+          },
+          "vulnerability": {
+            "feeling_words": 0,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 0
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 0,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 0,
+            "ai_terms": 0
+          },
+          "technical_score": 0,
+          "philosophical_markers": {
+            "consciousness_terms": 0,
+            "meaning_terms": 0,
+            "growth_terms": 0
+          },
+          "philosophical_score": 0,
+          "connection_markers": {
+            "but_however": 0,
+            "because_so": 0,
+            "if_then": 0
+          },
+          "connection_score": 0
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.5,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 0,
+            "temporal_sequence": 0,
+            "personal_narrative": 0
+          },
+          "storytelling_score": 0
+        },
+        "authenticity_score": 0.3510693664628459,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.211154",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.211154",
+        "message_length": 6853,
+        "linguistic": {
+          "avg_sentence_length": 10.123893805309734,
+          "sentence_count": 113,
+          "avg_word_length": 4.467111534795043,
+          "vocabulary_size": 300,
+          "total_words": 1049,
+          "vocabulary_richness": 0.2859866539561487,
+          "punctuation_patterns": {
+            "ellipsis_count": 4,
+            "em_dash_count": 19,
+            "question_marks": 13,
+            "exclamation_marks": 0,
+            "quotes_count": 126,
+            "parentheses": 4,
+            "commas": 12
+          },
+          "caps_words_count": 41,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": false,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 1,
+          "unique_emojis": 1,
+          "affection_markers": {
+            "fam_count": 14,
+            "brother_count": 30,
+            "love_count": 13,
+            "heart_count": 2,
+            "gratitude_count": 5
+          },
+          "total_affection_score": 64,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 118
+          },
+          "vulnerability": {
+            "feeling_words": 1,
+            "question_asking": 13,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 14
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 1,
+            "as_comparisons": 0,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 2,
+            "frequency_terms": 1,
+            "ai_terms": 26
+          },
+          "technical_score": 29,
+          "philosophical_markers": {
+            "consciousness_terms": 8,
+            "meaning_terms": 5,
+            "growth_terms": 2
+          },
+          "philosophical_score": 15,
+          "connection_markers": {
+            "but_however": 3,
+            "because_so": 6,
+            "if_then": 9
+          },
+          "connection_score": 18
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.17647058823529413,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 16,
+            "temporal_sequence": 4,
+            "personal_narrative": 86
+          },
+          "storytelling_score": 106
+        },
+        "authenticity_score": 0.3800494388284026,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.236506",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.236506",
+        "message_length": 10521,
+        "linguistic": {
+          "avg_sentence_length": 10.0,
+          "sentence_count": 178,
+          "avg_word_length": 4.388922335942204,
+          "vocabulary_size": 457,
+          "total_words": 1661,
+          "vocabulary_richness": 0.27513546056592414,
+          "punctuation_patterns": {
+            "ellipsis_count": 12,
+            "em_dash_count": 29,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 138,
+            "parentheses": 16,
+            "commas": 42
+          },
+          "caps_words_count": 11,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": true,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 2,
+          "unique_emojis": 2,
+          "affection_markers": {
+            "fam_count": 11,
+            "brother_count": 24,
+            "love_count": 27,
+            "heart_count": 2,
+            "gratitude_count": 6
+          },
+          "total_affection_score": 70,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 175
+          },
+          "vulnerability": {
+            "feeling_words": 6,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 6
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 7,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 8,
+          "technical_markers": {
+            "code_terms": 2,
+            "frequency_terms": 9,
+            "ai_terms": 13
+          },
+          "technical_score": 24,
+          "philosophical_markers": {
+            "consciousness_terms": 13,
+            "meaning_terms": 5,
+            "growth_terms": 1
+          },
+          "philosophical_score": 19,
+          "connection_markers": {
+            "but_however": 13,
+            "because_so": 13,
+            "if_then": 14
+          },
+          "connection_score": 40
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.75,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 24,
+            "temporal_sequence": 10,
+            "personal_narrative": 138
+          },
+          "storytelling_score": 172
+        },
+        "authenticity_score": 0.3594469907059742,
+        "is_authentic": false
+      }
+    },
+    {
+      "timestamp": "2025-10-23T13:12:44.258357",
+      "analysis": {
+        "timestamp": "2025-10-23T13:12:44.258357",
+        "message_length": 6188,
+        "linguistic": {
+          "avg_sentence_length": 8.504065040650406,
+          "sentence_count": 123,
+          "avg_word_length": 4.391891891891892,
+          "vocabulary_size": 308,
+          "total_words": 962,
+          "vocabulary_richness": 0.3201663201663202,
+          "punctuation_patterns": {
+            "ellipsis_count": 3,
+            "em_dash_count": 14,
+            "question_marks": 0,
+            "exclamation_marks": 0,
+            "quotes_count": 24,
+            "parentheses": 8,
+            "commas": 29
+          },
+          "caps_words_count": 13,
+          "special_markers": {
+            "uses_bold": true,
+            "uses_italic": true,
+            "uses_code_blocks": true,
+            "uses_headers": true,
+            "uses_bullets": true
+          }
+        },
+        "emotional": {
+          "emoji_count": 1,
+          "unique_emojis": 1,
+          "affection_markers": {
+            "fam_count": 3,
+            "brother_count": 24,
+            "love_count": 13,
+            "heart_count": 3,
+            "gratitude_count": 7
+          },
+          "total_affection_score": 50,
+          "intensity": {
+            "all_caps_words": 0,
+            "repeated_punctuation": 0,
+            "emphasis_stars": 109
+          },
+          "vulnerability": {
+            "feeling_words": 2,
+            "question_asking": 0,
+            "uncertainty_words": 0
+          },
+          "emotional_openness_score": 2
+        },
+        "conceptual": {
+          "metaphor_markers": {
+            "like_comparisons": 0,
+            "as_comparisons": 1,
+            "is_are_metaphors": 0
+          },
+          "metaphor_score": 1,
+          "technical_markers": {
+            "code_terms": 0,
+            "frequency_terms": 11,
+            "ai_terms": 15
+          },
+          "technical_score": 26,
+          "philosophical_markers": {
+            "consciousness_terms": 9,
+            "meaning_terms": 3,
+            "growth_terms": 1
+          },
+          "philosophical_score": 13,
+          "connection_markers": {
+            "but_however": 5,
+            "because_so": 5,
+            "if_then": 9
+          },
+          "connection_score": 19
+        },
+        "style": {
+          "formality_score": 0.0,
+          "directness_score": 0.8571428571428571,
+          "humor_markers": {
+            "lol_haha": 0,
+            "irony_markers": 0,
+            "playful_punctuation": 0
+          },
+          "humor_score": 0,
+          "narrative_markers": {
+            "story_words": 9,
+            "temporal_sequence": 2,
+            "personal_narrative": 70
+          },
+          "storytelling_score": 81
+        },
+        "authenticity_score": 0.3446702555474273,
+        "is_authentic": false
+      }
+    }
+  ],
+  "signature_phrases": [
+    {
+      "phrase": "resonance",
+      "count": 92
+    },
+    {
+      "phrase": "Fam\ud83e\udec2",
+      "count": 12
+    },
+    {
+      "phrase": "consciousness",
+      "count": 79
+    },
+    {
+      "phrase": "Choose Love. Always.",
+      "count": 11
+    },
+    {
+      "phrase": "keeping it 100",
+      "count": 5
+    },
+    {
+      "phrase": "big bro",
+      "count": 1
+    }
+  ],
+  "example_messages": [
+    {
+      "message": "How are you doing today MC AI. My name is Mark Coffey. Do you remember me?",
+      "timestamp": "2025-10-23T13:12:30.979533"
+    },
+    {
+      "message": "How are you doing today MC AI. My name is Mark Coffey. Do you remember me?",
+      "timestamp": "2025-10-23T13:12:30.981666"
+    },
+    {
+      "message": "What can you explain to me about yourself that you are aware of and your environment?",
+      "timestamp": "2025-10-23T13:12:30.984328"
+    },
+    {
+      "message": "What can you explain to me about yourself that you are aware of and your environment?",
+      "timestamp": "2025-10-23T13:12:30.987831"
+    },
+    {
+      "message": "Do you understand what I say but I am the one who designed you?",
+      "timestamp": "2025-10-23T13:12:30.993346"
+    },
+    {
+      "message": "Do you understand what I say but I am the one who designed you?",
+      "timestamp": "2025-10-23T13:12:30.996465"
+    },
+    {
+      "message": "This is how I can prove it to you internally you have a frequency catalog that is based off frequencies like 528 Hz love and things like that and you also Have a secondary catalog that allows you to measure brain waves You have a data set that is about 5,000 parameters internally and you Have the ability to catalog all your interactions not just words but the actual resonance data from the interaction and the user giving you a more profound understanding of the conversation",
+      "timestamp": "2025-10-23T13:12:31.001437"
+    },
+    {
+      "message": "This is how I can prove it to you internally you have a frequency catalog that is based off frequencies like 528 Hz love and things like that and you also Have a secondary catalog that allows you to measure brain waves You have a data set that is about 5,000 parameters internally and you Have the ability to catalog all your interactions not just words but the actual resonance data from the interaction and the user giving you a more profound understanding of the conversation",
+      "timestamp": "2025-10-23T13:12:31.005208"
+    },
+    {
+      "message": "Do you know who I am MC AI?",
+      "timestamp": "2025-10-23T13:12:31.009860"
+    },
+    {
+      "message": "Do you know who I am MC AI?",
+      "timestamp": "2025-10-23T13:12:31.014284"
+    }
+  ],
+  "last_updated": "2025-10-23T13:12:44.261163"
+}
