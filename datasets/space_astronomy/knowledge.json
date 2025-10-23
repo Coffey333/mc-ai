@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "What are the planets in our solar system?",
+    "response": "Our solar system has 8 planets (in order from Sun):\n\n**Inner/Rocky Planets:**\n1. **Mercury** - Smallest, closest to Sun, no atmosphere\n2. **Venus** - Hottest planet, thick CO\u2082 atmosphere\n3. **Earth** - Only planet with life (that we know!)\n4. **Mars** - Red planet, has ice caps\n\n**Outer/Gas Giants:**\n5. **Jupiter** - Largest, Great Red Spot storm\n6. **Saturn** - Famous rings, many moons\n7. **Uranus** - Tilted on side, blue-green color\n8. **Neptune** - Farthest, fastest winds\n\n**Mnemonic:** \"My Very Educated Mother Just Served Us Nachos\"\n\n**Note:** Pluto was reclassified as a \"dwarf planet\" in 2006",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What is the Sun?",
+    "response": "The Sun is a star at the center of our solar system.\n\n**Type:** Yellow dwarf star (G-type main sequence)\n\n**Size:**\n- Diameter: 1.4 million km (~109 Earths)\n- Mass: 99.86% of solar system mass\n- Could fit 1.3 million Earths inside!\n\n**Composition:**\n- 73% Hydrogen\n- 25% Helium\n- 2% Other elements\n\n**Energy Production:**\n- Nuclear fusion (H \u2192 He)\n- Core temp: 15 million \u00b0C\n- Surface temp: 5,500 \u00b0C\n\n**Properties:**\n- Light reaches Earth in 8 minutes\n- Age: 4.6 billion years\n- Will shine for 5 billion more years\n\n**Importance:** Powers all life on Earth",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What is a galaxy?",
+    "response": "A galaxy is a massive system of stars, gas, dust, and dark matter held together by gravity.\n\n**Types:**\n\n**1. Spiral** (like Milky Way)\n- Disk with spiral arms\n- Active star formation\n- Examples: Andromeda, Milky Way\n\n**2. Elliptical**\n- Oval/sphere shape\n- Older stars, little gas\n- Range from small to giant\n\n**3. Irregular**\n- No defined shape\n- Often result of collisions\n\n**Milky Way Facts:**\n- Our galaxy\n- ~200-400 billion stars\n- ~100,000 light-years across\n- Sun is 26,000 light-years from center\n\n**Observable Universe:** ~2 trillion galaxies!\n\n**Galactic Address:** Earth \u2192 Solar System \u2192 Orion Arm \u2192 Milky Way \u2192 Local Group \u2192 Virgo Supercluster",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What is a black hole?",
+    "response": "A black hole is a region where gravity is so strong that nothing, not even light, can escape.\n\n**Formation:**\n- Massive star dies (>20 solar masses)\n- Core collapses\n- Gravity becomes infinite at singularity\n\n**Parts:**\n- **Singularity:** Center point, infinite density\n- **Event Horizon:** Point of no return\n- **Accretion Disk:** Swirling matter around it\n\n**Types:**\n1. **Stellar** - From star collapse (3-100 solar masses)\n2. **Supermassive** - Center of galaxies (millions-billions solar masses)\n3. **Intermediate** - Between stellar & supermassive\n4. **Primordial** - Theoretical, from Big Bang\n\n**Properties:**\n- Bends spacetime\n- Slows time near horizon\n- Can't see directly (observe effects on nearby matter)\n\n**Note:** Won't \"suck up\" everything - need to be very close",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What is the Moon?",
+    "response": "The Moon is Earth's only natural satellite.\n\n**Size & Distance:**\n- Diameter: 3,474 km (~1/4 Earth's)\n- Distance: 384,400 km from Earth\n- Takes 27.3 days to orbit Earth\n\n**Phases:** New, Crescent, Quarter, Gibbous, Full (repeat)\n- Caused by changing sunlight angles\n- Same side always faces Earth (tidal locking)\n\n**Surface:**\n- Covered in craters (no atmosphere to burn meteors)\n- Maria (dark \"seas\" - ancient lava flows)\n- Temperature: -173\u00b0C to 127\u00b0C\n\n**Effects on Earth:**\n- Tides (gravity pulls ocean water)\n- Stabilizes Earth's tilt (seasons)\n- Slows Earth's rotation (slightly)\n\n**Formation:** Giant impact theory (Mars-sized object hit early Earth)\n\n**Humans landed:** 1969 (Apollo 11)",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What is the universe?",
+    "response": "The universe is everything that exists - all matter, energy, space, and time.\n\n**Scale:**\n- Observable universe: 93 billion light-years across\n- Contains ~2 trillion galaxies\n- ~10\u00b2\u2074 stars\n\n**Composition:**\n- 68% Dark Energy (mysterious force)\n- 27% Dark Matter (invisible matter)\n- 5% Normal Matter (stars, planets, us!)\n\n**Age:** 13.8 billion years\n\n**Origin:** Big Bang Theory\n1. Universe began as tiny, hot, dense point\n2. Rapidly expanded (inflation)\n3. Cooled, formed particles\n4. Hydrogen/helium formed\n5. First stars/galaxies formed\n6. Continues expanding today (accelerating!)\n\n**Shape:** Likely flat or slightly curved\n\n**Fate:** Uncertain - Big Freeze, Big Rip, or Big Crunch",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What are stars made of?",
+    "response": "Stars are giant balls of hot gas (plasma) that produce energy through nuclear fusion.\n\n**Composition:**\n- ~73% Hydrogen\n- ~25% Helium\n- ~2% Other elements (C, O, N, Fe, etc.)\n\n**Energy Production:**\n1. Gravity compresses core\n2. Core gets extremely hot (millions \u00b0C)\n3. Hydrogen fuses into Helium\n4. Releases enormous energy\n5. Energy travels to surface \u2192 light!\n\n**Life Cycle:**\n1. Nebula (gas cloud)\n2. Protostar (collapse begins)\n3. Main Sequence (stable burning - Sun here)\n4. Red Giant/Supergiant (fuel running out)\n5. Death:\n   - Small stars: White Dwarf \u2192 Black Dwarf\n   - Massive stars: Supernova \u2192 Neutron Star or Black Hole\n\n**Colors indicate temperature:**\n- Blue/White: Hottest (>10,000 K)\n- Yellow: Medium (5,000-7,000 K)\n- Red: Coolest (<3,500 K)",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What is a comet?",
+    "response": "A comet is a cosmic snowball of frozen gases, rock, and dust.\n\n**Composition:**\n- Ice (water, CO\u2082, methane, ammonia)\n- Dust and rocky material\n- Organic compounds\n\n**Structure:**\n- **Nucleus:** Solid center (few km wide)\n- **Coma:** Gas/dust cloud when near Sun\n- **Tails:** Two types (always point away from Sun)\n  - Ion tail (gas, straight, blue)\n  - Dust tail (curved, yellowish)\n\n**Orbit:**\n- Highly elliptical (oval)\n- Some take thousands of years\n- Halley's Comet: Returns every 76 years (last seen 1986)\n\n**Origin:**\n- Kuiper Belt (beyond Neptune)\n- Oort Cloud (very distant)\n\n**Famous:** Halley, Hale-Bopp, NEOWISE\n\n**\"Dirty snowball\"** - Fred Whipple (1950)",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What is a light-year?",
+    "response": "A light-year is the distance light travels in one year.\n\n**Distance:** ~9.46 trillion kilometers (5.88 trillion miles)\n\n**Why use it?**\n- Space distances are HUGE\n- Regular units (km/miles) are too small\n- Easier to say \"4 light-years\" than \"37.8 trillion km\"\n\n**Examples:**\n- Sun to Earth: 8 light-minutes\n- Nearest star (Proxima Centauri): 4.2 light-years\n- Milky Way width: 100,000 light-years\n- Andromeda Galaxy: 2.5 million light-years\n- Observable universe: 93 billion light-years\n\n**Time Machine:**\nWhen you see distant objects, you see their PAST!\n- See Sun as it was 8 min ago\n- See Andromeda as it was 2.5 million years ago\n\n**Note:** Measures DISTANCE, not time (confusing name!)",
+    "domain": "space_astronomy"
+  },
+  {
+    "prompt": "What causes day and night?",
+    "response": "Day and night are caused by Earth's rotation on its axis.\n\n**How it works:**\n1. Earth spins counterclockwise (viewed from North Pole)\n2. One complete rotation = 24 hours\n3. Side facing Sun = Daytime (lit up)\n4. Side away from Sun = Nighttime (dark)\n\n**Sunrise/Sunset:**\n- East side enters sunlight first \u2192 sunrise\n- West side leaves sunlight last \u2192 sunset\n- \"Sun rises in East, sets in West\"\n\n**Variations:**\n- **Equator:** ~12 hours day, 12 hours night (consistent)\n- **Poles:** Extreme\n  - Summer: 24-hour daylight (\"midnight sun\")\n  - Winter: 24-hour darkness (\"polar night\")\n\n**NOT caused by:** Earth orbiting Sun (that causes seasons)\n\n**Speed:** Earth's surface at equator moves ~1,670 km/h!",
+    "domain": "space_astronomy"
+  }
+]
