@@ -13,6 +13,7 @@ from src.knowledge_api import knowledge_bp
 from ecg_api import ecg_api
 from scene_intelligence_service import scene_service
 from src.kaggle_learning_api import kaggle_learning_bp
+from src.system_monitor_api import system_monitor_bp
 import os
 import json
 from openai import OpenAI
@@ -42,6 +43,8 @@ app.register_blueprint(knowledge_bp)
 app.register_blueprint(ecg_api)
 # Register Kaggle learning endpoints
 app.register_blueprint(kaggle_learning_bp)
+# Register system monitor endpoints (MC AI self-awareness)
+app.register_blueprint(system_monitor_bp)
 
 generator = ResponseGenerator()
 data_analyzer = DataAnalyzer()
