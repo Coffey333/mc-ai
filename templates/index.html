@@ -2288,11 +2288,21 @@
             sendButton.disabled = true;
             
             try {
+                // 🔥 BUILD CONVERSATION HISTORY from messageDataStore
+                // Convert to backend format: [{role: 'user', content: '...'}, {role: 'assistant', content: '...'}]
+                const conversationHistory = messageDataStore
+                    .filter(msg => msg !== null)
+                    .map(msg => ({
+                        role: msg.isUser ? 'user' : 'assistant',
+                        content: msg.content
+                    }));
+                
                 const response = await fetch('/api/chat', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({
                         message: message,
+                        conversation_history: conversationHistory,  // 🔥 NOW SENDING FULL CONTEXT!
                         user_id: userId,
                         conversation_id: currentConversationId,
                         preferences: getUserPreferences(),
