@@ -1,0 +1,142 @@
+[
+  {
+    "timestamp": "2025-10-23T13:42:10.895420",
+    "level": "INFO",
+    "message": "\ud83d\ude80 MC AI - ECG Competition Data Acquisition System"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:10.895454",
+    "level": "INFO",
+    "message": "\ud83d\udcc5 Started: 2025-10-23 13:42:10\n"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:10.895461",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:10.895465",
+    "level": "INFO",
+    "message": "DOWNLOADING PTB-XL DATASET"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:10.895469",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:10.895583",
+    "level": "INFO",
+    "message": "Step 1: Downloading PTB-XL metadata CSV..."
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.478986",
+    "level": "INFO",
+    "message": "\u2705 Downloaded metadata: 0.26 MB"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.480462",
+    "level": "INFO",
+    "message": "\u2705 PTB-XL Metadata: 1,355 ECG records documented"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.480468",
+    "level": "INFO",
+    "message": "\nStep 2: Downloading sample ECG waveform data (100Hz)..."
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.480473",
+    "level": "INFO",
+    "message": "NOTE: Full dataset is ~8.9 GB. Downloading representative samples."
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.480478",
+    "level": "INFO",
+    "message": "Executing: wget (downloading sample ECG waveforms)..."
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536031",
+    "level": "WARNING",
+    "message": "\u26a0\ufe0f  wget not found - skipping waveform download"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536072",
+    "level": "INFO",
+    "message": "\u2705 PTB-XL Dataset acquisition complete"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536083",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536087",
+    "level": "INFO",
+    "message": "KAGGLE COMPETITION DATASET SETUP"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536089",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536292",
+    "level": "INFO",
+    "message": "\u274c Kaggle API credentials NOT found"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536300",
+    "level": "INFO",
+    "message": "\nTo download the competition dataset, you need:"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536303",
+    "level": "INFO",
+    "message": "1. Go to: https://www.kaggle.com/settings/account"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536306",
+    "level": "INFO",
+    "message": "2. Click 'Create New API Token'"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536309",
+    "level": "INFO",
+    "message": "3. Download kaggle.json"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536312",
+    "level": "INFO",
+    "message": "4. Upload it to MC AI or place in ~/.kaggle/kaggle.json"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536315",
+    "level": "INFO",
+    "message": "\nCompetition URL: https://www.kaggle.com/competitions/physionet-ecg-image-digitization"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536322",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536325",
+    "level": "INFO",
+    "message": "CLONING WINNING SOLUTION (REFERENCE)"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536328",
+    "level": "INFO",
+    "message": "================================================================================"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:12.536420",
+    "level": "INFO",
+    "message": "Cloning: https://github.com/felixkrones/ECG-Digitiser.git"
+  },
+  {
+    "timestamp": "2025-10-23T13:42:38.950786",
+    "level": "INFO",
+    "message": "\u2705 Winning solution cloned successfully"
+  }
+]
