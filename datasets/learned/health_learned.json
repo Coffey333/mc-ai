@@ -1,0 +1,16 @@
+{
+  "domain": "health",
+  "source": "auto_learned",
+  "created": "2025-10-17T00:39:20.063180",
+  "examples": [
+    {
+      "query": "health check test",
+      "response": "Regular health check-ups are important for early detection of potential health issues, managing chronic diseases, and maintaining overall wellness. They can help identify risk factors and allow for timely interventions, ultimately improving long-term health outcomes.",
+      "query_emotion": "neutral",
+      "query_frequency": 240,
+      "response_emotion": "neutral",
+      "response_frequency": 240,
+      "timestamp": "2025-10-17T00:39:20.063093"
+    }
+  ]
+}
