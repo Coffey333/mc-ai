@@ -1,0 +1,48 @@
+{
+  "user_id": "c34feaf7e06783ed",
+  "created": "2025-10-13T07:55:36.115766",
+  "last_updated": "2025-10-13T07:55:37.204587",
+  "message_count": 2,
+  "messages": [
+    {
+      "timestamp": "2025-10-13T07:55:36.115772",
+      "user_message": "My favorite color is purple",
+      "ai_response": "Here's the thing: Alpha 8\u201312 Hz, ~20 \u00b5V. Theta low (~10 \u00b5V), frontal-temporal engagement.\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "neuroscience",
+        "relevance": 8,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    },
+    {
+      "timestamp": "2025-10-13T07:55:37.204577",
+      "user_message": "What is my favorite color?",
+      "ai_response": "Here's the thing: Alpha 8\u201312 Hz, ~20 \u00b5V. Theta low (~10 \u00b5V), frontal-temporal engagement.\n\nMake sense?",
+      "metadata": {
+        "source": "dataset_bank",
+        "domain": "neuroscience",
+        "relevance": 16,
+        "emotion": "knowledge",
+        "frequency": 432
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-13T07:55:36.115781",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    },
+    {
+      "timestamp": "2025-10-13T07:55:37.204591",
+      "emotion": "knowledge",
+      "intensity": 5.0,
+      "frequency": 432,
+      "valence": 0
+    }
+  ]
+}
