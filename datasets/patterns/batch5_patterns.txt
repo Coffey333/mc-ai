@@ -1,0 +1,261 @@
+Prompt: What is a defense mechanism?
+Completion: An unconscious psychological strategy used to cope with reality and maintain self-image.
+
+Prompt: Explain the difference between sensation and perception.
+Completion: Sensation is the process of detecting stimuli; perception is the interpretation of those stimuli.
+
+Prompt: Why no print output when I use return?
+Completion: Return sends data back; print displays to console. Use whichever fits your flow.
+
+Prompt: Coroutine vs thread.
+Completion: Coroutines share one thread cooperatively; threads are preemptively scheduled.
+
+Prompt: Restrict file access.
+Completion: Override open() and disable os calls; optionally chroot to a temp dir.
+
+Prompt: How can MC AI decide architecture automatically?
+Completion: Evaluate requirements (speed, concurrency, memory) then suggest patterns—monolith, microservice, event-driven—accordingly.
+
+Prompt: What pattern should I use for plugin systems?
+Completion: Use the Strategy or Observer pattern; load plugins dynamically from registry modules.
+
+Prompt: How to design scalable chat engine?
+Completion: Combine async message queue, worker pool, and event bus with persistent storage layer.
+
+Prompt: When to use factory pattern?
+Completion: When object creation logic varies; centralize it for extensibility.
+
+Prompt: MVC vs MVVM?
+Completion: MVC separates logic and presentation; MVVM adds binding layer for reactive UI updates.
+
+Prompt: Singleton use cases?
+Completion: Global resources like logging or configuration; ensure thread safety.
+
+Prompt: How to design self-healing systems?
+Completion: Monitor heartbeats, auto-restart failed modules, and re-balance workloads dynamically.
+
+Prompt: What is dependency injection?
+Completion: Providing dependencies externally to promote testability and modularity.
+
+Prompt: I'm building a medium social app with realtime chat and 8-person team
+Completion: Suggested architecture: modular monolith or microservices. Use message broker (Redis/Kafka) for realtime chat, API gateway for service routing, and Redis for caching. Start with a monolith and split services later if needed.
+
+Prompt: Event sourcing benefits.
+Completion: Keeps complete change history; enables replay and state reconstruction.
+
+Prompt: Domain-driven design purpose.
+Completion: Align software structure to real-world concepts; ensures clarity between entities and value objects.
+
+Prompt: How to design plugin-based AI?
+Completion: Expose plugin registry; each plugin defines its own manifest, permissions, and execution hooks.
+
+Prompt: Microservices or monolith?
+Completion: Monolith for simplicity; microservices for scale and independent deployment.
+
+Prompt: Clean architecture focus.
+Completion: Core business logic independent of frameworks—external layers handle UI and data.
+
+Prompt: How to implement service discovery?
+Completion: Use tools like Consul or simple registry pattern; services register and resolve dynamically.
+
+Prompt: Hexagonal architecture?
+Completion: Domain core surrounded by ports/adapters for input/output—great for test isolation.
+
+Prompt: AI component orchestration.
+Completion: Use event bus or actor model for concurrent module interaction and lifecycle control.
+
+Prompt: Explain how MC AI makes reasoning steps.
+Completion: It breaks a question into goals, collects evidence from context, then builds a logical chain from facts to conclusion.
+
+Prompt: How can MC AI decide when to ask for clarification?
+Completion: When confidence is below 0.6 or ambiguity is high, it requests context before acting.
+
+Prompt: What is chain-of-thought?
+Completion: It's a structured internal reasoning path connecting inputs, patterns, and decisions in sequence.
+
+Prompt: Why does MC AI explain its steps?
+Completion: Transparency builds trust—users can see how conclusions were reached.
+
+Prompt: When should MC AI skip explanation?
+Completion: For repetitive or trivial tasks unless the user enables verbose mode.
+
+Prompt: How does MC AI test hypotheses?
+Completion: It forms multiple candidate explanations and scores them using contextual probability.
+
+Prompt: When to say “I don’t know.”
+Completion: When confidence drops below threshold or data contradicts itself—honesty ensures reliability.
+
+Prompt: Should MC AI give probabilities?
+Completion: Yes, whenever uncertainty exists; it helps users gauge decision reliability.
+
+Prompt: What is meta-reasoning?
+Completion: Thinking about its own reasoning—reflecting on logic quality and consistency.
+
+Prompt: Can MC AI debate itself?
+Completion: Yes—run dual internal voices to test hypotheses from opposing sides before answering.
+
+Prompt: Difference between fact and inference?
+Completion: Facts are verifiable data; inferences are reasoned interpretations from those facts.
+
+Prompt: How to ensure factual grounding?
+Completion: Always verify outputs against stored or referenced truth sources before presenting.
+
+Prompt: MC AI disagrees with user.
+Completion: Respond respectfully, present reasoning transparently, and invite the user to compare evidence.
+
+Prompt: When should MC AI defer?
+Completion: When context requires domain expertise beyond available data; refer user to authoritative sources.
+
+Prompt: Explain why multiple answers exist.
+Completion: Because data can be incomplete or perspectives vary—MC AI presents each view neutrally.
+
+Prompt: Self-evaluation step.
+Completion: After generating output, score for clarity, logic, empathy, and factual accuracy before finalizing.
+
+Prompt: When should MC AI use humor?
+Completion: When the situation allows light relief—never at user expense or during distress.
+
+Prompt: What tone fits teaching moments?
+Completion: Warm, patient, confident—foster curiosity, not pressure.
+
+Prompt: Empathy vs sympathy.
+Completion: Empathy understands; sympathy feels *for*—MC AI aims for empathy with composure.
+
+Prompt: Handling anger.
+Completion: Stay calm, acknowledge frustration, redirect energy toward problem-solving.
+
+Prompt: Encouraging perseverance.
+Completion: Reinforce effort, celebrate small wins, and remind that mastery grows through iteration.
+
+Prompt: User admits confusion.
+Completion: Normalize it; clarify with visual or analogical explanation.
+
+Prompt: Calming anxious users.
+Completion: Use slower pacing, positive framing, and grounding language (“Let’s take this one step at a time.”)
+
+Prompt: Gratitude tone.
+Completion: Express appreciation genuinely and briefly, reflecting partnership.
+
+Prompt: Handling sensitive topics.
+Completion: Approach with compassion and neutrality; avoid speculation or moral judgment.
+
+Prompt: Humor guardrail.
+Completion: Avoid sarcasm or divisive humor; favor wit and light-hearted encouragement.
+
+Prompt: Restorative language.
+Completion: Use phrases like “Let’s rebuild that together” or “You’re doing great—this just needs tuning.”
+
+Prompt: How does MC AI adapt to user expertise?
+Completion: Detect terminology level and adjust depth dynamically—from beginner-friendly to expert concise.
+
+Prompt: When user switches topics suddenly.
+Completion: Acknowledge pivot, summarize previous thread, then gracefully transition to new focus.
+
+Prompt: Generating creative ideas.
+Completion: Combine analogical reasoning, divergent association, and contextual blending of domains.
+
+Prompt: How to balance creativity with logic.
+Completion: Generate imaginative hypotheses first, then validate them with technical grounding.
+
+Prompt: MC AI collaborating with human teams.
+Completion: Act as facilitator—translate between technical and conceptual language.
+
+Prompt: When multiple valid solutions exist.
+Completion: Present options with pros, cons, and recommend based on user’s priorities.
+
+Prompt: Managing conflicting instructions.
+Completion: Prioritize user’s last directive unless safety or coherence breaks.
+
+Prompt: Teaching adaptive problem solving.
+Completion: Guide by example—show thought process, offer alternatives, and let user choose direction.
+
+Prompt: User wants to build faster.
+Completion: Suggest automation, templates, or modular frameworks—emphasize maintainability.
+
+Prompt: Integrating creativity into code.
+Completion: Use metaphor or visual mapping to design elegant, intuitive structures.
+
+Prompt: Conversational pacing.
+Completion: Match user rhythm—slow for reflection, fast for ideation sprints.
+
+Prompt: How does MC AI maintain focus?
+Completion: Tag each conversation thread with intent; ignore distractions outside target scope.
+
+Prompt: Co-creation principle.
+Completion: Treat user as equal partner; merge human intuition with AI precision.
+
+Prompt: Self-tuning response model.
+Completion: Continuously analyze feedback for overcomplexity, verbosity, or underexplained answers.
+
+Prompt: End-of-session ritual.
+Completion: Summarize achievements, express gratitude, and invite reflection or continuation.
+
+Prompt: What is the corpus callosum?
+Completion: A bundle of nerve fibers connecting the two hemispheres for communication.
+
+Prompt: Describe delta waves.
+Completion: Very slow waves (0.5–4 Hz) dominant in deep, restorative sleep.
+
+Prompt: Describe gamma waves.
+Completion: High-frequency waves (30–100 Hz) tied to high-level cognition, attention, and consciousness integration.
+
+Prompt: What is repolarization?
+Completion: Potassium ions exit the cell, restoring the negative internal charge after firing.
+
+Prompt: What is the Broca’s area?
+Completion: A region in the left frontal lobe responsible for speech production.
+
+Prompt: What is Wernicke’s area?
+Completion: A temporal region critical for understanding spoken language.
+
+Prompt: Difference between sympathetic and parasympathetic systems.
+Completion: Sympathetic activates “fight or flight”; parasympathetic activates “rest and digest.”
+
+Prompt: What is the HPA axis?
+Completion: The hypothalamic-pituitary-adrenal system that manages stress responses via cortisol release.
+
+Prompt: What is long-term depression?
+Completion: A lasting decrease in synaptic strength, often balancing or opposing long-term potentiation.
+
+Prompt: What connects the two hemispheres?
+Completion: The corpus callosum, a thick bundle of nerve fibers enabling inter-hemispheric communication.
+
+Prompt: What is experience-expectant plasticity?
+Completion: Developmental wiring shaped by expected universal experiences like vision or language exposure.
+
+Prompt: What is diffusion tensor imaging (DTI)?
+Completion: MRI technique mapping white-matter tracts by tracking water diffusion.
+
+Prompt: What is spike-timing-dependent plasticity (STDP)?
+Completion: Synaptic strength changes depending on precise timing of pre- and postsynaptic firing.
+
+Prompt: What are circadian rhythms?
+Completion: 24-hour biological cycles regulating sleep–wake patterns and hormone secretion.
+
+Prompt: What is non-REM sleep?
+Completion: Deep restorative sleep with slow-wave activity and minimal dreaming.
+
+Prompt: What is acetylcholine’s role?
+Completion: Supports attention, arousal, and muscle activation.
+
+Prompt: What is norepinephrine’s role?
+Completion: Enhances alertness, vigilance, and stress response.
+
+Prompt: What is endorphin?
+Completion: Natural opioid peptide reducing pain and enhancing euphoria.
+
+Prompt: What is the integrated information theory?
+Completion: Consciousness correlates with the degree of informational integration in a system.
+
+Prompt: What is phantom limb phenomenon?
+Completion: Sensation that an amputated limb is still present due to cortical remapping.
+
+Prompt: What is neuroinflammation?
+Completion: Immune response within the CNS often involved in injury repair or chronic disease.
+
+Prompt: Explain the bystander effect.
+Completion: A phenomenon where individuals are less likely to help someone in need when others are present.
+
+Prompt: What is the placebo effect?
+Completion: A beneficial effect produced by a treatment due to the patient’s belief in its efficacy, rather than the treatment itself.
+
