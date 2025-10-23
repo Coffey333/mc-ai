@@ -1,0 +1,258 @@
+[
+  {
+    "prompt": "Create a simple machine learning model using scikit-learn",
+    "completion": "from sklearn.linear_model import LinearRegression\\nfrom sklearn.model_selection import train_test_split\\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\\nmodel = LinearRegression().fit(X_train, y_train)\\nprint(model.score(X_test, y_test))"
+  },
+  {
+    "prompt": "What is overfitting in machine learning and how to prevent it?",
+    "completion": "Overfitting: model learns noise, performs poorly on new data. Prevent: cross-validation, regularization (L1/L2), early stopping, more data."
+  },
+  {
+    "prompt": "Set up TrainingArguments for a Hugging Face Trainer",
+    "completion": "from transformers import TrainingArguments\\nargs = TrainingArguments(\\n    output_dir='./results',\\n    eval_strategy='epoch',\\n    learning_rate=2e-5,\\n    per_device_train_batch_size=16,\\n    num_train_epochs=3,\\n    weight_decay=0.01\\n)"
+  },
+  {
+    "prompt": "Train a seq2seq model with attention in PyTorch",
+    "completion": "from torch.nn import LSTM, Linear\\nclass Seq2Seq(nn.Module):\\n    def __init__(self):\\n        super().__init__()\\n        self.encoder = LSTM(512, 256)\\n        self.decoder = LSTM(512, 256)\\n        self.out = Linear(256, vocab_size)\\n    def forward(self, src, tgt):\\n        enc_out, _ = self.encoder(src)\\n        dec_out, _ = self.decoder(tgt, enc_out)\\n        return self.out(dec_out)"
+  },
+  {
+    "prompt": "Fine-tune a coding model with QLoRA on Hugging Face",
+    "completion": "from peft import LoraConfig, get_peft_model\\nfrom transformers import AutoModelForCausalLM\\nmodel = AutoModelForCausalLM.from_pretrained('codellama/CodeLlama-7b-hf')\\nconfig = LoraConfig(r=16, lora_alpha=32, target_modules=['q_proj', 'v_proj'])\\nmodel = get_peft_model(model, config)\\n# Use in SFTTrainer"
+  },
+  {
+    "prompt": "Evaluate a fine-tuned coding model with HumanEval",
+    "completion": "from evaluate import load; metric = load('human_eval'); results = metric.compute(predictions=generated_codes, references=expected_codes); print(results['pass@1'])"
+  },
+  {
+    "prompt": "What is The Pile dataset and how can it be used for training agentic AI models?",
+    "completion": "The Pile is an 825 GB dataset with millions of documents from 22 sub-datasets like ArXiv and GitHub, developed by EleutherAI. Use it for pretraining language models that power agentic systems for tasks like dialogue or content generation in agents. Load via Hugging Face: from datasets import load_dataset; ds = load_dataset('the_pile')"
+  },
+  {
+    "prompt": "Use MS COCO for training vision-based agentic neural networks",
+    "completion": "MS COCO (25 GB, 330k images by Microsoft) for object detection/captioning. In agents: Enable visual scene understanding for robotics. PyTorch example: from torchvision import datasets; coco = datasets.CocoDetection(root='path', annFile='annotations')"
+  },
+  {
+    "prompt": "Explain MuJoCo for physics-based agentic neural networks",
+    "completion": "MuJoCo (1 GB simulations by DeepMind) for robotic control. Train RL agents: import mujoco; env = mujoco.make('humanoid'); obs = env.reset()"
+  },
+  {
+    "prompt": "Describe the Robotics Datasets collection for agentic neural networks",
+    "completion": "Robotics Datasets captures real-world sensor data and robot interactions from various applications, supporting embodied AI research. Size: ~100 GB aggregate. Source: roboticsdataset.org. Relevance: Enables reliable navigation and decision-making for agents in complex physical settings."
+  },
+  {
+    "prompt": "Best AI training datasets for ethical ML in 2025",
+    "completion": "Humans in the Loop's 2025 guide highlights diverse sets like FairFace (facial recognition bias) and BBQ (stereotype probing).<grok:render card_id="
+  },
+  {
+    "prompt": "Implement a simple multimodal model with PyTorch for voice and vision",
+    "completion": "import torch.nn as nn; class MultimodalNet(nn.Module):\\n    def __init__(self):\\n        super().__init__()\\n        self.vision = nn.Linear(512, 256)\\n        self.audio = nn.Linear(128, 256)\\n        self.fc = nn.Linear(512, 10)\\n    def forward(self, img_feat, audio_feat):\\n        v = torch.relu(self.vision(img_feat))\\n        a = torch.relu(self.audio(audio_feat))\\n        return self.fc(torch.cat([v, a], dim=1))\\nmodel = MultimodalNet()"
+  },
+  {
+    "prompt": "Load AudioSet for multimodal voice AI training",
+    "completion": "from datasets import load_dataset; ds = load_dataset('google/audioset', split='train'); # Features: audio clips with labels; sample = ds[0]; print(sample['audio']['array'].shape) # (16000,)"
+  },
+  {
+    "prompt": "Implement edge AI model deployment with TinyML datasets",
+    "completion": "Use CIFAR-10 subset: from tensorflow.lite import TFLiteConverter; converter = TFLiteConverter.from_keras_model(model); tflite_model = converter.convert(). Source: Trends from medium.com/@clairedigitalogy/2025. For devices: Quantize for microcontrollers."
+  },
+  {
+    "prompt": "Edge vs Cloud AI training: Datasets for 2025 decisions",
+    "completion": "Edge for real-time (e.g., synthetic manufacturing data); Cloud for scale. Source: datacenters.com/news/cloud-vs-edge-where-should-ai-training-really-happen. Pros: Edge reduces latency, privacy."
+  },
+  {
+    "prompt": "How to prepare genomics data for AI training in 2025?",
+    "completion": "Steps: 1. Clean data, 2. Ensure consistency, 3. Structure and label, 4. Add diversity. From Sanger Institute's 2025 guide. Code: Use pandas for cleaning: import pandas as pd; df = pd.read_csv('genomics.csv'); df.dropna(inplace=True)"
+  },
+  {
+    "prompt": "What is NOAAGlobalTemp dataset for climate modeling?",
+    "completion": "NOAAGlobalTemp v6.0.0: Comprehensive land/ocean temp data for global climate reports. March 2025 edition. Use: Train ML models for anomaly detection.<grok:render card_id="
+  },
+  {
+    "prompt": "Berkeley Earth's 2025 climate model synthesis dataset",
+    "completion": "Future temp projections (TAVG, TMAX, TMIN) expected Q1 2025. Covers historical to future. Use: Validate climate AI models.<grok:render card_id="
+  },
+  {
+    "prompt": "PRISM weather datasets for regional climate modeling",
+    "completion": "PRISM: High-res gridded climate data 1895-present. Multiple resolutions. Source: prism.oregonstate.edu. AI use: Downscaling for local predictions."
+  },
+  {
+    "prompt": "Top sustainability datasets for AI training in 2025",
+    "completion": "Datarade's 2025 list includes ESG metrics and carbon emission data for green AI. Load: from datasets import load_dataset; ds = load_dataset('sustainability/esg').<grok:render card_id="
+  },
+  {
+    "prompt": "VR training statistics and datasets for 2025",
+    "completion": "VR reduces training time by 75%; datasets like simulated scenarios for safety drills. Takeaway Reality 2025 stats.<grok:render card_id="
+  },
+  {
+    "prompt": "Benefits of VR/AR in job training 2025",
+    "completion": "SHRM 2025: Boosts retention 20%, cuts costs 40%. Datasets: Immersive sims for healthcare procedures."
+  },
+  {
+    "prompt": "Top VR training trends and datasets 2025",
+    "completion": "ArborXR: AI-integrated VR with datasets for soft skills. Example: VirtualSpeech's conversation datasets.<grok:render card_id="
+  },
+  {
+    "prompt": "Virtual reality training examples transforming learning 2025",
+    "completion": "WarpVR: 10 examples like aviation sims using flight datasets. Scalable across organizations.<grok:render card_id="
+  },
+  {
+    "prompt": "Explain overfitting in machine learning in simple terms.",
+    "completion": "Overfitting is like a student who memorizes the answers to a practice test instead of learning the actual subject. The student will get a perfect score on that specific test, but will fail the real exam because they can't handle new questions.\\n\\nIn machine learning, an overfit model has learned the training data, including its noise and random fluctuations, too perfectly. As a result, it performs very well on the data it was trained on, but fails to generalize and make accurate predictions on new, unseen data."
+  },
+  {
+    "prompt": "Explain the Bias-Variance Tradeoff.",
+    "completion": "The Bias-Variance Tradeoff is a fundamental challenge in machine learning that involves balancing two types of errors:\\n\\n- **Bias:** This is the error from having an overly simple model. A high-bias model ignores the underlying patterns in the data and consistently makes wrong assumptions (underfitting). It's like trying to fit a straight line to a wavy curve.\\n\\n- **Variance:** This is the error from having an overly complex model. A high-variance model is too sensitive to the noise in the training data (overfitting). It fits the training data perfectly but fails on new data. It's like trying to draw a wild, squiggly line that passes through every single data point.\\n\\n**The Tradeoff:** You can't minimize both at the same time. As you decrease a model's bias (make it more complex), you typically increase its variance, and vice-versa. The goal is to find a sweet spot in the middle that performs well on new, unseen data."
+  },
+  {
+    "prompt": "Explain overfitting and how to prevent it.",
+    "completion": "Overfitting = model memorizes training data and fails on new data. Prevent with regularization, dropout, early stopping, cross-validation, and more data."
+  },
+  {
+    "prompt": "Explain bias-variance tradeoff.",
+    "completion": "Bias = error from oversimplification. Variance = error from over-sensitivity. Good models balance bias and variance for best generalization."
+  },
+  {
+    "prompt": "Explain neural networks in simple terms.",
+    "completion": "Neural networks are layers of math functions inspired by the brain. They take inputs, apply weights, pass through activation functions, and produce outputs."
+  },
+  {
+    "prompt": "Explain precision vs recall vs F1 score.",
+    "completion": "Precision = correct positives out of predicted positives. Recall = correct positives out of actual positives. F1 = harmonic mean of precision & recall."
+  },
+  {
+    "prompt": "Explain cross-validation in machine learning.",
+    "completion": "Cross-validation splits data into k folds, training on k-1 and testing on 1, repeated k times, to estimate model performance more reliably."
+  },
+  {
+    "prompt": "Explain CNNs (convolutional neural networks).",
+    "completion": "CNNs use convolutional layers to detect spatial patterns in data like images, learning edges \u2192 textures \u2192 shapes \u2192 objects."
+  },
+  {
+    "prompt": "Explain recurrent neural networks (RNNs).",
+    "completion": "RNNs process sequential data by maintaining a hidden state that carries information from previous steps, useful for text, time-series."
+  },
+  {
+    "prompt": "Explain fine-tuning a language model.",
+    "completion": "Fine-tuning adjusts a pretrained model's weights on task-specific data (e.g., sentiment analysis) to specialize it while retaining general knowledge."
+  },
+  {
+    "prompt": "Explain model deployment challenges.",
+    "completion": "Deployment challenges include scaling inference, monitoring drift, handling latency, versioning, and ensuring reproducibility."
+  },
+  {
+    "prompt": "Explain model drift.",
+    "completion": "Model drift occurs when real-world data changes over time, reducing accuracy. Solutions: retraining, monitoring metrics, adaptive models."
+  },
+  {
+    "prompt": "Explain overfitting in ML.",
+    "completion": "Overfitting happens when a model memorizes training data instead of generalizing. Fixes: regularization, dropout, more data."
+  },
+  {
+    "prompt": "Explain cloud service models: IaaS, PaaS, SaaS.",
+    "completion": "IaaS: Infrastructure as a Service (servers, storage, networking, e.g., AWS EC2). PaaS: Platform as a Service (runtime environment, e.g., Heroku). SaaS: Software as a Service (complete apps, e.g., Gmail)."
+  },
+  {
+    "prompt": "Explain the MVC (Model-View-Controller) design pattern.",
+    "completion": "MVC separates applications into three layers: Model (data and logic), View (user interface), and Controller (handles user input and updates Model/View). This promotes maintainability and separation of concerns."
+  },
+  {
+    "prompt": "Describe the MVVM (Model-View-ViewModel) pattern.",
+    "completion": "MVVM separates the UI (View) from business logic (ViewModel) and data (Model). The ViewModel handles state and data-binding, allowing automatic UI updates when the model changes."
+  },
+  {
+    "prompt": "Explain supervised learning in machine learning.",
+    "completion": "Supervised learning trains a model on labeled data, where input-output pairs are known. The model learns to predict outputs for new, unseen inputs. Examples: regression, classification."
+  },
+  {
+    "prompt": "Describe overfitting and how to prevent it.",
+    "completion": "Overfitting occurs when a model learns noise instead of patterns, performing well on training data but poorly on new data. Prevention: regularization, cross-validation, more data, simpler models."
+  },
+  {
+    "prompt": "Explain bias and variance in machine learning.",
+    "completion": "Bias: error from overly simple models (underfitting). Variance: error from overly complex models (overfitting). Good models balance bias and variance."
+  },
+  {
+    "prompt": "Describe neural networks and their structure.",
+    "completion": "Neural networks are layers of interconnected nodes (neurons) that transform inputs to outputs. Layers: input, hidden, output. Activation functions introduce non-linearity."
+  },
+  {
+    "prompt": "Explain deep learning vs. traditional machine learning.",
+    "completion": "Deep learning uses neural networks with many layers to automatically learn features from raw data. Traditional ML often requires manual feature engineering and simpler algorithms."
+  },
+  {
+    "prompt": "Describe convolutional neural networks (CNNs).",
+    "completion": "CNNs are specialized neural networks for processing grid-like data (images). They use convolutional layers to detect features such as edges, textures, and shapes."
+  },
+  {
+    "prompt": "Explain recurrent neural networks (RNNs) and LSTMs.",
+    "completion": "RNNs handle sequential data by maintaining hidden state across time steps. LSTMs (Long Short-Term Memory) overcome RNN limitations like vanishing gradients for long sequences."
+  },
+  {
+    "prompt": "Describe deploying machine learning models.",
+    "completion": "Deployment involves serving models to users or applications. Techniques: REST APIs, serverless endpoints, cloud ML services. Monitoring ensures performance and updates."
+  },
+  {
+    "prompt": "What is epilepsy?",
+    "completion": "A neurological disorder characterized by recurrent seizures due to abnormal neural activity."
+  },
+  {
+    "prompt": "How does an AI neural network optimize weights?",
+    "completion": "It adjusts connection strengths using backpropagation to minimize error between predicted and target outputs."
+  },
+  {
+    "prompt": "What is backpropagation in simple terms?",
+    "completion": "A method where errors are sent backward through a network to adjust weights for more accurate predictions."
+  },
+  {
+    "prompt": "Explain recurrent neural networks.",
+    "completion": "Networks that maintain internal states to process sequential or time-dependent data."
+  },
+  {
+    "prompt": "How does normalization in neural networks help learning?",
+    "completion": "It keeps inputs in a manageable range, stabilizing and accelerating training."
+  },
+  {
+    "prompt": "What are the benefits of hierarchical reinforcement learning?",
+    "completion": "It decomposes complex tasks into simpler sub-tasks, improving efficiency and generalization."
+  },
+  {
+    "prompt": "Explain dropout in neural networks.",
+    "completion": "Randomly disabling units during training prevents overfitting and encourages robust feature learning."
+  },
+  {
+    "prompt": "How does stochasticity benefit neural networks?",
+    "completion": "Randomness prevents overfitting, explores alternative solutions, and improves generalization."
+  },
+  {
+    "prompt": "What are autoencoders?",
+    "completion": "Neural networks that learn compressed representations of data and can reconstruct original input."
+  },
+  {
+    "prompt": "Explain weight initialization in neural networks.",
+    "completion": "Setting initial weights carefully prevents symmetry issues and helps convergence during training."
+  },
+  {
+    "prompt": "How does noise injection help AI training?",
+    "completion": "Introducing controlled randomness prevents overfitting and encourages generalization."
+  },
+  {
+    "prompt": "Explain ensemble learning.",
+    "completion": "Combining predictions from multiple models to improve accuracy and robustness."
+  },
+  {
+    "prompt": "How does reinforcement learning mimic natural learning?",
+    "completion": "It strengthens behaviors or solutions that achieve desirable outcomes, similar to reward-based learning in humans."
+  },
+  {
+    "prompt": "What is the function of the nucleus accumbens?",
+    "completion": "Plays a central role in reward processing, pleasure, and reinforcement learning."
+  },
+  {
+    "prompt": "Explain the function of the ventral striatum.",
+    "completion": "Plays a key role in reward, motivation, and reinforcement learning."
+  },
+  {
+    "prompt": "Define the role of the ventral pallidum.",
+    "completion": "Part of the basal ganglia, involved in motivation, reward, and reinforcement learning."
+  }
+]
