@@ -1,0 +1,33 @@
+Prompt: What is CRISPR?
+Completion: Gene-editing technology from bacterial immune systems. Cas9 protein acts as molecular scissors, cutting DNA at precise locations guided by RNA. Allows adding, removing, or changing genes. Revolutionary for medicine, agriculture, and research.
+
+Prompt: Explain DNA replication.
+Completion: DNA unzips via helicase enzyme. DNA polymerase reads each strand (3' to 5') and builds complementary strand (5' to 3'). Leading strand synthesizes continuously; lagging strand makes Okazaki fragments joined by ligase. Semiconservative - each new DNA has one old strand.
+
+Prompt: What is epigenetics?
+Completion: Changes in gene expression without altering DNA sequence. Chemical tags (methylation, acetylation) on DNA or histones turn genes on/off. Influenced by environment, diet, stress. Can be inherited across generations, challenging pure genetic determinism.
+
+Prompt: Explain the central dogma of biology.
+Completion: DNA → RNA → Protein. DNA stores information, transcribed to mRNA, translated to proteins by ribosomes. Information flows one way (mostly - reverse transcriptase in retroviruses goes RNA → DNA). Foundation of molecular biology.
+
+Prompt: What are telomeres?
+Completion: Protective caps on chromosome ends, like plastic tips on shoelaces. Shorten with each cell division. When too short, cells stop dividing (senescence) or die. Linked to aging. Telomerase enzyme can rebuild them - active in stem cells and cancer.
+
+Prompt: Explain mitochondrial DNA.
+Completion: Mitochondria have their own circular DNA, separate from nuclear DNA. Inherited only from mothers. Contains 37 genes for energy production. Supports endosymbiotic theory - mitochondria were once independent bacteria. Used in evolutionary and forensic studies.
+
+Prompt: What is apoptosis?
+Completion: Programmed cell death - controlled self-destruction. Cells shrink, break into fragments, get eaten by immune cells. Essential for development (removing webbing between fingers), preventing cancer (killing damaged cells), and immune function. Distinct from necrosis (uncontrolled death).
+
+Prompt: Explain stem cells.
+Completion: Undifferentiated cells that can become any cell type. Embryonic stem cells are pluripotent (become anything). Adult stem cells are multipotent (limited options). Used in regenerative medicine, disease modeling, and understanding development. Ethical controversies with embryonic sources.
+
+Prompt: What is the microbiome?
+Completion: The trillions of bacteria, viruses, fungi living in/on your body. Gut microbiome affects digestion, immunity, mood, and weight. More microbial cells than human cells in your body. Dysbiosis (imbalance) linked to diseases. Personalized and influenced by diet.
+
+Prompt: Explain gene expression regulation.
+Completion: Genes are regulated at multiple levels: transcriptional (transcription factors binding DNA), post-transcriptional (mRNA splicing, stability), translational (ribosome access), and post-translational (protein modifications). Allows same genome to create diverse cell types responding to environment.
+
+Prompt: What is the gut microbiome's role?
+Completion: Trillions of gut bacteria affect digestion, immunity, mood, weight. Produce vitamins (K, B), digest fiber into short-chain fatty acids. Dysbiosis (imbalance) linked to obesity, IBD, mental health. Improved by diverse fiber-rich diet, fermented foods, limiting antibiotics.
+
