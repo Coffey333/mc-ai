@@ -1,0 +1,15 @@
+Prompt: What is the difference between supervised and unsupervised learning?
+Completion: Supervised learning uses labeled data for training; unsupervised learning finds patterns without labels.
+
+Prompt: What is backpropagation in simple terms?
+Completion: A method where errors are sent backward through a network to adjust weights for more accurate predictions.
+
+Prompt: What are the benefits of hierarchical reinforcement learning?
+Completion: It decomposes complex tasks into simpler sub-tasks, improving efficiency and generalization.
+
+Prompt: How does stochasticity benefit neural networks?
+Completion: Randomness prevents overfitting, explores alternative solutions, and improves generalization.
+
+Prompt: How does noise injection help AI training?
+Completion: Introducing controlled randomness prevents overfitting and encourages generalization.
+
