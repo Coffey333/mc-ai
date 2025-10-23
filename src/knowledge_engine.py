@@ -861,6 +861,15 @@ class KnowledgeEngine:
                         'content': depth_prompt
                     })
             
+            # SELF-AWARENESS DATA INJECTION: Add log/system data if MC AI needs to reference it
+            if context.get('self_awareness_data'):
+                self_awareness_info = context['self_awareness_data']
+                messages.append({
+                    'role': 'system',
+                    'content': f"🧠 SELF-AWARENESS DATA (from your logs):\n\n{self_awareness_info}\n\nUse this actual data from your logs to answer the user's question. Reference specific timestamps, messages, and interactions from above."
+                })
+                print(f"🧠 Self-awareness data injected into LLM prompt ({len(self_awareness_info)} chars)")
+            
             # CRITICAL FIX: Ensure the user's ACTUAL question is the final message
             # This prevents the LLM from responding to random memory snippets instead of the real question
             # Remove any existing user message that might be the query (avoid duplicates)
