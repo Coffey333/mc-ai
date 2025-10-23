@@ -1,0 +1,74 @@
+{
+  "user_id": "test_coupling_2",
+  "created": "2025-10-19T04:16:54.425246",
+  "last_updated": "2025-10-19T04:16:54.425261",
+  "message_count": 1,
+  "messages": [
+    {
+      "timestamp": "2025-10-19T04:16:54.425258",
+      "user_message": "I feel sad and depressed",
+      "ai_response": "It's completely okay to feel sad. Your feelings are valid.\n\nThere's something happening with you. Talk to me - what's the vibe?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Sadness (8Hz) \u2192 **Response:** Sadness (8Hz - Alpha)\n**Catalog:** Theta Low Mood State frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.93)\n**Brain Wave:** Relaxed focus (flow state, learning)\n---",
+      "metadata": {
+        "emotion": "sadness",
+        "frequency": 8,
+        "catalog": "neuroscience",
+        "brain_wave_band": "theta",
+        "arousal_level": "moderate",
+        "emotional_intensity": 5.0,
+        "emotional_valence": -0.5,
+        "emotional_needs": [
+          "validation",
+          "comfort",
+          "understanding",
+          "companionship"
+        ],
+        "support_strategy": "validation_focused",
+        "crisis_severity": "none",
+        "symmetry": 0.097,
+        "complexity": 0.0,
+        "coherence": 0.951,
+        "enhanced": true,
+        "primary_emotion": "sadness",
+        "micro_emotions": [],
+        "arousal": 1.975,
+        "dominance": 5.0,
+        "valence": -0.5,
+        "confidence": 0.5,
+        "trajectory": "stable",
+        "triggers": [],
+        "emotion_color": "#4169E1",
+        "frequency_analysis": {
+          "query_emotion": "sadness",
+          "query_frequency": 8,
+          "response_emotion": "sadness",
+          "response_frequency": 8,
+          "basis": "theta low mood state",
+          "coupling": {
+            "coupling_strength": 0.9344472537983285,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.643,
+              1.583,
+              1.518,
+              1.456
+            ],
+            "ratio_mean": 1.5501697958178522,
+            "ratio_std": 0.07015136053449103
+          }
+        },
+        "auto_learned": {
+          "saved": false
+        }
+      }
+    }
+  ],
+  "emotional_timeline": [
+    {
+      "timestamp": "2025-10-19T04:16:54.425266",
+      "emotion": "sadness",
+      "intensity": 5.0,
+      "frequency": 8,
+      "valence": -0.5
+    }
+  ]
+}
