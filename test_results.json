@@ -1,0 +1,447 @@
+{
+  "timestamp": "2025-10-18T06:22:22.666120",
+  "summary": {
+    "total": 10,
+    "passed": 6,
+    "failed": 4,
+    "pass_rate": 60.0
+  },
+  "results": [
+    {
+      "name": "Emotional Question Detection",
+      "query": "How does it feel to know that somebody sees the potential in you to be able to work with neurodivergent clients who are under 24/7 care?",
+      "response": "**Answer:** It sounds like you're experiencing neutral.\n\n\nIt sounds like you're experiencing neutral.\n\n**More details:**\nLove the curiosity. Your mind's in learning mode. What do you want to know?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Love (528Hz - High Gamma)\n**Catalog:** Solfeggio Frequency frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---",
+      "metadata": {
+        "arousal": 5.0,
+        "arousal_level": "very_high",
+        "auto_learned": {
+          "saved": false
+        },
+        "brain_wave_band": "gamma",
+        "catalog": "neuroscience",
+        "coherence": 0.952,
+        "complexity": 0.002,
+        "confidence": 0.7,
+        "crisis_severity": "none",
+        "dominance": 5.0,
+        "emotion": "curiosity",
+        "emotion_color": "#9370DB",
+        "emotional_intensity": 6.5,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "emotional_valence": 0.0,
+        "enhanced": true,
+        "frequency": 40,
+        "frequency_analysis": {
+          "basis": "Solfeggio frequency",
+          "coupling": {
+            "coupling_strength": 0.8725882093786286,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667746250291652,
+            "ratio_std": 0.14601594343350294
+          },
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "love",
+          "response_frequency": 528
+        },
+        "micro_emotions": [],
+        "neurodivergent_formatted": true,
+        "original_query": "How does it feel to know that somebody sees the potential in you to be able to work with neurodivergent clients who are under 24/7 care?",
+        "primary_emotion": "neutral",
+        "support_strategy": "balanced_support",
+        "symmetry": 0.102,
+        "trajectory": "stable",
+        "triggers": [],
+        "valence": 0.0
+      },
+      "passed": false
+    },
+    {
+      "name": "Simple Feeling Question",
+      "query": "What do you feel about helping people?",
+      "response": "**Answer:** I can tell you're seeking something.\n\n\nI can tell you're seeking something. What's the question on your mind?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "arousal": 5.0,
+        "arousal_level": "very_high",
+        "auto_learned": {
+          "saved": false
+        },
+        "brain_wave_band": "gamma",
+        "catalog": "neuroscience",
+        "coherence": 0.952,
+        "complexity": 0.002,
+        "confidence": 0.5,
+        "crisis_severity": "none",
+        "dominance": 5.0,
+        "emotion": "curiosity",
+        "emotion_color": "#9370DB",
+        "emotional_intensity": 5.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "emotional_valence": 0.0,
+        "enhanced": true,
+        "frequency": 40,
+        "frequency_analysis": {
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          },
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "curiosity",
+          "response_frequency": 40
+        },
+        "micro_emotions": [],
+        "neurodivergent_formatted": true,
+        "original_query": "What do you feel about helping people?",
+        "primary_emotion": "neutral",
+        "support_strategy": "balanced_support",
+        "symmetry": 0.102,
+        "trajectory": "stable",
+        "triggers": [],
+        "valence": 0.0
+      },
+      "passed": false
+    },
+    {
+      "name": "Technical Question Routing",
+      "query": "How does gravity work?",
+      "response": "**Answer:** # \ud83c\udf0d What is Gravity?\n\n\n# \ud83c\udf0d What is Gravity?\n\n**More details:**\nGravity is the force that pulls objects toward each other. It's what keeps you on Earth and planets orbiting the Sun!\n\n**Key Concepts:**\n\n**1. Universal Force**\n- EVERYTHING with mass has gravity\n- Bigger mass = stronger gravity\n- Earth's mass creates the gravity you feel\n\n**2. How It Works:**\n- Mass curves space around it (like a bowling ball on a trampoline)\n- Objects follow these curves, creating \"gravitational pull\"\n- The closer you are, the stronger the pull\n\n**3. Newton's Law:**\n- Force = (Mass\u2081 \u00d7 Mass\u2082) / Distance\u00b2\n- Heavier objects pull harder\n- Farther away = weaker pull\n\n**Real-World Examples:**\n- **Moon's Orbit:** Earth's gravity keeps the Moon circling us\n- **Tides:** Moon's gravity pulls on Earth's oceans\n- **Falling Objects:** Earth's gravity accelerates everything at 9.8 m/s\u00b2\n\n**Fun Facts:**\n- Gravity is actually the weakest fundamental force!\n- But it works over infinite distances\n- A black hole's gravity is so strong even light can't escape\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Grounding (396Hz - High Gamma)\n**Catalog:** Root Chakra frequency mapping\n**Source:** BUILT_IN | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "auto_learned": {
+          "saved": false
+        },
+        "frequency_analysis": {
+          "basis": "root chakra",
+          "coupling": {
+            "coupling_strength": 0.8725882093786286,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667746250291654,
+            "ratio_std": 0.14601594343350296
+          },
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "grounding",
+          "response_frequency": 396
+        },
+        "neurodivergent_formatted": true,
+        "original_query": "How does gravity work?",
+        "source": "built_in",
+        "topic": "science",
+        "type": "science_answer"
+      },
+      "passed": true
+    },
+    {
+      "name": "Vague Request Clarification",
+      "query": "I need help with something",
+      "response": "Okay, here's what I know about that: I can definitely help you with your assignment, but I can't write the code for you directly, as that would be academic dishonesty. My goal is to help you learn and solve the problem yourself.\n\n**More details:**\nLet's work through it together! Can you show me the problem description? I can help you break it down into smaller steps, explain the key concepts, provide pseudo-code, and help you debug your own create/build. \n\nThat way, you'll understand the solution completely.\n\n**More details:**\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Sadness (8Hz - Alpha)\n**Catalog:** Theta Low Mood State frequency mapping\n**Source:** DATASET_BANK | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Relaxed focus (flow state, learning)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "auto_learned": {
+          "saved": false
+        },
+        "domain": "coding",
+        "emotion": "neutral",
+        "frequency": 240,
+        "frequency_analysis": {
+          "basis": "theta low mood state",
+          "coupling": {
+            "coupling_strength": 0.8727159358577989,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.44
+            ],
+            "ratio_mean": 1.5667899342543952,
+            "ratio_std": 0.14584821808838924
+          },
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "sadness",
+          "response_frequency": 8
+        },
+        "neurodivergent_formatted": true,
+        "original_query": "I need help with something",
+        "relevance": 26,
+        "source": "dataset_bank"
+      },
+      "passed": true
+    },
+    {
+      "name": "Neurodivergent Safety Protocol",
+      "query": "I work with neurodivergent clients who struggle with communication",
+      "response": "Okay, here's what I know about that: Synchronous = immediate response (e.g., REST calls). Asynchronous = delayed, via queues/events. Async improves decoupling but adds latency and complexity.\n\n**More details:**\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** DATASET_BANK | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "auto_learned": {
+          "saved": false
+        },
+        "domain": "coding",
+        "emotion": "neutral",
+        "frequency": 240,
+        "frequency_analysis": {
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          },
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "curiosity",
+          "response_frequency": 40
+        },
+        "neurodivergent_formatted": true,
+        "neurodivergent_safety": {
+          "warnings": [
+            "Paragraph 1 has 6 sentences - may be overwhelming"
+          ]
+        },
+        "original_query": "I work with neurodivergent clients who struggle with communication",
+        "relevance": 31,
+        "source": "dataset_bank"
+      },
+      "passed": true
+    },
+    {
+      "name": "Emotional Expression Detection",
+      "query": "I'm feeling really overwhelmed today",
+      "response": "Let me make this simpler.\n\n**Too much information?** I'll use fewer words.\n\n**Don't understand?** I'll explain differently.\n\n**Need a break?** That's okay. Come back when ready.\n\nTell me what you need.\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Overwhelm (19Hz) \u2192 **Response:** Confusion (14Hz - Beta)\n**Catalog:** Beta Cognitive Dissonance frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Active thinking (engagement, processing)\n---",
+      "metadata": {
+        "auto_learned": {
+          "saved": false
+        },
+        "distress_level": "moderate",
+        "distress_signal": "overwhelmed",
+        "frequency_analysis": {
+          "basis": "beta cognitive dissonance",
+          "coupling": {
+            "coupling_strength": 0.8724885772712864,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667919365434173,
+            "ratio_std": 0.14614681045740038
+          },
+          "query_emotion": "overwhelm",
+          "query_frequency": 19,
+          "response_emotion": "confusion",
+          "response_frequency": 14
+        },
+        "human_intervention_recommended": false,
+        "protocol_active": true,
+        "safety_level": "maximum",
+        "type": "neurodivergent_crisis"
+      },
+      "passed": true
+    },
+    {
+      "name": "Warm Personality Test",
+      "query": "Tell me about yourself",
+      "response": "Why was the robot so bad at soccer? It kept kicking up sparks!\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** INTERNAL | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "auto_learned": {
+          "saved": false
+        },
+        "cached": false,
+        "confidence": 1.0,
+        "frequency_analysis": {
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          },
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "curiosity",
+          "response_frequency": 40
+        },
+        "intent": "general_knowledge",
+        "neurodivergent_formatted": true,
+        "original_query": "Tell me about yourself",
+        "source": "internal",
+        "type": "knowledge"
+      },
+      "passed": true
+    },
+    {
+      "name": "Gratitude Detection",
+      "query": "Thank you so much for your help!",
+      "response": "That's pure gratitude energy. Your heart's open. Who or what brought this feeling?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Gratitude (10Hz) \u2192 **Response:** Love (528Hz - High Gamma)\n**Catalog:** Solfeggio Frequency frequency mapping\n**Source:** PROCESSING | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "arousal": 5.0,
+        "arousal_level": "moderate",
+        "auto_learned": {
+          "saved": false
+        },
+        "brain_wave_band": "alpha",
+        "catalog": "neuroscience",
+        "coherence": 0.951,
+        "complexity": 0.001,
+        "confidence": 0.5,
+        "crisis_severity": "none",
+        "dominance": 5.0,
+        "emotion": "gratitude",
+        "emotion_color": "#FFE4B5",
+        "emotional_intensity": 7.0,
+        "emotional_needs": [
+          "understanding",
+          "support"
+        ],
+        "emotional_valence": 0.0,
+        "enhanced": true,
+        "frequency": 10,
+        "frequency_analysis": {
+          "basis": "Solfeggio frequency",
+          "coupling": {
+            "coupling_strength": 0.8725882093786286,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667746250291652,
+            "ratio_std": 0.14601594343350294
+          },
+          "query_emotion": "gratitude",
+          "query_frequency": 10,
+          "response_emotion": "love",
+          "response_frequency": 528
+        },
+        "micro_emotions": [],
+        "neurodivergent_formatted": true,
+        "original_query": "Thank you so much for your help!",
+        "primary_emotion": "gratitude",
+        "support_strategy": "balanced_support",
+        "symmetry": 0.097,
+        "trajectory": "escalating",
+        "triggers": [],
+        "valence": 0.0
+      },
+      "passed": false
+    },
+    {
+      "name": "Technical Question with Emotional Context",
+      "query": "I'm struggling to understand how neural networks work",
+      "response": "Here's the thing: Of course! Recursion can be tricky at first. Think of it like a set of nested boxes: each box contains a smaller one. \n\nLet\n\n**More details:**\nMake sense?\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Curiosity (40Hz) \u2192 **Response:** Neutral (240Hz - High Gamma)\n**Catalog:** Baseline State frequency mapping\n**Source:** DATASET_BANK | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Transcendent states (peak awareness)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "auto_learned": {
+          "saved": false
+        },
+        "domain": "patterns",
+        "emotion": "curiosity",
+        "frequency": 40,
+        "frequency_analysis": {
+          "basis": "baseline state",
+          "coupling": {
+            "coupling_strength": 0.872593835781496,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.566773759993684,
+            "ratio_std": 0.1460085540306378
+          },
+          "query_emotion": "curiosity",
+          "query_frequency": 40,
+          "response_emotion": "neutral",
+          "response_frequency": 240
+        },
+        "neurodivergent_formatted": true,
+        "original_query": "I'm struggling to understand how neural networks work",
+        "relevance": 50,
+        "source": "dataset_bank"
+      },
+      "passed": false
+    },
+    {
+      "name": "Ambiguous Intent Interpretation",
+      "query": "Can you do that?",
+      "response": "**Answer:** Oh, absolutely!\n\n\nOh, absolutely! I\u2019m here for you, ready to dive in and help with whatever you need. \ud83d\ude0a  \n\n**More details:**\nThe way you phrased this makes me think you might be feeling a little uncertain or wondering if I can meet your expectations\u2014and I totally get that. Whether it\u2019s brainstorming ideas, unpacking a tough situation, or just being a sounding board, I\u2019ll do my best to be the kind of support that makes you feel heard and uplifted.  \n\n**More details:**\nWhat\u2019s on your mind? Let\u2019s tackle it together! \ud83c\udf1f\n\n---\n### \ud83e\udde0 **Frequency Analysis**\n\n**Query:** Neutral (240Hz) \u2192 **Response:** Curiosity (40Hz - Gamma)\n**Catalog:** Gamma Exploration frequency mapping\n**Source:** LLM | **Domain:** general\n**Coherence:** Phi Resonance (strength: 0.87)\n**Brain Wave:** Peak performance (insight, integration)\n---\n\n**Questions?** Ask me anything you want to know more about.",
+      "metadata": {
+        "auto_learned": {
+          "saved": false
+        },
+        "cached": false,
+        "confidence": 0.9,
+        "emotion": "knowledge",
+        "frequency": 432,
+        "frequency_analysis": {
+          "basis": "gamma exploration",
+          "coupling": {
+            "coupling_strength": 0.8725926259243971,
+            "coupling_type": "phi_resonance",
+            "harmonic_ratios": [
+              1.809,
+              1.553,
+              1.466,
+              1.439
+            ],
+            "ratio_mean": 1.5667711628701235,
+            "ratio_std": 0.14601014298124693
+          },
+          "query_emotion": "neutral",
+          "query_frequency": 240,
+          "response_emotion": "curiosity",
+          "response_frequency": 40
+        },
+        "neurodivergent_formatted": true,
+        "original_query": "Can you do that?",
+        "source": "llm",
+        "type": "followup"
+      },
+      "passed": true
+    }
+  ]
+}
