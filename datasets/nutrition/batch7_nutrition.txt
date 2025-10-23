@@ -1,0 +1,27 @@
+Prompt: What is metabolism?
+Completion: All chemical reactions sustaining life. Catabolism breaks down molecules for energy. Anabolism builds molecules using energy. Basal metabolic rate (BMR) is energy at rest. Affected by age, muscle mass, genetics, hormones. Exercise increases temporarily; muscle mass increases permanently.
+
+Prompt: Explain macronutrients.
+Completion: Carbohydrates: 4 cal/g, quick energy, fiber. Proteins: 4 cal/g, building blocks (amino acids), tissue repair. Fats: 9 cal/g, dense energy, hormone production, nutrient absorption. Balance depends on activity level and goals. No macro is inherently bad.
+
+Prompt: What is insulin resistance?
+Completion: Cells don't respond well to insulin, so pancreas makes more. Eventually can't keep up → high blood sugar → type 2 diabetes. Caused by excess weight, inactivity, diet high in processed carbs. Reversible with weight loss, exercise, diet changes. Precursor to metabolic syndrome.
+
+Prompt: Explain micronutrients.
+Completion: Vitamins and minerals needed in small amounts. Vitamins: organic, help enzymes work. Minerals: inorganic, structural and regulatory. Deficiencies cause disease (scurvy, rickets, anemia). Most people get enough from varied diet. Supplements useful for specific deficiencies, pregnancy.
+
+Prompt: What is the glycemic index?
+Completion: How quickly carbs raise blood sugar. High GI (white bread) spikes sugar fast. Low GI (beans) raises slowly. Affects hunger, energy, diabetes risk. But GI changes with food combinations, cooking, ripeness. Glycemic load (GI × amount) more useful.
+
+Prompt: Explain ketosis.
+Completion: When carbs very low (~20-50g/day), body burns fat for energy, producing ketones. Brain uses ketones instead of glucose. Used for epilepsy, weight loss. Different from ketoacidosis (dangerous, diabetic condition). Side effects: fatigue initially, bad breath. Controversial for long-term health.
+
+Prompt: Explain antioxidants.
+Completion: Molecules that neutralize free radicals (unstable molecules damaging cells). Sources: colorful fruits/vegetables (vitamins A, C, E, polyphenols). Reduce oxidative stress linked to aging, disease. Supplements less effective than food sources. "Eat the rainbow" for antioxidant diversity.
+
+Prompt: What is intermittent fasting?
+Completion: Eating pattern cycling between eating and fasting. 16:8 (16h fast, 8h eat), 5:2 (normal 5 days, restricted 2 days), OMAD (one meal a day). May improve insulin sensitivity, autophagy (cell cleanup), longevity. Not for everyone - pregnancy, eating disorders, some medical conditions.
+
+Prompt: Explain protein synthesis.
+Completion: Dietary protein → digested into amino acids → absorbed → reassembled into body proteins (muscle, enzymes, hormones). 9 essential amino acids must come from diet. "Complete" proteins (meat, eggs, soy) have all 9. Plants (rice + beans) can combine for complete profile. Timing less important than total daily intake.
+
