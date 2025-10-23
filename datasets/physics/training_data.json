@@ -1,0 +1,446 @@
+[
+  {
+    "prompt": "What is the escape velocity of Earth?",
+    "completion": "Escape velocity v = \u221a(2GM/R). With G = 6.674\u00d710^-11\u202fm\u00b3/kg\u00b7s\u00b2, M = 5.972\u00d710^24\u202fkg, R = 6.371\u00d710^6\u202fm, v \u2248 11.2\u202fkm/s."
+  },
+  {
+    "prompt": "Calculate the orbital period of a satellite at 400\u202fkm above Earth.",
+    "completion": "Orbital period T = 2\u03c0\u221a(r\u00b3/GM), r = R_earth + 400\u202fkm = 6.771\u00d710^6\u202fm. T \u2248 92\u202fminutes."
+  },
+  {
+    "prompt": "How does thrust relate to rocket acceleration?",
+    "completion": "F = ma. For rocket mass m, thrust T generates acceleration a = T/m. Must account for decreasing mass as fuel burns."
+  },
+  {
+    "prompt": "I want to achieve geostationary orbit.",
+    "completion": "Altitude ~35,786\u202fkm above equator, orbital period 24\u202fhours, orbital speed ~3.07\u202fkm/s."
+  },
+  {
+    "prompt": "What is the effect of gravity on a multi-stage rocket?",
+    "completion": "Each stage reduces mass, increasing acceleration. Gravity losses depend on burn time and thrust-to-weight ratio (TWR)."
+  },
+  {
+    "prompt": "Calculate delta-v for LEO to GEO transfer.",
+    "completion": "Using Hohmann transfer: \u0394v1 \u2248 2.44\u202fkm/s, \u0394v2 \u2248 1.46\u202fkm/s, total \u0394v \u2248 3.90\u202fkm/s."
+  },
+  {
+    "prompt": "How do I minimize fuel consumption for interplanetary travel?",
+    "completion": "Use gravity assists, low-thrust propulsion, and Hohmann transfers. Optimize \u0394v and trajectory."
+  },
+  {
+    "prompt": "Rocket is accelerating at 3\u202fm/s\u00b2, mass = 2,000\u202fkg. Find thrust.",
+    "completion": "F = ma = 2,000\u202fkg \u00d7 3\u202fm/s\u00b2 = 6,000\u202fN. Must add weight to overcome gravity: F_total = 6,000\u202fN + 19,620\u202fN \u2248 25,620\u202fN."
+  },
+  {
+    "prompt": "Calculate orbital speed at 500\u202fkm altitude.",
+    "completion": "v = \u221a(GM/r), r = 6,371 + 500\u202fkm = 6.871\u00d710^6\u202fm, v \u2248 7.61\u202fkm/s."
+  },
+  {
+    "prompt": "How much energy does a rocket need to reach LEO?",
+    "completion": "Kinetic + potential energy: KE = \u00bdmv\u00b2 \u2248 0.5\u00d71000\u00d7(7.8\u00d710^3)\u00b2 \u2248 3.04\u00d710^10\u202fJ, PE = GMm/R \u2248 8.8\u00d710^10\u202fJ, total \u2248 1.18\u00d710^11\u202fJ."
+  },
+  {
+    "prompt": "How does atmospheric drag affect launch?",
+    "completion": "Drag force F_d = \u00bd\u03c1v\u00b2CdA. Minimized by streamlined shapes, higher thrust during dense layers, and optimized trajectory."
+  },
+  {
+    "prompt": "Explain rocket Tsiolkovsky equation.",
+    "completion": "\u0394v = v_e ln(m_0/m_f), v_e = exhaust velocity, m_0 = initial mass, m_f = final mass. Governs rocket design."
+  },
+  {
+    "prompt": "Calculate force on nozzle given exhaust speed 2,500\u202fm/s and mass flow 10\u202fkg/s.",
+    "completion": "Thrust F = \u1e41v_e = 10\u202fkg/s \u00d7 2,500\u202fm/s = 25,000\u202fN."
+  },
+  {
+    "prompt": "How do you maintain spacecraft attitude?",
+    "completion": "Use reaction wheels, control moment gyros, thrusters. Torque \u03c4 = I\u03b1 applied to change angular velocity."
+  },
+  {
+    "prompt": "A rocket loses 10% of mass per stage. How does delta-v change?",
+    "completion": "\u0394v = v_e ln(m_0/m_f). Each stage reduces m_f, increasing \u0394v for the remaining fuel."
+  },
+  {
+    "prompt": "Calculate \u0394v for Mars transfer orbit from Earth.",
+    "completion": "Hohmann transfer, semi-major axis a = (r_earth + r_mars)/2 \u2248 1.26\u00d710^11\u202fm, \u0394v \u2248 2.94\u202fkm/s from LEO."
+  },
+  {
+    "prompt": "Rocket in orbit experiences microgravity. Why?",
+    "completion": "Free-fall condition: gravitational acceleration acts equally on all parts. Apparent weight = 0."
+  },
+  {
+    "prompt": "Explain gravity assist for interplanetary missions.",
+    "completion": "Use planet"
+  },
+  {
+    "prompt": "A satellite of 500\u202fkg in circular orbit 800\u202fkm altitude. Find orbital period.",
+    "completion": "T = 2\u03c0\u221a(r\u00b3/GM), r = 6,371 + 800\u202fkm = 7.171\u00d710^6\u202fm, T \u2248 101\u202fminutes."
+  },
+  {
+    "prompt": "Calculate kinetic energy of a satellite at 400\u202fkm altitude, mass 1000\u202fkg.",
+    "completion": "v \u2248 7.67\u202fkm/s, KE = \u00bdmv\u00b2 \u2248 0.5 \u00d7 1000 \u00d7 (7,670)\u00b2 \u2248 2.94\u00d710^10\u202fJ."
+  },
+  {
+    "prompt": "Rocket engine with 500\u202fkN thrust and 50,000\u202fkg mass. Compute acceleration.",
+    "completion": "a = F/m = 500,000\u202fN / 50,000\u202fkg = 10\u202fm/s\u00b2. Overcomes gravity? Weight = 50,000\u00d79.81 \u2248 490,500\u202fN. Net a \u2248 0.95\u202fm/s\u00b2."
+  },
+  {
+    "prompt": "Explain Lagrange points.",
+    "completion": "Points where gravitational and centrifugal forces balance. Useful for satellites: stable (L4, L5) and unstable (L1, L2, L3)."
+  },
+  {
+    "prompt": "How does solar radiation pressure affect spacecraft?",
+    "completion": "F = P \u00d7 A \u00d7 reflectivity. Can slightly adjust orbit or orientation; used in solar sails."
+  },
+  {
+    "prompt": "Calculate orbital decay due to atmospheric drag at 300\u202fkm.",
+    "completion": "Drag force F_d = \u00bd\u03c1v\u00b2CdA. \u03c1 ~ 10^-11\u202fkg/m\u00b3, v ~ 7.73\u202fkm/s, small deceleration over months reduces altitude."
+  },
+  {
+    "prompt": "Rocket mass = 1500\u202fkg, exhaust = 2500\u202fm/s. \u0394v required = 5,000\u202fm/s. Find fuel mass.",
+    "completion": "\u0394v = v_e ln(m_0/m_f) \u2192 m_f = m_0 / e^(\u0394v/v_e) \u2248 1500 / e^(5000/2500) \u2248 203\u202fkg fuel left? (Check calculation)."
+  },
+  {
+    "prompt": "A spacecraft in elliptical orbit, perigee 200\u202fkm, apogee 600\u202fkm. Find velocity at perigee.",
+    "completion": "v = \u221a[GM(2/r - 1/a)], a = (r_p + r_a)/2 = 6.571\u00d710^6\u202fm, r_p = 6.571\u00d710^6\u202fm, v \u2248 7.85\u202fkm/s."
+  },
+  {
+    "prompt": "Calculate centrifugal force on space station orbiting Earth at 400\u202fkm.",
+    "completion": "F_c = m v\u00b2 / r, v \u2248 7.67\u202fkm/s, r = 6,771\u202fkm, F_c \u2248 7.67\u00b2\u00d710^6 / 6.771\u00d710^6 \u00d7 m \u2248 8.68\u202fm/s\u00b2 \u00d7 m."
+  },
+  {
+    "prompt": "Explain rocket staging advantage.",
+    "completion": "Reduces inert mass, increases \u0394v. Tsiolkovsky equation shows multi-stage rockets achieve higher velocities efficiently."
+  },
+  {
+    "prompt": "Calculate gravitational potential energy of satellite 500\u202fkm altitude.",
+    "completion": "U = -GMm/r, r = 6,371 + 500\u202fkm = 6.871\u00d710^6\u202fm, U \u2248 -4.88\u00d710^10\u202fJ for m = 1000\u202fkg."
+  },
+  {
+    "prompt": "Rocket launched at 30\u00b0 to horizon. What is horizontal range?",
+    "completion": "Ignoring drag: R = v\u00b2 sin2\u03b8 / g. v = 300\u202fm/s, \u03b8 = 30\u00b0, R \u2248 7,958\u202fm."
+  },
+  {
+    "prompt": "How to calculate \u0394v for plane change maneuver?",
+    "completion": "\u0394v = 2v sin(\u0394i/2), v = orbital speed, \u0394i = inclination change. Plane change is fuel-intensive."
+  },
+  {
+    "prompt": "Rocket experiences maximum aerodynamic pressure (Max Q). Explain.",
+    "completion": "Q = \u00bd\u03c1v\u00b2. Max Q occurs where dynamic pressure is greatest; affects structural design."
+  },
+  {
+    "prompt": "How does thrust-to-weight ratio affect liftoff?",
+    "completion": "T/W > 1 required for liftoff. Higher T/W = faster acceleration; affects fuel efficiency and trajectory."
+  },
+  {
+    "prompt": "Satellite experiences orbital precession. Why?",
+    "completion": "Due to Earth"
+  },
+  {
+    "prompt": "Explain delta-v budget planning.",
+    "completion": "Total \u0394v = sum of mission maneuvers. Crucial for fuel and trajectory optimization."
+  },
+  {
+    "prompt": "Calculate orbital velocity at LEO 200\u202fkm.",
+    "completion": "v = \u221a(GM/r) = \u221a(3.986\u00d710^14 / 6.571\u00d710^6) \u2248 7.79\u202fkm/s."
+  },
+  {
+    "prompt": "How much thrust is needed to hover on Mars?",
+    "completion": "Weight = mg, g_mars = 3.711\u202fm/s\u00b2, m = 1000\u202fkg, F = 3,711\u202fN."
+  },
+  {
+    "prompt": "Rocket in vacuum, nozzle exit pressure lower than ambient. Effect?",
+    "completion": "Under-expanded nozzle, slightly less thrust. Optimize nozzle for operating environment."
+  },
+  {
+    "prompt": "Compute time to reach orbit under constant thrust.",
+    "completion": "Integrate acceleration a = T/m(t) - g. Use"
+  },
+  {
+    "prompt": "When thrust frequency in a rocket engine increases, what happens to resonance amplitude?",
+    "completion": "Resonance amplitude rises until damped by structural design limits."
+  },
+  {
+    "prompt": "Resonant frequency at 130\u202fHz rises while exhaust temperature drops 40\u202f\u00b0C. What does this suggest?",
+    "completion": "Shift toward combustion instability; system approaching resonance node."
+  },
+  {
+    "prompt": "Rocket lift-off.",
+    "completion": "Rockets go up because the gas pushes them like when you blow up a balloon and let it go \u2014 zoom!"
+  },
+  {
+    "prompt": "Projectile motion video with initial velocity 20 m/s at 45 degrees.",
+    "completion": "The trajectory follows y = x*tan(\u03b8) - (g*x^2)/(2*v^2*cos^2(\u03b8)). Maximum height: 10.2 m. Range: 40.8 m."
+  },
+  {
+    "prompt": "Explain effect of rotation on rocket trajectory near poles.",
+    "completion": "Coriolis effect minimal near equator, increases near poles. Launch azimuth must compensate."
+  },
+  {
+    "prompt": "Calculate potential energy difference from 200\u202fkm to 400\u202fkm orbit.",
+    "completion": "\u0394U = GMm(1/r1 - 1/r2) \u2248 3.05\u00d710^10\u202fJ for m = 1000\u202fkg."
+  },
+  {
+    "prompt": "Rocket mass = 10,000\u202fkg, thrust = 200\u202fkN. Compute acceleration at liftoff.",
+    "completion": "a = F/m = 200,000\u202fN / 10,000\u202fkg = 20\u202fm/s\u00b2. Overcomes gravity? Weight = 10,000\u00d79.81 = 98,100\u202fN, net a \u2248 10.2\u202fm/s\u00b2."
+  },
+  {
+    "prompt": "What is terminal velocity for a 100\u202fkg satellite falling through air?",
+    "completion": "v_t = \u221a(2mg / \u03c1CdA). With \u03c1 \u2248 1.225\u202fkg/m\u00b3, Cd = 0.47, A = 1\u202fm\u00b2, v_t \u2248 63\u202fm/s."
+  },
+  {
+    "prompt": "Calculate escape velocity from Moon (M = 7.347\u00d710^22\u202fkg, R = 1.737\u00d710^6\u202fm).",
+    "completion": "v = \u221a(2GM/R) \u2248 \u221a(2\u00d76.674\u00d710^-11\u00d77.347\u00d710^22 / 1.737\u00d710^6) \u2248 2.38\u202fkm/s."
+  },
+  {
+    "prompt": "Rocket in elliptical orbit, semi-major axis 10,000\u202fkm, perigee 2,000\u202fkm. Find apogee velocity.",
+    "completion": "v_a = \u221a[GM(2/r_a - 1/a)], r_a = a\u00d72 - r_p? Compute numerical value v_a \u2248 3.5\u202fkm/s."
+  },
+  {
+    "prompt": "Compute gravitational force between two satellites, m1 = m2 = 500\u202fkg, r = 100\u202fm.",
+    "completion": "F = G m1 m2 / r\u00b2 = 6.674\u00d710^-11\u00d7500\u00d7500 / 100\u00b2 \u2248 1.67\u00d710^-8\u202fN."
+  },
+  {
+    "prompt": "Calculate energy required to transfer satellite from 200\u202fkm to 500\u202fkm orbit.",
+    "completion": "\u0394E = \u0394KE + \u0394PE. KE = \u00bdmv\u00b2, PE = -GMm/r. Compute total \u2248 2.1\u00d710^10\u202fJ for m = 1000\u202fkg."
+  },
+  {
+    "prompt": "A rocket burns 500\u202fkg fuel per second, exhaust velocity 3,000\u202fm/s. Thrust?",
+    "completion": "F = \u1e41 v_e = 500 \u00d7 3,000 = 1.5\u00d710^6\u202fN."
+  },
+  {
+    "prompt": "Explain Lagrange points L1-L5 with examples.",
+    "completion": "L1 between Earth-Moon: satellite remains aligned. L4/L5 stable, used for space observatories."
+  },
+  {
+    "prompt": "Compute time for Hohmann transfer Earth-Mars.",
+    "completion": "T = \u03c0\u221a(a\u00b3/\u03bc), a = (r_earth+r_mars)/2 \u2248 1.26\u00d710^11\u202fm, \u03bc = GM_sun, T \u2248 258\u202fdays."
+  },
+  {
+    "prompt": "Rocket mass = 2,000\u202fkg, \u0394v = 5,000\u202fm/s, exhaust velocity 2,500\u202fm/s. Find fuel fraction.",
+    "completion": "\u0394v = v_e ln(m0/mf) \u2192 m0/mf = e^(\u0394v/v_e) = e^2 \u2248 7.39 \u2192 fuel = m0 - mf \u2248 1,730\u202fkg."
+  },
+  {
+    "prompt": "Calculate orbital period of GPS satellite (altitude 20,200\u202fkm).",
+    "completion": "r = 6,371 + 20,200 = 26,571\u202fkm, T = 2\u03c0\u221a(r\u00b3/GM) \u2248 11.97\u202fhours."
+  },
+  {
+    "prompt": "Rocket needs 9\u202fkm/s to reach LEO. Current \u0394v = 4\u202fkm/s. How much more is needed?",
+    "completion": "Remaining \u0394v = 9 - 4 = 5\u202fkm/s."
+  },
+  {
+    "prompt": "Explain centrifugal vs centripetal force in orbit.",
+    "completion": "Centripetal: toward center (keeps orbit). Centrifugal: apparent outward in rotating frame. Balance governs orbit."
+  },
+  {
+    "prompt": "Satellite 500\u202fkg, circular orbit 700\u202fkm. Compute gravitational force.",
+    "completion": "F = GMm/r\u00b2 = 6.674\u00d710^-11\u00d75.972\u00d710^24\u00d7500 / (7.071\u00d710^6)\u00b2 \u2248 3.98\u00d710^3\u202fN."
+  },
+  {
+    "prompt": "Rocket stage separation: effect on acceleration?",
+    "completion": "Mass drops instantly \u2192 acceleration jumps: a = F/(m_remaining). \u0394v efficiency improves."
+  },
+  {
+    "prompt": "How does Coriolis affect rocket trajectory?",
+    "completion": "Eastward deflection in Northern Hemisphere, westward in Southern. Correct launch azimuth accordingly."
+  },
+  {
+    "prompt": "Rocket nozzle design: effect on exhaust speed.",
+    "completion": "Convergent-divergent nozzle accelerates exhaust to supersonic speeds. Exit area and chamber pressure critical."
+  },
+  {
+    "prompt": "Rocket in circular orbit: why microgravity?",
+    "completion": "Free-fall condition: all parts accelerate equally \u2192 apparent weightless."
+  },
+  {
+    "prompt": "Compute orbital inclination change \u0394v for 10\u00b0 at LEO.",
+    "completion": "\u0394v = 2v sin(\u0394i/2), v \u2248 7.8\u202fkm/s, \u0394v \u2248 1.36\u202fkm/s. Plane changes expensive."
+  },
+  {
+    "prompt": "Satellite solar panel orientation for max power.",
+    "completion": "Panels perpendicular to sun rays: angle \u03b8 = 0\u00b0. Power = P_sun A cos\u03b8."
+  },
+  {
+    "prompt": "Explain retrograde vs prograde orbit.",
+    "completion": "Prograde: same rotation direction as planet (less \u0394v). Retrograde: opposite direction (higher \u0394v, energy)."
+  },
+  {
+    "prompt": "Rocket engine efficiency, define.",
+    "completion": "\u03b7 = Useful work / chemical energy of propellant. High I_sp engines are more efficient."
+  },
+  {
+    "prompt": "Calculate delta-v for low-thrust electric propulsion.",
+    "completion": "Use Tsiolkovsky equation, integrate small \u0394v increments over long burn."
+  },
+  {
+    "prompt": "Compute orbital radius for 90-minute circular orbit.",
+    "completion": "T = 2\u03c0\u221a(r\u00b3/GM) \u2192 r \u2248 6,710\u202fkm \u2192 altitude \u2248 339\u202fkm."
+  },
+  {
+    "prompt": "Rocket with multi-stage: explain delta-v addition.",
+    "completion": "\u0394v_total = sum of \u0394v_stage_i. Each stage increases overall \u0394v efficiently."
+  },
+  {
+    "prompt": "Rocket accelerates 5\u202fm/s\u00b2 in vacuum, mass 1,000\u202fkg. Thrust?",
+    "completion": "F = ma = 1,000\u00d75 = 5,000\u202fN. No gravity compensation needed in vacuum."
+  },
+  {
+    "prompt": "Explain escape trajectory for Moon mission.",
+    "completion": "\u0394v must exceed lunar escape velocity 2.38\u202fkm/s from surface. Trajectory designed for fuel efficiency."
+  },
+  {
+    "prompt": "Compute time in orbit: v = 7.8\u202fkm/s, circumference 42,000\u202fkm.",
+    "completion": "T = distance / speed = 42,000\u202fkm / 7.8\u202fkm/s \u2248 5,385\u202fs \u2248 1.5\u202fhours."
+  },
+  {
+    "prompt": "Rocket mass = 2,000\u202fkg, \u0394v = 5,000\u202fm/s, v_e = 2,500\u202fm/s. Fuel mass?",
+    "completion": "m_f = m_0 / e^(\u0394v/v_e) \u2248 2,000 / e^2 \u2248 271\u202fkg. Fuel \u2248 1,729\u202fkg."
+  },
+  {
+    "prompt": "Rocket thrust 50\u202fkN, mass 1,000\u202fkg. T/W?",
+    "completion": "T/W = 50,000 / (1,000\u00d79.81) \u2248 5.1. Sufficient for liftoff."
+  },
+  {
+    "prompt": "Satellite 1,000\u202fkg, orbit 500\u202fkm, compute KE.",
+    "completion": "v \u2248 7.61\u202fkm/s, KE = 0.5\u00d71000\u00d7(7,610)\u00b2 \u2248 2.90\u00d710^10\u202fJ."
+  },
+  {
+    "prompt": "Explain effect of solar flares on satellites.",
+    "completion": "Charged particles can damage electronics, affect orbits via atmospheric expansion."
+  },
+  {
+    "prompt": "Rocket engine I_sp = 300\u202fs, mass flow 50\u202fkg/s. Thrust?",
+    "completion": "F = I_sp * g\u2080 * \u1e41 = 300\u00d79.81\u00d750 \u2248 147,150\u202fN."
+  },
+  {
+    "prompt": "Rocket in vacuum vs sea level: effect on exhaust velocity.",
+    "completion": "Exhaust expands more in vacuum \u2192 higher v_e \u2192 higher thrust."
+  },
+  {
+    "prompt": "Explain Hohmann transfer energy efficiency.",
+    "completion": "Minimal \u0394v for two-body transfer. Longer travel time reduces propellant consumption."
+  },
+  {
+    "prompt": "Compute orbital decay for satellite at 200\u202fkm over 1\u202fweek.",
+    "completion": "Use atmospheric drag F_d = \u00bd\u03c1v\u00b2CdA, integrate over time \u2192 altitude drops ~10\u201320\u202fkm depending on density."
+  },
+  {
+    "prompt": "Rocket launch azimuth 90\u00b0, why?",
+    "completion": "Launch eastward to take advantage of Earth"
+  },
+  {
+    "prompt": "Rocket experiences Max Q at 12\u202fkm, 300\u202fm/s. Compute dynamic pressure.",
+    "completion": "Q = 0.5*\u03c1*v\u00b2, \u03c1 \u2248 0.31\u202fkg/m\u00b3 \u2192 Q \u2248 14,000\u202fPa."
+  },
+  {
+    "prompt": "Explain coasting phase in orbital insertion.",
+    "completion": "After main engine cutoff, spacecraft follows ballistic orbit until next burn or maneuver."
+  },
+  {
+    "prompt": "Rocket loses 2% \u0394v due to drag. How does fuel change?",
+    "completion": "\u0394v lost \u2192 need slightly more fuel according to Tsiolkovsky equation."
+  },
+  {
+    "prompt": "Explain effect of Earth oblateness on satellite orbit.",
+    "completion": "Causes nodal precession, affects long-term stability; must correct with station-keeping."
+  },
+  {
+    "prompt": "Rocket accelerates at 1.5\u202fm/s\u00b2, mass 1,500\u202fkg. Compute thrust.",
+    "completion": "F = ma + mg = 1,500\u00d71.5 + 1,500\u00d79.81 \u2248 16,965\u202fN."
+  },
+  {
+    "prompt": "Compute energy of 500\u202fkg satellite at 300\u202fkm orbit.",
+    "completion": "KE = 0.5*m*v\u00b2 \u2248 1.76\u00d710^10\u202fJ, PE = -GMm/r \u2248 -3.44\u00d710^10\u202fJ, total \u2248 -1.68\u00d710^10\u202fJ."
+  },
+  {
+    "prompt": "Rocket with 3 stages, \u0394v each stage 2\u202fkm/s, 3\u202fkm/s, 4\u202fkm/s. Total \u0394v?",
+    "completion": "\u0394v_total \u2248 2 + 3 + 4 = 9\u202fkm/s (approximation). More accurate via Tsiolkovsky per stage."
+  },
+  {
+    "prompt": "Satellite orbits Mars 400\u202fkm, mass 500\u202fkg. Gravitational force?",
+    "completion": "F = GMm/r\u00b2 = 6.674\u00d710^-11*6.417\u00d710^23*500 / (3,389+400\u00d710^3)\u00b2 \u2248 1,993\u202fN."
+  },
+  {
+    "prompt": "Explain gravity gradient torque.",
+    "completion": "Differential gravitational force on extended body \u2192 natural attitude stabilization for satellites."
+  },
+  {
+    "prompt": "Rocket exhaust velocity 2,500\u202fm/s, \u0394v 5\u202fkm/s. Compute mass ratio.",
+    "completion": "m0/mf = e^(\u0394v/v_e) = e^2 \u2248 7.39."
+  },
+  {
+    "prompt": "Rocket in LEO 300\u202fkm, speed 7.73\u202fkm/s. How long to circle Earth?",
+    "completion": "Orbit circumference \u2248 2\u03c0\u00d7(6,371+300) km \u2248 42,482\u202fkm, T \u2248 1.52\u202fhours."
+  },
+  {
+    "prompt": "Rocket at 45\u00b0 launch angle, v0 = 400\u202fm/s. Horizontal range?",
+    "completion": "R = v\u00b2 sin2\u03b8 / g = 400\u00b2 \u00d7 sin90\u00b0 / 9.81 \u2248 16,329\u202fm."
+  },
+  {
+    "prompt": "Satellite 1000\u202fkg, LEO 500\u202fkm. Compute orbital momentum.",
+    "completion": "L = m v r = 1,000\u00d77,613\u00d76.871\u00d710^6 \u2248 5.23\u00d710^13\u202fkg\u00b7m\u00b2/s."
+  },
+  {
+    "prompt": "Explain three-body problem relevance to space travel.",
+    "completion": "Predicting motion with three massive bodies (e.g., Earth-Moon-satellite). Important for Lagrange point missions."
+  },
+  {
+    "prompt": "Rocket T/W = 1.5, mass 1,000\u202fkg. Thrust?",
+    "completion": "F = T/W \u00d7 m g = 1.5 \u00d7 1,000 \u00d7 9.81 \u2248 14,715\u202fN."
+  },
+  {
+    "prompt": "Rocket in low-thrust trajectory, \u0394v = 3\u202fkm/s over 5\u202fdays. Average acceleration?",
+    "completion": "a = \u0394v / t = 3,000 / (5*24*3600) \u2248 0.007\u202fm/s\u00b2."
+  },
+  {
+    "prompt": "Explain effect of atmospheric pressure on nozzle expansion.",
+    "completion": "Over-expanded: P_exit < P_ambient, under-expanded: P_exit > P_ambient, affects thrust efficiency."
+  },
+  {
+    "prompt": "Satellite experiences tidal forces. Why?",
+    "completion": "Differential gravitational forces stretch body along radial direction \u2192 affects orientation, instruments."
+  },
+  {
+    "prompt": "Compute \u0394v for interplanetary transfer to Venus.",
+    "completion": "Hohmann transfer \u0394v \u2248 2.5\u202fkm/s from LEO, depending on launch window."
+  },
+  {
+    "prompt": "Rocket engine chamber pressure 5\u202fMPa, nozzle exit area 1\u202fm\u00b2, exit pressure 0.1\u202fMPa. Thrust?",
+    "completion": "F = (P_c - P_e) A + \u1e41 v_e \u2248 5e6*1 + \u2026 \u2248 5\u202fMN + momentum contribution."
+  },
+  {
+    "prompt": "Explain why rocket staging is more efficient.",
+    "completion": "Mass drops \u2192 same thrust produces more acceleration \u2192 higher \u0394v."
+  },
+  {
+    "prompt": "Satellite 600\u202fkm orbit, compute kinetic energy.",
+    "completion": "v \u2248 7.55\u202fkm/s, KE = 0.5\u00d71000\u00d7(7,550)\u00b2 \u2248 2.85\u00d710^10\u202fJ."
+  },
+  {
+    "prompt": "Rocket launched from 28\u00b0 latitude, eastward. Why?",
+    "completion": "Takes advantage of Earth rotation for extra \u0394v. Launch site latitude affects trajectory."
+  },
+  {
+    "prompt": "Explain why microgravity affects fluids in spacecraft.",
+    "completion": "No net body force \u2192 surface tension dominates \u2192 unusual fluid behavior."
+  },
+  {
+    "prompt": "Rocket \u0394v = 6\u202fkm/s, I_sp = 300\u202fs. Fuel fraction?",
+    "completion": "m0/mf = e^(\u0394v/v_e), v_e = I_sp*g\u2080 = 300*9.81 \u2248 2,943\u202fm/s \u2192 m0/mf = e^(6,000/2,943) \u2248 7.05 \u2192 fuel fraction \u2248 0.857."
+  },
+  {
+    "prompt": "Satellite loses 1\u202fm/s per day due to drag. Compute altitude loss over 30\u202fdays.",
+    "completion": "\u0394v = 30\u202fm/s, approximate altitude loss \u2248 few km depending on orbit."
+  },
+  {
+    "prompt": "What happens if gravity doubles?",
+    "completion": "Weight doubles, jump height halves, atmospheric density increases, and muscle fatigue accelerates."
+  },
+  {
+    "prompt": "Calculate LEO satellite's orbital speed at 400\u202fkm.",
+    "completion": "v = \u221a(GM/r) = \u221a(3.986\u00d710^14 / 6,771\u00d710^3) \u2248 7.67\u202fkm/s."
+  },
+  {
+    "prompt": "What is long-term depression (LTD)?",
+    "completion": "A lasting decrease in synaptic strength following low-frequency stimulation, also related to learning."
+  }
+]
