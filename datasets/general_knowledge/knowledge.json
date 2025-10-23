@@ -1,0 +1,602 @@
+[
+  {
+    "prompt": "What is the capital of France?",
+    "response": "The capital of France is Paris. Known for its art, fashion, and culture, Paris is also home to famous landmarks such as the Eiffel Tower and the Louvre Museum.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921087"
+  },
+  {
+    "prompt": "Who wrote the play 'Romeo and Juliet'?",
+    "response": "The play 'Romeo and Juliet' was written by William Shakespeare. This tragic romance, written in the late 16th century, explores themes of love, fate, and family conflict.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921098"
+  },
+  {
+    "prompt": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter. It is a gas giant with a mass more than 300 times that of Earth and features a prominent Great Red Spot, which is a giant storm.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921099"
+  },
+  {
+    "prompt": "What is photosynthesis?",
+    "response": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. This process occurs in chloroplasts and involves absorbing carbon dioxide and water, releasing oxygen as a byproduct.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921100"
+  },
+  {
+    "prompt": "Who painted the Mona Lisa?",
+    "response": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci. It is famous for its enigmatic expression and is currently housed in the Louvre Museum in Paris.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921101"
+  },
+  {
+    "prompt": "What is the main ingredient in guacamole?",
+    "response": "The main ingredient in guacamole is avocado. This creamy dip, originating from Mexico, is typically seasoned with lime, salt, garlic, and sometimes tomatoes and onions.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921102"
+  },
+  {
+    "prompt": "Which element has the chemical symbol 'O'?",
+    "response": "The element with the chemical symbol 'O' is oxygen. It is essential for life on Earth, as it is used by living organisms for respiration.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921103"
+  },
+  {
+    "prompt": "What year did the Titanic sink?",
+    "response": "The Titanic sank in the year 1912. It struck an iceberg on its maiden voyage from Southampton to New York City, leading to the deaths of over 1,500 passengers and crew.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921106"
+  },
+  {
+    "prompt": "What is the currency of Japan?",
+    "response": "The currency of Japan is the yen, denoted by the symbol '\u00a5'. It is one of the most traded currencies in the world and is used for various transactions both domestically and internationally.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921107"
+  },
+  {
+    "prompt": "What are the three branches of the United States government?",
+    "response": "The three branches of the United States government are the legislative, executive, and judicial branches. This system, established by the Constitution, ensures a separation of powers and checks and balances.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921108"
+  },
+  {
+    "prompt": "What is the smallest bone in the human body?",
+    "response": "The smallest bone in the human body is the stapes, located in the middle ear. It is involved in the process of hearing and is roughly the size of a grain of rice.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921109"
+  },
+  {
+    "prompt": "What is the Pythagorean theorem?",
+    "response": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides. This can be expressed as a\u00b2 + b\u00b2 = c\u00b2, where c is the hypotenuse.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921110"
+  },
+  {
+    "prompt": "Who was the first person to walk on the Moon?",
+    "response": "The first person to walk on the Moon was astronaut Neil Armstrong. He made history on July 20, 1969, during the Apollo 11 mission, famously stating, 'That's one small step for [a] man, one giant leap for mankind.'",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921143"
+  },
+  {
+    "prompt": "What is the main language spoken in Brazil?",
+    "response": "The main language spoken in Brazil is Portuguese. Brazil is the largest Portuguese-speaking country in the world, a legacy of its colonial history.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921145"
+  },
+  {
+    "prompt": "What is the hardest natural substance on Earth?",
+    "response": "The hardest natural substance on Earth is diamond. Formed under high-pressure and high-temperature conditions, diamonds are valued both for their beauty and their hardness.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921146"
+  },
+  {
+    "prompt": "What is the longest river in the world?",
+    "response": "The longest river in the world is the Nile River, which stretches approximately 6,650 kilometers (4,130 miles) through northeastern Africa. It is an essential water source for the countries it traverses.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921147"
+  },
+  {
+    "prompt": "What does DNA stand for?",
+    "response": "DNA stands for deoxyribonucleic acid. It is the molecule that carries the genetic instructions for life and is composed of two strands forming a double helix.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921149"
+  },
+  {
+    "prompt": "What is the theory of relativity?",
+    "response": "The theory of relativity, proposed by Albert Einstein, encompasses two theories: special relativity and general relativity. It revolutionized our understanding of space, time, and gravity, showing that they are interlinked and relative.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921150"
+  },
+  {
+    "prompt": "What is the capital of Australia?",
+    "response": "The capital of Australia is Canberra. Chosen as a compromise location between Sydney and Melbourne, it is home to important national institutions, including the Parliament House.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921152"
+  },
+  {
+    "prompt": "What is the process called when a solid turns directly into a gas?",
+    "response": "The process when a solid turns directly into a gas is called sublimation. An example of this is dry ice (solid carbon dioxide), which sublimates at room temperature.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:22.921153"
+  },
+  {
+    "prompt": "What is the capital of France?",
+    "response": "The capital of France is Paris. It is known for its art, fashion, gastronomy, and culture, and is home to landmarks such as the Eiffel Tower and the Louvre Museum.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617852"
+  },
+  {
+    "prompt": "Who wrote 'Romeo and Juliet'?",
+    "response": "'Romeo and Juliet' was written by William Shakespeare. This tragic play, written in the late 16th century, explores themes of love, fate, and family conflict.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617862"
+  },
+  {
+    "prompt": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter. It is a gas giant with a diameter of about 86,881 miles (139,822 kilometers) and is known for its Great Red Spot, a massive storm.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617863"
+  },
+  {
+    "prompt": "How many continents are there on Earth?",
+    "response": "There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, and South America. Each continent has unique cultures, ecosystems, and geographical features.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617864"
+  },
+  {
+    "prompt": "What is the chemical formula for water?",
+    "response": "The chemical formula for water is H2O, which means it consists of two hydrogen atoms bonded to one oxygen atom. Water is essential for all known forms of life.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617865"
+  },
+  {
+    "prompt": "What is the main language spoken in Brazil?",
+    "response": "The main language spoken in Brazil is Portuguese. It is the only Portuguese-speaking country in South America, and the language reflects the nation's colonial history.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617866"
+  },
+  {
+    "prompt": "What year did the Titanic sink?",
+    "response": "The Titanic sank on April 15, 1912, during its maiden voyage from Southampton to New York City after hitting an iceberg. Over 1,500 passengers lost their lives in this maritime disaster.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617867"
+  },
+  {
+    "prompt": "What is the smallest country in the world?",
+    "response": "The smallest country in the world by both area and population is Vatican City. It is an independent city-state enclaved within Rome, Italy, and serves as the spiritual center for the Roman Catholic Church.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617868"
+  },
+  {
+    "prompt": "Who painted the Mona Lisa?",
+    "response": "The Mona Lisa was painted by Leonardo da Vinci during the Renaissance period. It is renowned for its subject's enigmatic expression and is one of the most famous artworks in the world.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617869"
+  },
+  {
+    "prompt": "What is the boiling point of water at sea level?",
+    "response": "The boiling point of water at sea level is 100 degrees Celsius (212 degrees Fahrenheit). This temperature can change with altitude due to variations in atmospheric pressure.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617870"
+  },
+  {
+    "prompt": "What gas do plants absorb during photosynthesis?",
+    "response": "Plants absorb carbon dioxide (CO2) during photosynthesis. This process, which also requires sunlight and water, allows plants to produce glucose and release oxygen into the atmosphere.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617870"
+  },
+  {
+    "prompt": "What is the currency of Japan?",
+    "response": "The currency of Japan is the yen, symbolized by '\u00a5'. The yen is one of the most traded currencies in the world and plays a significant role in the global economy.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617871"
+  },
+  {
+    "prompt": "What is the largest mammal in the world?",
+    "response": "The largest mammal in the world is the blue whale, which can weigh up to 200 tons and reach lengths of over 100 feet. These marine mammals are known for their impressive size and are found in oceans worldwide.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617872"
+  },
+  {
+    "prompt": "What is the Pythagorean theorem?",
+    "response": "The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides. It is commonly expressed as a\u00b2 + b\u00b2 = c\u00b2.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617873"
+  },
+  {
+    "prompt": "What is the primary ingredient in guacamole?",
+    "response": "The primary ingredient in guacamole is avocado. This creamy dip, originating from Mexico, often includes additional ingredients like lime juice, onions, tomatoes, and cilantro.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617874"
+  },
+  {
+    "prompt": "Which planet is known as the 'Red Planet'?",
+    "response": "Mars is known as the 'Red Planet' due to its reddish appearance, which is caused by iron oxide (rust) on its surface. It has been the focus of numerous exploration missions and is a primary candidate for future human colonization.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617875"
+  },
+  {
+    "prompt": "In which year did World War II end?",
+    "response": "World War II ended in 1945, with the unconditional surrender of Germany in May and Japan in September. The war significantly shaped global politics and societies in the 20th century.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617876"
+  },
+  {
+    "prompt": "What is the hardest natural substance on Earth?",
+    "response": "The hardest natural substance on Earth is diamond, which is formed under high-pressure and high-temperature conditions deep within the Earth's mantle. Diamonds are valued for their hardness and brilliance, making them popular in jewelry.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617877"
+  },
+  {
+    "prompt": "What type of animal is a Komodo dragon?",
+    "response": "The Komodo dragon is a species of lizard and is the largest living lizard in the world. Native to Indonesia's Komodo Island and surrounding areas, it can grow up to 10 feet long and is known for its powerful bite and predatory behavior.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:35.617878"
+  },
+  {
+    "prompt": "What is the capital of France?",
+    "response": "The capital of France is Paris. It is one of the most populous and culturally significant cities in Europe, known for landmarks such as the Eiffel Tower and the Louvre Museum.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249369"
+  },
+  {
+    "prompt": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter. It is a gas giant with a mass more than 300 times that of Earth and features a prominent Great Red Spot, which is a massive storm.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249379"
+  },
+  {
+    "prompt": "Who wrote 'Romeo and Juliet'?",
+    "response": " 'Romeo and Juliet' was written by William Shakespeare, a renowned English playwright. The play, which is a tragic love story, is one of Shakespeare's most famous works and has been adapted into numerous films and productions.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249381"
+  },
+  {
+    "prompt": "What is the boiling point of water at sea level?",
+    "response": "The boiling point of water at sea level is 100 degrees Celsius (212 degrees Fahrenheit). This temperature can vary with altitude due to changes in atmospheric pressure.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249382"
+  },
+  {
+    "prompt": "In what year did the Titanic sink?",
+    "response": "The Titanic sank in the year 1912, specifically on April 15th. The ship struck an iceberg during its maiden voyage from Southampton to New York City, leading to a tragic loss of over 1,500 lives.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249382"
+  },
+  {
+    "prompt": "What is the chemical symbol for gold?",
+    "response": "The chemical symbol for gold is Au. This symbol comes from the Latin word 'aurum,' which means 'shining dawn.' Gold is a highly valued metal known for its rarity and use in jewelry and electronics.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249383"
+  },
+  {
+    "prompt": "Who was the first President of the United States?",
+    "response": "The first President of the United States was George Washington. He served from 1789 to 1797 and is often referred to as the 'Father of His Country' for his leadership during the founding of the nation.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249384"
+  },
+  {
+    "prompt": "What is the most widely spoken language in the world?",
+    "response": "The most widely spoken language in the world is English, with approximately 1.5 billion speakers globally. It is the primary language of many countries and is commonly used as a second language.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249385"
+  },
+  {
+    "prompt": "What is a haiku?",
+    "response": "A haiku is a traditional form of Japanese poetry that consists of three lines with a syllable pattern of 5-7-5. Haikus often capture moments in nature or express deep emotions succinctly.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249386"
+  },
+  {
+    "prompt": "What is the main ingredient in guacamole?",
+    "response": "The main ingredient in guacamole is avocado. This creamy dip is popular in Mexican cuisine and is often seasoned with lime juice, salt, and other ingredients like onions, tomatoes, and cilantro.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249387"
+  },
+  {
+    "prompt": "Which planet is known as the Red Planet?",
+    "response": "Mars is known as the Red Planet due to its reddish appearance, which is caused by iron oxide, or rust, on its surface. It is the fourth planet from the Sun and has been a focal point in the search for extraterrestrial life.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249388"
+  },
+  {
+    "prompt": "What is the longest river in the world?",
+    "response": "The longest river in the world is the Nile River, which stretches about 6,650 kilometers (4,130 miles) through northeastern Africa. It is an essential water source for several countries, including Egypt and Sudan.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249389"
+  },
+  {
+    "prompt": "What is the primary purpose of the United Nations?",
+    "response": "The primary purpose of the United Nations (UN) is to promote international cooperation and maintain peace and security among nations. Established in 1945, the UN works to address global issues such as human rights, development, and humanitarian aid.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249389"
+  },
+  {
+    "prompt": "What is the powerhouse of the cell?",
+    "response": "The powerhouse of the cell is the mitochondrion. This organelle is responsible for producing adenosine triphosphate (ATP) through cellular respiration, providing energy for the cell's functions.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249390"
+  },
+  {
+    "prompt": "How many continents are there on Earth?",
+    "response": "There are seven continents on Earth: Asia, Africa, North America, South America, Antarctica, Europe, and Australia. Each continent has distinct cultures, languages, and ecosystems.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249391"
+  },
+  {
+    "prompt": "What is the hardest natural substance on Earth?",
+    "response": "The hardest natural substance on Earth is diamond. Diamonds are formed under high pressure and temperature conditions deep within the Earth and are renowned for their superior hardness and brilliance.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249392"
+  },
+  {
+    "prompt": "What does DNA stand for?",
+    "response": "DNA stands for deoxyribonucleic acid. It is the hereditary material in humans and almost all living organisms, carrying genetic information essential for growth, development, and reproduction.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249393"
+  },
+  {
+    "prompt": "What is the smallest country in the world?",
+    "response": "The smallest country in the world is Vatican City, which is an independent city-state enclaved within Rome, Italy. It has an area of about 44 hectares (110 acres) and is the spiritual and administrative center of the Roman Catholic Church.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249394"
+  },
+  {
+    "prompt": "What is a common symptom of the common cold?",
+    "response": "A common symptom of the common cold is a runny or stuffy nose. Other typical symptoms include a sore throat, cough, sneezing, and mild fatigue, usually resolving within a week.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249395"
+  },
+  {
+    "prompt": "What is the Pythagorean theorem?",
+    "response": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. It can be expressed with the formula: a\u00b2 + b\u00b2 = c\u00b2.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:00:49.249395"
+  },
+  {
+    "prompt": "What is the capital city of France?",
+    "response": "The capital city of France is Paris. Known for its art, fashion, and culture, Paris is home to landmarks like the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795399"
+  },
+  {
+    "prompt": "Who wrote the play 'Romeo and Juliet'?",
+    "response": "'Romeo and Juliet' was written by William Shakespeare in the early 1590s. It is one of Shakespeare's most famous tragedies, exploring themes of love, fate, and family conflict.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795409"
+  },
+  {
+    "prompt": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter. It is a gas giant with a mass more than 300 times that of Earth and is known for its Great Red Spot, a giant storm that has been raging for centuries.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795411"
+  },
+  {
+    "prompt": "What year did the Titanic sink?",
+    "response": "The Titanic sank on April 15, 1912, during its maiden voyage from Southampton to New York City after hitting an iceberg. The disaster resulted in the deaths of over 1,500 passengers and crew.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795413"
+  },
+  {
+    "prompt": "What is the boiling point of water in Celsius?",
+    "response": "The boiling point of water at sea level is 100 degrees Celsius. This is the temperature at which water transitions from a liquid to a gas (steam) under normal atmospheric pressure.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795414"
+  },
+  {
+    "prompt": "How many continents are there on Earth?",
+    "response": "There are seven continents on Earth: Asia, Africa, North America, South America, Antarctica, Europe, and Australia. These continents vary greatly in size, population, and cultural diversity.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795416"
+  },
+  {
+    "prompt": "What is the chemical symbol for gold?",
+    "response": "The chemical symbol for gold is Au, derived from the Latin word 'aurum.' Gold is a highly valued metal known for its malleability, conductivity, and resistance to corrosion.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795418"
+  },
+  {
+    "prompt": "Who painted the Mona Lisa?",
+    "response": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci during the early 16th century. It is one of the most famous paintings in the world, renowned for its enigmatic expression and detailed background.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795420"
+  },
+  {
+    "prompt": "What is the smallest country in the world?",
+    "response": "The smallest country in the world is Vatican City, an independent city-state enclaved within Rome, Italy. It covers an area of approximately 44 hectares (110 acres) and is the spiritual center of the Roman Catholic Church.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795421"
+  },
+  {
+    "prompt": "What is the main ingredient in guacamole?",
+    "response": "The main ingredient in guacamole is avocado. Typically, guacamole is made by mashing ripe avocados and mixing them with ingredients like lime juice, salt, tomatoes, and onions.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795423"
+  },
+  {
+    "prompt": "What is the currency of Japan?",
+    "response": "The currency of Japan is the yen, represented by the symbol \u00a5. The yen is one of the most traded currencies in the world and is crucial for international trade and finance.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795425"
+  },
+  {
+    "prompt": "Which planet is known as the Red Planet?",
+    "response": "Mars is known as the Red Planet due to its reddish appearance, which comes from iron oxide (rust) on its surface. Mars has been a focal point for exploration, with missions aimed at discovering signs of past life.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795426"
+  },
+  {
+    "prompt": "What is the most spoken language in the world?",
+    "response": "The most spoken language in the world is Mandarin Chinese, with over a billion native speakers. It is the official language of China and Taiwan and one of the four official languages of Singapore.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795428"
+  },
+  {
+    "prompt": "What is the main purpose of the United Nations?",
+    "response": "The main purpose of the United Nations (UN) is to promote international cooperation and maintain peace and security among nations. Established in 1945, the UN addresses global issues such as conflict resolution, humanitarian assistance, and sustainable development.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795430"
+  },
+  {
+    "prompt": "What element does 'O' represent on the periodic table?",
+    "response": "'O' represents oxygen on the periodic table. Oxygen is essential for respiration in most living organisms and is a critical component of water (H2O), making it vital for life on Earth.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795431"
+  },
+  {
+    "prompt": "Who was the first President of the United States?",
+    "response": "The first President of the United States was George Washington, who served from 1789 to 1797. He played a key role in the American Revolutionary War and is often referred to as the 'Father of His Country'.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795433"
+  },
+  {
+    "prompt": "What is the largest ocean on Earth?",
+    "response": "The largest ocean on Earth is the Pacific Ocean, covering more than 63 million square miles. It is known for its vast size, diverse marine life, and is bordered by numerous countries across Asia, Australia, and the Americas.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795435"
+  },
+  {
+    "prompt": "What is the Pythagorean theorem?",
+    "response": "The Pythagorean theorem is a fundamental principle in geometry that states in a right triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. This can be expressed with the formula: a\u00b2 + b\u00b2 = c\u00b2.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795436"
+  },
+  {
+    "prompt": "What is the primary function of red blood cells?",
+    "response": "The primary function of red blood cells (erythrocytes) is to transport oxygen from the lungs to the body's tissues and carry carbon dioxide back to the lungs for exhalation. They contain hemoglobin, a protein that binds to oxygen.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:00.795438"
+  },
+  {
+    "prompt": "What is the capital of France?",
+    "response": "The capital of France is Paris. It is known for its art, fashion, and culture, as well as its iconic landmarks like the Eiffel Tower and the Louvre Museum.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806736"
+  },
+  {
+    "prompt": "Who wrote 'Romeo and Juliet'?",
+    "response": "'Romeo and Juliet' was written by William Shakespeare. This tragic play, which explores themes of love and fate, was penned in the late 16th century and remains one of his most famous works.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806748"
+  },
+  {
+    "prompt": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter. It is a gas giant, known for its Great Red Spot and extensive system of moons, including Ganymede, which is the largest moon in the solar system.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806749"
+  },
+  {
+    "prompt": "What are the primary colors?",
+    "response": "The primary colors are red, blue, and yellow. These colors cannot be created by mixing other colors and are the basis for creating a wide range of other colors through mixing.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806750"
+  },
+  {
+    "prompt": "Who was the first President of the United States?",
+    "response": "The first President of the United States was George Washington. He served from 1789 to 1797 and is often referred to as the 'Father of His Country' for his leadership during the founding of the nation.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806751"
+  },
+  {
+    "prompt": "What is the chemical symbol for gold?",
+    "response": "The chemical symbol for gold is Au. This symbol is derived from the Latin word 'aurum', which means 'shining dawn'.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806752"
+  },
+  {
+    "prompt": "What is the most spoken language in the world?",
+    "response": "The most spoken language in the world is Mandarin Chinese, with over a billion native speakers. It is the official language of China and Taiwan and one of the four official languages of Singapore.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806753"
+  },
+  {
+    "prompt": "What is the boiling point of water at sea level?",
+    "response": "The boiling point of water at sea level is 100 degrees Celsius (212 degrees Fahrenheit). This temperature can vary based on altitude and atmospheric pressure.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806754"
+  },
+  {
+    "prompt": "What element does 'O' represent on the periodic table?",
+    "response": "The letter 'O' on the periodic table represents oxygen. It is a vital element for life on Earth, making up about 21% of the atmosphere.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806754"
+  },
+  {
+    "prompt": "What is the main ingredient in guacamole?",
+    "response": "The main ingredient in guacamole is avocado. This creamy dip is popular in Mexican cuisine and is often seasoned with lime juice, salt, and other ingredients like tomatoes and onions.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806755"
+  },
+  {
+    "prompt": "Which planet is known as the Red Planet?",
+    "response": "Mars is known as the Red Planet due to its reddish appearance, which comes from iron oxide (rust) on its surface. It is the fourth planet from the Sun and has been a target for exploration due to the possibility of past life.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806756"
+  },
+  {
+    "prompt": "What is the tallest mountain in the world?",
+    "response": "The tallest mountain in the world is Mount Everest, which stands at 8,848 meters (29,029 feet) above sea level. It is located in the Himalayas on the border between Nepal and the Tibet Autonomous Region of China.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806757"
+  },
+  {
+    "prompt": "What year did the Titanic sink?",
+    "response": "The Titanic sank on April 15, 1912, after hitting an iceberg during its maiden voyage from Southampton to New York City. The disaster resulted in the deaths of over 1,500 passengers and crew.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806758"
+  },
+  {
+    "prompt": "Who painted the Mona Lisa?",
+    "response": "The Mona Lisa was painted by Leonardo da Vinci during the Italian Renaissance. This iconic portrait is renowned for the subject's enigmatic expression and is housed in the Louvre Museum in Paris.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806759"
+  },
+  {
+    "prompt": "What is the smallest country in the world?",
+    "response": "The smallest country in the world is Vatican City, an independent city-state enclaved within Rome, Italy. It has an area of approximately 44 hectares (110 acres) and serves as the spiritual center for the Roman Catholic Church.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806760"
+  },
+  {
+    "prompt": "What is the significance of the number 'Pi'?",
+    "response": "The number 'Pi' (\u03c0) is the ratio of a circle's circumference to its diameter, approximately equal to 3.14159. It is a mathematical constant used in various calculations involving circles and is an irrational number, meaning it cannot be expressed as a simple fraction.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806761"
+  },
+  {
+    "prompt": "What is the longest river in the world?",
+    "response": "The longest river in the world is the Nile River, which stretches about 6,650 kilometers (4,130 miles) through northeastern Africa. However, some sources argue that the Amazon River in South America could also be considered the longest, depending on the measurements used.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806762"
+  },
+  {
+    "prompt": "What is the currency of Japan?",
+    "response": "The currency of Japan is the yen, symbolized by '\u00a5' and abbreviated as JPY. It is one of the most traded currencies in the world and is often considered a safe haven currency.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806764"
+  },
+  {
+    "prompt": "What fruit is known as the 'king of fruits'?",
+    "response": "The durian is often referred to as the 'king of fruits' due to its large size, distinct odor, and unique taste. It is popular in Southeast Asia and is known for its thorny exterior and custard-like flesh.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:16.806765"
+  },
+  {
+    "prompt": "What is the capital city of Japan?",
+    "response": "The capital city of Japan is Tokyo. It is one of the most populous cities in the world and serves as a major economic, political, and cultural center.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:30.041557"
+  },
+  {
+    "prompt": "Who wrote the play 'Romeo and Juliet'?",
+    "response": "The play 'Romeo and Juliet' was written by William Shakespeare in the late 16th century. It is a tragic love story that explores themes of fate, love, and family conflict.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:30.041569"
+  },
+  {
+    "prompt": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter. It is a gas giant with a diameter of about 86,881 miles (139,822 kilometers) and is known for its Great Red Spot, a giant storm.",
+    "domain": "general_knowledge",
+    "generated_at": "2025-10-13T09:01:30.041571"
+  }
+]
